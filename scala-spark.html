@@ -239,6 +239,50 @@ println(&quot;notes:   &quot; + passed.flatMap(_.toOption.get._1).mkString(&quot
 println(&quot;passed:  &quot; + passed.map(_.toOption.get._2.account).mkString(&quot;, &quot;)) // passed:  acct-1, acct-2, acct-4</pre>
   <p class="sub" style="margin-top:16px">Where the effects are handled: in <code>outcome</code>, inside each task. <code>rules.check(t)</code> only describes a program. <code>writer</code> collects its notes into a list, <code>attempt</code> turns a refusal into a <code>Left</code>, and <code>run</code> runs what is left, which has no effects. So each record's result is a plain value by the time it leaves the task. In a real job the three outcomes go to their own tables straight from the RDD, with no <code>collect</code>.</p>
   <p class="sub" style="margin-top:12px">The rule is one piece of code. It is unit-tested on its own, it runs on the executors unchanged, and it can be audited or have its policy changed by another handler, without touching the job. This was run on Spark 4.2.0 (<code>local[2]</code>) with okay-effects 0.1.0. The program is in <a href="https://github.com/okay-effects/okay-effects.github.io/tree/main/examples/spark-audit">examples/spark-audit</a> (<code>Rules.scala</code>).</p>
+  <h3 style="margin-top:32px">The outcomes handled in the job: split, decided on, written</h3>
+  <p class="sub">The same rule, now in a job that handles its outcomes itself, with no <code>collect</code>. Each record's <code>Either</code> is routed into a dataset: refusals, notes and passed trades. The job then decides at its own level: with too many refusals it stops with <code>raise</code>, and the passed trades are not published.
+  Effects work at both levels at once. The rule runs on the executors, per record. The job's reads, writes and refusal are effects on the driver, under the same <a href="#add-audit">audit handler</a>, so every dataset written is in the trail with its row count and digest.</p>
+  <pre>object daily:
+  // the job&#x27;s own effects: the lake, and a refusal of the whole run
+  type Job[X] = (Lake + Error % String)[X]
+
+  def read(path: String): DataFrame ! Job = perform[Lake](Lake.Read(path))
+  def write(df: DataFrame, path: String): Unit ! Job = perform[Lake](Lake.Write(df, path))
+  def stop(why: String): Unit ! Job = raise[String, Job, Unit](why)
+
+  private val reasons = StructType(Seq(StructField(&quot;reason&quot;, StringType)))
+  private val tradesSchema = StructType(Seq(StructField(&quot;account&quot;, StringType), StructField(&quot;amount&quot;, LongType)))
+
+  /** the rule per record on the executors; its outcomes split, decided on and written, all in the job */
+  def checkTrades(lake: String, day: String, maxRefused: Long): Unit ! Job =
+    for
+      trades  &lt;- read(s&quot;$lake/trades/day=$day&quot;)
+      spark    = trades.sparkSession
+      checked  = trades.rdd.map(r =&gt; Trade(r.getString(0), r.getLong(1))).map(outcome).cache()
+      refused  = spark.createDataFrame(checked.flatMap(_.left.toOption).map(Row(_)), reasons)
+      notes    = spark.createDataFrame(checked.flatMap(_.toOption.toList.flatMap(_._1)).map(Row(_)), reasons)
+      passed   = spark.createDataFrame(checked.flatMap(_.toOption.map(_._2)).map(t =&gt; Row(t.account, t.amount)), tradesSchema)
+      _       &lt;- write(refused, s&quot;$lake/refused/day=$day&quot;)
+      _       &lt;- write(notes, s&quot;$lake/notes/day=$day&quot;)
+      n        = refused.count()
+      _       &lt;- if n &gt; maxRefused then stop(s&quot;$n refused, more than $maxRefused: passed trades not published&quot;)
+                 else write(passed, s&quot;$lake/passed/day=$day&quot;)
+    yield ()</pre>
+  <pre>// the handlers: the audit, Spark&#x27;s I/O, and the run&#x27;s refusal as an Either
+run(attempt[String](onSpark(spark)(audited(log, s&quot;check-$day&quot;)(daily.checkTrades(lake, day, maxRefused = 5)))))
+// Right(())
+//   read  …/trades/day=2026-10-18: 4 rows, struct&lt;account:string,amount:bigint&gt;
+//   write …/refused/day=2026-10-18: 1 rows, digest 889b1b6062f0c029…
+//   write …/notes/day=2026-10-18: 1 rows, digest 1481fde4ce6ce393…
+//   write …/passed/day=2026-10-18: 3 rows, digest e98689ed05d1bba8…
+
+run(attempt[String](onSpark(spark)(audited(log, s&quot;check-$day&quot;)(daily.checkTrades(lake, day, maxRefused = 0)))))
+// Left(1 refused, more than 0: passed trades not published)
+//   read  …/trades/day=2026-10-18: 4 rows, struct&lt;account:string,amount:bigint&gt;
+//   write …/refused/day=2026-10-18: 1 rows, digest 889b1b6062f0c029…
+//   write …/notes/day=2026-10-18: 1 rows, digest 1481fde4ce6ce393…</pre>
+  <p class="sub" style="margin-top:12px">Run on Spark 4.2.0 with okay-effects 0.1.0: <a href="https://github.com/okay-effects/okay-effects.github.io/tree/main/examples/spark-audit">examples/spark-audit</a> (<code>RulesJob.scala</code>). With <code>maxRefused = 5</code> the passed table holds <code>[acct-1,100] [acct-2,25000] [acct-4,40]</code>. With <code>maxRefused = 0</code> it is not written, and the trail shows exactly what was.</p>
+
 </div></section>
 
 <section id="spark"><div class="wrap">
