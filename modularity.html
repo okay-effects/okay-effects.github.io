@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>From a monolith to services, with algebraic effects — okay-effects</title>
+<meta name="description" content="Split a monolith into services one handler at a time: the business logic never changes. CQRS, event sourcing, sharding and CRDTs as handlers.">
+<style>
+  :root { --fg:#1b1f24; --muted:#57606a; --line:#d8dee4; --bg:#ffffff; --soft:#f6f8fa; --accent:#0b6e4f; --code:#0d1117; --codefg:#e6edf3; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--fg); background:var(--bg); }
+  a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+  .wrap { max-width:1040px; margin:0 auto; padding:0 24px; }
+  header.top { border-bottom:1px solid var(--line); }
+  header.top .wrap { display:flex; justify-content:space-between; align-items:center; height:56px; }
+  .brand { font-weight:700; color:var(--fg); letter-spacing:-0.01em; }
+  nav a { margin-left:20px; color:var(--muted); font-size:15px; }
+  .hero { padding:72px 0 56px; border-bottom:1px solid var(--line); }
+  .hero h1 { font-size:44px; line-height:1.15; margin:0 0 18px; letter-spacing:-0.02em; max-width:820px; }
+  .hero p.lead { font-size:20px; color:var(--muted); max-width:760px; margin:0 0 28px; }
+  .cta a { display:inline-block; padding:10px 18px; border-radius:6px; margin:0 10px 10px 0; font-weight:600; font-size:15px; }
+  .cta .primary { background:var(--accent); color:#fff; } .cta .primary:hover { text-decoration:none; opacity:.92; }
+  .cta .secondary { border:1px solid var(--line); color:var(--fg); }
+  section { padding:56px 0; border-bottom:1px solid var(--line); }
+  section h2 { font-size:28px; margin:0 0 8px; letter-spacing:-0.01em; }
+  section p.sub { color:var(--muted); margin:0 0 28px; max-width:760px; }
+  .grid3 { display:grid; grid-template-columns:repeat(3, 1fr); gap:20px; }
+  .grid2 { display:grid; grid-template-columns:repeat(2, 1fr); gap:20px; }
+  .card { border:1px solid var(--line); border-radius:8px; padding:20px; background:var(--bg); }
+  .card h3 { margin:0 0 8px; font-size:17px; }
+  .card p { margin:0; color:var(--muted); font-size:15px; }
+  .card .when { font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--accent); font-weight:700; margin-bottom:6px; }
+  pre { background:var(--code); color:var(--codefg); padding:18px 20px; border-radius:8px; overflow-x:auto; font:13.5px/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; margin:0; }
+  code { font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size:.92em; }
+  p code, li code, td code { background:var(--soft); padding:1px 5px; border-radius:4px; }
+  .c { color:#8b949e; } .k { color:#ff7b72; } .s { color:#a5d6ff; } .t { color:#ffa657; }
+  table { border-collapse:collapse; width:100%; font-size:15px; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-size:13px; color:var(--muted); font-weight:600; text-transform:uppercase; letter-spacing:.04em; }
+  td:first-child { white-space:nowrap; }
+  td.num { font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .us { font-weight:700; }
+  .loss { color:#a40e26; }
+  ul.tight { margin:0; padding-left:20px; color:var(--muted); font-size:15px; }
+  ul.tight li { margin:4px 0; }
+  .note { font-size:14px; color:var(--muted); margin-top:16px; }
+  footer { padding:40px 0 56px; color:var(--muted); font-size:14px; }
+  .author { display:grid; grid-template-columns:2fr 1fr; gap:32px; }
+  @media (max-width: 820px) { .grid3, .grid2, .author { grid-template-columns:1fr; } .hero h1 { font-size:34px; } nav { display:none; } }
+</style>
+</head>
+<body>
+
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html">okay-effects</a>
+  <nav>
+    <a href="#steps">Three steps</a>
+    <a href="#growing">Growing</a>
+    <a href="#okay">In okay</a>
+    <a href="business.html">For business</a>
+    <a href="index.html#author">Contact</a>
+  </nav>
+</div></header>
+
+<div class="hero"><div class="wrap">
+  <h1>From a monolith to services, one handler at a time.</h1>
+  <p class="lead">Splitting a monolith usually means rewriting the code that matters most while it keeps running.
+  With algebraic effects the business logic is written once, against effects, and where each part runs is a handler.
+  First local, then remote, then asynchronous. The logic does not change, and the same tests check every step.</p>
+  <div class="cta">
+    <a class="primary" href="#steps">See the steps</a>
+    <a class="secondary" href="#growing">CQRS, event sourcing, sharding</a>
+    <a class="secondary" href="index.html#author">Talk to the author</a>
+  </div>
+</div></div>
+
+<section id="steps"><div class="wrap">
+  <h2>A shop's checkout, in three steps</h2>
+  <p class="sub">The checkout reserves the item, charges the card and sends a receipt. In a monolith this is three blocking calls into modules the function reaches directly:</p>
+  <pre>def checkout(user: String, item: String, sum: Int): Option[String] =
+  if !Inventory.reserve(item) then None
+  else
+    val id = Payments.charge(user, sum)
+    Mail.send(user, s&quot;paid $sum&quot;)
+    Some(id)</pre>
+
+  <h3 style="margin-top:36px">Step 1. Boundaries inside the monolith</h3>
+  <p class="sub">The calls become an effect, as plain data, and the logic keeps its shape:</p>
+  <pre>enum Shop[+A]:
+  case Reserve(item: String) extends Shop[Boolean]
+  case Charge(user: String, sum: Int) extends Shop[String]
+  case Send(user: String, text: String) extends Shop[Unit]
+import Shop.*
+
+def checkout(user: String, item: String, sum: Int): Eff[Shop, Option[String]] = for
+  ok &lt;- perform(Reserve(item))
+  id &lt;- if ok then perform(Charge(user, sum)).map(Some(_)) else Return(None)
+  _ &lt;- if ok then perform(Send(user, s&quot;paid $sum&quot;)) else Return(())
+yield id</pre>
+  <p class="sub" style="margin-top:20px">The modules are given at the top by a handler. It is still a monolith, but its boundaries are now explicit:</p>
+  <pre>def local[G[_], A] = Handler[Shop, A, A, G](Return(_), [X] =&gt; (op, k) =&gt; op match
+  case Reserve(i) =&gt; k(Inventory.reserve(i))
+  case Charge(u, s) =&gt; k(Payments.charge(u, s))
+  case Send(u, t) =&gt; k(Mail.send(u, t)))</pre>
+  <p class="sub" style="margin-top:20px">Tests are handlers too. In the "out of stock" scenario a mock records the calls, and the test checks that only <code>Reserve</code> was made: no charge, no mail.</p>
+  <pre>def mock[G[_], A](stock: Boolean, calls: collection.mutable.Buffer[Shop[Any]]) =
+  Handler[Shop, A, A, G](Return(_), [X] =&gt; (op, k) =&gt;
+    calls += op
+    op match
+      case Reserve(_) =&gt; k(stock)
+      case Charge(u, _) =&gt; k(&quot;test-&quot; + u)
+      case Send(_, _) =&gt; k(()))</pre>
+
+  <h3 style="margin-top:36px">Step 2. Services</h3>
+  <p class="sub">A handler sends each operation over the wire, and the answer goes to the rest of the program, the continuation:</p>
+  <pre>trait Transport: // HTTP, gRPC, a queue: serialize, send, deserialize
+  def call[X](op: Shop[X]): X
+  def send[X](op: Shop[X]): Future[X]
+
+def remote[G[_], A](t: Transport) = Handler[Shop, A, A, G](Return(_), [X] =&gt; (op, k) =&gt; k(t.call(op)))</pre>
+
+  <h3 style="margin-top:36px">Step 3. Asynchronous</h3>
+  <p class="sub">Each operation becomes an <code>Await</code> of a <code>Future</code>. <code>runAsync</code> resumes the continuation when the answer arrives:</p>
+  <pre>enum Async[+A]:
+  case Await[X](f: Future[X]) extends Async[X]
+import Async.Await
+
+def runAsync[A](p: Eff[Async, A]): Future[A] = p match
+  case Return(a) =&gt; Future.successful(a)
+  case Perform(Await(f)) =&gt; f
+  case Bind(m, f) =&gt; m match
+    case Return(x) =&gt; runAsync(f(x))
+    case Perform(Await(fx)) =&gt; fx.flatMap(x =&gt; runAsync(f(x)))
+    case Bind(m, g) =&gt; runAsync(Bind(m, x =&gt; Bind(g(x), f)))
+
+def remoteAsync[A](t: Transport) =
+  Handler[Shop, A, A, Async](Return(_), [X] =&gt; (op, k) =&gt; perform(Await(t.send(op))).flatMap(k))
+
+runAsync(handle(remoteAsync(http))(checkout(&quot;ann&quot;, &quot;book&quot;, 20)))</pre>
+
+  <div class="grid3" style="margin-top:28px">
+    <div class="card"><h3>The logic never changed</h3><p><code>checkout</code> cannot tell local from remote or asynchronous. The same scenarios test every step of the migration.</p></div>
+    <div class="card"><h3>Failures are handlers</h3><p>Retries, timeouts, idempotency keys and circuit breakers wrap the remote handler, and the business code stays the same.</p></div>
+    <div class="card"><h3>Move parts out one by one</h3><p>Split <code>Shop</code> into one effect per service, and move each service out when it is ready. The rest stays local.</p></div>
+  </div>
+</div></section>
+
+<section id="growing"><div class="wrap">
+  <h2>Growing the shop: CQRS, event sourcing, sharding, CRDTs</h2>
+  <p class="sub">Each of these usually comes as a framework. With effects, each is a handler.</p>
+
+  <h3>CQRS: commands and queries are separate effects</h3>
+  <pre>enum Command[+A](val item: String):
+  case Order(user: String, i: String, sum: Int) extends Command[Boolean](i)
+  case Refund(user: String, i: String, sum: Int) extends Command[Unit](i)
+enum Query[+A]:
+  case Revenue extends Query[Int]
+import Command.*, Query.*</pre>
+
+  <h3 style="margin-top:32px">Event sourcing: state is a fold of events</h3>
+  <p class="sub">The state is recovered once from the log. Commands decide on it and append to it:</p>
+  <pre>enum Event:
+  case Ordered(user: String, item: String, sum: Int)
+  case Refunded(user: String, item: String, sum: Int)
+import Event.*
+
+trait EventLog:
+  def append(e: Event): Unit
+  def events: Seq[Event]
+
+def evolve(sold: Map[String, Int], e: Event) = e match
+  case Ordered(_, i, _) =&gt; sold.updated(i, sold(i) + 1)
+  case Refunded(_, i, _) =&gt; sold.updated(i, sold(i) - 1)
+
+class Shard(log: EventLog, stock: Map[String, Int]):
+  var sold = log.events.foldLeft(Map.empty[String, Int].withDefaultValue(0))(evolve)
+  def record(e: Event) = { log.append(e); sold = evolve(sold, e) }
+  def handler[G[_], A] = Handler[Command, A, A, G](Return(_), [X] =&gt; (op, k) =&gt; op match
+    case Order(u, i, s) =&gt;
+      val ok = sold(i) &lt; stock.getOrElse(i, 0)
+      if ok then record(Ordered(u, i, s))
+      k(ok)
+    case Refund(u, i, s) =&gt; record(Refunded(u, i, s)); k(()))</pre>
+
+  <h3 style="margin-top:32px">Sharding, by the invariant's key</h3>
+  <p class="sub">The shard is chosen by the item, the key the stock invariant is about. Rendezvous hashing means a new shard moves only about 1/n of the keys:</p>
+  <pre>def owner(key: String, n: Int) =
+  (0 until n).maxBy(s =&gt; scala.util.hashing.MurmurHash3.stringHash(s&quot;$key/$s&quot;))
+
+def sharded[G[_], A](shards: Vector[Shard]) = Handler[Command, A, A, G](Return(_),
+  [X] =&gt; (op, k) =&gt; shards(owner(op.item, shards.size)).handler.eff(op, k))</pre>
+
+  <h3 style="margin-top:32px">Eventual consistency: a CRDT view</h3>
+  <p class="sub">Shards project their events into a PN-counter CRDT. Its merge is commutative and idempotent, so the views converge:</p>
+  <pre>import cats.Monoid
+
+def maxMerge(a: Map[Int, Int], b: Map[Int, Int]) =
+  (a.keySet ++ b.keySet).map(k =&gt; k -&gt; (a.getOrElse(k, 0) max b.getOrElse(k, 0))).toMap
+case class PNCounter(up: Map[Int, Int], down: Map[Int, Int]):
+  def value = up.values.sum - down.values.sum
+given Monoid[PNCounter] with
+  def empty = PNCounter(Map.empty, Map.empty)
+  def combine(a: PNCounter, b: PNCounter) = PNCounter(maxMerge(a.up, b.up), maxMerge(a.down, b.down))
+
+def project(shard: Int, log: EventLog) = PNCounter(
+  Map(shard -&gt; log.events.collect { case Ordered(_, _, s) =&gt; s }.sum),
+  Map(shard -&gt; log.events.collect { case Refunded(_, _, s) =&gt; s }.sum))
+
+def reads[G[_], A](view: () =&gt; PNCounter) = Handler[Query, A, A, G](Return(_), [X] =&gt; (op, k) =&gt; op match
+  case Revenue =&gt; k(view().value))
+
+val shards = logs.map(Shard(_, stock))
+def shop[G[_], A] = sharded[G, A](shards)
+
+run(handle(shop)(perform(Order(&quot;ann&quot;, &quot;book&quot;, 20))))  // true
+run(handle(shop)(perform(Order(&quot;bob&quot;, &quot;book&quot;, 20))))  // false: sold out</pre>
+
+  <p class="note">The program only performs effects. Storage, history, scale and consistency are all handlers. The code on this page is from the author's posts and runs on a small Eff monad. okay-effects is that idea as a library.</p>
+</div></section>
+
+<section id="okay"><div class="wrap">
+  <h2>In okay</h2>
+  <p class="sub">The pieces this needs are already in okay-effects:</p>
+  <div class="grid3">
+    <div class="card"><h3>Handlers across the wire</h3><p><a href="https://github.com/okay-effects/okay-kernel">okay-kernel</a>'s protocol runs a program under handlers in another process or another language. In the demo, a shop in Go has its inventory, payments and mail as Scala handlers.</p></div>
+    <div class="card"><h3>Resilience and asynchrony</h3><p>okay-simple has <code>retry</code> and <code>fallback</code>, and <code>async</code> with <code>timeout</code>, <code>race</code> and cancellation. It interoperates with ZIO (including layers), cats-effect, fs2 and kyo.</p></div>
+    <div class="card"><h3>The platform</h3><p><a href="https://github.com/okay-effects/okay">okay</a> has HTTP, SQL, Kafka, streams, a cluster and durable workflows on the same model. <code>okay-audit</code> shows in the bytecode where each module reaches the outside, which is where a service boundary goes.</p></div>
+  </div>
+  <p class="note">Help with splitting a monolith is available, as a team member or as a contract consultant: <a href="index.html#author">the author</a>.</p>
+</div></section>
+
+<footer><div class="wrap">
+  okay-effects · Apache License 2.0 · <a href="index.html">okay-effects.github.io</a> · <a href="business.html">For business</a> · <a href="https://github.com/okay-effects">github.com/okay-effects</a>
+</div></footer>
+
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why everyone needs algebraic effects: audit by construction — okay-effects</title>
+<meta name="description" content="What DORA, PSD2, GDPR, AML rules, the AI Act, NIS2, SOX and PCI DSS ask of software, and how algebraic effects with control and audit make it part of the code.">
+<style>
+  :root { --fg:#1b1f24; --muted:#57606a; --line:#d8dee4; --bg:#ffffff; --soft:#f6f8fa; --accent:#0b6e4f; --code:#0d1117; --codefg:#e6edf3; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--fg); background:var(--bg); }
+  a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+  .wrap { max-width:1040px; margin:0 auto; padding:0 24px; }
+  header.top { border-bottom:1px solid var(--line); }
+  header.top .wrap { display:flex; justify-content:space-between; align-items:center; height:56px; }
+  .brand { font-weight:700; color:var(--fg); letter-spacing:-0.01em; }
+  nav a { margin-left:20px; color:var(--muted); font-size:15px; }
+  .hero { padding:72px 0 56px; border-bottom:1px solid var(--line); }
+  .hero h1 { font-size:44px; line-height:1.15; margin:0 0 18px; letter-spacing:-0.02em; max-width:820px; }
+  .hero p.lead { font-size:20px; color:var(--muted); max-width:760px; margin:0 0 28px; }
+  .cta a { display:inline-block; padding:10px 18px; border-radius:6px; margin:0 10px 10px 0; font-weight:600; font-size:15px; }
+  .cta .primary { background:var(--accent); color:#fff; } .cta .primary:hover { text-decoration:none; opacity:.92; }
+  .cta .secondary { border:1px solid var(--line); color:var(--fg); }
+  section { padding:56px 0; border-bottom:1px solid var(--line); }
+  section h2 { font-size:28px; margin:0 0 8px; letter-spacing:-0.01em; }
+  section p.sub { color:var(--muted); margin:0 0 28px; max-width:760px; }
+  .grid3 { display:grid; grid-template-columns:repeat(3, 1fr); gap:20px; }
+  .grid2 { display:grid; grid-template-columns:repeat(2, 1fr); gap:20px; }
+  .card { border:1px solid var(--line); border-radius:8px; padding:20px; background:var(--bg); }
+  .card h3 { margin:0 0 8px; font-size:17px; }
+  .card p { margin:0; color:var(--muted); font-size:15px; }
+  .card .when { font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--accent); font-weight:700; margin-bottom:6px; }
+  pre { background:var(--code); color:var(--codefg); padding:18px 20px; border-radius:8px; overflow-x:auto; font:13.5px/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; margin:0; }
+  code { font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size:.92em; }
+  p code, li code, td code { background:var(--soft); padding:1px 5px; border-radius:4px; }
+  .c { color:#8b949e; } .k { color:#ff7b72; } .s { color:#a5d6ff; } .t { color:#ffa657; }
+  table { border-collapse:collapse; width:100%; font-size:15px; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-size:13px; color:var(--muted); font-weight:600; text-transform:uppercase; letter-spacing:.04em; }
+  td:first-child { white-space:nowrap; }
+  td.num { font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .us { font-weight:700; }
+  .loss { color:#a40e26; }
+  ul.tight { margin:0; padding-left:20px; color:var(--muted); font-size:15px; }
+  ul.tight li { margin:4px 0; }
+  .note { font-size:14px; color:var(--muted); margin-top:16px; }
+  footer { padding:40px 0 56px; color:var(--muted); font-size:14px; }
+  .author { display:grid; grid-template-columns:2fr 1fr; gap:32px; }
+  @media (max-width: 820px) { .grid3, .grid2, .author { grid-template-columns:1fr; } .hero h1 { font-size:34px; } nav { display:none; } }
+</style>
+</head>
+<body>
+
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html">okay-effects</a>
+  <nav>
+    <a href="#law">What the law asks</a>
+    <a href="#bank">A bank</a>
+    <a href="#okay">In okay</a>
+    <a href="#start">Getting there</a>
+    <a href="modularity.html">Monolith to services</a>
+    <a href="index.html#author">Contact</a>
+  </nav>
+</div></header>
+
+<div class="hero"><div class="wrap">
+  <h1>Why everyone needs algebraic effects: audit by construction.</h1>
+  <p class="lead">Every operation of a serious system has to be observable and provable: who did what, with what result, what failed, and whether it can be replayed. Often this is the law, for example DORA, SOX or MiFID II.
+  With algebraic effects it is almost trivial. Every operation is typed data, and it reaches the world only through a handler. The audit is one more handler around it, and the business code does not change.</p>
+  <div class="cta">
+    <a class="primary" href="#bank">See it on a bank</a>
+    <a class="secondary" href="#law">What the law asks</a>
+    <a class="secondary" href="index.html#author">Talk to the author</a>
+  </div>
+</div></div>
+
+<section id="law"><div class="wrap">
+  <h2>What the law asks of software</h2>
+  <p class="sub">None of these laws mentions effects. Each one asks for something that, in software, comes down to knowing and controlling what the code does. The right column says what that is in code terms.</p>
+  <table>
+    <tr><th>Law</th><th>Provision</th><th>What it asks</th><th>In code terms</th></tr>
+    <tr><td><a href="https://eur-lex.europa.eu/eli/reg/2022/2554/oj">DORA</a><br><small>Regulation (EU) 2022/2554</small></td><td>Art. 8</td><td>Identify, classify and document ICT-supported business functions, information and ICT assets, and the links and dependencies between them.</td><td>Which code reaches which systems, written down and kept current.</td></tr>
+    <tr><td></td><td>Art. 9(4)</td><td>Limit access to information and ICT assets to what legitimate, approved functions require.</td><td>A function touches only what it is allowed to touch.</td></tr>
+    <tr><td></td><td>Art. 28(3)</td><td>Keep a register of all contractual arrangements for ICT services from third-party providers.</td><td>Which modules depend on which external providers.</td></tr>
+    <tr><td><a href="https://eur-lex.europa.eu/eli/dir/2015/2366/oj">PSD2</a><br><small>Directive (EU) 2015/2366</small></td><td>Art. 95</td><td>A framework of risk-mitigation measures and control mechanisms for the operational and security risks of payment services, with an annual assessment of how well they work.</td><td>Controls on every payment operation, and evidence that they ran.</td></tr>
+    <tr><td><a href="https://eur-lex.europa.eu/eli/dir/2014/65/oj">MiFID II</a><br><small>Directive 2014/65/EU</small></td><td>Art. 16(6), 16(7)</td><td>Keep records of all services, activities and transactions, sufficient for the supervisor to do its job; record the communications that lead to transactions, and keep them five years, up to seven if asked.</td><td>Every operation recorded with its result, complete enough to reconstruct what happened.</td></tr>
+    <tr><td><a href="https://eur-lex.europa.eu/eli/reg/2014/600/oj">MiFIR</a><br><small>Regulation (EU) 600/2014</small></td><td>Art. 25</td><td>Keep the relevant data on all orders and transactions at the supervisor's disposal for five years.</td><td>A trail of orders and transactions, produced by the code that executes them.</td></tr>
+    <tr><td><a href="https://eur-lex.europa.eu/eli/reg/2016/679/oj">GDPR</a><br><small>Regulation (EU) 2016/679</small></td><td>Art. 5(2), 25, 30, 32</td><td>Accountability: be able to demonstrate compliance. Data protection by design and by default. Records of processing activities. Security of processing.</td><td>Personal data reached only through declared operations, masked where it leaves, every processing recorded.</td></tr>
+    <tr><td><a href="https://eur-lex.europa.eu/eli/dir/2015/849/oj">AML Directive</a><br><small>Directive (EU) 2015/849</small></td><td>Art. 40</td><td>Keep customer due-diligence data and transaction records for five years. Its successor, the AML Regulation (EU) 2024/1624, keeps the duty.</td><td>A complete, durable trail of transactions, produced by the code that makes them.</td></tr>
+    <tr><td><a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj">AI Act</a><br><small>Regulation (EU) 2024/1689</small></td><td>Art. 12, 14; Annex III 5(b)</td><td>For high-risk AI systems, including creditworthiness assessment: automatic logging of events over the system's life, and effective human oversight, up to stopping the system.</td><td>Every action of an AI system or agent logged, checkable, and refusable.</td></tr>
+    <tr><td><a href="https://eur-lex.europa.eu/eli/dir/2022/2555/oj">NIS2</a><br><small>Directive (EU) 2022/2555</small></td><td>Art. 21</td><td>Cybersecurity risk-management measures, supply-chain security among them.</td><td>Known, bounded dependencies, and controlled access to the outside world.</td></tr>
+    <tr><td><a href="https://www.govinfo.gov/content/pkg/PLAW-107publ204/pdf/PLAW-107publ204.pdf">Sarbanes–Oxley</a><br><small>US, Public Law 107–204</small></td><td>§ 404</td><td>Management assesses, and auditors attest to, internal control over financial reporting.</td><td>Controls on the operations that produce financial records, provable to an auditor.</td></tr>
+    <tr><td><a href="https://www.pcisecuritystandards.org/document_library/">PCI DSS</a><br><small>industry standard</small></td><td>Req. 7, 10</td><td>Restrict access to cardholder data by business need to know. Log and monitor all access to system components and cardholder data.</td><td>Card data reached only through declared operations, each access logged.</td></tr>
+  </table>
+  <p class="note">The provisions are summarised here. The linked official texts are what applies, and this page is not legal advice. Some obligations depend on the kind of firm and on dates of application.</p>
+</div></section>
+
+<section id="bank"><div class="wrap">
+  <h2>Audit by construction: a bank</h2>
+  <p class="sub">Imagine a bank whose operations are modelled like blockchain UTXO. Money is a set of coins, and each coin is spent once, atomically, so when two payments race for the same coins only one wins.
+  The ledger is an effect: two operations, as data. The bank is a handler that carries them out against a table.</p>
+  <pre>case class Coin(id: String, owner: String, value: Int)
+
+enum Ledger[+A]:
+  case Unspent(owner: String) extends Ledger[List[Coin]]
+  case Spend(in: List[Coin], out: List[Coin]) extends Ledger[Boolean]
+import Ledger.*
+
+trait Table: // DynamoDB, say
+  def unspent(owner: String): List[Coin]
+  def spend(in: List[Coin], out: List[Coin]): Boolean // atomic, iff no input is spent
+
+def bank[G[_], A](db: Table) = Handler[Ledger, A, A, G](Return(_),
+  [X] =&gt; (op, k) =&gt; op match
+    case Unspent(o) =&gt; k(db.unspent(o))
+    case Spend(in, out) =&gt; k(db.spend(in, out)))</pre>
+  <p class="sub" style="margin-top:24px">A payment knows only its effect. Nothing in it says where the coins live, and nothing in it says it is audited:</p>
+  <pre>def pay(from: String, to: String, sum: Int): Eff[Ledger, Boolean] = for
+  in &lt;- perform(Unspent(from))
+  total = in.map(_.value).sum
+  tx = in.map(_.id).mkString(&quot;+&quot;)
+  ok &lt;- if total &lt; sum then Return(false)
+        else perform(Spend(in, List(Coin(tx + &quot;&gt;0&quot;, to, sum), Coin(tx + &quot;&gt;1&quot;, from, total - sum))))
+yield ok</pre>
+  <p class="sub" style="margin-top:24px">The audit wraps <em>any</em> handler. It records the intent first, then the result or the failure. This is write-ahead: with no record there is no operation.</p>
+  <pre>enum Event:
+  case Begin(op: Any)
+  case End(op: Any, result: Any)
+  case Fail(op: Any, error: Throwable)
+import Event.*
+
+trait AuditLog: // Kafka, say
+  def append(e: Event): Unit
+  def read: Iterator[Event]
+
+def audited[F[_], A, B, G[_]](h: Handler[F, A, B, G], log: AuditLog) =
+  Handler[F, A, B, G](h.ret, [X] =&gt; (op, k) =&gt;
+    log.append(Begin(op)) // write-ahead: no record, no operation
+    var done = false
+    try h.eff(op, x =&gt; { done = true; log.append(End(op, x)); k(x) })
+    catch case e: Throwable =&gt; { if !done then log.append(Fail(op, e)); throw e })
+
+val system = [A] =&gt; (p: Eff[Ledger, A]) =&gt; run(handle(audited(bank(db), log))(p))
+
+system(pay(&quot;alice&quot;, &quot;bob&quot;, 30))  // true</pre>
+  <p class="sub" style="margin-top:24px">Replay needs no database. A handler answers each operation from the log, so a program run again gets the same answers. A program that does something different is caught at the first operation that differs:</p>
+  <pre>def replay[G[_], A](log: AuditLog) =
+  val ends = log.read.collect { case e: End =&gt; e }
+  Handler[Ledger, A, A, G](Return(_), [X] =&gt; (op, k) =&gt; (op, ends.next()) match
+    case (Unspent(o), End(Unspent(p), r: List[Coin] @unchecked)) if o == p =&gt; k(r)
+    case (Spend(i, u), End(Spend(j, v), r: Boolean)) if i == j &amp;&amp; u == v =&gt; k(r)
+    case (op, e) =&gt; throw IllegalStateException(s&quot;diverged: $op&quot;))
+
+val replayed = [A] =&gt; (p: Eff[Ledger, A]) =&gt; run(handle(replay(log))(p))
+
+replayed(pay(&quot;alice&quot;, &quot;bob&quot;, 30))  // true, from the log
+replayed(pay(&quot;alice&quot;, &quot;bob&quot;, 50))  // diverged: Spend(...)</pre>
+  <div class="grid3" style="margin-top:28px">
+    <div class="card"><h3>Nobody else changes</h3><p>Neither the payment nor the bank knows about the audit. It is added, or swapped for another, where the system is put together.</p></div>
+    <div class="card"><h3>No record, no operation</h3><p>The intent is written before the operation runs, and the result or failure after it. The trail is complete because there is no other way to the world.</p></div>
+    <div class="card"><h3>Replay and divergence</h3><p>The log is enough to rerun a program without its database, and to find where a new version behaves differently from the old.</p></div>
+  </div>
+  <p class="note">The example runs on the Eff monad from the author's earlier post, and it is the whole mechanism. okay-effects provides it as a library, with more guarantees on top, described below.</p>
+</div></section>
+
+<section id="okay"><div class="wrap">
+  <h2>In okay: the same idea, with guarantees</h2>
+  <p class="sub">In okay, audit is part of the kernel and the types enforce it. A sensitive effect cannot run without its audit, an observer sees every effect, and the build checks the boundary in the bytecode.</p>
+  <table>
+    <tr><th>Requirement</th><th>Mechanism in okay</th><th>Serves</th></tr>
+    <tr><td>Know what each part of the system may do</td><td>The type lists every effect a program may perform, for example <code>Receipt ! Db + Payments</code>. The compiler holds the program to that list.</td><td>DORA 8, 9(4); GDPR 25</td></tr>
+    <tr><td>Sensitive actions only under control</td><td>An effect marked <code>Sensitive</code>, such as payments, cannot be performed or handled outside its audit. A program that tries does not compile.</td><td>PSD2 95; SOX 404; PCI DSS 7</td></tr>
+    <tr><td>A policy at the point of action</td><td>An interceptor sees each operation, and can pass it on, change it (cap an amount, normalise an account, mask data) or refuse it.</td><td>DORA 9(4); PSD2 95; AI Act 14</td></tr>
+    <tr><td>A trail made by the action itself</td><td>The trail is an effect too. Each operation and its answer is recorded where it happens, and its handler sends the record wherever records are kept.</td><td>AI Act 12; AML 40; GDPR 30; PCI DSS 10</td></tr>
+    <tr><td>Oversight of an AI agent</td><td>An observer sees every operation of every effect on its way out of a program, an agent's tool calls included. It can record them, wait for a person, or refuse.</td><td>AI Act 12, 14</td></tr>
+    <tr><td>The dependency inventory</td><td><code>okay-audit</code> checks the compiled bytecode at every build. Business code must reach no network, files, SQL, clock or threads on its own. It lists, by provider, the modules that do.</td><td>DORA 8, 28(3); NIS2 21</td></tr>
+    <tr><td>Test, replay, investigate</td><td>The same program runs under test handlers, recording handlers and replaying ones. An incident is replayed from its trail, operation by operation.</td><td>DORA's testing and incident duties; GDPR 32</td></tr>
+  </table>
+  <p class="note">The details are in <a href="https://github.com/okay-effects/okay-core/blob/master/docs/intercept.md">okay-core's docs/intercept.md</a>, and the same guarantee exists in Rust (okay-rust) and TypeScript (okay-ts).
+  What okay gives is evidence and mechanism for your own compliance work. It is not a certification.</p>
+</div></section>
+
+<section id="start"><div class="wrap">
+  <h2>Getting there from an existing system</h2>
+  <p class="sub">You do not rewrite the system. You start where the risk is.</p>
+  <div class="grid3">
+    <div class="card"><div class="when">Step 1</div><h3>One sensitive effect</h3><p>Take payments, customer data or model calls, and make that one an effect with a handler over the code that exists today. Then add its audit and its trail.</p></div>
+    <div class="card"><div class="when">Step 2</div><h3>The boundary in CI</h3><p>Run <code>okay-audit</code> at every build. The report shows which modules reach the outside and how, so the dependency inventory comes from the build, not from a spreadsheet.</p></div>
+    <div class="card"><div class="when">Step 3</div><h3>Widen as you go</h3><p>Move more of the code onto effects module by module. The same boundaries are <a href="modularity.html">where a monolith splits into services</a>. It interoperates with cats, ZIO, fs2 and kyo on Scala, and the design exists for Java, Go, Rust, Python and TypeScript.</p></div>
+  </div>
+  <p class="note">Help with this is available, as a team member or as a contract consultant: <a href="index.html#author">the author</a>.</p>
+</div></section>
+
+<footer><div class="wrap">
+  okay-effects · Apache License 2.0 · <a href="index.html">okay-effects.github.io</a> · <a href="https://github.com/okay-effects">github.com/okay-effects</a>
+</div></footer>
+
+</body>
+</html>
