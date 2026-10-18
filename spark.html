@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Spark with okay: one program local or on a cluster, typed schemas, evidence of every output — okay-effects</title>
+<title>Scala and Spark: from tangled code to one transparent, controllable system — okay-effects</title>
 <meta name="description" content="What okay offers for Apache Spark: one aggregation locally and distributed, one program on a cluster or in one JVM, Scala 3 ADTs as DataFrames, and evidence manifests for audit.">
 <style>
   :root { --fg:#1b1f24; --muted:#57606a; --line:#d8dee4; --bg:#ffffff; --soft:#f6f8fa; --accent:#0b6e4f; --code:#0d1117; --codefg:#e6edf3; }
@@ -58,9 +58,10 @@
 <header class="top"><div class="wrap">
   <a class="brand" href="index.html">okay-effects</a>
   <nav>
-    <a href="#spark">For Spark</a>
+    <a href="#problems">The problems</a>
+    <a href="#offer">What I offer</a>
+    <a href="#spark">Spark</a>
     <a href="#audit">Audit</a>
-    <a href="#better">Why it is better</a>
     <a href="#measured">Measured</a>
     <a href="#status">Status</a>
     <a href="index.html#author">Contact</a>
@@ -68,19 +69,66 @@
 </div></header>
 
 <div class="hero"><div class="wrap">
-  <h1>Spark jobs you can test in one JVM and prove on a cluster.</h1>
-  <p class="lead">With okay, a Spark job is written once and runs on a cluster or in one JVM with the same answer, so it is tested without a cluster.
-  Scala 3 types become DataFrames that Spark's own encoders cannot make.
-  Every output can come with evidence: per partition, a count and a SHA-256 digest, committed only after the sink acknowledges it.</p>
+  <h1>Scala and Spark: from tangled code to one transparent, controllable system.</h1>
+  <p class="lead">I have spent years in Scala and Spark codebases, and I know where they hurt.
+  The code is hard to read and seems impossible to improve or move to new versions. The ecosystem is split between ZIO, Cats and the rest. Monitoring, control and audit are hard, and hardest for Spark jobs.
+  This page names those problems and shows how I solve them: by making what the code does explicit, one part at a time, until systems on different platforms, and even in different languages, become one system that can be watched and controlled.</p>
   <div class="cta">
-    <a class="primary" href="#spark">What it gives</a>
-    <a class="secondary" href="#audit">Audit in Spark</a>
-    <a class="secondary" href="index.html#author">Talk to the author</a>
+    <a class="primary" href="#problems">The problems</a>
+    <a class="secondary" href="#offer">What I offer</a>
+    <a class="secondary" href="index.html#author">Talk to me</a>
   </div>
 </div></div>
 
+<section id="problems"><div class="wrap">
+  <h2>The problems everyone has with Scala and Spark today</h2>
+  <p class="sub">None of these is anyone's fault. They are what years of growth do to a codebase and to an ecosystem.</p>
+  <div class="grid2">
+    <div class="card"><div class="when">Code</div><h3>Tangled code nobody dares to touch</h3><p>Implicits several layers deep, stacks of monad transformers, business logic mixed with I/O, and Spark jobs thousands of lines long. It works, but nobody can say what it does without running it. Moving it from Scala 2.12 to 2.13 or 3, or from Spark 3 to 4, looks like a rewrite, so it does not happen.</p></div>
+    <div class="card"><div class="when">Ecosystem</div><h3>Fragmented solutions</h3><p>ZIO, cats-effect, <code>Future</code>, kyo and monix each bring their own effect type, their own way of handling errors and resources, and their own community. A company ends up with several of them in one system, glue code between them, and teams that cannot read each other's code.</p></div>
+    <div class="card"><div class="when">Operations</div><h3>Monitoring and control are bolted on</h3><p>What a service calls, what a job reads and writes, which external systems it reaches: all of this is reconstructed from logs, metrics and listeners added afterwards. Changing a policy, such as a limit, a retry or a masking rule, means changing the code everywhere.</p></div>
+    <div class="card"><div class="when">Spark</div><h3>Spark jobs are the hardest to audit</h3><p>The event log says that a job ran. It does not prove what the job produced. Tests need a Spark session, so the logic is tested late or not at all. Scala 3 types do not fit Spark's encoders, which pushes teams to stay on old versions.</p></div>
+  </div>
+  <div class="card" style="margin-top:20px"><div class="when">Across the company</div><h3>Many platforms, many languages, no common control</h3><p>JVM services, Python data science, Go and Rust services, a TypeScript front end. Each has its own way of calling the world, so there is no single place to see, limit or audit what the whole system does.</p></div>
+</div></section>
+
+<section id="offer"><div class="wrap">
+  <h2>What I offer</h2>
+  <p class="sub">One idea runs through all of it. What code does to the world (a call, a read, a write, a payment, a model query) becomes an explicit operation, and a handler carries it out. That gives each action a place where it can be seen, tested, controlled and recorded, and the logic around it stays as it is.</p>
+
+  <h3>1. A way out of tangled code, one step at a time</h3>
+  <p class="sub">Wrap the code's dependencies as effects at its existing seams. The logic keeps its shape and becomes testable with handlers instead of mocks and containers. Then improve it piece by piece, and <a href="modularity.html">split it into services</a> along the same boundaries when that pays.
+  <a href="https://github.com/okay-effects/okay-simple">okay-simple</a> is one interface for Scala 2.13 and Scala 3, from 3.3 LTS on. One application can mix code compiled by both, so an upgrade happens module by module, not in one big step.</p>
+
+  <h3 style="margin-top:28px">2. One interface over ZIO, Cats, kyo, fs2 and monix</h3>
+  <p class="sub">Teams keep their libraries. Business logic is written once against effects, and each library is an interop module. A ZIO's environment, typed error and run become standard effects, with its layers and cancellation in both directions. cats gets a <code>Monad</code> of programs, and a program runs as cats-effect's <code>IO</code>. kyo computations, fs2, ZIO and monix streams convert both ways. Even ZIO's own types can be effects, accumulated as ZIO itself would:</p>
+  <pre>// ZIOs of different environments and errors, each its own effect, in one program
+type Row[X] = (ZioStep[Db, DbErr] + ZioStep[Log, LogErr])[X]
+
+val program: Int ! Row =
+  for
+    a &lt;- ZIO.serviceWith[Db](_.n).step[Row]
+    b &lt;- ZIO.serviceWith[Log](_.tag.length).step[Row]
+  yield a + b
+
+val asZio: ZIO[Db &amp; Log, DbErr | LogErr, Int] = program.toZIOSteps   // back to ZIO, typed as ZIO would</pre>
+
+  <h3 style="margin-top:28px">3. Spark you can test in one JVM and prove on a cluster</h3>
+  <p class="sub">A Spark job written against <code>Bulk</code> runs on a cluster or in one JVM with the same answer, so its logic is tested without Spark. Scala 3 types become DataFrames through <code>SparkSchema</code>. Every output can come with evidence: per partition, a count and a SHA-256 digest, committed only after the sink acknowledges it. <a href="#spark">The details are below.</a></p>
+
+  <h3 style="margin-top:28px">4. Monitoring, control and audit as part of the code</h3>
+  <p class="sub">An interceptor sees each operation of an effect and can record, change or refuse it. An observer sees every operation of every effect. A sensitive effect, such as payments, cannot run outside its audit, and the compiler checks that. <code>okay-audit</code> checks in the bytecode, at every build, that business code reaches the outside world only through declared effects.
+  A policy is changed in one handler, not across the codebase. See <a href="business.html">what this means for compliance</a>.</p>
+
+  <h3 style="margin-top:28px">5. One transparent system across platforms and languages</h3>
+  <p class="sub">The same design exists for <a href="https://github.com/okay-effects/okay-java">Java</a>, <a href="https://github.com/okay-effects/okay-go">Go</a>, <a href="https://github.com/okay-effects/okay-rust">Rust</a>, <a href="https://github.com/okay-effects/okay-python">Python</a> and <a href="https://github.com/okay-effects/okay-ts">TypeScript</a>.
+  <a href="https://github.com/okay-effects/okay-kernel">okay-kernel</a> is a protocol between them: a program written in one language runs under handlers written in another, in one process or over a wire. In the demo, a shop written in Go has its inventory, payments and mail answered by Scala handlers.
+  Every operation that crosses has a name and a type, so the controls above apply to it wherever it came from. The whole company's software can be watched, limited and audited at one point.</p>
+  <div style="margin-top:20px"><img src="hero.svg" alt="Operations as data, through the audit, to handlers, into the trail" style="max-width:720px;width:100%;display:block;margin:0 auto"></div>
+</div></section>
+
 <section id="spark"><div class="wrap">
-  <h2>What okay gives Spark</h2>
+  <h2>Spark in detail</h2>
 
   <h3>One aggregation, local or distributed</h3>
   <p class="sub">An okay <code>Aggregator</code> (<code>init</code>, <code>add</code>, <code>merge</code>, <code>present</code>) maps onto Spark's <code>zero</code>, <code>seqOp</code> and <code>combOp</code>. The same value runs over a local collection, over an RDD, per key, or as a Dataset column. It is written and tested once.</p>
@@ -165,16 +213,6 @@ val committed = SparkEvidence.run(trades, runId = &quot;eod-2026-10-18&quot;)(tr
   <p class="note">Durable storage, identity and access, signatures and regulatory policy stay with the application. The adapter commits summaries and does not claim atomicity with a separate Spark write. An application that needs both provides a sink that commits output and manifest in one transaction.</p>
 </div></section>
 
-<section id="better"><div class="wrap">
-  <h2>Why it is better</h2>
-  <div class="grid2">
-    <div class="card"><h3>Than testing on a cluster</h3><p>The same <code>Bulk</code> program runs in one JVM with the same answer. Unit tests need no Spark session for the logic, and the cluster run is the same code.</p></div>
-    <div class="card"><h3>Than logs and listeners</h3><p>Logs say that a job ran. A digest manifest says what it produced, and it can be checked again later against the stored output.</p></div>
-    <div class="card"><h3>Than hand-written encoders</h3><p>Scala 3 enums, sums and recursive types become DataFrames with a schema that evolves safely: a new case is a new nullable column. Spark's reflection-based encoders do not reach them.</p></div>
-    <div class="card"><h3>Than audit bolted on</h3><p>The audit is a handler around the job's effects, so it is added, changed or replaced where the job is assembled, and the logic stays the same. Lineage tools such as OpenLineage still fit beside it.</p></div>
-  </div>
-</div></section>
-
 <section id="measured"><div class="wrap">
   <h2>Measured</h2>
   <p class="sub">From okay's benchmarks, with their protocols written down beside them. Two of these numbers are losses, printed as losses.</p>
@@ -204,7 +242,7 @@ val committed = SparkEvidence.run(trades, runId = &quot;eod-2026-10-18&quot;)(tr
       <li>Bringing an existing Spark codebase onto this, one job at a time</li>
     </ul><p style="margin-top:8px">okay-spark is part of okay. It builds from source today; its release is planned with okay 0.2.0.</p></div>
   </div>
-  <p class="note">The author has worked with Spark and Scala for years, and does this as a team member or as a contract consultant: <a href="index.html#author">contact</a>.</p>
+  <p class="note">I do this work as a team member or as a contract consultant on Scala and JVM projects: <a href="index.html#author">contact</a>.</p>
 </div></section>
 
 <footer><div class="wrap">
