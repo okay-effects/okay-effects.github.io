@@ -101,7 +101,7 @@
   <a href="https://github.com/okay-effects/okay-simple">okay-simple</a> is one interface for Scala 2.13 and Scala 3, from 3.3 LTS on. One application can mix code compiled by both, so an upgrade happens module by module, not in one big step.</p>
 
   <h3 style="margin-top:28px">2. One interface over ZIO, Cats, kyo, fs2 and monix</h3>
-  <p class="sub">Teams keep their libraries. Business logic is written once against effects, and each library is an interop module. A ZIO's environment, typed error and run become standard effects, with its layers and cancellation in both directions. cats gets a <code>Monad</code> of programs, and a program runs as cats-effect's <code>IO</code>. kyo computations, fs2, ZIO and monix streams convert both ways. Even ZIO's own types can be effects, accumulated as ZIO itself would:</p>
+  <p class="sub">Teams keep their libraries. Business logic is written once against effects, and each library is an interop module. A ZIO's environment, typed error and run become standard effects, with its layers and cancellation in both directions. cats gets a <code>Monad</code> of programs, and a program runs as cats-effect's <code>IO</code>. kyo computations, fs2, ZIO and monix streams convert both ways. With ZIO, its own types can be effects, accumulated as ZIO itself would:</p>
   <pre>// ZIOs of different environments and errors, each its own effect, in one program
 type Row[X] = (ZioStep[Db, DbErr] + ZioStep[Log, LogErr])[X]
 
@@ -112,6 +112,28 @@ val program: Int ! Row =
   yield a + b
 
 val asZio: ZIO[Db &amp; Log, DbErr | LogErr, Int] = program.toZIOSteps   // back to ZIO, typed as ZIO would</pre>
+  <p class="sub" style="margin-top:20px">With Cats, cats code written for any <code>Monad</code> runs on effect programs, and cats-effect's <code>IO</code> goes into a program and comes back out as an <code>IO</code>:</p>
+  <pre>import cats.Monad
+import cats.effect.IO
+import cats.effect.unsafe.implicits.global
+import okay.effects.catsinterop.*
+
+// cats code, written for any Monad, runs on effect programs
+def twice[F[_]: Monad](fa: F[Int]): F[Int] = Monad[F].flatMap(fa)(a =&gt; Monad[F].map(fa)(_ + a))
+
+type Counter[X] = (State % Int)[X]
+val counted: Int ! Counter = twice[Program[Counter]#L](modify[Int, Counter](_ + 1).andThen(get[Int, Counter]))
+run(state(0)(counted))                       // (2,3)
+
+// cats-effect&#x27;s IO inside a program, and the program back as an IO
+type InIO[X] = Lift[IO, X]
+val both: Int ! InIO =
+  for
+    a &lt;- lift[IO, Int, InIO](IO(20))
+    b &lt;- lift[IO, Int, InIO](IO(a + 22))
+  yield b
+lower[IO, Int](both).unsafeRunSync()         // 42</pre>
+  <p class="note">Both blocks were compiled and run against the released 0.1.0 (<code>okay-effects-zio</code>, <code>okay-effects-cats</code>) on Scala 3.3 and 3.9. kyo, fs2 and monix work the same way: see <a href="https://github.com/okay-effects/okay-simple/blob/master/docs/modules/interop.md">interop</a>.</p>
 
   <h3 style="margin-top:28px">3. Spark you can test in one JVM and prove on a cluster</h3>
   <p class="sub">A Spark job written against <code>Bulk</code> runs on a cluster or in one JVM with the same answer, so its logic is tested without Spark. Scala 3 types become DataFrames through <code>SparkSchema</code>. Every output can come with evidence: per partition, a count and a SHA-256 digest, committed only after the sink acknowledges it. <a href="#spark">The details are below.</a></p>
