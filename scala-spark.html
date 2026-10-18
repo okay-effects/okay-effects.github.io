@@ -62,6 +62,7 @@
     <a href="#offer">What I offer</a>
     <a href="#spark">Spark</a>
     <a href="#audit">Audit</a>
+    <a href="#add-audit">Add audit to a job</a>
     <a href="#measured">Measured</a>
     <a href="#status">Status</a>
     <a href="index.html#author">Contact</a>
@@ -217,13 +218,7 @@ spark.sql(&quot;SELECT id, lovelace FROM outputs WHERE owner.kind = &#x27;Script
   final case class Committed(manifest: Manifest, receipt: Receipt)
 
   def run[A](rdd: RDD[A], runId: String)(canonical: Canonical[A])(sink: Manifest =&gt; Receipt): Committed</pre>
-  <p class="sub" style="margin-top:20px">In use:</p>
-  <pre>// a sketch: the canonical encoding and the sink are the application&#x27;s
-val committed = SparkEvidence.run(trades, runId = &quot;eod-2026-10-18&quot;)(tradeBytes) { manifest =&gt;
-  evidenceStore.commit(output = &quot;s3://ledger/eod/2026-10-18&quot;, manifest)   // durable first, then a receipt
-}
-// committed.manifest.partitions: one (id, attempt, count, SHA-256) per partition
-// committed.manifest.digest:     the run&#x27;s digest — the same input, the same digest</pre>
+  <p class="sub" style="margin-top:20px">How to add it to a job, with what it prints: <a href="#add-audit">step by step, below</a>.</p>
   <div class="grid3" style="margin-top:28px">
     <div class="card"><h3>Reproducible</h3><p>The same input, partition layout and record order give the same digest, so rerunning the job proves that the output is the same. Attempt ids are kept for diagnosis and never choose a winner.</p></div>
     <div class="card"><h3>No acknowledgement, no evidence</h3><p>A failed sink produces no <code>Committed</code> value, so evidence never claims an output that was not stored. Empty partitions are counted too.</p></div>
@@ -231,7 +226,7 @@ val committed = SparkEvidence.run(trades, runId = &quot;eod-2026-10-18&quot;)(tr
   </div>
   <h3 style="margin-top:32px">Around the job: its reads and writes as effects</h3>
   <p class="sub">With <code>SparkFrames</code>, loading, reading and handing back a DataFrame are effects of the program. The <a href="business.html#bank">audit-by-construction pattern</a> then applies to a Spark job as it does to a bank.
-  A handler around them records each dataset read and written, intent first and result after, and the job's code does not change. Together with the evidence manifest this answers the questions an auditor asks: what went in, what came out, and whether it can be shown to be the same again.</p>
+  A handler around them records each dataset read and written, intent first and result after, and the job's code does not change. <a href="#add-audit">Step by step, below.</a> Together with the evidence manifest this answers the questions an auditor asks: what went in, what came out, and whether it can be shown to be the same again.</p>
   <table style="margin-top:18px">
     <tr><th>Asks for</th><th>Where</th><th>What answers it</th></tr>
     <tr><td>Accurate, complete risk data, reconcilable to its sources</td><td><a href="https://www.bis.org/publ/bcbs239.pdf">BCBS 239</a>, principles 3 and 4</td><td>Per-partition counts and digests, and a run digest to reconcile against</td></tr>
@@ -239,6 +234,102 @@ val committed = SparkEvidence.run(trades, runId = &quot;eod-2026-10-18&quot;)(tr
     <tr><td>Known data flows and ICT dependencies</td><td><a href="https://eur-lex.europa.eu/eli/reg/2022/2554/oj">DORA</a> Art. 8</td><td>Each dataset read and written, as a declared operation</td></tr>
   </table>
   <p class="note">Durable storage, identity and access, signatures and regulatory policy stay with the application. The adapter commits summaries and does not claim atomicity with a separate Spark write. An application that needs both provides a sink that commits output and manifest in one transaction.</p>
+</div></section>
+
+<section id="add-audit"><div class="wrap">
+  <h2>Adding audit to an existing Spark job</h2>
+  <p class="sub">Take a job as it is today: read trades, total them per account, write the totals. Audit can be added in two steps, and the job's logic stays as it is in both.
+  The code below was compiled and run on Spark 4.2.0 (<code>local[2]</code>, JDK 25) and Scala 3.3, with okay-effects 0.1.0 from its release and <code>SparkEvidence</code> from okay-spark. The outputs shown are what it printed.</p>
+
+  <h3>The job today</h3>
+  <pre>def dailyTotalsToday(spark: SparkSession, lake: String, day: String): Unit =
+  val trades = spark.read.parquet(s&quot;$lake/trades/day=$day&quot;)
+  val totals = trades.groupBy(&quot;account&quot;).agg(sum(&quot;amount&quot;).as(&quot;total&quot;))
+  totals.write.mode(&quot;overwrite&quot;).parquet(s&quot;$lake/totals/day=$day&quot;)</pre>
+
+  <h3 style="margin-top:32px">Step 1. Evidence of the output, with no other change</h3>
+  <p class="sub">Give the output a deterministic layout: hash-partitioned by its key and sorted within each partition. The same data then always gives the same digest. Write it as before, and hand it to <code>SparkEvidence</code>, which records each partition's count and SHA-256 digest and a digest for the whole run.
+  The manifest goes to your sink: here a file beside the data, in production a ledger, a bucket with object lock, or a signed record. Later, anyone can read the stored output back, recompute the digest and compare.</p>
+  <pre>val rowBytes: Canonical[Row] = row =&gt; row.mkString(&quot;\u001f&quot;).getBytes(UTF_8)
+def stable(df: DataFrame): DataFrame = df.repartition(8, col(&quot;account&quot;)).sortWithinPartitions(&quot;account&quot;)
+
+def dailyTotalsWithEvidence(spark: SparkSession, lake: String, day: String): Committed =
+  val trades = spark.read.parquet(s&quot;$lake/trades/day=$day&quot;)
+  val totals = stable(trades.groupBy(&quot;account&quot;).agg(sum(&quot;amount&quot;).as(&quot;total&quot;)))
+  val out = s&quot;$lake/totals/day=$day&quot;
+  totals.write.mode(&quot;overwrite&quot;).parquet(out)
+  SparkEvidence.run(totals.rdd, runId = s&quot;totals-$day&quot;)(rowBytes) { m =&gt;
+    // the manifest beside the data; in production a ledger, a bucket with object lock, a signed record
+    java.nio.file.Files.writeString(java.nio.file.Path.of(s&quot;$lake/totals-$day.evidence&quot;), s&quot;${m.digest} ${m.partitions.map(_.count).sum}&quot;)
+    Receipt(output = out, acknowledgement = m.digest)
+  }
+
+/** later, by anyone: the stored output read back, its digest recomputed and compared */
+def verify(spark: SparkSession, out: String, runId: String, expected: String): Boolean =
+  SparkEvidence.run(stable(spark.read.parquet(out)).rdd, runId)(rowBytes)(m =&gt; Receipt(out, m.digest)).manifest.digest == expected</pre>
+  <p class="sub" style="margin-top:16px">Run as it ran:</p>
+  <pre>dailyTotalsWithEvidence(spark, lake, day)
+// evidence: 3 rows, 8 partitions, digest 6616d58871415ec1…
+verify(spark, out, s&quot;totals-$day&quot;, digest)            // true
+// a row appended to the stored output by hand, then:
+verify(spark, out, s&quot;totals-$day&quot;, digest)            // false</pre>
+
+  <h3 style="margin-top:32px">Step 2. The job's reads and writes as effects, and the audit a handler</h3>
+  <p class="sub">Name what the job does to the outside world: it reads a dataset and writes one. These become two operations of an effect, <code>Lake</code>. The logic is the same lines, with <code>read</code> and <code>write</code> in place of Spark's calls:</p>
+  <pre>enum Lake[X]:
+  case Read(path: String) extends Lake[DataFrame]
+  case Write(df: DataFrame, path: String) extends Lake[Unit]
+
+def read(path: String): DataFrame ! Lake = perform[Lake](Lake.Read(path))
+def write(df: DataFrame, path: String): Unit ! Lake = perform[Lake](Lake.Write(df, path))
+
+/** the same job: its logic as it was, its reads and writes now operations */
+def dailyTotals(lake: String, day: String): Unit ! Lake =
+  for
+    trades &lt;- read(s&quot;$lake/trades/day=$day&quot;)
+    totals = trades.groupBy(&quot;account&quot;).agg(sum(&quot;amount&quot;).as(&quot;total&quot;))
+    _ &lt;- write(stable(totals), s&quot;$lake/totals/day=$day&quot;)
+  yield ()</pre>
+  <p class="sub" style="margin-top:16px">One handler does the I/O, exactly as the job did before:</p>
+  <pre>/** the handler doing the I/O: Spark, as before */
+def onSpark[R[_], Rest[_], A](spark: SparkSession)(p: A ! R)(using Split[Lake, R, Rest]): A ! Rest =
+  handle(p, new TailHandler[Lake, Rest, A, A]:
+    def ret(a: A) = pure(a)
+    def answer[X](op: Lake[X]): X = op match
+      case Lake.Read(path) =&gt; spark.read.parquet(path)
+      case Lake.Write(df, path) =&gt; df.write.mode(&quot;overwrite&quot;).parquet(path))</pre>
+  <p class="sub" style="margin-top:16px">The audit is another handler, put around the job. It records each read and write before it happens, then its result: row count, schema, and for each output its evidence digest. The job does not know it is audited, and Spark's handler does not know either.</p>
+  <pre>trait AuditLog:
+  def append(line: String): Unit
+
+/** the audit: every read and write recorded, intent first; each output with its evidence */
+def audited[R[_], A](log: AuditLog, runId: String)(p: A ! R)(using In[Lake, R]): A ! R =
+  intercept(p, new Handler[Lake, R, A, A]:
+    def ret(a: A) = pure(a)
+    def op[X](op: Lake[X], k: X =&gt; A ! R) = op match
+      case Lake.Read(path) =&gt;
+        log.append(s&quot;read  $path&quot;)
+        perform[Lake].apply[R, X](op).flatMap { df =&gt;
+          log.append(s&quot;read  $path: ${df.count()} rows, ${df.schema.simpleString}&quot;); k(df) }
+      case Lake.Write(df, path) =&gt;
+        log.append(s&quot;write $path&quot;)
+        perform[Lake].apply[R, X](op).flatMap { done =&gt;
+          val e = SparkEvidence.run(df.rdd, runId)(rowBytes)(m =&gt; Receipt(path, m.digest)).manifest
+          log.append(s&quot;write $path: ${e.partitions.map(_.count).sum} rows, digest ${e.digest.take(16)}…&quot;); k(done) })</pre>
+  <pre>val log: AuditLog = line =&gt; auditTopic.send(line)     // Kafka, a table, a ledger: the handler&#x27;s choice
+run(onSpark(spark)(audited(log, s&quot;totals-$day&quot;)(dailyTotals(lake, day))))</pre>
+  <p class="sub" style="margin-top:16px">The audit trail of that run. Its digest is step 1's: the same data, proven the same.</p>
+  <pre>read  /tmp/spark-audit/lake/trades/day=2026-10-18
+read  /tmp/spark-audit/lake/trades/day=2026-10-18: 4 rows, struct&lt;account:string,amount:bigint&gt;
+write /tmp/spark-audit/lake/totals/day=2026-10-18
+write /tmp/spark-audit/lake/totals/day=2026-10-18: 3 rows, digest 6616d58871415ec1…</pre>
+
+  <div class="grid3" style="margin-top:28px">
+    <div class="card"><h3>What the auditor gets</h3><p>Every dataset read and written, with row counts and schemas, in the order they happened, and the output's digest. The stored output can be checked against the digest at any time later.</p></div>
+    <div class="card"><h3>Policies at the same point</h3><p>The audit handler can also refuse an operation, for example a write outside the paths a job is allowed, or a read of a table a job may not see, before Spark runs it.</p></div>
+    <div class="card"><h3>Tests without a cluster</h3><p>With its reads and writes as effects, the job's logic runs under a test handler that serves small DataFrames and records the writes, with no data lake behind it.</p></div>
+  </div>
+  <p class="note">The full program, data set-up included, is about a hundred lines. Two things are left to the application: the canonical bytes of its records (here the row's fields joined) and where the manifest and the trail are kept.</p>
 </div></section>
 
 <section id="measured"><div class="wrap">
@@ -265,7 +356,7 @@ val committed = SparkEvidence.run(trades, runId = &quot;eod-2026-10-18&quot;)(tr
       <li><code>okay-delta</code></li>
     </ul><p style="margin-top:8px">Spark 4.2 on JDK 17, 21 and 25.</p></div>
     <div class="card"><h3>Done per project</h3><ul class="tight">
-      <li>The audit handler around a job's reads and writes, and where its trail goes</li>
+      <li>The effects of your jobs' reads and writes, their audit handler (as shown above) and where its trail goes</li>
       <li>The canonical encoding of your records and the evidence sink: storage, signatures, retention</li>
       <li>Bringing an existing Spark codebase onto this, one job at a time</li>
     </ul><p style="margin-top:8px">okay-spark is part of okay. It builds from source today; its release is planned with okay 0.2.0.</p></div>
