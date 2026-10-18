@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="t d">
+  <title id="t">Every operation passes a point of control</title>
+  <desc id="d">A program performs operations as typed data. Each passes an audit that allows, changes or refuses it and records it in a trail; handlers then carry it out against the database, the payment API and an AI model.</desc>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker>
+    <marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0b6e4f"/></marker>
+    <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0f8a63"/><stop offset="1" stop-color="#0b6e4f"/></linearGradient>
+    <filter id="s" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1b1f24" flood-opacity=".10"/></filter>
+  </defs>
+  <style>
+    .box{fill:#fff;stroke:#d0d7de;stroke-width:1.2}
+    .h{font:600 14px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;fill:#1b1f24}
+    .m{font:12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#1b1f24}
+    .mm{font:11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#57606a}
+    .l{font:11px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;fill:#57606a;letter-spacing:.06em}
+    .chip{fill:#f6f8fa;stroke:#d0d7de}
+    .w{font:600 13px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;fill:#fff}
+  </style>
+
+  <!-- program -->
+  <g filter="url(#s)"><rect class="box" x="16" y="96" width="176" height="150" rx="10"/></g>
+  <text class="l" x="32" y="122">PROGRAM</text>
+  <text class="m" x="32" y="148">pay(alice, bob, 30)</text>
+  <text class="mm" x="32" y="172">Boolean ! Ledger</text>
+  <line x1="32" y1="188" x2="176" y2="188" stroke="#eaeef2"/>
+  <text class="mm" x="32" y="208">knows only its effect:</text>
+  <text class="mm" x="32" y="226">no database, no audit</text>
+
+  <!-- operations as data -->
+  <text class="l" x="210" y="88">OPERATIONS, AS DATA</text>
+  <rect class="chip" x="204" y="112" width="132" height="26" rx="13"/>
+  <text class="m" x="216" y="129">Unspent(alice)</text>
+  <rect class="chip" x="204" y="148" width="132" height="26" rx="13"/>
+  <text class="m" x="216" y="165">Spend(in, out)</text>
+  <rect class="chip" x="204" y="184" width="132" height="26" rx="13"/>
+  <text class="m" x="216" y="201">CallModel(q)</text>
+  <line x1="192" y1="171" x2="200" y2="171" stroke="#8c959f" stroke-width="1.4"/>
+  <line x1="338" y1="161" x2="362" y2="161" stroke="#8c959f" stroke-width="1.4" marker-end="url(#a)"/>
+
+  <!-- audit gate -->
+  <g filter="url(#s)">
+    <path d="M412 92 L460 108 L460 160 C460 196 438 220 412 232 C386 220 364 196 364 160 L364 108 Z" fill="url(#shield)"/>
+  </g>
+  <path d="M392 158 L407 173 L434 141" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="w" x="412" y="208" text-anchor="middle">audit</text>
+  <text class="l" x="412" y="252" text-anchor="middle">ALLOW · CHANGE · REFUSE</text>
+
+  <!-- to handlers -->
+  <line x1="460" y1="161" x2="482" y2="161" stroke="#0b6e4f" stroke-width="1.6"/>
+  <line x1="482" y1="112" x2="482" y2="226" stroke="#0b6e4f" stroke-width="1.6"/>
+  <line x1="482" y1="112" x2="496" y2="112" stroke="#0b6e4f" stroke-width="1.6" marker-end="url(#g)"/>
+  <line x1="482" y1="169" x2="496" y2="169" stroke="#0b6e4f" stroke-width="1.6" marker-end="url(#g)"/>
+  <line x1="482" y1="226" x2="496" y2="226" stroke="#0b6e4f" stroke-width="1.6" marker-end="url(#g)"/>
+
+  <!-- handlers -->
+  <text class="l" x="502" y="80">HANDLERS</text>
+  <g filter="url(#s)"><rect class="box" x="500" y="92" width="124" height="40" rx="8"/></g>
+  <text class="h" x="512" y="110">Ledger</text><text class="mm" x="512" y="125">→ DynamoDB</text>
+  <g filter="url(#s)"><rect class="box" x="500" y="149" width="124" height="40" rx="8"/></g>
+  <text class="h" x="512" y="167">Payments</text><text class="mm" x="512" y="182">→ bank API</text>
+  <g filter="url(#s)"><rect class="box" x="500" y="206" width="124" height="40" rx="8"/></g>
+  <text class="h" x="512" y="224">Agent</text><text class="mm" x="512" y="239">→ LLM</text>
+
+  <!-- trail -->
+  <line x1="412" y1="262" x2="412" y2="288" stroke="#0b6e4f" stroke-width="1.6" stroke-dasharray="3 3" marker-end="url(#g)"/>
+  <g filter="url(#s)"><rect class="box" x="200" y="294" width="424" height="108" rx="10"/></g>
+  <text class="l" x="216" y="318">TRAIL · WRITTEN BEFORE THE OPERATION RUNS</text>
+  <circle cx="222" cy="338" r="4" fill="#8c959f"/><text class="m" x="234" y="342">Begin  Spend(alice → bob, 30)</text>
+  <circle cx="222" cy="360" r="4" fill="#0b6e4f"/><text class="m" x="234" y="364">End    Spend → true</text>
+  <circle cx="222" cy="382" r="4" fill="#a40e26"/><text class="m" x="234" y="386">Fail   Spend(5000) → refused: over the limit</text>
+
+  <!-- replay -->
+  <path d="M200 348 C120 348 104 320 104 252" fill="none" stroke="#8c959f" stroke-width="1.4" stroke-dasharray="4 4" marker-end="url(#a)"/>
+  <text class="l" x="24" y="374">REPLAY</text>
+  <text class="mm" x="24" y="391">the trail answers,</text>
+  <text class="mm" x="24" y="406">no database needed</text>
+</svg>

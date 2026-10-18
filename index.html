@@ -16,7 +16,9 @@
   .brand { font-weight:700; color:var(--fg); letter-spacing:-0.01em; }
   nav a { margin-left:20px; color:var(--muted); font-size:15px; }
   .hero { padding:72px 0 56px; border-bottom:1px solid var(--line); }
-  .hero h1 { font-size:44px; line-height:1.15; margin:0 0 18px; letter-spacing:-0.02em; max-width:820px; }
+  .hero h1 { font-size:40px; line-height:1.15; margin:0 0 18px; letter-spacing:-0.02em; max-width:820px; }
+  .hero .cols { display:grid; grid-template-columns:.9fr 1.1fr; gap:36px; align-items:center; }
+  .hero .art img { width:100%; height:auto; display:block; }
   .hero p.lead { font-size:20px; color:var(--muted); max-width:760px; margin:0 0 28px; }
   .cta a { display:inline-block; padding:10px 18px; border-radius:6px; margin:0 10px 10px 0; font-weight:600; font-size:15px; }
   .cta .primary { background:var(--accent); color:#fff; } .cta .primary:hover { text-decoration:none; opacity:.92; }
@@ -46,7 +48,7 @@
   .note { font-size:14px; color:var(--muted); margin-top:16px; }
   footer { padding:40px 0 56px; color:var(--muted); font-size:14px; }
   .author { display:grid; grid-template-columns:2fr 1fr; gap:32px; }
-  @media (max-width: 820px) { .grid3, .grid2, .author { grid-template-columns:1fr; } .hero h1 { font-size:34px; } nav { display:none; } }
+  @media (max-width: 820px) { .hero .cols { grid-template-columns:1fr; } .grid3, .grid2, .author { grid-template-columns:1fr; } .hero h1 { font-size:34px; } nav { display:none; } }
 </style>
 </head>
 <body>
@@ -66,6 +68,7 @@
 </div></header>
 
 <div class="hero"><div class="wrap">
+<div class="cols"><div>
   <h1>Every effect a program performs: seen, allowed, recorded.</h1>
   <p class="lead">okay-effects is a family of algebraic-effect systems. A program's type says what it may do. A handler decides how it is done.
   An interceptor puts each of those actions through a point of control. A sensitive effect, such as a payment, cannot run anywhere but under its audit.
@@ -76,7 +79,9 @@
     <a class="secondary" href="business.html">Why it matters to a business</a>
     <a class="secondary" href="https://github.com/okay-effects">All repositories</a>
   </div>
-</div></div>
+</div>
+  <div class="art"><img src="hero.svg" alt="A program performs operations as typed data; each passes an audit that allows, changes or refuses it and writes it to a trail; handlers carry it out against the database, the payment API and an AI model; the trail can replay the program."></div>
+</div></div></div>
 
 <section id="control"><div class="wrap">
   <h2>Control and audit, at three points</h2>
