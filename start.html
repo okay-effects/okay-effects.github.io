@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Start with okay-simple — okay-effects</title>
+<meta name="description" content="Algebraic effects in Scala in six steps: add okay-simple, write a program, your own effect and handler, a handler that resumes twice, errors, streams.">
+<style>
+  :root { --fg:#1b1f24; --muted:#57606a; --line:#d8dee4; --bg:#ffffff; --soft:#f6f8fa; --accent:#0b6e4f; --code:#0d1117; --codefg:#e6edf3; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--fg); background:var(--bg); }
+  a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+  .wrap { max-width:1040px; margin:0 auto; padding:0 24px; }
+  header.top { border-bottom:1px solid var(--line); }
+  header.top .wrap { display:flex; justify-content:space-between; align-items:center; height:56px; }
+  .brand { font-weight:700; color:var(--fg); letter-spacing:-0.01em; }
+  nav a { margin-left:20px; color:var(--muted); font-size:15px; }
+  .hero { padding:72px 0 56px; border-bottom:1px solid var(--line); }
+  .hero h1 { font-size:40px; line-height:1.15; margin:0 0 18px; letter-spacing:-0.02em; max-width:820px; }
+  .hero .cols { display:grid; grid-template-columns:.9fr 1.1fr; gap:36px; align-items:center; }
+  .hero .art img { width:100%; height:auto; display:block; }
+  .hero p.lead { font-size:20px; color:var(--muted); max-width:760px; margin:0 0 28px; }
+  .cta a { display:inline-block; padding:10px 18px; border-radius:6px; margin:0 10px 10px 0; font-weight:600; font-size:15px; }
+  .cta .primary { background:var(--accent); color:#fff; } .cta .primary:hover { text-decoration:none; opacity:.92; }
+  .cta .secondary { border:1px solid var(--line); color:var(--fg); }
+  section { padding:56px 0; border-bottom:1px solid var(--line); }
+  section h2 { font-size:28px; margin:0 0 8px; letter-spacing:-0.01em; }
+  section p.sub { color:var(--muted); margin:0 0 28px; max-width:760px; }
+  .grid3 { display:grid; grid-template-columns:repeat(3, 1fr); gap:20px; }
+  .grid2 { display:grid; grid-template-columns:repeat(2, 1fr); gap:20px; }
+  .card { border:1px solid var(--line); border-radius:8px; padding:20px; background:var(--bg); }
+  .card h3 { margin:0 0 8px; font-size:17px; }
+  #start .grid2 { grid-template-columns:1fr; gap:28px; } .grid2 > div, .grid3 > div { min-width:0; }
+  #start .grid2 > div > h3, #start > .wrap > h3 { font-size:17px; margin:0 0 10px; }
+  .card p { margin:0; color:var(--muted); font-size:15px; }
+  .card .when { font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--accent); font-weight:700; margin-bottom:6px; }
+  pre { background:var(--code); color:var(--codefg); padding:18px 20px; border-radius:8px; overflow-x:auto; font:13.5px/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; margin:0; }
+  code { font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size:.92em; }
+  p code, li code, td code { background:var(--soft); padding:1px 5px; border-radius:4px; }
+  .c { color:#8b949e; } .k { color:#ff7b72; } .s { color:#a5d6ff; } .t { color:#ffa657; }
+  table { border-collapse:collapse; width:100%; font-size:15px; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-size:13px; color:var(--muted); font-weight:600; text-transform:uppercase; letter-spacing:.04em; }
+  td:first-child { white-space:nowrap; }
+  td.num { font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .us { font-weight:700; }
+  .loss { color:#a40e26; }
+  ul.tight { margin:0; padding-left:20px; color:var(--muted); font-size:15px; }
+  ul.tight li { margin:4px 0; }
+  .note { font-size:14px; color:var(--muted); margin-top:16px; }
+  footer { padding:40px 0 56px; color:var(--muted); font-size:14px; }
+  .author { display:grid; grid-template-columns:2fr 1fr; gap:32px; }
+  @media (max-width: 820px) { .hero .cols { grid-template-columns:1fr; } .grid3, .grid2, .author { grid-template-columns:1fr; } .hero h1 { font-size:34px; } nav { display:none; } }
+</style>
+<style> .step { margin-top:40px; } .step h2 { font-size:22px; } .out { font-size:14px; color:var(--muted); margin-top:10px; } </style>
+</head>
+<body>
+
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html">okay-effects</a>
+  <nav>
+    <a href="#build">Build</a>
+    <a href="#first">First program</a>
+    <a href="#own">Your effect</a>
+    <a href="#twice">Resume twice</a>
+    <a href="#errors">Errors</a>
+    <a href="#streams">Streams</a>
+    <a href="#next">Next</a>
+  </nav>
+</div></header>
+
+<div class="hero"><div class="wrap">
+  <h1>Start with okay-simple.</h1>
+  <p class="lead">Algebraic effects in Scala, in six short steps. Each block on this page was compiled and run against the released 0.1.0 from its Maven repository, on Scala 3.3 LTS and on Scala 3.9. The values in the comments are what it printed.</p>
+</div></div>
+
+<section><div class="wrap">
+
+<div class="step" id="build" style="margin-top:0">
+  <h2>1. Add it to the build</h2>
+  <p class="sub">The releases are a Maven repository on GitHub Pages. You need one resolver and the modules you use. Use <code>%%%</code> for Scala.js and Scala Native. The libraries are built on Scala 3.3 LTS and on Scala 2.13, so any Scala 3 from 3.3 on can use them.</p>
+  <pre>resolvers += &quot;okay-effects&quot; at &quot;https://okay-effects.github.io/okay-simple/maven&quot;
+
+libraryDependencies ++= Seq(
+  &quot;io.github.okay-effects&quot; %% &quot;okay-effects&quot;         % &quot;0.1.0&quot;,  // the interface and the standard effects
+  &quot;io.github.okay-effects&quot; %% &quot;okay-effects-machine&quot; % &quot;0.1.0&quot;,  // an implementation to run on
+  &quot;io.github.okay-effects&quot; %% &quot;okay-effects-stream&quot;  % &quot;0.1.0&quot;   // streams, used in step 6
+)</pre>
+  <p class="out">The full list of modules is in <a href="https://okay-effects.github.io/okay-simple/">the repository index</a>: implementations (<code>-free</code>, <code>-tagless</code>), effects (<code>-async</code>, <code>-concurrent</code>, <code>-resource</code>, <code>-io</code>, <code>-probability</code>, <code>-parsing</code>, <code>-logic</code>, <code>-transaction</code>, <code>-resilience</code>) and interop (<code>-zio</code>, <code>-cats</code>, <code>-fs2</code>, <code>-kyo</code>, <code>-monix</code>, <code>-java-stream</code>, <code>-tofu</code>).</p>
+</div>
+
+<div class="step" id="first">
+  <h2>2. A first program</h2>
+  <p class="sub">A program <code>A ! R</code> gives an <code>A</code>, and on its way it performs operations of the effects in the row <code>R</code>. This one reads an increment from a <code>Reader</code> and adds it to a <code>State</code>. <code>reader(5)</code> and <code>state(10)</code> are their handlers. Each takes its effect from wherever it is in the row, so the handlers can be applied in either order. Nothing runs until <code>run</code>.</p>
+  <pre>import okay.effects.*
+import okay.effects.std.*
+
+type Counting[X] = (Reader % Int + State % Int)[X]
+
+def step: Int ! Counting =
+  for
+    inc &lt;- ask[Int, Counting]
+    n   &lt;- get[Int, Counting]
+    _   &lt;- put[Int, Counting](n + inc)
+  yield n + inc
+
+run(state(10)(reader(5)(step)))   // (15,15)
+run(reader(5)(state(10)(step)))   // (15,15): the handlers in the other order</pre>
+  <p class="out">On Scala 3.3 a row alias takes its parameter, <code>type Counting[X] = (…)[X]</code>. From Scala 3.5 on, <code>type Counting = Reader % Int + State % Int</code> works too.</p>
+</div>
+
+<div class="step" id="own">
+  <h2>3. Your own effect, and its handler</h2>
+  <p class="sub">An effect is an interface: an <code>enum</code> of operations, each typed by its answer. <code>Has[Counter]</code> says that a program needs it, in any row.</p>
+  <pre>enum Counter[X]:
+  case Tick extends Counter[Unit]
+  case Peek extends Counter[Int]
+
+def tick[R[_]: Has[Counter]]: Unit ! R = perform[Counter](Counter.Tick)
+def peek[R[_]: Has[Counter]]: Int ! R = perform[Counter](Counter.Peek)</pre>
+  <p class="sub" style="margin-top:20px">Its handler gives the operations a meaning. This one answers in place and keeps a count in a cell. <code>Split</code> is the evidence that <code>Counter</code> is somewhere in <code>R</code>, with <code>Rest</code> the row without it, so the handler works in any row.</p>
+  <pre>def counting[R[_], Rest[_], A](p: A ! R)(using Split[Counter, R, Rest]): (Int, A) ! Rest =
+  handle(p, 0, new StatefulTailHandler[Counter, Int, Rest, A, (Int, A)]:
+    def ret(n: Int, a: A) = pure((n, a))
+    def answer[X](cell: Cell[Int], op: Counter[X]): X = op match
+      case Counter.Tick =&gt; cell.set(cell.get + 1)
+      case Counter.Peek =&gt; cell.get)
+
+run(counting(tick[Counter].andThen(tick[Counter]).andThen(peek[Counter])))   // (2,2)</pre>
+</div>
+
+<div class="step" id="twice">
+  <h2>4. A handler that resumes twice</h2>
+  <p class="sub">A general handler gets the rest of the program as <code>k</code>, a function, and it may call <code>k</code> any number of times. Here it is called with <code>true</code> and then with <code>false</code>, so two flips give all four outcomes. The same mechanism gives search, backtracking and probability distributions.</p>
+  <pre>enum Coin[X]:
+  case Flip extends Coin[Boolean]
+
+def flip[R[_]: Has[Coin]]: Boolean ! R = perform[Coin](Coin.Flip)
+
+def outcomes[R[_], Rest[_], A](p: A ! R)(using Split[Coin, R, Rest]): List[A] ! Rest =
+  handle(p, new Handler[Coin, Rest, A, List[A]]:
+    def ret(a: A) = pure(List(a))
+    def op[X](op: Coin[X], k: X =&gt; List[A] ! Rest) = op match
+      case Coin.Flip =&gt; k(true).flatMap(t =&gt; k(false).map(t ++ _)))
+
+run(outcomes(for a &lt;- flip[Coin]; b &lt;- flip[Coin] yield (a, b)))
+// List((true,true), (true,false), (false,true), (false,false))</pre>
+</div>
+
+<div class="step" id="errors">
+  <h2>5. Errors: raised, recovered</h2>
+  <p class="sub"><code>Error</code> is a standard effect. <code>attempt</code> turns it into an <code>Either</code>, and <code>recover</code> replaces the rest of the program with a recovery. It is the exception that a handler need not resume, next to the ones it does resume.</p>
+  <pre>type Failing[X] = (Error % String)[X]
+
+def half(n: Int): Int ! Failing =
+  if n % 2 == 0 then pure(n / 2) else raise[String, Failing, Int](s&quot;$n is odd&quot;)
+
+run(attempt[String](half(10)))               // Right(5)
+run(attempt[String](half(7)))                // Left(7 is odd)
+run(recover[String](half(7))(_ =&gt; pure(-1)))  // -1</pre>
+</div>
+
+<div class="step" id="streams">
+  <h2>6. Streams pulled by effects</h2>
+  <p class="sub">A <code>Stream[O, R]</code> gives elements one at a time, each pull a program of <code>R</code>. It is lazy, so it can be endless. Its elements can use any effect, such as a state here.</p>
+  <pre>import okay.effects.stream.*
+
+type St[X] = (State % Int)[X]
+
+run(range[Pure](1, 6).filter(_ % 2 == 1).map(_ * 10).toList)   // List(10, 30, 50)
+
+// each element pulled by an effect: a running total in a state
+run(state(0)(range[St](1, 4).evalMap(n =&gt; modify[Int, St](_ + n).andThen(get[Int, St])).toList))
+// (6,List(1, 3, 6))</pre>
+</div>
+
+</div></section>
+
+<section id="next"><div class="wrap">
+  <h2>Next</h2>
+  <div class="grid3">
+    <div class="card"><h3><a href="https://github.com/okay-effects/okay-simple/blob/master/docs/tour.md">The tour</a></h3><p>Code that is generic in its row, choice, generators, interception and delimited control. Then tagless: one program on any implementation.</p></div>
+    <div class="card"><h3><a href="https://github.com/okay-effects/okay-simple/blob/master/docs/README.md">The guide and the modules</a></h3><p>Handlers in five shapes, the standard effects, async with cancellation, resources, transactions, logic and parsing.</p></div>
+    <div class="card"><h3><a href="https://github.com/okay-effects/okay-simple/blob/master/docs/modules/interop.md">With what you have</a></h3><p>ZIO, with its environment, errors and layers as effects, plus cats-effect, fs2, kyo and monix. Bring effects into a codebase one part at a time.</p></div>
+  </div>
+  <p class="note">Scala 2.13: the same library, with rows written by names, <code>(State % Int)#L</code>. See <a href="https://github.com/okay-effects/okay-simple/blob/master/docs/getting-started.md">getting started</a>. Questions and help: <a href="index.html#author">the author</a>.</p>
+</div></section>
+
+<footer><div class="wrap">
+  okay-effects · Apache License 2.0 · <a href="index.html">okay-effects.github.io</a> · <a href="https://github.com/okay-effects/okay-simple">okay-simple on GitHub</a>
+</div></footer>
+
+</body>
+</html>

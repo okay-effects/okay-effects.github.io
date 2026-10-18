@@ -77,7 +77,7 @@
   An interceptor puts each of those actions through a point of control. A sensitive effect, such as a payment, cannot run anywhere but under its audit.
   The compiler checks this. It is not a convention.</p>
   <div class="cta">
-    <a class="primary" href="https://github.com/okay-effects/okay-simple/blob/master/docs/getting-started.md">Get started in Scala</a>
+    <a class="primary" href="start.html">Get started in Scala</a>
     <a class="secondary" href="https://github.com/okay-effects/okay-simple/blob/master/docs/algebraic-effects.md">What algebraic effects are</a>
     <a class="secondary" href="business.html">Why it matters to a business</a>
     <a class="secondary" href="https://github.com/okay-effects">All repositories</a>
@@ -156,6 +156,7 @@ def step: Int ! Counting =
       <p class="note">The program's type names its effects, a reader and a state. <code>reader(5)</code> and <code>state(10)</code> are their handlers, and they can be applied in either order. Nothing runs until <code>run</code>.</p></div>
   </div>
   <h3 style="margin-top:28px">3. Then</h3>
+  <p class="sub">The <a href="start.html">step-by-step page</a> goes on from here: your own effect and its handler, a handler that resumes twice, errors and streams.</p>
   <div class="grid3">
     <div class="card"><h3><a href="https://github.com/okay-effects/okay-simple/blob/master/docs/getting-started.md">Getting started</a></h3><p>The same program on two implementations, in Scala 3 and in Scala 2, and the Scala versions each form needs.</p></div>
     <div class="card"><h3><a href="https://github.com/okay-effects/okay-simple/blob/master/docs/tour.md">A tour in eleven steps</a></h3><p>Your own effect, a handler that resumes twice, choice, errors, generators, interception and delimited control.</p></div>
