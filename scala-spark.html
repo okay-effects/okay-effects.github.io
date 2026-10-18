@@ -60,6 +60,8 @@
   <nav>
     <a href="#problems">The problems</a>
     <a href="#offer">What I offer</a>
+    <a href="#scala3">Scala 3 on Spark</a>
+    <a href="#effects-on-spark">Effects on Spark</a>
     <a href="#spark">Spark</a>
     <a href="#audit">Audit</a>
     <a href="#add-audit">Add audit to a job</a>
@@ -71,7 +73,7 @@
 <div class="hero"><div class="wrap">
   <h1>Scala and Spark: from tangled code to one transparent, controllable system.</h1>
   <p class="lead">I have spent years in Scala and Spark codebases, and I know where they hurt.
-  The code is hard to read and seems impossible to improve or move to new versions. The ecosystem is split between ZIO, Cats and the rest. Monitoring, control and audit are hard, and hardest for Spark jobs.
+  The code is hard to read and seems impossible to improve or move to new versions. The ecosystem is split between Spark, ZIO, Cats and the rest. Monitoring, control and audit are hard, and hardest for Spark jobs.
   This page names those problems and shows how I solve them: by making what the code does explicit, one part at a time, until systems on different platforms, and even in different languages, become one system that can be watched and controlled.</p>
   <div class="cta">
     <a class="primary" href="#problems">The problems</a>
@@ -141,8 +143,8 @@ Unsafe.unsafe { implicit u =&gt; Runtime.default.unsafe.run(zio).getOrThrow() }
   <p class="note">Compiled and run against the released 0.1.0 (<code>okay-effects-zio</code>, with <code>cats-effect</code>) on Scala 3.3 and 3.9.
   More is available: a ZIO's environment, typed error and run as standard effects, with its layers and cancellation in both directions; ZIO's own types as effects; cats' <code>Monad</code> for any program; kyo, and fs2, ZIO and monix streams both ways. See <a href="https://github.com/okay-effects/okay-simple/blob/master/docs/modules/interop.md">interop</a>.</p>
 
-  <h3 style="margin-top:28px">3. Spark you can test in one JVM and prove on a cluster</h3>
-  <p class="sub">A Spark job written against <code>Bulk</code> runs on a cluster or in one JVM with the same answer, so its logic is tested without Spark. Scala 3 types become DataFrames through <code>SparkSchema</code>. Every output can come with evidence: per partition, a count and a SHA-256 digest, committed only after the sink acknowledges it. <a href="#spark">The details are below.</a></p>
+  <h3 style="margin-top:28px">3. Scala 3 and algebraic effects on Spark</h3>
+  <p class="sub"><strong>Spark jobs in Scala 3, today:</strong> Scala 3 types, enums and sums included, become DataFrames, where Spark's own encoders do not compile in Scala 3 (<a href="#scala3">how</a>). Business rules written with effects run inside Spark's tasks (<a href="#effects-on-spark">how</a>). A Spark job written against <code>Bulk</code> runs on a cluster or in one JVM with the same answer, so its logic is tested without Spark. Scala 3 types become DataFrames through <code>SparkSchema</code>. Every output can come with evidence: per partition, a count and a SHA-256 digest, committed only after the sink acknowledges it. <a href="#spark">The details are below.</a></p>
 
   <h3 style="margin-top:28px">4. Monitoring, control and audit as part of the code</h3>
   <p class="sub">An interceptor sees each operation of an effect and can record, change or refuse it. An observer sees every operation of every effect. A sensitive effect, such as payments, cannot run outside its audit, and the compiler checks that. <code>okay-audit</code> checks in the bytecode, at every build, that business code reaches the outside world only through declared effects.
@@ -153,6 +155,84 @@ Unsafe.unsafe { implicit u =&gt; Runtime.default.unsafe.run(zio).getOrThrow() }
   <a href="https://github.com/okay-effects/okay-kernel">okay-kernel</a> is a protocol between them: a program written in one language runs under handlers written in another, in one process or over a wire. In the demo, a shop written in Go has its inventory, payments and mail answered by Scala handlers.
   Every operation that crosses has a name and a type, so the controls above apply to it wherever it came from. The whole company's software can be watched, limited and audited at one point.</p>
   <div style="margin-top:20px"><img src="hero.svg" alt="Operations as data, through the audit, to handlers, into the trail" style="max-width:720px;width:100%;display:block;margin:0 auto"></div>
+</div></section>
+
+<section id="scala3"><div class="wrap">
+  <h2>Scala 3 on Spark, today</h2>
+  <p class="sub">Spark is published for Scala 2.13 only. A Scala 3 build can use it (<code>"org.apache.spark" %% "spark-sql" % "4.2.0" cross CrossVersion.for3Use2_13</code>), and its untyped API, RDDs and <code>DataFrame</code>s, works.
+  Its typed side does not. <code>import spark.implicits._</code>, <code>toDF</code>, <code>Dataset[T]</code> and <code>as[T]</code> derive their encoders by Scala 2 <code>TypeTag</code> reflection, which Scala 3 does not have. In a Scala 3 build, this line does not compile:</p>
+  <pre>import spark.implicits.*
+Seq((&quot;acct-1&quot;, 100L), (&quot;acct-2&quot;, 250L)).toDF(&quot;account&quot;, &quot;amount&quot;)
+// Scala 3:
+// [error] value toDF is not a member of Seq[(String, Long)]</pre>
+  <p class="sub" style="margin-top:20px">That is a large part of why Spark codebases stay on Scala 2.12 and 2.13. Even in Scala 2, Spark's encoders do not take enums or sealed sums, so domain types are flattened into strings and nullable columns by hand.</p>
+
+  <h3 style="margin-top:28px">With okay: Scala 3 types are DataFrames</h3>
+  <p class="sub"><code>SparkSchema</code> derives the <code>StructType</code> and the rows from an okay <code>Schema[A]</code>, which a Scala 3 type gets with <code>derives Schema</code>. It handles the types Spark's encoders cannot:</p>
+  <ul class="tight">
+    <li>case classes;</li>
+    <li>pure enums, stored as their case names;</li>
+    <li>sums with payloads, stored as a tagged sparse struct, so that a new case is a new nullable column and old Parquet files still read;</li>
+    <li>recursive types, stored as lossless CBOR plus a Spark 4 VARIANT;</li>
+    <li><code>Option</code>, <code>List</code> and <code>BigInt</code>.</li>
+  </ul>
+  <div style="margin-top:14px"><pre>import okay.codec.Schema
+import okay.spark.SparkSchema
+
+enum Credential derives Schema:
+  case KeyHash(hash: Array[Byte])
+  case ScriptHash(hash: Array[Byte])
+final case class Output(id: Int, owner: Credential, lovelace: BigInt) derives Schema
+
+val df = SparkSchema.dataFrame(spark, Seq(
+  Output(1, Credential.KeyHash(Array[Byte](1)), BigInt(2_000_000)),
+  Output(2, Credential.ScriptHash(Array[Byte](2)), BigInt(5_000_000))))
+// owner: struct&lt;kind: string, KeyHash: struct&lt;hash: binary&gt;, ScriptHash: struct&lt;hash: binary&gt;&gt;
+
+df.createOrReplaceTempView(&quot;outputs&quot;)
+spark.sql(&quot;SELECT id, lovelace FROM outputs WHERE owner.kind = &#x27;ScriptHash&#x27;&quot;).collect()
+// Array([2,5000000])</pre></div>
+  <p class="note">This is the example from okay-spark's documentation, and okay's test <code>TestDocExamplesSparkSchema</code> runs it. With it, <code>SparkFrames.load[A](df)</code> and <code>frame[A](table)</code> move typed tables in and out of a program, and a <code>Bulk</code> program runs on a cluster or in one JVM.</p>
+  <div class="grid3" style="margin-top:24px">
+    <div class="card"><h3>Move to Scala 3 now</h3><p>The jobs move to Scala 3 module by module. Spark stays as it is, with no wait for a Scala 3 build of Spark.</p></div>
+    <div class="card"><h3>Your domain types, as they are</h3><p>Enums, sealed sums and the rest of Scala 3 can be used in jobs. The schema follows the type, and it evolves safely when a case is added.</p></div>
+    <div class="card"><h3>SQL still works</h3><p>The result is an ordinary DataFrame, so <code>spark.sql</code>, Parquet, Delta and every Spark tool see normal columns and structs.</p></div>
+  </div>
+</div></section>
+
+<section id="effects-on-spark"><div class="wrap">
+  <h2>Algebraic effects on Spark</h2>
+  <p class="sub">Effects work on Spark at two levels.</p>
+
+  <h3>Around the job, on the driver</h3>
+  <p class="sub">The job's reads and writes are operations of an effect, its I/O is one handler and its audit is another, as shown in <a href="#add-audit">adding audit to an existing job</a>. That is where datasets are recorded, policies refuse what a job may not do, and tests replace the lake.</p>
+
+  <h3 style="margin-top:28px">Inside the tasks, on the executors</h3>
+  <p class="sub">Business rules can be written with effects too, and run per record inside Spark's tasks. A rule that may refuse a record (<code>Error</code>) and add a note (<code>Writer</code>) is a small program. Its handlers turn each record's outcome into a value:</p>
+  <pre>final case class Trade(account: String, amount: Long)
+
+// a business rule, written once with effects: a raise refuses, a tell notes
+type Check[X] = (Error % String + Writer % String)[X]
+
+object rules extends std.On[Check]:
+  def check(t: Trade): Trade ! Check =
+    for
+      _ &lt;- if t.amount &lt;= 0 then raise(s&quot;${t.account}: amount ${t.amount} refused&quot;) else pure(())
+      _ &lt;- if t.amount &gt; 10000 then tell(s&quot;${t.account}: large amount ${t.amount}&quot;) else pure(())
+    yield t
+
+/** the rule handled: each record&#x27;s outcome a value — refused, or passed with its notes */
+def outcome(t: Trade): Either[String, (List[String], Trade)] = run(attempt[String](writer[String](rules.check(t))))</pre>
+  <pre>// the same rule in a plain unit test, no Spark
+outcome(Trade(&quot;acct-1&quot;, -5))       // Left(acct-1: amount -5 refused)
+outcome(Trade(&quot;acct-2&quot;, 20000))    // Right((List(acct-2: large amount 20000),Trade(acct-2,20000)))
+
+// on Spark: the rule runs inside the tasks, on the executors, one program per record
+val checked = trades.rdd.map(r =&gt; Trade(r.getString(0), r.getLong(1))).map(outcome)
+// refused: acct-3: amount -7 refused
+// notes:   acct-2: large amount 25000
+// passed:  acct-1, acct-2, acct-4</pre>
+  <p class="sub" style="margin-top:16px">The rule is one piece of code. It is unit-tested on its own, it runs on the executors unchanged, and it can be audited or have its policy changed by another handler, without touching the job. This was run on Spark 4.2.0 (<code>local[2]</code>) with okay-effects 0.1.0. The program is in <a href="https://github.com/okay-effects/okay-effects.github.io/tree/main/examples/spark-audit">examples/spark-audit</a> (<code>Rules.scala</code>).</p>
 </div></section>
 
 <section id="spark"><div class="wrap">
