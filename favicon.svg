@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12946b"/><stop offset="1" stop-color="#0a5c42"/>
+    </linearGradient>
+    <linearGradient id="sh" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e3f3ec"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <!-- three operations flowing in -->
+  <g stroke="#bfe8d6" stroke-width="14" stroke-linecap="round" opacity=".9">
+    <line x1="58" y1="190" x2="118" y2="190"/>
+    <line x1="42" y1="250" x2="118" y2="250"/>
+    <line x1="58" y1="310" x2="118" y2="310"/>
+  </g>
+  <!-- the shield: the point of control -->
+  <path d="M256 88 L384 132 L384 248 C384 332 328 392 256 424 C184 392 128 332 128 248 L128 132 Z" fill="url(#sh)"/>
+  <path d="M196 252 L240 296 L322 206" fill="none" stroke="#0b6e4f" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- out, to the handlers -->
+  <g stroke="#bfe8d6" stroke-width="14" stroke-linecap="round" opacity=".9">
+    <line x1="394" y1="250" x2="470" y2="250"/>
+  </g>
+  <text x="256" y="486" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="52" font-weight="800" fill="#ffffff" letter-spacing="2">ok!</text>
+</svg>
