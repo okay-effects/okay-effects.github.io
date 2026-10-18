@@ -329,7 +329,7 @@ write /tmp/spark-audit/lake/totals/day=2026-10-18: 3 rows, digest 6616d58871415e
     <div class="card"><h3>Policies at the same point</h3><p>The audit handler can also refuse an operation, for example a write outside the paths a job is allowed, or a read of a table a job may not see, before Spark runs it.</p></div>
     <div class="card"><h3>Tests without a cluster</h3><p>With its reads and writes as effects, the job's logic runs under a test handler that serves small DataFrames and records the writes, with no data lake behind it.</p></div>
   </div>
-  <p class="note">The full program, data set-up included, is about a hundred lines. Two things are left to the application: the canonical bytes of its records (here the row's fields joined) and where the manifest and the trail are kept.</p>
+  <p class="note">The full program, data set-up included, is about a hundred lines: <a href="https://github.com/okay-effects/okay-effects.github.io/tree/main/examples/spark-audit">examples/spark-audit</a> (<code>sbt run</code>). Two things are left to the application: the canonical bytes of its records (here the row's fields joined) and where the manifest and the trail are kept.</p>
 </div></section>
 
 <section id="measured"><div class="wrap">
