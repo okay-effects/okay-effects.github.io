@@ -60,7 +60,7 @@
   <a class="brand" href="index.html">okay-effects</a>
   <nav>
     <a href="#build">Build</a>
-    <a href="#first">First program</a>
+    <a href="#first">A service</a>
     <a href="#own">Your effect</a>
     <a href="#twice">Resume twice</a>
     <a href="#errors">Errors</a>
@@ -90,23 +90,35 @@ libraryDependencies ++= Seq(
 </div>
 
 <div class="step" id="first">
-  <h2>2. A first program</h2>
-  <p class="sub">A program <code>A ! R</code> gives an <code>A</code>, and on its way it performs operations of the effects in the row <code>R</code>. This one reads an increment from a <code>Reader</code> and adds it to a <code>State</code>. <code>reader(5)</code> and <code>state(10)</code> are their handlers. Each takes its effect from wherever it is in the row, so the handlers can be applied in either order. Nothing runs until <code>run</code>.</p>
+  <h2>2. A first program: a small service</h2>
+  <p class="sub">A program <code>A ! R</code> gives an <code>A</code>, and on its way it performs operations of the effects in the row <code>R</code>. The service reads its configuration (<code>Reader</code>), writes a log (<code>Writer</code>) and counts the requests it served (<code>State</code>). Its type, <code>String ! Service</code>, says exactly that. The row is named once, in <code>std.On[Service]</code>, and inside it the words take no types: <code>ask[Config]</code>, <code>get</code>, <code>put</code>, <code>tell</code>.
+The handlers give the meaning: here a config value, a log collected into a list and a counter starting at 0. In production they would read a file, write to a log system and keep the counter in a store. The program would not change, and the second run, with a different config, shows how easily its behaviour is tested. Nothing runs until <code>run</code>.</p>
   <pre>import okay.effects.*
 import okay.effects.std.*
 
-type Counting[X] = (Reader % Int + State % Int)[X]
+case class Config(greeting: String, limit: Int)
 
-def step: Int ! Counting =
-  for
-    inc &lt;- ask[Int, Counting]
-    n   &lt;- get[Int, Counting]
-    _   &lt;- put[Int, Counting](n + inc)
-  yield n + inc
+type Service[X] = (Reader % Config + Writer % String + State % Int)[X]
 
-run(state(10)(reader(5)(step)))   // (15,15)
-run(reader(5)(state(10)(step)))   // (15,15): the handlers in the other order</pre>
-  <p class="out">On Scala 3.3 a row alias takes its parameter, <code>type Counting[X] = (…)[X]</code>. From Scala 3.5 on, <code>type Counting = Reader % Int + State % Int</code> works too.</p>
+// the row named once; inside, the words need no types
+object service extends std.On[Service]:
+  def serve(user: String): String ! Service =
+    for
+      c &lt;- ask[Config]
+      n &lt;- get
+      reply &lt;- if n &gt;= c.limit then tell(s&quot;refused $user: busy&quot;).as(&quot;try later&quot;)
+               else put(n + 1).andThen(tell(s&quot;served $user&quot;)).as(s&quot;${c.greeting} $user&quot;)
+    yield reply
+
+val day = for a &lt;- service.serve(&quot;ann&quot;); b &lt;- service.serve(&quot;bob&quot;); c &lt;- service.serve(&quot;cid&quot;) yield List(a, b, c)
+
+// the handlers: a config, a log collected, a counter from 0
+run(state(0)(writer[String](reader(Config(&quot;hello&quot;, 2))(day))))
+// (2,(List(served ann, served bob, refused cid: busy),List(hello ann, hello bob, try later)))
+
+run(state(0)(writer[String](reader(Config(&quot;hi&quot;, 5))(day))))
+// (3,(List(served ann, served bob, served cid),List(hi ann, hi bob, hi cid)))</pre>
+  <p class="out">On Scala 3.3 a row alias takes its parameter, <code>type Service[X] = (…)[X]</code>. From Scala 3.5 on, <code>type Service = …</code> works too. Each handler takes its effect from wherever it is in the row, so they can be applied in any order.</p>
 </div>
 
 <div class="step" id="own">
@@ -152,8 +164,11 @@ run(outcomes(for a &lt;- flip[Coin]; b &lt;- flip[Coin] yield (a, b)))
   <p class="sub"><code>Error</code> is a standard effect. <code>attempt</code> turns it into an <code>Either</code>, and <code>recover</code> replaces the rest of the program with a recovery. It is the exception that a handler need not resume, next to the ones it does resume.</p>
   <pre>type Failing[X] = (Error % String)[X]
 
-def half(n: Int): Int ! Failing =
-  if n % 2 == 0 then pure(n / 2) else raise[String, Failing, Int](s&quot;$n is odd&quot;)
+object failing extends std.On[Failing]:
+  def half(n: Int): Int ! Failing =
+    if n % 2 == 0 then pure(n / 2) else raise(s&quot;$n is odd&quot;)
+
+import failing.half
 
 run(attempt[String](half(10)))               // Right(5)
 run(attempt[String](half(7)))                // Left(7 is odd)

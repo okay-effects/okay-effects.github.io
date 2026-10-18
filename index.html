@@ -142,18 +142,30 @@ libraryDependencies ++= Seq(
     <div><h3>2. Write a program, handle it, run it</h3><pre>import okay.effects.*
 import okay.effects.std.*
 
-type Counting[X] = (Reader % Int + State % Int)[X]
+case class Config(greeting: String, limit: Int)
 
-def step: Int ! Counting =
-  for
-    inc &lt;- ask[Int, Counting]
-    n   &lt;- get[Int, Counting]
-    _   &lt;- put[Int, Counting](n + inc)
-  yield n + inc
+type Service[X] = (Reader % Config + Writer % String + State % Int)[X]
 
-@main def hello(): Unit =
-  println(run(state(10)(reader(5)(step))))   // (15,15): the state, and the value</pre>
-      <p class="note">The program's type names its effects, a reader and a state. <code>reader(5)</code> and <code>state(10)</code> are their handlers, and they can be applied in either order. Nothing runs until <code>run</code>.</p></div>
+// the row named once; inside, the words need no types
+object service extends std.On[Service]:
+  def serve(user: String): String ! Service =
+    for
+      c &lt;- ask[Config]
+      n &lt;- get
+      reply &lt;- if n &gt;= c.limit then tell(s&quot;refused $user: busy&quot;).as(&quot;try later&quot;)
+               else put(n + 1).andThen(tell(s&quot;served $user&quot;)).as(s&quot;${c.greeting} $user&quot;)
+    yield reply
+
+val day = for a &lt;- service.serve(&quot;ann&quot;); b &lt;- service.serve(&quot;bob&quot;); c &lt;- service.serve(&quot;cid&quot;) yield List(a, b, c)
+
+// the handlers: a config, a log collected, a counter from 0
+run(state(0)(writer[String](reader(Config(&quot;hello&quot;, 2))(day))))
+// (2,(List(served ann, served bob, refused cid: busy),List(hello ann, hello bob, try later)))
+
+run(state(0)(writer[String](reader(Config(&quot;hi&quot;, 5))(day))))
+// (3,(List(served ann, served bob, served cid),List(hi ann, hi bob, hi cid)))</pre>
+      <p class="note">The service reads its configuration (<code>Reader</code>), writes a log (<code>Writer</code>) and counts the requests it served (<code>State</code>). Its type, <code>String ! Service</code>, says exactly that. The row is named once, in <code>std.On[Service]</code>, and inside it the words take no types: <code>ask[Config]</code>, <code>get</code>, <code>put</code>, <code>tell</code>.
+The handlers give the meaning: here a config value, a log collected into a list and a counter starting at 0. In production they would read a file, write to a log system and keep the counter in a store. The program would not change, and the second run, with a different config, shows how easily its behaviour is tested. Nothing runs until <code>run</code>.</p></div>
   </div>
   <h3 style="margin-top:28px">3. Then</h3>
   <p class="sub">The <a href="start.html">step-by-step page</a> goes on from here: your own effect and its handler, a handler that resumes twice, errors and streams.</p>
