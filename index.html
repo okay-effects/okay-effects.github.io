@@ -99,7 +99,7 @@
     <div class="card"><div class="when">Build time</div><h3>The bytecode is checked</h3>
       <p><code>okay-audit</code> reads the compiled classes. It confirms that business code reaches no network, files, SQL, clock or threads on its own, and it lists every module that does, by provider: the dependency inventory DORA asks for.</p></div>
   </div>
-  <p class="sub" style="margin-top:32px">A payment audit from okay-core's test suite, shortened:</p>
+  <p class="sub" style="margin-top:32px">A payment audit in Scala, from okay-core's test suite, shortened:</p>
 <pre><span class="k">enum</span> <span class="t">Pay</span>[X]:
   <span class="k">case</span> Transfer(to: <span class="t">String</span>, amount: <span class="t">Int</span>) <span class="k">extends</span> <span class="t">Pay</span>[<span class="t">String</span>]
 <span class="k">given</span> <span class="t">Sensitive</span>[<span class="t">Pay</span>] = Sensitive()           <span class="c">// from here on, Pay runs only under an audit</span>
