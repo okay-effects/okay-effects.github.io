@@ -127,6 +127,7 @@ audit(guarded(<span class="s">1000</span>))(payments).handleAudited(bank).handle
     <div class="card"><h3>Effects combine predictably</h3><p>A program lists every effect it uses. There is no stack of monad transformers to order up front and no <code>lift</code>. The order of the handlers is chosen when the program is run.</p></div>
     <div class="card"><h3>Exceptions that can go back</h3><p>A handler gets the operation and the rest of the program. It can stop the program like an exception, resume it once with an answer, or resume it many times to search.</p></div>
   </div>
+  <p class="note">The scientific foundation of what is implemented here: Ohad Kammar, Sam Lindley, Nicolas Oury, <a href="https://denotational.co.uk/publications/kammar-lindley-oury-handlers-in-action.pdf"><em>Handlers in Action</em></a>, ICFP 2013 (the 18th ACM SIGPLAN International Conference on Functional Programming, Boston). More: <a href="https://github.com/okay-effects/okay-simple/blob/master/docs/algebraic-effects.md">what algebraic effects are, and why</a>, with a reading list.</p>
 </div></section>
 
 <section id="start"><div class="wrap">
