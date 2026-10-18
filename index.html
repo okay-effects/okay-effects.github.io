@@ -30,6 +30,8 @@
   .grid2 { display:grid; grid-template-columns:repeat(2, 1fr); gap:20px; }
   .card { border:1px solid var(--line); border-radius:8px; padding:20px; background:var(--bg); }
   .card h3 { margin:0 0 8px; font-size:17px; }
+  #start .grid2 { grid-template-columns:1fr; gap:28px; } .grid2 > div, .grid3 > div { min-width:0; }
+  #start .grid2 > div > h3, #start > .wrap > h3 { font-size:17px; margin:0 0 10px; }
   .card p { margin:0; color:var(--muted); font-size:15px; }
   .card .when { font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--accent); font-weight:700; margin-bottom:6px; }
   pre { background:var(--code); color:var(--codefg); padding:18px 20px; border-radius:8px; overflow-x:auto; font:13.5px/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; margin:0; }
@@ -58,6 +60,7 @@
   <nav>
     <a href="business.html">For business</a>
     <a href="modularity.html">Monolith to services</a>
+    <a href="#start">Start</a>
     <a href="#control">Control and audit</a>
     <a href="#languages">Languages</a>
     <a href="#platform">Platform</a>
@@ -122,6 +125,41 @@ audit(guarded(<span class="s">1000</span>))(payments).handleAudited(bank).handle
     <div class="card"><h3>One program, many meanings</h3><p>The same code runs against a real database, an in-memory one for tests, or a recording one for replay. Nothing in the program changes, only the handler.</p></div>
     <div class="card"><h3>Effects combine predictably</h3><p>A program lists every effect it uses. There is no stack of monad transformers to order up front and no <code>lift</code>. The order of the handlers is chosen when the program is run.</p></div>
     <div class="card"><h3>Exceptions that can go back</h3><p>A handler gets the operation and the rest of the program. It can stop the program like an exception, resume it once with an answer, or resume it many times to search.</p></div>
+  </div>
+</div></section>
+
+<section id="start"><div class="wrap">
+  <h2>Start with okay-simple</h2>
+  <p class="sub"><a href="https://github.com/okay-effects/okay-simple">okay-simple</a> is the smallest way in: one typed interface of algebraic effects for Scala 3 (3.3 LTS on) and Scala 2.13, on the JVM, Scala.js and Scala Native. It is released as 0.1.0, and adding it is two lines in sbt.</p>
+  <div class="grid2">
+    <div><h3>1. Add it to the build</h3><pre>resolvers += &quot;okay-effects&quot; at &quot;https://okay-effects.github.io/okay-simple/maven&quot;
+
+libraryDependencies ++= Seq(
+  &quot;io.github.okay-effects&quot; %% &quot;okay-effects&quot;         % &quot;0.1.0&quot;,  // the interface and the standard effects
+  &quot;io.github.okay-effects&quot; %% &quot;okay-effects-machine&quot; % &quot;0.1.0&quot;   // an implementation to run on
+)</pre>
+      <p class="note">Use <code>%%%</code> for Scala.js and Scala Native. Other modules use the same form: <code>okay-effects-stream</code>, <code>-async</code>, <code>-zio</code>, <code>-cats</code> and the rest. The full list is in <a href="https://okay-effects.github.io/okay-simple/">the repository index</a>.</p></div>
+    <div><h3>2. Write a program, handle it, run it</h3><pre>import okay.effects.*
+import okay.effects.std.*
+
+type Counting[X] = (Reader % Int + State % Int)[X]
+
+def step: Int ! Counting =
+  for
+    inc &lt;- ask[Int, Counting]
+    n   &lt;- get[Int, Counting]
+    _   &lt;- put[Int, Counting](n + inc)
+  yield n + inc
+
+@main def hello(): Unit =
+  println(run(state(10)(reader(5)(step))))   // (15,15): the state, and the value</pre>
+      <p class="note">The program's type names its effects, a reader and a state. <code>reader(5)</code> and <code>state(10)</code> are their handlers, and they can be applied in either order. Nothing runs until <code>run</code>.</p></div>
+  </div>
+  <h3 style="margin-top:28px">3. Then</h3>
+  <div class="grid3">
+    <div class="card"><h3><a href="https://github.com/okay-effects/okay-simple/blob/master/docs/getting-started.md">Getting started</a></h3><p>The same program on two implementations, in Scala 3 and in Scala 2, and the Scala versions each form needs.</p></div>
+    <div class="card"><h3><a href="https://github.com/okay-effects/okay-simple/blob/master/docs/tour.md">A tour in eleven steps</a></h3><p>Your own effect, a handler that resumes twice, choice, errors, generators, interception and delimited control.</p></div>
+    <div class="card"><h3><a href="https://github.com/okay-effects/okay-simple/blob/master/docs/modules/interop.md">With what you have</a></h3><p>Interop with ZIO (environment, errors, layers), cats-effect, fs2, kyo and monix. Bring effects into an existing codebase one part at a time.</p></div>
   </div>
 </div></section>
 
