@@ -101,39 +101,45 @@
   <a href="https://github.com/okay-effects/okay-simple">okay-simple</a> is one interface for Scala 2.13 and Scala 3, from 3.3 LTS on. One application can mix code compiled by both, so an upgrade happens module by module, not in one big step.</p>
 
   <h3 style="margin-top:28px">2. One interface over ZIO, Cats, kyo, fs2 and monix</h3>
-  <p class="sub">Teams keep their libraries. Business logic is written once against effects, and each library is an interop module. A ZIO's environment, typed error and run become standard effects, with its layers and cancellation in both directions. cats gets a <code>Monad</code> of programs, and a program runs as cats-effect's <code>IO</code>. kyo computations, fs2, ZIO and monix streams convert both ways. With ZIO, its own types can be effects, accumulated as ZIO itself would:</p>
-  <pre>// ZIOs of different environments and errors, each its own effect, in one program
-type Row[X] = (ZioStep[Db, DbErr] + ZioStep[Log, LogErr])[X]
-
-val program: Int ! Row =
-  for
-    a &lt;- ZIO.serviceWith[Db](_.n).step[Row]
-    b &lt;- ZIO.serviceWith[Log](_.tag.length).step[Row]
-  yield a + b
-
-val asZio: ZIO[Db &amp; Log, DbErr | LogErr, Int] = program.toZIOSteps   // back to ZIO, typed as ZIO would</pre>
-  <p class="sub" style="margin-top:20px">With Cats, cats code written for any <code>Monad</code> runs on effect programs, and cats-effect's <code>IO</code> goes into a program and comes back out as an <code>IO</code>:</p>
-  <pre>import cats.Monad
+  <p class="sub">Teams keep their libraries, and their code meets in one program. Below, a value comes from a ZIO service, goes to a cats-effect service, and its answer goes back to ZIO. ZIO's tasks and Cats' <code>IO</code> are two effects of one row.
+  One handler runs each <code>IO</code> as a ZIO task, so the whole program becomes one ZIO, run by ZIO's runtime. The same program could become an <code>IO</code> instead: only the handler would change.</p>
+  <pre>import zio.{Runtime, Task, Unsafe, ZIO}
 import cats.effect.IO
 import cats.effect.unsafe.implicits.global
-import okay.effects.catsinterop.*
+import okay.effects.*
+import okay.effects.std.*
+import okay.effects.ziointerop.*
 
-// cats code, written for any Monad, runs on effect programs
-def twice[F[_]: Monad](fa: F[Int]): F[Int] = Monad[F].flatMap(fa)(a =&gt; Monad[F].map(fa)(_ + a))
+// ZIO&#x27;s tasks and cats-effect&#x27;s IO, in one row
+type IOs[X] = Lift[IO, X]
+type Both[X] = (Tasks + IOs)[X]
 
-type Counter[X] = (State % Int)[X]
-val counted: Int ! Counter = twice[Program[Counter]#L](modify[Int, Counter](_ + 1).andThen(get[Int, Counter]))
-run(state(0)(counted))                       // (2,3)
+def loadUser(id: Int): Task[String] = ZIO.succeed(s&quot;user-$id&quot;)                     // a ZIO service
+def riskScore(user: String, amount: Int): IO[Int] = IO(amount / 100)               // a cats-effect service
+def decide(user: String, score: Int): Task[String] =                                // a ZIO service again
+  ZIO.succeed(if score &gt; 50 then s&quot;$user: review&quot; else s&quot;$user: approve&quot;)
 
-// cats-effect&#x27;s IO inside a program, and the program back as an IO
-type InIO[X] = Lift[IO, X]
-val both: Int ! InIO =
+// one program: from ZIO, into Cats, its answer back into ZIO
+def check(id: Int, amount: Int): String ! Both =
   for
-    a &lt;- lift[IO, Int, InIO](IO(20))
-    b &lt;- lift[IO, Int, InIO](IO(a + 22))
-  yield b
-lower[IO, Int](both).unsafeRunSync()         // 42</pre>
-  <p class="note">Both blocks were compiled and run against the released 0.1.0 (<code>okay-effects-zio</code>, <code>okay-effects-cats</code>) on Scala 3.3 and 3.9. kyo, fs2 and monix work the same way: see <a href="https://github.com/okay-effects/okay-simple/blob/master/docs/modules/interop.md">interop</a>.</p>
+    user     &lt;- fromZIOTask[String, Both](loadUser(id))
+    score    &lt;- lift[IO, Int, Both](riskScore(user, amount))
+    decision &lt;- fromZIOTask[String, Both](decide(user, score))
+  yield decision
+
+// one handler: each IO run as a ZIO task, so the whole program is one ZIO
+def ioAsZio[A](p: A ! Both): A ! Tasks =
+  handleLast[IOs, Tasks, A, A](p, new Handler[IOs, Tasks, A, A]:
+    def ret(a: A) = pure(a)
+    def op[X](op: IOs[X], k: X =&gt; A ! Tasks) = op match
+      case Lift.Of(io) =&gt; fromZIOTask[X, Tasks](ZIO.fromFuture(_ =&gt; io.unsafeToFuture())).flatMap(k))
+
+// the result: a ZIO, run by ZIO&#x27;s runtime
+val zio: Task[List[String]] = toZIOTask(ioAsZio(for a &lt;- check(7, 2500); b &lt;- check(8, 9000) yield List(a, b)))
+Unsafe.unsafe { implicit u =&gt; Runtime.default.unsafe.run(zio).getOrThrow() }
+// List(user-7: approve, user-8: review)</pre>
+  <p class="note">Compiled and run against the released 0.1.0 (<code>okay-effects-zio</code>, with <code>cats-effect</code>) on Scala 3.3 and 3.9.
+  More is available: a ZIO's environment, typed error and run as standard effects, with its layers and cancellation in both directions; ZIO's own types as effects; cats' <code>Monad</code> for any program; kyo, and fs2, ZIO and monix streams both ways. See <a href="https://github.com/okay-effects/okay-simple/blob/master/docs/modules/interop.md">interop</a>.</p>
 
   <h3 style="margin-top:28px">3. Spark you can test in one JVM and prove on a cluster</h3>
   <p class="sub">A Spark job written against <code>Bulk</code> runs on a cluster or in one JVM with the same answer, so its logic is tested without Spark. Scala 3 types become DataFrames through <code>SparkSchema</code>. Every output can come with evidence: per partition, a count and a SHA-256 digest, committed only after the sink acknowledges it. <a href="#spark">The details are below.</a></p>
