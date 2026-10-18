@@ -228,12 +228,17 @@ def outcome(t: Trade): Either[String, (List[String], Trade)] = run(attempt[Strin
 outcome(Trade(&quot;acct-1&quot;, -5))       // Left(acct-1: amount -5 refused)
 outcome(Trade(&quot;acct-2&quot;, 20000))    // Right((List(acct-2: large amount 20000),Trade(acct-2,20000)))
 
-// on Spark: the rule runs inside the tasks, on the executors, one program per record
+// on Spark: outcome is shipped to the executors; each task builds, handles and runs one program per record,
+// so the RDD holds plain values, Either[String, (List[String], Trade)], and Spark sees an ordinary function
 val checked = trades.rdd.map(r =&gt; Trade(r.getString(0), r.getLong(1))).map(outcome)
-// refused: acct-3: amount -7 refused
-// notes:   acct-2: large amount 25000
-// passed:  acct-1, acct-2, acct-4</pre>
-  <p class="sub" style="margin-top:16px">The rule is one piece of code. It is unit-tested on its own, it runs on the executors unchanged, and it can be audited or have its policy changed by another handler, without touching the job. This was run on Spark 4.2.0 (<code>local[2]</code>) with okay-effects 0.1.0. The program is in <a href="https://github.com/okay-effects/okay-effects.github.io/tree/main/examples/spark-audit">examples/spark-audit</a> (<code>Rules.scala</code>).</p>
+
+// on the driver, in this demo: the outcomes collected and printed
+val (refused, passed) = checked.collect().partition(_.isLeft)
+println(&quot;refused: &quot; + refused.map(_.left.toOption.get).mkString(&quot;; &quot;))   // refused: acct-3: amount -7 refused
+println(&quot;notes:   &quot; + passed.flatMap(_.toOption.get._1).mkString(&quot;; &quot;))   // notes:   acct-2: large amount 25000
+println(&quot;passed:  &quot; + passed.map(_.toOption.get._2.account).mkString(&quot;, &quot;)) // passed:  acct-1, acct-2, acct-4</pre>
+  <p class="sub" style="margin-top:16px">Where the effects are handled: in <code>outcome</code>, inside each task. <code>rules.check(t)</code> only describes a program. <code>writer</code> collects its notes into a list, <code>attempt</code> turns a refusal into a <code>Left</code>, and <code>run</code> runs what is left, which has no effects. So each record's result is a plain value by the time it leaves the task. In a real job the three outcomes go to their own tables straight from the RDD, with no <code>collect</code>.</p>
+  <p class="sub" style="margin-top:12px">The rule is one piece of code. It is unit-tested on its own, it runs on the executors unchanged, and it can be audited or have its policy changed by another handler, without touching the job. This was run on Spark 4.2.0 (<code>local[2]</code>) with okay-effects 0.1.0. The program is in <a href="https://github.com/okay-effects/okay-effects.github.io/tree/main/examples/spark-audit">examples/spark-audit</a> (<code>Rules.scala</code>).</p>
 </div></section>
 
 <section id="spark"><div class="wrap">
