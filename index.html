@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>okay-effects — every effect a program performs: seen, allowed, recorded</title>
+<meta name="description" content="Algebraic effects and handlers for Scala, Java, Go, Rust, Python and TypeScript, with control and audit of every effect built into the kernel.">
+<style>
+  :root { --fg:#1b1f24; --muted:#57606a; --line:#d8dee4; --bg:#ffffff; --soft:#f6f8fa; --accent:#0b6e4f; --code:#0d1117; --codefg:#e6edf3; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--fg); background:var(--bg); }
+  a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+  .wrap { max-width:1040px; margin:0 auto; padding:0 24px; }
+  header.top { border-bottom:1px solid var(--line); }
+  header.top .wrap { display:flex; justify-content:space-between; align-items:center; height:56px; }
+  .brand { font-weight:700; color:var(--fg); letter-spacing:-0.01em; }
+  nav a { margin-left:20px; color:var(--muted); font-size:15px; }
+  .hero { padding:72px 0 56px; border-bottom:1px solid var(--line); }
+  .hero h1 { font-size:44px; line-height:1.15; margin:0 0 18px; letter-spacing:-0.02em; max-width:820px; }
+  .hero p.lead { font-size:20px; color:var(--muted); max-width:760px; margin:0 0 28px; }
+  .cta a { display:inline-block; padding:10px 18px; border-radius:6px; margin:0 10px 10px 0; font-weight:600; font-size:15px; }
+  .cta .primary { background:var(--accent); color:#fff; } .cta .primary:hover { text-decoration:none; opacity:.92; }
+  .cta .secondary { border:1px solid var(--line); color:var(--fg); }
+  section { padding:56px 0; border-bottom:1px solid var(--line); }
+  section h2 { font-size:28px; margin:0 0 8px; letter-spacing:-0.01em; }
+  section p.sub { color:var(--muted); margin:0 0 28px; max-width:760px; }
+  .grid3 { display:grid; grid-template-columns:repeat(3, 1fr); gap:20px; }
+  .grid2 { display:grid; grid-template-columns:repeat(2, 1fr); gap:20px; }
+  .card { border:1px solid var(--line); border-radius:8px; padding:20px; background:var(--bg); }
+  .card h3 { margin:0 0 8px; font-size:17px; }
+  .card p { margin:0; color:var(--muted); font-size:15px; }
+  .card .when { font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--accent); font-weight:700; margin-bottom:6px; }
+  pre { background:var(--code); color:var(--codefg); padding:18px 20px; border-radius:8px; overflow-x:auto; font:13.5px/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; margin:0; }
+  code { font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size:.92em; }
+  p code, li code, td code { background:var(--soft); padding:1px 5px; border-radius:4px; }
+  .c { color:#8b949e; } .k { color:#ff7b72; } .s { color:#a5d6ff; } .t { color:#ffa657; }
+  table { border-collapse:collapse; width:100%; font-size:15px; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-size:13px; color:var(--muted); font-weight:600; text-transform:uppercase; letter-spacing:.04em; }
+  td:first-child { white-space:nowrap; }
+  td.num { font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .us { font-weight:700; }
+  .loss { color:#a40e26; }
+  ul.tight { margin:0; padding-left:20px; color:var(--muted); font-size:15px; }
+  ul.tight li { margin:4px 0; }
+  .note { font-size:14px; color:var(--muted); margin-top:16px; }
+  footer { padding:40px 0 56px; color:var(--muted); font-size:14px; }
+  .author { display:grid; grid-template-columns:2fr 1fr; gap:32px; }
+  @media (max-width: 820px) { .grid3, .grid2, .author { grid-template-columns:1fr; } .hero h1 { font-size:34px; } nav { display:none; } }
+</style>
+</head>
+<body>
+
+<header class="top"><div class="wrap">
+  <a class="brand" href="#">okay-effects</a>
+  <nav>
+    <a href="#control">Control and audit</a>
+    <a href="#languages">Languages</a>
+    <a href="#platform">Platform</a>
+    <a href="#measured">Measured</a>
+    <a href="#author">Author</a>
+    <a href="https://github.com/okay-effects">GitHub</a>
+  </nav>
+</div></header>
+
+<div class="hero"><div class="wrap">
+  <h1>Every effect a program performs: seen, allowed, recorded.</h1>
+  <p class="lead">okay-effects is a family of algebraic-effect systems. A program's type says what it may do. A handler decides how it is done.
+  An interceptor puts each of those actions through a point of control. A sensitive effect, such as a payment, cannot run anywhere but under its audit.
+  The compiler checks this. It is not a convention.</p>
+  <div class="cta">
+    <a class="primary" href="https://github.com/okay-effects/okay-simple/blob/master/docs/getting-started.md">Get started in Scala</a>
+    <a class="secondary" href="https://github.com/okay-effects/okay-simple/blob/master/docs/algebraic-effects.md">What algebraic effects are</a>
+    <a class="secondary" href="https://github.com/okay-effects">All repositories</a>
+  </div>
+</div></div>
+
+<section id="control"><div class="wrap">
+  <h2>Control and audit, at three points</h2>
+  <p class="sub">Effects make every action of a program an explicit operation that a handler interprets. That gives one place where each action can be checked.
+  okay uses that place at three points: in the types, at run time, and in the compiled code.</p>
+  <div class="grid3">
+    <div class="card"><div class="when">Compile time</div><h3>The type declares</h3>
+      <p><code>Receipt ! Db + Payments</code> is a program that may reach a database and payments, and nothing else. A program that performs a sensitive operation outside its audit does not compile.</p></div>
+    <div class="card"><div class="when">Run time</div><h3>The interceptor decides</h3>
+      <p>Each operation passes a point that can record it, change it (normalise, cap, mask), or refuse it. An observer can see every operation of every effect. All of these live in the kernel.</p></div>
+    <div class="card"><div class="when">Build time</div><h3>The bytecode is checked</h3>
+      <p><code>okay-audit</code> reads the compiled classes. It confirms that business code reaches no network, files, SQL, clock or threads on its own, and it lists every module that does, by provider: the dependency inventory DORA asks for.</p></div>
+  </div>
+  <p class="sub" style="margin-top:32px">A payment audit from okay-core's test suite, shortened:</p>
+<pre><span class="k">enum</span> <span class="t">Pay</span>[X]:
+  <span class="k">case</span> Transfer(to: <span class="t">String</span>, amount: <span class="t">Int</span>) <span class="k">extends</span> <span class="t">Pay</span>[<span class="t">String</span>]
+<span class="k">given</span> <span class="t">Sensitive</span>[<span class="t">Pay</span>] = Sensitive()           <span class="c">// from here on, Pay runs only under an audit</span>
+
+<span class="k">def</span> guarded[T, A](limit: <span class="t">Int</span>) = <span class="k">new</span> <span class="t">Interceptor</span>[<span class="t">Pay</span>, T, A, A]:
+  <span class="k">def</span> apply[X](op: <span class="t">Pay</span>[X], k: X => A ! T, pass: <span class="t">Pass</span>[<span class="t">Pay</span>, T]) = op <span class="k">match</span>
+    <span class="k">case</span> Pay.Transfer(to, amount) <span class="k">if</span> amount > limit =>
+      record(<span class="s">s"refused: $amount to ${masked(to)} over the limit $limit"</span>) *> raise(<span class="s">"over the limit"</span>)
+    <span class="k">case</span> Pay.Transfer(to, amount) =>
+      pass(Pay.Transfer(to.trim.toUpperCase, amount)).flatMap: receipt =>   <span class="c">// changed, then passed on</span>
+        record(<span class="s">s"transfer $amount to ${masked(to)} → $receipt"</span>) *> k(receipt)
+
+audit(guarded(<span class="s">1000</span>))(payments).handleAudited(bank).handle(trail).run
+<span class="c">// transfer 100 to ****1234 → ok:ACCT-1234:100</span>
+<span class="c">// refused: 5000 to ****T-77 over the limit 1000</span></pre>
+  <p class="note">The same programs exist in Rust (okay-rust) and TypeScript (okay-ts), so the guarantee does not depend on Scala.
+  Full account: <a href="https://github.com/okay-effects/okay-core/blob/master/docs/intercept.md">okay-core, docs/intercept.md</a>.</p>
+</div></section>
+
+<section id="why"><div class="wrap">
+  <h2>Why algebraic effects</h2>
+  <p class="sub">An effect is an interface of operations. A handler implements it. The program is written once, and the caller picks the meaning.</p>
+  <div class="grid3">
+    <div class="card"><h3>One program, many meanings</h3><p>The same code runs against a real database, an in-memory one for tests, or a recording one for replay. Nothing in the program changes, only the handler.</p></div>
+    <div class="card"><h3>Effects combine predictably</h3><p>A program lists every effect it uses. There is no stack of monad transformers to order up front and no <code>lift</code>. The order of the handlers is chosen when the program is run.</p></div>
+    <div class="card"><h3>Exceptions that can go back</h3><p>A handler gets the operation and the rest of the program. It can stop the program like an exception, resume it once with an answer, or resume it many times to search.</p></div>
+  </div>
+</div></section>
+
+<section id="languages"><div class="wrap">
+  <h2>One design, six languages</h2>
+  <p class="sub">There is one kernel. A program is data and the rest of the program is a value. The other languages port the kernel, are checked by its test suites, or bridge to it.
+  <a href="https://github.com/okay-effects/okay-kernel">okay-kernel</a> is a protocol between them: a program in one language runs under handlers written in another, in one process or over a wire.
+  In the demo, a shop runs in Go while its inventory, payments and mail are Scala handlers.</p>
+  <table>
+    <tr><th>Project</th><th>Language</th><th>What it is</th></tr>
+    <tr><td><a href="https://github.com/okay-effects/okay-core">okay-core</a></td><td>Scala 3</td><td>The kernel: one monad, delimited control (<code>shift0</code>), multi-shot continuations as data, no macros, no casts. Interceptors and audit.</td></tr>
+    <tr><td><a href="https://github.com/okay-effects/okay-simple">okay-simple</a></td><td>Scala 3, 2.13</td><td>A small typed interface for both Scala compilers, released as 0.1.0: three implementations, ten modules, and interop with cats, ZIO, fs2, kyo and monix.</td></tr>
+    <tr><td><a href="https://github.com/okay-effects/okay-kernel">okay-kernel</a></td><td>Java API</td><td>The protocol: a program steps to <em>done</em>, <em>yield</em>, <em>failed</em> or <em>cancelled</em>. It comes with a TCK that every implementation passes.</td></tr>
+    <tr><td><a href="https://github.com/okay-effects/okay-java">okay-java</a></td><td>Java 25</td><td>The kernel's design on <code>shift0</code>. A capability that escapes its handler is a compile error.</td></tr>
+    <tr><td><a href="https://github.com/okay-effects/okay-rust">okay-rust</a></td><td>Rust</td><td>The kernel ported to Rust, plus a separate crate for effects in plain async Rust with capabilities. It is checked against the kernel's suites.</td></tr>
+    <tr><td><a href="https://github.com/okay-effects/okay-go">okay-go</a></td><td>Go</td><td>Direct-style effects on Go's coroutines, at 49 ns an operation. Parallel branches run on goroutines.</td></tr>
+    <tr><td><a href="https://github.com/okay-effects/okay-python">okay-python</a></td><td>Python</td><td>Typed effects on generators, clean under <code>mypy --strict</code>. asyncio needs no coloured functions.</td></tr>
+    <tr><td><a href="https://github.com/okay-effects/okay-ts">okay-ts</a></td><td>TypeScript</td><td>Effects tracked in the type as a union. Programs as data resume many times; generators resume once.</td></tr>
+  </table>
+  <p class="note">The whole family, with an example in each language: <a href="https://github.com/okay-effects/okay-simple/blob/master/docs/family.md">docs/family.md</a>.</p>
+</div></section>
+
+<section id="platform"><div class="wrap">
+  <h2>A platform for real applications</h2>
+  <p class="sub"><a href="https://github.com/okay-effects/okay">okay</a> is over a hundred modules on one model of effects. The core has no dependencies, and one source builds for the JVM, Scala.js and Scala Native.</p>
+  <div class="grid3">
+    <div class="card"><h3>Services</h3><ul class="tight"><li>HTTP (Jetty, Netty)</li><li>SQL and JDBC</li><li>Kafka, Spark, Flink interop</li></ul></div>
+    <div class="card"><h3>Systems</h3><ul class="tight"><li>Streams and chunked pipelines</li><li>STM, a cluster</li><li>Durable workflows</li></ul></div>
+    <div class="card"><h3>AI and UI</h3><ul class="tight"><li>LLMs, RAG, agents</li><li>MCP servers</li><li>A UI toolkit</li></ul></div>
+  </div>
+  <p class="note">For AI agents in particular, the agent's every action is an effect, so the controls above apply to it.</p>
+</div></section>
+
+<section id="measured"><div class="wrap">
+  <h2>Measured, not asserted</h2>
+  <p class="sub">The numbers are from okay's benchmarks. Each has its protocol written down, and a competitor is measured on the same shape. Lower is better. A loss is printed as a loss.</p>
+  <table>
+    <tr><th>Benchmark</th><th>okay</th><th>kyo</th><th>cats IO</th><th>ZIO</th><th>fs2</th></tr>
+    <tr><td>10 000 <code>flatMap</code>s, µs</td><td class="num us">5.5</td><td class="num">60</td><td class="num">163</td><td class="num">193</td><td class="num">—</td></tr>
+    <tr><td>Stream pipeline, same chunking, µs</td><td class="num us">8.2</td><td class="num">65.9</td><td class="num">—</td><td class="num">35.8</td><td class="num">21.9</td></tr>
+    <tr><td>Fork/join of 100 fibers, µs</td><td class="num us">24</td><td class="num loss">18.5</td><td class="num">121</td><td class="num">46.6</td><td class="num">—</td></tr>
+  </table>
+  <p class="note">On a real streaming job across 1, 2, 4 and 8 cores, okay scales 5.3×. zio-streams, fs2, kyo and java.util.stream level off at about 1.6–1.7×.
+  Sources: <a href="https://github.com/okay-effects/okay/blob/master/docs/benchmarks.md">docs/benchmarks.md</a>,
+  <a href="https://github.com/okay-effects/okay/blob/master/docs/wroclaw-streams-benchmark.md">the streaming write-up</a>.</p>
+</div></section>
+
+<section id="tools"><div class="wrap">
+  <h2>Tools</h2>
+  <div class="grid2">
+    <div class="card"><h3><a href="https://github.com/okay-effects/symdex">symdex</a>: structural code intelligence for coding agents</h3>
+      <p>Definitions, references, callers, implementations, and which <code>given</code> each call site resolves. It reads them from the compiler's own output (SemanticDB, TASTy, SCIP) and serves them over MCP, so an agent asks instead of grepping. It is built on okay's MCP server.</p></div>
+    <div class="card"><h3><a href="https://github.com/okay-effects/okay/blob/master/docs/modules/okay-audit.md">okay-audit</a>: the effect boundary in the bytecode</h3>
+      <p>Every build gets a report that an auditor can read. It shows which modules may reach the outside world, and that business code does not. It has zero dependencies and is evidence, not a compliance claim.</p></div>
+  </div>
+</div></section>
+
+<section id="author"><div class="wrap author">
+  <div>
+    <h2>Author</h2>
+    <p>I am <strong>Sergiy Shcherbyna</strong>, a senior and lead backend engineer in Wrocław. I have thirty years of software behind me, the recent ones in Scala, Spark and the JVM.
+    okay-effects is my work on making what programs do explicit and controllable: types for what a program may do, handlers for how it is done, and audit for proving it.</p>
+    <p>I am open to working together as a team member or as contract consultant in Scala or JVM projects. The work I do best is refactoring: making a large, tangled codebase clear, typed and testable while it keeps running. Beside it: effect systems, data pipelines, and controls and audit for fintech, regulated domains and AI agents.</p>
+  </div>
+  <div class="card">
+    <h3>Contact</h3>
+    <ul class="tight">
+      <li><a href="mailto:sergey.scherbina@gmail.com">sergey.scherbina@gmail.com</a></li>
+      <li><a href="https://www.linkedin.com/in/sergiy-shcherbyna-b904751">linkedin.com/in/sergiy-shcherbyna-b904751</a></li>
+      <li><a href="https://github.com/sergey-scherbina">github.com/sergey-scherbina</a></li>
+      <li><a href="https://github.com/okay-effects">github.com/okay-effects</a></li>
+    </ul>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  okay-effects · Apache License 2.0 · <a href="https://github.com/okay-effects">github.com/okay-effects</a> · Scala releases: <a href="https://okay-effects.github.io/okay-simple/">okay-effects.github.io/okay-simple</a>
+</div></footer>
+
+</body>
+</html>
