@@ -50,6 +50,12 @@
   ul.tight li { margin:4px 0; }
   .note { font-size:14px; color:var(--muted); margin-top:16px; }
   footer { padding:40px 0 56px; color:var(--muted); font-size:14px; }
+  .btn { display:inline-block; background:var(--accent); color:#fff; font-weight:700; padding:12px 22px; border-radius:8px; text-decoration:none; }
+  .btn:hover { filter:brightness(1.1); }
+  .cp { display:grid; grid-template-columns:1.1fr .9fr; gap:28px; align-items:start; }
+  .cp img { width:100%; border:1px solid var(--line); border-radius:8px; display:block; }
+  .cp h3 { margin:0 0 8px; font-size:17px; }
+  @media (max-width: 820px) { .cp { grid-template-columns:1fr; } }
   .author { display:grid; grid-template-columns:2fr 1fr; gap:32px; }
   @media (max-width: 820px) { .hero .cols { grid-template-columns:1fr; } .grid3, .grid2, .author { grid-template-columns:1fr; } .hero h1 { font-size:34px; } nav { display:none; } }
 </style>
@@ -66,7 +72,7 @@
     <a href="#languages">Languages</a>
     <a href="#platform">Platform</a>
     <a href="#measured">Measured</a>
-    <a href="#apps">Live apps</a>
+    <a href="#coinpath">Coinpath</a>
     <a href="#author">Author</a>
     <a href="https://github.com/okay-effects">GitHub</a>
   </nav>
@@ -266,17 +272,30 @@ The handlers give the meaning: here a config value, a log collected into a list 
   <p class="note">Sources, with every protocol and the raw history: <a href="https://github.com/okay-effects/okay/blob/master/docs/benchmarks.md">okay's docs/benchmarks.md</a>, <a href="https://github.com/okay-effects/okay/blob/master/docs/wroclaw-streams-benchmark.md">the streaming write-up</a>, <a href="https://github.com/okay-effects/okay-simple#measured">okay-simple's README</a>.</p>
 </div></section>
 
-<section id="apps"><div class="wrap">
-  <h2>Live apps built on it</h2>
-  <p class="sub">Whole applications on these libraries, running in the browser: the data model is effects, every implementation a handler, and the page is one line that names them.</p>
-  <div class="grid2">
-    <div class="card"><div class="when">Scala 3 · Scala.js · okay-scala · okay-ui</div>
-      <h3><a href="https://okay-effects.github.io/coinpath-site/" target="_blank" rel="noopener">Coinpath</a>: follow a payment in a blockchain</h3>
-      <p>Paste an address and see where the money went, step by step, each step with its reason. Ethereum, Base, Arbitrum, Optimism, Polygon and World Chain, read straight from the browser with no server of ours. Exchanges are named from their own proof-of-reserves lists, each name linked to its source. Try the Bybit, Ronin or Upbit hack.</p></div>
-    <div class="card"><div class="when">Scala 3 · Scala.js · okay-ui</div>
-      <h3><a href="https://okay-effects.github.io/okay-ui/expenses/" target="_blank" rel="noopener">Expenses</a>: okay-ui's reference application</h3>
-      <p>Business screens as data: forms, tables and buttons are values, and the screen is an effect. The same program runs at a terminal and in the page, with its records in the browser's storage.</p></div>
+<section id="coinpath"><div class="wrap">
+  <h2>Coinpath: follow a payment in a blockchain</h2>
+  <p class="sub">A whole application built on these libraries, live: paste an address and see where the money went, step by step, each step with its reason. It runs in your browser, with no server of ours and no account.</p>
+  <p><a class="btn" href="https://okay-effects.github.io/coinpath-site/" target="_blank" rel="noopener">Open Coinpath</a></p>
+  <div class="cp">
+    <a href="https://okay-effects.github.io/coinpath-site/" target="_blank" rel="noopener"><img src="coinpath.png" alt="Coinpath's answer for the Bybit hack, 2025: where the money ended, as a table" loading="lazy"></a>
+    <div>
+      <h3>What it does</h3>
+      <ul class="tight">
+        <li>Follows the transfers out of an address, hop by hop, from the moment the money arrived.</li>
+        <li>Says why it took each step, and where and why the trail ended: an exchange, a bridge, a limit reached.</li>
+        <li>Names exchanges from their own proof-of-reserves lists; every name links to the file it came from.</li>
+        <li>Ethereum, Base, Arbitrum, Optimism, Polygon and World Chain; Bitcoin, Tron and Solana are coming.</li>
+        <li>Try it on public incidents: the Bybit hack (2025), the Ronin bridge (2022), Upbit (2019).</li>
+      </ul>
+    </div>
   </div>
+  <div class="grid3" style="margin-top:24px">
+    <div class="card"><h3>Every step explained</h3><p>Tools that draw a graph leave the reading to you. Coinpath writes down the rule behind each hop, and the reason it stopped.</p></div>
+    <div class="card"><h3>Every name checkable</h3><p>An exchange is named only from that exchange's own published list of its wallets, with the date and a link: nothing to take on trust.</p></div>
+    <div class="card"><h3>The same answer twice</h3><p>A trace is pinned at a block, and a recorded trace replays to the same report with no network at all, so a result can be handed on and checked.</p></div>
+  </div>
+  <h3 style="margin-top:28px">How it is built</h3>
+  <p class="sub">Scala 3 compiled to JavaScript by Scala.js, on <a href="https://github.com/okay-effects/okay-scala">okay-scala</a> and <a href="https://github.com/okay-effects/okay-ui">okay-ui</a>. The data model is effects: <code>Chain</code> (the transfers of an address), <code>Names</code> (who owns it), <code>Http</code>, <code>Clock</code>, <code>Ui</code> (a screen). Every implementation is a handler: Blockscout turns <code>Chain</code> into <code>Http</code>, the labels' shards answer <code>Names</code>, the browser's <code>fetch</code> answers <code>Http</code>, a recording answers <code>Chain</code> and <code>Names</code> in the tests and the examples. The page is one line that names its handlers. The trace itself never changes between the browser, the tests and a replay; only the handlers do.</p>
 </div></section>
 
 <section id="tools"><div class="wrap">
