@@ -66,6 +66,7 @@
     <a href="#languages">Languages</a>
     <a href="#platform">Platform</a>
     <a href="#measured">Measured</a>
+    <a href="#apps">Live apps</a>
     <a href="#author">Author</a>
     <a href="https://github.com/okay-effects">GitHub</a>
   </nav>
@@ -263,6 +264,19 @@ The handlers give the meaning: here a config value, a log collected into a list 
     <tr><td>1 000 <code>get</code>/<code>put</code> pairs</td><td class="num">18.3</td><td class="num">16.1</td><td class="num">20.4</td><td class="num">30.1</td><td class="num us">14.0</td></tr>
   </table>
   <p class="note">Sources, with every protocol and the raw history: <a href="https://github.com/okay-effects/okay/blob/master/docs/benchmarks.md">okay's docs/benchmarks.md</a>, <a href="https://github.com/okay-effects/okay/blob/master/docs/wroclaw-streams-benchmark.md">the streaming write-up</a>, <a href="https://github.com/okay-effects/okay-simple#measured">okay-simple's README</a>.</p>
+</div></section>
+
+<section id="apps"><div class="wrap">
+  <h2>Live apps built on it</h2>
+  <p class="sub">Whole applications on these libraries, running in the browser: the data model is effects, every implementation a handler, and the page is one line that names them.</p>
+  <div class="grid2">
+    <div class="card"><div class="when">Scala 3 · Scala.js · okay-scala · okay-ui</div>
+      <h3><a href="https://okay-effects.github.io/coinpath-site/" target="_blank" rel="noopener">Coinpath</a>: follow a payment in a blockchain</h3>
+      <p>Paste an address and see where the money went, step by step, each step with its reason. Ethereum, Base, Arbitrum, Optimism, Polygon and World Chain, read straight from the browser with no server of ours. Exchanges are named from their own proof-of-reserves lists, each name linked to its source. Try the Bybit, Ronin or Upbit hack.</p></div>
+    <div class="card"><div class="when">Scala 3 · Scala.js · okay-ui</div>
+      <h3><a href="https://okay-effects.github.io/okay-ui/expenses/" target="_blank" rel="noopener">Expenses</a>: okay-ui's reference application</h3>
+      <p>Business screens as data: forms, tables and buttons are values, and the screen is an effect. The same program runs at a terminal and in the page, with its records in the browser's storage.</p></div>
+  </div>
 </div></section>
 
 <section id="tools"><div class="wrap">
