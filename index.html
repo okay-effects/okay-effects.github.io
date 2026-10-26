@@ -75,6 +75,7 @@
     <a href="#platform">Platform</a>
     <a href="#measured">Measured</a>
     <a href="#coinpath">Coinpath</a>
+    <a href="#okay-guard">okay-guard</a>
     <a href="#author">Author</a>
     <a href="https://github.com/okay-effects">GitHub</a>
   </nav>
@@ -299,6 +300,30 @@ The handlers give the meaning: here a config value, a log collected into a list 
   </div>
   <h3 style="margin-top:28px">How it is built</h3>
   <p class="sub">Scala 3 compiled to JavaScript by Scala.js, on <a href="https://github.com/okay-effects/okay-scala">okay-scala</a> and <a href="https://github.com/okay-effects/okay-ui">okay-ui</a>. The data model is effects: <code>Chain</code> (the transfers of an address), <code>Names</code> (who owns it), <code>Http</code>, <code>Clock</code>, <code>Ui</code> (a screen). Every implementation is a handler: Blockscout turns <code>Chain</code> into <code>Http</code>, the labels' shards answer <code>Names</code>, the browser's <code>fetch</code> answers <code>Http</code>, a recording answers <code>Chain</code> and <code>Names</code> in the tests and the examples. The page is one line that names its handlers. The trace itself never changes between the browser, the tests and a replay; only the handlers do.</p>
+
+  <h3 class="app" id="okay-guard" style="margin-top:48px">okay-guard: see and control what an AI agent does</h3>
+  <p class="sub">An AI agent works through MCP servers: payments, mail, files, code. okay-guard stands between them. You see every call, your policy decides what passes, what is blocked and what waits for you, and you decide on your phone where the call stands. The studio runs in your browser, with no account; when the policy works, run the same guard on your own machine.</p>
+  <p><a class="btn" href="https://okay-effects.github.io/okay-guard/" target="_blank" rel="noopener">Open okay-guard</a></p>
+  <div class="cp">
+    <a href="https://okay-effects.github.io/okay-guard/demo.html" target="_blank" rel="noopener"><img src="okay-guard.png" alt="okay-guard's demo: a refund over 200 € waits for a person's decision, the rules in force beside it" loading="lazy"></a>
+    <div>
+      <h3>What it does</h3>
+      <ul class="tight">
+        <li>Connects your own agent, such as Claude Code, Claude.ai or Cursor, by one MCP address.</li>
+        <li>Shows each call as it happens: the tool, its arguments, what the policy decided, what came back.</li>
+        <li>Stops a call the policy asks about: Approve, Refuse, or change its arguments first, on any device.</li>
+        <li>Rules in words, made from a real call with one tap; or a policy in a language with state and facts, each decision with its certificate.</li>
+        <li>Tests that replay what the agent did against a changed policy, with no model and no key; headless for CI.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="grid3" style="margin-top:24px">
+    <div class="card"><h3>Your agent, your servers</h3><p>Nothing to install to start: add any remote MCP server in the studio and it is called straight from your browser.</p></div>
+    <div class="card"><h3>A policy you can check</h3><p>Every decision is recorded with the rule behind it. Cases and tests check the policy before it meets a real call.</p></div>
+    <div class="card"><h3>From the browser to your machine</h3><p>Export the agent and its policy, import them into the local guard (Node or Java), and the same policy decides there.</p></div>
+  </div>
+  <h3 style="margin-top:28px">How it is built</h3>
+  <p class="sub">Scala 3 and Scala.js, on <a href="https://github.com/okay-effects/okay-simple">okay-simple</a>, <a href="https://github.com/okay-effects/okay-ui">okay-ui</a> and okay's MCP. The guard is a program over its own effects: the wire, the journal, the policy, a person, the clock. The browser, a Cloudflare Worker that passes messages, Node and the JVM are only their handlers. A call waiting for you is the program's continuation, kept until you answer.</p>
 </div></section>
 
 <section id="tools"><div class="wrap">
