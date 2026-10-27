@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<title>Libraries — okay-effects</title>
+<meta name="description" content="Every released okay-effects library: what it is, its version and platforms, and how to add it.">
+<style>
+  :root { --fg:#1b1f24; --muted:#57606a; --line:#d8dee4; --bg:#ffffff; --soft:#f6f8fa; --accent:#0b6e4f; --code:#0d1117; --codefg:#e6edf3; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--fg); background:var(--bg); }
+  a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+  .wrap { max-width:1040px; margin:0 auto; padding:0 24px; }
+  header.top { border-bottom:1px solid var(--line); }
+  header.top .wrap { display:flex; justify-content:space-between; align-items:center; height:56px; }
+  .brand { font-weight:700; color:var(--fg); letter-spacing:-0.01em; }
+  nav a { margin-left:20px; color:var(--muted); font-size:15px; }
+  .hero { padding:72px 0 56px; border-bottom:1px solid var(--line); }
+  .hero h1 { font-size:40px; line-height:1.15; margin:0 0 18px; letter-spacing:-0.02em; max-width:820px; }
+  .hero .cols { display:grid; grid-template-columns:.9fr 1.1fr; gap:36px; align-items:center; }
+  .hero .art img { width:100%; height:auto; display:block; }
+  .hero p.lead { font-size:20px; color:var(--muted); max-width:760px; margin:0 0 28px; }
+  .cta a { display:inline-block; padding:10px 18px; border-radius:6px; margin:0 10px 10px 0; font-weight:600; font-size:15px; }
+  .cta .primary { background:var(--accent); color:#fff; } .cta .primary:hover { text-decoration:none; opacity:.92; }
+  .cta .secondary { border:1px solid var(--line); color:var(--fg); }
+  section { padding:56px 0; border-bottom:1px solid var(--line); }
+  section h2 { font-size:28px; margin:0 0 8px; letter-spacing:-0.01em; }
+  section p.sub { color:var(--muted); margin:0 0 28px; max-width:760px; }
+  .grid3 { display:grid; grid-template-columns:repeat(3, 1fr); gap:20px; }
+  .grid2 { display:grid; grid-template-columns:repeat(2, 1fr); gap:20px; }
+  .card { border:1px solid var(--line); border-radius:8px; padding:20px; background:var(--bg); }
+  .card h3 { margin:0 0 8px; font-size:17px; }
+  #start .grid2 { grid-template-columns:1fr; gap:28px; } .grid2 > div, .grid3 > div { min-width:0; }
+  #start .grid2 > div > h3, #start > .wrap > h3 { font-size:17px; margin:0 0 10px; }
+  .card p { margin:0; color:var(--muted); font-size:15px; }
+  .card .when { font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--accent); font-weight:700; margin-bottom:6px; }
+  pre { background:var(--code); color:var(--codefg); padding:18px 20px; border-radius:8px; overflow-x:auto; font:13.5px/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; margin:0; }
+  code { font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size:.92em; }
+  p code, li code, td code { background:var(--soft); padding:1px 5px; border-radius:4px; }
+  .c { color:#8b949e; } .k { color:#ff7b72; } .s { color:#a5d6ff; } .t { color:#ffa657; }
+  table { border-collapse:collapse; width:100%; font-size:15px; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-size:13px; color:var(--muted); font-weight:600; text-transform:uppercase; letter-spacing:.04em; }
+  td:first-child { white-space:nowrap; }
+  td.num { font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .us { font-weight:700; }
+  .loss { color:#a40e26; }
+  ul.tight { margin:0; padding-left:20px; color:var(--muted); font-size:15px; }
+  ul.tight li { margin:4px 0; }
+  .note { font-size:14px; color:var(--muted); margin-top:16px; }
+  footer { padding:40px 0 56px; color:var(--muted); font-size:14px; }
+  .author { display:grid; grid-template-columns:2fr 1fr; gap:32px; }
+  @media (max-width: 820px) { .hero .cols { grid-template-columns:1fr; } .grid3, .grid2, .author { grid-template-columns:1fr; } .hero h1 { font-size:34px; } header.top .wrap { height:auto; flex-wrap:wrap; padding-top:12px; padding-bottom:4px; } nav { width:100%; display:flex; gap:18px; overflow-x:auto; white-space:nowrap; padding:8px 0; scrollbar-width:none; } nav::-webkit-scrollbar { display:none; } nav a { margin-left:0; } table { display:block; max-width:100%; overflow-x:auto; } }
+  footer .wrap { display:flex; flex-wrap:wrap; align-items:baseline; gap:6px; } footer .more { margin-left:auto; font-weight:600; }
+</style>
+<style> .step { margin-top:40px; } .step h2 { font-size:22px; } .out { font-size:14px; color:var(--muted); margin-top:10px; } </style>
+</head>
+<body>
+
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html">okay-effects</a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#what">What there is</a>
+    <a href="faces.html">okay-faces</a>
+    <a href="cloud.html">Cloud</a>
+    <a href="https://github.com/okay-effects">GitHub</a>
+  </nav>
+</div></header>
+
+<section class="hero" style="padding:56px 0 40px"><div class="wrap">
+  <h1>Libraries</h1>
+  <p class="lead">Everything released, with how to add it. Each library is a Maven repository on GitHub Pages: no account and no token, only a resolver. Scala libraries are built on Scala 3.3 LTS (and 2.13 where marked), so any Scala 3 from 3.3 on can use them.</p>
+</div></section>
+
+<section id="what"><div class="wrap">
+  <h2>What there is</h2>
+  <p class="sub">The effect libraries, then the libraries for applications built on them. <code>%%%</code> for Scala.js and Scala Native.</p>
+  <table>
+    <tr><th>Library</th><th>Version</th><th>Platforms</th><th>What it is</th></tr>
+    <tr><td><a href="#okay-simple"><strong>okay-simple</strong></a></td><td class="num">0.1.1</td><td>JVM, JS, Native</td><td>Algebraic effects for Scala 3 and 2.13 behind one interface; three implementations (a machine, <code>Free</code>, tagless), standard effects, modules for JSON, shapes, streams, async, resources, transactions; interop with cats-effect, ZIO, kyo.</td></tr>
+    <tr><td><a href="#okay-scala"><strong>okay-scala</strong></a></td><td class="num">0.1.1</td><td>JVM, JS, Native</td><td>Scala 3 alone: rows <code>A ! R</code>, one CEK machine, no casts. Standard effects: State, Reader, Writer, Fail, Async, fibers, Ref, Deferred, Semaphore, Queue, Retry, Scope, Stream, Clock, Env, Log; interop with cats-effect, ZIO, tofu.</td></tr>
+    <tr><td><a href="#okay-direct"><strong>okay-direct</strong></a></td><td class="num">0.1.0</td><td>JVM</td><td>Direct style for Java 25: <code>perform</code> is a method call, <code>handle</code> runs a body; implementations on Loom, threads and Espresso (multi-shot); Scala 3 and 2.13 front ends with cats-effect and ZIO interop.</td></tr>
+    <tr><td><a href="#okay-kotlin"><strong>okay-kotlin</strong></a></td><td class="num">0.1.0</td><td>JVM, JS, Native</td><td>Kotlin 2.4 in two styles of one family: effects as interfaces with context parameters on coroutines (deep, multi-shot), and effects as data on okay-scala's CEK machine.</td></tr>
+    <tr><td><a href="#okay-http"><strong>okay-http</strong></a></td><td class="num">0.1.1</td><td>JVM, JS, Native</td><td>HTTP as effects: <code>Request</code> and <code>Response</code> as data, a body text or bytes; the server's effect and the client's; the JDK's server and client, the browser's <code>fetch</code>, a loopback for tests. <code>okay-http-rest</code>: routes, links and resources (HATEOAS), problems in RFC 9457's shape.</td></tr>
+    <tr><td><a href="#okay-mcp"><strong>okay-mcp</strong></a></td><td class="num">0.1.0</td><td>JVM, JS, Native</td><td>The Model Context Protocol as effects: JSON-RPC as data, a server a program over a <code>Link</code> (stdio, HTTP, a script in a test), tools and resources, elicitation — a question to the user from inside a tool's call.</td></tr>
+    <tr><td><a href="#okay-faces"><strong>okay-faces</strong></a></td><td class="num">0.1.0</td><td>JVM, JS</td><td>User interfaces on effects: one program, every face — a test script, a terminal, Swing, Laminar and plain DOM in a page, HTML from a server, a REST API, an MCP server for agents; hosting on Cloudflare Workers.</td></tr>
+    <tr><td><a href="#okay-store"><strong>okay-store</strong></a></td><td class="num">0.1.0</td><td>JVM, JS, Native (jdbc: JVM)</td><td>Data as effects: journaled, versioned records typed by a schema (<code>Store</code>); documents with a query of reference meaning (<code>Data</code>) on memory, files, SQLite and Postgres; a type's repository, the whole of an ORM (<code>Mapping</code>), its fields checked by the compiler.</td></tr>
+    <tr><td><a href="#okay-proof"><strong>okay-proof</strong></a></td><td class="num">0.1.0</td><td>JVM, JS</td><td>A small LCF prover for the run time — every inference step an effect, a certificate okay-lean checks again — and <code>okay-policy</code>, a language of policies whose every decision is a theorem: okay-guard's.</td></tr>
+  </table>
+  <p class="note">Built on these and public, not released yet: <a href="cloud.html">okay-serverless</a> (a cloud as effects), <a href="https://github.com/okay-effects/okay-lean">okay-lean</a> (effects in Lean 4, laws proved). Live applications: <a href="index.html#coinpath">Coinpath</a> and <a href="index.html#okay-guard">okay-guard</a>.</p>
+</div></section>
+
+<section><div class="wrap">
+  <h2>How they fit</h2>
+  <div class="grid3">
+    <div class="card"><div class="when">Effects</div><h3>okay-simple, okay-scala</h3><p>Two Scala libraries of one design. A bridge in okay-simple (<code>okay-effects-cek</code>) runs okay-simple's code on okay-scala's machine, and <code>OnCek.into</code> puts it into an okay-scala program: one machine, one run.</p></div>
+    <div class="card"><div class="when">Applications</div><h3>okay-http, okay-mcp, okay-faces, okay-store</h3><p>One JSON (<code>okay-effects-json</code>), one HTTP model, one way of describing an effect (<code>Describe</code>): a type mapped by okay-store is served by okay-faces as REST resources and MCP tools with nothing more written.</p></div>
+    <div class="card"><div class="when">Other languages</div><h3>okay-direct, okay-kotlin</h3><p>The same model in Java and Kotlin; Kotlin's data style runs on okay-scala's machine. More languages on the <a href="index.html#languages">front page</a>.</p></div>
+  </div>
+</div></section>
+
+<section id="okay-simple"><div class="wrap">
+  <h2>okay-simple <span style="font-size:16px;color:var(--muted);font-weight:400">0.1.1</span></h2>
+  <p class="sub">Algebraic effects for Scala 3 and 2.13 behind one interface; three implementations (a machine, <code>Free</code>, tagless), standard effects, modules for JSON, shapes, streams, async, resources, transactions; interop with cats-effect, ZIO, kyo.</p>
+  <pre>resolvers ++= Seq(&quot;okay-simple&quot; at &quot;https://okay-effects.github.io/okay-simple/maven&quot;)
+libraryDependencies ++= Seq(&quot;io.github.okay-effects&quot; %%% &quot;okay-effects&quot; % &quot;0.1.1&quot;,
+  &quot;io.github.okay-effects&quot; %%% &quot;okay-effects-machine&quot; % &quot;0.1.1&quot;)   // the interface, and an implementation</pre>
+  <p class="note">Platforms: JVM, JS, Native. Source and documentation: <a href="https://github.com/okay-effects/okay-simple">github.com/okay-effects/okay-simple</a>.</p>
+</div></section>
+
+<section id="okay-scala"><div class="wrap">
+  <h2>okay-scala <span style="font-size:16px;color:var(--muted);font-weight:400">0.1.1</span></h2>
+  <p class="sub">Scala 3 alone: rows <code>A ! R</code>, one CEK machine, no casts. Standard effects: State, Reader, Writer, Fail, Async, fibers, Ref, Deferred, Semaphore, Queue, Retry, Scope, Stream, Clock, Env, Log; interop with cats-effect, ZIO, tofu.</p>
+  <pre>resolvers ++= Seq(&quot;okay-scala&quot; at &quot;https://okay-effects.github.io/okay-scala/maven&quot;)
+libraryDependencies += &quot;io.github.okay-effects&quot; %%% &quot;okay-scala&quot; % &quot;0.1.1&quot;</pre>
+  <p class="note">Platforms: JVM, JS, Native. Source and documentation: <a href="https://github.com/okay-effects/okay-scala">github.com/okay-effects/okay-scala</a>.</p>
+</div></section>
+
+<section id="okay-direct"><div class="wrap">
+  <h2>okay-direct <span style="font-size:16px;color:var(--muted);font-weight:400">0.1.0</span></h2>
+  <p class="sub">Direct style for Java 25: <code>perform</code> is a method call, <code>handle</code> runs a body; implementations on Loom, threads and Espresso (multi-shot); Scala 3 and 2.13 front ends with cats-effect and ZIO interop.</p>
+  <pre>// Gradle (Kotlin DSL), Java 25
+repositories { maven(&quot;https://okay-effects.github.io/okay-direct/maven&quot;) }
+dependencies {
+  implementation(&quot;io.github.okay-effects:okay-direct-api:0.1.0&quot;)
+  implementation(&quot;io.github.okay-effects:okay-direct-loom:0.1.0&quot;)   // or -threads, -espresso
+}</pre>
+  <p class="note">Platforms: JVM. Source and documentation: <a href="https://github.com/okay-effects/okay-direct">github.com/okay-effects/okay-direct</a>.</p>
+</div></section>
+
+<section id="okay-kotlin"><div class="wrap">
+  <h2>okay-kotlin <span style="font-size:16px;color:var(--muted);font-weight:400">0.1.0</span></h2>
+  <p class="sub">Kotlin 2.4 in two styles of one family: effects as interfaces with context parameters on coroutines (deep, multi-shot), and effects as data on okay-scala's CEK machine.</p>
+  <pre>// Gradle (Kotlin DSL)
+repositories { maven(&quot;https://okay-effects.github.io/okay-kotlin/maven&quot;) }
+dependencies { implementation(&quot;io.github.okay-effects:okay-kotlin:0.1.0&quot;) }</pre>
+  <p class="note">Platforms: JVM, JS, Native. Source and documentation: <a href="https://github.com/okay-effects/okay-kotlin">github.com/okay-effects/okay-kotlin</a>.</p>
+</div></section>
+
+<section id="okay-http"><div class="wrap">
+  <h2>okay-http <span style="font-size:16px;color:var(--muted);font-weight:400">0.1.1</span></h2>
+  <p class="sub">HTTP as effects: <code>Request</code> and <code>Response</code> as data, a body text or bytes; the server's effect and the client's; the JDK's server and client, the browser's <code>fetch</code>, a loopback for tests. <code>okay-http-rest</code>: routes, links and resources (HATEOAS), problems in RFC 9457's shape.</p>
+  <pre>resolvers ++= Seq(&quot;okay-simple&quot; at &quot;https://okay-effects.github.io/okay-simple/maven&quot;,
+  &quot;okay-http&quot; at &quot;https://okay-effects.github.io/okay-http/maven&quot;)
+libraryDependencies ++= Seq(&quot;io.github.okay-effects&quot; %%% &quot;okay-http&quot; % &quot;0.1.1&quot;,
+  &quot;io.github.okay-effects&quot; %%% &quot;okay-http-rest&quot; % &quot;0.1.1&quot;)</pre>
+  <p class="note">Platforms: JVM, JS, Native. Source and documentation: <a href="https://github.com/okay-effects/okay-http">github.com/okay-effects/okay-http</a>.</p>
+</div></section>
+
+<section id="okay-mcp"><div class="wrap">
+  <h2>okay-mcp <span style="font-size:16px;color:var(--muted);font-weight:400">0.1.0</span></h2>
+  <p class="sub">The Model Context Protocol as effects: JSON-RPC as data, a server a program over a <code>Link</code> (stdio, HTTP, a script in a test), tools and resources, elicitation — a question to the user from inside a tool's call.</p>
+  <pre>resolvers ++= Seq(&quot;okay-simple&quot; at &quot;https://okay-effects.github.io/okay-simple/maven&quot;,
+  &quot;okay-mcp&quot; at &quot;https://okay-effects.github.io/okay-mcp/maven&quot;)
+libraryDependencies += &quot;io.github.okay-effects&quot; %%% &quot;okay-mcp&quot; % &quot;0.1.0&quot;</pre>
+  <p class="note">Platforms: JVM, JS, Native. Source and documentation: <a href="https://github.com/okay-effects/okay-mcp">github.com/okay-effects/okay-mcp</a>.</p>
+</div></section>
+
+<section id="okay-faces"><div class="wrap">
+  <h2>okay-faces <span style="font-size:16px;color:var(--muted);font-weight:400">0.1.0</span></h2>
+  <p class="sub">User interfaces on effects: one program, every face — a test script, a terminal, Swing, Laminar and plain DOM in a page, HTML from a server, a REST API, an MCP server for agents; hosting on Cloudflare Workers.</p>
+  <pre>resolvers ++= Seq(&quot;okay-simple&quot; at &quot;https://okay-effects.github.io/okay-simple/maven&quot;,
+  &quot;okay-http&quot; at &quot;https://okay-effects.github.io/okay-http/maven&quot;,
+  &quot;okay-mcp&quot; at &quot;https://okay-effects.github.io/okay-mcp/maven&quot;,
+  &quot;okay-faces&quot; at &quot;https://okay-effects.github.io/okay-faces/maven&quot;)
+libraryDependencies ++= Seq(&quot;io.github.okay-effects&quot; %%% &quot;okay-faces&quot; % &quot;0.1.0&quot;,
+  &quot;io.github.okay-effects&quot; %%% &quot;okay-faces-mcp&quot; % &quot;0.1.0&quot;,    // and -rest, -html, -term, -test, -swing,
+  &quot;io.github.okay-effects&quot; %%% &quot;okay-effects-machine&quot; % &quot;0.1.1&quot;)   // -laminar, -dom, -cloudflare</pre>
+  <p class="note">Platforms: JVM, JS. Source and documentation: <a href="https://github.com/okay-effects/okay-faces">github.com/okay-effects/okay-faces</a>.</p>
+</div></section>
+
+<section id="okay-store"><div class="wrap">
+  <h2>okay-store <span style="font-size:16px;color:var(--muted);font-weight:400">0.1.0</span></h2>
+  <p class="sub">Data as effects: journaled, versioned records typed by a schema (<code>Store</code>); documents with a query of reference meaning (<code>Data</code>) on memory, files, SQLite and Postgres; a type's repository, the whole of an ORM (<code>Mapping</code>), its fields checked by the compiler.</p>
+  <pre>resolvers ++= Seq(&quot;okay-simple&quot; at &quot;https://okay-effects.github.io/okay-simple/maven&quot;,
+  &quot;okay-store&quot; at &quot;https://okay-effects.github.io/okay-store/maven&quot;)
+libraryDependencies ++= Seq(&quot;io.github.okay-effects&quot; %%% &quot;okay-store&quot; % &quot;0.1.0&quot;,
+  &quot;io.github.okay-effects&quot; %% &quot;okay-store-jdbc&quot; % &quot;0.1.0&quot;)   // SQLite and Postgres, the JVM</pre>
+  <p class="note">Platforms: JVM, JS, Native (jdbc: JVM). Source and documentation: <a href="https://github.com/okay-effects/okay-store">github.com/okay-effects/okay-store</a>.</p>
+</div></section>
+
+<section id="okay-proof"><div class="wrap">
+  <h2>okay-proof <span style="font-size:16px;color:var(--muted);font-weight:400">0.1.0</span></h2>
+  <p class="sub">A small LCF prover for the run time — every inference step an effect, a certificate okay-lean checks again — and <code>okay-policy</code>, a language of policies whose every decision is a theorem: okay-guard's.</p>
+  <pre>resolvers ++= Seq(&quot;okay-scala&quot; at &quot;https://okay-effects.github.io/okay-scala/maven&quot;,
+  &quot;okay-proof&quot; at &quot;https://okay-effects.github.io/okay-proof/maven&quot;)
+libraryDependencies ++= Seq(&quot;io.github.okay-effects&quot; %%% &quot;okay-proof&quot; % &quot;0.1.0&quot;,
+  &quot;io.github.okay-effects&quot; %%% &quot;okay-policy&quot; % &quot;0.1.0&quot;)</pre>
+  <p class="note">Platforms: JVM, JS. Source and documentation: <a href="https://github.com/okay-effects/okay-proof">github.com/okay-effects/okay-proof</a>.</p>
+</div></section>
+
+<footer><div class="wrap">
+  <span>okay-effects · Apache License 2.0 · <a href="index.html">okay-effects.github.io</a> · <a href="https://github.com/okay-effects">okay-effects on GitHub</a></span>
+  <a class="more" href="index.html#author">Need more?</a>
+</div></footer>
+
+</body>
+</html>

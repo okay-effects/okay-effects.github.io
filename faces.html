@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<title>okay-faces: user interfaces on algebraic effects — okay-effects</title>
+<meta name="description" content="okay-faces is a Scala library for user interfaces on algebraic effects: one program is a window, a terminal, a web page, a REST API and an MCP server for AI agents.">
+<style>
+  :root { --fg:#1b1f24; --muted:#57606a; --line:#d8dee4; --bg:#ffffff; --soft:#f6f8fa; --accent:#0b6e4f; --code:#0d1117; --codefg:#e6edf3; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--fg); background:var(--bg); }
+  a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+  .wrap { max-width:1040px; margin:0 auto; padding:0 24px; }
+  header.top { border-bottom:1px solid var(--line); }
+  header.top .wrap { display:flex; justify-content:space-between; align-items:center; height:56px; }
+  .brand { font-weight:700; color:var(--fg); letter-spacing:-0.01em; }
+  nav a { margin-left:20px; color:var(--muted); font-size:15px; }
+  .hero { padding:72px 0 56px; border-bottom:1px solid var(--line); }
+  .hero h1 { font-size:40px; line-height:1.15; margin:0 0 18px; letter-spacing:-0.02em; max-width:820px; }
+  .hero .cols { display:grid; grid-template-columns:.9fr 1.1fr; gap:36px; align-items:center; }
+  .hero .art img { width:100%; height:auto; display:block; }
+  .hero p.lead { font-size:20px; color:var(--muted); max-width:760px; margin:0 0 28px; }
+  .cta a { display:inline-block; padding:10px 18px; border-radius:6px; margin:0 10px 10px 0; font-weight:600; font-size:15px; }
+  .cta .primary { background:var(--accent); color:#fff; } .cta .primary:hover { text-decoration:none; opacity:.92; }
+  .cta .secondary { border:1px solid var(--line); color:var(--fg); }
+  section { padding:56px 0; border-bottom:1px solid var(--line); }
+  section h2 { font-size:28px; margin:0 0 8px; letter-spacing:-0.01em; }
+  section p.sub { color:var(--muted); margin:0 0 28px; max-width:760px; }
+  .grid3 { display:grid; grid-template-columns:repeat(3, 1fr); gap:20px; }
+  .grid2 { display:grid; grid-template-columns:repeat(2, 1fr); gap:20px; }
+  .card { border:1px solid var(--line); border-radius:8px; padding:20px; background:var(--bg); }
+  .card h3 { margin:0 0 8px; font-size:17px; }
+  #start .grid2 { grid-template-columns:1fr; gap:28px; } .grid2 > div, .grid3 > div { min-width:0; }
+  #start .grid2 > div > h3, #start > .wrap > h3 { font-size:17px; margin:0 0 10px; }
+  .card p { margin:0; color:var(--muted); font-size:15px; }
+  .card .when { font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--accent); font-weight:700; margin-bottom:6px; }
+  pre { background:var(--code); color:var(--codefg); padding:18px 20px; border-radius:8px; overflow-x:auto; font:13.5px/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; margin:0; }
+  code { font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size:.92em; }
+  p code, li code, td code { background:var(--soft); padding:1px 5px; border-radius:4px; }
+  .c { color:#8b949e; } .k { color:#ff7b72; } .s { color:#a5d6ff; } .t { color:#ffa657; }
+  table { border-collapse:collapse; width:100%; font-size:15px; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-size:13px; color:var(--muted); font-weight:600; text-transform:uppercase; letter-spacing:.04em; }
+  td:first-child { white-space:nowrap; }
+  td.num { font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .us { font-weight:700; }
+  .loss { color:#a40e26; }
+  ul.tight { margin:0; padding-left:20px; color:var(--muted); font-size:15px; }
+  ul.tight li { margin:4px 0; }
+  .note { font-size:14px; color:var(--muted); margin-top:16px; }
+  footer { padding:40px 0 56px; color:var(--muted); font-size:14px; }
+  .author { display:grid; grid-template-columns:2fr 1fr; gap:32px; }
+  @media (max-width: 820px) { .hero .cols { grid-template-columns:1fr; } .grid3, .grid2, .author { grid-template-columns:1fr; } .hero h1 { font-size:34px; } header.top .wrap { height:auto; flex-wrap:wrap; padding-top:12px; padding-bottom:4px; } nav { width:100%; display:flex; gap:18px; overflow-x:auto; white-space:nowrap; padding:8px 0; scrollbar-width:none; } nav::-webkit-scrollbar { display:none; } nav a { margin-left:0; } table { display:block; max-width:100%; overflow-x:auto; } }
+  footer .wrap { display:flex; flex-wrap:wrap; align-items:baseline; gap:6px; } footer .more { margin-left:auto; font-weight:600; }
+</style>
+<style> .step { margin-top:40px; } .step h2 { font-size:22px; } .out { font-size:14px; color:var(--muted); margin-top:10px; } </style>
+</head>
+<body>
+
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html">okay-effects</a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#program">A program</a>
+    <a href="#faces">Faces</a>
+    <a href="#agents">For agents</a>
+    <a href="#cloudflare">Cloudflare</a>
+    <a href="#types">A type served</a>
+    <a href="libraries.html#okay-faces">Add it</a>
+  </nav>
+</div></header>
+
+<section class="hero" style="padding:56px 0 40px"><div class="wrap">
+  <h1>okay-faces: user interfaces on algebraic effects</h1>
+  <p class="lead">A Scala library in which an application is one program: it shows views and offers actions, and each <em>face</em> decides how — a desktop window, a terminal, a web page, HTML from a server, a REST API, an MCP server for an AI agent. The program names no face; a face is a handler of its one effect.</p>
+  <div class="cta"><a class="primary" href="libraries.html#okay-faces">Add okay-faces 0.1.0</a><a class="secondary" href="https://github.com/okay-effects/okay-faces">On GitHub</a></div>
+</div></section>
+
+<section id="program"><div class="wrap">
+  <h2>A program, and every face</h2>
+  <p class="sub">A program is a value. <code>fill</code> asks for a form made from a type, <code>confirm</code> for a yes or no, <code>show</code> tells; nothing says how. Which face runs it is said once, where it is run. The block is the README's, compiled and run in okay-faces' build (<code>sbt docsCheck/test</code>).</p>
+  <pre>import okay.faces.*
+import okay.effects.shape.Shape
+
+case class Who(name: String)
+val who = Shape.derived[Who].labelled(&quot;name&quot;, &quot;Name&quot;)   // one typed shape: the form, the JSON Schema, the decoder
+
+val greeting: String ! Face =           // Face alone is the row
+  fill[Who, Face](View.heading(&quot;Who are you?&quot;), who).flatMap(w =&gt;
+    confirm[Face](View.text(s&quot;Greet ${w.name}?&quot;)).flatMap(yes =&gt;
+      if yes then show[Face](View.text(s&quot;Hello, ${w.name}!&quot;)).map(_ =&gt; &quot;greeted&quot;) else pure(&quot;left&quot;)))
+
+// every face is a handler of the one effect; the implementation is said once, where the program is run:
+object AtTheTerminal:
+  import okay.effects.machine.Machine.self
+  import okay.faces.term.Terminal
+  def main(args: Array[String]): Unit = run(Terminal.console(greeting))
+  // or SwingFace.handle(greeting), McpFace.stdio(greeting), HtmlFace.serve(greeting, port, host),
+  // RestFace.serve(greeting, port, host), LaminarFace.mount(greeting) in a page
+
+// the test face plays it by a script, and tells what was shown — the reference every other face agrees with:
+import okay.effects.machine.Machine.self
+import okay.faces.test.Plays
+val plays = Plays()
+plays.handle(greeting)(plays.Script.of(Chosen(&quot;submit&quot;, okay.effects.json.Json.obj(&quot;name&quot; -&gt; okay.effects.json.Json.Str(&quot;Ann&quot;))),
+    Chosen.plain(&quot;yes&quot;))) match
+  case plays.Played.Finished(views, a) =&gt; assert(a == &quot;greeted&quot; &amp;&amp; views.last == View.text(&quot;Hello, Ann!&quot;))
+  case other =&gt; assert(false, other.toString)</pre>
+  <p class="note">A form comes from one typed <code>Shape</code>: the same shape is the form a person fills, the JSON Schema an agent is given and the decoder of what comes back. A wrong value is refused with its problems and their paths, and the program stays on the same step.</p>
+</div></section>
+
+<section id="faces"><div class="wrap">
+  <h2>The faces</h2>
+  <p class="sub">Every face is a loop over one step machine — <code>Waiting(view, actions, resume)</code>, <code>Told(view, next)</code>, <code>Done(a)</code> — with the continuation kept. What a face adds is how it shows a view and how it reads a choice; the test face plays a program by a script, and every other face agrees with it.</p>
+  <table>
+    <tr><th>Face</th><th>Module</th><th>What it is</th></tr>
+    <tr><td>test</td><td><code>okay-faces-test</code></td><td>a script of choices drives the program; what was shown, asserted</td></tr>
+    <tr><td>terminal</td><td><code>okay-faces-term</code></td><td>a line dialogue on the console; ANSI when asked</td></tr>
+    <tr><td>Swing</td><td><code>okay-faces-swing</code></td><td>a window on the JVM, forms from the shape, dressed by a look</td></tr>
+    <tr><td>Laminar, DOM</td><td><code>okay-faces-laminar</code>, <code>-dom</code></td><td>Scala.js in a page — with Laminar, or with no library at all; the browser's back, focus, keys</td></tr>
+    <tr><td>remote</td><td>the same</td><td>the same page over a program on a server, the browser knowing no application</td></tr>
+    <tr><td>HTML</td><td><code>okay-faces-html</code></td><td>pages from the server, structural HTML5, no script; forms posted</td></tr>
+    <tr><td>REST</td><td><code>okay-faces-rest</code></td><td>the dialogue as a JSON API with links and affordances (HATEOAS)</td></tr>
+    <tr><td>MCP</td><td><code>okay-faces-mcp</code></td><td>the dialogue as tools for an AI agent, over stdio or HTTP with sessions</td></tr>
+  </table>
+  <p class="note">How it looks is data: a <code>Look</code> of theme tokens and style rules, compiled by each face to CSS, Swing or ANSI. The examples in the repository — noughts and crosses, a to-do list — run on every face, each main one line.</p>
+</div></section>
+
+<section id="agents"><div class="wrap">
+  <h2>For AI agents: the MCP face</h2>
+  <p class="sub">The agent sees, at every step, exactly the actions a person would see — so it cannot do more than a person, and the boundary is the program, not a prompt.</p>
+  <div class="grid2">
+    <div class="card"><h3>Actions as tools</h3><p>The current step's actions are the tools, each with the JSON Schema of its shape, plus <code>look</code> and <code>back</code>. When the step changes, the list changes and the server says so (<code>list_changed</code>). For clients that read the list once, one tool <code>act</code> carries every action.</p></div>
+    <div class="card"><h3>Results the model can read</h3><p>Each result is the next view twice: Markdown to read, and a structured object with the view and the actions available. A rejected call is an error result listing the problems with their paths; the step is unchanged.</p></div>
+    <div class="card"><h3>Sessions over HTTP</h3><p>stdio, or the protocol's Streamable HTTP: <code>initialize</code> opens a session (<code>Mcp-Session-Id</code>), <code>DELETE</code> ends it; answers as JSON, or as an event stream when the client takes one.</p></div>
+    <div class="card"><h3>Asking the person</h3><p>Elicitation — a question to the user in the middle of a call, such as a consent. The program's continuation is parked between HTTP requests, no thread kept; the call goes on when the answer comes.</p></div>
+  </div>
+  <p class="note">A described effect becomes tools too (<code>McpFace.domain</code>): every operation <code>{domain}_{operation}</code> with its parameters' and result's schemas. MCP itself is <a href="libraries.html#okay-mcp">okay-mcp</a>: JSON-RPC as data, a server a program over a link.</p>
+</div></section>
+
+<section id="cloudflare"><div class="wrap">
+  <h2>On Cloudflare Workers, one line</h2>
+  <p class="sub">Where a program runs is a deploying, not a face. One more main serves it on Cloudflare Workers, each session a Durable Object (module <code>okay-faces-cloudflare</code>):</p>
+  <pre>Cloudflare.serve(Door.shell(…), Door.html(program), Door.rest(program), Door.mcp(program))</pre>
+  <p class="note">A session's continuation is code and is never stored. What is stored is data: the last point the program said it is at, and the requests since. A new object starts the program at the point and plays those few requests, and is where it was — a question asked, too. The thin page is told by its session's socket when the session moved elsewhere.</p>
+</div></section>
+
+<section id="types"><div class="wrap">
+  <h2>A type served: REST resources and MCP tools</h2>
+  <p class="sub">The other role: an effect described (okay-simple's <code>Describe</code>) is served with nothing more written. A type mapped by <a href="libraries.html#okay-store">okay-store</a> is described by its mapping, so it gets a REST API (<code>RestDomains</code>: the description at <code>GET base</code>, an operation at <code>base/&lt;name&gt;</code>) and MCP tools (<code>McpFace.domain</code>) — and is performed from afar by the same description (<code>remote</code>): a program in a page performs it, it happens on the server.</p>
+  <p class="note">In a Worker or a Lambda, with the type's data in D1, Postgres or an object of its own: <a href="cloud.html#faces">okay-serverless</a>.</p>
+</div></section>
+
+<footer><div class="wrap">
+  <span>okay-effects · Apache License 2.0 · <a href="index.html">okay-effects.github.io</a> · <a href="https://github.com/okay-effects/okay-faces">okay-faces on GitHub</a></span>
+  <a class="more" href="index.html#author">Need more?</a>
+</div></footer>
+
+</body>
+</html>

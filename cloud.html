@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<title>okay-serverless: a cloud as effects — okay-effects</title>
+<meta name="description" content="okay-serverless: durable state without replay, and everything a Cloudflare Worker can use as effects — one program on Cloudflare, AWS Lambda or in memory; okay-store's data and okay-faces' REST and MCP in the cloud.">
+<style>
+  :root { --fg:#1b1f24; --muted:#57606a; --line:#d8dee4; --bg:#ffffff; --soft:#f6f8fa; --accent:#0b6e4f; --code:#0d1117; --codefg:#e6edf3; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--fg); background:var(--bg); }
+  a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+  .wrap { max-width:1040px; margin:0 auto; padding:0 24px; }
+  header.top { border-bottom:1px solid var(--line); }
+  header.top .wrap { display:flex; justify-content:space-between; align-items:center; height:56px; }
+  .brand { font-weight:700; color:var(--fg); letter-spacing:-0.01em; }
+  nav a { margin-left:20px; color:var(--muted); font-size:15px; }
+  .hero { padding:72px 0 56px; border-bottom:1px solid var(--line); }
+  .hero h1 { font-size:40px; line-height:1.15; margin:0 0 18px; letter-spacing:-0.02em; max-width:820px; }
+  .hero .cols { display:grid; grid-template-columns:.9fr 1.1fr; gap:36px; align-items:center; }
+  .hero .art img { width:100%; height:auto; display:block; }
+  .hero p.lead { font-size:20px; color:var(--muted); max-width:760px; margin:0 0 28px; }
+  .cta a { display:inline-block; padding:10px 18px; border-radius:6px; margin:0 10px 10px 0; font-weight:600; font-size:15px; }
+  .cta .primary { background:var(--accent); color:#fff; } .cta .primary:hover { text-decoration:none; opacity:.92; }
+  .cta .secondary { border:1px solid var(--line); color:var(--fg); }
+  section { padding:56px 0; border-bottom:1px solid var(--line); }
+  section h2 { font-size:28px; margin:0 0 8px; letter-spacing:-0.01em; }
+  section p.sub { color:var(--muted); margin:0 0 28px; max-width:760px; }
+  .grid3 { display:grid; grid-template-columns:repeat(3, 1fr); gap:20px; }
+  .grid2 { display:grid; grid-template-columns:repeat(2, 1fr); gap:20px; }
+  .card { border:1px solid var(--line); border-radius:8px; padding:20px; background:var(--bg); }
+  .card h3 { margin:0 0 8px; font-size:17px; }
+  #start .grid2 { grid-template-columns:1fr; gap:28px; } .grid2 > div, .grid3 > div { min-width:0; }
+  #start .grid2 > div > h3, #start > .wrap > h3 { font-size:17px; margin:0 0 10px; }
+  .card p { margin:0; color:var(--muted); font-size:15px; }
+  .card .when { font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--accent); font-weight:700; margin-bottom:6px; }
+  pre { background:var(--code); color:var(--codefg); padding:18px 20px; border-radius:8px; overflow-x:auto; font:13.5px/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; margin:0; }
+  code { font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size:.92em; }
+  p code, li code, td code { background:var(--soft); padding:1px 5px; border-radius:4px; }
+  .c { color:#8b949e; } .k { color:#ff7b72; } .s { color:#a5d6ff; } .t { color:#ffa657; }
+  table { border-collapse:collapse; width:100%; font-size:15px; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-size:13px; color:var(--muted); font-weight:600; text-transform:uppercase; letter-spacing:.04em; }
+  td:first-child { white-space:nowrap; }
+  td.num { font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .us { font-weight:700; }
+  .loss { color:#a40e26; }
+  ul.tight { margin:0; padding-left:20px; color:var(--muted); font-size:15px; }
+  ul.tight li { margin:4px 0; }
+  .note { font-size:14px; color:var(--muted); margin-top:16px; }
+  footer { padding:40px 0 56px; color:var(--muted); font-size:14px; }
+  .author { display:grid; grid-template-columns:2fr 1fr; gap:32px; }
+  @media (max-width: 820px) { .hero .cols { grid-template-columns:1fr; } .grid3, .grid2, .author { grid-template-columns:1fr; } .hero h1 { font-size:34px; } header.top .wrap { height:auto; flex-wrap:wrap; padding-top:12px; padding-bottom:4px; } nav { width:100%; display:flex; gap:18px; overflow-x:auto; white-space:nowrap; padding:8px 0; scrollbar-width:none; } nav::-webkit-scrollbar { display:none; } nav a { margin-left:0; } table { display:block; max-width:100%; overflow-x:auto; } }
+  footer .wrap { display:flex; flex-wrap:wrap; align-items:baseline; gap:6px; } footer .more { margin-left:auto; font-weight:600; }
+</style>
+<style> .step { margin-top:40px; } .step h2 { font-size:22px; } .out { font-size:14px; color:var(--muted); margin-top:10px; } </style>
+</head>
+<body>
+
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html">okay-effects</a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#durable">Durable</a>
+    <a href="#effects">A cloud as effects</a>
+    <a href="#workflows">Workflows</a>
+    <a href="#store">Data</a>
+    <a href="#faces">A type served</a>
+    <a href="#status">Status</a>
+  </nav>
+</div></header>
+
+<section class="hero" style="padding:56px 0 40px"><div class="wrap">
+  <h1>okay-serverless: a cloud as effects</h1>
+  <p class="lead">Everything a Cloudflare Worker can use — KV, R2, D1, Hyperdrive, queues, the cache, rate limits, Durable Objects, WebSockets, cron — is an effect a program names; each cloud is a set of handlers. The same program runs on Cloudflare Workers, on AWS Lambda, and in memory for tests. State is kept without replay.</p>
+  <div class="cta"><a class="primary" href="https://github.com/okay-effects/okay-serverless">On GitHub</a><a class="secondary" href="#status">Status: from source</a></div>
+</div></section>
+
+<section id="durable"><div class="wrap">
+  <h2>Durable state, without replay</h2>
+  <p class="sub">A serverless instance is evicted, restarted, or run twice at once. Temporal and Azure Durable Functions answer with replay: a journal, the code run again, and code that must not change while a run lives. Here what is kept is the state itself, written atomically with each step — so a new version of the code goes on from the old state.</p>
+  <div class="grid2">
+    <div class="card"><h3>A step is a transaction</h3><p><code>Durable.step</code> reads a snapshot and its own writes, keeps its writes and commits them all at once with its alarm; nothing written if it fails; run again if what it read changed meanwhile.</p></div>
+    <div class="card"><h3>A process is a machine</h3><p><code>Durable.machine(name, init)(step)</code>: the state loaded, the step run, the new state committed. <code>Durable.once</code>: an external call once per step, with a stable idempotency key. <code>Durable.wakeAt</code>: an alarm, set only if the step commits.</p></div>
+  </div>
+  <p class="note">An account as a durable process, in a Durable Object (from the example Worker, run end to end on <code>wrangler dev</code>):</p>
+  <pre>def event(name: String, e: Json): Account ! A =
+  Durable.machine[Account, Json, AD, A](&quot;account&quot;, Account(0, Nil)) { (a, e) =&gt;
+    (e.field(&quot;op&quot;), e.field(&quot;amount&quot;)) match
+      case (Some(Json.Str(&quot;deposit&quot;)), Some(Json.Num(n))) =&gt; pure(a.copy(balance = a.balance + n.toLong))
+      case (Some(Json.Str(&quot;pay&quot;)), Some(Json.Num(n))) =&gt;
+        if n.toLong &gt; a.balance then Fail.raise[String, AD](s&quot;${n.toLong} is more than the balance ${a.balance}&quot;)
+        else Durable.once[String, AD](&quot;payment&quot;)(key =&gt; pure(s&quot;pay-$key&quot;)).map(id =&gt;
+          a.copy(balance = a.balance - n.toLong, payments = a.payments :+ id))
+      case (Some(Json.Str(&quot;interest-in&quot;)), Some(Json.Num(ms))) =&gt;
+        Clock.now[AD].flatMap(t =&gt; Durable.wakeAt[AD](t + ms.toLong)).as(a)
+      case (Some(Json.Str(&quot;interest&quot;)), _) =&gt; pure(a.copy(balance = a.balance + a.balance / 100))
+      case _ =&gt; Fail.raise[String, AD](s&quot;an event not known: ${Json.print(e)}&quot;)
+  }(e)</pre>
+  <p class="note">Platforms of the state: a Durable Object's SQLite (one transaction a commit), DynamoDB (a conditional <code>TransactWriteItems</code>; two instances at once lose nothing), memory with faults (a crash before or after a commit, a conflicting writer, an eviction) — one set of scenarios every platform passes. A twin on okay-simple, for Scala 2.13 and 3, keeps the same stored format.</p>
+</div></section>
+
+<section id="effects"><div class="wrap">
+  <h2>A cloud as effects</h2>
+  <p class="sub">Each effect is the program's; each cloud is a <code>Platform</code> of ports, one an effect. A resource is a logical name the platform maps to its binding. What a cloud lacks, its port says by name.</p>
+  <table>
+    <tr><th>Effect</th><th>Cloudflare</th><th>AWS</th><th>Memory</th></tr>
+    <tr><td><code>Kv</code></td><td>KV</td><td>DynamoDB (TTL)</td><td>memory</td></tr>
+    <tr><td><code>Blobs</code></td><td>R2</td><td>S3 — not yet</td><td>memory</td></tr>
+    <tr><td><code>Sql</code></td><td>D1; Postgres through Hyperdrive</td><td>Postgres (RDS Proxy)</td><td>SQLite file (JVM)</td></tr>
+    <tr><td><code>Queues</code></td><td>Queues, a consumer</td><td>SQS events in; sending — not yet</td><td>memory, dead letters</td></tr>
+    <tr><td><code>Fetch</code></td><td>fetch</td><td>fetch (Node)</td><td>a function</td></tr>
+    <tr><td><code>Cache</code></td><td>Cache API</td><td>—</td><td>memory</td></tr>
+    <tr><td><code>Env</code></td><td>vars, secrets</td><td>process environment</td><td>maps</td></tr>
+    <tr><td><code>Services</code></td><td>service bindings</td><td>Lambda invoke — not yet</td><td>apps by name</td></tr>
+    <tr><td><code>Limits</code></td><td>Rate Limiting</td><td>a DynamoDB counter</td><td>fixed window</td></tr>
+    <tr><td><code>Ai</code></td><td>Workers AI (written, not run locally)</td><td>Bedrock — not yet</td><td>a function</td></tr>
+    <tr><td><code>Vectors</code></td><td>Vectorize (written, not run locally)</td><td>not yet</td><td>cosine</td></tr>
+    <tr><td><code>Analytics</code></td><td>Analytics Engine</td><td>CloudWatch metrics (EMF)</td><td>kept</td></tr>
+    <tr><td><code>Mails</code></td><td>send_email</td><td>SES — not yet</td><td>kept</td></tr>
+    <tr><td><code>Objects</code></td><td>Durable Objects</td><td>the same Lambda, its state a DynamoDB space</td><td>in process</td></tr>
+    <tr><td><code>Sockets</code></td><td>WebSockets (hibernation)</td><td>not yet</td><td>in memory</td></tr>
+  </table>
+  <p class="note">HTTP is <a href="libraries.html#okay-http">okay-http</a>'s model, a body text or bytes; JSON is okay-simple's; <code>Env</code>, <code>Log</code>, <code>Clock</code>, <code>Async</code> are okay-scala's own. A Worker is an <code>App</code> (<code>fetch</code>, <code>scheduled</code>, <code>queue</code>, <code>mail</code>), an object class an <code>Actor</code> (<code>fetch</code>, <code>alarm</code>, socket messages); a Lambda takes API Gateway's, SQS's and EventBridge's events. Excerpts of the example Worker:</p>
+  <pre>override def fetch(r: Request): Response ! Cloud = r.path match
+  case &quot;/&quot; =&gt; Objects.call[Cloud](&quot;ACCOUNTS&quot;, r.param(&quot;account&quot;).getOrElse(&quot;main&quot;), r)
+  case &quot;/queue&quot; =&gt; Queues.send[Cloud](&quot;JOBS&quot;, q(r, &quot;body&quot;)).as(Response.text(&quot;queued&quot;))
+  case &quot;/cached&quot; =&gt; Cache.through[Cloud](&quot;https://okay.example/cached&quot;, 60)(
+      Clock.now[Cloud].map(t =&gt; Response.text(s&quot;made at $t&quot;)))
+  case &quot;/limit&quot; =&gt; Limits.take[Cloud](&quot;LIMITER&quot;, q(r, &quot;key&quot;)).map(ok =&gt; Response.text(ok.toString))
+  case _ =&gt; pure(Response.notFound())
+
+override def queue(queue: String, m: Message): Settle ! Cloud =
+  Kv.put[Cloud](&quot;KV&quot;, s&quot;job:${m.body}&quot;, s&quot;done after ${m.attempts}&quot;).andThen(Log.info[Cloud](s&quot;job ${m.body}&quot;))
+    .as(Settle.Ack)</pre>
+</div></section>
+
+<section id="workflows"><div class="wrap">
+  <h2>Workflows, as data</h2>
+  <p class="sub">Cloudflare Workflows replay a function. Here a workflow is a list of stages — a step retried with backoff, a sleep, a wait for an event — run by an object: each stage one durable step, a sleep an alarm, an event a request. Restarted anywhere, it goes on from the stage committed.</p>
+  <pre>val Orders: Workflow[Json] = Workflow[Json](identity)(
+  Stage.Do(&quot;charge&quot;, o =&gt; Kv.put[InActor + Fail % String](&quot;KV&quot;,
+    s&quot;charged:${o.field(&quot;id&quot;).fold(&quot;?&quot;)(j =&gt; Json.print(j))}&quot;, &quot;yes&quot;).as(o)),
+  Stage.Sleep(&quot;pause&quot;, 1000),
+  Stage.Wait(&quot;approval&quot;, &quot;approved&quot;, (o, j) =&gt; o match
+    case Json.Obj(fs) =&gt; Json.Obj(fs :+ (&quot;approvedBy&quot; -&gt; j.field(&quot;by&quot;).getOrElse(Json.Null)))
+    case other =&gt; other),
+  Stage.Do(&quot;mail&quot;, o =&gt; Mails.send[InActor + Fail % String](&quot;MAIL&quot;, Mail(&quot;shop@okay.example&quot;, &quot;ann@okay.example&quot;,
+    &quot;approved&quot;, Json.print(o))).as(o)))</pre>
+</div></section>
+
+<section id="store"><div class="wrap">
+  <h2>Data: okay-store in the cloud</h2>
+  <p class="sub"><a href="libraries.html#okay-store">okay-store</a>'s effects are data, so a cloud program performs them as they are: a type's repository (<code>Repo.save</code>, <code>find</code>, <code>create</code>…) and documents with a query (<code>Docs</code>), handled on SQL (D1, Postgres through Hyperdrive or RDS Proxy, SQLite), on KV, or in an object's own durable state — a store per tenant, a step one transaction. The SQL is okay-store's own.</p>
+  <pre>final case class Sale(id: String, item: String, qty: Int)
+val sales: Mapping[Sale] = Mapping.keyed(&quot;sales&quot;, Shape.derived[Sale])(_.id)
+type Sales[X] = Repo.Of[Sale][X]
+def selling[R[_]](item: String, qty: Int)(using In[Sales, R]): String ! R =
+  Repo.create[Sale, R](k =&gt; Sale(k, item, qty)).flatMap(s =&gt;
+    Repo.find[Sale, R](sales.at(_.qty) &gt; 1, List(sales.at(_.qty).desc)).flatMap(big =&gt;
+      Repo.count[Sale, R]().map(n =&gt; s&quot;${s.id} of $n; big: ${big.map(_.item).mkString(&quot;,&quot;)}&quot;)))
+type CD[X] = (Cloud + Data)[X]
+type CS[X] = (CD + Sales)[X]
+def sold(r: Request, db: String, dialect: Dialect): Response ! Cloud =
+  StoreOn.sql[CD, Cloud, String](db, dialect)(StoreOn.data[Sale, CS, CD, String](sales)(
+    selling[CS](r.param(&quot;item&quot;).getOrElse(&quot;?&quot;), r.param(&quot;qty&quot;).map(_.toInt).getOrElse(1)))).map(Response.text(_))</pre>
+  <p class="note">okay-store's journaled records (<code>Store</code>: kinds, versions, the journal, the audit) run here by okay-store's own handler, put into the cloud program by okay-simple's bridge (<code>OnCek.into</code>) — one machine, one run, and in an object one transaction with the rest of the step. Checked against okay-store's own reference on memory, SQLite, Postgres and <code>wrangler dev</code>.</p>
+</div></section>
+
+<section id="faces"><div class="wrap">
+  <h2>A type served: REST and MCP from a Worker</h2>
+  <p class="sub">The same mapped type, served by <a href="faces.html">okay-faces</a>' own REST resources and MCP tools — described, not written — its operations on D1:</p>
+  <pre>/** THE TYPE SERVED: okay-faces&#x27; REST resources and MCP tools of `sales`, from its description alone */
+val salesRest = Faces.rest(Mapping.describe(sales), &quot;/api/sales&quot;)
+val salesMcp = Faces.mcp(Mapping.describe(sales), &quot;shop&quot;)
+/** the face&#x27;s program in the cloud&#x27;s row, the type on D1 */
+def served(face: Request =&gt; OkayCek[Response], r: Request): Response ! Cloud =
+  StoreOn.sql[CD, Cloud, Response](&quot;DB&quot;, Dialect.sqlite)(StoreOn.data[Sale, CS, CD, Response](sales)(
+    OnCek.into[CS](face(r))))
+type OkayCek[A] = OnCek.![A, Faces.Only[Repo.Of[Sale]]]</pre>
+  <p class="note">On <code>wrangler dev</code>: the description, a <code>create</code> with a key from D1, a search by a condition; MCP's <code>initialize</code>, the tools and a call on the same D1; a shop's REST on its own Durable Object. A Lambda serves it from Postgres the same way.</p>
+</div></section>
+
+<section id="status"><div class="wrap">
+  <h2>Status</h2>
+  <p class="sub">Public on GitHub, not released yet: build it from source (Scala 3.3, on the okay-scala, okay-simple, okay-http, okay-store and okay-faces releases).</p>
+  <ul class="tight">
+    <li>Tests in memory on the JVM and Scala.js; the example Worker end to end on <code>wrangler dev</code> (every binding but Workers AI and Vectorize, which have no local mode); AWS on DynamoDB Local and a Postgres.</li>
+    <li>On AWS so far: durable state, KV, rate limits, objects, Postgres, analytics; S3, sending to SQS, SES, Bedrock, vectors and WebSockets are mapped and not written.</li>
+    <li>Real Hyperdrive and RDS Proxy accounts not run yet: locally, Hyperdrive connects straight to the Postgres.</li>
+  </ul>
+</div></section>
+
+<footer><div class="wrap">
+  <span>okay-effects · Apache License 2.0 · <a href="index.html">okay-effects.github.io</a> · <a href="https://github.com/okay-effects/okay-serverless">okay-serverless on GitHub</a></span>
+  <a class="more" href="index.html#author">Need more?</a>
+</div></footer>
+
+</body>
+</html>
