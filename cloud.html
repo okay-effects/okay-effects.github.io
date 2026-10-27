@@ -74,7 +74,7 @@
 <section class="hero" style="padding:56px 0 40px"><div class="wrap">
   <h1>okay-serverless: a cloud as effects</h1>
   <p class="lead">Everything a Cloudflare Worker can use — KV, R2, D1, Hyperdrive, queues, the cache, rate limits, Durable Objects, WebSockets, cron — is an effect a program names; each cloud is a set of handlers. The same program runs on Cloudflare Workers, on AWS Lambda, and in memory for tests. State is kept without replay.</p>
-  <div class="cta"><a class="primary" href="https://github.com/okay-effects/okay-serverless">On GitHub</a><a class="secondary" href="#status">Status: from source</a></div>
+  <div class="cta"><a class="primary" href="https://github.com/okay-effects/okay-serverless">On GitHub</a><a class="secondary" href="libraries.html#okay-serverless">Add okay-serverless 0.1.0</a></div>
 </div></section>
 
 <section id="durable"><div class="wrap">
@@ -184,11 +184,12 @@ type OkayCek[A] = OnCek.![A, Faces.Only[Repo.Of[Sale]]]</pre>
 
 <section id="status"><div class="wrap">
   <h2>Status</h2>
-  <p class="sub">Public on GitHub, not released yet: build it from source (Scala 3.3, on the okay-scala, okay-simple, okay-http, okay-store and okay-faces releases).</p>
+  <p class="sub">Released: 0.1.0, a Maven repository on GitHub Pages (<a href="libraries.html#okay-serverless">how to add it</a>). Scala 3.3 LTS; Scala.js 1.22 or newer.</p>
   <ul class="tight">
     <li>Tests in memory on the JVM and Scala.js; the example Worker end to end on <code>wrangler dev</code> (every binding but Workers AI and Vectorize, which have no local mode); AWS on DynamoDB Local and a Postgres.</li>
     <li>On AWS so far: durable state, KV, rate limits, objects, Postgres, analytics; S3, sending to SQS, SES, Bedrock, vectors and WebSockets are mapped and not written.</li>
     <li>Real Hyperdrive and RDS Proxy accounts not run yet: locally, Hyperdrive connects straight to the Postgres.</li>
+    <li>In front of every request, admission: <code>Auth.guarded</code> takes a bearer token to its caller (a secret, tokens in KV, any check) — on Workers, Lambdas and in memory; an object's event stream behind it, checked on <code>wrangler dev</code>.</li>
   </ul>
 </div></section>
 

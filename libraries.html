@@ -87,9 +87,10 @@
     <tr><td><a href="#okay-mcp"><strong>okay-mcp</strong></a></td><td class="num">0.1.0</td><td>JVM, JS, Native</td><td>The Model Context Protocol as effects: JSON-RPC as data, a server a program over a <code>Link</code> (stdio, HTTP, a script in a test), tools and resources, elicitation — a question to the user from inside a tool's call.</td></tr>
     <tr><td><a href="#okay-faces"><strong>okay-faces</strong></a></td><td class="num">0.1.0</td><td>JVM, JS</td><td>User interfaces on effects: one program, every face — a test script, a terminal, Swing, Laminar and plain DOM in a page, HTML from a server, a REST API, an MCP server for agents; hosting on Cloudflare Workers.</td></tr>
     <tr><td><a href="#okay-store"><strong>okay-store</strong></a></td><td class="num">0.1.0</td><td>JVM, JS, Native (jdbc: JVM)</td><td>Data as effects: journaled, versioned records typed by a schema (<code>Store</code>); documents with a query of reference meaning (<code>Data</code>) on memory, files, SQLite and Postgres; a type's repository, the whole of an ORM (<code>Mapping</code>), its fields checked by the compiler.</td></tr>
+    <tr><td><a href="#okay-serverless"><strong>okay-serverless</strong></a></td><td class="num">0.1.0</td><td>JVM, JS (Workers, Lambda)</td><td>A cloud as effects: durable state without replay, everything a Cloudflare Worker can use as effects; one program on Cloudflare Workers, AWS Lambda, or in memory; okay-store's data and okay-faces' REST and MCP in the cloud; tokens in front. <a href="cloud.html">More</a>.</td></tr>
     <tr><td><a href="#okay-proof"><strong>okay-proof</strong></a></td><td class="num">0.1.0</td><td>JVM, JS</td><td>A small LCF prover for the run time — every inference step an effect, a certificate okay-lean checks again — and <code>okay-policy</code>, a language of policies whose every decision is a theorem: okay-guard's.</td></tr>
   </table>
-  <p class="note">Built on these and public, not released yet: <a href="cloud.html">okay-serverless</a> (a cloud as effects), <a href="https://github.com/okay-effects/okay-lean">okay-lean</a> (effects in Lean 4, laws proved). Live applications: <a href="index.html#coinpath">Coinpath</a> and <a href="index.html#okay-guard">okay-guard</a>.</p>
+  <p class="note">Public, not released yet: <a href="https://github.com/okay-effects/okay-lean">okay-lean</a> (effects in Lean 4, laws proved). Live applications: <a href="index.html#coinpath">Coinpath</a> and <a href="index.html#okay-guard">okay-guard</a>.</p>
 </div></section>
 
 <section><div class="wrap">
@@ -179,6 +180,18 @@ libraryDependencies ++= Seq(&quot;io.github.okay-effects&quot; %%% &quot;okay-fa
 libraryDependencies ++= Seq(&quot;io.github.okay-effects&quot; %%% &quot;okay-store&quot; % &quot;0.1.0&quot;,
   &quot;io.github.okay-effects&quot; %% &quot;okay-store-jdbc&quot; % &quot;0.1.0&quot;)   // SQLite and Postgres, the JVM</pre>
   <p class="note">Platforms: JVM, JS, Native (jdbc: JVM). Source and documentation: <a href="https://github.com/okay-effects/okay-store">github.com/okay-effects/okay-store</a>.</p>
+</div></section>
+
+<section id="okay-serverless"><div class="wrap">
+  <h2>okay-serverless <span style="font-size:16px;color:var(--muted);font-weight:400">0.1.0</span></h2>
+  <p class="sub">A cloud as effects: durable state without replay (a step a transaction, a process a machine), KV, R2, D1, Hyperdrive, queues, the cache, rate limits, Durable Objects, event streams, cron as effects; one program on Cloudflare Workers, AWS Lambda, or in memory. <a href="cloud.html">The page</a>.</p>
+  <pre>resolvers ++= Seq(&quot;okay-serverless&quot; at &quot;https://okay-effects.github.io/okay-serverless/maven&quot;,
+  &quot;okay-scala&quot; at &quot;https://okay-effects.github.io/okay-scala/maven&quot;,
+  &quot;okay-simple&quot; at &quot;https://okay-effects.github.io/okay-simple/maven&quot;,
+  &quot;okay-http&quot; at &quot;https://okay-effects.github.io/okay-http/maven&quot;)
+libraryDependencies ++= Seq(&quot;io.github.okay-effects&quot; %%% &quot;okay-serverless&quot; % &quot;0.1.0&quot;,
+  &quot;io.github.okay-effects&quot; %%% &quot;okay-serverless-cloudflare&quot; % &quot;0.1.0&quot;)   // or -aws; -store, -faces, -policy, -simple</pre>
+  <p class="note">Platforms: JVM, Scala.js (Scala.js 1.22 or newer); <code>-cloudflare</code> and <code>-aws</code> Scala.js. <code>-store</code> needs the okay-store resolver, <code>-faces</code> the okay-faces and okay-mcp ones, <code>-policy</code> okay-proof's. Source and documentation: <a href="https://github.com/okay-effects/okay-serverless">github.com/okay-effects/okay-serverless</a>.</p>
 </div></section>
 
 <section id="okay-proof"><div class="wrap">
