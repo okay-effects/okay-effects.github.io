@@ -77,6 +77,7 @@
     <a href="#measured">Measured</a>
     <a href="#coinpath">Coinpath</a>
     <a href="#okay-guard">okay-guard</a>
+    <a href="#okay-chat">Okay! Chat</a>
     <a href="#author">Author</a>
     <a href="https://github.com/okay-effects">GitHub</a>
   </nav>
@@ -335,6 +336,31 @@ The handlers give the meaning: here a config value, a log collected into a list 
   </div>
   <h3 style="margin-top:28px">How it is built</h3>
   <p class="sub">Scala 3 and Scala.js, on <a href="https://github.com/okay-effects/okay-simple">okay-simple</a>, <a href="https://github.com/okay-effects/okay-ui">okay-ui</a> and okay's MCP. The guard is a program over its own effects: the wire, the journal, the policy, a person, the clock. The browser, a Cloudflare Worker that passes messages, Node and the JVM are only their handlers. A call waiting for you is the program's continuation, kept until you answer.</p>
+
+  <h3 class="app" id="okay-chat" style="margin-top:48px">Okay! Chat: a marketplace you talk to</h3>
+  <p class="sub">Say in ordinary words what you offer or what you need, and the chat finds the other side, asks them for you and passes on the contacts once they agree. Ask it for vacancies by a keyword and a city, and it reads employers' own public job boards. In the browser and in Telegram, in four languages, on Cloudflare's free plan.</p>
+  <p><a class="btn" href="https://okay-chat-edge.okay-effects.workers.dev/" target="_blank" rel="noopener">Open Okay! Chat</a>
+    <a class="btn" href="https://t.me/OkayChatTestBot" target="_blank" rel="noopener" style="margin-left:8px">In Telegram</a></p>
+  <div class="cp">
+    <a href="https://okay-chat-edge.okay-effects.workers.dev/" target="_blank" rel="noopener"><img src="okay-chat.png" alt="Okay! Chat answering &quot;jobs java, Kraków&quot;: Java engineers in Kraków, each with the employer's own page" loading="lazy"></a>
+    <div>
+      <h3>What it does</h3>
+      <ul class="tight">
+        <li>"I repair washing machines, Wrocław" is kept as an offer; "need a plumber, the tap leaks" is answered with the closest offers, matched by meaning.</li>
+        <li>"Ask 1 2" writes to the people you chose; they answer "take 3" or "decline 3", and only then are the contacts passed on.</li>
+        <li>A need with nobody yet waits: when a matching offer comes, you are told.</li>
+        <li>"Jobs scala, Wrocław", "remote", "anywhere": vacancies from Workable's search and from 206 employers' own boards, each with the employer's page; "more" for the next, "remember" to be told of new ones.</li>
+        <li>Russian, Ukrainian, Polish and English: it answers in the language you write in.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="grid3" style="margin-top:24px">
+    <div class="card"><h3>No model on the way</h3><p>A message is routed by rules and a lookup table in microseconds. A language model answers only what the rules do not understand, under a daily budget, and may promise nothing.</p></div>
+    <div class="card"><h3>Agreed, then shared</h3><p>A deal is a small state machine of its own: nobody's contact is given until the other side says yes, and two answers at once cannot both win.</p></div>
+    <div class="card"><h3>Free to run</h3><p>Workers, Durable Objects, D1, KV and Workers AI, each within its free allowance; the page is static and costs no requests, its messages come by a hibernating WebSocket.</p></div>
+  </div>
+  <h3 style="margin-top:28px">How it is built</h3>
+  <p class="sub">Scala 3 compiled to JavaScript, on <a href="https://github.com/okay-effects/okay-serverless">okay-serverless</a> and <a href="https://github.com/okay-effects/okay-ui">okay-ui</a>. A conversation is a Durable Object, a deal is a Durable Object, the market and the vacancies are in D1, and the cloud's services are effects with Cloudflare's handlers. Telegram, the page and the API are three doors to the same conversations. The page is an okay-ui program: the conversation is its effect <code>Talk</code>, answered over HTTP and the socket.</p>
 </div></section>
 
 <section id="tools"><div class="wrap">
