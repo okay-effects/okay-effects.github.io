@@ -71,13 +71,13 @@
     <a href="business.html">For business</a>
     <a href="modularity.html">Monolith to services</a>
     <a href="scala-spark.html">Scala and Spark</a>
+    <a href="#coinpath">Coinpath</a>
+    <a href="#okay-guard">okay-guard</a>
+    <a href="#okay-chat">Okay! Chat</a>
     <a href="#control">Control and audit</a>
     <a href="#languages">Languages</a>
     <a href="#platform">Platform</a>
     <a href="#measured">Measured</a>
-    <a href="#coinpath">Coinpath</a>
-    <a href="#okay-guard">okay-guard</a>
-    <a href="#okay-chat">Okay! Chat</a>
     <a href="#author">Author</a>
     <a href="https://github.com/okay-effects">GitHub</a>
   </nav>
@@ -98,6 +98,83 @@
 </div>
   <div class="art"><img src="hero.svg" alt="A program performs operations as typed data; each passes an audit that allows, changes or refuses it and writes it to a trail; handlers carry it out against the database, the payment API and an AI model; the trail can replay the program."></div>
 </div></div></div>
+
+<section id="coinpath"><div class="wrap">
+  <h2>Live apps built on Okay</h2>
+  <h3 class="app">Coinpath: follow a payment in a blockchain</h3>
+  <p class="sub">A whole application built on these libraries, live: paste an address and see where the money went, step by step, each step with its reason. It runs in your browser, with no server of ours and no account.</p>
+  <p><a class="btn" href="https://okay-effects.github.io/coinpath/" target="_blank" rel="noopener">Open Coinpath</a></p>
+  <div class="cp">
+    <a href="https://okay-effects.github.io/coinpath/" target="_blank" rel="noopener"><img src="coinpath.png" alt="Coinpath's answer for the Bybit hack, 2025: where the money ended, as a table" loading="lazy"></a>
+    <div>
+      <h3>What it does</h3>
+      <ul class="tight">
+        <li>Follows the transfers out of an address, hop by hop, from the moment the money arrived.</li>
+        <li>Says why it took each step, and where and why the trail ended: an exchange, a bridge, a limit reached.</li>
+        <li>Names exchanges from their own proof-of-reserves lists; every name links to the file it came from.</li>
+        <li>Ethereum, Bitcoin, Tron (USDT too), Base, Arbitrum, Optimism, Polygon and World Chain; Solana is coming.</li>
+        <li>Try it on public incidents: the Bybit hack (2025), the Ronin bridge (2022), Upbit (2019).</li>
+      </ul>
+    </div>
+  </div>
+  <div class="grid3" style="margin-top:24px">
+    <div class="card"><h3>Every step explained</h3><p>Tools that draw a graph leave the reading to you. Coinpath writes down the rule behind each hop, and the reason it stopped.</p></div>
+    <div class="card"><h3>Every name checkable</h3><p>An exchange is named only from that exchange's own published list of its wallets, with the date and a link: nothing to take on trust.</p></div>
+    <div class="card"><h3>The same answer twice</h3><p>A trace is pinned at a block, and a recorded trace replays to the same report with no network at all, so a result can be handed on and checked.</p></div>
+  </div>
+  <h3 style="margin-top:28px">How it is built</h3>
+  <p class="sub">Scala 3 compiled to JavaScript by Scala.js, on <a href="https://github.com/okay-effects/okay-scala">okay-scala</a> and <a href="https://github.com/okay-effects/okay-ui">okay-ui</a>. The data model is effects: <code>Chain</code> (the transfers of an address), <code>Names</code> (who owns it), <code>Http</code>, <code>Clock</code>, <code>Ui</code> (a screen). Every implementation is a handler: Blockscout turns <code>Chain</code> into <code>Http</code>, the labels' shards answer <code>Names</code>, the browser's <code>fetch</code> answers <code>Http</code>, a recording answers <code>Chain</code> and <code>Names</code> in the tests and the examples. The page is one line that names its handlers. The trace itself never changes between the browser, the tests and a replay; only the handlers do.</p>
+
+  <h3 class="app" id="okay-guard" style="margin-top:48px">okay-guard: see and control what an AI agent does</h3>
+  <p class="sub">An AI agent works through MCP servers: payments, mail, files, code. okay-guard stands between them. You see every call, your policy decides what passes, what is blocked and what waits for you, and you decide on your phone where the call stands. The studio runs in your browser, with no account; when the policy works, run the same guard on your own machine.</p>
+  <p><a class="btn" href="https://okay-effects.github.io/okay-guard/" target="_blank" rel="noopener">Open okay-guard</a></p>
+  <div class="cp">
+    <a href="https://okay-effects.github.io/okay-guard/demo.html" target="_blank" rel="noopener"><img src="okay-guard.png" alt="okay-guard's demo: a refund over 200 € waits for a person's decision, the rules in force beside it" loading="lazy"></a>
+    <div>
+      <h3>What it does</h3>
+      <ul class="tight">
+        <li>Connects your own agent, such as Claude Code, Claude.ai or Cursor, by one MCP address.</li>
+        <li>Shows each call as it happens: the tool, its arguments, what the policy decided, what came back.</li>
+        <li>Stops a call the policy asks about: Approve, Refuse, or change its arguments first, on any device.</li>
+        <li>Rules in words, made from a real call with one tap; or a policy in a language with state and facts, each decision with its certificate.</li>
+        <li>Tests that replay what the agent did against a changed policy, with no model and no key; headless for CI.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="grid3" style="margin-top:24px">
+    <div class="card"><h3>Your agent, your servers</h3><p>Nothing to install to start: add any remote MCP server in the studio and it is called straight from your browser.</p></div>
+    <div class="card"><h3>A policy you can check</h3><p>Every decision is recorded with the rule behind it. Cases and tests check the policy before it meets a real call.</p></div>
+    <div class="card"><h3>From the browser to your machine</h3><p>Export the agent and its policy, import them into the local guard (Node or Java), and the same policy decides there.</p></div>
+  </div>
+  <h3 style="margin-top:28px">How it is built</h3>
+  <p class="sub">Scala 3 and Scala.js, on <a href="https://github.com/okay-effects/okay-simple">okay-simple</a>, <a href="https://github.com/okay-effects/okay-ui">okay-ui</a> and okay's MCP. The guard is a program over its own effects: the wire, the journal, the policy, a person, the clock. The browser, a Cloudflare Worker that passes messages, Node and the JVM are only their handlers. A call waiting for you is the program's continuation, kept until you answer.</p>
+
+  <h3 class="app" id="okay-chat" style="margin-top:48px">Okay! Chat: a marketplace you talk to</h3>
+  <p class="sub">Say in ordinary words what you offer or what you need, and the chat finds the other side, asks them for you and passes on the contacts once they agree. Ask it for vacancies by a keyword and a city, and it reads employers' own public job boards. In the browser and in Telegram, in four languages, on Cloudflare's free plan.</p>
+  <p><a class="btn" href="https://okay-chat-edge.okay-effects.workers.dev/" target="_blank" rel="noopener">Open Okay! Chat</a>
+    <a class="btn" href="https://t.me/OkayChatTestBot" target="_blank" rel="noopener" style="margin-left:8px">In Telegram</a>
+    <a class="btn" href="https://github.com/okay-effects/okay-chat-edge" target="_blank" rel="noopener" style="margin-left:8px">Source</a></p>
+  <div class="cp">
+    <a href="https://okay-chat-edge.okay-effects.workers.dev/" target="_blank" rel="noopener"><img src="okay-chat.png" alt="Okay! Chat answering &quot;jobs java, Kraków&quot;: Java engineers in Kraków, each with the employer's own page" loading="lazy"></a>
+    <div>
+      <h3>What it does</h3>
+      <ul class="tight">
+        <li>"I repair washing machines, Wrocław" is kept as an offer; "need a plumber, the tap leaks" is answered with the closest offers, matched by meaning.</li>
+        <li>"Ask 1 2" writes to the people you chose; they answer "take 3" or "decline 3", and only then are the contacts passed on.</li>
+        <li>A need with nobody yet waits: when a matching offer comes, you are told.</li>
+        <li>"Jobs scala, Wrocław", "remote", "anywhere": vacancies from Workable's search and from 206 employers' own boards, each with the employer's page; "more" for the next, "remember" to be told of new ones.</li>
+        <li>Russian, Ukrainian, Polish and English: it answers in the language you write in.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="grid3" style="margin-top:24px">
+    <div class="card"><h3>No model on the way</h3><p>A message is routed by rules and a lookup table in microseconds. A language model answers only what the rules do not understand, under a daily budget, and may promise nothing.</p></div>
+    <div class="card"><h3>Agreed, then shared</h3><p>A deal is a small state machine of its own: nobody's contact is given until the other side says yes, and two answers at once cannot both win.</p></div>
+    <div class="card"><h3>Free to run</h3><p>Workers, Durable Objects, D1, KV and Workers AI, each within its free allowance; the page is static and costs no requests, its messages come by a hibernating WebSocket.</p></div>
+  </div>
+  <h3 style="margin-top:28px">How it is built</h3>
+  <p class="sub">Scala 3 compiled to JavaScript, on <a href="https://github.com/okay-effects/okay-serverless">okay-serverless</a> and <a href="https://github.com/okay-effects/okay-ui">okay-ui</a>. A conversation is a Durable Object, a deal is a Durable Object, the market and the vacancies are in D1, and the cloud's services are effects with Cloudflare's handlers. Telegram, the page and the API are three doors to the same conversations. The page is an okay-ui program: the conversation is its effect <code>Talk</code>, answered over HTTP and the socket. The source, with every step measured: <a href="https://github.com/okay-effects/okay-chat-edge">okay-chat-edge</a>.</p>
+</div></section>
 
 <section id="control"><div class="wrap">
   <h2>Control and audit, at three points</h2>
@@ -287,82 +364,6 @@ The handlers give the meaning: here a config value, a log collected into a list 
   <p class="note">Sources, with every protocol and the raw history: <a href="https://github.com/okay-effects/okay/blob/master/docs/benchmarks.md">okay's docs/benchmarks.md</a>, <a href="https://github.com/okay-effects/okay/blob/master/docs/wroclaw-streams-benchmark.md">the streaming write-up</a>, <a href="https://github.com/okay-effects/okay-simple#measured">okay-simple's README</a>.</p>
 </div></section>
 
-<section id="coinpath"><div class="wrap">
-  <h2>Live apps built on Okay</h2>
-  <h3 class="app">Coinpath: follow a payment in a blockchain</h3>
-  <p class="sub">A whole application built on these libraries, live: paste an address and see where the money went, step by step, each step with its reason. It runs in your browser, with no server of ours and no account.</p>
-  <p><a class="btn" href="https://okay-effects.github.io/coinpath/" target="_blank" rel="noopener">Open Coinpath</a></p>
-  <div class="cp">
-    <a href="https://okay-effects.github.io/coinpath/" target="_blank" rel="noopener"><img src="coinpath.png" alt="Coinpath's answer for the Bybit hack, 2025: where the money ended, as a table" loading="lazy"></a>
-    <div>
-      <h3>What it does</h3>
-      <ul class="tight">
-        <li>Follows the transfers out of an address, hop by hop, from the moment the money arrived.</li>
-        <li>Says why it took each step, and where and why the trail ended: an exchange, a bridge, a limit reached.</li>
-        <li>Names exchanges from their own proof-of-reserves lists; every name links to the file it came from.</li>
-        <li>Ethereum, Bitcoin, Tron (USDT too), Base, Arbitrum, Optimism, Polygon and World Chain; Solana is coming.</li>
-        <li>Try it on public incidents: the Bybit hack (2025), the Ronin bridge (2022), Upbit (2019).</li>
-      </ul>
-    </div>
-  </div>
-  <div class="grid3" style="margin-top:24px">
-    <div class="card"><h3>Every step explained</h3><p>Tools that draw a graph leave the reading to you. Coinpath writes down the rule behind each hop, and the reason it stopped.</p></div>
-    <div class="card"><h3>Every name checkable</h3><p>An exchange is named only from that exchange's own published list of its wallets, with the date and a link: nothing to take on trust.</p></div>
-    <div class="card"><h3>The same answer twice</h3><p>A trace is pinned at a block, and a recorded trace replays to the same report with no network at all, so a result can be handed on and checked.</p></div>
-  </div>
-  <h3 style="margin-top:28px">How it is built</h3>
-  <p class="sub">Scala 3 compiled to JavaScript by Scala.js, on <a href="https://github.com/okay-effects/okay-scala">okay-scala</a> and <a href="https://github.com/okay-effects/okay-ui">okay-ui</a>. The data model is effects: <code>Chain</code> (the transfers of an address), <code>Names</code> (who owns it), <code>Http</code>, <code>Clock</code>, <code>Ui</code> (a screen). Every implementation is a handler: Blockscout turns <code>Chain</code> into <code>Http</code>, the labels' shards answer <code>Names</code>, the browser's <code>fetch</code> answers <code>Http</code>, a recording answers <code>Chain</code> and <code>Names</code> in the tests and the examples. The page is one line that names its handlers. The trace itself never changes between the browser, the tests and a replay; only the handlers do.</p>
-
-  <h3 class="app" id="okay-guard" style="margin-top:48px">okay-guard: see and control what an AI agent does</h3>
-  <p class="sub">An AI agent works through MCP servers: payments, mail, files, code. okay-guard stands between them. You see every call, your policy decides what passes, what is blocked and what waits for you, and you decide on your phone where the call stands. The studio runs in your browser, with no account; when the policy works, run the same guard on your own machine.</p>
-  <p><a class="btn" href="https://okay-effects.github.io/okay-guard/" target="_blank" rel="noopener">Open okay-guard</a></p>
-  <div class="cp">
-    <a href="https://okay-effects.github.io/okay-guard/demo.html" target="_blank" rel="noopener"><img src="okay-guard.png" alt="okay-guard's demo: a refund over 200 € waits for a person's decision, the rules in force beside it" loading="lazy"></a>
-    <div>
-      <h3>What it does</h3>
-      <ul class="tight">
-        <li>Connects your own agent, such as Claude Code, Claude.ai or Cursor, by one MCP address.</li>
-        <li>Shows each call as it happens: the tool, its arguments, what the policy decided, what came back.</li>
-        <li>Stops a call the policy asks about: Approve, Refuse, or change its arguments first, on any device.</li>
-        <li>Rules in words, made from a real call with one tap; or a policy in a language with state and facts, each decision with its certificate.</li>
-        <li>Tests that replay what the agent did against a changed policy, with no model and no key; headless for CI.</li>
-      </ul>
-    </div>
-  </div>
-  <div class="grid3" style="margin-top:24px">
-    <div class="card"><h3>Your agent, your servers</h3><p>Nothing to install to start: add any remote MCP server in the studio and it is called straight from your browser.</p></div>
-    <div class="card"><h3>A policy you can check</h3><p>Every decision is recorded with the rule behind it. Cases and tests check the policy before it meets a real call.</p></div>
-    <div class="card"><h3>From the browser to your machine</h3><p>Export the agent and its policy, import them into the local guard (Node or Java), and the same policy decides there.</p></div>
-  </div>
-  <h3 style="margin-top:28px">How it is built</h3>
-  <p class="sub">Scala 3 and Scala.js, on <a href="https://github.com/okay-effects/okay-simple">okay-simple</a>, <a href="https://github.com/okay-effects/okay-ui">okay-ui</a> and okay's MCP. The guard is a program over its own effects: the wire, the journal, the policy, a person, the clock. The browser, a Cloudflare Worker that passes messages, Node and the JVM are only their handlers. A call waiting for you is the program's continuation, kept until you answer.</p>
-
-  <h3 class="app" id="okay-chat" style="margin-top:48px">Okay! Chat: a marketplace you talk to</h3>
-  <p class="sub">Say in ordinary words what you offer or what you need, and the chat finds the other side, asks them for you and passes on the contacts once they agree. Ask it for vacancies by a keyword and a city, and it reads employers' own public job boards. In the browser and in Telegram, in four languages, on Cloudflare's free plan.</p>
-  <p><a class="btn" href="https://okay-chat-edge.okay-effects.workers.dev/" target="_blank" rel="noopener">Open Okay! Chat</a>
-    <a class="btn" href="https://t.me/OkayChatTestBot" target="_blank" rel="noopener" style="margin-left:8px">In Telegram</a>
-    <a class="btn" href="https://github.com/okay-effects/okay-chat-edge" target="_blank" rel="noopener" style="margin-left:8px">Source</a></p>
-  <div class="cp">
-    <a href="https://okay-chat-edge.okay-effects.workers.dev/" target="_blank" rel="noopener"><img src="okay-chat.png" alt="Okay! Chat answering &quot;jobs java, Kraków&quot;: Java engineers in Kraków, each with the employer's own page" loading="lazy"></a>
-    <div>
-      <h3>What it does</h3>
-      <ul class="tight">
-        <li>"I repair washing machines, Wrocław" is kept as an offer; "need a plumber, the tap leaks" is answered with the closest offers, matched by meaning.</li>
-        <li>"Ask 1 2" writes to the people you chose; they answer "take 3" or "decline 3", and only then are the contacts passed on.</li>
-        <li>A need with nobody yet waits: when a matching offer comes, you are told.</li>
-        <li>"Jobs scala, Wrocław", "remote", "anywhere": vacancies from Workable's search and from 206 employers' own boards, each with the employer's page; "more" for the next, "remember" to be told of new ones.</li>
-        <li>Russian, Ukrainian, Polish and English: it answers in the language you write in.</li>
-      </ul>
-    </div>
-  </div>
-  <div class="grid3" style="margin-top:24px">
-    <div class="card"><h3>No model on the way</h3><p>A message is routed by rules and a lookup table in microseconds. A language model answers only what the rules do not understand, under a daily budget, and may promise nothing.</p></div>
-    <div class="card"><h3>Agreed, then shared</h3><p>A deal is a small state machine of its own: nobody's contact is given until the other side says yes, and two answers at once cannot both win.</p></div>
-    <div class="card"><h3>Free to run</h3><p>Workers, Durable Objects, D1, KV and Workers AI, each within its free allowance; the page is static and costs no requests, its messages come by a hibernating WebSocket.</p></div>
-  </div>
-  <h3 style="margin-top:28px">How it is built</h3>
-  <p class="sub">Scala 3 compiled to JavaScript, on <a href="https://github.com/okay-effects/okay-serverless">okay-serverless</a> and <a href="https://github.com/okay-effects/okay-ui">okay-ui</a>. A conversation is a Durable Object, a deal is a Durable Object, the market and the vacancies are in D1, and the cloud's services are effects with Cloudflare's handlers. Telegram, the page and the API are three doors to the same conversations. The page is an okay-ui program: the conversation is its effect <code>Talk</code>, answered over HTTP and the socket. The source, with every step measured: <a href="https://github.com/okay-effects/okay-chat-edge">okay-chat-edge</a>.</p>
-</div></section>
 
 <section id="tools"><div class="wrap">
   <h2>Tools</h2>
