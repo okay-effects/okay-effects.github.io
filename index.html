@@ -340,7 +340,8 @@ The handlers give the meaning: here a config value, a log collected into a list 
   <h3 class="app" id="okay-chat" style="margin-top:48px">Okay! Chat: a marketplace you talk to</h3>
   <p class="sub">Say in ordinary words what you offer or what you need, and the chat finds the other side, asks them for you and passes on the contacts once they agree. Ask it for vacancies by a keyword and a city, and it reads employers' own public job boards. In the browser and in Telegram, in four languages, on Cloudflare's free plan.</p>
   <p><a class="btn" href="https://okay-chat-edge.okay-effects.workers.dev/" target="_blank" rel="noopener">Open Okay! Chat</a>
-    <a class="btn" href="https://t.me/OkayChatTestBot" target="_blank" rel="noopener" style="margin-left:8px">In Telegram</a></p>
+    <a class="btn" href="https://t.me/OkayChatTestBot" target="_blank" rel="noopener" style="margin-left:8px">In Telegram</a>
+    <a class="btn" href="https://github.com/okay-effects/okay-chat-edge" target="_blank" rel="noopener" style="margin-left:8px">Source</a></p>
   <div class="cp">
     <a href="https://okay-chat-edge.okay-effects.workers.dev/" target="_blank" rel="noopener"><img src="okay-chat.png" alt="Okay! Chat answering &quot;jobs java, Kraków&quot;: Java engineers in Kraków, each with the employer's own page" loading="lazy"></a>
     <div>
@@ -360,7 +361,7 @@ The handlers give the meaning: here a config value, a log collected into a list 
     <div class="card"><h3>Free to run</h3><p>Workers, Durable Objects, D1, KV and Workers AI, each within its free allowance; the page is static and costs no requests, its messages come by a hibernating WebSocket.</p></div>
   </div>
   <h3 style="margin-top:28px">How it is built</h3>
-  <p class="sub">Scala 3 compiled to JavaScript, on <a href="https://github.com/okay-effects/okay-serverless">okay-serverless</a> and <a href="https://github.com/okay-effects/okay-ui">okay-ui</a>. A conversation is a Durable Object, a deal is a Durable Object, the market and the vacancies are in D1, and the cloud's services are effects with Cloudflare's handlers. Telegram, the page and the API are three doors to the same conversations. The page is an okay-ui program: the conversation is its effect <code>Talk</code>, answered over HTTP and the socket.</p>
+  <p class="sub">Scala 3 compiled to JavaScript, on <a href="https://github.com/okay-effects/okay-serverless">okay-serverless</a> and <a href="https://github.com/okay-effects/okay-ui">okay-ui</a>. A conversation is a Durable Object, a deal is a Durable Object, the market and the vacancies are in D1, and the cloud's services are effects with Cloudflare's handlers. Telegram, the page and the API are three doors to the same conversations. The page is an okay-ui program: the conversation is its effect <code>Talk</code>, answered over HTTP and the socket. The source, with every step measured: <a href="https://github.com/okay-effects/okay-chat-edge">okay-chat-edge</a>.</p>
 </div></section>
 
 <section id="tools"><div class="wrap">
