@@ -190,16 +190,17 @@
         <li>Hint: how many words are still possible, and the one a solver would try next.</li>
         <li>The board and the keyboard show each letter's colour; the end shows the rows as emoji.</li>
         <li>Statistics in your browser: rounds played, the share won, the streak, the rounds by the number of guesses.</li>
+        <li>Model plays: a tiny model guesses on its own; you see what it wanted, and what it played through the mask.</li>
       </ul>
     </div>
   </div>
   <div class="grid3" style="margin-top:24px">
     <div class="card"><h3>Screens as data</h3><p>The program never touches the page. It describes each screen, a picture of the board, a form and its buttons, as a value, and okay-faces draws it.</p></div>
     <div class="card"><h3>The world as effects</h3><p>The hidden word is the effect <code>Secret</code>, the rounds played are <code>Results</code>. In the browser they are a random draw and the page's storage; in the tests, a fixed word and a list.</p></div>
-    <div class="card"><h3>An exact hint</h3><p>The words still possible are computed from the rules, never guessed, and the solver's pick is always one of them.</p></div>
+    <div class="card"><h3>A model kept to the rules</h3><p>The model is a toy of 130 numbers that never sees the colours. A mask built into a transformer's weights allows only letters that lead to a word that fits, so it cannot invent a word or break a colour.</p></div>
   </div>
   <h3 style="margin-top:28px">How it is built</h3>
-  <p class="sub">Scala 3 compiled to JavaScript by Scala.js, on <a href="https://github.com/okay-effects/okay-ui">okay-ui</a> and <a href="https://github.com/okay-effects/okay-faces">okay-faces</a>. The tests play the whole application as a person would, by the buttons' names, with the word fixed: no mocks, only other handlers. The page is the program with its handlers named, in one line: <code>Page.mount(OnFaces.program(steps(InLocalStorage("wordle-results")(Secret.random()(Wordle.main[App])))), skin)</code>.</p>
+  <p class="sub">Scala 3 compiled to JavaScript by Scala.js, on <a href="https://github.com/okay-effects/okay-ui">okay-ui</a> and <a href="https://github.com/okay-effects/okay-faces">okay-faces</a>. The model is one more effect, <code>Model</code>, its handler the toy in the page; a language model would be another handler, the program the same. The tests play the whole application as a person would, by the buttons' names, with the word fixed: no mocks, only other handlers. The page is the program with its handlers named, in one line: <code>Page.mount(OnFaces.program(steps(InLocalStorage("wordle-results")(Secret.random()(Wordle.main[App])))), skin)</code>.</p>
 </div></section>
 
 <section id="control"><div class="wrap">
