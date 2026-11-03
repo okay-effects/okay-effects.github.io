@@ -76,6 +76,7 @@
     <a href="#okay-chat">Okay! Chat</a>
     <a href="#okay-wordle">Wordle</a>
     <a href="#okay-sudoku">Sudoku</a>
+    <a href="#okay-go-game">Go</a>
     <a href="#control">Control and audit</a>
     <a href="#languages">Languages</a>
     <a href="#platform">Platform</a>
@@ -226,6 +227,31 @@
   </div>
   <h3 style="margin-top:28px">How it is built</h3>
   <p class="sub">Scala 3 compiled to JavaScript by Scala.js, on <a href="https://github.com/okay-effects/okay-ui">okay-ui</a> and <a href="https://github.com/okay-effects/okay-faces">okay-faces</a>. The page is one line: <code>Page.mount(OnFaces.program(steps(Puzzles.random()(Sudoku.main[App]))), skin)</code>.</p>
+
+  <h3 class="app" id="okay-go-game" style="margin-top:48px">Go: two players, or against a model kept to legal moves</h3>
+  <p class="sub">The ancient board game on a 9 × 9 board. Put stones in turn, surround the other side's groups to capture them, and fence in more of the board. Play a friend at one screen, or play a small model: it can only ever press a legal point, and the page shows when what it wanted was not allowed.</p>
+  <p><a class="btn" href="https://okay-effects.github.io/okay-go-game/" target="_blank" rel="noopener">Play Go</a>
+    <a class="btn" href="https://github.com/okay-effects/okay-go-game" target="_blank" rel="noopener" style="margin-left:8px">Source</a></p>
+  <div class="cp">
+    <a href="https://okay-effects.github.io/okay-go-game/" target="_blank" rel="noopener"><img src="okay-go-game.png" alt="A game of Go against the model at move 15: the model wanted D5, not allowed because the point is taken, and played D6" loading="lazy"></a>
+    <div>
+      <h3>What it does</h3>
+      <ul class="tight">
+        <li>Two players at one board, or you against the model, as Black or as White.</li>
+        <li>The full rules: captures, no suicide, no repeated position (ko), passes, area scoring with komi 6.5.</li>
+        <li>Only legal points can be pressed: a taken point, a suicide or a ko simply has no button.</li>
+        <li>After each of the model's moves: what it wanted, why that was not allowed, and what it played.</li>
+        <li>At the end, each side's stones and fenced points, and the winner.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="grid3" style="margin-top:24px">
+    <div class="card"><h3>A mask, not a promise</h3><p>The model values every point, legal or not. It is not asked to behave: its choice goes through the same legal-move mask as yours, so an illegal move cannot happen.</p></div>
+    <div class="card"><h3>A tiny model</h3><p>Twelve numbers: captures, atari, saving a group, not filling its own eye, the good lines early on. It plays like a beginner, in your browser, with no server.</p></div>
+    <div class="card"><h3>The model as an effect</h3><p>The game asks <code>Model</code> for the values of the points. A stronger engine would be another handler: the game would not change.</p></div>
+  </div>
+  <h3 style="margin-top:28px">How it is built</h3>
+  <p class="sub">Scala 3 compiled to JavaScript by Scala.js, on <a href="https://github.com/okay-effects/okay-ui">okay-ui</a> and <a href="https://github.com/okay-effects/okay-faces">okay-faces</a>. The board is a picture with a grid of buttons over it, one at each legal point; the tests play whole games by the points' names. The page is one line: <code>Page.mount(OnFaces.program(steps(Model.toy()(Go.main[App]))), skin)</code>.</p>
 </div></section>
 
 <section id="control"><div class="wrap">
