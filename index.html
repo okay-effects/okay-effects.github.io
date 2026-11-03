@@ -75,6 +75,7 @@
     <a href="#okay-guard">okay-guard</a>
     <a href="#okay-chat">Okay! Chat</a>
     <a href="#okay-wordle">Wordle</a>
+    <a href="#okay-sudoku">Sudoku</a>
     <a href="#control">Control and audit</a>
     <a href="#languages">Languages</a>
     <a href="#platform">Platform</a>
@@ -201,6 +202,30 @@
   </div>
   <h3 style="margin-top:28px">How it is built</h3>
   <p class="sub">Scala 3 compiled to JavaScript by Scala.js, on <a href="https://github.com/okay-effects/okay-ui">okay-ui</a> and <a href="https://github.com/okay-effects/okay-faces">okay-faces</a>. The model is one more effect, <code>Model</code>, its handler the toy in the page; a language model would be another handler, the program the same. The tests play the whole application as a person would, by the buttons' names, with the word fixed: no mocks, only other handlers. The page is the program with its handlers named, in one line: <code>Page.mount(OnFaces.program(steps(InLocalStorage("wordle-results")(Secret.random()(Wordle.main[App])))), skin)</code>.</p>
+
+  <h3 class="app" id="okay-sudoku" style="margin-top:48px">Sudoku: a puzzle made for you, hints with their reasons</h3>
+  <p class="sub">Fill the grid so that every row, every column and every 3 × 3 box holds the digits 1 to 9, each once. Every puzzle is made in your browser, with exactly one solution, and the hint does not just give a digit: it says why it must be there.</p>
+  <p><a class="btn" href="https://okay-effects.github.io/okay-sudoku/" target="_blank" rel="noopener">Play Sudoku</a>
+    <a class="btn" href="https://github.com/okay-effects/okay-sudoku" target="_blank" rel="noopener" style="margin-left:8px">Source</a></p>
+  <div class="cp">
+    <a href="https://okay-effects.github.io/okay-sudoku/" target="_blank" rel="noopener"><img src="okay-sudoku.png" alt="A Medium Sudoku with R5C9 chosen and the hint: R5C9 can only be 6, its row, column and box holding every other digit" loading="lazy"></a>
+    <div>
+      <h3>What it does</h3>
+      <ul class="tight">
+        <li>Easy, Medium and Hard; each puzzle new, made in the page in a fraction of a second, with a unique solution.</li>
+        <li>Easy and Medium are solved by logic alone, one forced digit after another; Hard may need a guess.</li>
+        <li>Hint: one step and its reason, such as "R5C9 can only be 6: its row has 3, 4, 5, 8, 9; its column 1, 2, 7; its box 4, 9".</li>
+        <li>A digit repeated in its row, column or box turns red; Check marks the digits that are wrong.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="grid3" style="margin-top:24px">
+    <div class="card"><h3>A board of data</h3><p>The board is 81 blocks, each marked by what it holds; a free cell carries a button. The program says what is there; the stylesheet draws the grid.</p></div>
+    <div class="card"><h3>The puzzle as an effect</h3><p>The game asks <code>Puzzles</code> for a puzzle. In the browser the generator answers; in the tests a fixed puzzle does, and the whole game is played by its buttons.</p></div>
+    <div class="card"><h3>Reasons, not answers</h3><p>The same rules that make the puzzle find the next forced digit and the units that force it, so every hint can be checked by eye.</p></div>
+  </div>
+  <h3 style="margin-top:28px">How it is built</h3>
+  <p class="sub">Scala 3 compiled to JavaScript by Scala.js, on <a href="https://github.com/okay-effects/okay-ui">okay-ui</a> and <a href="https://github.com/okay-effects/okay-faces">okay-faces</a>. The page is one line: <code>Page.mount(OnFaces.program(steps(Puzzles.random()(Sudoku.main[App]))), skin)</code>.</p>
 </div></section>
 
 <section id="control"><div class="wrap">
