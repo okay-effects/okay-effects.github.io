@@ -254,7 +254,7 @@
   <h3 style="margin-top:28px">How it is built</h3>
   <p class="sub">Scala 3 compiled to JavaScript by Scala.js, on <a href="https://github.com/okay-effects/okay-ui">okay-ui</a> and <a href="https://github.com/okay-effects/okay-faces">okay-faces</a>. The page is one line: <code>Page.mount(OnFaces.program(steps(Puzzles.random()(Sudoku.main[App]))), skin)</code>.</p>
 
-  <h3 class="app" id="okay-go-game" style="margin-top:48px">Go: 9 × 9 to 19 × 19, with a friend far away, with watchers, or against a model that reads ahead</h3>
+  <h3 class="app" id="okay-go-game" style="margin-top:48px">Go: 9 × 9 to 19 × 19, with a friend far away, with watchers, or against a neural network in your browser</h3>
   <p class="sub">The ancient board game, on a 9 × 9, 13 × 13 or the full 19 × 19 board. Put stones in turn, surround the other side's groups to capture them, and fence in more of the board. Play a friend at one screen, or play a small model: it can only ever press a legal point, and the page shows when what it wanted was not allowed.</p>
   <p><a class="btn" href="https://okay-effects.github.io/okay-go-game/" target="_blank" rel="noopener">Play Go</a>
     <a class="btn" href="https://github.com/okay-effects/okay-go-game" target="_blank" rel="noopener" style="margin-left:8px">Source</a></p>
@@ -267,14 +267,14 @@
         <li>Play a friend far away: send them a link, and anyone can watch the game by another link.</li>
         <li>The full rules: captures, no suicide, no repeated position (ko), passes, area scoring with komi 6.5.</li>
         <li>Only legal points can be pressed: a taken point, a suicide or a ko simply has no button.</li>
-        <li>After each of the model's moves: what it played and its chance to win; while it thinks, the page stays alive.</li>
+        <li>After each of the model's moves: what it played, its chance to win and how many positions its network read; the page stays alive while it thinks.</li>
         <li>At the end, each side's stones and fenced points, and the winner.</li>
       </ul>
     </div>
   </div>
   <div class="grid3" style="margin-top:24px">
     <div class="card"><h3>Every board</h3><p>A quick 9 × 9, 13 × 13, or the full 19 × 19 — at one screen, against the model, or online with a friend. Only legal points can be pressed: a taken point, a suicide or a ko simply has no button.</p></div>
-    <div class="card"><h3>A model that reads ahead</h3><p>Before each move it plays out thousands of games to the end (about 11 000 on 9 × 9) and picks the move that won most: Monte-Carlo tree search with RAVE, playouts that capture and escape, and what is known of a move before any game. It runs in your browser, with no server.</p></div>
+    <div class="card"><h3>A neural network on your GPU</h3><p>The model is KataGo's network (the g170 run, 10 blocks, 3 million weights, CC0) running in your browser on WebGPU, equal to KataGo itself to six digits. A search reads hundreds of positions with it before each move. No server: the GPU is yours.</p></div>
     <div class="card"><h3>The model as an effect</h3><p>The game asks <code>Model</code> for the values of the points. A stronger engine would be another handler: the game would not change.</p></div>
   </div>
   <h3 style="margin-top:28px">How it is built</h3>
