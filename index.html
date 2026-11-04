@@ -73,6 +73,7 @@
     <a href="scala-spark.html">Scala and Spark</a>
     <a href="#coinpath">Coinpath</a>
     <a href="#okay-guard">okay-guard</a>
+    <a href="#okay-reliability">okay-reliability</a>
     <a href="#okay-chat">Okay! Chat</a>
     <a href="#okay-wordle">Wordle</a>
     <a href="#okay-sudoku">Sudoku</a>
@@ -151,6 +152,31 @@
   </div>
   <h3 style="margin-top:28px">How it is built</h3>
   <p class="sub">Scala 3 and Scala.js, on <a href="https://github.com/okay-effects/okay-simple">okay-simple</a>, <a href="https://github.com/okay-effects/okay-ui">okay-ui</a> and okay's MCP. The guard is a program over its own effects: the wire, the journal, the policy, a person, the clock. The browser, a Cloudflare Worker that passes messages, Node and the JVM are only their handlers. A call waiting for you is the program's continuation, kept until you answer.</p>
+
+  <h3 class="app" id="okay-reliability" style="margin-top:48px">okay-reliability: what breaks, how often, and why it broke</h3>
+  <p class="sub">Paste a system — a docker compose file, Kubernetes manifests, or a few lines of its components — and see what each component's loss takes down, how available every entry point is, and which change saves the most downtime. In an incident, give it the logs, the chat and the metrics, and it finds the causes, their probabilities and the check that settles them. Everything is computed in your browser: nothing you paste leaves it.</p>
+  <p><a class="btn" href="https://okay-effects.github.io/okay-reliability/" target="_blank" rel="noopener">Open okay-reliability</a>
+    <a class="btn" href="https://github.com/okay-effects/okay-reliability" target="_blank" rel="noopener" style="margin-left:8px">Source</a></p>
+  <div class="cp">
+    <a href="https://okay-effects.github.io/okay-reliability/" target="_blank" rel="noopener"><img src="okay-reliability.png" alt="okay-reliability's architecture of a shop: the database its single point of failure, in red; the cache and the external payments dashed" loading="lazy"></a>
+    <div>
+      <h3>What it does</h3>
+      <ul class="tight">
+        <li>Architecture: each component's blast radius, single points of failure, cycles, unguarded dependencies.</li>
+        <li>Numbers: availability and latency of every entry point, downtime a month, incidents a year, SLOs and error budgets, where the downtime comes from.</li>
+        <li>What if: choose faults and watch them spread, each effect with its chain, and the remedies that fix them.</li>
+        <li>Incidents: logs in any of the usual formats, a chat, Prometheus metrics; the smallest sets of faults that explain everything, ranked by probability, and the next check.</li>
+        <li>Training: an incident made with its logs and chat; find the cause yourself, then compare.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="grid3" style="margin-top:24px">
+    <div class="card"><h3>One model, one simulator</h3><p>The architecture, the numbers, the diagnosis and the remedies all ask the same simulator how a failure spreads, so they cannot disagree.</p></div>
+    <div class="card"><h3>Checked, not guessed</h3><p>The availability is computed by minimal cut sets and checked by simulating thousands of years; every remedy is checked by spreading the faults left after it.</p></div>
+    <div class="card"><h3>A tool for agents</h3><p>The same tools as an MCP server: a local model with them named the exact cause of 7 incidents in 8, alone 2 in 8.</p></div>
+  </div>
+  <h3 style="margin-top:28px">How it is built</h3>
+  <p class="sub">Scala 3 on the JVM and Scala.js, on <a href="https://github.com/okay-effects/okay-scala">okay-scala</a>, <a href="https://github.com/okay-effects/okay-ui">okay-ui</a>, <a href="https://github.com/okay-effects/okay-datalog">okay-datalog</a> and <a href="https://github.com/okay-effects/okay-simple">okay-simple</a>'s YAML. The system is a value and its failures spread by one function; the screens are an okay-ui program over it; the tools a model calls are a program over the effects <code>Desk</code>, <code>Files</code>, <code>Http</code> and <code>Clock</code>, whose handlers are the machine's on the command line and in memory in the tests.</p>
 
   <h3 class="app" id="okay-chat" style="margin-top:48px">Okay! Chat: a marketplace you talk to</h3>
   <p class="sub">Say in ordinary words what you offer or what you need, and the chat finds the other side, asks them for you and passes on the contacts once they agree. Ask it for vacancies by a keyword and a city, and it reads employers' own public job boards. In the browser and in Telegram, in four languages, on Cloudflare's free plan.</p>
