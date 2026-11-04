@@ -237,7 +237,7 @@
     <div>
       <h3>What it does</h3>
       <ul class="tight">
-        <li>Two players at one board, or you against the model, as Black or as White.</li>
+        <li>Two players at one board, or you against the model, as Black or as White: a Beginner, or a Stronger one that plays out thousands of games before each move.</li>
         <li>Play a friend far away: send them a link, and anyone can watch the game by another link.</li>
         <li>The full rules: captures, no suicide, no repeated position (ko), passes, area scoring with komi 6.5.</li>
         <li>Only legal points can be pressed: a taken point, a suicide or a ko simply has no button.</li>
@@ -248,7 +248,7 @@
   </div>
   <div class="grid3" style="margin-top:24px">
     <div class="card"><h3>A mask, not a promise</h3><p>The model values every point, legal or not. It is not asked to behave: its choice goes through the same legal-move mask as yours, so an illegal move cannot happen.</p></div>
-    <div class="card"><h3>A tiny model</h3><p>Twelve numbers: captures, atari, saving a group, not filling its own eye, the good lines early on. It plays like a beginner, in your browser, with no server.</p></div>
+    <div class="card"><h3>Two strengths, in your browser</h3><p>The Beginner is twelve numbers: captures, atari, saving a group, the good lines early on. The Stronger one searches: before each move it plays out up to 4000 games to the end and picks the move that won most, and tells you its chance to win. Both run in your browser, with no server.</p></div>
     <div class="card"><h3>The model as an effect</h3><p>The game asks <code>Model</code> for the values of the points. A stronger engine would be another handler: the game would not change.</p></div>
   </div>
   <h3 style="margin-top:28px">How it is built</h3>
