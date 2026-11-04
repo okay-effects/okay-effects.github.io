@@ -228,7 +228,7 @@
   <h3 style="margin-top:28px">How it is built</h3>
   <p class="sub">Scala 3 compiled to JavaScript by Scala.js, on <a href="https://github.com/okay-effects/okay-ui">okay-ui</a> and <a href="https://github.com/okay-effects/okay-faces">okay-faces</a>. The page is one line: <code>Page.mount(OnFaces.program(steps(Puzzles.random()(Sudoku.main[App]))), skin)</code>.</p>
 
-  <h3 class="app" id="okay-go-game" style="margin-top:48px">Go: two players, or against a model kept to legal moves</h3>
+  <h3 class="app" id="okay-go-game" style="margin-top:48px">Go: with a friend far away, with watchers, or against a model kept to legal moves</h3>
   <p class="sub">The ancient board game on a 9 × 9 board. Put stones in turn, surround the other side's groups to capture them, and fence in more of the board. Play a friend at one screen, or play a small model: it can only ever press a legal point, and the page shows when what it wanted was not allowed.</p>
   <p><a class="btn" href="https://okay-effects.github.io/okay-go-game/" target="_blank" rel="noopener">Play Go</a>
     <a class="btn" href="https://github.com/okay-effects/okay-go-game" target="_blank" rel="noopener" style="margin-left:8px">Source</a></p>
@@ -238,6 +238,7 @@
       <h3>What it does</h3>
       <ul class="tight">
         <li>Two players at one board, or you against the model, as Black or as White.</li>
+        <li>Play a friend far away: send them a link, and anyone can watch the game by another link.</li>
         <li>The full rules: captures, no suicide, no repeated position (ko), passes, area scoring with komi 6.5.</li>
         <li>Only legal points can be pressed: a taken point, a suicide or a ko simply has no button.</li>
         <li>After each of the model's moves: what it wanted, why that was not allowed, and what it played.</li>
@@ -251,7 +252,7 @@
     <div class="card"><h3>The model as an effect</h3><p>The game asks <code>Model</code> for the values of the points. A stronger engine would be another handler: the game would not change.</p></div>
   </div>
   <h3 style="margin-top:28px">How it is built</h3>
-  <p class="sub">Scala 3 compiled to JavaScript by Scala.js, on <a href="https://github.com/okay-effects/okay-ui">okay-ui</a> and <a href="https://github.com/okay-effects/okay-faces">okay-faces</a>. The board is a picture with a grid of buttons over it, one at each legal point; the tests play whole games by the points' names. The page is one line: <code>Page.mount(OnFaces.program(steps(Model.toy()(Go.main[App]))), skin)</code>.</p>
+  <p class="sub">Scala 3 compiled to JavaScript by Scala.js, on <a href="https://github.com/okay-effects/okay-ui">okay-ui</a> and <a href="https://github.com/okay-effects/okay-faces">okay-faces</a>. The board is a picture with a grid of buttons over it, one at each legal point; the tests play whole games by the points' names. A game far apart lives on a Cloudflare Worker on <a href="https://github.com/okay-effects/okay-serverless">okay-serverless</a>: each game a Durable Object, its players and watchers WebSockets, every move checked there by the same rules as in your page; the same server runs on a machine of one's own. The page is one line: <code>Page.mount(OnFaces.program(steps(Model.toy()(Go.main[App]))), skin)</code>.</p>
 </div></section>
 
 <section id="control"><div class="wrap">
