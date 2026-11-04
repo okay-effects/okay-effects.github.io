@@ -228,27 +228,27 @@
   <h3 style="margin-top:28px">How it is built</h3>
   <p class="sub">Scala 3 compiled to JavaScript by Scala.js, on <a href="https://github.com/okay-effects/okay-ui">okay-ui</a> and <a href="https://github.com/okay-effects/okay-faces">okay-faces</a>. The page is one line: <code>Page.mount(OnFaces.program(steps(Puzzles.random()(Sudoku.main[App]))), skin)</code>.</p>
 
-  <h3 class="app" id="okay-go-game" style="margin-top:48px">Go: with a friend far away, with watchers, or against a model kept to legal moves</h3>
-  <p class="sub">The ancient board game on a 9 × 9 board. Put stones in turn, surround the other side's groups to capture them, and fence in more of the board. Play a friend at one screen, or play a small model: it can only ever press a legal point, and the page shows when what it wanted was not allowed.</p>
+  <h3 class="app" id="okay-go-game" style="margin-top:48px">Go: 9 × 9 to 19 × 19, with a friend far away, with watchers, or against a model that reads ahead</h3>
+  <p class="sub">The ancient board game, on a 9 × 9, 13 × 13 or the full 19 × 19 board. Put stones in turn, surround the other side's groups to capture them, and fence in more of the board. Play a friend at one screen, or play a small model: it can only ever press a legal point, and the page shows when what it wanted was not allowed.</p>
   <p><a class="btn" href="https://okay-effects.github.io/okay-go-game/" target="_blank" rel="noopener">Play Go</a>
     <a class="btn" href="https://github.com/okay-effects/okay-go-game" target="_blank" rel="noopener" style="margin-left:8px">Source</a></p>
   <div class="cp">
-    <a href="https://okay-effects.github.io/okay-go-game/" target="_blank" rel="noopener"><img src="okay-go-game.png" alt="A game of Go against the model at move 15: the model wanted D5, not allowed because the point is taken, and played D6" loading="lazy"></a>
+    <a href="https://okay-effects.github.io/okay-go-game/" target="_blank" rel="noopener"><img src="okay-go-game.png" alt="A game of Go on the full 19 × 19 board against the model: it played H17, a 60% chance to win after 4512 games played out" loading="lazy"></a>
     <div>
       <h3>What it does</h3>
       <ul class="tight">
-        <li>Two players at one board, or you against the model, as Black or as White: a Beginner, or a Stronger one that plays out thousands of games before each move.</li>
+        <li>Two players at one board, or you against the model, as Black or as White, on 9 × 9, 13 × 13 or 19 × 19.</li>
         <li>Play a friend far away: send them a link, and anyone can watch the game by another link.</li>
         <li>The full rules: captures, no suicide, no repeated position (ko), passes, area scoring with komi 6.5.</li>
         <li>Only legal points can be pressed: a taken point, a suicide or a ko simply has no button.</li>
-        <li>After each of the model's moves: what it wanted, why that was not allowed, and what it played.</li>
+        <li>After each of the model's moves: what it played and its chance to win; while it thinks, the page stays alive.</li>
         <li>At the end, each side's stones and fenced points, and the winner.</li>
       </ul>
     </div>
   </div>
   <div class="grid3" style="margin-top:24px">
-    <div class="card"><h3>A mask, not a promise</h3><p>The model values every point, legal or not. It is not asked to behave: its choice goes through the same legal-move mask as yours, so an illegal move cannot happen.</p></div>
-    <div class="card"><h3>Two strengths, in your browser</h3><p>The Beginner is twelve numbers: captures, atari, saving a group, the good lines early on. The Stronger one searches: before each move it plays out up to 4000 games to the end and picks the move that won most, and tells you its chance to win. Both run in your browser, with no server.</p></div>
+    <div class="card"><h3>Every board</h3><p>A quick 9 × 9, 13 × 13, or the full 19 × 19 — at one screen, against the model, or online with a friend. Only legal points can be pressed: a taken point, a suicide or a ko simply has no button.</p></div>
+    <div class="card"><h3>A model that reads ahead</h3><p>Before each move it plays out thousands of games to the end (about 11 000 on 9 × 9) and picks the move that won most: Monte-Carlo tree search with RAVE, playouts that capture and escape, and what is known of a move before any game. It runs in your browser, with no server.</p></div>
     <div class="card"><h3>The model as an effect</h3><p>The game asks <code>Model</code> for the values of the points. A stronger engine would be another handler: the game would not change.</p></div>
   </div>
   <h3 style="margin-top:28px">How it is built</h3>
