@@ -74,6 +74,7 @@
     <a href="#coinpath">Coinpath</a>
     <a href="#okay-guard">okay-guard</a>
     <a href="#okay-reliability">okay-reliability</a>
+    <a href="#okay-desk">okay-desk</a>
     <a href="#okay-chat">Okay! Chat</a>
     <a href="#games">Games</a>
     <a href="#control">Control and audit</a>
@@ -176,6 +177,29 @@
   <h3 style="margin-top:28px">How it is built</h3>
   <p class="sub">Scala 3 on the JVM and Scala.js, on <a href="https://github.com/okay-effects/okay-scala">okay-scala</a>, <a href="https://github.com/okay-effects/okay-ui">okay-ui</a>, <a href="https://github.com/okay-effects/okay-datalog">okay-datalog</a> and <a href="https://github.com/okay-effects/okay-simple">okay-simple</a>'s YAML. The system is a value and its failures spread by one function; the screens are an okay-ui program over it; the tools a model calls are a program over the effects <code>Desk</code>, <code>Files</code>, <code>Http</code> and <code>Clock</code>, whose handlers are the machine's on the command line and in memory in the tests.</p>
 
+  <h3 class="app" id="okay-desk" style="margin-top:48px">okay-desk: chat with your data, in the browser, offline</h3>
+  <p class="sub">Open CSV, TSV or JSON files from your machine and ask about them in English or Russian: how many orders are unpaid, the total by customer, what depends on a service. A small model in the page reads the question into a program; an exact engine computes the answer. Numbers come from the engine, never from the model. Nothing leaves the browser: no server, no keys, no network after the first load.</p>
+  <p><a class="btn" href="https://okay-effects.github.io/okay-desk/" target="_blank" rel="noopener">Open okay-desk</a>
+    <a class="btn" href="https://github.com/okay-effects/okay-desk" target="_blank" rel="noopener" style="margin-left:8px">Source</a></p>
+  <div class="cp">
+    <a href="https://okay-effects.github.io/okay-desk/" target="_blank" rel="noopener"><img src="okay-desk.png" alt="okay-desk: the question 'How many orders are unpaid?' answered with a table, and the program read from the model's states shown under it" loading="lazy"></a>
+    <div>
+      <h3>What it does</h3>
+      <ul class="tight">
+        <li>Files opened from your disk — a file, or a whole folder — become tables in the page.</li>
+        <li>A question becomes a program: a filter, a group, a sum, a top-N, a join, or a reachability query over edges (Datalog).</li>
+        <li>Two ways to get the program: a model generates it (WebLLM, 0.4–1.7 GB), or the readers read it from a 244 MB cut of Qwen3-0.6B with no generation at all — 2–8 s a question, the same answers on WebGPU and on WebGL2.</li>
+        <li>The program is shown with every answer; a wrong number is impossible, since the model never computes.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="grid3" style="margin-top:24px">
+    <div class="card"><h3>Read, not generated</h3><p>Linear readers trained on generated question–program pairs read each slot of the program where the model decides it; the exact facts of the data (a value, a column named) constrain the reads. On the sample: 12 of 12 in English, 9 of 12 in Russian.</p></div>
+    <div class="card"><h3>One engine, every device</h3><p>The model runs on our own engine: one forward over a device interface with three handlers — WebGPU, WebGL2 and the CPU — checked against each other and against MLX to 1e-4.</p></div>
+    <div class="card"><h3>A program over an effect</h3><p>The skill is a program over the effect <code>Read</code>: the JVM answers it in place, the browser by futures; the same code gives the same numbers on both.</p></div>
+  </div>
+  <h3 style="margin-top:28px">How it is built</h3>
+  <p class="sub">Scala 3 compiled to JavaScript by Scala.js, on <a href="https://github.com/okay-effects/okay-scala">okay-scala</a>, <a href="https://github.com/okay-effects/okay-llm">okay-llm</a> (the browser engine), <a href="https://github.com/okay-effects/okay-datalog">okay-datalog</a> and <a href="https://github.com/okay-effects/okay-inlay">okay-inlay</a>.</p>
   <h3 class="app" id="okay-chat" style="margin-top:48px">Okay! Chat: a marketplace you talk to</h3>
   <p class="sub">Say in ordinary words what you offer or what you need, and the chat finds the other side, asks them for you and passes on the contacts once they agree. Ask it for vacancies by a keyword and a city, and it reads employers' own public job boards. In the browser and in Telegram, in four languages, on Cloudflare's free plan.</p>
   <p><a class="btn" href="https://okay-chat-edge.okay-effects.workers.dev/" target="_blank" rel="noopener">Open Okay! Chat</a>
