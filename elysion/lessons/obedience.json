@@ -1,0 +1,773 @@
+{
+  "id": "obedience",
+  "title": {
+    "en": "Must we obey an unjust law?",
+    "ru": "Должны ли мы подчиняться несправедливому закону?",
+    "uk": "Чи мусимо ми коритися несправедливому законові?",
+    "pl": "Czy musimy być posłuszni niesprawiedliwemu prawu?"
+  },
+  "subtitle": {
+    "en": "Antigone, Socrates, Mencius and Thoreau — and you",
+    "ru": "Антигона, Сократ, Мэн-цзы и Торо — и вы",
+    "uk": "Антигона, Сократ, Мен-цзи і Торо — і ви",
+    "pl": "Antygona, Sokrates, Mencjusz i Thoreau — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: must we obey an unjust law?",
+        "ru": "Прежде чем читать кого-либо: должны ли мы подчиняться несправедливому закону?",
+        "uk": "Перш ніж читати когось: чи мусимо ми коритися несправедливому законові?",
+        "pl": "Zanim kogokolwiek przeczytasz: czy musimy być posłuszni niesprawiedliwemu prawu?"
+      },
+      "options": [
+        {
+          "en": "Yes: a law is a law — without obedience there is no state",
+          "ru": "Да: закон есть закон — без повиновения нет государства",
+          "uk": "Так: закон є закон — без послуху немає держави",
+          "pl": "Tak: prawo to prawo — bez posłuszeństwa nie ma państwa"
+        },
+        {
+          "en": "Obey it, but work openly to change it",
+          "ru": "Подчиняться, но открыто добиваться его изменения",
+          "uk": "Коритися, але відкрито домагатися його зміни",
+          "pl": "Być posłusznym, ale otwarcie dążyć do jego zmiany"
+        },
+        {
+          "en": "No: conscience comes first, whatever the cost",
+          "ru": "Нет: совесть важнее, чего бы это ни стоило",
+          "uk": "Ні: сумління важливіше, хоч би чого це коштувало",
+          "pl": "Nie: sumienie jest ważniejsze, bez względu na koszty"
+        },
+        {
+          "en": "It depends on how unjust it is, and whom it harms",
+          "ru": "Смотря насколько он несправедлив и кому вредит",
+          "uk": "Залежно від того, наскільки він несправедливий і кому шкодить",
+          "pl": "To zależy, jak bardzo jest niesprawiedliwe i komu szkodzi"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Antigone: the unwritten laws",
+        "ru": "Антигона: неписаные законы",
+        "uk": "Антигона: неписані закони",
+        "pl": "Antygona: prawa niepisane"
+      },
+      "intro": {
+        "en": "Thebes, the morning after a war between two brothers, who have killed each other at the gates. King Creon decrees that Polynices, who led a foreign army against his own city, shall lie unburied, and that whoever buries him shall die. His sister Antigone buries him. Here is Creon's rule, as he later puts it to his son — and Antigone's answer, given to his face:",
+        "ru": "Фивы, утро после войны двух братьев, убивших друг друга у городских ворот. Царь Креонт велит оставить Полиника, приведшего чужое войско на родной город, без погребения, а тому, кто его похоронит, — смерть. Его сестра Антигона хоронит брата. Вот правило Креонта, как он потом скажет своему сыну, — и ответ Антигоны, данный ему в лицо:",
+        "uk": "Фіви, ранок після війни двох братів, які вбили один одного біля міської брами. Цар Креонт наказує залишити Полініка, що привів чуже військо на рідне місто, без поховання, а тому, хто його поховає, — смерть. Його сестра Антигона ховає брата. Ось правило Креонта, як він згодом скаже своєму синові, — і відповідь Антигони, дана йому в обличчя:",
+        "pl": "Teby, ranek po wojnie dwóch braci, którzy zabili się nawzajem u bram miasta. Król Kreon postanawia, że Polinejkes, który przywiódł obce wojsko na własne miasto, ma leżeć niepogrzebany, a kto go pogrzebie, zginie. Jego siostra Antygona grzebie brata. Oto zasada Kreona, jak wyłoży ją później swemu synowi — i odpowiedź Antygony, dana mu prosto w twarz:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Creon, in Sophocles' Antigone (666–669)",
+            "ru": "Креонт в «Антигоне» Софокла (666–669)",
+            "uk": "Креонт в «Антигоні» Софокла (666–669)",
+            "pl": "Kreon w Antygonie Sofoklesa (666–669)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "antigone-obedience.en.jebb",
+              "from": "1.658",
+              "to": "1.658",
+              "text": "No, whomsoever the city may appoint, that man must be obeyed, in little things and great, in just things and unjust; and I should feel sure that one who thus obeys would be a good ruler no less than a good subject",
+              "kind": "Free",
+              "translator": "R. C. Jebb",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tragedies_of_Sophocles_(Jebb_1917)/Antigone",
+                "lang": "en",
+                "title": "Sophocles, Antigone"
+              }
+            },
+            "ru": {
+              "edition": "antigone-obedience.ru.ours",
+              "from": "1.658",
+              "to": "1.658",
+              "text": "Нет: кого бы ни поставил город, тому и надлежит повиноваться — в малом и в великом, в справедливом и в несправедливом; и я был бы уверен, что тот, кто так повинуется, будет хорошим правителем не меньше, чем хорошим подданным",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tragedies_of_Sophocles_(Jebb_1917)/Antigone",
+                "lang": "en",
+                "title": "Софокл, «Антигона»"
+              }
+            },
+            "uk": {
+              "edition": "antigone-obedience.uk.ours",
+              "from": "1.658",
+              "to": "1.658",
+              "text": "Ні: кого б не поставило місто, тому й належить коритися — у малому й у великому, у справедливому й у несправедливому; і я був би певен, що той, хто так кориться, буде добрим правителем не менше, ніж добрим підданим",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tragedies_of_Sophocles_(Jebb_1917)/Antigone",
+                "lang": "en",
+                "title": "Софокл, «Антигона»"
+              }
+            },
+            "pl": {
+              "edition": "antigone-obedience.pl.ours",
+              "from": "1.658",
+              "to": "1.658",
+              "text": "Nie: kogokolwiek miasto ustanowi, tego trzeba słuchać — w rzeczach małych i wielkich, sprawiedliwych i niesprawiedliwych; i byłbym pewien, że kto tak jest posłuszny, będzie dobrym władcą nie mniej niż dobrym poddanym",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tragedies_of_Sophocles_(Jebb_1917)/Antigone",
+                "lang": "en",
+                "title": "Sofokles, Antygona"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:639-680/"
+          }
+        },
+        {
+          "by": {
+            "en": "Antigone, in Sophocles' Antigone (450–457)",
+            "ru": "Антигона в «Антигоне» Софокла (450–457)",
+            "uk": "Антигона в «Антигоні» Софокла (450–457)",
+            "pl": "Antygona w Antygonie Sofoklesa (450–457)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "antigone-obedience.en.jebb",
+              "from": "1.450",
+              "to": "1.450",
+              "text": "Yes; for it was not Zeus that had published me that edict; not such are the laws set among men by the Justice who dwells with the gods below; nor deemed I that thy decrees were of such force, that a mortal could override the unwritten and unfailing statutes of heaven. For their life is not of to-day or yesterday, but from all time, and no man knows when they were first put forth.",
+              "kind": "Free",
+              "translator": "R. C. Jebb",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tragedies_of_Sophocles_(Jebb_1917)/Antigone",
+                "lang": "en",
+                "title": "Sophocles, Antigone"
+              }
+            },
+            "ru": {
+              "edition": "antigone-obedience.ru.ours",
+              "from": "1.450",
+              "to": "1.450",
+              "text": "Да; ведь не Зевс возвестил мне этот указ, и не такие законы установила среди людей Справедливость, что обитает с подземными богами; и не думала я, что твои повеления так сильны, чтобы смертный мог преступить неписаные и незыблемые установления небес. Ибо живут они не сегодня и не вчера, а всегда, и никто не знает, когда они были впервые провозглашены.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tragedies_of_Sophocles_(Jebb_1917)/Antigone",
+                "lang": "en",
+                "title": "Софокл, «Антигона»"
+              }
+            },
+            "uk": {
+              "edition": "antigone-obedience.uk.ours",
+              "from": "1.450",
+              "to": "1.450",
+              "text": "Так; бо не Зевс оголосив мені цей наказ, і не такі закони встановила серед людей Справедливість, що живе з підземними богами; і не думала я, що твої веління мають таку силу, щоб смертний міг переступити неписані й непорушні установлення небес. Бо живуть вони не сьогодні й не вчора, а завжди, і ніхто не знає, коли їх уперше було проголошено.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tragedies_of_Sophocles_(Jebb_1917)/Antigone",
+                "lang": "en",
+                "title": "Софокл, «Антигона»"
+              }
+            },
+            "pl": {
+              "edition": "antigone-obedience.pl.ours",
+              "from": "1.450",
+              "to": "1.450",
+              "text": "Tak; bo to nie Zeus ogłosił mi ten nakaz, i nie takie prawa ustanowiła wśród ludzi Sprawiedliwość, która mieszka z bogami podziemnymi; i nie sądziłam, by twoje postanowienia miały taką moc, żeby śmiertelny mógł przekroczyć niepisane i niewzruszone prawa niebios. Bo żyją one nie od dziś ani od wczoraj, lecz od zawsze, i nikt nie wie, kiedy po raz pierwszy zostały ogłoszone.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tragedies_of_Sophocles_(Jebb_1917)/Antigone",
+                "lang": "en",
+                "title": "Sofokles, Antygona"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0011.tlg002.perseus-grc2:441-470/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "An ancient note on the play says that the Athenians chose Sophocles as one of their generals in the war against Samos (441–440 BC) because Antigone had been so admired — a tradition, perhaps no more.",
+            "ru": "Античная заметка к пьесе сообщает, что афиняне избрали Софокла одним из стратегов в войне с Самосом (441–440 до н. э.), потому что «Антигона» имела такой успех, — это предание, возможно, не более того.",
+            "uk": "Антична примітка до п’єси повідомляє, що афіняни обрали Софокла одним зі стратегів у війні із Самосом (441–440 до н. е.), бо «Антигона» мала такий успіх, — це переказ, можливо, не більше.",
+            "pl": "Starożytna notka do sztuki podaje, że Ateńczycy wybrali Sofoklesa na jednego ze strategów w wojnie z Samos (441–440 p.n.e.), bo Antygona zyskała taki podziw — to przekaz, być może nic więcej."
+          },
+          "source": "the ancient hypothesis (summary) of Sophocles' Antigone, attributed to Aristophanes of Byzantium"
+        },
+        {
+          "fact": {
+            "en": "Hegel called Antigone one of the most magnificent works of art, and read it as a clash of two rights — the family's and the state's — each of them right, and each one-sided.",
+            "ru": "Гегель называл «Антигону» одним из самых великолепных произведений искусства и видел в ней столкновение двух правд — семьи и государства, — каждая из которых права и каждая односторонна.",
+            "uk": "Гегель називав «Антигону» одним із найвеличніших творів мистецтва і бачив у ній зіткнення двох правд — родини й держави, — кожна з яких має рацію і кожна однобічна.",
+            "pl": "Hegel nazywał Antygonę jednym z najwspanialszych dzieł sztuki i widział w niej starcie dwóch racji — rodziny i państwa — z których każda jest słuszna i każda jednostronna."
+          },
+          "source": "G. W. F. Hegel, Lectures on Aesthetics (published 1835), on dramatic poetry"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Socrates: what the Laws would say",
+        "ru": "Сократ: что сказали бы Законы",
+        "uk": "Сократ: що сказали б Закони",
+        "pl": "Sokrates: co powiedziałyby Prawa"
+      },
+      "intro": {
+        "en": "Athens, 399 BC. Socrates has been sentenced to death — wrongly, as he and his friends believe. Before dawn his friend Crito comes to the prison: the guards can be bought, and friends in Thessaly will hide him. Socrates does not answer for himself; he imagines the Laws of Athens coming to question him:",
+        "ru": "Афины, 399 год до н. э. Сократ приговорён к смерти — несправедливо, как считают он и его друзья. Перед рассветом в тюрьму приходит его друг Критон: стражу можно подкупить, друзья в Фессалии его укроют. Сократ отвечает не от себя: он представляет, как его допрашивают сами Законы Афин:",
+        "uk": "Афіни, 399 рік до н. е. Сократа засуджено до смерті — несправедливо, як вважають він і його друзі. Перед світанком до в’язниці приходить його друг Крітон: варту можна підкупити, друзі у Фессалії його сховають. Сократ відповідає не від себе: він уявляє, як його розпитують самі Закони Афін:",
+        "pl": "Ateny, 399 rok p.n.e. Sokrates został skazany na śmierć — niesłusznie, jak sądzą on i jego przyjaciele. Przed świtem do więzienia przychodzi jego przyjaciel Kriton: strażników można przekupić, a przyjaciele w Tesalii go ukryją. Sokrates nie odpowiada od siebie: wyobraża sobie, że wypytują go same Prawa Aten:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "The Laws, in Plato's Crito (50a–b)",
+            "ru": "Законы в «Критоне» Платона (50a–b)",
+            "uk": "Закони в «Крітоні» Платона (50a–b)",
+            "pl": "Prawa w Kritonie Platona (50a–b)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "crito-obedience.en.jowett",
+              "from": "1.50",
+              "to": "1.50",
+              "text": "‘Tell us, Socrates,’ they say; ‘what are you about? are you not going by an act of yours to overturn us—the laws, and the whole state, as far as in you lies? Do you imagine that a state can subsist and not be overthrown, in which the decisions of law have no power, but are set aside and trampled upon by individuals?’",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Crito_(Jowett)",
+                "lang": "en",
+                "title": "Plato, Crito"
+              }
+            },
+            "ru": {
+              "edition": "crito-obedience.ru.ours",
+              "from": "1.50",
+              "to": "1.50",
+              "text": "«Скажи нам, Сократ, — говорят они, — что ты задумал? Не собираешься ли ты своим поступком ниспровергнуть нас — законы и всё государство, — насколько это от тебя зависит? Или ты думаешь, что может существовать и не быть ниспровергнутым государство, в котором решения закона не имеют силы, а отменяются и попираются частными лицами?»",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Crito_(Jowett)",
+                "lang": "en",
+                "title": "Платон, «Критон»"
+              }
+            },
+            "uk": {
+              "edition": "crito-obedience.uk.ours",
+              "from": "1.50",
+              "to": "1.50",
+              "text": "«Скажи нам, Сократе, — кажуть вони, — що ти задумав? Чи не збираєшся ти своїм учинком повалити нас — закони й усю державу, — наскільки це від тебе залежить? Чи ти гадаєш, що може існувати й не бути поваленою держава, у якій рішення закону не мають сили, а відкидаються й потоптуються приватними особами?»",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Crito_(Jowett)",
+                "lang": "en",
+                "title": "Платон, «Крітон»"
+              }
+            },
+            "pl": {
+              "edition": "crito-obedience.pl.ours",
+              "from": "1.50",
+              "to": "1.50",
+              "text": "„Powiedz nam, Sokratesie — mówią — co zamierzasz? Czy nie chcesz swoim czynem obalić nas — praw i całego państwa, na ile to od ciebie zależy? Czy sądzisz, że może istnieć i nie zostać obalone państwo, w którym orzeczenia prawa nie mają mocy, lecz są uchylane i deptane przez pojedynczych ludzi?”",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Crito_(Jowett)",
+                "lang": "en",
+                "title": "Platon, Kriton"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg003.perseus-grc2:50a/"
+          }
+        },
+        {
+          "by": {
+            "en": "The Laws' last word (54b–c)",
+            "ru": "Последнее слово Законов (54b–c)",
+            "uk": "Останнє слово Законів (54b–c)",
+            "pl": "Ostatnie słowo Praw (54b–c)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "crito-obedience.en.jowett",
+              "from": "1.54",
+              "to": "1.54",
+              "text": "Now you depart in innocence, a sufferer and not a doer of evil; a victim, not of the laws but of men.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Crito_(Jowett)",
+                "lang": "en",
+                "title": "Plato, Crito"
+              }
+            },
+            "ru": {
+              "edition": "crito-obedience.ru.ours",
+              "from": "1.54",
+              "to": "1.54",
+              "text": "Теперь ты уходишь невинным, претерпевшим зло, а не причинившим его; жертвой не законов, а людей.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Crito_(Jowett)",
+                "lang": "en",
+                "title": "Платон, «Критон»"
+              }
+            },
+            "uk": {
+              "edition": "crito-obedience.uk.ours",
+              "from": "1.54",
+              "to": "1.54",
+              "text": "Тепер ти відходиш невинним, тим, хто зазнав зла, а не заподіяв його; жертвою не законів, а людей.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Crito_(Jowett)",
+                "lang": "en",
+                "title": "Платон, «Крітон»"
+              }
+            },
+            "pl": {
+              "edition": "crito-obedience.pl.ours",
+              "from": "1.54",
+              "to": "1.54",
+              "text": "Teraz odchodzisz niewinny, jako ten, kto zło cierpi, a nie wyrządza; jako ofiara nie praw, lecz ludzi.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Crito_(Jowett)",
+                "lang": "en",
+                "title": "Platon, Kriton"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg003.perseus-grc2:54b/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Socrates' death was put off for about a month: no one could be executed in Athens while the sacred ship sent each year to Delos was away.",
+            "ru": "Казнь Сократа отложили примерно на месяц: в Афинах нельзя было никого казнить, пока не вернулся священный корабль, ежегодно отправляемый на Делос.",
+            "uk": "Страту Сократа відклали приблизно на місяць: в Афінах не можна було нікого страчувати, доки не повернувся священний корабель, який щороку посилали на Делос.",
+            "pl": "Egzekucję Sokratesa odroczono o mniej więcej miesiąc: w Atenach nie wolno było nikogo stracić, dopóki nie wrócił święty okręt wysyłany co roku na Delos."
+          },
+          "source": "Plato, Phaedo 58a–c; Xenophon, Memorabilia 4.8.2"
+        },
+        {
+          "fact": {
+            "en": "At his trial he had told the jury that if they freed him on condition that he stop philosophising, he would obey the god rather than them.",
+            "ru": "На суде он сказал присяжным, что если они отпустят его с условием больше не заниматься философией, он будет повиноваться скорее богу, чем им.",
+            "uk": "На суді він сказав присяжним, що якби вони відпустили його з умовою більше не займатися філософією, він коритиметься радше богові, ніж їм.",
+            "pl": "Na procesie powiedział sędziom, że gdyby uwolnili go pod warunkiem, że przestanie filozofować, będzie posłuszny raczej bogu niż im."
+          },
+          "source": "Plato, Apology 29c–d"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Mencius: a tyrant is no king",
+        "ru": "Мэн-цзы: тиран — не государь",
+        "uk": "Мен-цзи: тиран — не государ",
+        "pl": "Mencjusz: tyran to nie władca"
+      },
+      "intro": {
+        "en": "China, the fourth century BC: the age of the Warring States. King Xuan of Qi asks Mencius about two founders of dynasties whom every Confucian honours: Tang, who banished Jie, the last king of Xia, and King Wu, who struck down Zhou, the last king of Shang. Was that not subjects rising against their lord?",
+        "ru": "Китай, IV век до н. э., эпоха Сражающихся царств. Сюань-ван, царь Ци, спрашивает Мэн-цзы о двух основателях династий, которых чтит каждый конфуцианец: о Тане, изгнавшем Цзе, последнего царя Ся, и об У-ване, сокрушившем Чжоу, последнего царя Шан. Разве это не бунт подданных против своего государя?",
+        "uk": "Китай, IV століття до н. е., доба Царств, що воюють. Сюань-ван, цар Ці, питає Мен-цзи про двох засновників династій, яких шанує кожен конфуціанець: про Тана, що вигнав Цзе, останнього царя Ся, і про У-вана, що повалив Чжоу, останнього царя Шан. Хіба це не бунт підданих проти свого государя?",
+        "pl": "Chiny, IV wiek p.n.e., epoka Walczących Królestw. Król Xuan z Qi pyta Mencjusza o dwóch założycieli dynastii, których czci każdy konfucjanista: o Tanga, który wygnał Jie, ostatniego króla Xia, i o króla Wu, który obalił Zhou, ostatniego króla Shang. Czyż nie był to bunt poddanych przeciw ich panu?"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Mencius, Book I, Part II, 8 (1B8)",
+            "ru": "Мэн-цзы, кн. I, ч. II, 8 (1B8)",
+            "uk": "Мен-цзи, кн. I, ч. II, 8 (1B8)",
+            "pl": "Mencjusz, ks. I, cz. II, 8 (1B8)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "mencius-obedience.en.legge",
+              "from": "1.2.8",
+              "to": "1.2.8",
+              "text": "The king said, 'May a minister then put his sovereign to death?' Mencius said, 'He who outrages the benevolence proper to his nature, is called a robber; he who outrages righteousness, is called a ruffian. The robber and ruffian we call a mere fellow. I have heard of the cutting off of the fellow Zhou, but I have not heard of the putting a sovereign to death, in his case.'",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencius"
+              }
+            },
+            "ru": {
+              "edition": "mencius-obedience.ru.ours",
+              "from": "1.2.8",
+              "to": "1.2.8",
+              "text": "Царь спросил: «Так может ли сановник убить своего государя?» Мэн-цзы сказал: «Того, кто попирает человеколюбие, присущее его природе, называют разбойником; того, кто попирает справедливость, называют злодеем. Разбойника и злодея мы называем просто человечишкой. Я слышал, что покарали человечишку Чжоу, но не слышал, чтобы в его случае убили государя».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мэн-цзы»"
+              }
+            },
+            "uk": {
+              "edition": "mencius-obedience.uk.ours",
+              "from": "1.2.8",
+              "to": "1.2.8",
+              "text": "Цар спитав: «То чи може сановник убити свого государя?» Мен-цзи сказав: «Того, хто топче людяність, притаманну його природі, називають розбійником; того, хто топче справедливість, називають лиходієм. Розбійника й лиходія ми називаємо просто чоловічком. Я чув, що покарано чоловічка Чжоу, але не чув, щоб у його випадку вбили государя».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мен-цзи»"
+              }
+            },
+            "pl": {
+              "edition": "mencius-obedience.pl.ours",
+              "from": "1.2.8",
+              "to": "1.2.8",
+              "text": "Król rzekł: „Czyż więc dostojnik może zabić swego władcę?” Mencjusz rzekł: „Kto gwałci człowieczeństwo właściwe jego naturze, ten zwie się rozbójnikiem; kto gwałci prawość, ten zwie się złoczyńcą. Rozbójnika i złoczyńcę nazywamy zwykłym człowieczkiem. Słyszałem o ukaraniu człowieczka Zhou, lecz nie słyszałem, by w jego przypadku zabito władcę”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencjusz"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/孟子/梁惠王下"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Sima Qian says that Mencius went to serve King Xuan of Qi, but the king could not use him: his teaching was thought remote from the business of the day.",
+            "ru": "Сыма Цянь пишет, что Мэн-цзы поступил на службу к Сюань-вану в Ци, но царь не смог воспользоваться им: его учение сочли далёким от насущных дел.",
+            "uk": "Сима Цянь пише, що Мен-цзи пішов служити Сюань-ванові в Ці, але цар не зміг скористатися ним: його вчення вважали далеким від нагальних справ.",
+            "pl": "Sima Qian pisze, że Mencjusz udał się na służbę do króla Xuana w Qi, lecz król nie potrafił zrobić z niego użytku: jego nauka uchodziła za odległą od spraw bieżących."
+          },
+          "source": "Sima Qian, Records of the Grand Historian (Shiji), ch. 74"
+        },
+        {
+          "fact": {
+            "en": "Elsewhere Mencius puts it plainly: the people matter most, the altars of the land and grain come next, and the ruler least.",
+            "ru": "В другом месте Мэн-цзы говорит прямо: важнее всего народ, за ним — алтари земли и злаков, а государь — менее всего.",
+            "uk": "В іншому місці Мен-цзи каже прямо: найважливіший народ, за ним — вівтарі землі й злаків, а государ — найменш важливий.",
+            "pl": "Gdzie indziej Mencjusz mówi wprost: najważniejszy jest lud, potem ołtarze ziemi i zboża, a władca najmniej."
+          },
+          "source": "Mencius 7B14"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Concord, Massachusetts, July 1846",
+        "ru": "Конкорд, Массачусетс, июль 1846 года",
+        "uk": "Конкорд, Массачусетс, липень 1846 року",
+        "pl": "Concord, Massachusetts, lipiec 1846"
+      },
+      "scene": {
+        "en": "You live in a cabin you built yourself by Walden Pond, and one summer afternoon you walk into Concord to fetch a mended shoe. The town's constable and tax collector, your neighbour Sam Staples, stops you: you have not paid your poll tax for years. You know where the money goes — to a government that protects slavery and has just gone to war with Mexico. Pay, or go to jail. What do you do?",
+        "ru": "Вы живёте в хижине, которую сами построили у Уолденского пруда, и однажды летом идёте в Конкорд забрать у сапожника починенный башмак. Городской констебль и сборщик налогов, ваш сосед Сэм Стейплз, останавливает вас: вы уже несколько лет не платите подушный налог. Вы знаете, куда идут эти деньги, — правительству, которое охраняет рабство и только что начало войну с Мексикой. Заплатите — или в тюрьму. Что вы сделаете?",
+        "uk": "Ви живете в хатині, яку самі збудували біля Волденського ставу, і одного літнього дня йдете до Конкорда забрати в шевця полагоджений черевик. Міський констебль і збирач податків, ваш сусід Сем Стейплз, зупиняє вас: ви вже кілька років не сплачуєте подушного податку. Ви знаєте, куди йдуть ці гроші, — урядові, який захищає рабство і щойно почав війну з Мексикою. Заплатіть — або до в’язниці. Що ви зробите?",
+        "pl": "Mieszkasz w chacie, którą sam zbudowałeś nad stawem Walden, i pewnego letniego popołudnia idziesz do Concord odebrać od szewca naprawiony but. Miejscowy konstabl i poborca podatkowy, twój sąsiad Sam Staples, zatrzymuje cię: od lat nie płacisz podatku pogłównego. Wiesz, dokąd idą te pieniądze — do rządu, który chroni niewolnictwo i właśnie rozpoczął wojnę z Meksykiem. Zapłać albo idź do więzienia. Co robisz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Pay: it is a small sum, and the law is the law",
+            "ru": "Заплатить: сумма небольшая, а закон есть закон",
+            "uk": "Заплатити: сума невелика, а закон є закон",
+            "pl": "Zapłacić: to niewielka suma, a prawo to prawo"
+          },
+          "reply": {
+            "en": "Nearly all your neighbours did; Thoreau thought that each such payment helped the state to do the wrong he hated.",
+            "ru": "Так поступали почти все ваши соседи; Торо считал, что каждый такой платёж помогает государству творить то зло, которое он ненавидел.",
+            "uk": "Так чинили майже всі ваші сусіди; Торо вважав, що кожен такий платіж допомагає державі чинити те зло, яке він ненавидів.",
+            "pl": "Tak robili niemal wszyscy twoi sąsiedzi; Thoreau uważał, że każda taka wpłata pomaga państwu czynić zło, którego nienawidził."
+          }
+        },
+        {
+          "choice": {
+            "en": "Pay, and fight slavery and the war with votes and petitions",
+            "ru": "Заплатить — и бороться с рабством и войной голосованием и петициями",
+            "uk": "Заплатити — і боротися з рабством та війною голосуванням і петиціями",
+            "pl": "Zapłacić — i walczyć z niewolnictwem i wojną głosami i petycjami"
+          },
+          "reply": {
+            "en": "That was the respectable way; Thoreau thought that a vote only wishes the right to win, and leaves it to the majority.",
+            "ru": "Это был путь почтенных людей; Торо считал, что голос на выборах лишь выражает желание, чтобы победила правота, и оставляет её на волю большинства.",
+            "uk": "Це був шлях поважних людей; Торо вважав, що голос на виборах лише висловлює бажання, щоб перемогла правда, і залишає її на волю більшості.",
+            "pl": "Była to droga szanowanych ludzi; Thoreau uważał, że głos w wyborach tylko wyraża życzenie, by zwyciężyło to, co słuszne, i zostawia to większości."
+          }
+        },
+        {
+          "choice": {
+            "en": "Refuse, and go to jail",
+            "ru": "Отказаться — и сесть в тюрьму",
+            "uk": "Відмовитися — і сісти до в’язниці",
+            "pl": "Odmówić — i pójść do więzienia"
+          },
+          "reply": {
+            "en": "That is what he did: he spent the night in a cell with a man accused of burning a barn.",
+            "ru": "Так он и поступил: он провёл ночь в камере с человеком, которого обвиняли в поджоге амбара.",
+            "uk": "Так він і вчинив: провів ніч у камері з чоловіком, якого звинувачували в підпалі клуні.",
+            "pl": "Tak właśnie zrobił: spędził noc w celi z człowiekiem oskarżonym o spalenie stodoły."
+          }
+        },
+        {
+          "choice": {
+            "en": "Leave Massachusetts for a state whose laws you can bear",
+            "ru": "Уехать из Массачусетса в штат, чьи законы можно вынести",
+            "uk": "Виїхати з Массачусетса до штату, чиї закони можна витримати",
+            "pl": "Wyjechać z Massachusetts do stanu, którego prawa da się znieść"
+          },
+          "reply": {
+            "en": "Socrates' Laws said that every citizen was free to leave; Thoreau did not want to leave his town, only to stop lending the state his hand.",
+            "ru": "Законы у Сократа говорили, что каждый гражданин волен уйти; Торо не хотел покидать свой город — он хотел лишь перестать помогать государству своими руками.",
+            "uk": "Закони в Сократа казали, що кожен громадянин може піти; Торо не хотів покидати своє місто — він хотів лише перестати допомагати державі власними руками.",
+            "pl": "Prawa u Sokratesa mówiły, że każdy obywatel może odejść; Thoreau nie chciał opuszczać swego miasta — chciał tylko przestać użyczać państwu swej ręki."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "This was Henry David Thoreau. He spent one night in the Concord jail; that night someone paid the tax for him, and in the morning he was let out, angry that anyone had. He fetched his shoe, led a huckleberry party to a hill two miles off, and later told the town why he had gone to jail — in a lecture, printed in 1849 as “Resistance to Civil Government”. Gandhi and Martin Luther King both read it.",
+        "ru": "Это был Генри Дэвид Торо. Он провёл одну ночь в тюрьме Конкорда; той же ночью кто-то заплатил за него налог, и утром его выпустили — к его досаде. Он забрал свой башмак, повёл компанию собирать ягоды на холм в двух милях от города, а позже объяснил городу, почему сел в тюрьму, — в лекции, напечатанной в 1849 году под названием «Сопротивление гражданскому правлению». Её читали и Ганди, и Мартин Лютер Кинг.",
+        "uk": "Це був Генрі Девід Торо. Він провів одну ніч у в’язниці Конкорда; тієї ж ночі хтось сплатив за нього податок, і вранці його випустили — на його прикрість. Він забрав свій черевик, повів компанію збирати ягоди на пагорб за дві милі від міста, а згодом пояснив місту, чому сів до в’язниці, — у лекції, надрукованій 1849 року під назвою «Опір громадянському урядові». Її читали і Ганді, і Мартін Лютер Кінг.",
+        "pl": "To był Henry David Thoreau. Spędził jedną noc w więzieniu w Concord; tej samej nocy ktoś zapłacił za niego podatek i rano go wypuszczono — ku jego złości. Odebrał but, poprowadził wyprawę na borówki na wzgórze dwie mile od miasta, a później wyjaśnił miastu, dlaczego poszedł do więzienia — w odczycie wydanym w 1849 roku jako „Opór wobec władzy cywilnej”. Czytali go i Gandhi, i Martin Luther King."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Thoreau, Resistance to Civil Government (1849)",
+            "ru": "Торо, «Сопротивление гражданскому правлению» (1849)",
+            "uk": "Торо, «Опір громадянському урядові» (1849)",
+            "pl": "Thoreau, Opór wobec władzy cywilnej (1849)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "resistance-obedience.en",
+              "from": "1.26",
+              "to": "1.26",
+              "text": "Under a government which imprisons any unjustly, the true place for a just man is also a prison.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Aesthetic_Papers/Resistance_to_Civil_Government",
+                "lang": "en",
+                "title": "Henry David Thoreau, Resistance to Civil Government"
+              }
+            },
+            "ru": {
+              "edition": "resistance-obedience.ru.ours",
+              "from": "1.26",
+              "to": "1.26",
+              "text": "При правительстве, которое несправедливо заключает в тюрьму хоть кого-нибудь, истинное место для справедливого человека — тоже тюрьма.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Aesthetic_Papers/Resistance_to_Civil_Government",
+                "lang": "en",
+                "title": "Генри Дэвид Торо, «Сопротивление гражданскому правлению»"
+              }
+            },
+            "uk": {
+              "edition": "resistance-obedience.uk.ours",
+              "from": "1.26",
+              "to": "1.26",
+              "text": "За уряду, який несправедливо ув’язнює бодай когось, справжнє місце для справедливої людини — теж в’язниця.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Aesthetic_Papers/Resistance_to_Civil_Government",
+                "lang": "en",
+                "title": "Генрі Девід Торо, «Опір громадянському урядові»"
+              }
+            },
+            "pl": {
+              "edition": "resistance-obedience.pl.ours",
+              "from": "1.26",
+              "to": "1.26",
+              "text": "Pod rządem, który niesprawiedliwie więzi kogokolwiek, właściwym miejscem dla człowieka sprawiedliwego jest także więzienie.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Aesthetic_Papers/Resistance_to_Civil_Government",
+                "lang": "en",
+                "title": "Henry David Thoreau, Opór wobec władzy cywilnej"
+              }
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "The same essay: the morning after",
+            "ru": "Там же: наутро",
+            "uk": "Там само: наступного ранку",
+            "pl": "Tamże: następnego ranka"
+          },
+          "quotes": {
+            "en": {
+              "edition": "resistance-obedience.en",
+              "from": "1.37",
+              "to": "1.37",
+              "text": "When I came out of prison,—for some one interfered, and paid the tax,—I did not perceive that great changes had taken place on the common, such as he observed who went in a youth, and emerged a tottering and gray-headed man; and yet a change had to my eyes come over the scene,—the town, and State, and country,—greater than any that mere time could effect.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Aesthetic_Papers/Resistance_to_Civil_Government",
+                "lang": "en",
+                "title": "Henry David Thoreau, Resistance to Civil Government"
+              }
+            },
+            "ru": {
+              "edition": "resistance-obedience.ru.ours",
+              "from": "1.37",
+              "to": "1.37",
+              "text": "Когда я вышел из тюрьмы — ибо кто-то вмешался и заплатил налог, — я не заметил, чтобы на городской площади произошли большие перемены, вроде тех, что увидел человек, который вошёл в тюрьму юношей, а вышел дряхлым седым стариком; и всё же в моих глазах вся картина — город, и штат, и страна — изменилась сильнее, чем могло бы изменить её одно лишь время.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Aesthetic_Papers/Resistance_to_Civil_Government",
+                "lang": "en",
+                "title": "Генри Дэвид Торо, «Сопротивление гражданскому правлению»"
+              }
+            },
+            "uk": {
+              "edition": "resistance-obedience.uk.ours",
+              "from": "1.37",
+              "to": "1.37",
+              "text": "Коли я вийшов із в’язниці — бо хтось утрутився і сплатив податок, — я не помітив, щоб на міській площі сталися великі зміни, як ті, що побачив чоловік, який увійшов до в’язниці юнаком, а вийшов немічним сивим дідом; і все ж у моїх очах уся картина — місто, і штат, і країна — змінилася більше, ніж міг би змінити її сам лише час.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Aesthetic_Papers/Resistance_to_Civil_Government",
+                "lang": "en",
+                "title": "Генрі Девід Торо, «Опір громадянському урядові»"
+              }
+            },
+            "pl": {
+              "edition": "resistance-obedience.pl.ours",
+              "from": "1.37",
+              "to": "1.37",
+              "text": "Kiedy wyszedłem z więzienia — bo ktoś się wtrącił i zapłacił podatek — nie zauważyłem, by na błoniach zaszły wielkie zmiany, takie, jakie ujrzał ten, kto wszedł do więzienia jako młodzieniec, a wyszedł jako chwiejny, siwy starzec; a jednak w moich oczach cały widok — miasto, i stan, i kraj — odmienił się bardziej, niż mógłby go odmienić sam tylko czas.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Aesthetic_Papers/Resistance_to_Civil_Government",
+                "lang": "en",
+                "title": "Henry David Thoreau, Opór wobec władzy cywilnej"
+              }
+            }
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Who paid the tax is not known for certain; family tradition names his aunt, Maria Thoreau. Staples, who was also the jailer, kept him until morning all the same.",
+            "ru": "Кто заплатил налог, точно не известно; семейное предание называет его тётю, Марию Торо. Стейплз, который был и тюремщиком, всё равно продержал его до утра.",
+            "uk": "Хто сплатив податок, достеменно не відомо; родинний переказ називає його тітку, Марію Торо. Стейплз, який був і тюремником, однаково протримав його до ранку.",
+            "pl": "Kto zapłacił podatek, nie wiadomo na pewno; rodzinna tradycja wskazuje jego ciotkę, Marię Thoreau. Staples, który był też strażnikiem więziennym, i tak przetrzymał go do rana."
+          },
+          "source": "Walter Harding, The Days of Henry Thoreau (1965)"
+        },
+        {
+          "fact": {
+            "en": "Thoreau first gave the essay as a lecture at the Concord Lyceum early in 1848; it was printed in 1849, and took the title “Civil Disobedience” only after his death, in 1866.",
+            "ru": "Впервые Торо прочёл это эссе как лекцию в городском лекционном обществе Конкорда в начале 1848 года; напечатано оно в 1849-м, а название «Гражданское неповиновение» получило только после его смерти, в 1866 году.",
+            "uk": "Уперше Торо прочитав це есе як лекцію в міському лекційному товаристві Конкорда на початку 1848 року; надруковане воно 1849-го, а назву «Громадянська непокора» дістало лише після його смерті, 1866 року.",
+            "pl": "Thoreau po raz pierwszy wygłosił ten esej jako odczyt w miejskim towarzystwie odczytowym Concord Lyceum na początku 1848 roku; wydrukowano go w 1849, a tytuł „Obywatelskie nieposłuszeństwo” otrzymał dopiero po jego śmierci, w 1866 roku."
+          },
+          "source": "Walter Harding, The Days of Henry Thoreau (1965)"
+        },
+        {
+          "fact": {
+            "en": "Martin Luther King wrote that he first read the essay as a student at Morehouse College, and was fascinated by the idea of refusing to cooperate with an evil system.",
+            "ru": "Мартин Лютер Кинг писал, что впервые прочёл это эссе студентом колледжа Морхаус и был захвачен мыслью об отказе сотрудничать со злой системой.",
+            "uk": "Мартін Лютер Кінг писав, що вперше прочитав це есе студентом коледжу Морхаус і був захоплений думкою про відмову співпрацювати зі злою системою.",
+            "pl": "Martin Luther King pisał, że po raz pierwszy przeczytał ten esej jako student Morehouse College i zafascynowała go myśl o odmowie współpracy ze złym systemem."
+          },
+          "source": "Martin Luther King Jr., Stride Toward Freedom (1958), “Pilgrimage to Nonviolence”"
+        }
+      ]
+    },
+    {
+      "think": "obedience",
+      "question": {
+        "en": "Think of a rule or a law you believe is unjust — at work, at school, in your country. Would you break it? Openly or in secret? And would you accept the punishment?",
+        "ru": "Вспомните правило или закон, который кажется вам несправедливым, — на работе, в школе, в вашей стране. Нарушили бы вы его? Открыто или тайком? И приняли бы вы наказание?",
+        "uk": "Пригадайте правило чи закон, який здається вам несправедливим, — на роботі, у школі, у вашій країні. Чи порушили б ви його? Відкрито чи потай? І чи прийняли б ви покарання?",
+        "pl": "Pomyśl o regule lub prawie, które uważasz za niesprawiedliwe — w pracy, w szkole, w twoim kraju. Czy złamałbyś je? Otwarcie czy po kryjomu? I czy przyjąłbyś karę?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: must we obey an unjust law?",
+        "ru": "А теперь: должны ли мы подчиняться несправедливому закону?",
+        "uk": "А тепер: чи мусимо ми коритися несправедливому законові?",
+        "pl": "A teraz: czy musimy być posłuszni niesprawiedliwemu prawu?"
+      }
+    }
+  ]
+}
