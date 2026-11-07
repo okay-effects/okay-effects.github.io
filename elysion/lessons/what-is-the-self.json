@@ -102,6 +102,15 @@
               "kind": "Ours",
               "translator": "Elysion (draft)"
             }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Pali",
+              "ru": "оригинал на пали",
+              "uk": "оригінал палі",
+              "pl": "oryginał w pali"
+            },
+            "url": "https://suttacentral.net/sn22.59/pli/ms"
           }
         },
         {
@@ -144,24 +153,15 @@
               "kind": "Ours",
               "translator": "Elysion (draft)"
             }
-          }
-        },
-        {
-          "by": {
-            "en": "The same, in Pali",
-            "ru": "То же — на пали",
-            "uk": "Те саме — палі",
-            "pl": "To samo — w pali"
           },
-          "quotes": {
-            "en": {
-              "edition": "anatta.pli.ms",
-              "from": "sn22.59:7.1",
-              "to": "sn22.59:7.1",
-              "text": "‘netaṁ mama, nesohamasmi, na meso attā’ti",
-              "kind": "Original",
-              "translator": null
-            }
+          "original": {
+            "language": {
+              "en": "the original, in Pali",
+              "ru": "оригинал на пали",
+              "uk": "оригінал палі",
+              "pl": "oryginał w pali"
+            },
+            "url": "https://suttacentral.net/sn22.59/pli/ms"
           }
         }
       ]
@@ -220,24 +220,15 @@
               "kind": "Ours",
               "translator": "Elysion (draft)"
             }
-          }
-        },
-        {
-          "by": {
-            "en": "“Tat tvam asi” — “you are That”, in Sanskrit (6.13.3)",
-            "ru": "«Тат твам аси» — «ты есть то», на санскрите (6.13.3)",
-            "uk": "«Тат твам асі» — «ти є те», санскритом (6.13.3)",
-            "pl": "„Tat twam asi” — „ty jesteś tym”, w sanskrycie (6.13.3)"
           },
-          "quotes": {
-            "en": {
-              "edition": "chandogya.sa",
-              "from": "6.13.3",
-              "to": "6.13.3",
-              "text": "स आत्मा तत्त्वमसि श्वेतकेतो",
-              "kind": "Original",
-              "translator": null
-            }
+          "original": {
+            "language": {
+              "en": "the original, in Sanskrit",
+              "ru": "оригинал на санскрите",
+              "uk": "оригінал санскритом",
+              "pl": "oryginał w sanskrycie"
+            },
+            "url": "https://sa.wikisource.org/wiki/छान्दोग्योपनिषद्/अध्यायः_६"
           }
         }
       ]
@@ -361,24 +352,15 @@
               "kind": "Ours",
               "translator": "Elysion (draft)"
             }
-          }
-        },
-        {
-          "by": {
-            "en": "The same, in Descartes' Latin",
-            "ru": "То же — по-латыни, словами Декарта",
-            "uk": "Те саме — латиною, словами Декарта",
-            "pl": "To samo — po łacinie, słowami Kartezjusza"
           },
-          "quotes": {
-            "en": {
-              "edition": "meditations.la.at",
-              "from": "2.6",
-              "to": "2.6",
-              "text": "Ego sum, ego existo; certum est. Quandiu autem? Nempe quandiu cogito;",
-              "kind": "Original",
-              "translator": null
-            }
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/Meditationes_de_prima_philosophia_(Adam_et_Tannery)/Meditatio_II"
           }
         }
       ]
@@ -537,6 +519,15 @@
               "kind": "Ours",
               "translator": "Elysion (draft)"
             }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/六祖大師法寶壇經"
           }
         },
         {
@@ -579,42 +570,15 @@
               "kind": "Ours",
               "translator": "Elysion (draft)"
             }
-          }
-        },
-        {
-          "by": {
-            "en": "Shenxiu's, in Chinese",
-            "ru": "Стихи Шэньсю — по-китайски",
-            "uk": "Вірш Шеньсю — китайською",
-            "pl": "Wiersz Shenxiu — po chińsku"
           },
-          "quotes": {
-            "en": {
-              "edition": "platform.zh",
-              "from": "1",
-              "to": "1",
-              "text": "身是菩提树，心如明镜台， 时时勤拂拭，勿使惹尘埃。",
-              "kind": "Original",
-              "translator": null
-            }
-          }
-        },
-        {
-          "by": {
-            "en": "Huineng's, in Chinese",
-            "ru": "Стихи Хуэйнэна — по-китайски",
-            "uk": "Вірш Хуейнена — китайською",
-            "pl": "Wiersz Huinenga — po chińsku"
-          },
-          "quotes": {
-            "en": {
-              "edition": "platform.zh",
-              "from": "1",
-              "to": "1",
-              "text": "菩提本无树，明镜亦非台， 本来无一物，何处惹尘埃！",
-              "kind": "Original",
-              "translator": null
-            }
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/六祖大師法寶壇經"
           }
         }
       ]

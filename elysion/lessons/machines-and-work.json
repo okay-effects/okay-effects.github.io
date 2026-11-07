@@ -102,24 +102,15 @@
               "kind": "Ours",
               "translator": "Elysion (draft)"
             }
-          }
-        },
-        {
-          "by": {
-            "en": "The same, in Aristotle's Greek",
-            "ru": "То же — по-гречески, словами Аристотеля",
-            "uk": "Те саме — грецькою, словами Аристотеля",
-            "pl": "To samo — po grecku, słowami Arystotelesa"
           },
-          "quotes": {
-            "en": {
-              "edition": "politics.grc.ross",
-              "from": "1253b33",
-              "to": "1254a1",
-              "text": "οὕτως αἱ κερκίδες ἐκέρκιζον αὐταὶ καὶ τὰ πλῆκτρα ἐκιθάριζεν, οὐδὲν ἂν ἔδει οὔτε τοῖς ἀρχιτέκτοσιν ὑπηρετῶν οὔτε τοῖς δεσπόταις δούλων.",
-              "kind": "Original",
-              "translator": null
-            }
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg035.perseus-grc2:1.1253b/"
           }
         }
       ]
