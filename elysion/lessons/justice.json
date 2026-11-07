@@ -76,7 +76,12 @@
               "to": "1.338",
               "text": "Listen, then, he said; I proclaim that justice is nothing else than the interest of the stronger. And now why do you not praise me? But of course you won’t.",
               "kind": "Free",
-              "translator": "Benjamin Jowett"
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Plato, The Republic"
+              }
             },
             "ru": {
               "edition": "republic.ru.ours",
@@ -84,7 +89,12 @@
               "to": "1.338",
               "text": "Так слушай же, — сказал он. — Я утверждаю, что справедливость — это не что иное, как выгода сильнейшего. Ну, почему же ты не хвалишь меня? Да ведь ты и не захочешь.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Платон, «Государство»"
+              }
             },
             "uk": {
               "edition": "republic.uk.ours",
@@ -92,7 +102,12 @@
               "to": "1.338",
               "text": "Тож слухай, — сказав він. — Я стверджую, що справедливість — це не що інше, як вигода сильнішого. Ну, чому ж ти мене не хвалиш? Та ти й не захочеш.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Платон, «Держава»"
+              }
             },
             "pl": {
               "edition": "republic.pl.ours",
@@ -100,7 +115,12 @@
               "to": "1.338",
               "text": "Słuchaj więc — rzekł. — Twierdzę, że sprawiedliwość to nic innego, jak korzyść silniejszego. No i czemu mnie nie chwalisz? Ale ty przecież nie zechcesz.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Platon, Państwo"
+              }
             }
           },
           "original": {
@@ -163,7 +183,12 @@
               "to": "2.359",
               "text": "And this we may truly affirm to be a great proof that a man is just, not willingly or because he thinks that justice is any good to him individually, but of necessity, for wherever anyone thinks that he can safely be unjust, there he is unjust.",
               "kind": "Free",
-              "translator": "Benjamin Jowett"
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Plato, The Republic"
+              }
             },
             "ru": {
               "edition": "republic.ru.ours",
@@ -171,7 +196,12 @@
               "to": "2.359",
               "text": "И это, можно сказать, верное доказательство того, что человек справедлив не по доброй воле и не потому, что считает справедливость благом для себя, а по необходимости: ведь где только кто считает, что может безнаказанно поступать несправедливо, там он и поступает несправедливо.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Платон, «Государство»"
+              }
             },
             "uk": {
               "edition": "republic.uk.ours",
@@ -179,7 +209,12 @@
               "to": "2.359",
               "text": "І це, можна сказати, певний доказ того, що людина справедлива не з доброї волі й не тому, що вважає справедливість благом для себе, а з необхідності: адже де тільки хтось вважає, що може безкарно чинити несправедливо, там він і чинить несправедливо.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Платон, «Держава»"
+              }
             },
             "pl": {
               "edition": "republic.pl.ours",
@@ -187,7 +222,12 @@
               "to": "2.359",
               "text": "A to, można rzec, mocny dowód, że człowiek jest sprawiedliwy nie z własnej woli ani dlatego, że uważa sprawiedliwość za dobro dla siebie, lecz z konieczności: bo gdziekolwiek ktoś sądzi, że może bezkarnie być niesprawiedliwy, tam jest niesprawiedliwy.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Platon, Państwo"
+              }
             }
           },
           "original": {
@@ -250,7 +290,12 @@
               "to": "4.16",
               "text": "The Master said, \"The mind of the superior man is conversant with righteousness; the mind of the mean man is conversant with gain.\"",
               "kind": "Free",
-              "translator": "James Legge"
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Confucius, The Analects"
+              }
             },
             "ru": {
               "edition": "analects.ru.ours",
@@ -258,7 +303,12 @@
               "to": "4.16",
               "text": "Учитель сказал: «Благородный муж разумеет долг; низкий человек разумеет выгоду».",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуций, «Лунь юй»"
+              }
             },
             "uk": {
               "edition": "analects.uk.ours",
@@ -266,7 +316,12 @@
               "to": "4.16",
               "text": "Учитель сказав: «Шляхетна людина розуміє обов'язок; нікчемна людина розуміє вигоду».",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуцій, «Лунь юй»"
+              }
             },
             "pl": {
               "edition": "analects.pl.ours",
@@ -274,7 +329,12 @@
               "to": "4.16",
               "text": "Mistrz rzekł: „Szlachetny rozumie, co słuszne; nikczemny rozumie, co korzystne”.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Konfucjusz, Dialogi konfucjańskie"
+              }
             }
           },
           "original": {
@@ -401,7 +461,12 @@
               "to": "3.44",
               "text": "his speech may have the attraction of seeming the more just in your present temper against Mytilene; but we are not in a court of justice, but in a political assembly; and the question is not justice, but how to make the Mitylenians useful to Athens.",
               "kind": "Free",
-              "translator": "Richard Crawley"
+              "translator": "Richard Crawley",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/History_of_the_Peloponnesian_War/Book_3",
+                "lang": "en",
+                "title": "Thucydides, History of the Peloponnesian War"
+              }
             },
             "ru": {
               "edition": "war.ru.ours",
@@ -409,7 +474,12 @@
               "to": "3.44",
               "text": "его речь, быть может, кажется вам справедливее при нынешнем вашем гневе на Митилену; но мы не в суде, а в народном собрании, и вопрос не в справедливости, а в том, как сделать митиленцев полезными Афинам.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/History_of_the_Peloponnesian_War/Book_3",
+                "lang": "en",
+                "title": "Фукидид, «История Пелопоннесской войны»"
+              }
             },
             "uk": {
               "edition": "war.uk.ours",
@@ -417,7 +487,12 @@
               "to": "3.44",
               "text": "його промова, можливо, здається вам справедливішою за нинішнього вашого гніву на Мітилену; але ми не в суді, а в народних зборах, і питання не в справедливості, а в тому, як зробити мітиленців корисними Афінам.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/History_of_the_Peloponnesian_War/Book_3",
+                "lang": "en",
+                "title": "Фукідід, «Історія Пелопоннеської війни»"
+              }
             },
             "pl": {
               "edition": "war.pl.ours",
@@ -425,7 +500,12 @@
               "to": "3.44",
               "text": "jego mowa może wydawać się wam sprawiedliwsza w obecnym gniewie na Mitylenę; lecz nie jesteśmy w sądzie, tylko na zgromadzeniu ludowym, a pytanie nie dotyczy sprawiedliwości, lecz tego, jak uczynić Mityleńczyków użytecznymi dla Aten.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/History_of_the_Peloponnesian_War/Book_3",
+                "lang": "en",
+                "title": "Tukidydes, Wojna peloponeska"
+              }
             }
           },
           "original": {
@@ -452,7 +532,12 @@
               "to": "3.49",
               "text": "Luckily they met with no contrary wind, and the first ship making no haste upon so horrid an errand, while the second pressed on in the manner described, the first arrived so little before them, that Paches had only just had time to read the decree, and to prepare to execute the sentence, when the second put into port and prevented the massacre.",
               "kind": "Free",
-              "translator": "Richard Crawley"
+              "translator": "Richard Crawley",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/History_of_the_Peloponnesian_War/Book_3",
+                "lang": "en",
+                "title": "Thucydides, History of the Peloponnesian War"
+              }
             },
             "ru": {
               "edition": "war.ru.ours",
@@ -460,7 +545,12 @@
               "to": "3.49",
               "text": "К счастью, встречного ветра не было; первый корабль не спешил с таким ужасным поручением, а второй торопился, как сказано, — и первый прибыл настолько раньше, что Пахет едва успел прочесть постановление и приготовиться исполнить приговор, когда второй вошёл в гавань и предотвратил резню.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/History_of_the_Peloponnesian_War/Book_3",
+                "lang": "en",
+                "title": "Фукидид, «История Пелопоннесской войны»"
+              }
             },
             "uk": {
               "edition": "war.uk.ours",
@@ -468,7 +558,12 @@
               "to": "3.49",
               "text": "На щастя, зустрічного вітру не було; перший корабель не поспішав із таким жахливим дорученням, а другий квапився, як сказано, — і перший прибув настільки раніше, що Пахет ледве встиг прочитати постанову й приготуватися виконати вирок, коли другий увійшов у гавань і відвернув різанину.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/History_of_the_Peloponnesian_War/Book_3",
+                "lang": "en",
+                "title": "Фукідід, «Історія Пелопоннеської війни»"
+              }
             },
             "pl": {
               "edition": "war.pl.ours",
@@ -476,7 +571,12 @@
               "to": "3.49",
               "text": "Na szczęście nie napotkali przeciwnego wiatru; pierwszy okręt nie spieszył się z tak strasznym poleceniem, drugi zaś pędził, jak opisano — i pierwszy przybył tak niewiele wcześniej, że Paches zdążył zaledwie odczytać uchwałę i przygotować się do wykonania wyroku, gdy drugi wpłynął do portu i zapobiegł rzezi.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/History_of_the_Peloponnesian_War/Book_3",
+                "lang": "en",
+                "title": "Tukidydes, Wojna peloponeska"
+              }
             }
           },
           "original": {
@@ -539,7 +639,12 @@
               "to": "4.4",
               "text": "Justice being taken away, then, what are kingdoms but great robberies? For what are robberies themselves, but little kingdoms?",
               "kind": "Free",
-              "translator": "Marcus Dods"
+              "translator": "Marcus Dods",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_II/City_of_God/Book_IV",
+                "lang": "en",
+                "title": "Augustine, The City of God"
+              }
             },
             "ru": {
               "edition": "city.ru.ours",
@@ -547,7 +652,12 @@
               "to": "4.4",
               "text": "Если отнять справедливость, что такое царства, как не большие разбойничьи шайки? И что такое сами разбойничьи шайки, как не маленькие царства?",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_II/City_of_God/Book_IV",
+                "lang": "en",
+                "title": "Августин, «О граде Божием»"
+              }
             },
             "uk": {
               "edition": "city.uk.ours",
@@ -555,7 +665,12 @@
               "to": "4.4",
               "text": "Якщо відібрати справедливість, що таке царства, як не великі розбійницькі зграї? І що таке самі розбійницькі зграї, як не маленькі царства?",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_II/City_of_God/Book_IV",
+                "lang": "en",
+                "title": "Августин, «Про град Божий»"
+              }
             },
             "pl": {
               "edition": "city.pl.ours",
@@ -563,7 +678,12 @@
               "to": "4.4",
               "text": "Czymże są królestwa, gdy usunąć sprawiedliwość, jeśli nie wielkimi bandami rozbójników? A czymże są bandy rozbójników, jeśli nie małymi królestwami?",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_II/City_of_God/Book_IV",
+                "lang": "en",
+                "title": "Augustyn, Państwo Boże"
+              }
             }
           },
           "original": {
@@ -590,7 +710,12 @@
               "to": "4.4",
               "text": "For when that king had asked the man what he meant by keeping hostile possession of the sea, he answered with bold pride, “What thou meanest by seizing the whole earth; but because I do it with a petty ship, I am called a robber, whilst thou who dost it with a great fleet art styled emperor.”",
               "kind": "Free",
-              "translator": "Marcus Dods"
+              "translator": "Marcus Dods",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_II/City_of_God/Book_IV",
+                "lang": "en",
+                "title": "Augustine, The City of God"
+              }
             },
             "ru": {
               "edition": "city.ru.ours",
@@ -598,7 +723,12 @@
               "to": "4.4",
               "text": "Когда царь спросил этого человека, по какому праву он хозяйничает на море, тот с дерзкой гордостью ответил: «По тому же, по какому ты захватываешь всю землю; но так как я делаю это на маленьком корабле, меня зовут разбойником, а тебя, делающего это с большим флотом, — императором».",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_II/City_of_God/Book_IV",
+                "lang": "en",
+                "title": "Августин, «О граде Божием»"
+              }
             },
             "uk": {
               "edition": "city.uk.ours",
@@ -606,7 +736,12 @@
               "to": "4.4",
               "text": "Коли цар спитав цю людину, з якого права вона хазяйнує на морі, той із зухвалою гордістю відповів: «З того самого, з якого ти захоплюєш усю землю; але оскільки я роблю це на маленькому кораблі, мене звуть розбійником, а тебе, що робиш це з великим флотом, — імператором».",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_II/City_of_God/Book_IV",
+                "lang": "en",
+                "title": "Августин, «Про град Божий»"
+              }
             },
             "pl": {
               "edition": "city.pl.ours",
@@ -614,7 +749,12 @@
               "to": "4.4",
               "text": "Gdy bowiem król zapytał tego człowieka, jakim prawem panoszy się na morzu, ten z hardą dumą odpowiedział: „Takim samym, jakim ty zagarniasz całą ziemię; lecz ponieważ ja czynię to małym statkiem, zwą mnie rozbójnikiem, a ciebie, który czynisz to wielką flotą, zwą cesarzem”.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_II/City_of_God/Book_IV",
+                "lang": "en",
+                "title": "Augustyn, Państwo Boże"
+              }
             }
           },
           "original": {

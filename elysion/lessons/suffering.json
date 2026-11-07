@@ -76,7 +76,12 @@
               "to": "1.20",
               "text": "And said, Naked came I out of my mother's womb, and naked shall I return thither: the LORD gave, and the LORD hath taken away; blessed be the name of the LORD.",
               "kind": "Free",
-              "translator": "King James Version"
+              "translator": "King James Version",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Job",
+                "lang": "en",
+                "title": "The Book of Job"
+              }
             },
             "ru": {
               "edition": "job.ru.ours",
@@ -84,7 +89,12 @@
               "to": "1.20",
               "text": "И сказал: наг я вышел из чрева матери моей, наг возвращусь туда. Господь дал, Господь и взял; да будет имя Господне благословенно.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Job",
+                "lang": "en",
+                "title": "Книга Иова"
+              }
             },
             "uk": {
               "edition": "job.uk.ours",
@@ -92,7 +102,12 @@
               "to": "1.20",
               "text": "І сказав: голим вийшов я з утроби матері своєї, голим і повернуся туди. Господь дав, Господь і взяв; нехай буде ім’я Господнє благословенне.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Job",
+                "lang": "en",
+                "title": "Книга Йова"
+              }
             },
             "pl": {
               "edition": "job.pl.ours",
@@ -100,7 +115,12 @@
               "to": "1.20",
               "text": "I rzekł: Goły wyszedłem z łona matki mojej, goły wrócę tamże. Pan dał, Pan wziął; niech będzie imię Pańskie błogosławione.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Job",
+                "lang": "en",
+                "title": "Księga Hioba"
+              }
             }
           },
           "original": {
@@ -163,7 +183,12 @@
               "to": "1.5",
               "text": "For the end of all our actions is to be free from pain and fear, and, when once we have attained all this, the tempest of the soul is laid; seeing that the living creature has no need to go in search of something that is lacking, nor to look for anything else by which the good of the soul and of the body will be fulfilled.",
               "kind": "Free",
-              "translator": "R. D. Hicks"
+              "translator": "R. D. Hicks",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Letter_to_Menoeceus",
+                "lang": "en",
+                "title": "Epicurus, Letter to Menoeceus"
+              }
             },
             "ru": {
               "edition": "epicurus.ru.ours",
@@ -171,7 +196,12 @@
               "to": "1.5",
               "text": "Конечная цель всех наших действий — избавление от боли и страха; достигнув этого, мы успокаиваем бурю души, ибо живому существу больше не нужно искать чего-то недостающего или искать что-либо иное, посредством чего благо души и тела было бы полностью достигнуто.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Letter_to_Menoeceus",
+                "lang": "en",
+                "title": "Эпикур, «Письмо к Менекею»"
+              }
             },
             "uk": {
               "edition": "epicurus.uk.ours",
@@ -179,7 +209,12 @@
               "to": "1.5",
               "text": "Метою всіх наших дій є звільнення від болю та страху, і, коли ми досягли цього, буря душі вщухає; адже жива істота не має потреби шукати чогось відсутнього, ні звертатися до чогось іншого, чим би було задоволено благо душі й тіла.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Letter_to_Menoeceus",
+                "lang": "en",
+                "title": "Епікур, «Лист до Менекея»"
+              }
             },
             "pl": {
               "edition": "epicurus.pl.ours",
@@ -187,7 +222,12 @@
               "to": "1.5",
               "text": "Celem wszystkich naszych działań jest bycie wolnym od bólu i lęku; a gdy raz tego dokonamy, burza duszy się uspokaja, skoro żywa istota nie ma potrzeby szukać czegoś, czego jej brak, ani szukać czegoś innego, czym zostałby spełniony dobro duszy i ciała.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Letter_to_Menoeceus",
+                "lang": "en",
+                "title": "Epikur, List do Menojkeusa"
+              }
             }
           }
         }
@@ -305,7 +345,12 @@
               "to": "1.6",
               "text": "What eye can pierce the depth of his designs? From that all-perfect Being came not ill: And came it from no other, for he's lord: Yet it exists. O stern and numbing truth!",
               "kind": "Free",
-              "translator": "Joseph McCabe"
+              "translator": "Joseph McCabe",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Toleration_and_other_essays/Poem_on_the_Lisbon_Disaster",
+                "lang": "en",
+                "title": "Voltaire, Poem on the Lisbon Disaster"
+              }
             },
             "ru": {
               "edition": "voltaire.ru.ours",
@@ -313,7 +358,12 @@
               "to": "1.6",
               "text": "Кто способен проникнуть взором в глубину его замыслов? От этого всесовершенного Существа не могло произойти зло: и не могло произойти от иного, ибо он Господь: Однако оно существует. О суровая и удушающая истина!",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Toleration_and_other_essays/Poem_on_the_Lisbon_Disaster",
+                "lang": "en",
+                "title": "Вольтер, «Поэма о гибели Лиссабона»"
+              }
             },
             "uk": {
               "edition": "voltaire.uk.ours",
@@ -321,7 +371,12 @@
               "to": "1.6",
               "text": "Яке око може проникнути в глибину його задумів? Від цього вседосконалого Буття не могло піти зло: і воно не могло піти від іншого, бо він є Господарем: Проте воно існує. О, сувора і пригнічуюча істина!",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Toleration_and_other_essays/Poem_on_the_Lisbon_Disaster",
+                "lang": "en",
+                "title": "Вольтер, «Поема про загибель Лісабона»"
+              }
             },
             "pl": {
               "edition": "voltaire.pl.ours",
@@ -329,7 +384,12 @@
               "to": "1.6",
               "text": "Które oko przeniknie głębię Jego zamysłów? Od tego wszechdoskonałego Bytu nie pochodziło zło: Ani też od nikogo innego, bo On jest Panem: Lecz ono istnieje. O surowa i przygnębiająca prawdo!",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Toleration_and_other_essays/Poem_on_the_Lisbon_Disaster",
+                "lang": "en",
+                "title": "Wolter, Poemat o zniszczeniu Lizbony"
+              }
             }
           },
           "original": {
@@ -392,7 +452,12 @@
               "to": "1.2",
               "text": "Unless suffering is the direct and immediate object of life, our existence must entirely fail of its aim. It is absurd to look upon the enormous amount of pain that abounds everywhere in the world, and originates in needs and necessities inseparable from life itself, as serving no purpose at all and the result of mere chance.",
               "kind": "Free",
-              "translator": "T. Bailey Saunders"
+              "translator": "T. Bailey Saunders",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Studies_in_Pessimism/On_the_Sufferings_of_the_World",
+                "lang": "en",
+                "title": "Arthur Schopenhauer, On the Sufferings of the World"
+              }
             },
             "ru": {
               "edition": "schopenhauer.ru.ours",
@@ -400,7 +465,12 @@
               "to": "1.2",
               "text": "Если страдание не является прямой и непосредственной целью жизни, то наше существование полностью лишено своей цели. Абсурдно смотреть на огромное количество боли, повсеместно обильно присутствующей в мире и проистекающей из потребностей и необходимости, неотделимых от самой жизни, как на нечто не имеющее никакой цели и являющееся результатом простого случая.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Studies_in_Pessimism/On_the_Sufferings_of_the_World",
+                "lang": "en",
+                "title": "Артур Шопенгауэр, «О страданиях мира»"
+              }
             },
             "uk": {
               "edition": "schopenhauer.uk.ours",
@@ -408,7 +478,12 @@
               "to": "1.2",
               "text": "Якщо страждання не є прямою й безпосередньою метою життя, то наше існування цілком не досягає своєї мети. Абсурдно розглядати величезну кількість болю, що панує всюди у світі і бере початок із потреб і необхідностей, нерозривно пов'язаних із самим життям, як таку, що не має жодної мети і є результатом випадковості.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Studies_in_Pessimism/On_the_Sufferings_of_the_World",
+                "lang": "en",
+                "title": "Артур Шопенгауер, «Про страждання світу»"
+              }
             },
             "pl": {
               "edition": "schopenhauer.pl.ours",
@@ -416,7 +491,12 @@
               "to": "1.2",
               "text": "Jeśli cierpienie nie jest bezpośrednim i natychmiastowym celem życia, nasze istnienie całkowicie chybia swego celu. Absurdem jest patrzeć na ogromną ilość cierpienia, które panuje wszędzie na świecie i wypływa z potrzeb i konieczności nieodłącznych od samego życia, jak na coś, co nie służy żadnemu celowi i wynika z czystego przypadku.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Studies_in_Pessimism/On_the_Sufferings_of_the_World",
+                "lang": "en",
+                "title": "Arthur Schopenhauer, O cierpieniach świata"
+              }
             }
           }
         }

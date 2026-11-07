@@ -76,7 +76,12 @@
               "to": "1254a1",
               "text": "for if every tool could perform its own work when ordered, or by seeing what to do in advance, like the statues of Daedalus in the story, or the tripods of Hephaestus which the poet says ‘enter self-moved the company divine,’—if thus shuttles wove and quills played harps of themselves, master-craftsmen would have no need of assistants and masters no need of slaves.",
               "kind": "Free",
-              "translator": "H. Rackham"
+              "translator": "H. Rackham",
+              "whole": {
+                "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058",
+                "lang": "en",
+                "title": "Aristotle, Politics"
+              }
             },
             "ru": {
               "edition": "politics.ru.zhebelev",
@@ -84,7 +89,12 @@
               "to": "1254a1",
               "text": "Если бы каждое орудие могло выполнять свойственную ему работу само, по данному ему приказанию или даже его предвосхищая, и уподоблялось бы статуям Дедала или треножникам Гефеста, о которых поэт говорит, что они «сами собой (aytomatoys) входили в собрание богов»; если бы ткацкие челноки сами ткали, а плектры сами играли на кифаре, тогда и зодчие не нуждались бы в работниках, а господам не нужны были бы рабы.",
               "kind": "Free",
-              "translator": "С. А. Жебелёв"
+              "translator": "С. А. Жебелёв",
+              "whole": {
+                "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058",
+                "lang": "en",
+                "title": "Аристотель, «Политика»"
+              }
             },
             "uk": {
               "edition": "politics.uk.ours",
@@ -92,7 +102,12 @@
               "to": "1254a1",
               "text": "Бо якби кожне знаряддя могло само виконувати свою роботу — за наказом або навіть передбачаючи його, — як, кажуть, статуї Дедала чи триніжки Гефеста, що, за словами поета, «самі собою входять до зібрання богів», — якби так само човники самі ткали, а плектри самі грали на кіфарі, то майстрам не потрібні були б помічники, а господарям — раби.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058",
+                "lang": "en",
+                "title": "Аристотель, «Політика»"
+              }
             },
             "pl": {
               "edition": "politics.pl.ours",
@@ -100,7 +115,12 @@
               "to": "1254a1",
               "text": "Gdyby bowiem każde narzędzie mogło samo wykonywać swoją pracę — na rozkaz albo nawet przewidując go — jak podobno posągi Dedala albo trójnogi Hefajstosa, które, jak mówi poeta, „same z siebie wchodzą na zgromadzenie bogów”, gdyby tak samo czółenka same tkały, a plektrony same grały na kitarze, wówczas ani mistrzowie nie potrzebowaliby pomocników, ani panowie niewolników.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058",
+                "lang": "en",
+                "title": "Arystoteles, Polityka"
+              }
             }
           },
           "original": {
@@ -236,7 +256,12 @@
               "to": "967",
               "text": "Considerable injury has been done to the proprietors of the improved Frames. These machines were to them an advantage, inasmuch as they superseded the necessity of employing a number of workmen, who were left in consequence to starve. By the adoption of one species of Frame in particular, one man performed the work of many, and the superfluous labourers were thrown out of employment.",
               "kind": "Original",
-              "translator": null
+              "translator": null,
+              "whole": {
+                "url": "https://api.parliament.uk/historic-hansard/lords/1812/feb/27/frame-work-bill",
+                "lang": "en",
+                "title": "Lord Byron, speech on the Frame-Work Bill (1812)"
+              }
             },
             "ru": {
               "edition": "frame-work-bill.ru.ours",
@@ -244,7 +269,12 @@
               "to": "967",
               "text": "Владельцам усовершенствованных станков был причинён значительный ущерб. Эти машины давали им выгоду, поскольку избавляли от необходимости нанимать множество рабочих, которых в результате оставили голодать. С введением одного рода станков, в особенности, один человек выполнял работу многих, и лишние работники лишились занятия.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://api.parliament.uk/historic-hansard/lords/1812/feb/27/frame-work-bill",
+                "lang": "en",
+                "title": "Лорд Байрон, речь о законе против разрушителей станков (1812)"
+              }
             },
             "uk": {
               "edition": "frame-work-bill.uk.ours",
@@ -252,7 +282,12 @@
               "to": "967",
               "text": "Власникам удосконалених верстатів було завдано значної шкоди. Ці машини давали їм вигоду, бо звільняли від потреби наймати багато робітників, яких унаслідок цього залишили голодувати. Із запровадженням одного роду верстатів, зокрема, одна людина виконувала роботу багатьох, і зайві робітники втратили роботу.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://api.parliament.uk/historic-hansard/lords/1812/feb/27/frame-work-bill",
+                "lang": "en",
+                "title": "Лорд Байрон, промова про закон проти руйнівників верстатів (1812)"
+              }
             },
             "pl": {
               "edition": "frame-work-bill.pl.ours",
@@ -260,7 +295,12 @@
               "to": "967",
               "text": "Właścicielom ulepszonych krosien wyrządzono znaczną szkodę. Maszyny te przynosiły im korzyść, ponieważ uwalniały ich od konieczności zatrudniania wielu robotników, których w rezultacie pozostawiono na pastwę głodu. Zwłaszcza po wprowadzeniu jednego rodzaju krosien jeden człowiek wykonywał pracę wielu, a zbędni robotnicy tracili zatrudnienie.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://api.parliament.uk/historic-hansard/lords/1812/feb/27/frame-work-bill",
+                "lang": "en",
+                "title": "Lord Byron, mowa o ustawie przeciw niszczycielom krosien (1812)"
+              }
             }
           }
         },
@@ -278,7 +318,12 @@
               "to": "968",
               "text": "These men were willing to dig, but the spade was in other hands: they were not ashamed to beg, but there was none to relieve them",
               "kind": "Original",
-              "translator": null
+              "translator": null,
+              "whole": {
+                "url": "https://api.parliament.uk/historic-hansard/lords/1812/feb/27/frame-work-bill",
+                "lang": "en",
+                "title": "Lord Byron, speech on the Frame-Work Bill (1812)"
+              }
             },
             "ru": {
               "edition": "frame-work-bill.ru.ours",
@@ -286,7 +331,12 @@
               "to": "968",
               "text": "Эти люди готовы были копать, но лопата была в чужих руках; они не стыдились просить, но некому было им помочь",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://api.parliament.uk/historic-hansard/lords/1812/feb/27/frame-work-bill",
+                "lang": "en",
+                "title": "Лорд Байрон, речь о законе против разрушителей станков (1812)"
+              }
             },
             "uk": {
               "edition": "frame-work-bill.uk.ours",
@@ -294,7 +344,12 @@
               "to": "968",
               "text": "Ці люди готові були копати, але лопата була в чужих руках; вони не соромилися просити, але не було кому їм допомогти",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://api.parliament.uk/historic-hansard/lords/1812/feb/27/frame-work-bill",
+                "lang": "en",
+                "title": "Лорд Байрон, промова про закон проти руйнівників верстатів (1812)"
+              }
             },
             "pl": {
               "edition": "frame-work-bill.pl.ours",
@@ -302,7 +357,12 @@
               "to": "968",
               "text": "Ci ludzie chcieli kopać, lecz łopata była w cudzych rękach; nie wstydzili się prosić, lecz nie było nikogo, kto by im pomógł",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://api.parliament.uk/historic-hansard/lords/1812/feb/27/frame-work-bill",
+                "lang": "en",
+                "title": "Lord Byron, mowa o ustawie przeciw niszczycielom krosien (1812)"
+              }
             }
           }
         }

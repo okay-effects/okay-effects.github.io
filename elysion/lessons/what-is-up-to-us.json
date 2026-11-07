@@ -76,7 +76,12 @@
               "to": "1",
               "text": "OF things some are in our power, and others are not. In our power are opinion (ὑπόληψις), movement towards a thing (ὁρμή), desire, aversion (ἔκκλισις, turning from a thing); and in a word, whatever are our own acts: not in our power are the body, property, reputation, offices (magisterial power), and in a word, whatever are not our own acts.",
               "kind": "Free",
-              "translator": "George Long"
+              "translator": "George Long",
+              "whole": {
+                "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0557.tlg002.perseus-eng3:1/",
+                "lang": "en",
+                "title": "Epictetus, Enchiridion"
+              }
             },
             "ru": {
               "edition": "enchiridion.ru.ours",
@@ -84,7 +89,12 @@
               "to": "1",
               "text": "Из вещей одни в нашей власти, другие нет. В нашей власти мнение, стремление, желание, отвращение — одним словом, всё, что является нашим собственным делом; не в нашей власти тело, имущество, репутация, должности — одним словом, всё, что не является нашим собственным делом.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0557.tlg002.perseus-eng3:1/",
+                "lang": "en",
+                "title": "Эпиктет, «Энхиридион»"
+              }
             },
             "uk": {
               "edition": "enchiridion.uk.ours",
@@ -92,7 +102,12 @@
               "to": "1",
               "text": "Із речей одні в нашій владі, інші — ні. У нашій владі думка, прагнення, бажання, відраза — одним словом, усе, що є нашою власною справою; не в нашій владі тіло, майно, репутація, посади — одним словом, усе, що не є нашою власною справою.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0557.tlg002.perseus-eng3:1/",
+                "lang": "en",
+                "title": "Епіктет, «Енхірідіон»"
+              }
             },
             "pl": {
               "edition": "enchiridion.pl.ours",
@@ -100,7 +115,12 @@
               "to": "1",
               "text": "Spośród rzeczy jedne są w naszej mocy, inne nie. W naszej mocy są mniemanie, dążenie, pragnienie, niechęć — jednym słowem wszystko, co jest naszym własnym działaniem; nie są w naszej mocy ciało, majątek, sława, urzędy — jednym słowem wszystko, co nie jest naszym własnym działaniem.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0557.tlg002.perseus-eng3:1/",
+                "lang": "en",
+                "title": "Epiktet, Encheiridion"
+              }
             }
           },
           "original": {
@@ -127,7 +147,12 @@
               "to": "1",
               "text": "but if you think that only which is your own to be your own, and if you think that what is another’s, as it really is, belongs to another, no man will ever compel you, no man will hinder you, you will never blame any man, you will accuse no man",
               "kind": "Free",
-              "translator": "George Long"
+              "translator": "George Long",
+              "whole": {
+                "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0557.tlg002.perseus-eng3:1/",
+                "lang": "en",
+                "title": "Epictetus, Enchiridion"
+              }
             },
             "ru": {
               "edition": "enchiridion.ru.ours",
@@ -135,7 +160,12 @@
               "to": "1",
               "text": "но если будешь считать своим только то, что твоё, а чужое — как оно и есть — чужим, никто никогда не принудит тебя, никто не помешает тебе, ты никого не будешь упрекать, никого не будешь винить",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0557.tlg002.perseus-eng3:1/",
+                "lang": "en",
+                "title": "Эпиктет, «Энхиридион»"
+              }
             },
             "uk": {
               "edition": "enchiridion.uk.ours",
@@ -143,7 +173,12 @@
               "to": "1",
               "text": "але якщо вважатимеш своїм лише те, що твоє, а чуже — як воно і є — чужим, ніхто ніколи тебе не примусить, ніхто тобі не завадить, ти нікому не дорікатимеш, нікого не звинувачуватимеш",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0557.tlg002.perseus-eng3:1/",
+                "lang": "en",
+                "title": "Епіктет, «Енхірідіон»"
+              }
             },
             "pl": {
               "edition": "enchiridion.pl.ours",
@@ -151,7 +186,12 @@
               "to": "1",
               "text": "lecz jeśli za swoje uznasz tylko to, co twoje, a cudze — tak jak jest naprawdę — za cudze, nikt cię nigdy nie przymusi, nikt ci nie przeszkodzi, nikomu nie będziesz czynił wyrzutów, nikogo nie oskarżysz",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0557.tlg002.perseus-eng3:1/",
+                "lang": "en",
+                "title": "Epiktet, Encheiridion"
+              }
             }
           },
           "original": {
@@ -223,7 +263,12 @@
               "to": "78",
               "text": "There is nothing in the world more soft and weak than water, and yet for attacking things that are firm and strong there is nothing that can take precedence of it;--for there is nothing (so effectual) for which it can be changed. Every one in the world knows that the soft overcomes the hard, and the weak the strong, but no one is able to carry it out in practice.",
               "kind": "Free",
-              "translator": "James Legge"
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tâo_Teh_King",
+                "lang": "en",
+                "title": "Laozi, Dao De Jing"
+              }
             },
             "ru": {
               "edition": "daodejing.ru.ours",
@@ -231,7 +276,12 @@
               "to": "78",
               "text": "Нет в мире ничего мягче и слабее воды, и всё же в одолении твёрдого и сильного ничто не превзойдёт её — её нечем заменить. Всякий в мире знает, что мягкое одолевает твёрдое, а слабое — сильное, но никто не может следовать этому на деле.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tâo_Teh_King",
+                "lang": "en",
+                "title": "Лао-цзы, «Дао дэ цзин»"
+              }
             },
             "uk": {
               "edition": "daodejing.uk.ours",
@@ -239,7 +289,12 @@
               "to": "78",
               "text": "Немає у світі нічого м'якшого й слабшого за воду, і все ж у здоланні твердого й сильного ніщо не перевершить її — її нічим замінити. Кожен у світі знає, що м'яке долає тверде, а слабке — сильне, але ніхто не може чинити так на ділі.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tâo_Teh_King",
+                "lang": "en",
+                "title": "Лао-цзи, «Дао де цзін»"
+              }
             },
             "pl": {
               "edition": "daodejing.pl.ours",
@@ -247,7 +302,12 @@
               "to": "78",
               "text": "Nie ma na świecie nic bardziej miękkiego i słabego niż woda, a jednak w pokonywaniu tego, co twarde i mocne, nic jej nie prześcignie — niczym nie można jej zastąpić. Każdy na świecie wie, że miękkie zwycięża twarde, a słabe — mocne, lecz nikt nie potrafi tego stosować w praktyce.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tâo_Teh_King",
+                "lang": "en",
+                "title": "Laozi, Daodejing"
+              }
             }
           },
           "original": {
@@ -274,7 +334,12 @@
               "to": "48",
               "text": "He who devotes himself to learning (seeks) from day to day to increase (his knowledge); he who devotes himself to the Tao (seeks) from day to day to diminish (his doing). He diminishes it and again diminishes it, till he arrives at doing nothing (on purpose). Having arrived at this point of non-action, there is nothing which he does not do.",
               "kind": "Free",
-              "translator": "James Legge"
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tâo_Teh_King",
+                "lang": "en",
+                "title": "Laozi, Dao De Jing"
+              }
             },
             "ru": {
               "edition": "daodejing.ru.ours",
@@ -282,7 +347,12 @@
               "to": "48",
               "text": "Кто посвящает себя учёности, изо дня в день стремится умножать свои знания; кто посвящает себя Дао, изо дня в день стремится умалять свои деяния. Он умаляет и снова умаляет, пока не придёт к недеянию. Достигнув недеяния, нет ничего, чего бы он не совершил.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tâo_Teh_King",
+                "lang": "en",
+                "title": "Лао-цзы, «Дао дэ цзин»"
+              }
             },
             "uk": {
               "edition": "daodejing.uk.ours",
@@ -290,7 +360,12 @@
               "to": "48",
               "text": "Хто присвячує себе вченості, день у день прагне примножувати свої знання; хто присвячує себе Дао, день у день прагне применшувати свої дії. Він применшує і знову применшує, доки не дійде до недіяння. Досягнувши недіяння, немає нічого, чого б він не зробив.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tâo_Teh_King",
+                "lang": "en",
+                "title": "Лао-цзи, «Дао де цзін»"
+              }
             },
             "pl": {
               "edition": "daodejing.pl.ours",
@@ -298,7 +373,12 @@
               "to": "48",
               "text": "Kto oddaje się nauce, dzień po dniu stara się pomnażać swoją wiedzę; kto oddaje się Dao, dzień po dniu stara się umniejszać swoje działanie. Umniejsza je i znów umniejsza, aż dojdzie do niedziałania. Gdy dojdzie do niedziałania, nie ma niczego, czego by nie zdziałał.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tâo_Teh_King",
+                "lang": "en",
+                "title": "Laozi, Daodejing"
+              }
             }
           },
           "original": {
@@ -361,7 +441,12 @@
               "to": "2.48",
               "text": "Your business is with action alone; not by any means with fruit. Let not the fruit of action be your motive (to action). Let not your attachment be (fixed) on inaction. Having recourse to devotion, O Dhanañgaya! perform actions, casting off (all) attachment, and being equable in success or illsuccess; (such) equability is called devotion.",
               "kind": "Free",
-              "translator": "K. T. Telang"
+              "translator": "K. T. Telang",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "The Bhagavad Gītā"
+              }
             },
             "ru": {
               "edition": "gita.ru.ours",
@@ -369,7 +454,12 @@
               "to": "2.48",
               "text": "Твоё дело — лишь действие, но никак не плоды. Пусть плод действия не будет твоим побуждением. И пусть твоя привязанность не будет обращена на бездействие. Прибегнув к преданности, о Дхананджая, совершай действия, отбросив всякую привязанность, равный в успехе и неудаче; такое равенство и зовётся преданностью.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "«Бхагавадгита»"
+              }
             },
             "uk": {
               "edition": "gita.uk.ours",
@@ -377,7 +467,12 @@
               "to": "2.48",
               "text": "Твоя справа — лише дія, але аж ніяк не плоди. Хай плід дії не буде твоїм спонуканням. І хай твоя прив'язаність не буде звернена на бездіяльність. Удавшись до відданості, о Дгананджаю, чини дії, відкинувши всяку прив'язаність, рівний в успіху й невдачі; така рівність і зветься відданістю.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "«Бгаґавадґіта»"
+              }
             },
             "pl": {
               "edition": "gita.pl.ours",
@@ -385,7 +480,12 @@
               "to": "2.48",
               "text": "Twoją sprawą jest jedynie działanie, a nigdy owoce. Niech owoc działania nie będzie twoją pobudką. I niech twoje przywiązanie nie zwraca się ku bezczynności. Uciekając się do oddania, o Dhanańdżajo, spełniaj czyny, odrzuciwszy wszelkie przywiązanie, równy w powodzeniu i niepowodzeniu; taka równowaga zwie się oddaniem.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "Bhagawadgita"
+              }
             }
           },
           "original": {
@@ -512,7 +612,12 @@
               "to": "2.2",
               "text": "This is my art, this the game I never cease to play. I turn the wheel that spins. I delight to see the high come down and the low ascend. Mount up, if thou wilt, but only on condition that thou wilt not think it a hardship to come down when the rules of my game require it.",
               "kind": "Free",
-              "translator": "H. R. James"
+              "translator": "H. R. James",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Consolation_of_Philosophy_(James)",
+                "lang": "en",
+                "title": "Boethius, The Consolation of Philosophy"
+              }
             },
             "ru": {
               "edition": "consolation.ru.ours",
@@ -520,7 +625,12 @@
               "to": "2.2",
               "text": "Таково моё искусство, такова игра, в которую я не перестаю играть. Я вращаю колесо, что кружится. Мне в радость видеть, как высокое опускается, а низкое поднимается. Поднимайся, если хочешь, но лишь при условии, что не сочтёшь обидой спуститься, когда того потребуют правила моей игры.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Consolation_of_Philosophy_(James)",
+                "lang": "en",
+                "title": "Боэций, «Утешение философией»"
+              }
             },
             "uk": {
               "edition": "consolation.uk.ours",
@@ -528,7 +638,12 @@
               "to": "2.2",
               "text": "Таке моє мистецтво, така гра, у яку я не перестаю грати. Я обертаю колесо, що крутиться. Мені втіха бачити, як високе опускається, а низьке підноситься. Підіймайся, якщо хочеш, але лише за умови, що не вважатимеш кривдою спуститися, коли того вимагатимуть правила моєї гри.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Consolation_of_Philosophy_(James)",
+                "lang": "en",
+                "title": "Боецій, «Розрада від філософії»"
+              }
             },
             "pl": {
               "edition": "consolation.pl.ours",
@@ -536,7 +651,12 @@
               "to": "2.2",
               "text": "Taka jest moja sztuka, taka gra, której nigdy nie przestaję. Obracam koło, które się kręci. Raduje mnie widok, jak wysokie spada, a niskie się wznosi. Wznieś się, jeśli chcesz, lecz tylko pod warunkiem, że nie uznasz za krzywdę zejść, gdy wymagać tego będą reguły mojej gry.",
               "kind": "Ours",
-              "translator": "Elysion (draft)"
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Consolation_of_Philosophy_(James)",
+                "lang": "en",
+                "title": "Boecjusz, O pocieszeniu, jakie daje filozofia"
+              }
             }
           },
           "original": {
