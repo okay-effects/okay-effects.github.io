@@ -1,0 +1,511 @@
+{
+  "id": "what-is-up-to-us",
+  "title": {
+    "en": "How to live with what is not up to us?",
+    "ru": "Как жить с тем, что от нас не зависит?",
+    "uk": "Як жити з тим, що від нас не залежить?",
+    "pl": "Jak żyć z tym, co od nas nie zależy?"
+  },
+  "subtitle": {
+    "en": "Epictetus, Laozi, the Bhagavad Gītā and Boethius — and you",
+    "ru": "Эпиктет, Лао-цзы, Бхагавадгита и Боэций — и вы",
+    "uk": "Епіктет, Лао-цзи, Бгаґавадґіта і Боецій — і ви",
+    "pl": "Epiktet, Laozi, Bhagawadgita i Boecjusz — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: how should we live with what is not up to us?",
+        "ru": "Прежде чем читать кого-либо: как жить с тем, что от нас не зависит?",
+        "uk": "Перш ніж читати когось: як жити з тим, що від нас не залежить?",
+        "pl": "Zanim kogokolwiek przeczytasz: jak żyć z tym, co od nas nie zależy?"
+      },
+      "options": [
+        {
+          "en": "Fight to change it anyway",
+          "ru": "Всё равно бороться, чтобы изменить",
+          "uk": "Все одно боротися, щоб змінити",
+          "pl": "Mimo wszystko walczyć, by to zmienić"
+        },
+        {
+          "en": "Accept it, and care only for what is mine to do",
+          "ru": "Принять и заботиться лишь о том, что в моих силах",
+          "uk": "Прийняти і дбати лише про те, що в моїх силах",
+          "pl": "Przyjąć i dbać tylko o to, co w mojej mocy"
+        },
+        {
+          "en": "Let go, and flow with things",
+          "ru": "Отпустить и течь вместе с жизнью",
+          "uk": "Відпустити і текти разом із життям",
+          "pl": "Odpuścić i płynąć z biegiem rzeczy"
+        },
+        {
+          "en": "Trust it to God, or to fate",
+          "ru": "Довериться Богу или судьбе",
+          "uk": "Довіритися Богові чи долі",
+          "pl": "Zaufać Bogu albo losowi"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Epictetus: draw the line",
+        "ru": "Эпиктет: провести черту",
+        "uk": "Епіктет: провести межу",
+        "pl": "Epiktet: wyznaczyć granicę"
+      },
+      "intro": {
+        "en": "Epictetus was born a slave in the first century; freed, he taught in Greece. His student Arrian wrote down his teaching in a small handbook, which begins with one line drawn through the world:",
+        "ru": "Эпиктет родился рабом в I веке; получив свободу, он учил в Греции. Его ученик Арриан записал его учение в маленьком «руководстве», которое начинается с одной черты, проведённой через весь мир:",
+        "uk": "Епіктет народився рабом у I столітті; здобувши свободу, він навчав у Греції. Його учень Арріан записав його вчення в маленькому «посібнику», що починається з однієї межі, проведеної через увесь світ:",
+        "pl": "Epiktet urodził się jako niewolnik w I wieku; wyzwolony, nauczał w Grecji. Jego uczeń Arrian spisał jego naukę w małym „podręczniku”, który zaczyna się od jednej granicy przeprowadzonej przez cały świat:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Epictetus, Enchiridion 1",
+            "ru": "Эпиктет, «Энхиридион», 1",
+            "uk": "Епіктет, «Енхірідіон», 1",
+            "pl": "Epiktet, Encheiridion 1"
+          },
+          "quotes": {
+            "en": {
+              "edition": "enchiridion.en.long",
+              "from": "1",
+              "to": "1",
+              "text": "OF things some are in our power, and others are not. In our power are opinion (ὑπόληψις), movement towards a thing (ὁρμή), desire, aversion (ἔκκλισις, turning from a thing); and in a word, whatever are our own acts: not in our power are the body, property, reputation, offices (magisterial power), and in a word, whatever are not our own acts.",
+              "kind": "Free",
+              "translator": "George Long"
+            },
+            "ru": {
+              "edition": "enchiridion.ru.ours",
+              "from": "1",
+              "to": "1",
+              "text": "Из вещей одни в нашей власти, другие нет. В нашей власти мнение, стремление, желание, отвращение — одним словом, всё, что является нашим собственным делом; не в нашей власти тело, имущество, репутация, должности — одним словом, всё, что не является нашим собственным делом.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "enchiridion.uk.ours",
+              "from": "1",
+              "to": "1",
+              "text": "Із речей одні в нашій владі, інші — ні. У нашій владі думка, прагнення, бажання, відраза — одним словом, усе, що є нашою власною справою; не в нашій владі тіло, майно, репутація, посади — одним словом, усе, що не є нашою власною справою.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "enchiridion.pl.ours",
+              "from": "1",
+              "to": "1",
+              "text": "Spośród rzeczy jedne są w naszej mocy, inne nie. W naszej mocy są mniemanie, dążenie, pragnienie, niechęć — jednym słowem wszystko, co jest naszym własnym działaniem; nie są w naszej mocy ciało, majątek, sława, urzędy — jednym słowem wszystko, co nie jest naszym własnym działaniem.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0557.tlg002.perseus-grc2:1/"
+          }
+        },
+        {
+          "by": {
+            "en": "The same chapter",
+            "ru": "Та же глава",
+            "uk": "Той самий розділ",
+            "pl": "Ten sam rozdział"
+          },
+          "quotes": {
+            "en": {
+              "edition": "enchiridion.en.long",
+              "from": "1",
+              "to": "1",
+              "text": "but if you think that only which is your own to be your own, and if you think that what is another’s, as it really is, belongs to another, no man will ever compel you, no man will hinder you, you will never blame any man, you will accuse no man",
+              "kind": "Free",
+              "translator": "George Long"
+            },
+            "ru": {
+              "edition": "enchiridion.ru.ours",
+              "from": "1",
+              "to": "1",
+              "text": "но если будешь считать своим только то, что твоё, а чужое — как оно и есть — чужим, никто никогда не принудит тебя, никто не помешает тебе, ты никого не будешь упрекать, никого не будешь винить",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "enchiridion.uk.ours",
+              "from": "1",
+              "to": "1",
+              "text": "але якщо вважатимеш своїм лише те, що твоє, а чуже — як воно і є — чужим, ніхто ніколи тебе не примусить, ніхто тобі не завадить, ти нікому не дорікатимеш, нікого не звинувачуватимеш",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "enchiridion.pl.ours",
+              "from": "1",
+              "to": "1",
+              "text": "lecz jeśli za swoje uznasz tylko to, co twoje, a cudze — tak jak jest naprawdę — za cudze, nikt cię nigdy nie przymusi, nikt ci nie przeszkodzi, nikomu nie będziesz czynił wyrzutów, nikogo nie oskarżysz",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0557.tlg002.perseus-grc2:1/"
+          }
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Laozi: be like water",
+        "ru": "Лао-цзы: будь как вода",
+        "uk": "Лао-цзи: будь як вода",
+        "pl": "Laozi: bądź jak woda"
+      },
+      "intro": {
+        "en": "China, some twenty-four centuries ago. The Dao De Jing answers differently: do not draw lines — yield, and win by yielding.",
+        "ru": "Китай, около двадцати четырёх веков назад. «Дао дэ цзин» отвечает иначе: не проводи черт — уступай и побеждай уступая.",
+        "uk": "Китай, близько двадцяти чотирьох століть тому. «Дао де цзін» відповідає інакше: не проводь меж — поступайся і перемагай, поступаючись.",
+        "pl": "Chiny, około dwudziestu czterech wieków temu. Daodejing odpowiada inaczej: nie wyznaczaj granic — ustępuj i zwyciężaj, ustępując."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Laozi, Dao De Jing 78",
+            "ru": "Лао-цзы, «Дао дэ цзин», 78",
+            "uk": "Лао-цзи, «Дао де цзін», 78",
+            "pl": "Laozi, Daodejing 78"
+          },
+          "quotes": {
+            "en": {
+              "edition": "daodejing.en.legge",
+              "from": "78",
+              "to": "78",
+              "text": "There is nothing in the world more soft and weak than water, and yet for attacking things that are firm and strong there is nothing that can take precedence of it;--for there is nothing (so effectual) for which it can be changed. Every one in the world knows that the soft overcomes the hard, and the weak the strong, but no one is able to carry it out in practice.",
+              "kind": "Free",
+              "translator": "James Legge"
+            },
+            "ru": {
+              "edition": "daodejing.ru.ours",
+              "from": "78",
+              "to": "78",
+              "text": "Нет в мире ничего мягче и слабее воды, и всё же в одолении твёрдого и сильного ничто не превзойдёт её — её нечем заменить. Всякий в мире знает, что мягкое одолевает твёрдое, а слабое — сильное, но никто не может следовать этому на деле.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "daodejing.uk.ours",
+              "from": "78",
+              "to": "78",
+              "text": "Немає у світі нічого м'якшого й слабшого за воду, і все ж у здоланні твердого й сильного ніщо не перевершить її — її нічим замінити. Кожен у світі знає, що м'яке долає тверде, а слабке — сильне, але ніхто не може чинити так на ділі.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "daodejing.pl.ours",
+              "from": "78",
+              "to": "78",
+              "text": "Nie ma na świecie nic bardziej miękkiego i słabego niż woda, a jednak w pokonywaniu tego, co twarde i mocne, nic jej nie prześcignie — niczym nie można jej zastąpić. Każdy na świecie wie, że miękkie zwycięża twarde, a słabe — mocne, lecz nikt nie potrafi tego stosować w praktyce.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/道德經"
+          }
+        },
+        {
+          "by": {
+            "en": "Laozi, Dao De Jing 48",
+            "ru": "Лао-цзы, «Дао дэ цзин», 48",
+            "uk": "Лао-цзи, «Дао де цзін», 48",
+            "pl": "Laozi, Daodejing 48"
+          },
+          "quotes": {
+            "en": {
+              "edition": "daodejing.en.legge",
+              "from": "48",
+              "to": "48",
+              "text": "He who devotes himself to learning (seeks) from day to day to increase (his knowledge); he who devotes himself to the Tao (seeks) from day to day to diminish (his doing). He diminishes it and again diminishes it, till he arrives at doing nothing (on purpose). Having arrived at this point of non-action, there is nothing which he does not do.",
+              "kind": "Free",
+              "translator": "James Legge"
+            },
+            "ru": {
+              "edition": "daodejing.ru.ours",
+              "from": "48",
+              "to": "48",
+              "text": "Кто посвящает себя учёности, изо дня в день стремится умножать свои знания; кто посвящает себя Дао, изо дня в день стремится умалять свои деяния. Он умаляет и снова умаляет, пока не придёт к недеянию. Достигнув недеяния, нет ничего, чего бы он не совершил.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "daodejing.uk.ours",
+              "from": "48",
+              "to": "48",
+              "text": "Хто присвячує себе вченості, день у день прагне примножувати свої знання; хто присвячує себе Дао, день у день прагне применшувати свої дії. Він применшує і знову применшує, доки не дійде до недіяння. Досягнувши недіяння, немає нічого, чого б він не зробив.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "daodejing.pl.ours",
+              "from": "48",
+              "to": "48",
+              "text": "Kto oddaje się nauce, dzień po dniu stara się pomnażać swoją wiedzę; kto oddaje się Dao, dzień po dniu stara się umniejszać swoje działanie. Umniejsza je i znów umniejsza, aż dojdzie do niedziałania. Gdy dojdzie do niedziałania, nie ma niczego, czego by nie zdziałał.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/道德經"
+          }
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "The Gītā: act, and let go of the fruit",
+        "ru": "Гита: действуй и отпусти плоды",
+        "uk": "Ґіта: дій і відпусти плоди",
+        "pl": "Gita: działaj i porzuć owoce"
+      },
+      "intro": {
+        "en": "On a battlefield, the warrior Arjuna lays down his bow: he will not fight. His charioteer, Krishna, answers him:",
+        "ru": "На поле битвы воин Арджуна опускает лук: он не будет сражаться. Его колесничий, Кришна, отвечает ему:",
+        "uk": "На полі битви воїн Арджуна опускає лук: він не битиметься. Його візничий, Крішна, відповідає йому:",
+        "pl": "Na polu bitwy wojownik Ardżuna opuszcza łuk: nie będzie walczył. Jego woźnica, Kryszna, odpowiada mu:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Bhagavad Gītā 2.47–48",
+            "ru": "Бхагавадгита, 2.47–48",
+            "uk": "Бгаґавадґіта, 2.47–48",
+            "pl": "Bhagawadgita 2.47–48"
+          },
+          "quotes": {
+            "en": {
+              "edition": "gita.en.telang",
+              "from": "2.47",
+              "to": "2.48",
+              "text": "Your business is with action alone; not by any means with fruit. Let not the fruit of action be your motive (to action). Let not your attachment be (fixed) on inaction. Having recourse to devotion, O Dhanañgaya! perform actions, casting off (all) attachment, and being equable in success or illsuccess; (such) equability is called devotion.",
+              "kind": "Free",
+              "translator": "K. T. Telang"
+            },
+            "ru": {
+              "edition": "gita.ru.ours",
+              "from": "2.47",
+              "to": "2.48",
+              "text": "Твоё дело — лишь действие, но никак не плоды. Пусть плод действия не будет твоим побуждением. И пусть твоя привязанность не будет обращена на бездействие. Прибегнув к преданности, о Дхананджая, совершай действия, отбросив всякую привязанность, равный в успехе и неудаче; такое равенство и зовётся преданностью.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "gita.uk.ours",
+              "from": "2.47",
+              "to": "2.48",
+              "text": "Твоя справа — лише дія, але аж ніяк не плоди. Хай плід дії не буде твоїм спонуканням. І хай твоя прив'язаність не буде звернена на бездіяльність. Удавшись до відданості, о Дгананджаю, чини дії, відкинувши всяку прив'язаність, рівний в успіху й невдачі; така рівність і зветься відданістю.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "gita.pl.ours",
+              "from": "2.47",
+              "to": "2.48",
+              "text": "Twoją sprawą jest jedynie działanie, a nigdy owoce. Niech owoc działania nie będzie twoją pobudką. I niech twoje przywiązanie nie zwraca się ku bezczynności. Uciekając się do oddania, o Dhanańdżajo, spełniaj czyny, odrzuciwszy wszelkie przywiązanie, równy w powodzeniu i niepowodzeniu; taka równowaga zwie się oddaniem.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Sanskrit",
+              "ru": "оригинал на санскрите",
+              "uk": "оригінал санскритом",
+              "pl": "oryginał w sanskrycie"
+            },
+            "url": "https://sa.wikisource.org/wiki/भगवद्गीता/साङ्ख्ययोगः"
+          }
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Pavia, around 524",
+        "ru": "Павия, около 524 года",
+        "uk": "Павія, близько 524 року",
+        "pl": "Pawia, około 524 roku"
+      },
+      "scene": {
+        "en": "You were consul of Rome and the king's first minister. Now, accused of treason, you wait in prison for your sentence. Your office, your wealth, your good name — all taken. What do you do with the time left?",
+        "ru": "Вы были консулом Рима и первым министром короля. Теперь, обвинённый в измене, вы ждёте в тюрьме приговора. Должность, богатство, доброе имя — всё отнято. Что вы сделаете с оставшимся временем?",
+        "uk": "Ви були консулом Риму і першим міністром короля. Тепер, звинувачений у зраді, ви чекаєте у в'язниці вироку. Посаду, багатство, добре ім'я — усе відібрано. Що ви зробите з часом, який лишився?",
+        "pl": "Byłeś konsulem Rzymu i pierwszym ministrem króla. Teraz, oskarżony o zdradę, czekasz w więzieniu na wyrok. Urząd, bogactwo, dobre imię — wszystko odebrane. Co zrobisz z czasem, który ci został?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Fight for my name: write appeals",
+            "ru": "Бороться за своё имя: писать прошения",
+            "uk": "Боротися за своє ім'я: писати прохання",
+            "pl": "Walczyć o swoje imię: pisać odwołania"
+          },
+          "reply": {
+            "en": "A natural thing to do. But if every appeal fails — what is still yours then?",
+            "ru": "Естественное желание. Но если все прошения откажут — что тогда останется вашим?",
+            "uk": "Природне бажання. Але якщо всі прохання відхилять — що тоді лишиться вашим?",
+            "pl": "Naturalny odruch. Ale jeśli każde odwołanie zawiedzie — co wtedy wciąż będzie twoje?"
+          }
+        },
+        {
+          "choice": {
+            "en": "Despair: everything is lost",
+            "ru": "Отчаяться: всё потеряно",
+            "uk": "Зневіритися: усе втрачено",
+            "pl": "Rozpaczać: wszystko stracone"
+          },
+          "reply": {
+            "en": "His book begins just so — in tears, with sad verses. And then someone comes into the cell.",
+            "ru": "Его книга начинается именно так — в слезах, с печальных стихов. А потом в камеру кто-то входит.",
+            "uk": "Його книжка починається саме так — у сльозах, із сумних віршів. А потім до камери хтось входить.",
+            "pl": "Jego księga zaczyna się właśnie tak — we łzach, od smutnych wierszy. A potem ktoś wchodzi do celi."
+          }
+        },
+        {
+          "choice": {
+            "en": "Write about what cannot be taken from me",
+            "ru": "Писать о том, что нельзя отнять",
+            "uk": "Писати про те, чого не можна відібрати",
+            "pl": "Pisać o tym, czego nie można odebrać"
+          },
+          "reply": {
+            "en": "That is what he did.",
+            "ru": "Так он и сделал.",
+            "uk": "Так він і зробив.",
+            "pl": "Tak właśnie zrobił."
+          }
+        },
+        {
+          "choice": {
+            "en": "Hope that Fortune will turn again",
+            "ru": "Надеяться, что Фортуна снова повернётся",
+            "uk": "Сподіватися, що Фортуна знову обернеться",
+            "pl": "Liczyć, że Fortuna znów się odwróci"
+          },
+          "reply": {
+            "en": "In his book Fortune herself answers that hope — read her below.",
+            "ru": "В его книге на эту надежду отвечает сама Фортуна — прочтите ниже.",
+            "uk": "У його книжці на цю надію відповідає сама Фортуна — прочитайте нижче.",
+            "pl": "W jego księdze na tę nadzieję odpowiada sama Fortuna — przeczytaj poniżej."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "This was Boethius. In prison he wrote The Consolation of Philosophy: Lady Philosophy visits him and shows him that Fortune's gifts were never his own. He was put to death soon after; his book was read for a thousand years — King Alfred, Chaucer and Queen Elizabeth I each translated it.",
+        "ru": "Это был Боэций. В тюрьме он написал «Утешение философией»: к нему приходит Философия и показывает, что дары Фортуны никогда не были его собственными. Вскоре его казнили; его книгу читали тысячу лет — её переводили король Альфред, Чосер и королева Елизавета I.",
+        "uk": "Це був Боецій. У в'язниці він написав «Розраду від філософії»: до нього приходить Філософія і показує, що дари Фортуни ніколи не були його власними. Невдовзі його стратили; його книжку читали тисячу років — її перекладали король Альфред, Чосер і королева Єлизавета I.",
+        "pl": "To był Boecjusz. W więzieniu napisał O pocieszeniu, jakie daje filozofia: odwiedza go Filozofia i pokazuje mu, że dary Fortuny nigdy nie były jego własne. Wkrótce potem stracono go; jego księgę czytano przez tysiąc lat — tłumaczyli ją król Alfred, Chaucer i królowa Elżbieta I."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Boethius, The Consolation of Philosophy II, 2 — Fortune speaks",
+            "ru": "Боэций, «Утешение философией», II, 2 — говорит Фортуна",
+            "uk": "Боецій, «Розрада від філософії», II, 2 — говорить Фортуна",
+            "pl": "Boecjusz, O pocieszeniu, jakie daje filozofia II, 2 — mówi Fortuna"
+          },
+          "quotes": {
+            "en": {
+              "edition": "consolation.en.james",
+              "from": "2.2",
+              "to": "2.2",
+              "text": "This is my art, this the game I never cease to play. I turn the wheel that spins. I delight to see the high come down and the low ascend. Mount up, if thou wilt, but only on condition that thou wilt not think it a hardship to come down when the rules of my game require it.",
+              "kind": "Free",
+              "translator": "H. R. James"
+            },
+            "ru": {
+              "edition": "consolation.ru.ours",
+              "from": "2.2",
+              "to": "2.2",
+              "text": "Таково моё искусство, такова игра, в которую я не перестаю играть. Я вращаю колесо, что кружится. Мне в радость видеть, как высокое опускается, а низкое поднимается. Поднимайся, если хочешь, но лишь при условии, что не сочтёшь обидой спуститься, когда того потребуют правила моей игры.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "consolation.uk.ours",
+              "from": "2.2",
+              "to": "2.2",
+              "text": "Таке моє мистецтво, така гра, у яку я не перестаю грати. Я обертаю колесо, що крутиться. Мені втіха бачити, як високе опускається, а низьке підноситься. Підіймайся, якщо хочеш, але лише за умови, що не вважатимеш кривдою спуститися, коли того вимагатимуть правила моєї гри.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "consolation.pl.ours",
+              "from": "2.2",
+              "to": "2.2",
+              "text": "Taka jest moja sztuka, taka gra, której nigdy nie przestaję. Obracam koło, które się kręci. Raduje mnie widok, jak wysokie spada, a niskie się wznosi. Wznieś się, jeśli chcesz, lecz tylko pod warunkiem, że nie uznasz za krzywdę zejść, gdy wymagać tego będą reguły mojej gry.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/De_philosophiae_consolatione/Liber_Secundus"
+          }
+        }
+      ]
+    },
+    {
+      "think": "control",
+      "question": {
+        "en": "Think of something that troubles you now. Which part of it is up to you — and which is not?",
+        "ru": "Вспомните то, что тревожит вас сейчас. Какая часть этого зависит от вас — а какая нет?",
+        "uk": "Згадайте те, що тривожить вас зараз. Яка частина цього залежить від вас — а яка ні?",
+        "pl": "Pomyśl o czymś, co cię teraz niepokoi. Która część tego zależy od ciebie — a która nie?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: how should we live with what is not up to us?",
+        "ru": "А теперь: как жить с тем, что от нас не зависит?",
+        "uk": "А тепер: як жити з тим, що від нас не залежить?",
+        "pl": "A teraz: jak żyć z tym, co od nas nie zależy?"
+      }
+    }
+  ]
+}
