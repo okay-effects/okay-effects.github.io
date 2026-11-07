@@ -1,0 +1,978 @@
+{
+  "id": "happiness",
+  "title": {
+    "en": "What makes a life happy?",
+    "ru": "Что делает жизнь счастливой?",
+    "uk": "Що робить життя щасливим?",
+    "pl": "Co czyni życie szczęśliwym?"
+  },
+  "subtitle": {
+    "en": "Aristotle, the Dhammapada, Solon and Croesus, Zhuangzi and Mill — and you",
+    "ru": "Аристотель, Дхаммапада, Солон и Крёз, Чжуан-цзы и Милль — и вы",
+    "uk": "Аристотель, Дхаммапада, Солон і Крез, Чжуан-цзи і Мілль — і ви",
+    "pl": "Arystoteles, Dhammapada, Solon i Krezus, Zhuangzi i Mill — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: what makes a life happy?",
+        "ru": "Прежде чем читать кого-либо: что делает жизнь счастливой?",
+        "uk": "Перш ніж читати когось: що робить життя щасливим?",
+        "pl": "Zanim kogokolwiek przeczytasz: co czyni życie szczęśliwym?"
+      },
+      "options": [
+        {
+          "en": "Pleasure, and as little pain as possible",
+          "ru": "Удовольствие — и как можно меньше страданий",
+          "uk": "Насолода — і якомога менше страждань",
+          "pl": "Przyjemność — i jak najmniej cierpienia"
+        },
+        {
+          "en": "Living well: using your best gifts, and being good",
+          "ru": "Жить достойно: применять лучшее в себе и быть хорошим человеком",
+          "uk": "Жити гідно: застосовувати найкраще в собі й бути доброю людиною",
+          "pl": "Dobrze żyć: wykorzystywać to, co w sobie najlepsze, i być dobrym człowiekiem"
+        },
+        {
+          "en": "Wanting little: peace of mind and contentment",
+          "ru": "Желать малого: покой души и довольство",
+          "uk": "Бажати малого: спокій душі й вдоволеність",
+          "pl": "Pragnąć niewiele: spokój ducha i zadowolenie"
+        },
+        {
+          "en": "Good fortune: health, love, enough money",
+          "ru": "Удача: здоровье, любовь, достаток",
+          "uk": "Удача: здоров’я, любов, достаток",
+          "pl": "Pomyślny los: zdrowie, miłość, dość pieniędzy"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Aristotle: a whole life lived well",
+        "ru": "Аристотель: вся жизнь, прожитая хорошо",
+        "uk": "Аристотель: усе життя, прожите добре",
+        "pl": "Arystoteles: całe życie dobrze przeżyte"
+      },
+      "intro": {
+        "en": "Athens, the 4th century BC. Every action aims at some good, Aristotle says, and the highest good everyone calls happiness — but some take it for pleasure, some for honour, some for wealth. To find what it is, he asks what work is proper to a human being, as playing the harp is the harp-player's:",
+        "ru": "Афины, IV век до н. э. Всякое действие стремится к какому-то благу, говорит Аристотель, и высшее благо все называют счастьем, — но одни считают его удовольствием, другие почётом, третьи богатством. Чтобы понять, что оно такое, он спрашивает, какое дело присуще человеку, как игра на кифаре — кифаристу:",
+        "uk": "Афіни, IV століття до н. е. Кожна дія прагне якогось блага, каже Аристотель, і найвище благо всі називають щастям, — але одні вважають його насолодою, інші — шаною, ще інші — багатством. Щоб зрозуміти, що воно таке, він питає, яка справа властива людині, як гра на кіфарі — кіфаристові:",
+        "pl": "Ateny, IV wiek p.n.e. Każde działanie zmierza do jakiegoś dobra, mówi Arystoteles, a dobro najwyższe wszyscy nazywają szczęściem — lecz jedni biorą je za przyjemność, inni za zaszczyty, jeszcze inni za bogactwo. By ustalić, czym ono jest, pyta, jaka praca jest właściwa człowiekowi, tak jak gra na kitarze — kitarzyście:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Aristotle, Nicomachean Ethics I.7 (1098a16–20)",
+            "ru": "Аристотель, «Никомахова этика», I.7 (1098a16–20)",
+            "uk": "Аристотель, «Нікомахова етика», I.7 (1098a16–20)",
+            "pl": "Arystoteles, Etyka nikomachejska I.7 (1098a16–20)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ethics.en.chase",
+              "from": "1.7",
+              "to": "1.7",
+              "text": "if all this is so, then the Good of Man comes to be \"a working of the Soul in the way of Excellence,\" or, if Excellence admits of degrees, in the way of the best and most perfect Excellence. And we must add, in a complete life; for as it is not one swallow or one fine day that makes a spring, so it is not one day or a short time that makes a man blessed and happy.",
+              "kind": "Free",
+              "translator": "D. P. Chase",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Aristotle, Nicomachean Ethics"
+              }
+            },
+            "ru": {
+              "edition": "ethics.ru.ours",
+              "from": "1.7",
+              "to": "1.7",
+              "text": "если всё это так, то благо человека оказывается «деятельностью души в согласии с добродетелью», а если добродетель имеет степени, — в согласии с наилучшей и совершеннейшей добродетелью. И надо добавить: на протяжении полной жизни; ибо как весны не делает одна ласточка или один погожий день, так и блаженным и счастливым человека не делает один день или краткое время.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Никомахова этика»"
+              }
+            },
+            "uk": {
+              "edition": "ethics.uk.ours",
+              "from": "1.7",
+              "to": "1.7",
+              "text": "якщо все це так, то благо людини виявляється «діяльністю душі згідно з чеснотою», а якщо чеснота має ступені, — згідно з найкращою і найдосконалішою чеснотою. І треба додати: протягом повного життя; бо як весни не робить одна ластівка чи один погожий день, так і блаженною та щасливою людину не робить один день чи короткий час.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Нікомахова етика»"
+              }
+            },
+            "pl": {
+              "edition": "ethics.pl.ours",
+              "from": "1.7",
+              "to": "1.7",
+              "text": "jeśli wszystko to tak się ma, to dobro człowieka okazuje się „czynnością duszy zgodną z cnotą”, a jeśli cnota ma stopnie — zgodną z cnotą najlepszą i najdoskonalszą. I trzeba dodać: w pełnym życiu; bo jak wiosny nie czyni jedna jaskółka ani jeden pogodny dzień, tak i błogosławionym i szczęśliwym nie czyni człowieka jeden dzień ani krótki czas.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Arystoteles, Etyka nikomachejska"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg010.perseus-grc2:1.7/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Aristotle taught at the Lyceum, a gymnasium outside the walls of Athens; his followers were called Peripatetics — from the covered walk, the peripatos, where, it is said, he taught walking up and down.",
+            "ru": "Аристотель учил в Ликее, гимнасии за стенами Афин; его последователей звали перипатетиками — от крытой галереи для прогулок, перипата, где он, как говорят, учил, прохаживаясь.",
+            "uk": "Аристотель навчав у Лікеї, гімнасії за мурами Афін; його послідовників називали перипатетиками — від критої галереї для прогулянок, перипату, де він, як кажуть, навчав, проходжуючись.",
+            "pl": "Arystoteles nauczał w Likejonie, gimnazjonie za murami Aten; jego uczniów nazywano perypatetykami — od krytej alei, peripatos, gdzie, jak mówią, nauczał, przechadzając się."
+          },
+          "source": "Diogenes Laertius, Lives of the Eminent Philosophers 5.2"
+        },
+        {
+          "fact": {
+            "en": "The Greek word translated “happiness”, eudaimonia, is made of eu, “well”, and daimōn, “a spirit”: to have a good spirit over one's life. Aristotle makes it mean not a passing feeling but a whole life lived well.",
+            "ru": "Греческое слово, которое переводят как «счастье», — эвдемония — составлено из eu, «хорошо», и daimōn, «дух»: иметь доброго духа над своей жизнью. Аристотель понимает под ним не мимолётное чувство, а всю жизнь, прожитую хорошо.",
+            "uk": "Грецьке слово, яке перекладають як «щастя», — евдемонія — складене з eu, «добре», і daimōn, «дух»: мати доброго духа над своїм життям. Аристотель розуміє під ним не минуще почуття, а все життя, прожите добре.",
+            "pl": "Greckie słowo tłumaczone jako „szczęście”, eudajmonia, składa się z eu, „dobrze”, i daimōn, „duch”: mieć dobrego ducha nad swoim życiem. Arystoteles rozumie przez nie nie przelotne uczucie, lecz całe życie dobrze przeżyte."
+          },
+          "source": "H. G. Liddell, R. Scott and H. S. Jones, A Greek–English Lexicon (9th ed., 1940), s.v. εὐδαίμων; Aristotle, Nicomachean Ethics I.7–8"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "The Dhammapada: the best riches",
+        "ru": "Дхаммапада: лучшее богатство",
+        "uk": "Дхаммапада: найкраще багатство",
+        "pl": "Dhammapada: najlepsze bogactwo"
+      },
+      "intro": {
+        "en": "India. The Buddha's teaching was handed down in verses as well as in sermons; the Dhammapada gathers 423 of them. Its fifteenth chapter is called “Happiness” — and it looks for happiness not in having more, but in craving less:",
+        "ru": "Индия. Учение Будды передавалось не только в проповедях, но и в стихах; Дхаммапада собирает 423 из них. Её пятнадцатая глава называется «Счастье» — и ищет счастье не в том, чтобы иметь больше, а в том, чтобы меньше жаждать:",
+        "uk": "Індія. Учення Будди передавали не тільки в проповідях, а й у віршах; Дхаммапада збирає 423 з них. Її п’ятнадцятий розділ називається «Щастя» — і шукає щастя не в тому, щоб мати більше, а в тому, щоб менше жадати:",
+        "pl": "Indie. Nauka Buddy była przekazywana nie tylko w kazaniach, lecz i w wierszach; Dhammapada zbiera 423 z nich. Jej piętnasty rozdział nosi tytuł „Szczęście” — i szuka szczęścia nie w tym, by mieć więcej, lecz w tym, by mniej pożądać:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "The Dhammapada, verse 200 (chapter XV, “Happiness”)",
+            "ru": "Дхаммапада, стих 200 (глава XV, «Счастье»)",
+            "uk": "Дхаммапада, вірш 200 (розділ XV, «Щастя»)",
+            "pl": "Dhammapada, werset 200 (rozdział XV, „Szczęście”)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "dhammapada.en.muller",
+              "from": "15.200",
+              "to": "15.200",
+              "text": "Let us live happily then, though we call nothing our own! We shall be like the bright gods, feeding on happiness!",
+              "kind": "Free",
+              "translator": "F. Max Müller",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "The Dhammapada"
+              }
+            },
+            "ru": {
+              "edition": "dhammapada.ru.ours",
+              "from": "15.200",
+              "to": "15.200",
+              "text": "Будем же жить счастливо, хоть ничего не называем своим! Мы будем подобны светлым богам, питающимся счастьем!",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "«Дхаммапада»"
+              }
+            },
+            "uk": {
+              "edition": "dhammapada.uk.ours",
+              "from": "15.200",
+              "to": "15.200",
+              "text": "Тож житиймо щасливо, хоч нічого не називаємо своїм! Ми будемо, як світлі боги, що живляться щастям!",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "«Дгаммапада»"
+              }
+            },
+            "pl": {
+              "edition": "dhammapada.pl.ours",
+              "from": "15.200",
+              "to": "15.200",
+              "text": "Żyjmy więc szczęśliwie, choć nic nie nazywamy swoim! Będziemy jak jaśni bogowie, karmiący się szczęściem!",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "Dhammapada"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Pali",
+              "ru": "оригинал на пали",
+              "uk": "оригінал палі",
+              "pl": "oryginał w pali"
+            },
+            "url": "https://suttacentral.net/dhp197-208/pli/ms"
+          }
+        },
+        {
+          "by": {
+            "en": "The same chapter, verse 204",
+            "ru": "Та же глава, стих 204",
+            "uk": "Той самий розділ, вірш 204",
+            "pl": "Ten sam rozdział, werset 204"
+          },
+          "quotes": {
+            "en": {
+              "edition": "dhammapada.en.muller",
+              "from": "15.204",
+              "to": "15.204",
+              "text": "Health is the greatest of gifts, contentedness the best riches; trust is the best of relationships, Nirvana the highest happiness.",
+              "kind": "Free",
+              "translator": "F. Max Müller",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "The Dhammapada"
+              }
+            },
+            "ru": {
+              "edition": "dhammapada.ru.ours",
+              "from": "15.204",
+              "to": "15.204",
+              "text": "Здоровье — величайший из даров, довольство — лучшее богатство; доверие — лучшие из уз, нирвана — высшее счастье.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "«Дхаммапада»"
+              }
+            },
+            "uk": {
+              "edition": "dhammapada.uk.ours",
+              "from": "15.204",
+              "to": "15.204",
+              "text": "Здоров’я — найбільший із дарів, вдоволеність — найкраще багатство; довіра — найкращі з уз, нірвана — найвище щастя.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "«Дгаммапада»"
+              }
+            },
+            "pl": {
+              "edition": "dhammapada.pl.ours",
+              "from": "15.204",
+              "to": "15.204",
+              "text": "Zdrowie jest największym z darów, zadowolenie — najlepszym bogactwem; zaufanie — najlepszą z więzi, nirwana — najwyższym szczęściem.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "Dhammapada"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Pali",
+              "ru": "оригинал на пали",
+              "uk": "оригінал палі",
+              "pl": "oryginał w pali"
+            },
+            "url": "https://suttacentral.net/dhp197-208/pli/ms"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The Dhammapada — “the verses of the Dhamma”, the Buddha's teaching — has 423 verses in 26 chapters. It belongs to the Pali Canon, which tradition says was first written down in Sri Lanka in the 1st century BC, after centuries of being learned by heart.",
+            "ru": "Дхаммапада — «стихи Дхаммы», учения Будды, — насчитывает 423 стиха в 26 главах. Она входит в Палийский канон, который, по преданию, впервые записали на Шри-Ланке в I веке до н. э., после того как веками его заучивали наизусть.",
+            "uk": "Дхаммапада — «вірші Дхамми», учення Будди, — налічує 423 вірші у 26 розділах. Вона входить до Палійського канону, який, за переказом, уперше записали на Шрі-Ланці в I столітті до н. е., після того як століттями його завчали напам’ять.",
+            "pl": "Dhammapada — „wersety Dhammy”, nauki Buddy — liczy 423 wersety w 26 rozdziałach. Należy do kanonu palijskiego, który według tradycji spisano po raz pierwszy na Sri Lance w I wieku p.n.e., po stuleciach uczenia się go na pamięć."
+          },
+          "source": "K. R. Norman, Pāli Literature (1983); Mahāvaṃsa 33.100–101"
+        },
+        {
+          "fact": {
+            "en": "Tradition — the commentary ascribed to Buddhaghosa (5th century AD) — says the Buddha spoke the chapter's first verses (“Let us live happily then, not hating those who hate us!”) to his kinsmen, the Sakyans and the Koliyans, when they were ready to fight over the water of the river Rohini.",
+            "ru": "Предание — комментарий, приписываемый Буддхагхосе (V век н. э.), — рассказывает, что первые стихи этой главы («Будем же жить счастливо, не питая ненависти к тем, кто ненавидит нас!») Будда произнёс перед своими родичами, шакьями и колиями, когда те готовы были биться за воду реки Рохини.",
+            "uk": "Переказ — коментар, що його приписують Буддагосі (V століття н. е.), — розповідає, що перші вірші цього розділу («Тож житиймо щасливо, не ненавидячи тих, хто ненавидить нас!») Будда промовив до своїх родичів, шак’їв і коліїв, коли ті були готові битися за воду річки Рогіні.",
+            "pl": "Tradycja — komentarz przypisywany Buddhaghosie (V wiek n.e.) — mówi, że pierwsze wersety tego rozdziału („Żyjmy więc szczęśliwie, nie nienawidząc tych, którzy nas nienawidzą!”) Budda wypowiedział do swoich krewnych, Śakjów i Kolijów, gdy gotowi byli walczyć o wodę rzeki Rohini."
+          },
+          "source": "the Dhammapada Commentary on verses 197–199, tr. E. W. Burlingame, Buddhist Legends (1921), XV.1"
+        },
+        {
+          "fact": {
+            "en": "Nirvana (Pali nibbāna) means literally a “blowing out”, as of a flame. Asked what it is, the Buddha's disciple Sāriputta answers: the ending of greed, the ending of hatred, the ending of delusion.",
+            "ru": "Нирвана (на пали ниббана) буквально означает «угасание», как у пламени. На вопрос, что это такое, ученик Будды Сарипутта отвечает: конец алчности, конец ненависти, конец заблуждения.",
+            "uk": "Нірвана (палі ніббана) буквально означає «згасання», як у полум’я. На запитання, що це таке, учень Будди Саріпутта відповідає: кінець жадібності, кінець ненависті, кінець омани.",
+            "pl": "Nirwana (w pali nibbāna) znaczy dosłownie „zdmuchnięcie”, jak płomienia. Zapytany, czym ona jest, uczeń Buddy Sariputta odpowiada: kres chciwości, kres nienawiści, kres złudzenia."
+          },
+          "source": "Saṃyutta Nikāya 38.1; Richard Gombrich, What the Buddha Thought (2009)"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Sardis, the 6th century BC",
+        "ru": "Сарды, VI век до н. э.",
+        "uk": "Сарди, VI століття до н. е.",
+        "pl": "Sardes, VI wiek p.n.e."
+      },
+      "scene": {
+        "en": "You are Croesus, king of Lydia, the richest man of your age. At your palace in Sardis the Athenian sage Solon is your guest; your servants have shown him all your treasuries. Now you ask him whom he has seen happiest of all men, sure of the answer. He names Tellus, an Athenian of no rank, who saw his grandchildren grow up and fell fighting for his city; then two young men of Argos, Cleobis and Biton, who died in their sleep after honouring their mother. When you protest, he says he cannot call you happy until he knows how your life ends. What do you do?",
+        "ru": "Вы — Крёз, царь Лидии, самый богатый человек своего времени. В вашем дворце в Сардах гостит афинский мудрец Солон; слуги показали ему все ваши сокровищницы. Теперь вы спрашиваете его, кого он видел счастливейшим из людей, — не сомневаясь в ответе. Он называет Телла, афинянина без званий, который увидел, как выросли его внуки, и пал, сражаясь за свой город; потом двух юношей из Аргоса, Клеобиса и Битона, что умерли во сне, почтив свою мать. Когда вы возмущаетесь, он говорит, что не может назвать вас счастливым, пока не узнает, как окончится ваша жизнь. Что вы сделаете?",
+        "uk": "Ви — Крез, цар Лідії, найбагатша людина свого часу. У вашому палаці в Сардах гостює афінський мудрець Солон; слуги показали йому всі ваші скарбниці. Тепер ви питаєте його, кого він бачив найщасливішим з-поміж людей, — не сумніваючись у відповіді. Він називає Телла, афінянина без звань, який побачив, як виросли його онуки, і поліг, борючись за своє місто; потім двох юнаків з Аргоса, Клеобіса і Бітона, що померли уві сні, вшанувавши свою матір. Коли ви обурюєтеся, він каже, що не може назвати вас щасливим, доки не дізнається, як скінчиться ваше життя. Що ви зробите?",
+        "pl": "Jesteś Krezusem, królem Lidii, najbogatszym człowiekiem swoich czasów. W twoim pałacu w Sardes gości ateński mędrzec Solon; słudzy pokazali mu wszystkie twoje skarbce. Teraz pytasz go, kogo widział najszczęśliwszym z ludzi — pewien odpowiedzi. On wymienia Tellosa, Ateńczyka bez godności, który doczekał dorastania wnuków i padł, walcząc za swoje miasto; potem dwóch młodzieńców z Argos, Kleobisa i Bitona, którzy zmarli we śnie, oddawszy cześć matce. Gdy się oburzasz, mówi, że nie może nazwać cię szczęśliwym, dopóki nie dowie się, jak skończy się twoje życie. Co zrobisz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Send him away: a man who puts commoners above a king is a fool",
+            "ru": "Прогнать его: тот, кто ставит простолюдинов выше царя, — глупец",
+            "uk": "Прогнати його: той, хто ставить простолюдинів вище за царя, — дурень",
+            "pl": "Odprawić go: kto stawia prostych ludzi ponad króla, jest głupcem"
+          },
+          "reply": {
+            "en": "That is what Croesus did: he dismissed Solon, thinking him senseless for passing over the good things at hand and bidding men look to the end.",
+            "ru": "Так и поступил Крёз: он отослал Солона, сочтя его безумцем, раз тот пренебрегает благами настоящего и велит смотреть на конец.",
+            "uk": "Так і вчинив Крез: він відіслав Солона, вважаючи його нерозумним, бо той нехтує благами теперішнього й велить дивитися на кінець.",
+            "pl": "Tak właśnie zrobił Krezus: odprawił Solona, uważając go za nierozumnego, skoro pomija dobra obecne i każe patrzeć na koniec."
+          }
+        },
+        {
+          "choice": {
+            "en": "Ask him to explain: why should the end decide?",
+            "ru": "Попросить объяснить: почему всё решает конец?",
+            "uk": "Попросити пояснити: чому все вирішує кінець?",
+            "pl": "Poprosić o wyjaśnienie: dlaczego to koniec ma przesądzać?"
+          },
+          "reply": {
+            "en": "Solon has his reasons ready: seventy years hold some 26,000 days, and no day brings what another brings — man is “altogether a creature of accident”.",
+            "ru": "У Солона готовы доводы: в семидесяти годах около 26 000 дней, и ни один день не приносит того же, что другой, — человек «всецело игралище случая».",
+            "uk": "У Солона готові доводи: у сімдесяти роках близько 26 000 днів, і жоден день не приносить того самого, що інший, — людина «цілком іграшка випадку».",
+            "pl": "Solon ma gotowe racje: siedemdziesiąt lat to około 26 000 dni, a żaden dzień nie przynosi tego, co inny — człowiek jest „całkowicie igraszką przypadku”."
+          }
+        },
+        {
+          "choice": {
+            "en": "Trust your gold: such wealth can weather any blow",
+            "ru": "Положиться на золото: такое богатство выдержит любой удар",
+            "uk": "Покластися на золото: таке багатство витримає будь-який удар",
+            "pl": "Zaufać złotu: takie bogactwo przetrzyma każdy cios"
+          },
+          "reply": {
+            "en": "Solon grants the rich man just that: he can better bear a great calamity. But his wealth does not keep it away.",
+            "ru": "Именно это Солон и признаёт за богачом: тот легче перенесёт великую беду. Но богатство её не отвратит.",
+            "uk": "Саме це Солон і визнає за багатієм: той легше перенесе велике лихо. Але багатство його не відверне.",
+            "pl": "Właśnie to Solon przyznaje bogaczowi: łatwiej zniesie wielkie nieszczęście. Ale bogactwo go nie odwróci."
+          }
+        },
+        {
+          "choice": {
+            "en": "Take his words to heart, and risk nothing that you have",
+            "ru": "Принять его слова к сердцу и ничем из своего не рисковать",
+            "uk": "Узяти його слова до серця й нічим зі свого не ризикувати",
+            "pl": "Wziąć sobie jego słowa do serca i niczym ze swego nie ryzykować"
+          },
+          "reply": {
+            "en": "Prudent — but would caution make you happy, or only safe? And Solon spoke of fortune, which no caution commands.",
+            "ru": "Благоразумно — но сделает ли осторожность вас счастливым или только защищённым? Да и Солон говорил о судьбе, которой осторожность не повелевает.",
+            "uk": "Розважливо — але чи зробить обережність вас щасливим, чи тільки захищеним? Та й Солон говорив про долю, якій обережність не наказує.",
+            "pl": "Rozważne — ale czy ostrożność uczyni cię szczęśliwym, czy tylko bezpiecznym? A Solon mówił o losie, któremu żadna ostrożność nie rozkazuje."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "Croesus sent Solon away. Then, Herodotus tells, a great retribution from God came upon him: his son Atys was killed by accident in a boar hunt; an oracle told him that if he marched against the Persians he would destroy a great empire — he attacked Cyrus, and the empire he destroyed was his own. Sardis fell, and Croesus was set on a pyre. There he remembered Solon and called his name three times. Cyrus, told why, ordered the fire put out; the Lydians said that Apollo sent the rain that quenched it. All this is Herodotus' telling — much of it, as he says, what “they say”.",
+        "ru": "Крёз отослал Солона. Затем, рассказывает Геродот, его постигла великая кара от бога: его сын Атис случайно погиб на охоте на вепря; оракул сказал ему, что, если он пойдёт на персов, он сокрушит великое царство, — он напал на Кира, и сокрушённым оказалось его собственное царство. Сарды пали, и Крёза возвели на костёр. Там он вспомнил Солона и трижды назвал его имя. Кир, узнав почему, велел погасить огонь; лидийцы же говорили, что дождь, заливший костёр, послал Аполлон. Всё это — рассказ Геродота, и многое в нём, как он сам говорит, — то, что «говорят».",
+        "uk": "Крез відіслав Солона. Потім, розповідає Геродот, його спіткала велика кара від бога: його син Атіс випадково загинув на полюванні на вепра; оракул сказав йому, що, коли він піде на персів, то зруйнує велике царство, — він напав на Кіра, і зруйнованим виявилося його власне царство. Сарди впали, і Креза звели на вогнище. Там він згадав Солона і тричі назвав його ім’я. Кір, дізнавшись чому, звелів загасити вогонь; лідійці ж казали, що дощ, який залив вогнище, послав Аполлон. Усе це — розповідь Геродота, і багато в ній, як він сам каже, — те, що «кажуть».",
+        "pl": "Krezus odprawił Solona. Potem, opowiada Herodot, spadła na niego wielka kara od boga: jego syn Atys zginął przypadkiem na polowaniu na dzika; wyrocznia rzekła mu, że jeśli wyruszy na Persów, zniszczy wielkie państwo — napadł na Cyrusa, a zniszczonym państwem okazało się jego własne. Stolica, Sardes, została zdobyta, a Krezusa postawiono na stosie. Tam przypomniał sobie Solona i trzykrotnie wymówił jego imię. Cyrus, dowiedziawszy się dlaczego, kazał ugasić ogień; Lidyjczycy zaś mówili, że deszcz, który zalał stos, zesłał Apollo. Wszystko to jest opowieścią Herodota — w wielu miejscach, jak sam mówi, o tym, co „mówią”."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Herodotus, Histories I.32: Solon to Croesus",
+            "ru": "Геродот, «История», I.32: Солон — Крёзу",
+            "uk": "Геродот, «Історія», I.32: Солон — Крезові",
+            "pl": "Herodot, Dzieje I.32: Solon do Krezusa"
+          },
+          "quotes": {
+            "en": {
+              "edition": "histories.en.macaulay",
+              "from": "1.32",
+              "to": "1.32",
+              "text": "As for thee, I perceive that thou art both great in wealth and king of many men, but that of which thou didst ask me I cannot call thee yet, until I learn that thou hast brought thy life to a fair ending: for the very rich man is not at all to be accounted more happy than he who has but his subsistence from day to day, unless also the fortune go with him of ending his life well in possession of all things fair.",
+              "kind": "Free",
+              "translator": "G. C. Macaulay",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Macaulay)/Book_I",
+                "lang": "en",
+                "title": "Herodotus, Histories"
+              }
+            },
+            "ru": {
+              "edition": "histories.ru.ours",
+              "from": "1.32",
+              "to": "1.32",
+              "text": "Что же до тебя, я вижу, что ты и велик богатством, и царь многих людей; но тем, о чём ты меня спросил, я ещё не могу тебя назвать, пока не узнаю, что ты прекрасно окончил свою жизнь: ибо очень богатого человека вовсе не следует считать счастливее того, у кого есть пропитание лишь на день, если только ему не выпадет удача окончить жизнь хорошо, владея всем прекрасным.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Macaulay)/Book_I",
+                "lang": "en",
+                "title": "Геродот, «История»"
+              }
+            },
+            "uk": {
+              "edition": "histories.uk.ours",
+              "from": "1.32",
+              "to": "1.32",
+              "text": "Що ж до тебе, я бачу, що ти і великий багатством, і цар багатьох людей; але тим, про що ти мене спитав, я ще не можу тебе назвати, доки не дізнаюся, що ти гарно скінчив своє життя: бо дуже багатого зовсім не слід вважати щасливішим за того, хто має прожиток лише на день, якщо тільки йому не випаде доля скінчити життя добре, володіючи всім прекрасним.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Macaulay)/Book_I",
+                "lang": "en",
+                "title": "Геродот, «Історія»"
+              }
+            },
+            "pl": {
+              "edition": "histories.pl.ours",
+              "from": "1.32",
+              "to": "1.32",
+              "text": "Co do ciebie, widzę, że masz wielkie bogactwa i jesteś królem wielu ludzi; lecz tym, o co mnie pytałeś, nie mogę cię jeszcze nazwać, dopóki się nie dowiem, że pięknie zakończyłeś życie: bo bardzo bogatego wcale nie należy uważać za szczęśliwszego od tego, kto ma utrzymanie tylko na dzień, chyba że los pozwoli mu dobrze zakończyć życie w posiadaniu wszystkiego, co piękne.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Macaulay)/Book_I",
+                "lang": "en",
+                "title": "Herodot, Dzieje"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0016.tlg001.perseus-grc2:1.32/"
+          }
+        },
+        {
+          "by": {
+            "en": "Herodotus I.86: Croesus on the pyre",
+            "ru": "Геродот, I.86: Крёз на костре",
+            "uk": "Геродот, I.86: Крез на вогнищі",
+            "pl": "Herodot I.86: Krezus na stosie"
+          },
+          "quotes": {
+            "en": {
+              "edition": "histories.en.macaulay",
+              "from": "1.86",
+              "to": "1.86",
+              "text": "to Crœsus as he stood upon the pyre there came, although he was in such evil case, a memory of the saying of Solon, how he had said with divine inspiration that no one of the living might be called happy.",
+              "kind": "Free",
+              "translator": "G. C. Macaulay",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Macaulay)/Book_I",
+                "lang": "en",
+                "title": "Herodotus, Histories"
+              }
+            },
+            "ru": {
+              "edition": "histories.ru.ours",
+              "from": "1.86",
+              "to": "1.86",
+              "text": "к Крёзу, стоявшему на костре, хотя он был в таком бедственном положении, пришло воспоминание о словах Солона: как тот по божественному внушению сказал, что никого из живых нельзя назвать счастливым.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Macaulay)/Book_I",
+                "lang": "en",
+                "title": "Геродот, «История»"
+              }
+            },
+            "uk": {
+              "edition": "histories.uk.ours",
+              "from": "1.86",
+              "to": "1.86",
+              "text": "до Креза, що стояв на вогнищі, хоч він і був у такому лихому становищі, прийшла згадка про слова Солона: як той із божественного натхнення сказав, що нікого з живих не можна назвати щасливим.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Macaulay)/Book_I",
+                "lang": "en",
+                "title": "Геродот, «Історія»"
+              }
+            },
+            "pl": {
+              "edition": "histories.pl.ours",
+              "from": "1.86",
+              "to": "1.86",
+              "text": "do Krezusa, gdy stał na stosie, choć był w tak złym położeniu, przyszło wspomnienie słów Solona: jak z boskiego natchnienia powiedział, że nikogo z żyjących nie można nazwać szczęśliwym.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Macaulay)/Book_I",
+                "lang": "en",
+                "title": "Herodot, Dzieje"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0016.tlg001.perseus-grc2:1.86/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The meeting may never have happened: Solon's travels came soon after his laws of the 590s BC, and Croesus reigned decades later. Plutarch already knew the dates were against it, but would not reject a story so famous, and so like Solon.",
+            "ru": "Возможно, этой встречи не было: странствия Солона пришлись на годы вскоре после его законов 590-х годов до н. э., а Крёз царствовал десятилетиями позже. Уже Плутарх знал, что хронология против неё, но не захотел отвергнуть рассказ столь знаменитый и столь достойный Солона.",
+            "uk": "Можливо, цієї зустрічі не було: мандри Солона припали на роки невдовзі після його законів 590-х років до н. е., а Крез царював десятиліттями пізніше. Уже Плутарх знав, що хронологія проти неї, але не захотів відкинути розповідь таку славетну й таку гідну Солона.",
+            "pl": "Być może do tego spotkania nigdy nie doszło: podróże Solona przypadły wkrótce po jego prawach z lat 590. p.n.e., a Krezus panował dziesiątki lat później. Już Plutarch wiedział, że chronologia przemawia przeciw niemu, lecz nie chciał odrzucić opowieści tak sławnej i tak godnej Solona."
+          },
+          "source": "Plutarch, Life of Solon 27.1; Herodotus, Histories 1.29"
+        },
+        {
+          "fact": {
+            "en": "Herodotus' is not the only ending. In 468 BC the poet Bacchylides sang that Croesus climbed the pyre of his own will, with his wife and daughters; Zeus quenched the fire with a cloud of rain, and Apollo carried the old king away to the land of the Hyperboreans.",
+            "ru": "Конец у Геродота — не единственный. В 468 году до н. э. поэт Вакхилид пел, что Крёз сам взошёл на костёр с женой и дочерьми; Зевс погасил огонь дождевой тучей, а Аполлон унёс старого царя в страну гипербореев.",
+            "uk": "Кінець у Геродота — не єдиний. 468 року до н. е. поет Вакхілід співав, що Крез сам зійшов на вогнище з дружиною і доньками; Зевс загасив вогонь дощовою хмарою, а Аполлон забрав старого царя до країни гіперборейців.",
+            "pl": "Zakończenie Herodota nie jest jedyne. W 468 roku p.n.e. poeta Bakchylides śpiewał, że Krezus sam wstąpił na stos z żoną i córkami; Zeus zgasił ogień deszczową chmurą, a Apollo uniósł starego króla do kraju Hiperborejczyków."
+          },
+          "source": "Bacchylides, Ode 3.23–62"
+        },
+        {
+          "fact": {
+            "en": "Croesus' wealth became a proverb. Lydia was rich in the gold dust carried down from Mount Tmolus, and the Lydians, says Herodotus, were the first people we know of to strike coins of gold and silver.",
+            "ru": "Богатство Крёза вошло в поговорку. Лидия была богата золотым песком, сносимым с горы Тмол, и лидийцы, по словам Геродота, первыми из известных нам людей стали чеканить монету из золота и серебра.",
+            "uk": "Багатство Креза стало приказкою. Лідія була багата на золотий пісок, що його зносило з гори Тмол, і лідійці, за словами Геродота, першими з відомих нам людей почали карбувати монету із золота й срібла.",
+            "pl": "Bogactwo Krezusa stało się przysłowiowe. Lidia obfitowała w złoty piasek znoszony z góry Tmolos, a Lidyjczycy, jak pisze Herodot, pierwsi ze znanych nam ludzi zaczęli bić monetę ze złota i srebra."
+          },
+          "source": "Herodotus, Histories 1.93–94"
+        },
+        {
+          "fact": {
+            "en": "Two centuries later Aristotle took Solon's saying seriously: in the Nicomachean Ethics he asks whether we must, “as Solon would have us”, call no one happy while he lives — and answers that the changes of fortune do not easily shake a good man's happiness.",
+            "ru": "Два века спустя Аристотель отнёсся к словам Солона всерьёз: в «Никомаховой этике» он спрашивает, должны ли мы, «как того хочет Солон», никого не называть счастливым при жизни, — и отвечает, что превратностям судьбы нелегко поколебать счастье достойного человека.",
+            "uk": "Через два століття Аристотель поставився до слів Солона серйозно: у «Нікомаховій етиці» він питає, чи маємо ми, «як того хоче Солон», нікого не називати щасливим за життя, — і відповідає, що мінливостям долі нелегко похитнути щастя доброї людини.",
+            "pl": "Dwa wieki później Arystoteles potraktował słowa Solona poważnie: w Etyce nikomachejskiej pyta, czy musimy, „jak chce Solon”, nikogo nie nazywać szczęśliwym za życia — i odpowiada, że kolejom losu niełatwo zachwiać szczęściem dobrego człowieka."
+          },
+          "source": "Aristotle, Nicomachean Ethics I.10, 1100a10–1101a21"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Zhuangzi: the happiness that is not sought",
+        "ru": "Чжуан-цзы: счастье, которого не ищут",
+        "uk": "Чжуан-цзи: щастя, якого не шукають",
+        "pl": "Zhuangzi: szczęście, którego się nie szuka"
+      },
+      "intro": {
+        "en": "China, the 4th century BC. Zhuangzi looks at what the world calls happiness — wealth, rank, long life, fine food and music — and is not sure it is happiness at all. Later in the same chapter his wife has died, and his friend Hui Shi finds him sitting on the ground, drumming on a bowl and singing. Hui Shi is shocked; Zhuangzi answers:",
+        "ru": "Китай, IV век до н. э. Чжуан-цзы смотрит на то, что мир называет счастьем, — богатство, знатность, долгую жизнь, изысканную еду и музыку — и не уверен, что это вообще счастье. Дальше в той же главе у него умерла жена, и друг его Хуэй Ши застаёт его сидящим на земле: он стучит по миске и поёт. Хуэй Ши возмущён; Чжуан-цзы отвечает:",
+        "uk": "Китай, IV століття до н. е. Чжуан-цзи дивиться на те, що світ називає щастям, — багатство, знатність, довге життя, вишукану їжу й музику — і не певен, що це взагалі щастя. Далі в тому самому розділі в нього померла дружина, і друг Хуей Ши застає його, коли він сидить на землі, вистукує по мисці й співає. Хуей Ши обурений; Чжуан-цзи відповідає:",
+        "pl": "Chiny, IV wiek p.n.e. Zhuangzi przygląda się temu, co świat nazywa szczęściem — bogactwu, godnościom, długiemu życiu, wykwintnemu jedzeniu i muzyce — i nie jest pewien, czy to w ogóle szczęście. Dalej w tym samym rozdziale umarła mu żona, a przyjaciel Hui Shi zastaje go siedzącego na ziemi: bębni w misę i śpiewa. Hui Shi jest oburzony; Zhuangzi odpowiada:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Zhuangzi, chapter 18, “Perfect Happiness”",
+            "ru": "Чжуан-цзы, глава 18, «Совершенное счастье»",
+            "uk": "Чжуан-цзи, розділ 18, «Досконале щастя»",
+            "pl": "Zhuangzi, rozdział 18, „Doskonałe szczęście”"
+          },
+          "quotes": {
+            "en": {
+              "edition": "zhuangzi-happiness.en.giles",
+              "from": "18.222",
+              "to": "18.222",
+              "text": "I make true pleasure to consist in inaction, which the world regards as great pain. Thus it has been said, \"Perfect happiness is the absence of happiness; perfect renown is the absence of renown.\"",
+              "kind": "Free",
+              "translator": "Herbert A. Giles",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "Zhuangzi"
+              }
+            },
+            "ru": {
+              "edition": "zhuangzi-happiness.ru.ours",
+              "from": "18.222",
+              "to": "18.222",
+              "text": "Истинную радость я вижу в недеянии, которое мир считает великой мукой. Поэтому и сказано: «Совершенное счастье — это отсутствие счастья; совершенная слава — это отсутствие славы».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "«Чжуан-цзы»"
+              }
+            },
+            "uk": {
+              "edition": "zhuangzi-happiness.uk.ours",
+              "from": "18.222",
+              "to": "18.222",
+              "text": "Істинну радість я бачу в недіянні, яке світ вважає великою мукою. Тому й сказано: «Досконале щастя — це відсутність щастя; досконала слава — це відсутність слави».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "«Чжуан-цзи»"
+              }
+            },
+            "pl": {
+              "edition": "zhuangzi-happiness.pl.ours",
+              "from": "18.222",
+              "to": "18.222",
+              "text": "Prawdziwą radość widzę w niedziałaniu, które świat uważa za wielką udrękę. Dlatego powiedziano: „Doskonałe szczęście to brak szczęścia; doskonała sława to brak sławy”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "Zhuangzi"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/莊子/至樂"
+          }
+        },
+        {
+          "by": {
+            "en": "The same chapter: Zhuangzi to Hui Shi, after his wife's death",
+            "ru": "Та же глава: Чжуан-цзы — Хуэй Ши после смерти жены",
+            "uk": "Той самий розділ: Чжуан-цзи — Хуей Ши після смерті дружини",
+            "pl": "Ten sam rozdział: Zhuangzi do Hui Shiego po śmierci żony"
+          },
+          "quotes": {
+            "en": {
+              "edition": "zhuangzi-happiness.en.giles",
+              "from": "18.223",
+              "to": "18.223",
+              "text": "And now, by virtue of a further change, she is dead, passing from one phase to another like the sequence of spring, summer, autumn, and winter. And while she is thus lying asleep in Eternity, for me to go about weeping and wailing would be to proclaim myself ignorant of these natural laws. Therefore I refrain.",
+              "kind": "Free",
+              "translator": "Herbert A. Giles",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "Zhuangzi"
+              }
+            },
+            "ru": {
+              "edition": "zhuangzi-happiness.ru.ours",
+              "from": "18.223",
+              "to": "18.223",
+              "text": "А теперь, в силу нового превращения, она умерла, переходя из одного состояния в другое, как сменяют друг друга весна, лето, осень и зима. И пока она так спит в Вечности, ходить, плача и причитая, значило бы для меня объявить себя невеждой в этих законах природы. Поэтому я воздерживаюсь.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "«Чжуан-цзы»"
+              }
+            },
+            "uk": {
+              "edition": "zhuangzi-happiness.uk.ours",
+              "from": "18.223",
+              "to": "18.223",
+              "text": "А тепер, завдяки новому перетворенню, вона померла, переходячи з одного стану в інший, як змінюють одне одного весна, літо, осінь і зима. І поки вона так спить у Вічності, ходити, плачучи й голосячи, означало б для мене оголосити себе невігласом у цих законах природи. Тому я утримуюся.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "«Чжуан-цзи»"
+              }
+            },
+            "pl": {
+              "edition": "zhuangzi-happiness.pl.ours",
+              "from": "18.223",
+              "to": "18.223",
+              "text": "A teraz, za sprawą kolejnej przemiany, umarła, przechodząc z jednej postaci w drugą, jak następują po sobie wiosna, lato, jesień i zima. A gdy tak śpi w Wieczności, chodzić, płacząc i zawodząc, znaczyłoby dla mnie ogłosić, że nie znam tych praw natury. Dlatego się powstrzymuję.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "Zhuangzi"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/莊子/至樂"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The historian Sima Qian writes that Zhuangzi was once a minor official at the lacquer garden of Meng, and that when King Wei of Chu offered to make him his chief minister he refused: he would rather enjoy himself in a muddy ditch than be harnessed by a ruler.",
+            "ru": "Историк Сыма Цянь пишет, что Чжуан-цзы был когда-то мелким чиновником в лаковом саду в Мэне, а когда чуский царь Вэй предложил сделать его первым министром, отказался: лучше веселиться в грязной канаве, чем ходить в упряжи у правителя.",
+            "uk": "Історик Сима Цянь пише, що Чжуан-цзи був колись дрібним урядником у лаковому саду в Мен, а коли чуський володар Вей запропонував зробити його першим міністром, відмовився: краще тішитися в брудній канаві, ніж ходити в упряжі у правителя.",
+            "pl": "Historyk Sima Qian pisze, że Zhuangzi był niegdyś drobnym urzędnikiem w ogrodzie lakowym w Meng, a gdy król Wei z Chu zaproponował mu urząd pierwszego ministra, odmówił: wolał bawić się w błotnistym rowie, niż chodzić w uprzęży u władcy."
+          },
+          "source": "Sima Qian, Records of the Grand Historian (Shiji), ch. 63"
+        },
+        {
+          "fact": {
+            "en": "The book we have, in 33 chapters, was arranged by Guo Xiang around AD 300. Scholars think only the first seven, the “inner chapters”, are likely Zhuangzi's own; “Perfect Happiness” is among the outer chapters, written by his followers.",
+            "ru": "Дошедшую до нас книгу из 33 глав составил Го Сян около 300 года н. э. Учёные считают, что самому Чжуан-цзы, вероятно, принадлежат лишь первые семь, «внутренние главы»; «Совершенное счастье» — среди «внешних», написанных его последователями.",
+            "uk": "Книгу, що дійшла до нас, із 33 розділів уклав Го Сян близько 300 року н. е. Учені вважають, що самому Чжуан-цзи, ймовірно, належать лише перші сім, «внутрішні розділи»; «Досконале щастя» — серед «зовнішніх», написаних його послідовниками.",
+            "pl": "Zachowaną księgę w 33 rozdziałach ułożył Guo Xiang około 300 roku n.e. Uczeni sądzą, że do samego Zhuangziego należy zapewne tylko siedem pierwszych, „rozdziałów wewnętrznych”; „Doskonałe szczęście” jest wśród „zewnętrznych”, napisanych przez jego uczniów."
+          },
+          "source": "A. C. Graham, Chuang-tzŭ: The Inner Chapters (1981), introduction"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Mill: the pig and Socrates",
+        "ru": "Милль: свинья и Сократ",
+        "uk": "Мілль: свиня і Сократ",
+        "pl": "Mill: świnia i Sokrates"
+      },
+      "intro": {
+        "en": "Victorian England, 1861. John Stuart Mill, heir to Jeremy Bentham's utilitarianism, holds that what makes actions right is the happiness they bring. Critics called a life aimed at pleasure a doctrine worthy only of swine. Mill answers that pleasures differ in quality, not only in quantity:",
+        "ru": "Викторианская Англия, 1861 год. Джон Стюарт Милль, наследник утилитаризма Иеремии Бентама, считает, что правильными поступки делает счастье, которое они приносят. Критики называли жизнь, нацеленную на удовольствие, учением, достойным одних лишь свиней. Милль отвечает, что удовольствия различаются не только количеством, но и качеством:",
+        "uk": "Вікторіанська Англія, 1861 рік. Джон Стюарт Мілль, спадкоємець утилітаризму Джеремі Бентама, вважає, що правильними вчинки робить щастя, яке вони приносять. Критики називали життя, спрямоване на насолоду, ученням, гідним самих лише свиней. Мілль відповідає, що насолоди різняться не лише кількістю, а й якістю:",
+        "pl": "Wiktoriańska Anglia, 1861. John Stuart Mill, spadkobierca utylitaryzmu Jeremy'ego Benthama, uważa, że słusznymi czyny czyni szczęście, które przynoszą. Krytycy nazywali życie nastawione na przyjemność nauką godną jedynie świń. Mill odpowiada, że przyjemności różnią się nie tylko ilością, lecz i jakością:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "John Stuart Mill, Utilitarianism, ch. 2",
+            "ru": "Джон Стюарт Милль, «Утилитаризм», гл. 2",
+            "uk": "Джон Стюарт Мілль, «Утилітаризм», розд. 2",
+            "pl": "John Stuart Mill, Utylitaryzm, rozdz. 2"
+          },
+          "quotes": {
+            "en": {
+              "edition": "utilitarianism.en",
+              "from": "2.2",
+              "to": "2.2",
+              "text": "By happiness is intended pleasure, and the absence of pain; by unhappiness, pain, and the privation of pleasure.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Utilitarianism/Chapter_2",
+                "lang": "en",
+                "title": "John Stuart Mill, Utilitarianism"
+              }
+            },
+            "ru": {
+              "edition": "utilitarianism.ru.ours",
+              "from": "2.2",
+              "to": "2.2",
+              "text": "Под счастьем подразумевается удовольствие и отсутствие страдания; под несчастьем — страдание и лишение удовольствия.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Utilitarianism/Chapter_2",
+                "lang": "en",
+                "title": "Джон Стюарт Милль, «Утилитаризм»"
+              }
+            },
+            "uk": {
+              "edition": "utilitarianism.uk.ours",
+              "from": "2.2",
+              "to": "2.2",
+              "text": "Під щастям розуміють насолоду і відсутність страждання; під нещастям — страждання і позбавленість насолоди.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Utilitarianism/Chapter_2",
+                "lang": "en",
+                "title": "Джон Стюарт Мілль, «Утилітаризм»"
+              }
+            },
+            "pl": {
+              "edition": "utilitarianism.pl.ours",
+              "from": "2.2",
+              "to": "2.2",
+              "text": "Przez szczęście rozumie się przyjemność i brak cierpienia; przez nieszczęście — cierpienie i pozbawienie przyjemności.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Utilitarianism/Chapter_2",
+                "lang": "en",
+                "title": "John Stuart Mill, Utylitaryzm"
+              }
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "The same chapter: the pig and Socrates",
+            "ru": "Та же глава: свинья и Сократ",
+            "uk": "Той самий розділ: свиня і Сократ",
+            "pl": "Ten sam rozdział: świnia i Sokrates"
+          },
+          "quotes": {
+            "en": {
+              "edition": "utilitarianism.en",
+              "from": "2.6",
+              "to": "2.6",
+              "text": "It is better to be a human being dissatisfied than a pig satisfied; better to be Socrates dissatisfied than a fool satisfied. And if the fool, or the pig, are of a different opinion, it is because they only know their own side of the question. The other party to the comparison knows both sides.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Utilitarianism/Chapter_2",
+                "lang": "en",
+                "title": "John Stuart Mill, Utilitarianism"
+              }
+            },
+            "ru": {
+              "edition": "utilitarianism.ru.ours",
+              "from": "2.6",
+              "to": "2.6",
+              "text": "Лучше быть недовольным человеком, чем довольной свиньёй; лучше быть недовольным Сократом, чем довольным глупцом. А если глупец или свинья другого мнения, то лишь потому, что они знают только свою сторону вопроса. Другой участник сравнения знает обе стороны.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Utilitarianism/Chapter_2",
+                "lang": "en",
+                "title": "Джон Стюарт Милль, «Утилитаризм»"
+              }
+            },
+            "uk": {
+              "edition": "utilitarianism.uk.ours",
+              "from": "2.6",
+              "to": "2.6",
+              "text": "Краще бути незадоволеною людиною, ніж задоволеною свинею; краще бути незадоволеним Сократом, ніж задоволеним дурнем. А якщо дурень чи свиня іншої думки, то лише тому, що вони знають тільки свій бік питання. Інший учасник порівняння знає обидва боки.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Utilitarianism/Chapter_2",
+                "lang": "en",
+                "title": "Джон Стюарт Мілль, «Утилітаризм»"
+              }
+            },
+            "pl": {
+              "edition": "utilitarianism.pl.ours",
+              "from": "2.6",
+              "to": "2.6",
+              "text": "Lepiej być niezadowolonym człowiekiem niż zadowoloną świnią; lepiej być niezadowolonym Sokratesem niż zadowolonym głupcem. A jeśli głupiec albo świnia są innego zdania, to dlatego, że znają tylko swoją stronę sprawy. Druga strona porównania zna obie.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Utilitarianism/Chapter_2",
+                "lang": "en",
+                "title": "John Stuart Mill, Utylitaryzm"
+              }
+            }
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Mill never went to school: his father, James Mill, taught him at home — Greek from the age of three, Latin from eight.",
+            "ru": "Милль никогда не ходил в школу: его учил дома отец, Джеймс Милль, — греческому с трёх лет, латыни с восьми.",
+            "uk": "Мілль ніколи не ходив до школи: його вчив удома батько, Джеймс Мілль, — грецької з трьох років, латини з восьми.",
+            "pl": "Mill nigdy nie chodził do szkoły: uczył go w domu ojciec, James Mill — greki od trzeciego roku życia, łaciny od ósmego."
+          },
+          "source": "John Stuart Mill, Autobiography (1873), ch. 1"
+        },
+        {
+          "fact": {
+            "en": "At twenty, in 1826, he fell into a depression. He asked himself whether he would be happy if all his aims for the world were realised at once — and “an irrepressible self-consciousness distinctly answered, ‘No!’” He found his way back, among other things, through Wordsworth's poems.",
+            "ru": "В двадцать лет, в 1826 году, он впал в депрессию. Он спросил себя, был бы он счастлив, если бы все его цели для мира осуществились разом, — и «неодолимое самосознание отчётливо ответило: „Нет!“». Выйти из неё ему помогли, среди прочего, стихи Вордсворта.",
+            "uk": "У двадцять років, 1826 року, він упав у депресію. Він запитав себе, чи був би щасливим, якби всі його цілі для світу здійснилися разом, — і «нестримна самосвідомість виразно відповіла: „Ні!“». Вийти з неї йому допомогли, серед іншого, вірші Вордсворта.",
+            "pl": "W wieku dwudziestu lat, w 1826 roku, popadł w depresję. Zapytał siebie, czy byłby szczęśliwy, gdyby wszystkie jego cele dla świata spełniły się naraz — i „nieodparta samoświadomość wyraźnie odpowiedziała: »Nie!«”. Wyjść z niej pomogły mu, między innymi, wiersze Wordswortha."
+          },
+          "source": "John Stuart Mill, Autobiography (1873), ch. 5"
+        },
+        {
+          "fact": {
+            "en": "From that crisis he kept a lesson: “Ask yourself whether you are happy, and you cease to be so.” Those only are happy, he decided, whose minds are fixed on something other than their own happiness.",
+            "ru": "Из того кризиса он вынес урок: «Спросите себя, счастливы ли вы, — и вы перестанете быть счастливым». Счастливы, решил он, лишь те, чей ум устремлён на что-то иное, чем собственное счастье.",
+            "uk": "З тієї кризи він виніс урок: «Спитайте себе, чи ви щасливі, — і ви перестанете бути щасливим». Щасливі, вирішив він, лише ті, чий розум спрямований на щось інше, ніж власне щастя.",
+            "pl": "Z tamtego kryzysu wyniósł lekcję: „Zapytaj siebie, czy jesteś szczęśliwy, a przestaniesz nim być”. Szczęśliwi są, uznał, tylko ci, których umysł skupia się na czymś innym niż ich własne szczęście."
+          },
+          "source": "John Stuart Mill, Autobiography (1873), ch. 5"
+        }
+      ]
+    },
+    {
+      "think": "happiness",
+      "question": {
+        "en": "Think of the happiest person you know — or the happiest time of your own life. What made it happiness: a feeling, what was being done, or how the life went as a whole? Would you still call it happiness if everything ended badly tomorrow?",
+        "ru": "Вспомните самого счастливого человека, которого вы знаете, — или самое счастливое время своей жизни. Что делало это счастьем: чувство, дело или то, как сложилась жизнь в целом? Назвали бы вы это счастьем, если бы завтра всё кончилось плохо?",
+        "uk": "Згадайте найщасливішу людину, яку ви знаєте, — або найщасливіший час свого життя. Що робило це щастям: почуття, справа чи те, як склалося життя загалом? Чи назвали б ви це щастям, якби завтра все скінчилося погано?",
+        "pl": "Pomyśl o najszczęśliwszym człowieku, jakiego znasz — albo o najszczęśliwszym czasie własnego życia. Co czyniło to szczęściem: uczucie, to, co się robiło, czy to, jak potoczyło się całe życie? Czy nazwałbyś to szczęściem, gdyby jutro wszystko skończyło się źle?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: what makes a life happy?",
+        "ru": "А теперь: что делает жизнь счастливой?",
+        "uk": "А тепер: що робить життя щасливим?",
+        "pl": "A teraz: co czyni życie szczęśliwym?"
+      }
+    }
+  ]
+}
