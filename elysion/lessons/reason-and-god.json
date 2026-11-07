@@ -1,0 +1,789 @@
+{
+  "id": "reason-and-god",
+  "title": {
+    "en": "Can reason reach God?",
+    "ru": "Может ли разум прийти к Богу?",
+    "uk": "Чи може розум дійти до Бога?",
+    "pl": "Czy rozum może dojść do Boga?"
+  },
+  "subtitle": {
+    "en": "Anselm, Aquinas, al-Ghazali, Pascal and Kant — and you",
+    "ru": "Ансельм, Фома Аквинский, аль-Газали, Паскаль и Кант — и вы",
+    "uk": "Ансельм, Тома Аквінський, аль-Газалі, Паскаль і Кант — і ви",
+    "pl": "Anzelm, Tomasz z Akwinu, al-Ghazali, Pascal i Kant — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: can reason reach God?",
+        "ru": "Прежде чем читать кого-либо: может ли разум прийти к Богу?",
+        "uk": "Перш ніж читати когось: чи може розум дійти до Бога?",
+        "pl": "Zanim kogokolwiek przeczytasz: czy rozum może dojść do Boga?"
+      },
+      "options": [
+        {
+          "en": "Yes — reason can prove it",
+          "ru": "Да — разум может это доказать",
+          "uk": "Так — розум може це довести",
+          "pl": "Tak — rozum może tego dowieść"
+        },
+        {
+          "en": "No — reason cannot go that far",
+          "ru": "Нет — разум так далеко не достаёт",
+          "uk": "Ні — розум так далеко не сягає",
+          "pl": "Nie — rozum nie sięga tak daleko"
+        },
+        {
+          "en": "Only the heart, or experience, can",
+          "ru": "Только сердце или опыт",
+          "uk": "Тільки серце або досвід",
+          "pl": "Tylko serce albo doświadczenie"
+        },
+        {
+          "en": "There is nothing there to reach",
+          "ru": "Там нечего достигать",
+          "uk": "Там нема чого досягати",
+          "pl": "Nie ma tam czego osiągać"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Anselm: the greatest thing we can think",
+        "ru": "Ансельм: величайшее, что можно помыслить",
+        "uk": "Ансельм: найбільше, що можна помислити",
+        "pl": "Anzelm: największe, co można pomyśleć"
+      },
+      "intro": {
+        "en": "An abbey in Normandy, 1077. The abbot Anselm looks for one argument that would need nothing but itself. He begins with a prayer — and with the fool of the Psalm, who says there is no God:",
+        "ru": "Аббатство в Нормандии, 1077 год. Аббат Ансельм ищет один довод, которому не нужно ничего, кроме него самого. Он начинает с молитвы — и с безумца из псалма, который говорит, что Бога нет:",
+        "uk": "Абатство в Нормандії, 1077 рік. Абат Ансельм шукає один аргумент, якому не потрібно нічого, крім нього самого. Він починає з молитви — і з безумного з псалма, який каже, що Бога нема:",
+        "pl": "Opactwo w Normandii, 1077 rok. Opat Anzelm szuka jednego argumentu, który nie potrzebowałby niczego poza sobą. Zaczyna od modlitwy — i od głupca z psalmu, który mówi, że nie ma Boga:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Anselm, Proslogion 2",
+            "ru": "Ансельм, «Прослогион», 2",
+            "uk": "Ансельм, «Прослогіон», 2",
+            "pl": "Anzelm, Proslogion 2"
+          },
+          "quotes": {
+            "en": {
+              "edition": "proslogion.en.deane",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "And indeed, we believe that thou art a being than which nothing greater can be conceived. Or is there no such nature, since the fool hath said in his heart, there is no God?",
+              "kind": "Free",
+              "translator": "S. N. Deane"
+            },
+            "ru": {
+              "edition": "proslogion.ru.ours",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "И мы верим, что Ты — нечто, больше чего нельзя помыслить. Или нет такой природы, раз «сказал безумец в сердце своём: нет Бога»?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "proslogion.uk.ours",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "І ми віримо, що Ти — щось, більше за що не можна помислити. Чи, може, немає такої природи, бо «сказав безумний у серці своїм: нема Бога»?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "proslogion.pl.ours",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "I wierzymy, że Ty jesteś czymś, od czego nic większego nie można pomyśleć. Czy może nie ma takiej natury, skoro „rzekł głupi w sercu swoim: nie ma Boga”?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/Proslogion_seu_Alloquium_de_Dei_existentia"
+          }
+        },
+        {
+          "by": {
+            "en": "The same chapter",
+            "ru": "Та же глава",
+            "uk": "Той самий розділ",
+            "pl": "Ten sam rozdział"
+          },
+          "quotes": {
+            "en": {
+              "edition": "proslogion.en.deane",
+              "from": "2.4",
+              "to": "2.4",
+              "text": "Therefore, if that, than which nothing greater can be conceived, exists in the understanding alone, the very being, than which nothing greater can be conceived, is one, than which a greater can be conceived. But obviously this is impossible. Hence, there is no doubt that there exists a being, than which nothing greater can be conceived, and it exists both in the understanding and in reality.",
+              "kind": "Free",
+              "translator": "S. N. Deane"
+            },
+            "ru": {
+              "edition": "proslogion.ru.ours",
+              "from": "2.4",
+              "to": "2.4",
+              "text": "Итак, если то, больше чего нельзя помыслить, существует только в разуме, то само то, больше чего нельзя помыслить, есть то, больше чего помыслить можно. Но это, очевидно, невозможно. Следовательно, без сомнения, нечто, больше чего нельзя помыслить, существует и в разуме, и в действительности.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "proslogion.uk.ours",
+              "from": "2.4",
+              "to": "2.4",
+              "text": "Отже, якщо те, більше за що не можна помислити, існує тільки в розумі, то саме те, більше за що не можна помислити, є тим, більше за що помислити можна. Але це, очевидно, неможливо. Тож, без сумніву, щось, більше за що не можна помислити, існує і в розумі, і в дійсності.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "proslogion.pl.ours",
+              "from": "2.4",
+              "to": "2.4",
+              "text": "Jeśli więc to, od czego nic większego nie można pomyśleć, istnieje tylko w umyśle, to właśnie to, od czego nic większego nie można pomyśleć, jest czymś, od czego można pomyśleć coś większego. Lecz to oczywiście niemożliwe. Bez wątpienia zatem coś, od czego nic większego nie można pomyśleć, istnieje zarówno w umyśle, jak i w rzeczywistości.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/Proslogion_seu_Alloquium_de_Dei_existentia"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Anselm, born in Aosta in the Alps, became abbot of Bec in Normandy and, in 1093, Archbishop of Canterbury; he was twice exiled in quarrels with English kings.",
+            "ru": "Ансельм, уроженец Аосты в Альпах, стал аббатом Бека в Нормандии, а в 1093 году — архиепископом Кентерберийским; дважды он был изгнан из-за споров с английскими королями.",
+            "uk": "Ансельм, уродженець Аости в Альпах, став абатом Бека в Нормандії, а 1093 року — архієпископом Кентерберійським; двічі його виганяли через суперечки з англійськими королями.",
+            "pl": "Anzelm, urodzony w Aoście w Alpach, został opatem Bec w Normandii, a w 1093 roku arcybiskupem Canterbury; dwukrotnie wygnano go w sporach z królami Anglii."
+          },
+          "source": "Eadmer, The Life of St Anselm (c. 1124)"
+        },
+        {
+          "fact": {
+            "en": "A monk, Gaunilo, answered at once “on behalf of the fool”: by the same reasoning a most perfect island would have to exist. Anselm asked that the objection be copied with his reply.",
+            "ru": "Монах Гаунило сразу ответил «в защиту безумца»: тем же рассуждением пришлось бы доказать, что существует самый совершенный остров. Ансельм попросил переписывать это возражение вместе со своим ответом.",
+            "uk": "Чернець Гаунілон одразу відповів «на захист безумного»: тим самим міркуванням довелося б довести, що існує найдосконаліший острів. Ансельм попросив переписувати це заперечення разом зі своєю відповіддю.",
+            "pl": "Mnich Gaunilon odpowiedział od razu „w obronie głupca”: tym samym rozumowaniem trzeba by dowieść istnienia najdoskonalszej wyspy. Anzelm prosił, by sprzeciw przepisywano razem z jego odpowiedzią."
+          },
+          "source": "Gaunilo, Pro insipiente; Anselm, Responsio; Eadmer, The Life of St Anselm 1.19"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Aquinas: from the world to its cause",
+        "ru": "Фома Аквинский: от мира к его причине",
+        "uk": "Тома Аквінський: від світу до його причини",
+        "pl": "Tomasz z Akwinu: od świata do jego przyczyny"
+      },
+      "intro": {
+        "en": "Two centuries later Thomas Aquinas sets Anselm's proof aside: we cannot see God's essence, so we must start from what we see. “The existence of God can be proved in five ways” — motion, causes, chance and necessity, degrees of perfection, and order. The last of them:",
+        "ru": "Два века спустя Фома Аквинский отклоняет доказательство Ансельма: сущности Бога мы не видим, значит, начинать надо с того, что видим. «Бытие Бога можно доказать пятью путями» — от движения, от причин, от случайного и необходимого, от степеней совершенства и от порядка. Последний из них:",
+        "uk": "Два століття по тому Тома Аквінський відкидає доказ Ансельма: сутності Бога ми не бачимо, тож починати треба з того, що бачимо. «Буття Бога можна довести п'ятьма шляхами» — від руху, від причин, від випадкового й необхідного, від ступенів досконалості та від порядку. Останній із них:",
+        "pl": "Dwa wieki później Tomasz z Akwinu odrzuca dowód Anzelma: istoty Boga nie widzimy, trzeba więc zacząć od tego, co widzimy. „Istnienie Boga można udowodnić na pięć sposobów” — z ruchu, z przyczyn, z przygodności i konieczności, ze stopni doskonałości i z porządku. Ostatni z nich:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Thomas Aquinas, Summa Theologiae I, q. 2, a. 3 — the fifth way",
+            "ru": "Фома Аквинский, «Сумма теологии», I, вопр. 2, ст. 3 — пятый путь",
+            "uk": "Тома Аквінський, «Сума теології», I, пит. 2, ст. 3 — п'ятий шлях",
+            "pl": "Tomasz z Akwinu, Suma teologiczna I, q. 2, a. 3 — piąta droga"
+          },
+          "quotes": {
+            "en": {
+              "edition": "summa.en.dominican",
+              "from": "1.2.3.6",
+              "to": "1.2.3.6",
+              "text": "The fifth way is taken from the governance of the world. We see that things which lack intelligence, such as natural bodies, act for an end, and this is evident from their acting always, or nearly always, in the same way, so as to obtain the best result. Hence it is plain that not fortuitously, but designedly, do they achieve their end. Now whatever lacks intelligence cannot move towards an end, unless it be directed by some being endowed with knowledge and intelligence; as the arrow is shot to its mark by the archer. Therefore some intelligent being exists by whom all natural things are directed to their end; and this being we call God.",
+              "kind": "Free",
+              "translator": "Fathers of the English Dominican Province"
+            },
+            "ru": {
+              "edition": "summa.ru.ours",
+              "from": "1.2.3.6",
+              "to": "1.2.3.6",
+              "text": "Пятый путь исходит из управления миром. Мы видим, что вещи, лишённые разума, такие как природные тела, действуют ради цели; это видно из того, что они действуют всегда или почти всегда одинаково, так чтобы достичь наилучшего. Отсюда ясно, что они достигают цели не случайно, а намеренно. Но то, что лишено разума, может стремиться к цели, лишь если его направляет нечто наделённое знанием и разумом, как стрелу направляет к цели лучник. Следовательно, есть некое разумное существо, которым все природные вещи направляются к их цели; и его мы называем Богом.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "summa.uk.ours",
+              "from": "1.2.3.6",
+              "to": "1.2.3.6",
+              "text": "П'ятий шлях виходить з управління світом. Ми бачимо, що речі, позбавлені розуму, як-от природні тіла, діють задля мети; це видно з того, що вони діють завжди або майже завжди однаково, щоб досягти найкращого. Звідси ясно, що вони досягають мети не випадково, а з наміром. Але те, що позбавлене розуму, може прямувати до мети, лише коли його спрямовує щось наділене знанням і розумом, як стрілу спрямовує до цілі лучник. Отже, існує якась розумна істота, якою всі природні речі спрямовуються до їхньої мети; і її ми називаємо Богом.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "summa.pl.ours",
+              "from": "1.2.3.6",
+              "to": "1.2.3.6",
+              "text": "Piąta droga wychodzi od kierowania światem. Widzimy, że rzeczy pozbawione rozumu, jak ciała przyrody, działają dla celu; widać to stąd, że działają zawsze lub prawie zawsze tak samo, by osiągnąć to, co najlepsze. Jasne więc, że osiągają cel nie przypadkiem, lecz z zamiaru. Lecz to, co pozbawione rozumu, może zmierzać do celu tylko wtedy, gdy kieruje nim coś obdarzonego wiedzą i rozumem, jak strzałę kieruje do celu łucznik. Istnieje więc pewna istota rozumna, przez którą wszystkie rzeczy przyrody są kierowane do swego celu; i tę nazywamy Bogiem.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/Summa_Theologiae/Prima_pars/Quaestio_II"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "When young Thomas joined the new Dominican order, his family had him seized on the road and kept him at home for about a year.",
+            "ru": "Когда юный Фома вступил в новый орден доминиканцев, родные велели схватить его в дороге и около года держали дома.",
+            "uk": "Коли юний Тома вступив до нового ордену домініканців, рідні звеліли схопити його в дорозі й близько року тримали вдома.",
+            "pl": "Gdy młody Tomasz wstąpił do nowego zakonu dominikanów, rodzina kazała go pojmać w drodze i przez około rok trzymała go w domu."
+          },
+          "source": "William of Tocco, The Life of St Thomas Aquinas (c. 1323)"
+        },
+        {
+          "fact": {
+            "en": "In December 1273 he stopped writing: after what he had seen, he said, all he had written seemed to him like straw. The Summa Theologiae was left unfinished.",
+            "ru": "В декабре 1273 года он перестал писать: после того, что ему открылось, сказал он, всё написанное кажется ему соломой. «Сумма теологии» осталась незаконченной.",
+            "uk": "У грудні 1273 року він перестав писати: після того, що йому відкрилося, сказав він, усе написане здається йому соломою. «Сума теології» лишилася незавершеною.",
+            "pl": "W grudniu 1273 roku przestał pisać: po tym, co ujrzał, powiedział, wszystko, co napisał, wydaje mu się słomą. Suma teologiczna pozostała niedokończona."
+          },
+          "source": "Bartholomew of Capua, testimony at the canonization inquiry (Naples, 1319)"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Baghdad, 1095",
+        "ru": "Багдад, 1095 год",
+        "uk": "Багдад, 1095 рік",
+        "pl": "Bagdad, 1095 rok"
+      },
+      "scene": {
+        "en": "You are the most famous teacher in Baghdad: three hundred students at your lectures, honour at court. You have studied theology and philosophy to the bottom and found no certainty in either. The Sufis say God is known not by proofs but by a changed life — and that would mean leaving everything. What do you do?",
+        "ru": "Вы — самый знаменитый учитель Багдада: триста учеников на ваших лекциях, почёт при дворе. Вы изучили богословие и философию до дна — и не нашли достоверности ни там, ни там. Суфии говорят, что Бога познают не доказательствами, а изменённой жизнью, — а это значит оставить всё. Что вы сделаете?",
+        "uk": "Ви — найславетніший учитель Багдада: триста учнів на ваших лекціях, шана при дворі. Ви вивчили богослов'я і філософію до дна — і не знайшли певності ні там, ні там. Суфії кажуть, що Бога пізнають не доказами, а зміненим життям, — а це означає залишити все. Що ви зробите?",
+        "pl": "Jesteś najsłynniejszym nauczycielem Bagdadu: trzystu uczniów na wykładach, poważanie na dworze. Zbadałeś teologię i filozofię do dna — i nie znalazłeś pewności ani tu, ani tam. Sufi mówią, że Boga poznaje się nie dowodami, lecz odmienionym życiem — a to znaczyłoby porzucić wszystko. Co zrobisz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Stay: my duty is to teach",
+            "ru": "Остаться: мой долг — учить",
+            "uk": "Залишитися: мій обов'язок — навчати",
+            "pl": "Zostać: moim obowiązkiem jest uczyć"
+          },
+          "reply": {
+            "en": "He tried. For six months he wavered between the two — and then his body decided for him.",
+            "ru": "Он пытался. Полгода он колебался — а потом за него решило тело.",
+            "uk": "Він намагався. Пів року він вагався — а потім за нього вирішило тіло.",
+            "pl": "Próbował. Pół roku się wahał — a potem za niego zdecydowało ciało."
+          }
+        },
+        {
+          "choice": {
+            "en": "Leave everything, and seek by living",
+            "ru": "Оставить всё и искать жизнью",
+            "uk": "Залишити все і шукати життям",
+            "pl": "Porzucić wszystko i szukać życiem"
+          },
+          "reply": {
+            "en": "That is what he did — though not at once, and not without a fight with himself.",
+            "ru": "Так он и сделал — хотя не сразу и не без борьбы с самим собой.",
+            "uk": "Так він і зробив — хоча не одразу й не без боротьби з самим собою.",
+            "pl": "Tak właśnie zrobił — choć nie od razu i nie bez walki z samym sobą."
+          }
+        },
+        {
+          "choice": {
+            "en": "Write a better proof",
+            "ru": "Написать доказательство получше",
+            "uk": "Написати кращий доказ",
+            "pl": "Napisać lepszy dowód"
+          },
+          "reply": {
+            "en": "He had read every proof. His conclusion: to know about a state is not to be in it — read below.",
+            "ru": "Он прочёл все доказательства. Его вывод: знать о состоянии — не значит в нём быть; читайте ниже.",
+            "uk": "Він прочитав усі докази. Його висновок: знати про стан — не означає в ньому бути; читайте нижче.",
+            "pl": "Przeczytał wszystkie dowody. Jego wniosek: wiedzieć o stanie to nie to samo, co w nim być — czytaj poniżej."
+          }
+        },
+        {
+          "choice": {
+            "en": "Give up the search",
+            "ru": "Бросить поиски",
+            "uk": "Облишити пошуки",
+            "pl": "Porzucić poszukiwania"
+          },
+          "reply": {
+            "en": "He could not: the question would not leave him, even in front of his students.",
+            "ru": "Он не смог: вопрос не отпускал его даже перед учениками.",
+            "uk": "Він не зміг: питання не відпускало його навіть перед учнями.",
+            "pl": "Nie potrafił: pytanie nie opuszczało go nawet przed uczniami."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "This was al-Ghazali. In 1095 his voice failed him in the lecture hall; he left Baghdad, gave away his fortune, and for some ten years lived as a wandering Sufi — in Damascus, Jerusalem, Mecca. Then he wrote Deliverance from Error, the book quoted here, and The Revival of the Religious Sciences.",
+        "ru": "Это был аль-Газали. В 1095 году голос отказал ему на лекции; он покинул Багдад, раздал состояние и около десяти лет жил странствующим суфием — в Дамаске, Иерусалиме, Мекке. Потом он написал «Избавляющий от заблуждения», книгу, цитируемую здесь, и «Воскрешение наук о вере».",
+        "uk": "Це був аль-Газалі. 1095 року голос відмовив йому на лекції; він покинув Багдад, роздав статки й близько десяти років жив мандрівним суфієм — у Дамаску, Єрусалимі, Мецці. Потім він написав книжку, цитовану тут, і «Відродження наук про віру».",
+        "pl": "To był al-Ghazali. W 1095 roku głos odmówił mu na wykładzie; opuścił Bagdad, rozdał majątek i przez około dziesięciu lat żył jako wędrowny sufi — w Damaszku, Jerozolimie, Mekce. Potem napisał cytowaną tu księgę i Ożywienie nauk religijnych."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "al-Ghazali, Deliverance from Error",
+            "ru": "аль-Газали, «Избавляющий от заблуждения»",
+            "uk": "аль-Газалі, «Той, що рятує від помилки»",
+            "pl": "al-Ghazali, Wybawiający od błędu"
+          },
+          "quotes": {
+            "en": {
+              "edition": "deliverance.en.field",
+              "from": "7.7",
+              "to": "7.7",
+              "text": "At the close of them my will yielded and I gave myself up to destiny. God caused an impediment to chain my tongue and prevented me from lecturing. Vainly I desired, in the interest of my pupils, to go on with my teaching, but my mouth became dumb.",
+              "kind": "Free",
+              "translator": "Claud Field"
+            },
+            "ru": {
+              "edition": "deliverance.ru.ours",
+              "from": "7.7",
+              "to": "7.7",
+              "text": "К концу их моя воля сдалась, и я предался судьбе. Бог наложил оковы на мой язык и помешал мне читать лекции. Напрасно я желал ради моих учеников продолжать преподавание — мои уста онемели.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "deliverance.uk.ours",
+              "from": "7.7",
+              "to": "7.7",
+              "text": "Наприкінці їх моя воля здалася, і я віддався долі. Бог наклав пута на мій язик і завадив мені читати лекції. Марно я бажав заради своїх учнів провадити навчання далі — мої уста заніміли.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "deliverance.pl.ours",
+              "from": "7.7",
+              "to": "7.7",
+              "text": "Pod ich koniec moja wola uległa i oddałem się losowi. Bóg spętał mi język i nie pozwolił wykładać. Na próżno pragnąłem dla dobra uczniów dalej nauczać — moje usta oniemiały.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Arabic",
+              "ru": "оригинал на арабском",
+              "uk": "оригінал арабською",
+              "pl": "oryginał po arabsku"
+            },
+            "url": "https://ar.wikisource.org/wiki/المنقذ_من_الضلال"
+          }
+        },
+        {
+          "by": {
+            "en": "The same book: knowing about, and being",
+            "ru": "Та же книга: знать о чём-то — и быть этим",
+            "uk": "Та сама книга: знати про щось — і бути цим",
+            "pl": "Ta sama księga: wiedzieć o czymś — i tym być"
+          },
+          "quotes": {
+            "en": {
+              "edition": "deliverance.en.field",
+              "from": "7.3",
+              "to": "7.3",
+              "text": "To define health and satiety, to penetrate their causes and conditions, is quite another thing from being well and satisfied. To define drunkenness, to know that it is caused by vapours which rise from the stomach and cloud the seat of intelligence, is quite a different thing to being drunk.",
+              "kind": "Free",
+              "translator": "Claud Field"
+            },
+            "ru": {
+              "edition": "deliverance.ru.ours",
+              "from": "7.3",
+              "to": "7.3",
+              "text": "Определить здоровье и сытость, постичь их причины и условия — совсем не то же, что быть здоровым и сытым. Определить опьянение, знать, что его вызывают пары, которые поднимаются из желудка и затмевают обитель разума, — совсем не то же, что быть пьяным.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "deliverance.uk.ours",
+              "from": "7.3",
+              "to": "7.3",
+              "text": "Визначити здоров'я і ситість, збагнути їхні причини та умови — зовсім не те саме, що бути здоровим і ситим. Визначити сп'яніння, знати, що його спричиняють випари, які здіймаються зі шлунка й затьмарюють осідок розуму, — зовсім не те саме, що бути п'яним.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "deliverance.pl.ours",
+              "from": "7.3",
+              "to": "7.3",
+              "text": "Zdefiniować zdrowie i sytość, przeniknąć ich przyczyny i warunki — to coś zupełnie innego niż być zdrowym i sytym. Zdefiniować upojenie, wiedzieć, że wywołują je opary, które wznoszą się z żołądka i zaciemniają siedzibę rozumu — to coś zupełnie innego niż być pijanym.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Arabic",
+              "ru": "оригинал на арабском",
+              "uk": "оригінал арабською",
+              "pl": "oryginał po arabsku"
+            },
+            "url": "https://ar.wikisource.org/wiki/المنقذ_من_الضلال"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "He taught at the Nizamiyya of Baghdad, one of the first great colleges of the Islamic world, founded by the vizier Nizam al-Mulk.",
+            "ru": "Он преподавал в багдадской Низамии — одном из первых больших медресе исламского мира, основанном визирем Низам аль-Мульком.",
+            "uk": "Він викладав у багдадській Нізамії — одному з перших великих медресе ісламського світу, заснованому візиром Нізам аль-Мульком.",
+            "pl": "Wykładał w bagdadzkiej Nizamijji — jednej z pierwszych wielkich szkół świata islamu, założonej przez wezyra Nizama al-Mulka."
+          },
+          "source": "Frank Griffel, Al-Ghazali's Philosophical Theology (2009)"
+        },
+        {
+          "fact": {
+            "en": "His Incoherence of the Philosophers attacked the followers of Avicenna; almost a century later Averroes answered it with The Incoherence of the Incoherence.",
+            "ru": "Его «Опровержение философов» было направлено против последователей Авиценны; почти век спустя Аверроэс ответил ему «Опровержением опровержения».",
+            "uk": "Його «Спростування філософів» було спрямоване проти послідовників Авіценни; майже століття потому Аверроес відповів йому «Спростуванням спростування».",
+            "pl": "Jego Niespójność filozofów była wymierzona w zwolenników Awicenny; prawie wiek później Awerroes odpowiedział Niespójnością niespójności."
+          },
+          "source": "Averroes, Tahāfut al-Tahāfut (c. 1180)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Pascal: the wager, and the heart",
+        "ru": "Паскаль: пари — и сердце",
+        "uk": "Паскаль: парі — і серце",
+        "pl": "Pascal: zakład i serce"
+      },
+      "intro": {
+        "en": "Paris, around 1658. Pascal, mathematician of chance, says to the doubter: reason cannot settle whether God is — but you must bet; “you are embarked.” Then weigh the bet as a gambler would:",
+        "ru": "Париж, около 1658 года. Паскаль, математик случая, говорит сомневающемуся: разум не может решить, есть ли Бог, — но ставить придётся: «вы уже в лодке». Так взвесьте ставку, как игрок:",
+        "uk": "Париж, близько 1658 року. Паскаль, математик випадку, каже тому, хто сумнівається: розум не може вирішити, чи є Бог, — але ставити доведеться: «ви вже в човні». Тож зважте ставку, як гравець:",
+        "pl": "Paryż, około 1658 roku. Pascal, matematyk przypadku, mówi wątpiącemu: rozum nie rozstrzygnie, czy Bóg jest — ale postawić trzeba; „jesteś już w łodzi”. Zważ więc zakład jak gracz:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Blaise Pascal, Pensées 233",
+            "ru": "Блез Паскаль, «Мысли», 233",
+            "uk": "Блез Паскаль, «Думки», 233",
+            "pl": "Blaise Pascal, Myśli 233"
+          },
+          "quotes": {
+            "en": {
+              "edition": "pensees.en.trotter",
+              "from": "233",
+              "to": "233",
+              "text": "Let us weigh the gain and the loss in wagering that God is. Let us estimate these two chances. If you gain, you gain all; if you lose, you lose nothing. Wager, then, without hesitation that He is.",
+              "kind": "Free",
+              "translator": "W. F. Trotter"
+            },
+            "ru": {
+              "edition": "pensees.ru.ours",
+              "from": "233",
+              "to": "233",
+              "text": "Взвесим выигрыш и проигрыш, поставив на то, что Бог есть. Оценим оба случая. Если выиграете — выиграете всё; если проиграете — ничего не потеряете. Ставьте же без колебаний на то, что Он есть.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "pensees.uk.ours",
+              "from": "233",
+              "to": "233",
+              "text": "Зважмо виграш і програш, поставивши на те, що Бог є. Оцінімо обидва випадки. Якщо виграєте — виграєте все; якщо програєте — нічого не втратите. Ставте ж без вагань на те, що Він є.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "pensees.pl.ours",
+              "from": "233",
+              "to": "233",
+              "text": "Zważmy zysk i stratę, stawiając na to, że Bóg jest. Oszacujmy obie możliwości. Jeśli wygrasz — wygrywasz wszystko; jeśli przegrasz — nic nie tracisz. Stawiaj więc bez wahania, że On jest.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Pensées_(Pascal)"
+          }
+        },
+        {
+          "by": {
+            "en": "Pensées 277",
+            "ru": "«Мысли», 277",
+            "uk": "«Думки», 277",
+            "pl": "Myśli 277"
+          },
+          "quotes": {
+            "en": {
+              "edition": "pensees.en.trotter",
+              "from": "277",
+              "to": "277",
+              "text": "The heart has its reasons, which reason does not know. We feel it in a thousand things.",
+              "kind": "Free",
+              "translator": "W. F. Trotter"
+            },
+            "ru": {
+              "edition": "pensees.ru.ours",
+              "from": "277",
+              "to": "277",
+              "text": "У сердца свои резоны, которых разум не знает. Мы чувствуем это в тысяче вещей.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "pensees.uk.ours",
+              "from": "277",
+              "to": "277",
+              "text": "Серце має свої резони, яких розум не знає. Ми відчуваємо це в тисячі речей.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "pensees.pl.ours",
+              "from": "277",
+              "to": "277",
+              "text": "Serce ma swoje racje, których rozum nie zna. Czujemy to w tysiącu rzeczy.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Pensées_(Pascal)"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "At nineteen Pascal built a calculating machine to help his father, a tax official, with his sums.",
+            "ru": "В девятнадцать лет Паскаль построил счётную машину, чтобы помочь отцу, сборщику налогов, со счётом.",
+            "uk": "У дев'ятнадцять років Паскаль збудував лічильну машину, щоб допомогти батькові, збирачеві податків, з розрахунками.",
+            "pl": "W wieku dziewiętnastu lat Pascal zbudował maszynę liczącą, by pomóc ojcu, poborcy podatkowemu, w rachunkach."
+          },
+          "source": "Gilberte Périer, The Life of Monsieur Pascal (1684)"
+        },
+        {
+          "fact": {
+            "en": "On the night of 23 November 1654 he wrote down an experience — “Fire. God of Abraham, God of Isaac, God of Jacob, not of the philosophers and scholars” — and sewed the paper into his coat. It was found after his death.",
+            "ru": "В ночь на 23 ноября 1654 года он записал пережитое — «Огонь. Бог Авраама, Бог Исаака, Бог Иакова, а не философов и учёных» — и зашил листок в подкладку камзола. Его нашли после смерти Паскаля.",
+            "uk": "У ніч на 23 листопада 1654 року він записав пережите — «Вогонь. Бог Авраама, Бог Ісаака, Бог Якова, а не філософів і вчених» — і зашив аркуш у підкладку камзола. Його знайшли після смерті Паскаля.",
+            "pl": "W nocy 23 listopada 1654 roku zapisał to, co przeżył — „Ogień. Bóg Abrahama, Bóg Izaaka, Bóg Jakuba, nie filozofów i uczonych” — i zaszył kartkę w podszewce surduta. Znaleziono ją po jego śmierci."
+          },
+          "source": "Blaise Pascal, the Memorial (1654)"
+        },
+        {
+          "fact": {
+            "en": "The Pensées are notes for a defence of Christianity he did not live to write; they were published in 1670, eight years after his death.",
+            "ru": "«Мысли» — заметки к апологии христианства, которую он не успел написать; их издали в 1670 году, через восемь лет после его смерти.",
+            "uk": "«Думки» — нотатки до апології християнства, яку він не встиг написати; їх видали 1670 року, через вісім років після його смерті.",
+            "pl": "Myśli to notatki do obrony chrześcijaństwa, której nie zdążył napisać; wydano je w 1670 roku, osiem lat po jego śmierci."
+          },
+          "source": "Port-Royal edition of the Pensées (1670)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Kant: a hundred thalers",
+        "ru": "Кант: сто талеров",
+        "uk": "Кант: сто талерів",
+        "pl": "Kant: sto talarów"
+      },
+      "intro": {
+        "en": "Königsberg, 1781. Kant answers Anselm's kind of proof: to say a thing exists adds nothing to the idea of it — so no idea can contain its own existence.",
+        "ru": "Кёнигсберг, 1781 год. Кант отвечает на доказательство в духе Ансельма: сказать, что вещь существует, ничего не прибавляет к её понятию — значит, никакое понятие не содержит собственного существования.",
+        "uk": "Кеніґсберґ, 1781 рік. Кант відповідає на доказ у дусі Ансельма: сказати, що річ існує, нічого не додає до її поняття — отже, жодне поняття не містить власного існування.",
+        "pl": "Królewiec, 1781 rok. Kant odpowiada na dowód w duchu Anzelma: powiedzieć, że rzecz istnieje, niczego nie dodaje do jej pojęcia — żadne pojęcie nie zawiera więc własnego istnienia."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Immanuel Kant, Critique of Pure Reason (A598/B626)",
+            "ru": "Иммануил Кант, «Критика чистого разума» (A598/B626)",
+            "uk": "Іммануїл Кант, «Критика чистого розуму» (A598/B626)",
+            "pl": "Immanuel Kant, Krytyka czystego rozumu (A598/B626)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "critique.en.meiklejohn",
+              "from": "2.3.4.11",
+              "to": "2.3.4.11",
+              "text": "Being is evidently not a real predicate, that is, a conception of something which is added to the conception of some other thing.",
+              "kind": "Free",
+              "translator": "J. M. D. Meiklejohn"
+            },
+            "ru": {
+              "edition": "critique.ru.ours",
+              "from": "2.3.4.11",
+              "to": "2.3.4.11",
+              "text": "Бытие, очевидно, не реальный предикат, то есть не понятие о чём-то, что могло бы быть прибавлено к понятию вещи.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "critique.uk.ours",
+              "from": "2.3.4.11",
+              "to": "2.3.4.11",
+              "text": "Буття, очевидно, не реальний предикат, тобто не поняття про щось, що могло б бути додане до поняття речі.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "critique.pl.ours",
+              "from": "2.3.4.11",
+              "to": "2.3.4.11",
+              "text": "Byt oczywiście nie jest realnym orzecznikiem, to znaczy pojęciem czegoś, co mogłoby zostać dodane do pojęcia rzeczy.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in German",
+              "ru": "оригинал на немецком",
+              "uk": "оригінал німецькою",
+              "pl": "oryginał po niemiecku"
+            },
+            "url": "https://de.wikisource.org/wiki/Critik_der_reinen_Vernunft_(1781)"
+          }
+        },
+        {
+          "by": {
+            "en": "The same paragraph",
+            "ru": "Тот же абзац",
+            "uk": "Той самий абзац",
+            "pl": "Ten sam akapit"
+          },
+          "quotes": {
+            "en": {
+              "edition": "critique.en.meiklejohn",
+              "from": "2.3.4.11",
+              "to": "2.3.4.11",
+              "text": "Thus the real contains no more than the possible. A hundred real dollars contain no more than a hundred possible dollars.",
+              "kind": "Free",
+              "translator": "J. M. D. Meiklejohn"
+            },
+            "ru": {
+              "edition": "critique.ru.ours",
+              "from": "2.3.4.11",
+              "to": "2.3.4.11",
+              "text": "Таким образом, действительное содержит не больше, чем только возможное. Сто действительных талеров не содержат ничего больше, чем сто возможных талеров.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "critique.uk.ours",
+              "from": "2.3.4.11",
+              "to": "2.3.4.11",
+              "text": "Отже, дійсне містить не більше, ніж лише можливе. Сто дійсних талерів не містять нічого більше, ніж сто можливих талерів.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "critique.pl.ours",
+              "from": "2.3.4.11",
+              "to": "2.3.4.11",
+              "text": "Rzeczywiste nie zawiera więc nic więcej niż tylko możliwe. Sto rzeczywistych talarów nie zawiera nic więcej niż sto możliwych talarów.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in German",
+              "ru": "оригинал на немецком",
+              "uk": "оригінал німецькою",
+              "pl": "oryginał po niemiecku"
+            },
+            "url": "https://de.wikisource.org/wiki/Critik_der_reinen_Vernunft_(1781)"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Kant hardly ever left Königsberg; a famous story, told by Heine, has his neighbours setting their clocks by his daily walk.",
+            "ru": "Кант почти не покидал Кёнигсберга; известная история, рассказанная Гейне, — соседи сверяли часы по его ежедневной прогулке.",
+            "uk": "Кант майже не залишав Кеніґсберґа; відома історія, розказана Гейне, — сусіди звіряли годинники за його щоденною прогулянкою.",
+            "pl": "Kant prawie nie opuszczał Królewca; słynna opowieść Heinego głosi, że sąsiedzi nastawiali zegary według jego codziennego spaceru."
+          },
+          "source": "Heinrich Heine, On the History of Religion and Philosophy in Germany (1834)"
+        },
+        {
+          "fact": {
+            "en": "He rejected every proof of God by pure reason, yet kept God as a postulate of the moral life: “I had to deny knowledge in order to make room for faith.”",
+            "ru": "Он отверг все доказательства бытия Бога чистым разумом, но сохранил Бога как постулат нравственной жизни: «Мне пришлось ограничить знание, чтобы освободить место вере».",
+            "uk": "Він відкинув усі докази буття Бога чистим розумом, але зберіг Бога як постулат морального життя: «Мені довелося обмежити знання, щоб звільнити місце вірі».",
+            "pl": "Odrzucił wszelkie dowody istnienia Boga z czystego rozumu, lecz zachował Boga jako postulat życia moralnego: „Musiałem uchylić wiedzę, aby zrobić miejsce wierze”."
+          },
+          "source": "Immanuel Kant, Critique of Pure Reason, preface to the second edition (1787), Bxxx"
+        }
+      ]
+    },
+    {
+      "think": "reason",
+      "question": {
+        "en": "What would convince you — that God exists, or that He does not? A proof, an experience, the word of others, or nothing at all? Why?",
+        "ru": "Что убедило бы вас — в том, что Бог есть, или в том, что Его нет? Доказательство, опыт, слово других — или ничто? Почему?",
+        "uk": "Що переконало б вас — у тому, що Бог є, чи в тому, що Його нема? Доказ, досвід, слово інших — чи ніщо? Чому?",
+        "pl": "Co by cię przekonało — że Bóg istnieje albo że Go nie ma? Dowód, doświadczenie, słowo innych — czy nic? Dlaczego?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: can reason reach God?",
+        "ru": "А теперь: может ли разум прийти к Богу?",
+        "uk": "А тепер: чи може розум дійти до Бога?",
+        "pl": "A teraz: czy rozum może dojść do Boga?"
+      }
+    }
+  ]
+}
