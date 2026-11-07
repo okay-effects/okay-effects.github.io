@@ -1,0 +1,471 @@
+{
+  "id": "suffering",
+  "title": {
+    "en": "What is suffering for?",
+    "ru": "Зачем нужно страдание?",
+    "uk": "Навіщо потрібні страждання?",
+    "pl": "Po co cierpienie?"
+  },
+  "subtitle": {
+    "en": "Job, Epicurus, Voltaire and Schopenhauer — and you",
+    "ru": "Иов, Эпикур, Вольтер и Шопенгауэр — и вы",
+    "uk": "Йов, Епікур, Вольтер і Шопенгауер — і ви",
+    "pl": "Hiob, Epikur, Wolter i Schopenhauer — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: what is suffering for?",
+        "ru": "Прежде чем читать кого-либо: зачем нужно страдание?",
+        "uk": "Перш ніж читати когось: навіщо потрібні страждання?",
+        "pl": "Zanim przeczytasz kogokolwiek: po co cierpienie?"
+      },
+      "options": [
+        {
+          "en": "To purify the soul of its attachments.",
+          "ru": "Чтобы очистить душу от привязанностей.",
+          "uk": "Щоб очистити душу від прив’язаностей.",
+          "pl": "By oczyścić duszę z przywiązań."
+        },
+        {
+          "en": "To teach us the value of resilience.",
+          "ru": "Чтобы научить нас ценности стойкости.",
+          "uk": "Щоб навчити нас цінувати стійкість.",
+          "pl": "Aby nauczyć nas wartości odporności."
+        },
+        {
+          "en": "To be a necessary evil we must minimize.",
+          "ru": "Чтобы быть необходимым злом, которое мы должны минимизировать.",
+          "uk": "Щоб бути необхідним злом, яке треба мінімізувати.",
+          "pl": "To konieczne zło, które trzeba ograniczać."
+        },
+        {
+          "en": "To reveal the indifferent mechanics of nature.",
+          "ru": "Чтобы раскрыть равнодушные механизмы природы.",
+          "uk": "Щоб виявити байдужу механіку природи.",
+          "pl": "By ujawnić obojętne mechanizmy natury."
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Job: Radical Acceptance",
+        "ru": "Иов: Радикальное принятие",
+        "uk": "Йов: Радикальне прийняття",
+        "pl": "Hiob: Radykalne przyjęcie"
+      },
+      "intro": {
+        "en": "After losing his children, wealth, and health, Job sits in ashes, refusing to curse God despite his wife's urging.",
+        "ru": "Потеряв детей, богатство и здоровье, Иов сидит в пепле и, вопреки уговорам жены, отказывается проклинать Бога.",
+        "uk": "Позбавлений дітей, багатства та здоров’я, Йов сидить у попелі, відмовляючись проклясти Бога, попри заклики своєї дружини.",
+        "pl": "Po stracie dzieci, majątku i zdrowia Hiob siedzi w popiele, odmawiając przeklęcia Boga, mimo namów swojej żony."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "The Book of Job",
+            "ru": "Книга Иова",
+            "uk": "Книга Йова",
+            "pl": "Księga Hioba"
+          },
+          "quotes": {
+            "en": {
+              "edition": "job.en.kingjamesversion",
+              "from": "1.20",
+              "to": "1.20",
+              "text": "And said, Naked came I out of my mother's womb, and naked shall I return thither: the LORD gave, and the LORD hath taken away; blessed be the name of the LORD.",
+              "kind": "Free",
+              "translator": "King James Version"
+            },
+            "ru": {
+              "edition": "job.ru.ours",
+              "from": "1.20",
+              "to": "1.20",
+              "text": "И сказал: наг я вышел из чрева матери моей, наг возвращусь туда. Господь дал, Господь и взял; да будет имя Господне благословенно.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "job.uk.ours",
+              "from": "1.20",
+              "to": "1.20",
+              "text": "І сказав: голим вийшов я з утроби матері своєї, голим і повернуся туди. Господь дав, Господь і взяв; нехай буде ім’я Господнє благословенне.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "job.pl.ours",
+              "from": "1.20",
+              "to": "1.20",
+              "text": "I rzekł: Goły wyszedłem z łona matki mojej, goły wrócę tamże. Pan dał, Pan wziął; niech będzie imię Pańskie błogosławione.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Hebrew",
+              "ru": "оригинал на иврите",
+              "uk": "оригінал мовою іврит",
+              "pl": "oryginał, w języku hebrajskim"
+            },
+            "url": "https://he.wikisource.org/wiki/איוב_לח"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "No one knows when Job was written: most scholars place the book in the Persian period, the sixth to fourth centuries BC, though its story is older.",
+            "ru": "Никто не знает, когда написана Книга Иова: большинство учёных относят её к персидскому периоду, VI–IV векам до н. э., хотя сам сюжет старше.",
+            "uk": "Ніхто не знає, коли написано Книгу Йова: більшість учених відносять її до перського періоду, VI–IV століть до н. е., хоча сам сюжет давніший.",
+            "pl": "Nikt nie wie, kiedy powstała Księga Hioba: większość uczonych umieszcza ją w okresie perskim, w VI–IV wieku p.n.e., choć sama opowieść jest starsza."
+          },
+          "source": "John J. Collins, Introduction to the Hebrew Bible (2004)"
+        },
+        {
+          "fact": {
+            "en": "The prophet Ezekiel already names Job, with Noah and Daniel, as a proverbial righteous man.",
+            "ru": "Уже пророк Иезекииль называет Иова — вместе с Ноем и Даниилом — образцом праведника.",
+            "uk": "Уже пророк Єзекіїль називає Йова — разом із Ноєм і Даниїлом — взірцем праведника.",
+            "pl": "Już prorok Ezechiel wymienia Hioba — obok Noego i Daniela — jako wzór sprawiedliwego."
+          },
+          "source": "Ezekiel 14:14"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Epicurus: The Absence of Pain",
+        "ru": "Эпикур: Отсутствие боли",
+        "uk": "Епікур: Відсутність болю",
+        "pl": "Epikur: Nieobecność bólu"
+      },
+      "intro": {
+        "en": "Writing to a young student, Epicurus argues that pleasure is the absence of physical pain and mental disturbance.",
+        "ru": "Обращаясь к молодому ученику, Эпикур утверждает, что удовольствие заключается в отсутствии физической боли и душевных тревог.",
+        "uk": "Звертаючись до молодого учня, Епікур стверджує, що насолода полягає у відсутності тілесного болю і душевного неспокою.",
+        "pl": "Pisząc do młodego ucznia, Epikur twierdzi, że przyjemność to brak bólu ciała i niepokoju duszy."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Epicurus, Letter to Menoeceus",
+            "ru": "Эпикур. Письмо к Меноцею",
+            "uk": "Епікур, Лист до Меноцея",
+            "pl": "Epikur, List do Menoekeusza"
+          },
+          "quotes": {
+            "en": {
+              "edition": "epicurus.en.rdhicks",
+              "from": "1.5",
+              "to": "1.5",
+              "text": "For the end of all our actions is to be free from pain and fear, and, when once we have attained all this, the tempest of the soul is laid; seeing that the living creature has no need to go in search of something that is lacking, nor to look for anything else by which the good of the soul and of the body will be fulfilled.",
+              "kind": "Free",
+              "translator": "R. D. Hicks"
+            },
+            "ru": {
+              "edition": "epicurus.ru.ours",
+              "from": "1.5",
+              "to": "1.5",
+              "text": "Конечная цель всех наших действий — избавление от боли и страха; достигнув этого, мы успокаиваем бурю души, ибо живому существу больше не нужно искать чего-то недостающего или искать что-либо иное, посредством чего благо души и тела было бы полностью достигнуто.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "epicurus.uk.ours",
+              "from": "1.5",
+              "to": "1.5",
+              "text": "Метою всіх наших дій є звільнення від болю та страху, і, коли ми досягли цього, буря душі вщухає; адже жива істота не має потреби шукати чогось відсутнього, ні звертатися до чогось іншого, чим би було задоволено благо душі й тіла.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "epicurus.pl.ours",
+              "from": "1.5",
+              "to": "1.5",
+              "text": "Celem wszystkich naszych działań jest bycie wolnym od bólu i lęku; a gdy raz tego dokonamy, burza duszy się uspokaja, skoro żywa istota nie ma potrzeby szukać czegoś, czego jej brak, ani szukać czegoś innego, czym zostałby spełniony dobro duszy i ciała.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Epicurus taught in a garden he bought in Athens — his school was called simply “the Garden” — and admitted women and slaves among his pupils.",
+            "ru": "Эпикур учил в саду, купленном им в Афинах, — его школу так и называли: «Сад», — и принимал в ученики женщин и рабов.",
+            "uk": "Епікур навчав у саду, який купив в Афінах, — його школу так і називали: «Сад», — і приймав в учні жінок і рабів.",
+            "pl": "Epikur nauczał w ogrodzie, który kupił w Atenach — jego szkołę nazywano po prostu „Ogrodem” — i przyjmował do grona uczniów kobiety i niewolników."
+          },
+          "source": "Diogenes Laertius, Lives of the Eminent Philosophers 10.10–17"
+        },
+        {
+          "fact": {
+            "en": "He wrote some three hundred rolls; almost all are lost — three letters and a few sayings survive, kept by Diogenes Laertius.",
+            "ru": "Он написал около трёхсот свитков; почти всё утрачено — уцелели три письма и несколько изречений, сохранённых Диогеном Лаэртским.",
+            "uk": "Він написав близько трьохсот сувоїв; майже все втрачено — уціліли три листи й кілька висловів, збережених Діогеном Лаертським.",
+            "pl": "Napisał około trzystu zwojów; prawie wszystko zaginęło — ocalały trzy listy i kilka sentencji, zachowane przez Diogenesa Laertiosa."
+          },
+          "source": "Diogenes Laertius, Lives of the Eminent Philosophers 10.26–35"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Lisbon, 1755",
+        "ru": "Лиссабон, 1755 год",
+        "uk": "Лісабон, 1755",
+        "pl": "Lizbona, 1755"
+      },
+      "scene": {
+        "en": "You stand amidst the rubble of Lisbon, the smell of smoke and salt choking the air, as the bells of the destroyed churches ring no more; how do you reconcile this horror with the idea of a benevolent creator?",
+        "ru": "Вы стоите среди руин Лиссабона; воздух пропитан дымом и запахом соли, а колокола разрушенных церквей умолкли; как вы примиряете этот ужас с идеей благого Творца?",
+        "uk": "Ви стоїте серед руїн Лісабона, повітря сповнене димом і солоним морським бризом, а дзвони зруйнованих церков більше не лунають; як ви примирите цю жахливу трагедію з ідеєю доброго Творця?",
+        "pl": "Stoisz wśród gruzów Lizbony, zapach dymu i soli dusi, a dzwony zniszczonych kościołów milczą; jak pogodzisz ten koszmar z ideą dobroczynnego Stwórcy?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Accept that God's ways are mysterious and beyond human comprehension.",
+            "ru": "Принять, что пути Божии таинственны и превышают человеческое понимание.",
+            "uk": "Прийняти, що шляхи Божі таємничі й перевершують людське розуміння.",
+            "pl": "Przyjąć, że drogi Boga są tajemnicze i przekraczają ludzkie zrozumienie."
+          },
+          "reply": {
+            "en": "You silence your doubt with faith, trusting in a divine plan you cannot see.",
+            "ru": "Вы заглушаете свои сомнения верой, доверяя божественному замыслу, который вам не виден.",
+            "uk": "Ви заспокоюєте свої сумніви вірою, довіряючи божественному плану, якого не бачите.",
+            "pl": "Uśmierzysz swoje wątpliwości wiarą, ufając boskiemu planowi, którego nie możesz dojrzeć."
+          }
+        },
+        {
+          "choice": {
+            "en": "Blame the victims for their sin and lack of piety.",
+            "ru": "Обвинять жертв в их греховности и отсутствии благочестия.",
+            "uk": "Звинуватити жертв у їхньому гріховному житті та відсутності благочестя.",
+            "pl": "Obwiniać ofiary za ich grzech i brak pobożności."
+          },
+          "reply": {
+            "en": "You justify the tragedy as divine punishment, reinforcing a rigid moral order.",
+            "ru": "Вы оправдываете трагедию как божественное наказание, укрепляя жёсткий моральный порядок.",
+            "uk": "Ви виправдовуєте трагедію як божественне покарання, утверджуючи жорсткий моральний порядок.",
+            "pl": "Usprawiedliwiasz tragedię jako karę boską, wzmacniając sztywny porządek moralny."
+          }
+        },
+        {
+          "choice": {
+            "en": "Denounce the philosophers who claim this is the best of all possible worlds.",
+            "ru": "Осудить философов, утверждающих, что это лучший из возможных миров.",
+            "uk": "Виступити проти філософів, які стверджують, що це найкращий із можливих світів.",
+            "pl": "Potępiać filozofów, którzy twierdzą, że jest to najlepszy ze wszystkich możliwych światów."
+          },
+          "reply": {
+            "en": "You write a furious poem, attacking Leibniz’s optimism as cruel and absurd.",
+            "ru": "Вы пишете яростное стихотворение, атакуя оптимизм Лейбница как жестокий и абсурдный.",
+            "uk": "Ви пишете люту поему, засуджуючи оптимізм Лейбніца як жорстокий і абсурдний.",
+            "pl": "Piszesz gniewny wiersz, atakując optymizm Leibniza jako okrutny i absurdalny."
+          }
+        },
+        {
+          "choice": {
+            "en": "Seek no meaning, only to help the survivors and rebuild.",
+            "ru": "Не искать смысла, а лишь помогать выжившим и восстанавливать всё заново.",
+            "uk": "Не шукати сенсу, а лише допомагати вижившим та відбудовувати життя.",
+            "pl": "Nie szukać sensu, tylko pomagać ocalałym i odbudowywać."
+          },
+          "reply": {
+            "en": "You turn your back on metaphysics and focus on immediate, tangible human aid.",
+            "ru": "Вы отвергаете метафизику и сосредотачиваетесь на непосредственной, осязаемой человеческой помощи.",
+            "uk": "Ви відвертаєтеся від метафізики та зосереджуєтеся на безпосередній, відчутній людській допомозі.",
+            "pl": "Odwracasz się od metafizyki i skupiasz się na bezpośredniej, namacalnej pomocy ludzkiej."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "This was Voltaire, who responded not with quiet acceptance but with the 'Poem on the Disaster of Lisbon,' attacking the Leibnizian assertion that all is for the best and questioning the justice of a God who allows such indiscriminate destruction.",
+        "ru": "Так ответил Вольтер: вместо смиренного принятия он написал «Поэму о гибели Лиссабона», подвергнув критике лейбницевское утверждение о том, что всё к лучшему, и усомнившись в справедливости Бога, допускающего столь слепое разрушение.",
+        "uk": "Це був Вольтер, який відповів не тихою покірністю, а «Поемою про загибель Лісабона», заперечуючи лейбніцівське твердження про те, що все йде до найкращого, і ставлячи під сумнів справедливість Бога, який допускає таке безвибіркове руйнування.",
+        "pl": "To był Wolter, który odpowiedział nie cichym przyjęciem losu, lecz „Poematem o zniszczeniu Lizbony”, atakującym tezę Leibniza, że wszystko dzieje się na najlepszy sposób, i kwestionując sprawiedliwość Boga, który dopuszcza tak bezlitosne zniszczenie."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Voltaire, Poem on the Lisbon Disaster",
+            "ru": "Вольтер, Поэма о гибели Лиссабона",
+            "uk": "Вольтер, Поема про загибель Лісабона",
+            "pl": "Wolter, Poemat o zniszczeniu Lizbony"
+          },
+          "quotes": {
+            "en": {
+              "edition": "voltaire.en.josephmccabe",
+              "from": "1.6",
+              "to": "1.6",
+              "text": "What eye can pierce the depth of his designs? From that all-perfect Being came not ill: And came it from no other, for he's lord: Yet it exists. O stern and numbing truth!",
+              "kind": "Free",
+              "translator": "Joseph McCabe"
+            },
+            "ru": {
+              "edition": "voltaire.ru.ours",
+              "from": "1.6",
+              "to": "1.6",
+              "text": "Кто способен проникнуть взором в глубину его замыслов? От этого всесовершенного Существа не могло произойти зло: и не могло произойти от иного, ибо он Господь: Однако оно существует. О суровая и удушающая истина!",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "voltaire.uk.ours",
+              "from": "1.6",
+              "to": "1.6",
+              "text": "Яке око може проникнути в глибину його задумів? Від цього вседосконалого Буття не могло піти зло: і воно не могло піти від іншого, бо він є Господарем: Проте воно існує. О, сувора і пригнічуюча істина!",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "voltaire.pl.ours",
+              "from": "1.6",
+              "to": "1.6",
+              "text": "Które oko przeniknie głębię Jego zamysłów? Od tego wszechdoskonałego Bytu nie pochodziło zło: Ani też od nikogo innego, bo On jest Panem: Lecz ono istnieje. O surowa i przygnębiająca prawdo!",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском языке",
+              "uk": "оригінал французькою мовою",
+              "pl": "oryginał, po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Poème_sur_le_désastre_de_Lisbonne"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The earthquake struck on the morning of All Saints' Day, when the churches were full; fire and a tsunami followed, and tens of thousands died.",
+            "ru": "Землетрясение случилось утром в День всех святых, когда церкви были полны; за ним последовали пожар и цунами, погибли десятки тысяч людей.",
+            "uk": "Землетрус стався вранці в День усіх святих, коли церкви були повні; за ним прийшли пожежа і цунамі, загинули десятки тисяч людей.",
+            "pl": "Trzęsienie ziemi nastąpiło rankiem w Dzień Wszystkich Świętych, gdy kościoły były pełne; potem przyszły pożar i tsunami, zginęły dziesiątki tysięcy ludzi."
+          },
+          "source": "T. D. Kendrick, The Lisbon Earthquake (1956)"
+        },
+        {
+          "fact": {
+            "en": "Three years later Voltaire answered optimism again, with a laugh: in Candide (1759) Dr Pangloss keeps saying all is for the best through every disaster.",
+            "ru": "Три года спустя Вольтер снова ответил оптимизму — смехом: в «Кандиде» (1759) доктор Панглос твердит, что всё к лучшему, посреди любых бедствий.",
+            "uk": "Через три роки Вольтер знову відповів оптимізмові — сміхом: у «Кандиді» (1759) доктор Панґлос торочить, що все на краще, серед будь-яких лих.",
+            "pl": "Trzy lata później Wolter znów odpowiedział optymizmowi — śmiechem: w Kandydzie (1759) doktor Pangloss powtarza pośród wszelkich nieszczęść, że wszystko jest ku najlepszemu."
+          },
+          "source": "Voltaire, Candide, or Optimism (1759)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Schopenhauer: The Will to Suffer",
+        "ru": "Шопенгауэр: Воля к страданию",
+        "uk": "Шопенгауер: Воля до страждань",
+        "pl": "Schopenhauer: Wola cierpienia"
+      },
+      "intro": {
+        "en": "Observing the relentless cycle of desire and frustration, Schopenhauer posits that life is essentially suffering.",
+        "ru": "Наблюдая за неумолимым циклом желаний и разочарований, Шопенгауэр полагает, что жизнь по своей сути есть страдание.",
+        "uk": "Спостерігаючи невпинний цикл бажань і розчарувань, Шопенгауер припускає, що життя є по суті стражданням.",
+        "pl": "Obserwując nieustanny cykl pragnień i frustracji, Schopenhauer stwierdza, że życie jest w istocie cierpieniem."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Arthur Schopenhauer, On the Sufferings of the World",
+            "ru": "Артур Шопенгауэр, О страданиях мира",
+            "uk": "Артур Шопенгауер, Про страждання світу",
+            "pl": "Arthur Schopenhauer, O cierpieniach świata"
+          },
+          "quotes": {
+            "en": {
+              "edition": "schopenhauer.en.tbaileysaunders",
+              "from": "1.2",
+              "to": "1.2",
+              "text": "Unless suffering is the direct and immediate object of life, our existence must entirely fail of its aim. It is absurd to look upon the enormous amount of pain that abounds everywhere in the world, and originates in needs and necessities inseparable from life itself, as serving no purpose at all and the result of mere chance.",
+              "kind": "Free",
+              "translator": "T. Bailey Saunders"
+            },
+            "ru": {
+              "edition": "schopenhauer.ru.ours",
+              "from": "1.2",
+              "to": "1.2",
+              "text": "Если страдание не является прямой и непосредственной целью жизни, то наше существование полностью лишено своей цели. Абсурдно смотреть на огромное количество боли, повсеместно обильно присутствующей в мире и проистекающей из потребностей и необходимости, неотделимых от самой жизни, как на нечто не имеющее никакой цели и являющееся результатом простого случая.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "schopenhauer.uk.ours",
+              "from": "1.2",
+              "to": "1.2",
+              "text": "Якщо страждання не є прямою й безпосередньою метою життя, то наше існування цілком не досягає своєї мети. Абсурдно розглядати величезну кількість болю, що панує всюди у світі і бере початок із потреб і необхідностей, нерозривно пов'язаних із самим життям, як таку, що не має жодної мети і є результатом випадковості.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "schopenhauer.pl.ours",
+              "from": "1.2",
+              "to": "1.2",
+              "text": "Jeśli cierpienie nie jest bezpośrednim i natychmiastowym celem życia, nasze istnienie całkowicie chybia swego celu. Absurdem jest patrzeć na ogromną ilość cierpienia, które panuje wszędzie na świecie i wypływa z potrzeb i konieczności nieodłącznych od samego życia, jak na coś, co nie służy żadnemu celowi i wynika z czystego przypadku.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "His main work, The World as Will and Representation (1818), sold so badly that much of the edition was pulped; fame came only when he was in his sixties.",
+            "ru": "Его главный труд «Мир как воля и представление» (1818) расходился так плохо, что бóльшую часть тиража пустили в макулатуру; слава пришла к нему лишь после шестидесяти.",
+            "uk": "Його головна праця «Світ як воля і уявлення» (1818) продавалася так погано, що більшу частину накладу пустили на макулатуру; слава прийшла до нього лише після шістдесяти.",
+            "pl": "Jego główne dzieło, Świat jako wola i przedstawienie (1818), sprzedawało się tak źle, że większość nakładu poszła na makulaturę; sława przyszła dopiero po sześćdziesiątce."
+          },
+          "source": "Rüdiger Safranski, Schopenhauer and the Wild Years of Philosophy (1987)"
+        },
+        {
+          "fact": {
+            "en": "He was among the first European philosophers to read the Upanishads and Buddhist texts closely, and he kept a statue of the Buddha in his study.",
+            "ru": "Он одним из первых европейских философов внимательно читал упанишады и буддийские тексты, а в кабинете держал статую Будды.",
+            "uk": "Він одним із перших європейських філософів уважно читав упанішади й буддійські тексти, а в кабінеті тримав статую Будди.",
+            "pl": "Był jednym z pierwszych filozofów europejskich, którzy uważnie czytali upaniszady i teksty buddyjskie, a w gabinecie trzymał posąg Buddy."
+          },
+          "source": "Rüdiger Safranski, Schopenhauer and the Wild Years of Philosophy (1987)"
+        }
+      ]
+    },
+    {
+      "think": "think",
+      "question": {
+        "en": "When you face unexpected loss, do you search for a hidden lesson, reject the idea of meaning, or focus solely on practical recovery?",
+        "ru": "Когда вы сталкиваетесь с неожиданной потерей, ищете ли вы скрытый урок, отвергаете идею смысла или сосредотачиваетесь исключительно на практическом восстановлении?",
+        "uk": "Стикнувшись із несподіваною втратою, шукаєте ви прихований урок, відкидаєте саму ідею сенсу чи зосереджуєтесь виключно на практичному відновленні?",
+        "pl": "Gdy zmagasz się z nagłą stratą, szukasz ukrytej lekcji, odrzucasz ideę sensu, czy skupiasz się wyłącznie na praktycznym odzyskaniu równowagi?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: what is suffering for?",
+        "ru": "И теперь: зачем нужно страдание?",
+        "uk": "І отже: навіщо потрібні страждання?",
+        "pl": "A teraz: po co cierpienie?"
+      }
+    }
+  ]
+}
