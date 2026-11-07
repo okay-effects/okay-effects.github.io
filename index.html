@@ -77,6 +77,7 @@
     <a href="#okay-desk">okay-desk</a>
     <a href="#okay-chat">Okay! Chat</a>
     <a href="#games">Games</a>
+    <a href="#learning">Learning</a>
     <a href="#control">Control and audit</a>
     <a href="#languages">Languages</a>
     <a href="#platform">Platform</a>
@@ -308,6 +309,34 @@
   </div>
   <h3 style="margin-top:28px">How it is built</h3>
   <p class="sub">Scala 3 compiled to JavaScript by Scala.js, on <a href="https://github.com/okay-effects/okay-ui">okay-ui</a> and <a href="https://github.com/okay-effects/okay-faces">okay-faces</a>. The board is a picture with a grid of buttons over it, one at each legal point; the tests play whole games by the points' names. A game far apart lives on a Cloudflare Worker on <a href="https://github.com/okay-effects/okay-serverless">okay-serverless</a>: each game a Durable Object, its players and watchers WebSockets, every move checked there by the same rules as in your page; the same server runs on a machine of one's own. The page is one line: <code>Page.mount(OnFaces.program(steps(Model.toy()(Go.main[App]))), skin)</code>.</p>
+</div></section>
+
+<section id="learning"><div class="wrap">
+  <h2>Learning apps built on Okay</h2>
+  <p class="sub">The same way of building, for learning: a lesson is data, every quotation in it checked against its source when it is built, and the page is one program of effects.</p>
+  <h3 class="app" id="elysion" style="margin-top:28px">Elysion: philosophy and history, by your own answers</h3>
+  <p class="sub">A lesson is a question every tradition has answered — "Will machines take our work?", "What is the self?". You answer before reading anyone; then you read the thinkers in their own words, decide at a moment of history, write your own thought, and at the end see your first answer beside your last. Greek and Indian, Chinese and Christian, old and new. In English, Russian, Ukrainian and Polish.</p>
+  <p><a class="btn" href="https://okay-effects.github.io/elysion/" target="_blank" rel="noopener">Open Elysion</a></p>
+  <div class="cp">
+    <a href="https://okay-effects.github.io/elysion/" target="_blank" rel="noopener"><img src="elysion.png" alt="The lesson What is the self?: the Buddha's words on not-self from SN 22.59, translated by Bhikkhu Sujato, with a link to the Pali original" loading="lazy"></a>
+    <div>
+      <h3>What it does</h3>
+      <ul class="tight">
+        <li>Two lessons so far: Aristotle, a weaver of 1811, Lord Byron and Norbert Wiener on machines and work; the Buddha, the Upanishads, Descartes, Hume and Huineng on the self.</li>
+        <li>The thinkers' own words, each quotation with its exact place (Politics 1253b, SN 22.59:2, Treatise 1.4.6.3) and who translated it; the original a link away.</li>
+        <li>A moment of history to decide in — a weaver when the new frames come — and a thought experiment, the teleporter.</li>
+        <li>Your first answer and your last side by side; your answers stay in your browser.</li>
+        <li>Four languages, chosen in the header at any moment: the screen is drawn again in it, mid-lesson too.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="grid3" style="margin-top:24px">
+    <div class="card"><h3>Every quotation checked</h3><p>The library holds the texts from their sources — Perseus, SuttaCentral, Wikisource, Hansard — by their standard references, each with its licence. A lesson's quotation must be found word for word at its place, or the lesson is not built.</p></div>
+    <div class="card"><h3>Free texts, honestly marked</h3><p>Under every quotation: the original, a free translation and its translator, a modern author quoted, or our own translation — marked as ours, a draft until edited.</p></div>
+    <div class="card"><h3>The language as an effect</h3><p>The program asks <code>Language</code> for changes; in the page the header's list answers. Whatever screen is up is drawn again in the language chosen.</p></div>
+  </div>
+  <h3 style="margin-top:28px">How it is built</h3>
+  <p class="sub">Scala 3 compiled to JavaScript by Scala.js, on <a href="https://github.com/okay-effects/okay-ui">okay-ui</a> and <a href="https://github.com/okay-effects/okay-faces">okay-faces</a>; the library's tools are programs over effects too (<code>Shelf</code>, <code>Sources</code>), on <a href="https://github.com/okay-effects/okay-scala">okay-scala</a>. The tests walk the lessons by their buttons, in each language; the build checks every quotation against the library. Next: a judge that says whose position your answer is closest to, and where a thinker saw further.</p>
 </div></section>
 
 <section id="control"><div class="wrap">
