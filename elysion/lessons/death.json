@@ -1,0 +1,925 @@
+{
+  "id": "death",
+  "title": {
+    "en": "How should we face death?",
+    "ru": "Как встречать смерть?",
+    "uk": "Як зустрічати смерть?",
+    "pl": "Jak stawić czoło śmierci?"
+  },
+  "subtitle": {
+    "en": "Socrates, Zhuangzi, Marcus Aurelius and Montaigne — and you",
+    "ru": "Сократ, Чжуан-цзы, Марк Аврелий и Монтень — и вы",
+    "uk": "Сократ, Чжуан-цзи, Марк Аврелій і Монтень — і ви",
+    "pl": "Sokrates, Zhuangzi, Marek Aureliusz i Montaigne — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: how should we face death?",
+        "ru": "Прежде чем читать кого-либо: как встречать смерть?",
+        "uk": "Перш ніж читати когось: як зустрічати смерть?",
+        "pl": "Zanim kogokolwiek przeczytasz: jak stawić czoło śmierci?"
+      },
+      "options": [
+        {
+          "en": "Calmly: death is not an evil",
+          "ru": "Спокойно: смерть — не зло",
+          "uk": "Спокійно: смерть — не зло",
+          "pl": "Spokojnie: śmierć nie jest złem"
+        },
+        {
+          "en": "By preparing for it all our lives",
+          "ru": "Готовясь к ней всю жизнь",
+          "uk": "Готуючись до неї все життя",
+          "pl": "Przygotowując się do niej przez całe życie"
+        },
+        {
+          "en": "By not thinking about it, and living",
+          "ru": "Не думая о ней — и живя",
+          "uk": "Не думаючи про неї — і живучи",
+          "pl": "Nie myśląc o niej — i żyjąc"
+        },
+        {
+          "en": "With hope: it is not the end",
+          "ru": "С надеждой: это не конец",
+          "uk": "З надією: це не кінець",
+          "pl": "Z nadzieją: to nie koniec"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Socrates: philosophy is the practice of dying",
+        "ru": "Сократ: философия — упражнение в умирании",
+        "uk": "Сократ: філософія — вправа в умиранні",
+        "pl": "Sokrates: filozofia to ćwiczenie się w umieraniu"
+      },
+      "intro": {
+        "en": "Athens, 399 BC. Condemned to death, Socrates spends his last day in prison talking with his friends. They do not know whether to grieve; he argues that a true philosopher has spent his whole life getting ready for this day:",
+        "ru": "Афины, 399 год до н. э. Приговорённый к смерти Сократ проводит последний день в тюрьме в беседе с друзьями. Они не знают, горевать ли им; он доказывает, что истинный философ всю жизнь готовился к этому дню:",
+        "uk": "Афіни, 399 рік до н. е. Засуджений до смерті Сократ проводить останній день у в'язниці в розмові з друзями. Вони не знають, чи горювати їм; він доводить, що справжній філософ усе життя готувався до цього дня:",
+        "pl": "Ateny, 399 rok p.n.e. Skazany na śmierć Sokrates spędza ostatni dzień w więzieniu na rozmowie z przyjaciółmi. Oni nie wiedzą, czy się smucić; on dowodzi, że prawdziwy filozof całe życie przygotowywał się do tego dnia:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Socrates, in Plato's Phaedo (67e)",
+            "ru": "Сократ в «Федоне» Платона (67e)",
+            "uk": "Сократ у «Федоні» Платона (67e)",
+            "pl": "Sokrates w Fedonie Platona (67e)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "phaedo.en.jowett",
+              "from": "67e",
+              "to": "67e",
+              "text": "And the true philosophers, Simmias, are always occupied in the practice of dying, wherefore also to them least of all men is death terrible.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Phaedo_(Jowett)",
+                "lang": "en",
+                "title": "Plato, Phaedo"
+              }
+            },
+            "ru": {
+              "edition": "phaedo.ru.ours",
+              "from": "67e",
+              "to": "67e",
+              "text": "И подлинные философы, Симмий, всегда заняты упражнением в умирании, а потому смерть страшна им меньше, чем кому-либо из людей.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Phaedo_(Jowett)",
+                "lang": "en",
+                "title": "Платон, «Федон»"
+              }
+            },
+            "uk": {
+              "edition": "phaedo.uk.ours",
+              "from": "67e",
+              "to": "67e",
+              "text": "І справжні філософи, Сіммію, завжди зайняті вправою в умиранні, а тому смерть страшна їм менше, ніж будь-кому з людей.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Phaedo_(Jowett)",
+                "lang": "en",
+                "title": "Платон, «Федон»"
+              }
+            },
+            "pl": {
+              "edition": "phaedo.pl.ours",
+              "from": "67e",
+              "to": "67e",
+              "text": "A prawdziwi filozofowie, Simmiasie, zawsze zajmują się ćwiczeniem w umieraniu, i dlatego śmierć jest dla nich mniej straszna niż dla kogokolwiek z ludzi.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Phaedo_(Jowett)",
+                "lang": "en",
+                "title": "Platon, Fedon"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg004.perseus-grc2:67/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Plato himself was not there. Phaedo, who tells the story, names the friends in the room and adds that Plato, if he is not mistaken, was ill.",
+            "ru": "Самого Платона там не было. Федон, который рассказывает эту историю, перечисляет друзей, бывших в комнате, и добавляет, что Платон, если он не ошибается, был болен.",
+            "uk": "Самого Платона там не було. Федон, який розповідає цю історію, перелічує друзів, що були в кімнаті, і додає, що Платон, якщо він не помиляється, був хворий.",
+            "pl": "Samego Platona tam nie było. Fedon, który opowiada tę historię, wymienia przyjaciół obecnych w celi i dodaje, że Platon, jeśli się nie myli, był chory."
+          },
+          "source": "Plato, Phaedo 59b"
+        },
+        {
+          "fact": {
+            "en": "That morning his chains were taken off. His wife Xanthippe was sitting beside him with their little child in her arms; when the friends came in she cried out that this was the last time, and Socrates asked Crito to have someone take her home.",
+            "ru": "В то утро с него сняли оковы. Рядом сидела его жена Ксантиппа с маленьким ребёнком на руках; когда вошли друзья, она закричала, что это в последний раз, и Сократ попросил Критона, чтобы кто-нибудь отвёл её домой.",
+            "uk": "Того ранку з нього зняли кайдани. Поруч сиділа його дружина Ксантиппа з маленькою дитиною на руках; коли ввійшли друзі, вона закричала, що це востаннє, і Сократ попросив Критона, щоб хтось відвів її додому.",
+            "pl": "Tego ranka zdjęto mu kajdany. Obok siedziała jego żona Ksantypa z małym dzieckiem na ręku; gdy weszli przyjaciele, krzyknęła, że to już ostatni raz, a Sokrates poprosił Kritona, by ktoś odprowadził ją do domu."
+          },
+          "source": "Plato, Phaedo 59d–60a"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Athens, 399 BC",
+        "ru": "Афины, 399 год до н. э.",
+        "uk": "Афіни, 399 рік до н. е.",
+        "pl": "Ateny, 399 rok p.n.e."
+      },
+      "scene": {
+        "en": "A few days earlier, at dawn. Socrates, seventy, has been held in prison for weeks: no one may be put to death until the sacred ship comes back from Delos, and travellers from Sunium say it was there yesterday: it will be in today. Crito, his friend and age-mate, whom the jailer lets in, has everything ready: the money — Simmias of Thebes has brought more — and friends in Thessaly who will shelter him. “It must be done tonight,” Crito begs. “Think of your children. People will say we let you die to spare our money.” You are Socrates. What do you do?",
+        "ru": "Несколькими днями раньше, на рассвете. Семидесятилетний Сократ уже несколько недель в тюрьме: никого нельзя казнить, пока священный корабль не вернётся с Делоса, а путники из Суния говорят, что вчера он был там: сегодня он придёт. Критон, его друг и ровесник, которого впустил тюремщик, всё подготовил: деньги — Симмий из Фив привёз ещё — и друзей в Фессалии, которые его укроют. «Это нужно сделать этой ночью, — умоляет Критон. — Подумай о детях. Люди скажут, что мы дали тебе умереть, пожалев денег». Вы — Сократ. Как вы поступите?",
+        "uk": "Кількома днями раніше, на світанку. Сімдесятирічний Сократ уже кілька тижнів у в'язниці: нікого не можна стратити, доки священний корабель не повернеться з Делосу, а подорожні із Сунію кажуть, що вчора він був там: сьогодні він прийде. Критон, його друг і ровесник, якого впустив тюремник, усе приготував: гроші — Сіммій із Фів привіз ще — і друзів у Фессалії, які його сховають. «Це треба зробити цієї ночі, — благає Критон. — Подумай про дітей. Люди скажуть, що ми дали тобі померти, пошкодувавши грошей». Ви — Сократ. Що ви зробите?",
+        "pl": "Kilka dni wcześniej, o świcie. Siedemdziesięcioletni Sokrates od tygodni siedzi w więzieniu: nikogo nie wolno stracić, dopóki święty statek nie wróci z Delos, a podróżni z Sunionu mówią, że wczoraj tam był: dziś przypłynie. Kriton, jego przyjaciel i rówieśnik, którego wpuścił strażnik, ma wszystko gotowe: pieniądze — Simmias z Teb przywiózł jeszcze — i przyjaciół w Tesalii, którzy go ukryją. „Trzeba to zrobić tej nocy — błaga Kriton. — Pomyśl o dzieciach. Ludzie powiedzą, że pozwoliliśmy ci umrzeć, by oszczędzić pieniędzy”. Jesteś Sokratesem. Co robisz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Escape to Thessaly: a just man should not die for an unjust verdict",
+            "ru": "Бежать в Фессалию: праведник не должен умирать по неправому приговору",
+            "uk": "Утекти до Фессалії: праведник не повинен помирати через неправедний вирок",
+            "pl": "Uciec do Tesalii: sprawiedliwy nie powinien ginąć z niesprawiedliwego wyroku"
+          },
+          "reply": {
+            "en": "That was Crito's case. Socrates answered that we must never do wrong — not even in return for a wrong done to us.",
+            "ru": "Так рассуждал Критон. Сократ ответил, что нельзя поступать несправедливо никогда — даже в ответ на несправедливость, причинённую нам.",
+            "uk": "Так міркував Критон. Сократ відповів, що не можна чинити несправедливо ніколи — навіть у відповідь на несправедливість, заподіяну нам.",
+            "pl": "Tak rozumował Kriton. Sokrates odparł, że nigdy nie wolno czynić zła — nawet w odpowiedzi na zło nam wyrządzone."
+          }
+        },
+        {
+          "choice": {
+            "en": "Escape, for my children's sake",
+            "ru": "Бежать — ради детей",
+            "uk": "Утекти — заради дітей",
+            "pl": "Uciec — dla dobra dzieci"
+          },
+          "reply": {
+            "en": "Crito pressed this too. Socrates' answer: his friends would care for his children whether he lived in Thessaly or in the other world.",
+            "ru": "Критон настаивал и на этом. Ответ Сократа: друзья позаботятся о его детях, будет ли он жить в Фессалии или в ином мире.",
+            "uk": "Критон наполягав і на цьому. Відповідь Сократа: друзі подбають про його дітей, чи житиме він у Фессалії, чи в іншому світі.",
+            "pl": "Kriton nalegał i na to. Odpowiedź Sokratesa: przyjaciele zatroszczą się o jego dzieci, czy będzie żył w Tesalii, czy na tamtym świecie."
+          }
+        },
+        {
+          "choice": {
+            "en": "Stay: I have lived seventy years under these laws, and will not break them now",
+            "ru": "Остаться: семьдесят лет я жил по этим законам и не нарушу их теперь",
+            "uk": "Залишитися: сімдесят років я жив за цими законами і не порушу їх тепер",
+            "pl": "Zostać: siedemdziesiąt lat żyłem pod tymi prawami i nie złamię ich teraz"
+          },
+          "reply": {
+            "en": "That was his answer: the Laws of Athens, he imagined, would ask whether he meant to destroy them, after a lifetime of choosing to live under them.",
+            "ru": "Так он и ответил: Законы Афин, представлял он, спросят его, не хочет ли он их погубить — после целой жизни, в которой он сам выбирал жить под ними.",
+            "uk": "Так він і відповів: Закони Афін, уявляв він, спитають його, чи не хоче він їх зруйнувати — після цілого життя, в якому він сам обирав жити під ними.",
+            "pl": "Tak właśnie odpowiedział: Prawa Aten, wyobrażał sobie, zapytają go, czy chce je zniszczyć — po całym życiu, w którym sam wybierał życie pod nimi."
+          }
+        },
+        {
+          "choice": {
+            "en": "Stay: I will not buy a little more life with shame",
+            "ru": "Остаться: я не куплю себе ещё немного жизни ценой позора",
+            "uk": "Залишитися: я не купуватиму ще трохи життя ціною ганьби",
+            "pl": "Zostać: nie kupię sobie odrobiny życia za cenę hańby"
+          },
+          "reply": {
+            "en": "He said that too: what matters is not living, but living well — and death must not enter the calculation.",
+            "ru": "Он сказал и это: важно не жить, а жить хорошо, — и смерть не должна входить в расчёт.",
+            "uk": "Він сказав і це: важливо не жити, а жити добре, — і смерть не повинна входити в розрахунок.",
+            "pl": "Powiedział i to: liczy się nie życie, lecz dobre życie — a śmierć nie może wchodzić w rachubę."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "Socrates stayed. The only question, he told Crito, was whether escaping would be just; and he would not return wrong for wrong, nor break, at seventy, the laws he had chosen to live under all his life. Soon after, the ship came in; at sunset on his last day he drank the poison, calmly, among his friends.",
+        "ru": "Сократ остался. Единственный вопрос, сказал он Критону, — справедливо ли бежать; а он не станет отвечать несправедливостью на несправедливость и не нарушит в семьдесят лет законов, под которыми сам выбрал жить всю жизнь. Вскоре корабль пришёл; на закате последнего дня он спокойно выпил яд среди друзей.",
+        "uk": "Сократ залишився. Єдине питання, сказав він Критонові, — чи справедливо тікати; а він не відповідатиме несправедливістю на несправедливість і не порушить у сімдесят років законів, під якими сам обрав жити все життя. Невдовзі корабель прибув; на заході сонця останнього дня він спокійно випив отруту серед друзів.",
+        "pl": "Sokrates został. Jedyne pytanie, powiedział Kritonowi, brzmi: czy ucieczka byłaby sprawiedliwa; a on nie odpłaci krzywdą za krzywdę ani nie złamie w wieku siedemdziesięciu lat praw, pod którymi sam wybrał żyć przez całe życie. Wkrótce statek przypłynął; o zachodzie słońca ostatniego dnia spokojnie wypił truciznę wśród przyjaciół."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Socrates to Crito, in Plato's Crito (48c–d)",
+            "ru": "Сократ — Критону, в «Критоне» Платона (48c–d)",
+            "uk": "Сократ — Критонові, у «Критоні» Платона (48c–d)",
+            "pl": "Sokrates do Kritona, w Kritonie Platona (48c–d)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "crito.en.jowett",
+              "from": "48c",
+              "to": "48d",
+              "text": "the only question which remains to be considered is, whether we shall do rightly either in escaping or in suffering others to aid in our escape and paying them in money and thanks, or whether in reality we shall not do rightly; and if the latter, then death or any other calamity which may ensue on my remaining here must not be allowed to enter into the calculation.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Crito_(Jowett)",
+                "lang": "en",
+                "title": "Plato, Crito"
+              }
+            },
+            "ru": {
+              "edition": "crito.ru.ours",
+              "from": "48c",
+              "to": "48d",
+              "text": "остаётся рассмотреть лишь один вопрос: правильно ли мы поступим, если убежим или позволим другим помочь нам бежать, заплатив им деньгами и благодарностью, или на самом деле поступим неправильно; и если неправильно, то ни смерть, ни какое-либо другое бедствие, которое может постигнуть меня, если я останусь здесь, не должны входить в расчёт.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Crito_(Jowett)",
+                "lang": "en",
+                "title": "Платон, «Критон»"
+              }
+            },
+            "uk": {
+              "edition": "crito.uk.ours",
+              "from": "48c",
+              "to": "48d",
+              "text": "лишається розглянути тільки одне питання: чи правильно ми вчинимо, якщо втечемо або дозволимо іншим допомогти нам утекти, заплативши їм грошима й вдячністю, чи насправді вчинимо неправильно; і якщо неправильно, то ні смерть, ні жодне інше лихо, що може спіткати мене, якщо я залишуся тут, не повинні входити в розрахунок.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Crito_(Jowett)",
+                "lang": "en",
+                "title": "Платон, «Крітон»"
+              }
+            },
+            "pl": {
+              "edition": "crito.pl.ours",
+              "from": "48c",
+              "to": "48d",
+              "text": "pozostaje rozważyć tylko jedno pytanie: czy postąpimy słusznie, uciekając albo pozwalając innym pomóc nam w ucieczce i płacąc im pieniędzmi i wdzięcznością, czy też w rzeczywistości postąpimy niesłusznie; a jeśli to drugie, to ani śmierć, ani żadne inne nieszczęście, jakie może mnie spotkać, jeśli tu zostanę, nie może wchodzić w rachubę.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Crito_(Jowett)",
+                "lang": "en",
+                "title": "Platon, Kriton"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg003.perseus-grc2:48/"
+          }
+        },
+        {
+          "by": {
+            "en": "His last words, in Plato's Phaedo (118a)",
+            "ru": "Последние слова, в «Федоне» Платона (118a)",
+            "uk": "Останні слова, у «Федоні» Платона (118a)",
+            "pl": "Ostatnie słowa, w Fedonie Platona (118a)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "phaedo.en.jowett",
+              "from": "117e",
+              "to": "118a",
+              "text": "He was beginning to grow cold about the groin, when he uncovered his face, for he had covered himself up, and said—they were his last words—he said: Crito, I owe a cock to Asclepius; will you remember to pay the debt? The debt shall be paid, said Crito; is there anything else? There was no answer to this question; but in a minute or two a movement was heard, and the attendants uncovered him; his eyes were set, and Crito closed his eyes and mouth.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Phaedo_(Jowett)",
+                "lang": "en",
+                "title": "Plato, Phaedo"
+              }
+            },
+            "ru": {
+              "edition": "phaedo.ru.ours",
+              "from": "117e",
+              "to": "118a",
+              "text": "Он уже начал холодеть внизу живота, когда открыл лицо — он был покрыт — и сказал (это были его последние слова): Критон, я должен Асклепию петуха; не забудешь отдать долг? Долг будет отдан, сказал Критон; нет ли чего-нибудь ещё? На этот вопрос ответа не было; но через минуту-другую послышалось движение, и служители открыли его; взгляд его остановился, и Критон закрыл ему глаза и рот.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Phaedo_(Jowett)",
+                "lang": "en",
+                "title": "Платон, «Федон»"
+              }
+            },
+            "uk": {
+              "edition": "phaedo.uk.ours",
+              "from": "117e",
+              "to": "118a",
+              "text": "Він уже почав холонути внизу живота, коли відкрив обличчя — бо був накритий — і сказав (це були його останні слова): Критоне, я винен Асклепієві півня; не забудеш віддати борг? Борг буде віддано, сказав Критон; чи є ще щось? На це питання відповіді не було; але за хвилину чи дві почувся рух, і служники відкрили його; погляд його застиг, і Критон закрив йому очі й рот.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Phaedo_(Jowett)",
+                "lang": "en",
+                "title": "Платон, «Федон»"
+              }
+            },
+            "pl": {
+              "edition": "phaedo.pl.ours",
+              "from": "117e",
+              "to": "118a",
+              "text": "Zaczynał już stygnąć w podbrzuszu, gdy odsłonił twarz — był bowiem okryty — i powiedział (były to jego ostatnie słowa): Kritonie, jestem winien Asklepiosowi koguta; będziesz pamiętał, by spłacić dług? Dług zostanie spłacony, rzekł Kriton; czy jest coś jeszcze? Na to pytanie nie było odpowiedzi; lecz po minucie czy dwóch dał się słyszeć ruch i słudzy go odsłonili; oczy mu znieruchomiały, a Kriton zamknął mu oczy i usta.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Phaedo_(Jowett)",
+                "lang": "en",
+                "title": "Platon, Fedon"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg004.perseus-grc2:118/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "No one could be put to death in Athens while the sacred ship was away on its yearly voyage to Delos, kept in memory of Theseus; so Socrates lived some thirty days after his trial.",
+            "ru": "Пока священный корабль совершал ежегодное плавание на Делос в память о Тесее, в Афинах никого нельзя было казнить; поэтому Сократ прожил после суда около тридцати дней.",
+            "uk": "Поки священний корабель здійснював щорічне плавання на Делос на пам'ять про Тесея, в Афінах нікого не можна було стратити; тому Сократ прожив після суду близько тридцяти днів.",
+            "pl": "Dopóki święty statek odbywał doroczny rejs na Delos na pamiątkę Tezeusza, w Atenach nie wolno było nikogo stracić; dlatego Sokrates żył po procesie jeszcze około trzydziestu dni."
+          },
+          "source": "Plato, Phaedo 58a–c; Xenophon, Memorabilia 4.8.2"
+        },
+        {
+          "fact": {
+            "en": "He had been found guilty by a narrow margin: had thirty votes gone the other way, he says in his defence, he would have been acquitted.",
+            "ru": "Его признали виновным с небольшим перевесом: если бы тридцать голосов были поданы иначе, говорит он в своей защитительной речи, его бы оправдали.",
+            "uk": "Його визнали винним із невеликою перевагою: якби тридцять голосів було віддано інакше, каже він у своїй захисній промові, його б виправдали.",
+            "pl": "Uznano go za winnego niewielką większością: gdyby trzydzieści głosów padło inaczej, mówi w swojej mowie obrończej, zostałby uniewinniony."
+          },
+          "source": "Plato, Apology 36a"
+        },
+        {
+          "fact": {
+            "en": "His last words have puzzled readers ever since. Asclepius was the god of healing; Nietzsche read them as meaning that life is a sickness, and death its cure.",
+            "ru": "Последние слова Сократа с тех пор озадачивают читателей. Асклепий был богом врачевания; Ницше прочёл их так: жизнь — болезнь, а смерть — исцеление.",
+            "uk": "Останні слова Сократа відтоді спантеличують читачів. Асклепій був богом лікування; Ніцше прочитав їх так: життя — хвороба, а смерть — зцілення.",
+            "pl": "Ostatnie słowa Sokratesa od dawna zastanawiają czytelników. Asklepios był bogiem sztuki lekarskiej; Nietzsche odczytał je tak: życie jest chorobą, a śmierć — uzdrowieniem."
+          },
+          "source": "Friedrich Nietzsche, The Gay Science (1882), §340"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Zhuangzi: singing after his wife's death",
+        "ru": "Чжуан-цзы: песня после смерти жены",
+        "uk": "Чжуан-цзи: пісня після смерті дружини",
+        "pl": "Zhuangzi: pieśń po śmierci żony"
+      },
+      "intro": {
+        "en": "China, the fourth century BC. When Zhuangzi's wife died, his friend Huizi came to mourn with him — and found him sitting on the ground, beating on a basin and singing. Not to weep for her would be bad enough, Huizi said; but this is going too far. Zhuangzi answered:",
+        "ru": "Китай, IV век до н. э. Когда умерла жена Чжуан-цзы, его друг Хуэй-цзы пришёл выразить соболезнование — и застал его сидящим на земле: он стучал по тазу и пел. Не проронить по ней ни слезы было бы и так дурно, сказал Хуэй-цзы, но это уж слишком. Чжуан-цзы ответил:",
+        "uk": "Китай, IV століття до н. е. Коли померла дружина Чжуан-цзи, його друг Хуей-цзи прийшов висловити співчуття — і застав його сидячим на землі: він бив у таз і співав. Не зронити по ній ні сльози було б і так погано, сказав Хуей-цзи, але це вже занадто. Чжуан-цзи відповів:",
+        "pl": "Chiny, IV wiek p.n.e. Gdy umarła żona Zhuangzi, jego przyjaciel Huizi przyszedł złożyć kondolencje — i zastał go siedzącego na ziemi: bębnił w misę i śpiewał. Nie uronić po niej łzy byłoby dość źle, rzekł Huizi, ale to już przesada. Zhuangzi odpowiedział:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Zhuangzi, chapter 18 (“Perfect Happiness”)",
+            "ru": "Чжуан-цзы, глава 18 («Высшая радость»)",
+            "uk": "Чжуан-цзи, розділ 18 («Найвища радість»)",
+            "pl": "Zhuangzi, rozdział 18 („Najwyższe szczęście”)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "zhuangzi.en.giles",
+              "from": "18.2",
+              "to": "18.2",
+              "text": "\"Not at all,\" replied Chuang Tzŭ. \"When she died, I could not help being affected by her death. Soon, however, I remembered that she had already existed in a previous state before birth, without form, or even substance; that while in that unconditioned condition, substance was added to spirit; that this substance then assumed form; and that the next stage was birth. And now, by virtue of a further change, she is dead, passing from one phase to another like the sequence of spring, summer, autumn, and winter. And while she is thus lying asleep in Eternity, for me to go about weeping and wailing would be to proclaim myself ignorant of these natural laws. Therefore I refrain.\"",
+              "kind": "Free",
+              "translator": "Herbert A. Giles",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "Zhuangzi"
+              }
+            },
+            "ru": {
+              "edition": "zhuangzi.ru.ours",
+              "from": "18.2",
+              "to": "18.2",
+              "text": "«Вовсе нет, — ответил Чжуан-цзы. — Когда она умерла, я не мог остаться равнодушным к её смерти. Но вскоре я вспомнил, что до рождения она уже существовала в ином состоянии — без формы и даже без вещества; что, пока она пребывала в этом необусловленном состоянии, к духу прибавилось вещество; что затем это вещество приняло форму; и что следующей ступенью было рождение. А теперь, в силу новой перемены, она мертва — переходит из одной фазы в другую, как сменяют друг друга весна, лето, осень и зима. И когда она так спит в Вечности, ходить, рыдая и голося, значило бы объявить себя невеждой в этих законах природы. Поэтому я воздерживаюсь».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "«Чжуан-цзы»"
+              }
+            },
+            "uk": {
+              "edition": "zhuangzi.uk.ours",
+              "from": "18.2",
+              "to": "18.2",
+              "text": "«Зовсім ні, — відповів Чжуан-цзи. — Коли вона померла, я не міг лишитися байдужим до її смерті. Але невдовзі я згадав, що до народження вона вже існувала в іншому стані — без форми і навіть без речовини; що, поки вона перебувала в цьому необумовленому стані, до духу додалася речовина; що потім ця речовина набула форми; і що наступним щаблем було народження. А тепер, силою нової зміни, вона мертва — переходить з однієї фази в іншу, як змінюють одне одного весна, літо, осінь і зима. І коли вона отак спить у Вічності, ходити, ридаючи й голосячи, означало б оголосити себе невігласом у цих законах природи. Тому я утримуюся».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "«Чжуан-цзи»"
+              }
+            },
+            "pl": {
+              "edition": "zhuangzi.pl.ours",
+              "from": "18.2",
+              "to": "18.2",
+              "text": "„Bynajmniej — odparł Zhuangzi. — Kiedy umarła, nie mogłem pozostać obojętny wobec jej śmierci. Wkrótce jednak przypomniałem sobie, że już przed narodzinami istniała w innym stanie, bez kształtu, a nawet bez substancji; że gdy trwała w tym nieuwarunkowanym stanie, do ducha dodana została substancja; że ta substancja przybrała potem kształt; i że następnym etapem były narodziny. A teraz, za sprawą kolejnej przemiany, jest martwa, przechodząc z jednej fazy w drugą jak następujące po sobie wiosna, lato, jesień i zima. I gdy tak śpi w Wieczności, chodzić, płacząc i zawodząc, znaczyłoby ogłosić, że nie znam tych praw natury. Dlatego się powstrzymuję”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "Zhuangzi"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/莊子/至樂"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Zhuangzi held only a minor post, overseer of a lacquer garden in Meng. When the king of Chu sent envoys with rich gifts to make him chief minister, he refused: he would rather play in a muddy ditch, he said, than be fattened like the ox for the sacrifice.",
+            "ru": "Чжуан-цзы занимал лишь скромную должность — смотрителя лакового сада в Мэн. Когда царь Чу прислал гонцов с богатыми дарами, чтобы сделать его первым министром, он отказался: лучше уж, сказал он, резвиться в грязной канаве, чем быть откормленным, как бык для жертвоприношения.",
+            "uk": "Чжуан-цзи обіймав лише скромну посаду — наглядача лакового саду в Мен. Коли цар Чу прислав посланців із багатими дарами, щоб зробити його першим міністром, він відмовився: краще вже, сказав він, бавитися в брудній канаві, ніж бути відгодованим, як бик для жертвопринесення.",
+            "pl": "Zhuangzi piastował tylko skromny urząd — nadzorcy ogrodu drzew lakowych w Meng. Gdy król Chu przysłał posłów z bogatymi darami, by uczynić go pierwszym ministrem, odmówił: wolałby, rzekł, baraszkować w błotnistym rowie, niż być tuczonym jak wół na ofiarę."
+          },
+          "source": "Sima Qian, Records of the Grand Historian (Shiji), ch. 63"
+        },
+        {
+          "fact": {
+            "en": "Huizi, the logician, was his friend and his favourite opponent in argument. Passing Huizi's grave after his death, Zhuangzi said that since then he had had no one to talk with.",
+            "ru": "Логик Хуэй-цзы был его другом и любимым противником в спорах. Проходя после его смерти мимо его могилы, Чжуан-цзы сказал, что с тех пор ему не с кем говорить.",
+            "uk": "Логік Хуей-цзи був його другом і улюбленим супротивником у суперечках. Проходячи після його смерті повз його могилу, Чжуан-цзи сказав, що відтоді йому нема з ким говорити.",
+            "pl": "Logik Huizi był jego przyjacielem i ulubionym przeciwnikiem w sporach. Przechodząc po jego śmierci obok jego grobu, Zhuangzi powiedział, że odtąd nie ma z kim rozmawiać."
+          },
+          "source": "Zhuangzi, ch. 24"
+        },
+        {
+          "fact": {
+            "en": "Only the first seven, “inner”, chapters are thought to be largely Zhuangzi's own; this story, from chapter 18, was probably written down by his followers.",
+            "ru": "Лишь первые семь, «внутренних», глав считаются написанными в основном самим Чжуан-цзы; этот рассказ, из главы 18, скорее всего, записали его последователи.",
+            "uk": "Лише перші сім, «внутрішніх», розділів вважають написаними здебільшого самим Чжуан-цзи; цю історію, з розділу 18, найімовірніше, записали його послідовники.",
+            "pl": "Tylko pierwszych siedem, „wewnętrznych”, rozdziałów uważa się za napisane w większości przez samego Zhuangzi; tę opowieść, z rozdziału 18, spisali zapewne jego uczniowie."
+          },
+          "source": "A. C. Graham, Chuang-tzŭ: The Inner Chapters (1981)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Marcus Aurelius: we lose only the present",
+        "ru": "Марк Аврелий: мы теряем лишь настоящее",
+        "uk": "Марк Аврелій: ми втрачаємо лише теперішнє",
+        "pl": "Marek Aureliusz: tracimy tylko teraźniejszość"
+      },
+      "intro": {
+        "en": "On the Danube, in the 170s AD. The emperor of Rome, at war with the Germanic tribes, writes notes in Greek — to himself, not for any reader:",
+        "ru": "Дунай, 170-е годы н. э. Римский император, воюя с германскими племенами, пишет по-гречески заметки — для самого себя, не для читателей:",
+        "uk": "Дунай, 170-ті роки н. е. Римський імператор, воюючи з германськими племенами, пише грецькою нотатки — для самого себе, не для читачів:",
+        "pl": "Dunaj, lata 170. n.e. Cesarz rzymski, walcząc z plemionami germańskimi, pisze po grecku notatki — dla samego siebie, nie dla czytelników:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Marcus Aurelius, Meditations II.14",
+            "ru": "Марк Аврелий, «Размышления», II.14",
+            "uk": "Марк Аврелій, «Роздуми», II.14",
+            "pl": "Marek Aureliusz, Rozmyślania II.14"
+          },
+          "quotes": {
+            "en": {
+              "edition": "marcus.en.long",
+              "from": "2.14",
+              "to": "2.14",
+              "text": "Though thou shouldest be going to live three thousand years and as many times ten thousand years, still remember that no man loses any other life than this which he now lives, nor lives any other than this which he now loses. The longest and shortest are thus brought to the same.",
+              "kind": "Free",
+              "translator": "George Long",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Thoughts_of_the_Emperor_Marcus_Aurelius_Antoninus",
+                "lang": "en",
+                "title": "Marcus Aurelius, Meditations"
+              }
+            },
+            "ru": {
+              "edition": "marcus.ru.ours",
+              "from": "2.14",
+              "to": "2.14",
+              "text": "Даже если бы тебе предстояло прожить три тысячи лет и ещё столько же раз по десять тысяч лет, всё же помни, что никто не теряет иной жизни, кроме той, которой живёт сейчас, и не живёт иной, кроме той, которую теряет. Так самая долгая и самая короткая жизнь сводятся к одному.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Thoughts_of_the_Emperor_Marcus_Aurelius_Antoninus",
+                "lang": "en",
+                "title": "Марк Аврелий, «Размышления»"
+              }
+            },
+            "uk": {
+              "edition": "marcus.uk.ours",
+              "from": "2.14",
+              "to": "2.14",
+              "text": "Навіть якби тобі судилося прожити три тисячі років і ще стільки ж разів по десять тисяч років, усе ж пам'ятай, що ніхто не втрачає іншого життя, ніж те, яким живе тепер, і не живе іншим, ніж те, яке втрачає. Так найдовше й найкоротше життя зводяться до одного.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Thoughts_of_the_Emperor_Marcus_Aurelius_Antoninus",
+                "lang": "en",
+                "title": "Марк Аврелій, «Роздуми»"
+              }
+            },
+            "pl": {
+              "edition": "marcus.pl.ours",
+              "from": "2.14",
+              "to": "2.14",
+              "text": "Choćbyś miał żyć trzy tysiące lat i tyleż razy po dziesięć tysięcy lat, pamiętaj jednak, że nikt nie traci innego życia niż to, którym teraz żyje, ani nie żyje innym niż to, które traci. Tak najdłuższe i najkrótsze życie sprowadzają się do tego samego.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Thoughts_of_the_Emperor_Marcus_Aurelius_Antoninus",
+                "lang": "en",
+                "title": "Marek Aureliusz, Rozmyślania"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0562.tlg001.perseus-grc2:2.14/"
+          }
+        },
+        {
+          "by": {
+            "en": "Marcus Aurelius, Meditations II.17",
+            "ru": "Марк Аврелий, «Размышления», II.17",
+            "uk": "Марк Аврелій, «Роздуми», II.17",
+            "pl": "Marek Aureliusz, Rozmyślania II.17"
+          },
+          "quotes": {
+            "en": {
+              "edition": "marcus.en.long",
+              "from": "2.17",
+              "to": "2.17",
+              "text": "waiting for death with a cheerful mind, as being nothing else than a dissolution of the elements of which every living being is compounded. But if there is no harm to the elements themselves in each continually changing into another, why should a man have any apprehension about the change and dissolution of all the elements? For it is according to nature, and nothing is evil which is according to nature.",
+              "kind": "Free",
+              "translator": "George Long",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Thoughts_of_the_Emperor_Marcus_Aurelius_Antoninus",
+                "lang": "en",
+                "title": "Marcus Aurelius, Meditations"
+              }
+            },
+            "ru": {
+              "edition": "marcus.ru.ours",
+              "from": "2.17",
+              "to": "2.17",
+              "text": "ожидая смерти с бодрым духом, ибо она не что иное, как распад стихий, из которых составлено всякое живое существо. Но если самим стихиям нет никакого вреда в том, что каждая непрерывно превращается в другую, то почему человеку опасаться перемены и распада всех стихий? Ведь это согласно с природой, а ничто согласное с природой не есть зло.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Thoughts_of_the_Emperor_Marcus_Aurelius_Antoninus",
+                "lang": "en",
+                "title": "Марк Аврелий, «Размышления»"
+              }
+            },
+            "uk": {
+              "edition": "marcus.uk.ours",
+              "from": "2.17",
+              "to": "2.17",
+              "text": "очікуючи смерті з бадьорим духом, бо вона не що інше, як розпад стихій, з яких складається кожна жива істота. Але якщо самим стихіям немає жодної шкоди від того, що кожна безперервно перетворюється на іншу, то чому людині остерігатися зміни й розпаду всіх стихій? Адже це згідно з природою, а ніщо згідне з природою не є злом.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Thoughts_of_the_Emperor_Marcus_Aurelius_Antoninus",
+                "lang": "en",
+                "title": "Марк Аврелій, «Роздуми»"
+              }
+            },
+            "pl": {
+              "edition": "marcus.pl.ours",
+              "from": "2.17",
+              "to": "2.17",
+              "text": "oczekując śmierci z pogodnym umysłem, jako że nie jest ona niczym innym niż rozpadem żywiołów, z których złożona jest każda żywa istota. Lecz jeśli samym żywiołom nie dzieje się żadna krzywda przez to, że każdy nieustannie przemienia się w inny, czemu człowiek miałby się obawiać przemiany i rozpadu wszystkich żywiołów? Jest to bowiem zgodne z naturą, a nic, co zgodne z naturą, nie jest złem.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Thoughts_of_the_Emperor_Marcus_Aurelius_Antoninus",
+                "lang": "en",
+                "title": "Marek Aureliusz, Rozmyślania"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0562.tlg001.perseus-grc2:2.17/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "He wrote in Greek, the language of philosophy, not in his native Latin, and for himself alone: the title the manuscripts give the book, Ta eis heauton, means “to himself”.",
+            "ru": "Он писал по-гречески, на языке философии, а не на родной латыни, и только для себя: заглавие книги в рукописях, «Та эис хеаутон», означает «к самому себе».",
+            "uk": "Він писав грецькою, мовою філософії, а не рідною латиною, і лише для себе: назва книги в рукописах, «Та еіс хеаутон», означає «до самого себе».",
+            "pl": "Pisał po grecku, w języku filozofii, a nie w ojczystej łacinie, i tylko dla siebie: tytuł, jaki księdze dają rękopisy, Ta eis heauton, znaczy „do samego siebie”."
+          },
+          "source": "Pierre Hadot, The Inner Citadel: The Meditations of Marcus Aurelius (1998)"
+        },
+        {
+          "fact": {
+            "en": "Book I ends “Among the Quadi at the Granua”, Book II “This in Carnuntum”: notes written in camp, on the Danube frontier, during his long war with the Marcomanni and the Quadi.",
+            "ru": "Первая книга кончается словами «Среди квадов, на Грануе», вторая — «Это в Карнунте»: заметки писались в лагере, на дунайской границе, во время долгой войны с маркоманнами и квадами.",
+            "uk": "Перша книга закінчується словами «Серед квадів, на Грануї», друга — «Це в Карнунті»: нотатки писалися в таборі, на дунайському кордоні, під час довгої війни з маркоманами і квадами.",
+            "pl": "Księga I kończy się słowami „Wśród Kwadów nad Granuą”, księga II — „To w Carnuntum”: notatki pisane w obozie, na granicy dunajskiej, podczas długiej wojny z Markomanami i Kwadami."
+          },
+          "source": "Marcus Aurelius, Meditations, the closing lines of Books I and II; Anthony R. Birley, Marcus Aurelius: A Biography (1987)"
+        },
+        {
+          "fact": {
+            "en": "In Book I he thanks his teacher Rusticus for lending him, from his own collection, the discourses of the Stoic Epictetus.",
+            "ru": "В первой книге он благодарит своего учителя Рустика за то, что тот дал ему из собственного собрания беседы стоика Эпиктета.",
+            "uk": "У першій книзі він дякує своєму вчителеві Рустикові за те, що той дав йому з власного зібрання бесіди стоїка Епіктета.",
+            "pl": "W księdze I dziękuje swemu nauczycielowi Rustykowi za to, że użyczył mu z własnych zbiorów rozmów stoika Epikteta."
+          },
+          "source": "Marcus Aurelius, Meditations 1.7"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Montaigne: to philosophize is to learn to die",
+        "ru": "Монтень: философствовать — значит учиться умирать",
+        "uk": "Монтень: філософувати — означає вчитися вмирати",
+        "pl": "Montaigne: filozofować to uczyć się umierać"
+      },
+      "intro": {
+        "en": "France, the 1570s. At thirty-eight Montaigne has withdrawn to the tower of his château to read and write. One of his early essays takes up an old saying of Cicero's — and turns it to his own life:",
+        "ru": "Франция, 1570-е годы. В тридцать восемь лет Монтень удалился в башню своего замка, чтобы читать и писать. Один из ранних его опытов подхватывает старое изречение Цицерона — и обращает его к собственной жизни:",
+        "uk": "Франція, 1570-ті роки. У тридцять вісім років Монтень усамітнився у вежі свого замку, щоб читати й писати. Один із ранніх його нарисів підхоплює давній вислів Цицерона — і повертає його до власного життя:",
+        "pl": "Francja, lata 70. XVI wieku. W wieku trzydziestu ośmiu lat Montaigne zaszył się w wieży swojego zamku, by czytać i pisać. Jeden z jego wczesnych esejów podejmuje dawne powiedzenie Cycerona — i odnosi je do własnego życia:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Montaigne, Essays I.20: “That to study philosophy is to learn to die”",
+            "ru": "Монтень, «Опыты», I.20: «О том, что философствовать — значит учиться умирать»",
+            "uk": "Монтень, «Проби», I.20: «Про те, що філософувати — означає вчитися вмирати»",
+            "pl": "Montaigne, Próby I.20: „Że filozofować to uczyć się umierać”"
+          },
+          "quotes": {
+            "en": {
+              "edition": "essays.en.cotton",
+              "from": "1.20",
+              "to": "1.20",
+              "text": "Where death waits for us is uncertain; let us look for him everywhere. The premeditation of death is the premeditation of liberty; he who has learned to die has unlearned to serve. There is nothing evil in life for him who rightly comprehends that the privation of life is no evil: to know, how to die delivers us from all subjection and constraint.",
+              "kind": "Free",
+              "translator": "Charles Cotton",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Montaigne, Essays"
+              }
+            },
+            "ru": {
+              "edition": "essays.ru.ours",
+              "from": "1.20",
+              "to": "1.20",
+              "text": "Где нас ждёт смерть — неизвестно; будем же ждать её повсюду. Думать заранее о смерти — значит думать заранее о свободе; кто научился умирать, тот разучился быть рабом. Нет в жизни зла для того, кто как следует понял, что лишиться жизни — не зло: умение умирать освобождает нас от всякого подчинения и принуждения.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Монтень, «Опыты»"
+              }
+            },
+            "uk": {
+              "edition": "essays.uk.ours",
+              "from": "1.20",
+              "to": "1.20",
+              "text": "Де чекає на нас смерть — невідомо; тож чекаймо її всюди. Думати заздалегідь про смерть — означає думати заздалегідь про свободу; хто навчився вмирати, той розучився бути рабом. Немає в житті зла для того, хто як слід збагнув, що позбутися життя — не зло: уміння вмирати звільняє нас від усякого підкорення і примусу.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Монтень, «Проби»"
+              }
+            },
+            "pl": {
+              "edition": "essays.pl.ours",
+              "from": "1.20",
+              "to": "1.20",
+              "text": "Gdzie czeka na nas śmierć — nie wiadomo; wyglądajmy jej więc wszędzie. Rozmyślać zawczasu o śmierci to rozmyślać zawczasu o wolności; kto nauczył się umierać, ten oduczył się być niewolnikiem. Nie ma w życiu nic złego dla tego, kto dobrze pojął, że utrata życia nie jest złem: umiejętność umierania wyzwala nas od wszelkiej uległości i przymusu.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Montaigne, Próby"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Essais/Livre_I/Chapitre_20"
+          }
+        },
+        {
+          "by": {
+            "en": "The same essay",
+            "ru": "Тот же опыт",
+            "uk": "Той самий нарис",
+            "pl": "Ten sam esej"
+          },
+          "quotes": {
+            "en": {
+              "edition": "essays.en.cotton",
+              "from": "1.20",
+              "to": "1.20",
+              "text": "I would always have a man to be doing, and, as much as in him lies, to extend and spin out the offices of life; and then let death take me planting my cabbages, indifferent to him, and still less of my gardens not being finished.",
+              "kind": "Free",
+              "translator": "Charles Cotton",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Montaigne, Essays"
+              }
+            },
+            "ru": {
+              "edition": "essays.ru.ours",
+              "from": "1.20",
+              "to": "1.20",
+              "text": "Я хотел бы, чтобы человек всегда действовал и, насколько это в его силах, продлевал и растягивал жизненные обязанности; и пусть тогда смерть застанет меня за посадкой капусты, равнодушного к ней и ещё менее озабоченного тем, что мой сад не докончен.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Монтень, «Опыты»"
+              }
+            },
+            "uk": {
+              "edition": "essays.uk.ours",
+              "from": "1.20",
+              "to": "1.20",
+              "text": "Я хотів би, щоб людина завжди діяла і, наскільки це в її силах, продовжувала й розтягувала життєві обов'язки; і хай тоді смерть застане мене за садінням капусти, байдужого до неї і ще менше стурбованого тим, що мій сад не докінчено.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Монтень, «Проби»"
+              }
+            },
+            "pl": {
+              "edition": "essays.pl.ours",
+              "from": "1.20",
+              "to": "1.20",
+              "text": "Chciałbym, by człowiek zawsze działał i, ile w jego mocy, przedłużał i rozciągał powinności życia; a wtedy niech śmierć zastanie mnie przy sadzeniu kapusty, obojętnego na nią, a jeszcze mniej przejętego tym, że mój ogród nie jest skończony.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Montaigne, Próby"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Essais/Livre_I/Chapitre_20"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "“He who has learned to die has unlearned to serve” is not Montaigne's own: it is Seneca's, in his twenty-sixth letter to Lucilius — and Seneca credits the advice “think on death” to Epicurus.",
+            "ru": "«Кто научился умирать, тот разучился быть рабом» — слова не Монтеня, а Сенеки, из его двадцать шестого письма к Луцилию; а совет «помышляй о смерти» Сенека приписывает Эпикуру.",
+            "uk": "«Хто навчився вмирати, той розучився бути рабом» — слова не Монтеня, а Сенеки, з його двадцять шостого листа до Луцилія; а пораду «думай про смерть» Сенека приписує Епікурові.",
+            "pl": "„Kto nauczył się umierać, ten oduczył się być niewolnikiem” — to słowa nie Montaigne'a, lecz Seneki, z jego dwudziestego szóstego listu do Lucyliusza; a radę „rozmyślaj o śmierci” Seneka przypisuje Epikurowi."
+          },
+          "source": "Seneca, Moral Letters to Lucilius 26.8–10"
+        },
+        {
+          "fact": {
+            "en": "In 1563 he had watched his closest friend, Étienne de La Boétie, die, and he described his last days in a long letter to his father.",
+            "ru": "В 1563 году на его глазах умер его ближайший друг Этьен де Ла Боэси; его последние дни Монтень описал в длинном письме к отцу.",
+            "uk": "1563 року на його очах помер його найближчий друг Етьєн де Ла Боесі; його останні дні Монтень описав у довгому листі до батька.",
+            "pl": "W 1563 roku na jego oczach umarł jego najbliższy przyjaciel, Étienne de La Boétie; jego ostatnie dni Montaigne opisał w długim liście do ojca."
+          },
+          "source": "Donald M. Frame, Montaigne: A Biography (1965)"
+        },
+        {
+          "fact": {
+            "en": "Later he grew less sure. Knocked from his horse and taken for dead, he found that dying, as he felt it then, came gently; and in one of his last essays he wrote that if you do not know how to die, you need not worry — nature will teach you at the moment.",
+            "ru": "Позже он стал менее уверен. Сбитый с коня и сочтённый мёртвым, он почувствовал, что умирание, каким он его тогда ощутил, приходит мягко; а в одном из последних опытов написал: если не умеешь умирать — не тревожься, природа сама научит в нужную минуту.",
+            "uk": "Згодом він став менш певним. Збитий з коня і вважаний мертвим, він відчув, що вмирання, яким він його тоді пізнав, приходить лагідно; а в одному з останніх нарисів написав: якщо не вмієш умирати — не турбуйся, природа сама навчить у потрібну мить.",
+            "pl": "Później nabrał wątpliwości. Strącony z konia i wzięty za martwego, przekonał się, że umieranie, jakie wtedy odczuł, przychodzi łagodnie; a w jednym z ostatnich esejów napisał: jeśli nie umiesz umierać, nie martw się — natura nauczy cię w samej chwili."
+          },
+          "source": "Montaigne, Essays II.6 (“Of practice”) and III.12 (“Of physiognomy”)"
+        }
+      ]
+    },
+    {
+      "think": "death",
+      "question": {
+        "en": "Imagine you knew you had one year left. Would you live it differently — and if so, why do you not live that way now? Is death an evil for the one who dies?",
+        "ru": "Представьте, что вы знаете: вам остался один год. Прожили бы вы его иначе — и если да, то почему вы не живёте так уже сейчас? Есть ли смерть зло для того, кто умирает?",
+        "uk": "Уявіть, що ви знаєте: вам лишився один рік. Чи прожили б ви його інакше — і якщо так, то чому ви не живете так уже тепер? Чи є смерть злом для того, хто помирає?",
+        "pl": "Wyobraź sobie, że wiesz: został ci rok. Czy przeżyłbyś go inaczej — a jeśli tak, to dlaczego nie żyjesz tak już teraz? Czy śmierć jest złem dla tego, kto umiera?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: how should we face death?",
+        "ru": "А теперь: как встречать смерть?",
+        "uk": "А тепер: як зустрічати смерть?",
+        "pl": "A teraz: jak stawić czoło śmierci?"
+      }
+    }
+  ]
+}
