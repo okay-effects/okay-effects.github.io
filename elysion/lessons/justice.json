@@ -1,0 +1,678 @@
+{
+  "id": "justice",
+  "title": {
+    "en": "What is justice?",
+    "ru": "Что такое справедливость?",
+    "uk": "Що таке справедливість?",
+    "pl": "Czym jest sprawiedliwość?"
+  },
+  "subtitle": {
+    "en": "Thrasymachus, Glaucon, Confucius, Thucydides and Augustine — and you",
+    "ru": "Фрасимах, Главкон, Конфуций, Фукидид и Августин — и вы",
+    "uk": "Фрасімах, Главкон, Конфуцій, Фукідід і Августин — і ви",
+    "pl": "Trazymach, Glaukon, Konfucjusz, Tukidydes i Augustyn — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: what is justice?",
+        "ru": "Прежде чем читать кого-либо: что такое справедливость?",
+        "uk": "Перш ніж читати когось: що таке справедливість?",
+        "pl": "Zanim kogokolwiek przeczytasz: czym jest sprawiedliwość?"
+      },
+      "options": [
+        {
+          "en": "Giving each person what they are due",
+          "ru": "Воздавать каждому должное",
+          "uk": "Віддавати кожному належне",
+          "pl": "Oddawać każdemu, co mu się należy"
+        },
+        {
+          "en": "Keeping the laws",
+          "ru": "Соблюдать законы",
+          "uk": "Дотримуватися законів",
+          "pl": "Przestrzegać praw"
+        },
+        {
+          "en": "Whatever serves those in power",
+          "ru": "То, что выгодно тем, у кого власть",
+          "uk": "Те, що вигідно тим, хто при владі",
+          "pl": "To, co służy rządzącym"
+        },
+        {
+          "en": "Being a good person, not only following rules",
+          "ru": "Быть хорошим человеком, а не только следовать правилам",
+          "uk": "Бути доброю людиною, а не лише виконувати правила",
+          "pl": "Być dobrym człowiekiem, nie tylko trzymać się reguł"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Thrasymachus: the interest of the stronger",
+        "ru": "Фрасимах: выгода сильнейшего",
+        "uk": "Фрасімах: вигода сильнішого",
+        "pl": "Trazymach: korzyść silniejszego"
+      },
+      "intro": {
+        "en": "The port of Athens, at a festival. In a friend's house Socrates asks what justice is — and Thrasymachus, a famous teacher of speaking, can bear it no longer:",
+        "ru": "Афинский порт, праздник. В доме друга Сократ спрашивает, что такое справедливость, — и Фрасимах, знаменитый учитель красноречия, не выдерживает:",
+        "uk": "Афінський порт, свято. У домі друга Сократ питає, що таке справедливість, — і Фрасімах, славетний учитель красномовства, не витримує:",
+        "pl": "Port Aten, święto. W domu przyjaciela Sokrates pyta, czym jest sprawiedliwość — a Trazymach, słynny nauczyciel wymowy, nie wytrzymuje:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Thrasymachus, in Plato's Republic I (338c)",
+            "ru": "Фрасимах в «Государстве» Платона, I (338c)",
+            "uk": "Фрасімах у «Державі» Платона, I (338c)",
+            "pl": "Trazymach w Państwie Platona, I (338c)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "republic.en.jowett",
+              "from": "1.338",
+              "to": "1.338",
+              "text": "Listen, then, he said; I proclaim that justice is nothing else than the interest of the stronger. And now why do you not praise me? But of course you won’t.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett"
+            },
+            "ru": {
+              "edition": "republic.ru.ours",
+              "from": "1.338",
+              "to": "1.338",
+              "text": "Так слушай же, — сказал он. — Я утверждаю, что справедливость — это не что иное, как выгода сильнейшего. Ну, почему же ты не хвалишь меня? Да ведь ты и не захочешь.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "republic.uk.ours",
+              "from": "1.338",
+              "to": "1.338",
+              "text": "Тож слухай, — сказав він. — Я стверджую, що справедливість — це не що інше, як вигода сильнішого. Ну, чому ж ти мене не хвалиш? Та ти й не захочеш.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "republic.pl.ours",
+              "from": "1.338",
+              "to": "1.338",
+              "text": "Słuchaj więc — rzekł. — Twierdzę, że sprawiedliwość to nic innego, jak korzyść silniejszego. No i czemu mnie nie chwalisz? Ale ty przecież nie zechcesz.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg030.perseus-grc2:1/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Thrasymachus was a real teacher of rhetoric from Chalcedon on the Bosporus; a few fragments of his own writing survive.",
+            "ru": "Фрасимах — реальный учитель красноречия из Халкедона на Босфоре; от его собственных сочинений сохранилось несколько отрывков.",
+            "uk": "Фрасімах — реальний учитель красномовства з Халкедона на Босфорі; від його власних творів збереглося кілька уривків.",
+            "pl": "Trazymach to prawdziwy nauczyciel retoryki z Chalcedonu nad Bosforem; z jego własnych pism ocalało kilka fragmentów."
+          },
+          "source": "H. Diels and W. Kranz, Die Fragmente der Vorsokratiker, ch. 85 (Thrasymachus)"
+        },
+        {
+          "fact": {
+            "en": "The Republic begins on the evening of a festival for the Thracian goddess Bendis, at the house of the old merchant Cephalus in the Piraeus, the port of Athens.",
+            "ru": "«Государство» начинается вечером праздника фракийской богини Бендиды, в доме старого купца Кефала в Пирее, гавани Афин.",
+            "uk": "«Держава» починається ввечері свята фракійської богині Бендіди, в домі старого купця Кефала в Піреї, гавані Афін.",
+            "pl": "Państwo zaczyna się wieczorem w święto trackiej bogini Bendis, w domu starego kupca Kefalosa w Pireusie, porcie Aten."
+          },
+          "source": "Plato, Republic 327a–328b"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Glaucon: the ring that makes you invisible",
+        "ru": "Главкон: кольцо, делающее невидимым",
+        "uk": "Главкон: перстень, що робить невидимим",
+        "pl": "Glaukon: pierścień, który czyni niewidzialnym"
+      },
+      "intro": {
+        "en": "Plato's brother Glaucon makes the challenge harder. A shepherd, Gyges, finds a ring: turn it, and no one can see you. Give one such ring to a just man and one to an unjust man — would they act differently?",
+        "ru": "Брат Платона Главкон делает вызов ещё острее. Пастух Гиг находит кольцо: повернёшь его — и тебя никто не видит. Дай одно такое кольцо справедливому, а другое несправедливому — станут ли они поступать по-разному?",
+        "uk": "Брат Платона Главкон робить виклик ще гострішим. Пастух Гіґ знаходить перстень: повернеш його — і тебе ніхто не бачить. Дай один такий перстень справедливому, а другий несправедливому — чи чинитимуть вони по-різному?",
+        "pl": "Brat Platona, Glaukon, zaostrza wyzwanie. Pasterz Gyges znajduje pierścień: obróć go, a nikt cię nie widzi. Daj jeden taki pierścień sprawiedliwemu, a drugi niesprawiedliwemu — czy będą postępować inaczej?"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Glaucon, in Plato's Republic II (359–360)",
+            "ru": "Главкон в «Государстве» Платона, II (359–360)",
+            "uk": "Главкон у «Державі» Платона, II (359–360)",
+            "pl": "Glaukon w Państwie Platona, II (359–360)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "republic.en.jowett",
+              "from": "2.359",
+              "to": "2.359",
+              "text": "And this we may truly affirm to be a great proof that a man is just, not willingly or because he thinks that justice is any good to him individually, but of necessity, for wherever anyone thinks that he can safely be unjust, there he is unjust.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett"
+            },
+            "ru": {
+              "edition": "republic.ru.ours",
+              "from": "2.359",
+              "to": "2.359",
+              "text": "И это, можно сказать, верное доказательство того, что человек справедлив не по доброй воле и не потому, что считает справедливость благом для себя, а по необходимости: ведь где только кто считает, что может безнаказанно поступать несправедливо, там он и поступает несправедливо.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "republic.uk.ours",
+              "from": "2.359",
+              "to": "2.359",
+              "text": "І це, можна сказати, певний доказ того, що людина справедлива не з доброї волі й не тому, що вважає справедливість благом для себе, а з необхідності: адже де тільки хтось вважає, що може безкарно чинити несправедливо, там він і чинить несправедливо.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "republic.pl.ours",
+              "from": "2.359",
+              "to": "2.359",
+              "text": "A to, można rzec, mocny dowód, że człowiek jest sprawiedliwy nie z własnej woli ani dlatego, że uważa sprawiedliwość za dobro dla siebie, lecz z konieczności: bo gdziekolwiek ktoś sądzi, że może bezkarnie być niesprawiedliwy, tam jest niesprawiedliwy.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg030.perseus-grc2:2/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Glaucon and Adeimantus, who press Socrates hardest in Book II, were Plato's own elder brothers.",
+            "ru": "Главкон и Адимант, сильнее всех наседающие на Сократа во второй книге, — родные старшие братья Платона.",
+            "uk": "Главкон і Адимант, які найдужче наступають на Сократа в другій книзі, — рідні старші брати Платона.",
+            "pl": "Glaukon i Adejmant, najmocniej nacierający na Sokratesa w księdze II, to rodzeni starsi bracia Platona."
+          },
+          "source": "Debra Nails, The People of Plato (2002)"
+        },
+        {
+          "fact": {
+            "en": "Herodotus tells Gyges' story without the ring: as a royal bodyguard he killed King Candaules of Lydia and took his throne and his queen.",
+            "ru": "Геродот рассказывает историю Гига без кольца: телохранитель царя, он убил лидийского царя Кандавла и взял его трон и его царицу.",
+            "uk": "Геродот розповідає історію Гіґа без перстня: охоронець царя, він убив лідійського царя Кандавла і взяв його трон і його царицю.",
+            "pl": "Herodot opowiada historię Gygesa bez pierścienia: jako królewski strażnik zabił króla Lidii Kandaulesa i zabrał mu tron i królową."
+          },
+          "source": "Herodotus, Histories 1.8–13"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Confucius: righteousness or gain",
+        "ru": "Конфуций: долг или выгода",
+        "uk": "Конфуцій: обов'язок чи вигода",
+        "pl": "Konfucjusz: słuszność czy zysk"
+      },
+      "intro": {
+        "en": "China, about the same century. Confucius draws the line not between the strong and the weak, but between two kinds of mind:",
+        "ru": "Китай, примерно тот же век. Конфуций проводит черту не между сильными и слабыми, а между двумя складами ума:",
+        "uk": "Китай, приблизно те саме століття. Конфуцій проводить межу не між сильними й слабкими, а між двома складами розуму:",
+        "pl": "Chiny, mniej więcej to samo stulecie. Konfucjusz wyznacza granicę nie między silnymi a słabymi, lecz między dwoma rodzajami umysłu:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Confucius, Analects 4.16",
+            "ru": "Конфуций, «Лунь юй», 4.16",
+            "uk": "Конфуцій, «Лунь юй», 4.16",
+            "pl": "Konfucjusz, Dialogi konfucjańskie 4.16"
+          },
+          "quotes": {
+            "en": {
+              "edition": "analects.en.legge",
+              "from": "4.16",
+              "to": "4.16",
+              "text": "The Master said, \"The mind of the superior man is conversant with righteousness; the mind of the mean man is conversant with gain.\"",
+              "kind": "Free",
+              "translator": "James Legge"
+            },
+            "ru": {
+              "edition": "analects.ru.ours",
+              "from": "4.16",
+              "to": "4.16",
+              "text": "Учитель сказал: «Благородный муж разумеет долг; низкий человек разумеет выгоду».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "analects.uk.ours",
+              "from": "4.16",
+              "to": "4.16",
+              "text": "Учитель сказав: «Шляхетна людина розуміє обов'язок; нікчемна людина розуміє вигоду».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "analects.pl.ours",
+              "from": "4.16",
+              "to": "4.16",
+              "text": "Mistrz rzekł: „Szlachetny rozumie, co słuszne; nikczemny rozumie, co korzystne”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/論語/里仁第四"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Confucius wrote nothing we have; the Analects are his sayings and conversations as his students and their students remembered and gathered them.",
+            "ru": "От самого Конфуция не дошло ни одного написанного им текста; «Лунь юй» — его изречения и беседы, как их запомнили и собрали ученики и ученики учеников.",
+            "uk": "Від самого Конфуція не дійшло жодного написаного ним тексту; «Лунь юй» — його вислови й бесіди, як їх запам'ятали й зібрали учні та учні учнів.",
+            "pl": "Z ręki samego Konfucjusza nie mamy niczego; Dialogi to jego powiedzenia i rozmowy, jak je zapamiętali i zebrali uczniowie i uczniowie uczniów."
+          },
+          "source": "D. C. Lau, Confucius: The Analects (1979), Introduction"
+        },
+        {
+          "fact": {
+            "en": "From 1313 to 1905 the Analects were part of China's civil-service examinations: every official had to know them by heart.",
+            "ru": "С 1313 по 1905 год «Лунь юй» входил в государственные экзамены Китая: каждый чиновник должен был знать его наизусть.",
+            "uk": "З 1313 по 1905 рік «Лунь юй» входив до державних іспитів Китаю: кожен урядовець мусив знати його напам'ять.",
+            "pl": "Od 1313 do 1905 roku Dialogi wchodziły w skład chińskich egzaminów urzędniczych: każdy urzędnik musiał je znać na pamięć."
+          },
+          "source": "Benjamin A. Elman, A Cultural History of Civil Examinations in Late Imperial China (2000)"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Athens, 427 BC",
+        "ru": "Афины, 427 год до н. э.",
+        "uk": "Афіни, 427 рік до н. е.",
+        "pl": "Ateny, 427 rok p.n.e."
+      },
+      "scene": {
+        "en": "You sit in the Assembly of Athens. Yesterday, in anger, you voted to kill every man of the rebel city of Mytilene and to sell its women and children; a ship has already sailed with the order. Today the vote is held again. Cleon says: keep it — mercy is weakness, and the guilty must pay. How do you vote?",
+        "ru": "Вы сидите в народном собрании Афин. Вчера в гневе вы проголосовали казнить всех мужчин восставшей Митилены, а женщин и детей продать в рабство; корабль с приказом уже отплыл. Сегодня голосуют снова. Клеон говорит: не отменяйте — милосердие есть слабость, и виновные должны заплатить. Как вы проголосуете?",
+        "uk": "Ви сидите в народних зборах Афін. Учора в гніві ви проголосували стратити всіх чоловіків повсталої Мітилени, а жінок і дітей продати в рабство; корабель із наказом уже відплив. Сьогодні голосують знову. Клеон каже: не скасовуйте — милосердя є слабкістю, і винні мусять заплатити. Як ви проголосуєте?",
+        "pl": "Siedzisz na zgromadzeniu ludowym Aten. Wczoraj w gniewie głosowałeś za straceniem wszystkich mężczyzn zbuntowanej Mityleny i sprzedaniem kobiet i dzieci; okręt z rozkazem już odpłynął. Dziś głosowanie się powtarza. Kleon mówi: nie zmieniajcie — litość to słabość, a winni muszą zapłacić. Jak zagłosujesz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Keep the sentence: they rebelled, they must pay",
+            "ru": "Оставить приговор: они восстали — пусть платят",
+            "uk": "Залишити вирок: вони повстали — хай платять",
+            "pl": "Utrzymać wyrok: zbuntowali się, niech płacą"
+          },
+          "reply": {
+            "en": "That was Cleon's case: justice demands it, and fear keeps an empire.",
+            "ru": "Так и говорил Клеон: этого требует справедливость, а держава держится страхом.",
+            "uk": "Так і казав Клеон: цього вимагає справедливість, а держава тримається страхом.",
+            "pl": "Tak właśnie mówił Kleon: tego wymaga sprawiedliwość, a imperium trzyma się strachem."
+          }
+        },
+        {
+          "choice": {
+            "en": "Spare them: a whole city must not pay for its leaders",
+            "ru": "Пощадить: целый город не должен платить за вождей",
+            "uk": "Пощадити: ціле місто не має платити за ватажків",
+            "pl": "Oszczędzić: całe miasto nie może płacić za przywódców"
+          },
+          "reply": {
+            "en": "Many felt so overnight — yet the speaker who saved them did not argue from justice at all.",
+            "ru": "Многие почувствовали это за ночь — но тот, кто их спас, вовсе не говорил о справедливости.",
+            "uk": "Багато хто відчув це за ніч — але той, хто їх урятував, зовсім не говорив про справедливість.",
+            "pl": "Wielu poczuło to przez noc — a jednak ten, kto ich ocalił, wcale nie mówił o sprawiedliwości."
+          }
+        },
+        {
+          "choice": {
+            "en": "Spare them: killing them will make every rebel fight to the end",
+            "ru": "Пощадить: казнь заставит любых мятежников биться до конца",
+            "uk": "Пощадити: страта змусить будь-яких бунтівників битися до кінця",
+            "pl": "Oszczędzić: egzekucja sprawi, że każdy buntownik będzie walczył do końca"
+          },
+          "reply": {
+            "en": "That was Diodotus' argument — and it won, by a hair.",
+            "ru": "Это и был довод Диодота — и он победил, с перевесом в несколько рук.",
+            "uk": "Це й був аргумент Діодота — і він переміг, із перевагою в кілька рук.",
+            "pl": "To był argument Diodotosa — i zwyciężył, ledwie kilkoma rękami."
+          }
+        },
+        {
+          "choice": {
+            "en": "Abstain: it is not mine to decide",
+            "ru": "Воздержаться: не мне решать",
+            "uk": "Утриматися: не мені вирішувати",
+            "pl": "Wstrzymać się: nie mnie decydować"
+          },
+          "reply": {
+            "en": "The show of hands was almost even: one hand could decide it.",
+            "ru": "Голоса разделились почти поровну: всё могла решить одна рука.",
+            "uk": "Голоси розділилися майже порівну: усе могла вирішити одна рука.",
+            "pl": "Głosy podzieliły się niemal po równo: jedna ręka mogła przesądzić."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "This was the Mytilene debate, as Thucydides tells it. Diodotus' motion carried by a hair, and a second galley set out a day and a night behind the first; its rowers ate as they rowed and slept in turns.",
+        "ru": "Это был спор о Митилене, как его рассказывает Фукидид. Предложение Диодота прошло с ничтожным перевесом, и вслед первому, на сутки позже, вышел второй корабль; его гребцы ели прямо на вёслах и спали по очереди.",
+        "uk": "Це була суперечка про Мітилену, як її розповідає Фукідід. Пропозиція Діодота пройшла з мізерною перевагою, і слідом за першим, на добу пізніше, вийшов другий корабель; його веслярі їли просто на веслах і спали по черзі.",
+        "pl": "To był spór o Mitylenę, jak go opowiada Tukidydes. Wniosek Diodotosa przeszedł minimalną większością i za pierwszym, dobę później, wypłynęła druga galera; jej wioślarze jedli przy wiosłach i spali na zmianę."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Diodotus, in Thucydides III.44",
+            "ru": "Диодот у Фукидида, III.44",
+            "uk": "Діодот у Фукідіда, III.44",
+            "pl": "Diodotos u Tukidydesa, III.44"
+          },
+          "quotes": {
+            "en": {
+              "edition": "war.en.crawley",
+              "from": "3.44",
+              "to": "3.44",
+              "text": "his speech may have the attraction of seeming the more just in your present temper against Mytilene; but we are not in a court of justice, but in a political assembly; and the question is not justice, but how to make the Mitylenians useful to Athens.",
+              "kind": "Free",
+              "translator": "Richard Crawley"
+            },
+            "ru": {
+              "edition": "war.ru.ours",
+              "from": "3.44",
+              "to": "3.44",
+              "text": "его речь, быть может, кажется вам справедливее при нынешнем вашем гневе на Митилену; но мы не в суде, а в народном собрании, и вопрос не в справедливости, а в том, как сделать митиленцев полезными Афинам.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "war.uk.ours",
+              "from": "3.44",
+              "to": "3.44",
+              "text": "його промова, можливо, здається вам справедливішою за нинішнього вашого гніву на Мітилену; але ми не в суді, а в народних зборах, і питання не в справедливості, а в тому, як зробити мітиленців корисними Афінам.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "war.pl.ours",
+              "from": "3.44",
+              "to": "3.44",
+              "text": "jego mowa może wydawać się wam sprawiedliwsza w obecnym gniewie na Mitylenę; lecz nie jesteśmy w sądzie, tylko na zgromadzeniu ludowym, a pytanie nie dotyczy sprawiedliwości, lecz tego, jak uczynić Mityleńczyków użytecznymi dla Aten.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:3/"
+          }
+        },
+        {
+          "by": {
+            "en": "Thucydides III.49 — the second galley",
+            "ru": "Фукидид, III.49 — второй корабль",
+            "uk": "Фукідід, III.49 — другий корабель",
+            "pl": "Tukidydes III.49 — druga galera"
+          },
+          "quotes": {
+            "en": {
+              "edition": "war.en.crawley",
+              "from": "3.49",
+              "to": "3.49",
+              "text": "Luckily they met with no contrary wind, and the first ship making no haste upon so horrid an errand, while the second pressed on in the manner described, the first arrived so little before them, that Paches had only just had time to read the decree, and to prepare to execute the sentence, when the second put into port and prevented the massacre.",
+              "kind": "Free",
+              "translator": "Richard Crawley"
+            },
+            "ru": {
+              "edition": "war.ru.ours",
+              "from": "3.49",
+              "to": "3.49",
+              "text": "К счастью, встречного ветра не было; первый корабль не спешил с таким ужасным поручением, а второй торопился, как сказано, — и первый прибыл настолько раньше, что Пахет едва успел прочесть постановление и приготовиться исполнить приговор, когда второй вошёл в гавань и предотвратил резню.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "war.uk.ours",
+              "from": "3.49",
+              "to": "3.49",
+              "text": "На щастя, зустрічного вітру не було; перший корабель не поспішав із таким жахливим дорученням, а другий квапився, як сказано, — і перший прибув настільки раніше, що Пахет ледве встиг прочитати постанову й приготуватися виконати вирок, коли другий увійшов у гавань і відвернув різанину.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "war.pl.ours",
+              "from": "3.49",
+              "to": "3.49",
+              "text": "Na szczęście nie napotkali przeciwnego wiatru; pierwszy okręt nie spieszył się z tak strasznym poleceniem, drugi zaś pędził, jak opisano — i pierwszy przybył tak niewiele wcześniej, że Paches zdążył zaledwie odczytać uchwałę i przygotować się do wykonania wyroku, gdy drugi wpłynął do portu i zapobiegł rzezi.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:3/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Mytilene, the chief city of Lesbos, had revolted from Athens in 428 BC, in the fourth year of the war with Sparta, and surrendered the next summer.",
+            "ru": "Митилена, главный город Лесбоса, восстала против Афин в 428 году до н. э., на четвёртый год войны со Спартой, и сдалась следующим летом.",
+            "uk": "Мітилена, головне місто Лесбосу, повстала проти Афін 428 року до н. е., на четвертий рік війни зі Спартою, і здалася наступного літа.",
+            "pl": "Mitylena, główne miasto Lesbos, zbuntowała się przeciw Atenom w 428 roku p.n.e., w czwartym roku wojny ze Spartą, i poddała się następnego lata."
+          },
+          "source": "Thucydides, History of the Peloponnesian War 3.2–28"
+        },
+        {
+          "fact": {
+            "en": "Even so, on Cleon's motion, the men judged most guilty — rather more than a thousand — were put to death, and the city's walls were pulled down.",
+            "ru": "И всё же по предложению Клеона самых виновных — немногим больше тысячи человек — казнили, а стены города срыли.",
+            "uk": "І все ж за пропозицією Клеона найвинніших — трохи більше тисячі людей — стратили, а мури міста зруйнували.",
+            "pl": "Mimo to, na wniosek Kleona, najbardziej winnych — nieco ponad tysiąc ludzi — stracono, a mury miasta zburzono."
+          },
+          "source": "Thucydides, History of the Peloponnesian War 3.50"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Augustine: kingdoms without justice",
+        "ru": "Августин: царства без справедливости",
+        "uk": "Августин: царства без справедливості",
+        "pl": "Augustyn: królestwa bez sprawiedliwości"
+      },
+      "intro": {
+        "en": "Rome had been sacked by the Goths in 410. Writing The City of God, Augustine asks what makes a state different from a gang of robbers:",
+        "ru": "В 410 году Рим разграбили готы. Работая над «Градом Божиим», Августин спрашивает, чем государство отличается от разбойничьей шайки:",
+        "uk": "410 року Рим пограбували готи. Працюючи над «Градом Божим», Августин питає, чим держава відрізняється від розбійницької зграї:",
+        "pl": "W 410 roku Rzym złupili Goci. Pisząc Państwo Boże, Augustyn pyta, czym państwo różni się od bandy rozbójników:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Augustine, The City of God IV.4",
+            "ru": "Августин, «О граде Божием», IV.4",
+            "uk": "Августин, «Про град Божий», IV.4",
+            "pl": "Augustyn, Państwo Boże IV.4"
+          },
+          "quotes": {
+            "en": {
+              "edition": "city.en.dods",
+              "from": "4.4",
+              "to": "4.4",
+              "text": "Justice being taken away, then, what are kingdoms but great robberies? For what are robberies themselves, but little kingdoms?",
+              "kind": "Free",
+              "translator": "Marcus Dods"
+            },
+            "ru": {
+              "edition": "city.ru.ours",
+              "from": "4.4",
+              "to": "4.4",
+              "text": "Если отнять справедливость, что такое царства, как не большие разбойничьи шайки? И что такое сами разбойничьи шайки, как не маленькие царства?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "city.uk.ours",
+              "from": "4.4",
+              "to": "4.4",
+              "text": "Якщо відібрати справедливість, що таке царства, як не великі розбійницькі зграї? І що таке самі розбійницькі зграї, як не маленькі царства?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "city.pl.ours",
+              "from": "4.4",
+              "to": "4.4",
+              "text": "Czymże są królestwa, gdy usunąć sprawiedliwość, jeśli nie wielkimi bandami rozbójników? A czymże są bandy rozbójników, jeśli nie małymi królestwami?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/De_civitate_Dei/Liber_IV"
+          }
+        },
+        {
+          "by": {
+            "en": "The same chapter: a pirate before Alexander",
+            "ru": "Та же глава: пират перед Александром",
+            "uk": "Той самий розділ: пірат перед Олександром",
+            "pl": "Ten sam rozdział: pirat przed Aleksandrem"
+          },
+          "quotes": {
+            "en": {
+              "edition": "city.en.dods",
+              "from": "4.4",
+              "to": "4.4",
+              "text": "For when that king had asked the man what he meant by keeping hostile possession of the sea, he answered with bold pride, “What thou meanest by seizing the whole earth; but because I do it with a petty ship, I am called a robber, whilst thou who dost it with a great fleet art styled emperor.”",
+              "kind": "Free",
+              "translator": "Marcus Dods"
+            },
+            "ru": {
+              "edition": "city.ru.ours",
+              "from": "4.4",
+              "to": "4.4",
+              "text": "Когда царь спросил этого человека, по какому праву он хозяйничает на море, тот с дерзкой гордостью ответил: «По тому же, по какому ты захватываешь всю землю; но так как я делаю это на маленьком корабле, меня зовут разбойником, а тебя, делающего это с большим флотом, — императором».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "city.uk.ours",
+              "from": "4.4",
+              "to": "4.4",
+              "text": "Коли цар спитав цю людину, з якого права вона хазяйнує на морі, той із зухвалою гордістю відповів: «З того самого, з якого ти захоплюєш усю землю; але оскільки я роблю це на маленькому кораблі, мене звуть розбійником, а тебе, що робиш це з великим флотом, — імператором».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "city.pl.ours",
+              "from": "4.4",
+              "to": "4.4",
+              "text": "Gdy bowiem król zapytał tego człowieka, jakim prawem panoszy się na morzu, ten z hardą dumą odpowiedział: „Takim samym, jakim ty zagarniasz całą ziemię; lecz ponieważ ja czynię to małym statkiem, zwą mnie rozbójnikiem, a ciebie, który czynisz to wielką flotą, zwą cesarzem”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/De_civitate_Dei/Liber_IV"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Augustine began The City of God after the Goths of Alaric sacked Rome in 410, when pagans blamed the Christians for the city's fall; the work took him some thirteen years.",
+            "ru": "Августин начал «О граде Божием» после того, как готы Алариха разграбили Рим в 410 году и язычники обвинили в падении города христиан; работа заняла у него около тринадцати лет.",
+            "uk": "Августин почав «Про град Божий» після того, як готи Аларіха пограбували Рим 410 року і язичники звинуватили в падінні міста християн; праця забрала в нього близько тринадцяти років.",
+            "pl": "Augustyn zaczął Państwo Boże po tym, jak Goci Alaryka złupili Rzym w 410 roku, a poganie obwinili o upadek miasta chrześcijan; praca zajęła mu około trzynastu lat."
+          },
+          "source": "Peter Brown, Augustine of Hippo (1967)"
+        },
+        {
+          "fact": {
+            "en": "The pirate's answer to Alexander was not Augustine's own: he took it from Cicero's dialogue On the Republic.",
+            "ru": "Ответ пирата Александру придумал не Августин: он взял его из диалога Цицерона «О государстве».",
+            "uk": "Відповідь пірата Олександрові вигадав не Августин: він узяв її з діалогу Цицерона «Про державу».",
+            "pl": "Odpowiedź pirata dla Aleksandra nie pochodzi od Augustyna: wziął ją z dialogu Cycerona O państwie."
+          },
+          "source": "Cicero, De re publica 3.24, as quoted by Augustine"
+        }
+      ]
+    },
+    {
+      "think": "justice",
+      "question": {
+        "en": "Think of something that seems unjust to you — in your life or in your country. What exactly makes it unjust? Would it still be unjust if no one ever found out?",
+        "ru": "Вспомните то, что кажется вам несправедливым, — в вашей жизни или в вашей стране. Что именно делает это несправедливым? Осталось бы это несправедливым, если бы никто никогда не узнал?",
+        "uk": "Згадайте те, що здається вам несправедливим, — у вашому житті чи у вашій країні. Що саме робить це несправедливим? Чи лишилося б це несправедливим, якби ніхто ніколи не дізнався?",
+        "pl": "Pomyśl o czymś, co wydaje ci się niesprawiedliwe — w twoim życiu albo w twoim kraju. Co dokładnie czyni to niesprawiedliwym? Czy byłoby to niesprawiedliwe, gdyby nikt nigdy się nie dowiedział?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: what is justice?",
+        "ru": "А теперь: что такое справедливость?",
+        "uk": "А тепер: що таке справедливість?",
+        "pl": "A teraz: czym jest sprawiedliwość?"
+      }
+    }
+  ]
+}
