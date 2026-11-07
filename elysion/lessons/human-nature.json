@@ -1,0 +1,646 @@
+{
+  "id": "human-nature",
+  "title": {
+    "en": "Is human nature good?",
+    "ru": "Добра ли природа человека?",
+    "uk": "Чи добра природа людини?",
+    "pl": "Czy natura człowieka jest dobra?"
+  },
+  "subtitle": {
+    "en": "Mencius, Xunzi, Augustine and Hobbes — and you",
+    "ru": "Мэн-цзы, Сюнь-цзы, Августин и Гоббс — и вы",
+    "uk": "Мен-цзи, Сюнь-цзи, Августин і Гоббс — і ви",
+    "pl": "Mencjusz, Xunzi, Augustyn i Hobbes — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: is human nature good?",
+        "ru": "Прежде чем читать кого-либо: добра ли природа человека?",
+        "uk": "Перш ніж читати когось: чи добра природа людини?",
+        "pl": "Zanim kogokolwiek przeczytasz: czy natura człowieka jest dobra?"
+      },
+      "options": [
+        {
+          "en": "Good — the world spoils it",
+          "ru": "Добра — её портит мир",
+          "uk": "Добра — її псує світ",
+          "pl": "Dobra — psuje ją świat"
+        },
+        {
+          "en": "Bad — goodness has to be taught",
+          "ru": "Зла — добру надо учить",
+          "uk": "Зла — добра треба вчити",
+          "pl": "Zła — dobra trzeba uczyć"
+        },
+        {
+          "en": "Neither — we begin as a blank page",
+          "ru": "Ни то ни другое — мы начинаем с чистого листа",
+          "uk": "Ні те ні інше — ми починаємо з чистого аркуша",
+          "pl": "Ani taka, ani taka — zaczynamy od czystej karty"
+        },
+        {
+          "en": "Both — good and bad are at war in us",
+          "ru": "И то и другое — добро и зло борются в нас",
+          "uk": "І те, і те — добро і зло борються в нас",
+          "pl": "I taka, i taka — dobro i zło walczą w nas"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Mencius: a child at the well",
+        "ru": "Мэн-цзы: ребёнок у колодца",
+        "uk": "Мен-цзи: дитина біля колодязя",
+        "pl": "Mencjusz: dziecko przy studni"
+      },
+      "intro": {
+        "en": "China, the fourth century BC. Mencius, the great follower of Confucius, asks you to imagine one moment:",
+        "ru": "Китай, IV век до н. э. Мэн-цзы, великий последователь Конфуция, просит представить всего одно мгновение:",
+        "uk": "Китай, IV століття до н. е. Мен-цзи, великий послідовник Конфуція, просить уявити лише одну мить:",
+        "pl": "Chiny, IV wiek p.n.e. Mencjusz, wielki uczeń Konfucjusza, prosi, by wyobrazić sobie jedną chwilę:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Mencius 2A.6",
+            "ru": "Мэн-цзы, 2A.6",
+            "uk": "Мен-цзи, 2A.6",
+            "pl": "Mencjusz 2A.6"
+          },
+          "quotes": {
+            "en": {
+              "edition": "mencius.en.legge",
+              "from": "2.1.6",
+              "to": "2.1.6",
+              "text": "if men suddenly see a child about to fall into a well, they will without exception experience a feeling of alarm and distress. They will feel so, not as a ground on which they may gain the favour of the child's parents, nor as a ground on which they may seek the praise of their neighbours and friends, nor from a dislike to the reputation of having been unmoved by such a thing. From this case we may perceive that the feeling of commiseration is essential to man, that the feeling of shame and dislike is essential to man, that the feeling of modesty and complaisance is essential to man, and that the feeling of approving and disapproving is essential to man.",
+              "kind": "Free",
+              "translator": "James Legge"
+            },
+            "ru": {
+              "edition": "mencius.ru.ours",
+              "from": "2.1.6",
+              "to": "2.1.6",
+              "text": "если люди вдруг увидят, что ребёнок вот-вот упадёт в колодец, все они без исключения испытают тревогу и сострадание. И испытают не для того, чтобы снискать расположение его родителей, не для того, чтобы заслужить похвалу соседей и друзей, и не из нежелания прослыть равнодушными. Отсюда видно: без чувства сострадания нет человека, без чувства стыда нет человека, без чувства уступчивости нет человека, без чувства правого и неправого нет человека.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "mencius.uk.ours",
+              "from": "2.1.6",
+              "to": "2.1.6",
+              "text": "якщо люди раптом побачать, що дитина ось-ось упаде в колодязь, усі вони без винятку відчують тривогу і співчуття. І відчують не для того, щоб здобути прихильність її батьків, не для того, щоб заслужити похвалу сусідів і друзів, і не з небажання прослити байдужими. Звідси видно: без почуття співчуття немає людини, без почуття сорому немає людини, без почуття поступливості немає людини, без почуття правого й неправого немає людини.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "mencius.pl.ours",
+              "from": "2.1.6",
+              "to": "2.1.6",
+              "text": "jeśli ludzie nagle zobaczą dziecko, które za chwilę wpadnie do studni, wszyscy bez wyjątku poczują lęk i współczucie. Poczują je nie po to, by zyskać przychylność jego rodziców, nie po to, by zdobyć pochwałę sąsiadów i przyjaciół, ani nie z obawy przed opinią nieczułych. Stąd widać: bez uczucia współczucia nie ma człowieka, bez uczucia wstydu nie ma człowieka, bez uczucia ustępliwości nie ma człowieka, bez poczucia słuszności i niesłuszności nie ma człowieka.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/孟子/公孫丑上"
+          }
+        },
+        {
+          "by": {
+            "en": "Mencius 6A.2, answering Gaozi",
+            "ru": "Мэн-цзы, 6A.2, — ответ Гао-цзы",
+            "uk": "Мен-цзи, 6A.2, — відповідь Ґао-цзи",
+            "pl": "Mencjusz 6A.2, odpowiadając Gaoziemu"
+          },
+          "quotes": {
+            "en": {
+              "edition": "mencius.en.legge",
+              "from": "6.1.2",
+              "to": "6.1.2",
+              "text": "The tendency of man's nature to good is like the tendency of water to flow downwards. There are none but have this tendency to good, just as all water flows downwards. Now by striking water and causing it to leap up, you may make it go over your forehead, and, by damming and leading it you may force it up a hill - but are such movements according to the nature of water? It is the force applied which causes them.",
+              "kind": "Free",
+              "translator": "James Legge"
+            },
+            "ru": {
+              "edition": "mencius.ru.ours",
+              "from": "6.1.2",
+              "to": "6.1.2",
+              "text": "Склонность человеческой природы к добру подобна стремлению воды течь вниз. Нет человека без этой склонности к добру, как нет воды, что не текла бы вниз. Ударив по воде, можно заставить её взлететь выше лба; запрудив и направив, можно загнать её на гору, — но разве это природа воды? Так её вынуждает сила.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "mencius.uk.ours",
+              "from": "6.1.2",
+              "to": "6.1.2",
+              "text": "Схильність людської природи до добра подібна до прагнення води текти вниз. Немає людини без цієї схильності до добра, як немає води, що не текла б униз. Ударивши по воді, можна змусити її злетіти вище чола; загативши й спрямувавши, можна загнати її на гору, — але хіба це природа води? Так її змушує сила.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "mencius.pl.ours",
+              "from": "6.1.2",
+              "to": "6.1.2",
+              "text": "Skłonność ludzkiej natury do dobra jest jak dążenie wody, by płynąć w dół. Nie ma człowieka bez tej skłonności do dobra, tak jak nie ma wody, która nie płynęłaby w dół. Uderzając w wodę, można sprawić, że wzniesie się ponad czoło; tamując ją i prowadząc, można wpędzić ją na górę — ale czy to natura wody? Tak zmusza ją siła.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/孟子/告子上"
+          }
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Xunzi: warped wood",
+        "ru": "Сюнь-цзы: кривое дерево",
+        "uk": "Сюнь-цзи: криве дерево",
+        "pl": "Xunzi: krzywe drewno"
+      },
+      "intro": {
+        "en": "A few decades later another Confucian, Xunzi, answered Mencius by name: he is wrong.",
+        "ru": "Несколько десятилетий спустя другой конфуцианец, Сюнь-цзы, ответил Мэн-цзы прямо: он неправ.",
+        "uk": "Кілька десятиліть по тому інший конфуціанець, Сюнь-цзи, відповів Мен-цзи прямо: він помиляється.",
+        "pl": "Kilkadziesiąt lat później inny konfucjanista, Xunzi, odpowiedział Mencjuszowi wprost: myli się."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Xunzi 23, “Human nature is bad”",
+            "ru": "Сюнь-цзы, глава 23, «Природа человека зла»",
+            "uk": "Сюнь-цзи, розділ 23, «Природа людини зла»",
+            "pl": "Xunzi 23, „Natura człowieka jest zła”"
+          },
+          "quotes": {
+            "en": {
+              "edition": "xunzi.en.ours",
+              "from": "23",
+              "to": "23",
+              "text": "Human nature is bad; what is good in it is made by effort. Human nature is this: born with a love of profit — follow it, and strife and plunder arise, and yielding and deference perish;",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "ru": {
+              "edition": "xunzi.ru.ours",
+              "from": "23",
+              "to": "23",
+              "text": "Природа человека зла; добро в нём — дело усилия. Такова природа человека: от рождения в нём любовь к выгоде — последуй ей, и родятся борьба и грабёж, а уступчивость и вежливость погибнут;",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "xunzi.uk.ours",
+              "from": "23",
+              "to": "23",
+              "text": "Природа людини зла; добро в ній — справа зусилля. Така природа людини: від народження в ній любов до вигоди — піди за нею, і народяться боротьба й грабунок, а поступливість і ввічливість загинуть;",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "xunzi.pl.ours",
+              "from": "23",
+              "to": "23",
+              "text": "Natura człowieka jest zła; dobro w nim jest dziełem wysiłku. Taka jest natura człowieka: od urodzenia ma w sobie umiłowanie zysku — pójdź za nim, a zrodzą się walka i grabież, a ustępliwość i uprzejmość zginą;",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/荀子/性惡篇"
+          }
+        },
+        {
+          "by": {
+            "en": "The same chapter",
+            "ru": "Та же глава",
+            "uk": "Той самий розділ",
+            "pl": "Ten sam rozdział"
+          },
+          "quotes": {
+            "en": {
+              "edition": "xunzi.en.ours",
+              "from": "23",
+              "to": "23",
+              "text": "Therefore there must be the transforming power of teachers and laws and the guidance of ritual and righteousness; only then do people come to yielding and deference, accord with good form, and end in order.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "ru": {
+              "edition": "xunzi.ru.ours",
+              "from": "23",
+              "to": "23",
+              "text": "Поэтому нужны преображающая сила учителей и законов и руководство ритуала и долга; лишь тогда люди приходят к уступчивости и вежливости, согласуются с порядком и приходят к благоустройству.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "xunzi.uk.ours",
+              "from": "23",
+              "to": "23",
+              "text": "Тому потрібні перетворювальна сила вчителів і законів і провід ритуалу й обов'язку; лише тоді люди приходять до поступливості й ввічливості, узгоджуються з ладом і доходять до порядку.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "xunzi.pl.ours",
+              "from": "23",
+              "to": "23",
+              "text": "Dlatego potrzebna jest przemieniająca moc nauczycieli i praw oraz przewodnictwo obyczaju i prawości; dopiero wtedy ludzie dochodzą do ustępliwości i uprzejmości, zgadzają się z ładem i dochodzą do porządku.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/荀子/性惡篇"
+          }
+        },
+        {
+          "by": {
+            "en": "The same chapter",
+            "ru": "Та же глава",
+            "uk": "Той самий розділ",
+            "pl": "Ten sam rozdział"
+          },
+          "quotes": {
+            "en": {
+              "edition": "xunzi.en.ours",
+              "from": "23",
+              "to": "23",
+              "text": "So warped wood must wait for the press-frame, for steaming and bending, before it is straight; blunt metal must wait for the whetstone before it is sharp.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "ru": {
+              "edition": "xunzi.ru.ours",
+              "from": "23",
+              "to": "23",
+              "text": "Так кривое дерево должно ждать правильной рамы, распаривания и выгибания, чтобы стать прямым; тупой металл должен ждать точильного камня, чтобы стать острым.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "xunzi.uk.ours",
+              "from": "23",
+              "to": "23",
+              "text": "Так криве дерево мусить чекати на правильну раму, розпарювання й вигинання, щоб стати прямим; тупий метал мусить чекати на точильний камінь, щоб стати гострим.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "xunzi.pl.ours",
+              "from": "23",
+              "to": "23",
+              "text": "Tak krzywe drewno musi czekać na ramę, parowanie i naginanie, by stało się proste; tępy metal musi czekać na osełkę, by stał się ostry.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/荀子/性惡篇"
+          }
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Thagaste, North Africa, around 370",
+        "ru": "Тагаст, Северная Африка, около 370 года",
+        "uk": "Тагаст, Північна Африка, близько 370 року",
+        "pl": "Tagaste, Afryka Północna, około 370 roku"
+      },
+      "scene": {
+        "en": "You are sixteen. Late at night, after games in the street, your friends want to shake a neighbour's pear tree and carry off the pears. They are poor pears; you have better ones at home. What do you do?",
+        "ru": "Вам шестнадцать. Поздно ночью, после уличных игр, друзья хотят отрясти соседскую грушу и унести груши. Груши плохие; дома у вас есть лучше. Что вы сделаете?",
+        "uk": "Вам шістнадцять. Пізно вночі, після вуличних ігор, друзі хочуть обтрусити сусідську грушу й забрати груші. Груші погані; вдома у вас є кращі. Що ви зробите?",
+        "pl": "Masz szesnaście lat. Późną nocą, po zabawach na ulicy, przyjaciele chcą otrząsnąć gruszę sąsiada i zabrać gruszki. Gruszki są marne; w domu masz lepsze. Co robisz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Go — it is only a prank",
+            "ru": "Пойти — это просто шалость",
+            "uk": "Піти — це просто витівка",
+            "pl": "Iść — to tylko psota"
+          },
+          "reply": {
+            "en": "He went. And for the rest of his life he asked what he had wanted there.",
+            "ru": "Он пошёл. И всю оставшуюся жизнь спрашивал себя, чего он там хотел.",
+            "uk": "Він пішов. І все подальше життя питав себе, чого він там хотів.",
+            "pl": "Poszedł. I przez resztę życia pytał, czego tam chciał."
+          }
+        },
+        {
+          "choice": {
+            "en": "Stay home — it is wrong",
+            "ru": "Остаться дома — это дурно",
+            "uk": "Лишитися вдома — це погано",
+            "pl": "Zostać w domu — to złe"
+          },
+          "reply": {
+            "en": "He knew it was wrong, and went anyway — that is what he could not forgive himself.",
+            "ru": "Он знал, что это дурно, и всё же пошёл — этого он себе и не мог простить.",
+            "uk": "Він знав, що це погано, і все ж пішов — цього він собі й не міг пробачити.",
+            "pl": "Wiedział, że to złe, a jednak poszedł — tego właśnie nie mógł sobie wybaczyć."
+          }
+        },
+        {
+          "choice": {
+            "en": "Go, but take nothing",
+            "ru": "Пойти, но ничего не брать",
+            "uk": "Піти, але нічого не брати",
+            "pl": "Iść, ale nic nie brać"
+          },
+          "reply": {
+            "en": "He wrote that alone he would never have done it: the company was half the pleasure.",
+            "ru": "Он писал, что один никогда бы этого не сделал: половина удовольствия была в компании.",
+            "uk": "Він писав, що сам ніколи б цього не зробив: половина втіхи була в товаристві.",
+            "pl": "Pisał, że sam nigdy by tego nie zrobił: połowa przyjemności była w towarzystwie."
+          }
+        },
+        {
+          "choice": {
+            "en": "Go, and eat the best pears",
+            "ru": "Пойти и съесть лучшие груши",
+            "uk": "Піти і з'їсти найкращі груші",
+            "pl": "Iść i zjeść najlepsze gruszki"
+          },
+          "reply": {
+            "en": "They hardly ate any. The pears went to the pigs.",
+            "ru": "Они почти ничего не съели. Груши достались свиньям.",
+            "uk": "Вони майже нічого не з'їли. Груші дісталися свиням.",
+            "pl": "Prawie nic nie zjedli. Gruszki dostały się świniom."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "This was Augustine. Thirty years later, a bishop in Africa, he wrote the Confessions and turned this small theft over and over: he had stolen what he did not want, for the sake of the wrong itself. From such moments he built his teaching of a will bent from within — original sin — which shaped Western thought for a thousand years.",
+        "ru": "Это был Августин. Тридцать лет спустя, епископом в Африке, он написал «Исповедь» и снова и снова возвращался к этой маленькой краже: он украл то, чего не хотел, ради самого дурного поступка. Из таких мгновений он построил учение о воле, искривлённой изнутри, — о первородном грехе, — которое тысячу лет определяло западную мысль.",
+        "uk": "Це був Августин. Тридцять років по тому, єпископом в Африці, він написав «Сповідь» і знову й знову повертався до цієї маленької крадіжки: він украв те, чого не хотів, заради самого лихого вчинку. З таких митей він збудував учення про волю, викривлену зсередини, — про первородний гріх, — яке тисячу років визначало західну думку.",
+        "pl": "To był Augustyn. Trzydzieści lat później, jako biskup w Afryce, napisał Wyznania i wciąż wracał do tej małej kradzieży: ukradł to, czego nie chciał, dla samego zła. Z takich chwil zbudował naukę o woli wykrzywionej od wewnątrz — o grzechu pierworodnym — która przez tysiąc lat kształtowała myśl Zachodu."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Augustine, Confessions II.4.9",
+            "ru": "Августин, «Исповедь», II.4.9",
+            "uk": "Августин, «Сповідь», II.4.9",
+            "pl": "Augustyn, Wyznania II.4.9"
+          },
+          "quotes": {
+            "en": {
+              "edition": "confessions.en.pilkington",
+              "from": "2.4.9",
+              "to": "2.4.9",
+              "text": "Yet had I a desire to commit robbery, and did so, compelled neither by hunger, nor poverty through a distaste for well-doing, and a lustiness of iniquity. For I pilfered that of which I had already sufficient, and much better. Nor did I desire to enjoy what I pilfered, but the theft and sin itself.",
+              "kind": "Free",
+              "translator": "J. G. Pilkington"
+            },
+            "ru": {
+              "edition": "confessions.ru.ours",
+              "from": "2.4.9",
+              "to": "2.4.9",
+              "text": "И всё же я пожелал совершить кражу и совершил её, гонимый не голодом и не бедностью, а отвращением к добру и пресыщенностью злом. Ибо я украл то, что у меня было в достатке, и куда лучшее. И наслаждаться я хотел не украденным, а самой кражей и грехом.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "confessions.uk.ours",
+              "from": "2.4.9",
+              "to": "2.4.9",
+              "text": "І все ж я забажав учинити крадіжку і вчинив її, гнаний не голодом і не бідністю, а відразою до добра і пересиченістю злом. Бо я вкрав те, чого мав досить, і набагато кращого. І втішатися хотів не вкраденим, а самою крадіжкою і гріхом.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "confessions.pl.ours",
+              "from": "2.4.9",
+              "to": "2.4.9",
+              "text": "A jednak zapragnąłem dokonać kradzieży i dokonałem jej, nie przymuszony głodem ani ubóstwem, lecz wstrętem do dobra i przesytem nieprawości. Ukradłem bowiem to, czego miałem dość, i to znacznie lepszego. I nie tym, co ukradłem, chciałem się cieszyć, lecz samą kradzieżą i grzechem.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/Confessiones/Liber_Secundus"
+          }
+        },
+        {
+          "by": {
+            "en": "The same paragraph",
+            "ru": "Тот же абзац",
+            "uk": "Той самий абзац",
+            "pl": "Ten sam akapit"
+          },
+          "quotes": {
+            "en": {
+              "edition": "confessions.en.pilkington",
+              "from": "2.4.9",
+              "to": "2.4.9",
+              "text": "It was foul, and I loved it. I loved to perish. I loved my own error—not that for which I erred, but the error itself.",
+              "kind": "Free",
+              "translator": "J. G. Pilkington"
+            },
+            "ru": {
+              "edition": "confessions.ru.ours",
+              "from": "2.4.9",
+              "to": "2.4.9",
+              "text": "Это было мерзко — и я любил это. Я любил свою гибель. Я любил своё падение — не то, ради чего падал, а само падение.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "confessions.uk.ours",
+              "from": "2.4.9",
+              "to": "2.4.9",
+              "text": "Це було мерзенно — і я любив це. Я любив свою загибель. Я любив своє падіння — не те, заради чого падав, а саме падіння.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "confessions.pl.ours",
+              "from": "2.4.9",
+              "to": "2.4.9",
+              "text": "Było to szpetne — a ja to kochałem. Kochałem swoją zgubę. Kochałem swój upadek — nie to, dla czego upadałem, lecz sam upadek.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/Confessiones/Liber_Secundus"
+          }
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Hobbes: the war of all against all",
+        "ru": "Гоббс: война всех против всех",
+        "uk": "Гоббс: війна всіх проти всіх",
+        "pl": "Hobbes: wojna wszystkich przeciw wszystkim"
+      },
+      "intro": {
+        "en": "England, 1651, after a civil war. Thomas Hobbes asks: what would our life be with no power over us that we all fear?",
+        "ru": "Англия, 1651 год, после гражданской войны. Томас Гоббс спрашивает: какой была бы наша жизнь без власти над нами, которой мы все боимся?",
+        "uk": "Англія, 1651 рік, після громадянської війни. Томас Гоббс питає: яким було б наше життя без влади над нами, якої ми всі боїмося?",
+        "pl": "Anglia, 1651 rok, po wojnie domowej. Thomas Hobbes pyta: jakie byłoby nasze życie bez władzy nad nami, której wszyscy się boimy?"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Thomas Hobbes, Leviathan 13.9",
+            "ru": "Томас Гоббс, «Левиафан», 13.9",
+            "uk": "Томас Гоббс, «Левіафан», 13.9",
+            "pl": "Thomas Hobbes, Lewiatan 13.9"
+          },
+          "quotes": {
+            "en": {
+              "edition": "leviathan.en",
+              "from": "13.9",
+              "to": "13.9",
+              "text": "In such condition, there is no place for Industry; because the fruit thereof is uncertain: and consequently no Culture of the Earth; no Navigation, nor use of the commodities that may be imported by Sea; no commodious Building; no Instruments of moving, and removing such things as require much force; no Knowledge of the face of the Earth; no account of Time; no Arts; no Letters; no Society; and which is worst of all, continuall feare, and danger of violent death; And the life of man, solitary, poore, nasty, brutish, and short.",
+              "kind": "Original",
+              "translator": null
+            },
+            "ru": {
+              "edition": "leviathan.ru.ours",
+              "from": "13.9",
+              "to": "13.9",
+              "text": "В таком состоянии нет места трудолюбию, ибо плоды его ненадёжны; а следовательно, нет земледелия, нет мореплавания и ввоза товаров морем, нет удобных построек, нет орудий, чтобы двигать и перемещать то, что требует большой силы, нет знания лица земли, нет счёта времени, нет искусств, нет письменности, нет общества; и, что хуже всего, есть вечный страх и опасность насильственной смерти; и жизнь человека одинока, бедна, отвратительна, жестока и коротка.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "leviathan.uk.ours",
+              "from": "13.9",
+              "to": "13.9",
+              "text": "У такому стані немає місця працьовитості, бо плоди її непевні; а отже, немає землеробства, немає мореплавства й довезення товарів морем, немає зручних будівель, немає знарядь, щоб рухати й переміщати те, що потребує великої сили, немає знання лиця землі, немає ліку часу, немає мистецтв, немає письменства, немає суспільства; і, що найгірше, є вічний страх і небезпека насильницької смерті; і життя людини самотнє, бідне, огидне, жорстоке й коротке.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "leviathan.pl.ours",
+              "from": "13.9",
+              "to": "13.9",
+              "text": "W takim stanie nie ma miejsca na pracowitość, bo jej owoce są niepewne; a zatem nie ma uprawy ziemi, nie ma żeglugi ani przywozu towarów morzem, nie ma wygodnych budowli, nie ma narzędzi do poruszania i przenoszenia tego, co wymaga wielkiej siły, nie ma wiedzy o obliczu ziemi, nie ma rachuby czasu, nie ma sztuk, nie ma piśmiennictwa, nie ma społeczeństwa; i co najgorsze, jest nieustanny strach i niebezpieczeństwo gwałtownej śmierci; a życie człowieka jest samotne, ubogie, podłe, zwierzęce i krótkie.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "Leviathan 13.10",
+            "ru": "«Левиафан», 13.10",
+            "uk": "«Левіафан», 13.10",
+            "pl": "Lewiatan 13.10"
+          },
+          "quotes": {
+            "en": {
+              "edition": "leviathan.en",
+              "from": "13.10",
+              "to": "13.10",
+              "text": "Let him therefore consider with himselfe, when taking a journey, he armes himselfe, and seeks to go well accompanied; when going to sleep, he locks his dores; when even in his house he locks his chests; and this when he knowes there bee Lawes, and publike Officers, armed, to revenge all injuries shall bee done him; what opinion he has of his fellow subjects, when he rides armed; of his fellow Citizens, when he locks his dores; and of his children, and servants, when he locks his chests. Does he not there as much accuse mankind by his actions, as I do by my words? But neither of us accuse mans nature in it.",
+              "kind": "Original",
+              "translator": null
+            },
+            "ru": {
+              "edition": "leviathan.ru.ours",
+              "from": "13.10",
+              "to": "13.10",
+              "text": "Пусть же он подумает о себе: отправляясь в путь, он вооружается и старается ехать в хорошем сопровождении; ложась спать, запирает двери; даже у себя дома запирает сундуки — и это зная, что есть законы и вооружённые должностные лица, чтобы отомстить за всякую причинённую ему обиду. Какого же он мнения о своих согражданах, если ездит вооружённым; о своих соседях, если запирает двери; о своих детях и слугах, если запирает сундуки? Разве не обвиняет он человечество своими поступками так же, как я — своими словами? Но ни он, ни я не обвиняем в этом природу человека.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "leviathan.uk.ours",
+              "from": "13.10",
+              "to": "13.10",
+              "text": "Хай же він подумає про себе: вирушаючи в дорогу, він озброюється і намагається їхати в доброму супроводі; лягаючи спати, замикає двері; навіть у себе вдома замикає скрині — і це знаючи, що є закони й озброєні урядовці, щоб помститися за всяку заподіяну йому кривду. Якої ж він думки про своїх співгромадян, якщо їздить озброєним; про своїх сусідів, якщо замикає двері; про своїх дітей і слуг, якщо замикає скрині? Хіба не звинувачує він людство своїми вчинками так само, як я — своїми словами? Але ні він, ні я не звинувачуємо в цьому природу людини.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "leviathan.pl.ours",
+              "from": "13.10",
+              "to": "13.10",
+              "text": "Niech więc rozważy sam ze sobą: wyruszając w podróż, uzbraja się i stara się jechać w dobrym towarzystwie; idąc spać, zamyka drzwi; nawet we własnym domu zamyka skrzynie — i to wiedząc, że istnieją prawa i uzbrojeni urzędnicy, by pomścić każdą wyrządzoną mu krzywdę. Jakie zdanie ma o swoich współobywatelach, skoro jeździ uzbrojony; o swoich sąsiadach, skoro zamyka drzwi; o swoich dzieciach i sługach, skoro zamyka skrzynie? Czyż nie oskarża on ludzkości swoimi czynami tak samo, jak ja moimi słowami? Lecz ani on, ni ja nie oskarżamy tym natury człowieka.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "think": "nature",
+      "question": {
+        "en": "Remember a time you did something good that no one would ever know about. Where did it come from — your nature, your upbringing, or your own choice?",
+        "ru": "Вспомните, как вы сделали что-то доброе, о чём никто никогда не узнает. Откуда это взялось — из вашей природы, из воспитания или из вашего собственного выбора?",
+        "uk": "Згадайте, як ви зробили щось добре, про що ніхто ніколи не дізнається. Звідки це взялося — з вашої природи, з виховання чи з вашого власного вибору?",
+        "pl": "Przypomnij sobie, jak zrobiłeś coś dobrego, o czym nikt nigdy się nie dowie. Skąd to się wzięło — z twojej natury, z wychowania czy z twojego własnego wyboru?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: is human nature good?",
+        "ru": "А теперь: добра ли природа человека?",
+        "uk": "А тепер: чи добра природа людини?",
+        "pl": "A teraz: czy natura człowieka jest dobra?"
+      }
+    }
+  ]
+}
