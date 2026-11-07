@@ -164,6 +164,26 @@
             "url": "https://suttacentral.net/sn22.59/pli/ms"
           }
         }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Tradition places this teaching in the Deer Park at Isipatana — Sarnath, near Varanasi. The sutta ends with all five listeners freed.",
+            "ru": "Предание помещает это поучение в Олений парк в Исипатане — Сарнатх близ Варанаси. Сутта кончается тем, что все пятеро слушателей освобождаются.",
+            "uk": "Переказ розміщує це повчання в Олениному парку в Ісіпатані — Сарнатх біля Варанасі. Сутта закінчується тим, що всі п'ятеро слухачів звільняються.",
+            "pl": "Tradycja umieszcza to nauczanie w Gaju Jeleni w Isipatanie — Sarnath koło Waranasi. Sutta kończy się tym, że cała piątka słuchaczy zostaje wyzwolona."
+          },
+          "source": "Saṃyutta Nikāya 22.59; Vinaya, Mahāvagga 1.6"
+        },
+        {
+          "fact": {
+            "en": "The Buddha's dates are uncertain: scholars place his death around 480 BC, or nearer 400 BC.",
+            "ru": "Даты жизни Будды неточны: учёные относят его смерть примерно к 480 году до н. э. или ближе к 400 году.",
+            "uk": "Дати життя Будди неточні: учені відносять його смерть приблизно до 480 року до н. е. або ближче до 400 року.",
+            "pl": "Daty życia Buddy są niepewne: uczeni umieszczają jego śmierć około 480 roku p.n.e. albo bliżej 400 roku."
+          },
+          "source": "H. Bechert (ed.), The Dating of the Historical Buddha (1991–1997)"
+        }
       ]
     },
     {
@@ -231,6 +251,26 @@
             "url": "https://sa.wikisource.org/wiki/छान्दोग्योपनिषद्/अध्यायः_६"
           }
         }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The Chāndogya is one of the oldest Upanishads, usually dated to the seventh or sixth century BC — before the Buddha.",
+            "ru": "«Чхандогья» — одна из древнейших упанишад; её обычно датируют VII или VI веком до н. э., то есть временем до Будды.",
+            "uk": "«Чгандоґ'я» — одна з найдавніших упанішад; її зазвичай датують VII або VI століттям до н. е., тобто часом до Будди.",
+            "pl": "Czandogja to jedna z najstarszych upaniszad, zwykle datowana na VII lub VI wiek p.n.e. — przed Buddą."
+          },
+          "source": "Patrick Olivelle, The Early Upanishads (1998), Introduction"
+        },
+        {
+          "fact": {
+            "en": "Europe first read the Upanishads in a Latin translation of a Persian one (Anquetil-Duperron, 1801–1802). Schopenhauer called them the consolation of his life and of his death.",
+            "ru": "Европа впервые прочла упанишады в латинском переводе с персидского (Анкетиль-Дюперрон, 1801–1802). Шопенгауэр называл их утешением своей жизни и своей смерти.",
+            "uk": "Європа вперше прочитала упанішади в латинському перекладі з перської (Анкетіль-Дюперрон, 1801–1802). Шопенгауер називав їх розрадою свого життя і своєї смерті.",
+            "pl": "Europa po raz pierwszy przeczytała upaniszady w łacińskim przekładzie z perskiego (Anquetil-Duperron, 1801–1802). Schopenhauer nazywał je pociechą swojego życia i swojej śmierci."
+          },
+          "source": "Arthur Schopenhauer, Parerga and Paralipomena II (1851), §185"
+        }
       ]
     },
     {
@@ -296,7 +336,27 @@
         "uk": "Дерек Парфіт прославив цю машину в книжці «Підстави і особи» (1984). Його висновок, нашими словами: важить не тотожність особи, а те, що тривають пам'ять, наміри і характер. Він писав, що, побачивши це, став менше думати про власну смерть і більше — про життя інших.",
         "pl": "Derek Parfit rozsławił tę maszynę w książce Racje i osoby (1984). Jego wniosek, naszymi słowami: nie liczy się tożsamość osoby, lecz to, że trwają pamięć, zamiary i charakter. Pisał, że gdy to zobaczył, mniej myślał o własnej śmierci, a więcej o życiu innych."
       },
-      "cited": []
+      "cited": [],
+      "context": [
+        {
+          "fact": {
+            "en": "Derek Parfit set out the teleporter case in Reasons and Persons (1984). His conclusion: personal identity is not what matters — psychological continuity is.",
+            "ru": "Дерек Парфит изложил случай с телепортом в книге «Причины и личности» (1984). Его вывод: важна не личная тождественность, а психологическая непрерывность.",
+            "uk": "Дерек Парфіт виклав випадок із телепортом у книжці «Причини й особи» (1984). Його висновок: важить не особова тотожність, а психологічна неперервність.",
+            "pl": "Derek Parfit przedstawił przypadek teleportu w książce Reasons and Persons (1984). Jego wniosek: liczy się nie tożsamość osobowa, lecz ciągłość psychiczna."
+          },
+          "source": "Derek Parfit, Reasons and Persons (1984), Part Three"
+        },
+        {
+          "fact": {
+            "en": "The puzzle is old: Plutarch tells that the Athenians kept the ship of Theseus for centuries, replacing its rotten planks, and philosophers argued whether it was still the same ship.",
+            "ru": "Загадка давняя: Плутарх рассказывает, что афиняне веками хранили корабль Тесея, заменяя сгнившие доски, и философы спорили, тот ли это ещё корабль.",
+            "uk": "Загадка давня: Плутарх розповідає, що афіняни століттями зберігали корабель Тесея, замінюючи згнилі дошки, і філософи сперечалися, чи це ще той самий корабель.",
+            "pl": "Zagadka jest stara: Plutarch opowiada, że Ateńczycy przez wieki przechowywali okręt Tezeusza, wymieniając zbutwiałe deski, a filozofowie spierali się, czy to wciąż ten sam okręt."
+          },
+          "source": "Plutarch, Life of Theseus 23.1"
+        }
+      ]
     },
     {
       "read": {
@@ -362,6 +422,26 @@
             },
             "url": "https://la.wikisource.org/wiki/Meditationes_de_prima_philosophia_(Adam_et_Tannery)/Meditatio_II"
           }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Descartes wrote the Meditations in Latin in the Dutch Republic, his home for some twenty years. They came out in 1641 with objections by Hobbes, Gassendi, Arnauld and others — and his replies.",
+            "ru": "Декарт написал «Размышления» на латыни в Голландской республике, где прожил около двадцати лет. Они вышли в 1641 году вместе с возражениями Гоббса, Гассенди, Арно и других — и его ответами.",
+            "uk": "Декарт написав «Роздуми» латиною в Голландській республіці, де прожив близько двадцяти років. Вони вийшли 1641 року разом із запереченнями Гоббса, Гассенді, Арно та інших — і його відповідями.",
+            "pl": "Kartezjusz napisał Medytacje po łacinie w Republice Niderlandów, gdzie mieszkał około dwudziestu lat. Ukazały się w 1641 roku wraz z zarzutami Hobbesa, Gassendiego, Arnaulda i innych — i jego odpowiedziami."
+          },
+          "source": "Œuvres de Descartes, ed. Adam and Tannery, vol. VII (1904)"
+        },
+        {
+          "fact": {
+            "en": "He died in Stockholm in February 1650, a few months after Queen Christina had invited him to teach her.",
+            "ru": "Он умер в Стокгольме в феврале 1650 года, через несколько месяцев после того, как королева Кристина пригласила его стать её учителем.",
+            "uk": "Він помер у Стокгольмі в лютому 1650 року, за кілька місяців після того, як королева Христина запросила його стати її вчителем.",
+            "pl": "Zmarł w Sztokholmie w lutym 1650 roku, kilka miesięcy po tym, jak królowa Krystyna zaprosiła go, by ją uczył."
+          },
+          "source": "Adrien Baillet, La Vie de Monsieur Des-Cartes (1691)"
         }
       ]
     },
@@ -462,6 +542,26 @@
               "translator": "Elysion (draft)"
             }
           }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The Treatise sold badly: Hume later wrote that it “fell dead-born from the press”.",
+            "ru": "«Трактат» почти не раскупали: позже Юм писал, что он «вышел из печати мертворождённым».",
+            "uk": "«Трактат» майже не купували: згодом Юм писав, що він «вийшов із друку мертвонародженим».",
+            "pl": "Traktat prawie się nie sprzedawał: Hume pisał później, że „wyszedł spod prasy martwo urodzony”."
+          },
+          "source": "David Hume, My Own Life (1776)"
+        },
+        {
+          "fact": {
+            "en": "He recast its first book as the shorter Enquiry concerning Human Understanding (1748) — the book Kant said woke him from his “dogmatic slumber”.",
+            "ru": "Он переработал его первую книгу в более короткое «Исследование о человеческом познании» (1748) — ту книгу, что, по словам Канта, пробудила его от «догматического сна».",
+            "uk": "Він переробив його першу книгу на коротше «Дослідження про людське пізнання» (1748) — ту книгу, що, за словами Канта, пробудила його від «догматичного сну».",
+            "pl": "Przerobił jego pierwszą księgę na krótsze Badania dotyczące rozumu ludzkiego (1748) — książkę, która, jak mówił Kant, zbudziła go z „dogmatycznej drzemki”."
+          },
+          "source": "Immanuel Kant, Prolegomena (1783), Preface"
         }
       ]
     },
@@ -580,6 +680,35 @@
             },
             "url": "https://zh.wikisource.org/wiki/六祖大師法寶壇經"
           }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The Platform Sūtra says Huineng was an illiterate seller of firewood from the south. In the monastery he pounded rice, and he asked someone else to write his verse on the wall.",
+            "ru": "«Сутра помоста» говорит, что Хуэйнэн был неграмотным продавцом дров с юга. В монастыре он толок рис, а свой стих попросил написать на стене другого.",
+            "uk": "«Сутра помосту» каже, що Хуейнен був неписьменним продавцем дров із півдня. У монастирі він товк рис, а свій вірш попросив написати на стіні іншого.",
+            "pl": "Sutra Podestu mówi, że Huineng był niepiśmiennym sprzedawcą drewna z południa. W klasztorze tłukł ryż, a swój wiersz poprosił kogoś innego, by napisał na ścianie."
+          },
+          "source": "The Platform Sūtra, ch. 1"
+        },
+        {
+          "fact": {
+            "en": "Hongren, the fifth patriarch, gave him the robe and bowl at night, in secret, and sent him south: he became the sixth patriarch of Chan — in Japanese, Zen.",
+            "ru": "Пятый патриарх Хунжэнь ночью, тайно, передал ему рясу и чашу и отослал на юг: он стал шестым патриархом чань — по-японски дзэн.",
+            "uk": "П'ятий патріарх Хунжень уночі, таємно, передав йому рясу й чашу і відіслав на південь: він став шостим патріархом чань — японською дзен.",
+            "pl": "Piąty patriarcha Hongren nocą, potajemnie, przekazał mu szatę i miskę i odesłał go na południe: został szóstym patriarchą chan — po japońsku zen."
+          },
+          "source": "The Platform Sūtra, ch. 1"
+        },
+        {
+          "fact": {
+            "en": "An older copy of the sūtra, found in the sealed library cave at Dunhuang (opened in 1900), gives Huineng's verse differently from the Zongbao edition of 1291 quoted here.",
+            "ru": "Более старый список сутры, найденный в замурованной пещере-библиотеке в Дуньхуане (вскрыта в 1900 году), передаёт стих Хуэйнэна иначе, чем цитируемое здесь издание Цзунбао 1291 года.",
+            "uk": "Давніший список сутри, знайдений у замурованій печері-бібліотеці в Дуньхуані (відкрита 1900 року), передає вірш Хуейнена інакше, ніж цитоване тут видання Цзунбао 1291 року.",
+            "pl": "Starszy odpis sutry, znaleziony w zamurowanej grocie-bibliotece w Dunhuangu (otwartej w 1900 roku), podaje wiersz Huinenga inaczej niż cytowane tu wydanie Zongbao z 1291 roku."
+          },
+          "source": "Philip B. Yampolsky, The Platform Sutra of the Sixth Patriarch (1967)"
         }
       ]
     },

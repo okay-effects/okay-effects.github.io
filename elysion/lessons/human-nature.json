@@ -164,6 +164,26 @@
             "url": "https://zh.wikisource.org/wiki/孟子/告子上"
           }
         }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Tradition says his mother moved house three times — away from a graveyard, away from a market — until they lived beside a school.",
+            "ru": "Предание говорит, что его мать трижды меняла жильё — подальше от кладбища, подальше от рынка, — пока они не поселились рядом со школой.",
+            "uk": "Переказ каже, що його мати тричі змінювала житло — подалі від цвинтаря, подалі від ринку, — доки вони не оселилися поруч зі школою.",
+            "pl": "Tradycja mówi, że jego matka trzy razy zmieniała dom — z dala od cmentarza, z dala od targu — aż zamieszkali obok szkoły."
+          },
+          "source": "Liu Xiang, Biographies of Exemplary Women 1.11"
+        },
+        {
+          "fact": {
+            "en": "Zhu Xi made the Mencius one of the Four Books (1190); from 1313 to 1905 they were the core of China's civil-service examinations.",
+            "ru": "Чжу Си включил «Мэн-цзы» в Четверокнижие (1190); с 1313 по 1905 год эти книги были основой государственных экзаменов в Китае.",
+            "uk": "Чжу Сі включив «Мен-цзи» до Чотирикнижжя (1190); з 1313 по 1905 рік ці книги були основою державних іспитів у Китаї.",
+            "pl": "Zhu Xi włączył Mencjusza do Czteroksięgu (1190); od 1313 do 1905 roku księgi te były podstawą chińskich egzaminów urzędniczych."
+          },
+          "source": "Benjamin A. Elman, A Cultural History of Civil Examinations in Late Imperial China (2000)"
+        }
       ]
     },
     {
@@ -332,6 +352,26 @@
             },
             "url": "https://zh.wikisource.org/wiki/荀子/性惡篇"
           }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Two of Xunzi's students, Han Fei and Li Si, became masters of Legalism; Li Si became chancellor of Qin, the state that unified China in 221 BC.",
+            "ru": "Двое учеников Сюнь-цзы, Хань Фэй и Ли Сы, стали мастерами легизма; Ли Сы стал канцлером царства Цинь, объединившего Китай в 221 году до н. э.",
+            "uk": "Двоє учнів Сюнь-цзи, Хань Фей і Лі Си, стали майстрами легізму; Лі Си став канцлером царства Цінь, що об'єднало Китай 221 року до н. е.",
+            "pl": "Dwaj uczniowie Xunziego, Han Fei i Li Si, stali się mistrzami legizmu; Li Si został kanclerzem państwa Qin, które zjednoczyło Chiny w 221 roku p.n.e."
+          },
+          "source": "Sima Qian, Records of the Grand Historian, ch. 63 and 87"
+        },
+        {
+          "fact": {
+            "en": "His word for what is made, 偽 (wei), is written with “person” beside “to make”; the commentator Yang Liang pointed this out in 818.",
+            "ru": "Его слово для сделанного, 偽 (вэй), пишется знаком «человек» рядом со знаком «делать»; на это указал комментатор Ян Лян в 818 году.",
+            "uk": "Його слово для зробленого, 偽 (вей), пишеться знаком «людина» поруч зі знаком «робити»; на це вказав коментатор Ян Лян 818 року.",
+            "pl": "Jego słowo na to, co zrobione, 偽 (wei), pisze się znakiem „człowiek” obok znaku „robić”; wskazał na to komentator Yang Liang w 818 roku."
+          },
+          "source": "Yang Liang, commentary on Xunzi, ch. 23 (818)"
         }
       ]
     },
@@ -515,6 +555,26 @@
             "url": "https://la.wikisource.org/wiki/Confessiones/Liber_Secundus"
           }
         }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "His mother Monica was a Christian; his father Patricius was baptised only near his death. Augustine himself was baptised in Milan in 387, by Ambrose.",
+            "ru": "Его мать Моника была христианкой; отец Патриций крестился лишь перед смертью. Сам Августин принял крещение в Милане в 387 году от Амвросия.",
+            "uk": "Його мати Моніка була християнкою; батько Патрицій охрестився лише перед смертю. Сам Августин прийняв хрещення в Мілані 387 року від Амвросія.",
+            "pl": "Jego matka Monika była chrześcijanką; ojciec Patrycjusz ochrzcił się dopiero przed śmiercią. Sam Augustyn przyjął chrzest w Mediolanie w 387 roku z rąk Ambrożego."
+          },
+          "source": "Augustine, Confessions 9.6, 9.9"
+        },
+        {
+          "fact": {
+            "en": "He wrote the Confessions around 397–400, as bishop of Hippo; they are often called the first autobiography of the West. He died in 430, while the Vandals besieged his city.",
+            "ru": "Он написал «Исповедь» около 397–400 годов, будучи епископом Гиппона; её часто называют первой автобиографией Запада. Он умер в 430 году, когда вандалы осаждали его город.",
+            "uk": "Він написав «Сповідь» близько 397–400 років, бувши єпископом Гіппона; її часто називають першою автобіографією Заходу. Він помер 430 року, коли вандали облягали його місто.",
+            "pl": "Napisał Wyznania około 397–400 roku jako biskup Hippony; często nazywa się je pierwszą autobiografią Zachodu. Zmarł w 430 roku, gdy Wandalowie oblegali jego miasto."
+          },
+          "source": "Peter Brown, Augustine of Hippo (1967); Possidius, Life of Augustine 28–31"
+        }
       ]
     },
     {
@@ -614,6 +674,35 @@
               "translator": "Elysion (draft)"
             }
           }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Hobbes was born in 1588, early, he said, because his mother took fright at news of the Spanish Armada: “fear and I were born twins”.",
+            "ru": "Гоббс родился в 1588 году раньше срока — по его словам, потому что мать испугалась вестей о Непобедимой армаде: «страх и я родились близнецами».",
+            "uk": "Гоббс народився 1588 року передчасно — за його словами, бо мати злякалася звісток про Непереможну армаду: «страх і я народилися близнюками».",
+            "pl": "Hobbes urodził się w 1588 roku przedwcześnie — jak mówił, bo matka przelękła się wieści o Wielkiej Armadzie: „strach i ja urodziliśmy się bliźniętami”."
+          },
+          "source": "Thomas Hobbes, Vita, his autobiography in Latin verse (1679)"
+        },
+        {
+          "fact": {
+            "en": "He wrote Leviathan in exile in Paris, where he had taught mathematics to the future King Charles II.",
+            "ru": "Он написал «Левиафана» в изгнании в Париже, где учил математике будущего короля Карла II.",
+            "uk": "Він написав «Левіафана» у вигнанні в Парижі, де навчав математики майбутнього короля Карла II.",
+            "pl": "Napisał Lewiatana na wygnaniu w Paryżu, gdzie uczył matematyki przyszłego króla Karola II."
+          },
+          "source": "John Aubrey, Brief Lives (ed. A. Clark, 1898)"
+        },
+        {
+          "fact": {
+            "en": "Its famous title page shows a crowned giant whose body is made of hundreds of small people.",
+            "ru": "На его знаменитом титульном листе — коронованный великан, чьё тело состоит из сотен маленьких людей.",
+            "uk": "На його знаменитому титульному аркуші — коронований велетень, чиє тіло складається із сотень маленьких людей.",
+            "pl": "Na jego słynnej karcie tytułowej widnieje ukoronowany olbrzym, którego ciało składa się z setek małych ludzi."
+          },
+          "source": "Leviathan (1651), the engraved title page by Abraham Bosse"
         }
       ]
     },

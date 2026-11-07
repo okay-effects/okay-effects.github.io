@@ -164,6 +164,35 @@
             "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0557.tlg002.perseus-grc2:1/"
           }
         }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "His master was Epaphroditus, a freedman in Nero's service. Epictetus was lame; one ancient story says his master twisted his leg until it broke.",
+            "ru": "Его хозяином был Эпафродит, вольноотпущенник на службе Нерона. Эпиктет хромал; по одному древнему рассказу, хозяин выкручивал ему ногу, пока не сломал.",
+            "uk": "Його господарем був Епафродит, вільновідпущеник на службі Нерона. Епіктет кульгав; за одним давнім переказом, господар викручував йому ногу, доки не зламав.",
+            "pl": "Jego panem był Epafrodyt, wyzwoleniec w służbie Nerona. Epiktet kulał; według jednej starożytnej opowieści pan wykręcał mu nogę, aż ją złamał."
+          },
+          "source": "Origen, Against Celsus 7.53"
+        },
+        {
+          "fact": {
+            "en": "When the emperor Domitian expelled the philosophers from Rome, around 93, Epictetus went to Nicopolis in western Greece and taught there for the rest of his life.",
+            "ru": "Когда император Домициан изгнал философов из Рима (около 93 года), Эпиктет переселился в Никополь на западе Греции и учил там до конца жизни.",
+            "uk": "Коли імператор Доміціан вигнав філософів із Риму (близько 93 року), Епіктет переселився до Нікополя на заході Греції і навчав там до кінця життя.",
+            "pl": "Gdy cesarz Domicjan wygnał filozofów z Rzymu (około 93 roku), Epiktet przeniósł się do Nikopolis w zachodniej Grecji i nauczał tam do końca życia."
+          },
+          "source": "Aulus Gellius, Attic Nights 15.11"
+        },
+        {
+          "fact": {
+            "en": "The emperor Marcus Aurelius, a Stoic, thanks his teacher Rusticus for lending him the discourses of Epictetus.",
+            "ru": "Император-стоик Марк Аврелий благодарит своего учителя Рустика за то, что тот дал ему прочесть беседы Эпиктета.",
+            "uk": "Імператор-стоїк Марк Аврелій дякує своєму вчителеві Рустикові за те, що той дав йому прочитати бесіди Епіктета.",
+            "pl": "Cesarz-stoik Marek Aureliusz dziękuje swemu nauczycielowi Rustykowi za to, że pożyczył mu rozmowy Epikteta."
+          },
+          "source": "Marcus Aurelius, Meditations 1.7"
+        }
       ]
     },
     {
@@ -282,6 +311,26 @@
             "url": "https://zh.wikisource.org/wiki/道德經"
           }
         }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Sima Qian tells that Laozi, a keeper of the Zhou archives, left for the west; at the pass a guard asked him for a book, and he wrote some five thousand characters.",
+            "ru": "Сыма Цянь рассказывает, что Лао-цзы, хранитель архивов Чжоу, ушёл на запад; на заставе страж попросил у него книгу, и он написал около пяти тысяч знаков.",
+            "uk": "Сима Цянь розповідає, що Лао-цзи, хранитель архівів Чжоу, пішов на захід; на заставі вартовий попросив у нього книжку, і він написав близько п'яти тисяч знаків.",
+            "pl": "Sima Qian opowiada, że Laozi, strażnik archiwów Zhou, odszedł na zachód; na przełęczy strażnik poprosił go o księgę, a on napisał około pięciu tysięcy znaków."
+          },
+          "source": "Sima Qian, Records of the Grand Historian, ch. 63"
+        },
+        {
+          "fact": {
+            "en": "The oldest known copies, on bamboo slips, were found in 1993 in a tomb at Guodian, closed around 300 BC.",
+            "ru": "Древнейшие известные списки, на бамбуковых планках, нашли в 1993 году в гробнице в Годяне, закрытой около 300 года до н. э.",
+            "uk": "Найдавніші відомі списки, на бамбукових планках, знайшли 1993 року в гробниці в Ґодяні, закритій близько 300 року до н. е.",
+            "pl": "Najstarsze znane odpisy, na bambusowych listewkach, znaleziono w 1993 roku w grobowcu w Guodian, zamkniętym około 300 roku p.n.e."
+          },
+          "source": "Guodian Chu Slips (Jingmen Museum, 1998)"
+        }
       ]
     },
     {
@@ -348,6 +397,26 @@
             },
             "url": "https://sa.wikisource.org/wiki/भगवद्गीता/साङ्ख्ययोगः"
           }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The Gītā is eighteen chapters inside the sixth book of the Mahābhārata, one of the longest poems ever composed.",
+            "ru": "Гита — это восемнадцать глав внутри шестой книги «Махабхараты», одной из самых длинных поэм в истории.",
+            "uk": "Ґіта — це вісімнадцять розділів усередині шостої книги «Магабгарати», однієї з найдовших поем в історії.",
+            "pl": "Gita to osiemnaście rozdziałów w szóstej księdze Mahabharaty, jednego z najdłuższych poematów w dziejach."
+          },
+          "source": "Mahābhārata, Bhīṣmaparvan 23–40"
+        },
+        {
+          "fact": {
+            "en": "In 1785 Charles Wilkins published the first English translation. Gandhi translated the Gītā into Gujarati as Anāsaktiyoga, “the yoga of non-attachment” (1930).",
+            "ru": "В 1785 году Чарльз Уилкинс издал первый английский перевод. Ганди перевёл Гиту на гуджарати под названием «Анасактийога» — «йога непривязанности» (1930).",
+            "uk": "1785 року Чарлз Вілкінс видав перший англійський переклад. Ганді переклав Ґіту гуджараті під назвою «Анасактійоґа» — «йога неприв'язаності» (1930).",
+            "pl": "W 1785 roku Charles Wilkins wydał pierwszy angielski przekład. Gandhi przełożył Gitę na gudżarati jako Anasaktijoga — „joga nieprzywiązania” (1930)."
+          },
+          "source": "Charles Wilkins, The Bhagvat-Geeta (London, 1785); M. K. Gandhi, Anāsaktiyoga (1930)"
         }
       ]
     },
@@ -479,6 +548,26 @@
             },
             "url": "https://la.wikisource.org/wiki/De_philosophiae_consolatione/Liber_Secundus"
           }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Boethius meant to put all of Plato and Aristotle into Latin; he finished part of Aristotle's logic, and until the twelfth century that was most of what the Latin West knew of Aristotle.",
+            "ru": "Боэций задумал перевести на латынь всего Платона и Аристотеля; он успел перевести часть логики Аристотеля, и до XII века латинский Запад знал Аристотеля в основном по ней.",
+            "uk": "Боецій задумав перекласти латиною всього Платона й Аристотеля; він устиг перекласти частину логіки Аристотеля, і до XII століття латинський Захід знав Аристотеля здебільшого з неї.",
+            "pl": "Boecjusz zamierzał przełożyć na łacinę całego Platona i Arystotelesa; zdążył przełożyć część logiki Arystotelesa i do XII wieku łaciński Zachód znał Arystotelesa głównie z niej."
+          },
+          "source": "John Marenbon, Boethius (2003)"
+        },
+        {
+          "fact": {
+            "en": "He was put to death in 524 or 525 under the Ostrogothic king Theodoric. His tomb is in the church of San Pietro in Ciel d'Oro in Pavia, and Dante places him among the wise in Paradise.",
+            "ru": "Его казнили в 524 или 525 году при остготском короле Теодорихе. Его гробница — в церкви Сан-Пьетро-ин-Чьель-д'Оро в Павии, а Данте помещает его среди мудрецов в Раю.",
+            "uk": "Його стратили 524 або 525 року за остготського короля Теодоріха. Його гробниця — у церкві Сан-П'єтро-ін-Чьєль-д'Оро в Павії, а Данте розміщує його серед мудреців у Раю.",
+            "pl": "Stracono go w 524 lub 525 roku za ostrogockiego króla Teodoryka. Jego grób jest w kościele San Pietro in Ciel d'Oro w Pawii, a Dante umieszcza go wśród mędrców w Raju."
+          },
+          "source": "Dante, Paradiso 10.124–129"
         }
       ]
     },

@@ -113,6 +113,35 @@
             "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg035.perseus-grc2:1.1253b/"
           }
         }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The self-moving tools Aristotle has in mind come from Homer: in the Iliad the smith-god Hephaestus makes golden tripods on wheels that roll by themselves to the gods' assembly and back.",
+            "ru": "Самодвижущиеся орудия Аристотель берёт у Гомера: в «Илиаде» бог-кузнец Гефест делает золотые треножники на колёсах, которые сами катятся на собрание богов и обратно.",
+            "uk": "Самохідні знаряддя Аристотель бере в Гомера: в «Іліаді» бог-коваль Гефест робить золоті триноги на колесах, що самі котяться на збори богів і назад.",
+            "pl": "Samoporuszające się narzędzia Arystoteles bierze od Homera: w Iliadzie bóg-kowal Hefajstos robi złote trójnogi na kółkach, które same toczą się na zgromadzenie bogów i z powrotem."
+          },
+          "source": "Homer, Iliad 18.373–377; Aristotle, Politics 1253b35"
+        },
+        {
+          "fact": {
+            "en": "Aristotle studied in Plato's Academy for twenty years, and later taught the young Alexander, the future conqueror.",
+            "ru": "Аристотель двадцать лет учился в Академии Платона, а позже был наставником юного Александра, будущего завоевателя.",
+            "uk": "Аристотель двадцять років навчався в Академії Платона, а згодом був наставником юного Олександра, майбутнього завойовника.",
+            "pl": "Arystoteles przez dwadzieścia lat studiował w Akademii Platona, a później uczył młodego Aleksandra, przyszłego zdobywcę."
+          },
+          "source": "Diogenes Laertius, Lives of the Eminent Philosophers 5.1–10"
+        },
+        {
+          "fact": {
+            "en": "Aristotle himself owned slaves. His will, preserved by Diogenes Laertius, frees several of them and orders that the servants who waited on him are not to be sold.",
+            "ru": "Сам Аристотель владел рабами. Его завещание, сохранённое Диогеном Лаэртским, отпускает нескольких из них на свободу и запрещает продавать слуг, которые ему прислуживали.",
+            "uk": "Сам Аристотель мав рабів. Його заповіт, збережений Діогеном Лаертським, відпускає кількох із них на волю і забороняє продавати слуг, які йому прислуговували.",
+            "pl": "Sam Arystoteles miał niewolników. Jego testament, zachowany przez Diogenesa Laertiosa, wyzwala kilku z nich i zakazuje sprzedawać sług, którzy mu usługiwali."
+          },
+          "source": "Diogenes Laertius, Lives of the Eminent Philosophers 5.11–16"
+        }
       ]
     },
     {
@@ -277,6 +306,35 @@
             }
           }
         }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The stocking frame was not new: William Lee had invented it in 1589. What the Luddites fought were wide frames and cheap “cut-up” stockings that undercut skilled work, and falling pay.",
+            "ru": "Чулочная машина не была новинкой: её изобрёл Уильям Ли ещё в 1589 году. Луддиты боролись с широкими станками и дешёвыми «кроеными» чулками, сбивавшими цену умелой работы, и с падением платы.",
+            "uk": "Панчішна машина не була новинкою: її винайшов Вільям Лі ще 1589 року. Луддити боролися з широкими верстатами й дешевими «кроєними» панчохами, що збивали ціну вмілої праці, і з падінням платні.",
+            "pl": "Krosno pończosznicze nie było nowością: wynalazł je William Lee już w 1589 roku. Luddyści walczyli z szerokimi krosnami i tanimi „krojonymi” pończochami, które psuły cenę fachowej pracy, oraz ze spadkiem płac."
+          },
+          "source": "E. P. Thompson, The Making of the English Working Class (1963), ch. 14"
+        },
+        {
+          "fact": {
+            "en": "“Ned Ludd”, or “General Ludd”, in whose name threatening letters were signed, never led them: he was a legend and a pen-name.",
+            "ru": "«Нед Лудд», или «генерал Лудд», чьим именем подписывали письма с угрозами, никогда ими не руководил: это легенда и псевдоним.",
+            "uk": "«Нед Лудд», або «генерал Лудд», чиїм ім'ям підписували листи з погрозами, ніколи ними не керував: це легенда й псевдонім.",
+            "pl": "„Ned Ludd”, czyli „generał Ludd”, którego imieniem podpisywano listy z pogróżkami, nigdy nimi nie dowodził: to legenda i pseudonim."
+          },
+          "source": "E. P. Thompson, The Making of the English Working Class (1963), ch. 14"
+        },
+        {
+          "fact": {
+            "en": "In 1812 Parliament made the breaking of frames a crime punishable by death. Byron, twenty-four, gave his first speech in the House of Lords against that bill — the speech quoted here.",
+            "ru": "В 1812 году парламент сделал поломку станков преступлением, караемым смертью. Двадцатичетырёхлетний Байрон произнёс против этого закона свою первую речь в палате лордов — ту, что цитируется здесь.",
+            "uk": "1812 року парламент зробив ламання верстатів злочином, що карається смертю. Двадцятичотирирічний Байрон виголосив проти цього закону свою першу промову в палаті лордів — ту, що цитується тут.",
+            "pl": "W 1812 roku parlament uczynił niszczenie krosien przestępstwem karanym śmiercią. Dwudziestoczteroletni Byron wygłosił przeciw tej ustawie swoje pierwsze przemówienie w Izbie Lordów — to, które tu cytujemy."
+          },
+          "source": "Hansard, House of Lords, 27 February 1812; the Frame Breaking Act 1812 (52 Geo. III c. 16)"
+        }
       ]
     },
     {
@@ -376,6 +434,35 @@
               "translator": "Elysion (draft)"
             }
           }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Wiener was a famous child prodigy: he entered college at eleven and took his doctorate at Harvard at eighteen.",
+            "ru": "Винер был знаменитым вундеркиндом: поступил в колледж в одиннадцать лет и получил докторскую степень в Гарварде в восемнадцать.",
+            "uk": "Вінер був знаменитим вундеркіндом: вступив до коледжу в одинадцять років і здобув докторський ступінь у Гарварді у вісімнадцять.",
+            "pl": "Wiener był słynnym cudownym dzieckiem: poszedł do college'u w wieku jedenastu lat, a doktorat na Harvardzie obronił w wieku osiemnastu."
+          },
+          "source": "Norbert Wiener, Ex-Prodigy (1953)"
+        },
+        {
+          "fact": {
+            "en": "He made the word “cybernetics” from the Greek kybernētēs, “steersman” — the root of the word “governor” too.",
+            "ru": "Слово «кибернетика» он составил из греческого kybernētēs — «кормчий»; от того же корня и слово «губернатор».",
+            "uk": "Слово «кібернетика» він склав із грецького kybernētēs — «керманич»; від того ж кореня і слово «губернатор».",
+            "pl": "Słowo „cybernetyka” utworzył z greckiego kybernētēs — „sternik”; z tego samego rdzenia jest słowo „gubernator”."
+          },
+          "source": "Norbert Wiener, Cybernetics (1948), Introduction"
+        },
+        {
+          "fact": {
+            "en": "In 1949 he wrote to Walter Reuther, head of the United Auto Workers, warning that the automatic factory would bring unemployment, and offering his help to labour.",
+            "ru": "В 1949 году он написал Уолтеру Рейтеру, главе профсоюза автомобильных рабочих, предупреждая, что автоматическая фабрика принесёт безработицу, и предлагая свою помощь рабочим.",
+            "uk": "1949 року він написав Волтерові Ройтеру, голові профспілки автомобільних робітників, застерігаючи, що автоматична фабрика принесе безробіття, і пропонуючи свою допомогу робітникам.",
+            "pl": "W 1949 roku napisał do Waltera Reuthera, przewodniczącego związku robotników przemysłu samochodowego, ostrzegając, że automatyczna fabryka przyniesie bezrobocie, i oferując pomoc robotnikom."
+          },
+          "source": "Norbert Wiener, letter to Walter Reuther, 13 August 1949 (Wiener papers, MIT)"
         }
       ]
     },
