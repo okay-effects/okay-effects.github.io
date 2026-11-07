@@ -1,0 +1,475 @@
+{
+  "id": "machines-and-work",
+  "title": {
+    "en": "Will machines take our work?",
+    "ru": "Отнимут ли машины нашу работу?",
+    "uk": "Чи заберуть машини нашу роботу?",
+    "pl": "Czy maszyny zabiorą nam pracę?"
+  },
+  "subtitle": {
+    "en": "Aristotle, a weaver of 1811, Lord Byron and Norbert Wiener — and you",
+    "ru": "Аристотель, ткач 1811 года, лорд Байрон и Норберт Винер — и вы",
+    "uk": "Аристотель, ткач 1811 року, лорд Байрон і Норберт Вінер — і ви",
+    "pl": "Arystoteles, tkacz z 1811 roku, lord Byron i Norbert Wiener — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: will machines take our work?",
+        "ru": "Прежде чем читать кого-либо: отнимут ли машины нашу работу?",
+        "uk": "Перш ніж читати когось: чи заберуть машини нашу роботу?",
+        "pl": "Zanim kogokolwiek przeczytasz: czy maszyny zabiorą nam pracę?"
+      },
+      "options": [
+        {
+          "en": "Yes — most of it, and soon",
+          "ru": "Да — бо́льшую часть, и скоро",
+          "uk": "Так — більшу частину, і скоро",
+          "pl": "Tak — większość, i to wkrótce"
+        },
+        {
+          "en": "Some of it — and new work will appear, as it always has",
+          "ru": "Часть — и появится новая работа, как было всегда",
+          "uk": "Частину — і з'явиться нова робота, як було завжди",
+          "pl": "Część — i pojawi się nowa praca, jak zawsze"
+        },
+        {
+          "en": "No — people will always be needed",
+          "ru": "Нет — люди будут нужны всегда",
+          "uk": "Ні — люди будуть потрібні завжди",
+          "pl": "Nie — ludzie zawsze będą potrzebni"
+        },
+        {
+          "en": "It depends on how we arrange society",
+          "ru": "Зависит от того, как мы устроим общество",
+          "uk": "Залежить від того, як ми влаштуємо суспільство",
+          "pl": "To zależy od tego, jak urządzimy społeczeństwo"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Aristotle imagines the machine",
+        "ru": "Аристотель придумывает машину",
+        "uk": "Аристотель уявляє машину",
+        "pl": "Arystoteles wyobraża sobie maszynę"
+      },
+      "intro": {
+        "en": "Athens, the fourth century before our era. Aristotle asks why a household needs slaves — and answers with a thought experiment: what if tools did their work by themselves?",
+        "ru": "Афины, IV век до нашей эры. Аристотель спрашивает, зачем дому рабы, — и отвечает мысленным экспериментом: а что, если бы орудия работали сами?",
+        "uk": "Афіни, IV століття до нашої ери. Аристотель питає, навіщо домові раби, — і відповідає мисленнєвим експериментом: а що, якби знаряддя працювали самі?",
+        "pl": "Ateny, IV wiek przed naszą erą. Arystoteles pyta, po co domowi niewolnicy — i odpowiada eksperymentem myślowym: a gdyby narzędzia pracowały same?"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Aristotle, Politics I, 1253b33–1254a1",
+            "ru": "Аристотель, «Политика», I, 1253b33–1254a1",
+            "uk": "Аристотель, «Політика», I, 1253b33–1254a1",
+            "pl": "Arystoteles, Polityka I, 1253b33–1254a1"
+          },
+          "quotes": {
+            "en": {
+              "edition": "politics.eng.rackham",
+              "from": "1253b33",
+              "to": "1254a1",
+              "text": "for if every tool could perform its own work when ordered, or by seeing what to do in advance, like the statues of Daedalus in the story, or the tripods of Hephaestus which the poet says ‘enter self-moved the company divine,’—if thus shuttles wove and quills played harps of themselves, master-craftsmen would have no need of assistants and masters no need of slaves.",
+              "kind": "Free",
+              "translator": "H. Rackham"
+            },
+            "ru": {
+              "edition": "politics.ru.zhebelev",
+              "from": "1253b33",
+              "to": "1254a1",
+              "text": "Если бы каждое орудие могло выполнять свойственную ему работу само, по данному ему приказанию или даже его предвосхищая, и уподоблялось бы статуям Дедала или треножникам Гефеста, о которых поэт говорит, что они «сами собой (aytomatoys) входили в собрание богов»; если бы ткацкие челноки сами ткали, а плектры сами играли на кифаре, тогда и зодчие не нуждались бы в работниках, а господам не нужны были бы рабы.",
+              "kind": "Free",
+              "translator": "С. А. Жебелёв"
+            },
+            "uk": {
+              "edition": "politics.uk.ours",
+              "from": "1253b33",
+              "to": "1254a1",
+              "text": "Бо якби кожне знаряддя могло само виконувати свою роботу — за наказом або навіть передбачаючи його, — як, кажуть, статуї Дедала чи триніжки Гефеста, що, за словами поета, «самі собою входять до зібрання богів», — якби так само човники самі ткали, а плектри самі грали на кіфарі, то майстрам не потрібні були б помічники, а господарям — раби.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "politics.pl.ours",
+              "from": "1253b33",
+              "to": "1254a1",
+              "text": "Gdyby bowiem każde narzędzie mogło samo wykonywać swoją pracę — na rozkaz albo nawet przewidując go — jak podobno posągi Dedala albo trójnogi Hefajstosa, które, jak mówi poeta, „same z siebie wchodzą na zgromadzenie bogów”, gdyby tak samo czółenka same tkały, a plektrony same grały na kitarze, wówczas ani mistrzowie nie potrzebowaliby pomocników, ani panowie niewolników.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "The same, in Aristotle's Greek",
+            "ru": "То же — по-гречески, словами Аристотеля",
+            "uk": "Те саме — грецькою, словами Аристотеля",
+            "pl": "To samo — po grecku, słowami Arystotelesa"
+          },
+          "quotes": {
+            "en": {
+              "edition": "politics.grc.ross",
+              "from": "1253b33",
+              "to": "1254a1",
+              "text": "οὕτως αἱ κερκίδες ἐκέρκιζον αὐταὶ καὶ τὰ πλῆκτρα ἐκιθάριζεν, οὐδὲν ἂν ἔδει οὔτε τοῖς ἀρχιτέκτοσιν ὑπηρετῶν οὔτε τοῖς δεσπόταις δούλων.",
+              "kind": "Original",
+              "translator": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Nottinghamshire, 1811",
+        "ru": "Ноттингемшир, 1811",
+        "uk": "Ноттінгемшир, 1811",
+        "pl": "Nottinghamshire, 1811"
+      },
+      "scene": {
+        "en": "You knit stockings on a frame, as your father did. New wide frames let one worker do what several did; the cloth is worse, but cheaper. Your wages have fallen, and your family is hungry. At night men who call themselves the army of “General Ludd” break the new frames. What do you do?",
+        "ru": "Вы вяжете чулки на станке, как и ваш отец. Новые широкие станки позволяют одному рабочему делать то, что делали несколько; ткань хуже, но дешевле. Ваш заработок упал, семья голодает. По ночам люди, называющие себя армией «генерала Лудда», ломают новые станки. Что вы сделаете?",
+        "uk": "Ви в'яжете панчохи на верстаті, як і ваш батько. Нові широкі верстати дають одному робітникові робити те, що робили кілька; тканина гірша, але дешевша. Ваш заробіток упав, родина голодує. Уночі люди, що звуть себе армією «генерала Лудда», ламають нові верстати. Що ви зробите?",
+        "pl": "Robisz pończochy na krosnach, jak twój ojciec. Nowe szerokie krosna pozwalają jednemu robotnikowi robić to, co robiło kilku; tkanina jest gorsza, ale tańsza. Twoje zarobki spadły, rodzina głoduje. Nocami ludzie, którzy nazywają siebie armią „generała Ludda”, niszczą nowe krosna. Co zrobisz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Join them and break the frames",
+            "ru": "Присоединиться к ним и ломать станки",
+            "uk": "Приєднатися до них і ламати верстати",
+            "pl": "Dołączyć do nich i niszczyć krosna"
+          },
+          "reply": {
+            "en": "Many did. It held the machines back for a while — and soon it became a matter of life and death.",
+            "ru": "Многие так и сделали. Это ненадолго задержало машины — и вскоре стало вопросом жизни и смерти.",
+            "uk": "Багато хто так і зробив. Це ненадовго затримало машини — і невдовзі стало питанням життя і смерті.",
+            "pl": "Wielu tak zrobiło. Na chwilę powstrzymało to maszyny — a wkrótce stało się sprawą życia i śmierci."
+          }
+        },
+        {
+          "choice": {
+            "en": "Petition Parliament to protect your wages",
+            "ru": "Просить парламент защитить заработок",
+            "uk": "Просити парламент захистити заробіток",
+            "pl": "Prosić parlament o ochronę zarobków"
+          },
+          "reply": {
+            "en": "The knitters did petition. Parliament would not set wages: the market was to decide.",
+            "ru": "Вязальщики подавали петиции. Парламент не стал устанавливать заработок: решать должен был рынок.",
+            "uk": "В'язальники подавали петиції. Парламент не став встановлювати заробіток: вирішувати мав ринок.",
+            "pl": "Dziewiarze składali petycje. Parlament nie chciał ustalać płac: miał o nich decydować rynek."
+          }
+        },
+        {
+          "choice": {
+            "en": "Learn to work the new frame",
+            "ru": "Научиться работать на новом станке",
+            "uk": "Навчитися працювати на новому верстаті",
+            "pl": "Nauczyć się pracy na nowych krosnach"
+          },
+          "reply": {
+            "en": "A few could. But the new frames needed fewer hands — that was the whole point of them.",
+            "ru": "Кое-кто смог. Но новым станкам нужно было меньше рук — в этом и был их смысл.",
+            "uk": "Дехто зміг. Але новим верстатам потрібно було менше рук — у цьому й був їхній сенс.",
+            "pl": "Niektórym się udało. Ale nowe krosna potrzebowały mniej rąk — o to właśnie w nich chodziło."
+          }
+        },
+        {
+          "choice": {
+            "en": "Leave for the factory towns, or across the sea",
+            "ru": "Уехать в фабричные города или за море",
+            "uk": "Поїхати до фабричних міст або за море",
+            "pl": "Wyjechać do miast fabrycznych albo za morze"
+          },
+          "reply": {
+            "en": "Over the following decades, very many did.",
+            "ru": "За следующие десятилетия так поступили очень многие.",
+            "uk": "Протягом наступних десятиліть так зробили дуже багато людей.",
+            "pl": "W następnych dziesięcioleciach zrobiło tak bardzo wielu."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "In February 1812 the government proposed to punish the breaking of frames by death. In the House of Lords a young poet spoke against it in his first speech there — Lord Byron. The bill became law in March 1812.",
+        "ru": "В феврале 1812 года правительство предложило карать поломку станков смертью. В Палате лордов против этого выступил в своей первой речи молодой поэт — лорд Байрон. Закон был принят в марте 1812 года.",
+        "uk": "У лютому 1812 року уряд запропонував карати ламання верстатів смертю. У Палаті лордів проти цього виступив у своїй першій промові молодий поет — лорд Байрон. Закон ухвалили в березні 1812 року.",
+        "pl": "W lutym 1812 roku rząd zaproponował karać niszczenie krosien śmiercią. W Izbie Lordów wystąpił przeciw temu w swoim pierwszym przemówieniu młody poeta — lord Byron. Ustawę przyjęto w marcu 1812 roku."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Lord Byron, House of Lords, 27 February 1812 (Hansard, col. 967)",
+            "ru": "Лорд Байрон, Палата лордов, 27 февраля 1812 (Хансард, стб. 967)",
+            "uk": "Лорд Байрон, Палата лордів, 27 лютого 1812 (Гансард, стовп. 967)",
+            "pl": "Lord Byron, Izba Lordów, 27 lutego 1812 (Hansard, kol. 967)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "frame-work-bill.en.hansard",
+              "from": "967",
+              "to": "967",
+              "text": "Considerable injury has been done to the proprietors of the improved Frames. These machines were to them an advantage, inasmuch as they superseded the necessity of employing a number of workmen, who were left in consequence to starve. By the adoption of one species of Frame in particular, one man performed the work of many, and the superfluous labourers were thrown out of employment.",
+              "kind": "Original",
+              "translator": null
+            },
+            "ru": {
+              "edition": "frame-work-bill.ru.ours",
+              "from": "967",
+              "to": "967",
+              "text": "Владельцам усовершенствованных станков был причинён значительный ущерб. Эти машины давали им выгоду, поскольку избавляли от необходимости нанимать множество рабочих, которых в результате оставили голодать. С введением одного рода станков, в особенности, один человек выполнял работу многих, и лишние работники лишились занятия.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "frame-work-bill.uk.ours",
+              "from": "967",
+              "to": "967",
+              "text": "Власникам удосконалених верстатів було завдано значної шкоди. Ці машини давали їм вигоду, бо звільняли від потреби наймати багато робітників, яких унаслідок цього залишили голодувати. Із запровадженням одного роду верстатів, зокрема, одна людина виконувала роботу багатьох, і зайві робітники втратили роботу.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "frame-work-bill.pl.ours",
+              "from": "967",
+              "to": "967",
+              "text": "Właścicielom ulepszonych krosien wyrządzono znaczną szkodę. Maszyny te przynosiły im korzyść, ponieważ uwalniały ich od konieczności zatrudniania wielu robotników, których w rezultacie pozostawiono na pastwę głodu. Zwłaszcza po wprowadzeniu jednego rodzaju krosien jeden człowiek wykonywał pracę wielu, a zbędni robotnicy tracili zatrudnienie.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "Lord Byron, the same speech (Hansard, col. 968)",
+            "ru": "Лорд Байрон, та же речь (Хансард, стб. 968)",
+            "uk": "Лорд Байрон, та сама промова (Гансард, стовп. 968)",
+            "pl": "Lord Byron, ta sama mowa (Hansard, kol. 968)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "frame-work-bill.en.hansard",
+              "from": "968",
+              "to": "968",
+              "text": "These men were willing to dig, but the spade was in other hands: they were not ashamed to beg, but there was none to relieve them",
+              "kind": "Original",
+              "translator": null
+            },
+            "ru": {
+              "edition": "frame-work-bill.ru.ours",
+              "from": "968",
+              "to": "968",
+              "text": "Эти люди готовы были копать, но лопата была в чужих руках; они не стыдились просить, но некому было им помочь",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "frame-work-bill.uk.ours",
+              "from": "968",
+              "to": "968",
+              "text": "Ці люди готові були копати, але лопата була в чужих руках; вони не соромилися просити, але не було кому їм допомогти",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "frame-work-bill.pl.ours",
+              "from": "968",
+              "to": "968",
+              "text": "Ci ludzie chcieli kopać, lecz łopata była w cudzych rękach; nie wstydzili się prosić, lecz nie było nikogo, kto by im pomógł",
+              "kind": "Ours",
+              "translator": "Elysion (draft)"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Wiener, 1948: the second industrial revolution",
+        "ru": "Винер, 1948: вторая промышленная революция",
+        "uk": "Вінер, 1948: друга промислова революція",
+        "pl": "Wiener, 1948: druga rewolucja przemysłowa"
+      },
+      "intro": {
+        "en": "Norbert Wiener, the founder of cybernetics, has seen the first computers at work. In the introduction to Cybernetics he writes:",
+        "ru": "Норберт Винер, основатель кибернетики, видел первые компьютеры в работе. Во введении к «Кибернетике» он пишет:",
+        "uk": "Норберт Вінер, засновник кібернетики, бачив перші комп'ютери в роботі. У вступі до «Кібернетики» він пише:",
+        "pl": "Norbert Wiener, twórca cybernetyki, widział pierwsze komputery przy pracy. We wstępie do „Cybernetyki” pisze:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Norbert Wiener, Cybernetics, p. 27",
+            "ru": "Норберт Винер, «Кибернетика», с. 27",
+            "uk": "Норберт Вінер, «Кібернетика», с. 27",
+            "pl": "Norbert Wiener, Cybernetyka, s. 27"
+          },
+          "quotes": {
+            "en": {
+              "edition": "cybernetics.en.quoted",
+              "from": "27",
+              "to": "27",
+              "text": "The modern industrial revolution is similarly bound to devalue the human brain, at least in its simpler and more routine decisions.",
+              "kind": "Quotation",
+              "translator": null
+            },
+            "ru": {
+              "edition": "cybernetics.ru.ours",
+              "from": "27",
+              "to": "27",
+              "text": "Современная промышленная революция точно так же неизбежно обесценит человеческий мозг — по крайней мере, в его более простых и рутинных решениях.",
+              "kind": "Quotation",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "cybernetics.uk.ours",
+              "from": "27",
+              "to": "27",
+              "text": "Сучасна промислова революція так само неминуче знецінить людський мозок — принаймні в його простіших і рутинніших рішеннях.",
+              "kind": "Quotation",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "cybernetics.pl.ours",
+              "from": "27",
+              "to": "27",
+              "text": "Współczesna rewolucja przemysłowa w ten sam sposób musi zdeprecjonować ludzki mózg, przynajmniej w jego prostszych i bardziej rutynowych decyzjach.",
+              "kind": "Quotation",
+              "translator": "Elysion (draft)"
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "Norbert Wiener, Cybernetics, p. 28",
+            "ru": "Норберт Винер, «Кибернетика», с. 28",
+            "uk": "Норберт Вінер, «Кібернетика», с. 28",
+            "pl": "Norbert Wiener, Cybernetyka, s. 28"
+          },
+          "quotes": {
+            "en": {
+              "edition": "cybernetics.en.quoted",
+              "from": "28",
+              "to": "28",
+              "text": "However, taking the second revolution as accomplished, the average human being of mediocre attainments or less has nothing to sell that it is worth anyone's money to buy. The answer, of course, is to have a society based on human values other than buying or selling.",
+              "kind": "Quotation",
+              "translator": null
+            },
+            "ru": {
+              "edition": "cybernetics.ru.ours",
+              "from": "28",
+              "to": "28",
+              "text": "Однако если считать вторую революцию свершившейся, то средний человек с посредственными или ещё более скромными способностями не сможет предложить ничего такого, за что стоило бы платить деньги. Ответ, конечно, состоит в том, чтобы построить общество, основанное на человеческих ценностях, отличных от купли-продажи.",
+              "kind": "Quotation",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "cybernetics.uk.ours",
+              "from": "28",
+              "to": "28",
+              "text": "Однак якщо вважати другу революцію здійсненою, то пересічна людина з посередніми чи ще скромнішими здібностями не матиме нічого такого, за що варто було б платити гроші. Відповідь, звісно, полягає в тому, щоб побудувати суспільство, засноване на людських цінностях, відмінних від купівлі й продажу.",
+              "kind": "Quotation",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "cybernetics.pl.ours",
+              "from": "28",
+              "to": "28",
+              "text": "Jeśli jednak uznamy drugą rewolucję za dokonaną, przeciętny człowiek o miernych lub jeszcze mniejszych zdolnościach nie będzie miał nic do sprzedania, za co warto byłoby komukolwiek zapłacić. Odpowiedzią jest oczywiście społeczeństwo oparte na ludzkich wartościach innych niż kupno i sprzedaż.",
+              "kind": "Quotation",
+              "translator": "Elysion (draft)"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "…and more bluntly",
+        "ru": "…и ещё резче",
+        "uk": "…і ще різкіше",
+        "pl": "…i jeszcze dobitniej"
+      },
+      "intro": {
+        "en": "In his next book, The Human Use of Human Beings, he puts it plainly:",
+        "ru": "В следующей книге, «Человеческое использование человеческих существ», он говорит прямо:",
+        "uk": "У наступній книжці, «Людське використання людських істот», він каже прямо:",
+        "pl": "W następnej książce, „Ludzkie użytkowanie istot ludzkich”, mówi wprost:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Norbert Wiener, The Human Use of Human Beings, p. 162",
+            "ru": "Норберт Винер, «Человеческое использование человеческих существ», с. 162",
+            "uk": "Норберт Вінер, «Людське використання людських істот», с. 162",
+            "pl": "Norbert Wiener, Ludzkie użytkowanie istot ludzkich, s. 162"
+          },
+          "quotes": {
+            "en": {
+              "edition": "human-use.en.quoted",
+              "from": "162",
+              "to": "162",
+              "text": "Let us remember that the automatic machine, whatever we think of any feelings it may have or may not have, is the precise economic equivalent of slave labor. Any labor which competes with slave labor must accept the economic conditions of slave labor.",
+              "kind": "Quotation",
+              "translator": null
+            },
+            "ru": {
+              "edition": "human-use.ru.ours",
+              "from": "162",
+              "to": "162",
+              "text": "Будем помнить, что автоматическая машина, что бы мы ни думали о каких-либо чувствах, которые у неё могут быть или не быть, есть точный экономический эквивалент рабского труда. Любой труд, конкурирующий с рабским трудом, вынужден принять экономические условия рабского труда.",
+              "kind": "Quotation",
+              "translator": "Elysion (draft)"
+            },
+            "uk": {
+              "edition": "human-use.uk.ours",
+              "from": "162",
+              "to": "162",
+              "text": "Пам'ятаймо, що автоматична машина, хоч би що ми думали про будь-які почуття, які вона може мати чи не мати, є точним економічним еквівалентом рабської праці. Будь-яка праця, що конкурує з рабською працею, мусить прийняти економічні умови рабської праці.",
+              "kind": "Quotation",
+              "translator": "Elysion (draft)"
+            },
+            "pl": {
+              "edition": "human-use.pl.ours",
+              "from": "162",
+              "to": "162",
+              "text": "Pamiętajmy, że automatyczna maszyna, cokolwiek sądzimy o jakichkolwiek uczuciach, które może mieć lub nie mieć, jest dokładnym ekonomicznym odpowiednikiem pracy niewolniczej. Każda praca, która konkuruje z pracą niewolniczą, musi przyjąć ekonomiczne warunki pracy niewolniczej.",
+              "kind": "Quotation",
+              "translator": "Elysion (draft)"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "think": "valuable",
+      "question": {
+        "en": "What stays valuable in a person when machines can think?",
+        "ru": "Что останется ценным в человеке, когда машины научатся думать?",
+        "uk": "Що залишиться цінним у людині, коли машини навчаться думати?",
+        "pl": "Co pozostanie wartościowe w człowieku, gdy maszyny nauczą się myśleć?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. Soon you will argue it with Socrates and see it beside Aristotle's.",
+        "ru": "Несколько предложений, своими словами. Скоро вы сможете поспорить об этом с Сократом и сравнить свой ответ с ответом Аристотеля.",
+        "uk": "Кілька речень, своїми словами. Незабаром ви зможете посперечатися про це із Сократом і порівняти свою відповідь з відповіддю Аристотеля.",
+        "pl": "Kilka zdań, własnymi słowami. Wkrótce będzie można spierać się o to z Sokratesem i porównać swoją odpowiedź z odpowiedzią Arystotelesa."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: will machines take our work?",
+        "ru": "А теперь: отнимут ли машины нашу работу?",
+        "uk": "А тепер: чи заберуть машини нашу роботу?",
+        "pl": "A teraz: czy maszyny zabiorą nam pracę?"
+      }
+    }
+  ]
+}
