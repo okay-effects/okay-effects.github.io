@@ -1,0 +1,1129 @@
+{
+  "id": "just-war",
+  "title": {
+    "en": "Can a war be just?",
+    "ru": "Может ли война быть справедливой?",
+    "uk": "Чи може війна бути справедливою?",
+    "pl": "Czy wojna może być sprawiedliwa?"
+  },
+  "subtitle": {
+    "en": "Cicero, Mencius, Augustine, Aquinas and Thucydides — and you",
+    "ru": "Цицерон, Мэн-цзы, Августин, Фома Аквинский и Фукидид — и вы",
+    "uk": "Цицерон, Мен-цзи, Августин, Тома Аквінський і Фукідід — і ви",
+    "pl": "Cyceron, Mencjusz, Augustyn, Tomasz z Akwinu i Tukidydes — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: can a war be just?",
+        "ru": "Прежде чем читать кого-либо: может ли война быть справедливой?",
+        "uk": "Перш ніж читати когось: чи може війна бути справедливою?",
+        "pl": "Zanim kogokolwiek przeczytasz: czy wojna może być sprawiedliwa?"
+      },
+      "options": [
+        {
+          "en": "Yes: to defend yourself, or others who are attacked",
+          "ru": "Да: чтобы защитить себя или других, на кого напали",
+          "uk": "Так: щоб захистити себе або інших, на кого напали",
+          "pl": "Tak: by obronić siebie albo innych, których zaatakowano"
+        },
+        {
+          "en": "Yes, but only under strict conditions — and few wars meet them",
+          "ru": "Да, но только при строгих условиях — и немногие войны им отвечают",
+          "uk": "Так, але лише за суворих умов — і небагато воєн їм відповідає",
+          "pl": "Tak, ale tylko pod ścisłymi warunkami — a niewiele wojen je spełnia"
+        },
+        {
+          "en": "No: war is always a crime, whatever it is fought for",
+          "ru": "Нет: война всегда преступление, за что бы её ни вели",
+          "uk": "Ні: війна завжди злочин, хоч би за що її вели",
+          "pl": "Nie: wojna jest zawsze zbrodnią, bez względu na to, o co się ją toczy"
+        },
+        {
+          "en": "The question is idle: in war the strong do what they can",
+          "ru": "Вопрос праздный: на войне сильный делает то, что может",
+          "uk": "Питання марне: на війні сильний робить те, що може",
+          "pl": "To pytanie jałowe: na wojnie silny robi, co może"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Cicero: no war without a cause and a declaration",
+        "ru": "Цицерон: ни одной войны без причины и объявления",
+        "uk": "Цицерон: жодної війни без причини й оголошення",
+        "pl": "Cyceron: żadnej wojny bez przyczyny i wypowiedzenia"
+      },
+      "intro": {
+        "en": "Rome, 54 BC. Power is in the hands of Pompey, Caesar and Crassus, and Cicero, out of office, writes a dialogue on the best state, set in the garden of Scipio Aemilianus, the general who destroyed Carthage. Its third book asks whether a state can be governed without injustice — and is mostly lost. Two of its sentences on war survive because Augustine and Isidore of Seville quoted them:",
+        "ru": "Рим, 54 год до н. э. Власть в руках Помпея, Цезаря и Красса, и Цицерон, отстранённый от дел, пишет диалог о наилучшем государстве; беседа происходит в саду Сципиона Эмилиана — полководца, разрушившего Карфаген. Третья книга спрашивает, можно ли управлять государством без несправедливости, — и почти вся утрачена. Две её фразы о войне сохранились потому, что их привели Августин и Исидор Севильский:",
+        "uk": "Рим, 54 рік до н. е. Влада в руках Помпея, Цезаря і Красса, і Цицерон, відсторонений від справ, пише діалог про найкращу державу; розмова відбувається в саду Сципіона Еміліана — полководця, що зруйнував Карфаген. Третя книга питає, чи можна правити державою без несправедливості, — і майже вся втрачена. Два її речення про війну збереглися тому, що їх навели Августин та Ісидор Севільський:",
+        "pl": "Rzym, 54 rok p.n.e. Władza jest w rękach Pompejusza, Cezara i Krassusa, a Cyceron, odsunięty od spraw publicznych, pisze dialog o najlepszym państwie; rozmowa toczy się w ogrodzie Scypiona Emiliana, wodza, który zburzył Kartaginę. Księga trzecia pyta, czy można rządzić państwem bez niesprawiedliwości — i prawie cała zaginęła. Dwa jej zdania o wojnie przetrwały, bo przytoczyli je Augustyn i Izydor z Sewilli:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Cicero, On the Commonwealth 3.34 — as Augustine reports it (City of God 22.6)",
+            "ru": "Цицерон, «О государстве» 3.34 — в пересказе Августина («О граде Божием» 22.6)",
+            "uk": "Цицерон, «Про державу» 3.34 — у переказі Августина («Про град Божий» 22.6)",
+            "pl": "Cyceron, O państwie 3.34 — w relacji Augustyna (Państwo Boże 22.6)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "commonwealth-just-war.en.yonge",
+              "from": "3.34",
+              "to": "3.34",
+              "text": "no war is ever undertaken by a well-regulated commonwealth unless it be one either for the sake of keeping faith, or for safety",
+              "kind": "Free",
+              "translator": "C. D. Yonge (revising Francis Barham's translation of 1841)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Cicero%27s_Tusculan_Disputations/On_the_Commonwealth",
+                "lang": "en",
+                "title": "Cicero, On the Commonwealth"
+              }
+            },
+            "ru": {
+              "edition": "commonwealth-just-war.ru.ours",
+              "from": "3.34",
+              "to": "3.34",
+              "text": "благоустроенное государство никогда не начинает никакой войны, если только она не ведётся либо ради соблюдения верности, либо ради безопасности",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Cicero%27s_Tusculan_Disputations/On_the_Commonwealth",
+                "lang": "en",
+                "title": "Цицерон, «О государстве»"
+              }
+            },
+            "uk": {
+              "edition": "commonwealth-just-war.uk.ours",
+              "from": "3.34",
+              "to": "3.34",
+              "text": "упорядкована держава ніколи не розпочинає жодної війни, хіба що вона ведеться або задля дотримання вірності, або задля безпеки",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Cicero%27s_Tusculan_Disputations/On_the_Commonwealth",
+                "lang": "en",
+                "title": "Цицерон, «Про державу»"
+              }
+            },
+            "pl": {
+              "edition": "commonwealth-just-war.pl.ours",
+              "from": "3.34",
+              "to": "3.34",
+              "text": "dobrze urządzone państwo nigdy nie podejmuje żadnej wojny, chyba że toczy się ona albo dla dotrzymania wierności, albo dla bezpieczeństwa",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Cicero%27s_Tusculan_Disputations/On_the_Commonwealth",
+                "lang": "en",
+                "title": "Cyceron, O państwie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/De_civitate_Dei/Liber_XXII"
+          }
+        },
+        {
+          "by": {
+            "en": "Cicero, On the Commonwealth 3.35 — as Isidore of Seville reports it (Etymologies 18.1)",
+            "ru": "Цицерон, «О государстве» 3.35 — в пересказе Исидора Севильского («Этимологии» 18.1)",
+            "uk": "Цицерон, «Про державу» 3.35 — у переказі Ісидора Севільського («Етимології» 18.1)",
+            "pl": "Cyceron, O państwie 3.35 — w relacji Izydora z Sewilli (Etymologie 18.1)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "commonwealth-just-war.en.yonge",
+              "from": "3.35",
+              "to": "3.35",
+              "text": "those wars are unjust which are undertaken without reason. Again, after a few sentences, he adds, No war is considered just unless it be formally announced and declared, and unless it be to obtain restitution of what has been taken away.",
+              "kind": "Free",
+              "translator": "C. D. Yonge (revising Francis Barham's translation of 1841)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Cicero%27s_Tusculan_Disputations/On_the_Commonwealth",
+                "lang": "en",
+                "title": "Cicero, On the Commonwealth"
+              }
+            },
+            "ru": {
+              "edition": "commonwealth-just-war.ru.ours",
+              "from": "3.35",
+              "to": "3.35",
+              "text": "несправедливы те войны, которые предприняты без причины. И далее, через несколько фраз, он добавляет: никакая война не считается справедливой, если она не была по всей форме возвещена и объявлена и если она ведётся не ради возвращения того, что было отнято.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Cicero%27s_Tusculan_Disputations/On_the_Commonwealth",
+                "lang": "en",
+                "title": "Цицерон, «О государстве»"
+              }
+            },
+            "uk": {
+              "edition": "commonwealth-just-war.uk.ours",
+              "from": "3.35",
+              "to": "3.35",
+              "text": "несправедливі ті війни, які розпочато без причини. І далі, через кілька речень, він додає: жодна війна не вважається справедливою, якщо її не було за всією формою сповіщено й оголошено і якщо її ведуть не задля повернення того, що було відібрано.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Cicero%27s_Tusculan_Disputations/On_the_Commonwealth",
+                "lang": "en",
+                "title": "Цицерон, «Про державу»"
+              }
+            },
+            "pl": {
+              "edition": "commonwealth-just-war.pl.ours",
+              "from": "3.35",
+              "to": "3.35",
+              "text": "niesprawiedliwe są te wojny, które podjęto bez przyczyny. A dalej, kilka zdań później, dodaje: żadna wojna nie uchodzi za sprawiedliwą, jeśli nie została formalnie zapowiedziana i wypowiedziana i jeśli nie toczy się po to, by odzyskać to, co zostało zabrane.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Cicero%27s_Tusculan_Disputations/On_the_Commonwealth",
+                "lang": "en",
+                "title": "Cyceron, O państwie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/Etymologiarum_libri_XX/Liber_XVIII"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Before Rome went to war, its fetial priests went to the enemy and demanded restitution; if it was not made within thirty-three days, war was declared, and a spear was thrown into the enemy's land.",
+            "ru": "Прежде чем Рим начинал войну, его жрецы-фециалы отправлялись к противнику и требовали возмещения; если его не давали в течение тридцати трёх дней, войну объявляли, и на вражескую землю бросали копьё.",
+            "uk": "Перш ніж Рим починав війну, його жерці-феціали вирушали до супротивника й вимагали відшкодування; якщо його не давали протягом тридцяти трьох днів, війну оголошували, і на ворожу землю кидали спис.",
+            "pl": "Zanim Rzym rozpoczął wojnę, jego kapłani fecjałowie udawali się do nieprzyjaciela i żądali zadośćuczynienia; jeśli nie nastąpiło w ciągu trzydziestu trzech dni, wypowiadano wojnę i rzucano włócznię na ziemię wroga."
+          },
+          "source": "Livy, History of Rome 1.32"
+        },
+        {
+          "fact": {
+            "en": "Ten years later, in On Duties (44 BC), Cicero said it again: wars are to be undertaken so that we may live in peace without wrong.",
+            "ru": "Десять лет спустя, в трактате «Об обязанностях» (44 до н. э.), Цицерон повторил это: войны следует начинать ради того, чтобы жить в мире, не терпя обид.",
+            "uk": "Через десять років, у трактаті «Про обов’язки» (44 до н. е.), Цицерон повторив це: війни слід починати задля того, щоб жити в мирі, не зазнаючи кривди.",
+            "pl": "Dziesięć lat później, w traktacie O powinnościach (44 p.n.e.), Cyceron powtórzył to: wojny należy podejmować po to, byśmy mogli żyć w pokoju bez krzywdy."
+          },
+          "source": "Cicero, On Duties 1.35"
+        },
+        {
+          "fact": {
+            "en": "On the Commonwealth was lost for centuries. In 1819 Angelo Mai found large parts of it in the Vatican Library, under a copy of Augustine's commentary on the Psalms written over its pages.",
+            "ru": "Трактат «О государстве» был утрачен на века. В 1819 году Анджело Маи нашёл большие его части в Ватиканской библиотеке — под списком Августинова толкования на Псалмы, написанным поверх его страниц.",
+            "uk": "Трактат «Про державу» був утрачений на століття. 1819 року Анджело Маї знайшов великі його частини у Ватиканській бібліотеці — під списком Августинового тлумачення на Псалми, написаним поверх його сторінок.",
+            "pl": "Traktat O państwie zaginął na stulecia. W 1819 roku Angelo Mai odnalazł duże jego części w Bibliotece Watykańskiej — pod odpisem Augustynowego komentarza do Psalmów, napisanym na jego stronicach."
+          },
+          "source": "L. D. Reynolds and N. G. Wilson, Scribes and Scholars (1968)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Mencius: there are no righteous wars",
+        "ru": "Мэн-цзы: праведных войн нет",
+        "uk": "Мен-цзи: праведних воєн немає",
+        "pl": "Mencjusz: nie ma wojen prawych"
+      },
+      "intro": {
+        "en": "China, the fourth century BC: the age of the Warring States. Kings fight one another for land with armies of tens of thousands, and reward the generals who win it. Mencius goes from court to court telling them that a ruler who loves benevolence has no enemy. Here he looks back at the Spring and Autumn, the chronicle of two and a half centuries of wars before his time — and at the wars of his own day:",
+        "ru": "Китай, IV век до н. э., эпоха Сражающихся царств. Цари воюют друг с другом за землю армиями в десятки тысяч человек и награждают полководцев, которые её завоёвывают. Мэн-цзы ходит от двора ко двору и говорит им, что у правителя, любящего человеколюбие, нет врагов. Здесь он оглядывается на «Вёсны и осени» — летопись двух с половиной веков войн до его времени — и на войны своих дней:",
+        "uk": "Китай, IV століття до н. е., доба Царств, що воюють. Царі воюють один з одним за землю арміями в десятки тисяч людей і нагороджують полководців, які її завойовують. Мен-цзи ходить від двору до двору й каже їм, що правитель, який любить людяність, не має ворогів. Тут він озирається на «Весни й осені» — літопис двох з половиною століть воєн до його часу — і на війни своїх днів:",
+        "pl": "Chiny, IV wiek p.n.e., epoka Walczących Królestw. Królowie walczą ze sobą o ziemię armiami liczącymi dziesiątki tysięcy ludzi i nagradzają wodzów, którzy ją zdobywają. Mencjusz chodzi od dworu do dworu i mówi im, że władca, który miłuje człowieczeństwo, nie ma wrogów. Tu spogląda wstecz na Wiosny i Jesienie — kronikę dwóch i pół stulecia wojen przed jego czasem — i na wojny swoich dni:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Mencius, Book VII, Part II, 2 (7B2)",
+            "ru": "Мэн-цзы, кн. VII, ч. II, 2 (7B2)",
+            "uk": "Мен-цзи, кн. VII, ч. II, 2 (7B2)",
+            "pl": "Mencjusz, ks. VII, cz. II, 2 (7B2)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "mencius-just-war.en.legge",
+              "from": "7.2.2",
+              "to": "7.2.2",
+              "text": "Mencius said, 'In the \"Spring and Autumn\" there are no righteous wars. Instances indeed there are of one war better than another. \"Correction\" is when the supreme authority punishes its subjects by force of arms. Hostile States do not correct one another.'",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencius"
+              }
+            },
+            "ru": {
+              "edition": "mencius-just-war.ru.ours",
+              "from": "7.2.2",
+              "to": "7.2.2",
+              "text": "Мэн-цзы сказал: «В „Вёснах и осенях“ нет праведных войн. Бывает, правда, что одна война лучше другой. „Исправление“ — это когда высшая власть силой оружия карает своих подданных. Враждующие государства не исправляют друг друга».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мэн-цзы»"
+              }
+            },
+            "uk": {
+              "edition": "mencius-just-war.uk.ours",
+              "from": "7.2.2",
+              "to": "7.2.2",
+              "text": "Мен-цзи сказав: «У „Веснах і осенях“ немає праведних воєн. Трапляється, щоправда, що одна війна краща за іншу. „Виправлення“ — це коли найвища влада силою зброї карає своїх підданих. Ворожі держави одна одну не виправляють».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мен-цзи»"
+              }
+            },
+            "pl": {
+              "edition": "mencius-just-war.pl.ours",
+              "from": "7.2.2",
+              "to": "7.2.2",
+              "text": "Mencjusz rzekł: „W Wiosnach i Jesieniach nie ma wojen prawych. Zdarza się wprawdzie, że jedna wojna jest lepsza od drugiej. «Karcenie» jest wtedy, gdy najwyższa władza siłą oręża karze swoich poddanych. Wrogie państwa nie karcą się nawzajem”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencjusz"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/孟子/盡心下"
+          }
+        },
+        {
+          "by": {
+            "en": "Mencius, Book IV, Part I, 14 (4A14)",
+            "ru": "Мэн-цзы, кн. IV, ч. I, 14 (4A14)",
+            "uk": "Мен-цзи, кн. IV, ч. I, 14 (4A14)",
+            "pl": "Mencjusz, ks. IV, cz. I, 14 (4A14)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "mencius-just-war.en.legge",
+              "from": "4.1.14",
+              "to": "4.1.14",
+              "text": "When contentions about territory are the ground on which they fight, they slaughter men till the fields are filled with them. When some struggle for a city is the ground on which they fight, they slaughter men till the city is filled with them. This is what is called \"leading on the land to devour human flesh.\" Death is not enough for such a crime. Therefore, those who are skilful to fight should suffer the highest punishment.",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencius"
+              }
+            },
+            "ru": {
+              "edition": "mencius-just-war.ru.ours",
+              "from": "4.1.14",
+              "to": "4.1.14",
+              "text": "Когда воюют из-за спора о земле, убивают людей, пока поля не наполнятся ими. Когда воюют в борьбе за какой-нибудь город, убивают людей, пока город не наполнится ими. Это и называется «вести землю пожирать человеческую плоть». Смерти мало за такое преступление. Поэтому те, кто искусен в войне, должны нести высшую кару.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мэн-цзы»"
+              }
+            },
+            "uk": {
+              "edition": "mencius-just-war.uk.ours",
+              "from": "4.1.14",
+              "to": "4.1.14",
+              "text": "Коли воюють через суперечку за землю, вбивають людей, доки поля не наповняться ними. Коли воюють у боротьбі за якесь місто, вбивають людей, доки місто не наповниться ними. Це й називається «вести землю пожирати людську плоть». Смерті замало за такий злочин. Тож ті, хто вправний у війні, мають зазнати найвищої кари.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мен-цзи»"
+              }
+            },
+            "pl": {
+              "edition": "mencius-just-war.pl.ours",
+              "from": "4.1.14",
+              "to": "4.1.14",
+              "text": "Gdy walczą z powodu sporów o ziemię, zabijają ludzi, aż pola się nimi wypełnią. Gdy walczą o jakieś miasto, zabijają ludzi, aż miasto się nimi wypełni. To właśnie nazywa się „prowadzeniem ziemi do pożerania ludzkiego mięsa”. Śmierć to za mało za taką zbrodnię. Dlatego ci, którzy są biegli w walce, powinni ponieść najwyższą karę.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencjusz"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/孟子/離婁上"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Sima Qian says that in Mencius' day the states were busy with alliances and thought conquest the mark of ability, while Mencius spoke of the virtue of the ancient sage-kings — so wherever he went, he did not fit.",
+            "ru": "Сыма Цянь пишет, что во времена Мэн-цзы царства были заняты союзами и считали завоевания признаком доблести, а Мэн-цзы говорил о добродетели древних мудрых государей, — поэтому, куда бы он ни пришёл, он оказывался не ко двору.",
+            "uk": "Сима Цянь пише, що за часів Мен-цзи царства були зайняті союзами й вважали завоювання ознакою доблесті, а Мен-цзи говорив про чесноту давніх мудрих государів, — тож куди б він не прийшов, він виявлявся не до двору.",
+            "pl": "Sima Qian pisze, że za czasów Mencjusza państwa zajmowały się sojuszami i uważały podboje za oznakę zdolności, a Mencjusz mówił o cnocie dawnych mędrców-władców — więc dokądkolwiek przybył, nie pasował."
+          },
+          "source": "Sima Qian, Records of the Grand Historian (Shiji), ch. 74"
+        },
+        {
+          "fact": {
+            "en": "Mencius believed that Confucius himself had made the Spring and Autumn, the chronicle of his state of Lu for 722–481 BC, and said that when it was done, rebellious ministers and villainous sons were struck with terror.",
+            "ru": "Мэн-цзы считал, что «Вёсны и осени» — летопись царства Лу за 722–481 годы до н. э. — составил сам Конфуций, и говорил, что, когда она была завершена, мятежные сановники и злодеи-сыновья исполнились страха.",
+            "uk": "Мен-цзи вважав, що «Весни й осені» — літопис царства Лу за 722–481 роки до н. е. — уклав сам Конфуцій, і казав, що коли літопис було завершено, бунтівні сановники й лиходії-сини сповнилися страху.",
+            "pl": "Mencjusz uważał, że Wiosny i Jesienie — kronikę państwa Lu z lat 722–481 p.n.e. — ułożył sam Konfucjusz, i mówił, że gdy ją ukończono, buntowniczych dostojników i występnych synów ogarnęła trwoga."
+          },
+          "source": "Mencius 3B9"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Augustine: what is evil in war",
+        "ru": "Августин: в чём зло войны",
+        "uk": "Августин: у чому зло війни",
+        "pl": "Augustyn: co jest złem w wojnie"
+      },
+      "intro": {
+        "en": "Hippo, in Roman Africa, around 400. Faustus, a Manichaean bishop, has mocked the Christians' Old Testament: how could a good God order Moses to make war? Augustine, now a Catholic bishop, answers him in thirty-three books, and in the twenty-second asks what is really evil in war. Years later, in the City of God, begun after the Goths sacked Rome, he comes back to the wise man's “just wars”:",
+        "ru": "Гиппон, Римская Африка, около 400 года. Фавст, манихейский епископ, высмеял Ветхий Завет христиан: как мог благой Бог повелеть Моисею воевать? Августин, теперь кафолический епископ, отвечает ему в тридцати трёх книгах и в двадцать второй спрашивает, что на самом деле есть зло в войне. Годы спустя, в «О граде Божием», начатом после того, как готы разграбили Рим, он возвращается к «справедливым войнам» мудреца:",
+        "uk": "Гіппон, Римська Африка, близько 400 року. Фавст, маніхейський єпископ, висміяв Старий Завіт християн: як міг благий Бог наказати Мойсеєві воювати? Августин, тепер кафолицький єпископ, відповідає йому в тридцяти трьох книгах і в двадцять другій питає, що насправді є злом у війні. Роки потому, у «Про град Божий», розпочатому після того, як готи пограбували Рим, він повертається до «справедливих воєн» мудреця:",
+        "pl": "Hippona, rzymska Afryka, około 400 roku. Faustus, biskup manichejski, wyszydził Stary Testament chrześcijan: jak dobry Bóg mógł kazać Mojżeszowi prowadzić wojny? Augustyn, teraz biskup katolicki, odpowiada mu w trzydziestu trzech księgach i w dwudziestej drugiej pyta, co naprawdę jest złem w wojnie. Po latach, w Państwie Bożym, rozpoczętym po tym, jak Goci złupili Rzym, wraca do „wojen sprawiedliwych” mędrca:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Augustine, Reply to Faustus the Manichaean 22.74",
+            "ru": "Августин, «Против Фавста-манихея» 22.74",
+            "uk": "Августин, «Проти Фавста-маніхея» 22.74",
+            "pl": "Augustyn, Przeciw Faustusowi manichejczykowi 22.74"
+          },
+          "quotes": {
+            "en": {
+              "edition": "faustus-just-war.en.stothert",
+              "from": "22.74",
+              "to": "22.74",
+              "text": "What is the evil in war? Is it the death of some who will soon die in any case, that others may live in peaceful subjection? This is mere cowardly dislike, not any religious feeling. The real evils in war are love of violence, revengeful cruelty, fierce and implacable enmity, wild resistance, and the lust of power, and such like; and it is generally to punish these things, when force is required to inflict the punishment, that, in obedience to God or some lawful authority, good men undertake wars, when they find themselves in such a position as regards the conduct of human affairs, that right conduct requires them to act, or to make others act in this way.",
+              "kind": "Free",
+              "translator": "Richard Stothert",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_IV/Manichaean_Controversy/Reply_to_Faustus_the_Manichaean",
+                "lang": "en",
+                "title": "Augustine, Reply to Faustus the Manichaean"
+              }
+            },
+            "ru": {
+              "edition": "faustus-just-war.ru.ours",
+              "from": "22.74",
+              "to": "22.74",
+              "text": "Что есть зло в войне? Смерть ли некоторых, кто и так скоро умрёт, — ради того, чтобы другие жили в мирном подчинении? Это лишь трусливое отвращение, а не какое-либо религиозное чувство. Подлинное зло в войне — это любовь к насилию, мстительная жестокость, свирепая и непримиримая вражда, дикое сопротивление, жажда власти и тому подобное; и обычно именно для того, чтобы покарать это, когда для кары нужна сила, добрые люди, повинуясь Богу или какой-либо законной власти, берутся за войну — когда оказываются в таком положении в делах человеческих, что правильный образ действий требует от них самим так действовать или заставлять так действовать других.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_IV/Manichaean_Controversy/Reply_to_Faustus_the_Manichaean",
+                "lang": "en",
+                "title": "Августин, «Против Фавста-манихея»"
+              }
+            },
+            "uk": {
+              "edition": "faustus-just-war.uk.ours",
+              "from": "22.74",
+              "to": "22.74",
+              "text": "Що є злом у війні? Чи смерть декого з тих, хто й так незабаром помре, — задля того, щоб інші жили в мирному підпорядкуванні? Це лише боягузлива відраза, а не якесь релігійне почуття. Справжнє зло у війні — це любов до насильства, мстива жорстокість, люта й непримиренна ворожнеча, дикий опір, жадоба влади й таке інше; і зазвичай саме для того, щоб покарати це, коли для покарання потрібна сила, добрі люди, корячись Богові чи якійсь законній владі, беруться до війни — коли опиняються в такому становищі в людських справах, що слушний спосіб дій вимагає від них самим так діяти або змушувати так діяти інших.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_IV/Manichaean_Controversy/Reply_to_Faustus_the_Manichaean",
+                "lang": "en",
+                "title": "Августин, «Проти Фавста-маніхея»"
+              }
+            },
+            "pl": {
+              "edition": "faustus-just-war.pl.ours",
+              "from": "22.74",
+              "to": "22.74",
+              "text": "Cóż jest złem w wojnie? Czy śmierć niektórych, którzy i tak wkrótce umrą, po to, by inni żyli w pokojowym poddaństwie? To tylko tchórzliwa niechęć, a nie żadne uczucie religijne. Prawdziwym złem w wojnie jest umiłowanie przemocy, mściwe okrucieństwo, zaciekła i nieprzejednana wrogość, dziki opór, żądza władzy i tym podobne; i zazwyczaj właśnie po to, by to ukarać, gdy do wymierzenia kary potrzebna jest siła, dobrzy ludzie, w posłuszeństwie Bogu lub jakiejś prawowitej władzy, podejmują wojny — gdy znajdą się w takim położeniu wobec spraw ludzkich, że słuszne postępowanie wymaga od nich, by sami tak działali albo skłaniali do tego innych.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_IV/Manichaean_Controversy/Reply_to_Faustus_the_Manichaean",
+                "lang": "en",
+                "title": "Augustyn, Przeciw Faustusowi manichejczykowi"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/Contra_Faustum_Manichaeum/XXII"
+          }
+        },
+        {
+          "by": {
+            "en": "Augustine, The City of God 19.7",
+            "ru": "Августин, «О граде Божием» 19.7",
+            "uk": "Августин, «Про град Божий» 19.7",
+            "pl": "Augustyn, Państwo Boże 19.7"
+          },
+          "quotes": {
+            "en": {
+              "edition": "city-just-war.en.dods",
+              "from": "19.7",
+              "to": "19.7",
+              "text": "But, say they, the wise man will wage just wars. As if he would not all the rather lament the necessity of just wars, if he remembers that he is a man; for if they were not just he would not wage them, and would therefore be delivered from all wars. For it is the wrongdoing of the opposing party which compels the wise man to wage just wars; and this wrong-doing, even though it gave rise to no war, would still be matter of grief to man because it is man’s wrong-doing.",
+              "kind": "Free",
+              "translator": "Marcus Dods",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_II/City_of_God/Book_IV",
+                "lang": "en",
+                "title": "Augustine, The City of God"
+              }
+            },
+            "ru": {
+              "edition": "city-just-war.ru.ours",
+              "from": "19.7",
+              "to": "19.7",
+              "text": "Но, говорят, мудрец будет вести справедливые войны. Как будто он, если помнит, что он человек, не станет тем более скорбеть о необходимости справедливых войн; ведь если бы они не были справедливы, он не вёл бы их и, значит, был бы избавлен от всяких войн. Ибо именно неправда противной стороны вынуждает мудреца вести справедливые войны; и эта неправда, даже если бы из неё не возникло никакой войны, всё равно была бы для человека поводом к скорби, потому что это неправда человеческая.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/О_граде_Божьем_(Августин)/4",
+                "lang": "ru",
+                "title": "Августин, «О граде Божием»"
+              }
+            },
+            "uk": {
+              "edition": "city-just-war.uk.ours",
+              "from": "19.7",
+              "to": "19.7",
+              "text": "Але, кажуть, мудрець вестиме справедливі війни. Наче він, якщо пам’ятає, що він людина, не буде тим більше вболівати через необхідність справедливих воєн; бо якби вони не були справедливими, він не вів би їх і, отже, був би вільний від усяких воєн. Адже саме кривда протилежної сторони змушує мудреця вести справедливі війни; і ця кривда, навіть якби з неї не постало жодної війни, однаково була б для людини причиною скорботи, бо це кривда людська.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_II/City_of_God/Book_IV",
+                "lang": "en",
+                "title": "Августин, «Про град Божий»"
+              }
+            },
+            "pl": {
+              "edition": "city-just-war.pl.ours",
+              "from": "19.7",
+              "to": "19.7",
+              "text": "Ale, powiadają, mędrzec będzie prowadził wojny sprawiedliwe. Jak gdyby, jeśli pamięta, że jest człowiekiem, nie miał tym bardziej ubolewać nad koniecznością wojen sprawiedliwych; bo gdyby nie były sprawiedliwe, nie prowadziłby ich i byłby przez to wolny od wszelkich wojen. To bowiem nieprawość strony przeciwnej zmusza mędrca do prowadzenia wojen sprawiedliwych; a ta nieprawość, nawet gdyby nie zrodziła żadnej wojny, i tak byłaby dla człowieka powodem do smutku, ponieważ jest to nieprawość człowieka.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_II/City_of_God/Book_IV",
+                "lang": "en",
+                "title": "Augustyn, Państwo Boże"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/De_civitate_Dei/Liber_XIX"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Augustine had himself been a Manichaean “hearer” for nine years in his youth; at twenty-nine he met Faustus in Carthage, and found him eloquent and pleasant, but unread beyond grammar and a few books.",
+            "ru": "Августин и сам в юности девять лет был манихейским «слушающим»; в двадцать девять лет он встретил Фавста в Карфагене и нашёл его красноречивым и приятным, но не начитанным ни в чём, кроме грамматики и немногих книг.",
+            "uk": "Августин і сам замолоду дев’ять років був маніхейським «слухачем»; у двадцять дев’ять років він зустрів Фавста в Карфагені й знайшов його красномовним і приємним, але не начитаним ні в чому, крім граматики та небагатьох книжок.",
+            "pl": "Augustyn sam w młodości przez dziewięć lat był manichejskim „słuchaczem”; w wieku dwudziestu dziewięciu lat spotkał Faustusa w Kartaginie i uznał go za wymownego i miłego, lecz nieoczytanego w niczym poza gramatyką i kilkoma książkami."
+          },
+          "source": "Augustine, Confessions 4.1 and 5.3–7"
+        },
+        {
+          "fact": {
+            "en": "He began the City of God after the Goths of Alaric sacked Rome in 410, and finished it about 426.",
+            "ru": "Он начал «О граде Божием» после того, как готы Алариха разграбили Рим в 410 году, и закончил около 426 года.",
+            "uk": "Він розпочав «Про град Божий» після того, як готи Аларіха пограбували Рим 410 року, і закінчив близько 426 року.",
+            "pl": "Zaczął Państwo Boże po tym, jak Goci Alaryka złupili Rzym w 410 roku, a ukończył około 426 roku."
+          },
+          "source": "Augustine, Retractations 2.43"
+        },
+        {
+          "fact": {
+            "en": "In 430, in the third month of the Vandals' siege of Hippo, Augustine fell ill with a fever, and died there.",
+            "ru": "В 430 году, на третьем месяце осады Гиппона вандалами, Августин слёг в лихорадке и там же умер.",
+            "uk": "430 року, на третьому місяці облоги Гіппона вандалами, Августин зліг у гарячці й там само помер.",
+            "pl": "W 430 roku, w trzecim miesiącu oblężenia Hippony przez Wandalów, Augustyn zachorował na gorączkę i tam zmarł."
+          },
+          "source": "Possidius, Life of Augustine 28–31"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Thomas Aquinas: three conditions",
+        "ru": "Фома Аквинский: три условия",
+        "uk": "Тома Аквінський: три умови",
+        "pl": "Tomasz z Akwinu: trzy warunki"
+      },
+      "intro": {
+        "en": "Paris, around 1271. Thomas Aquinas, a Dominican friar, is writing the Summa of Theology — a book, he says, for beginners. Each article opens with the case against: here, Christ's words that all who take the sword shall perish with the sword, and his command not to resist evil. Then Aquinas gives his answer:",
+        "ru": "Париж, около 1271 года. Фома Аквинский, монах-доминиканец, пишет «Сумму теологии» — книгу, как он говорит, для начинающих. Каждая статья открывается доводами против: здесь это слова Христа, что все, взявшие меч, мечом погибнут, и его заповедь не противиться злу. Затем Фома даёт свой ответ:",
+        "uk": "Париж, близько 1271 року. Тома Аквінський, чернець-домініканець, пише «Суму теології» — книжку, як він каже, для початківців. Кожна стаття відкривається доводами проти: тут це слова Христа, що всі, хто візьме меч, від меча й загинуть, і його заповідь не противитися злу. Потім Тома дає свою відповідь:",
+        "pl": "Paryż, około 1271 roku. Tomasz z Akwinu, zakonnik dominikanin, pisze Sumę teologiczną — książkę, jak mówi, dla początkujących. Każdy artykuł otwierają argumenty przeciw: tu słowa Chrystusa, że wszyscy, którzy za miecz chwytają, od miecza giną, i jego nakaz, by nie sprzeciwiać się złu. Potem Tomasz daje swoją odpowiedź:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Summa Theologiae II-II q. 40 a. 1: the first condition",
+            "ru": "«Сумма теологии» II-II, вопр. 40, ст. 1: первое условие",
+            "uk": "«Сума теології» II-II, пит. 40, ст. 1: перша умова",
+            "pl": "Suma teologiczna II-II, q. 40, a. 1: warunek pierwszy"
+          },
+          "quotes": {
+            "en": {
+              "edition": "summa-just-war.en.dominican",
+              "from": "2.2.40.1.1",
+              "to": "2.2.40.1.1",
+              "text": "I answer that, In order for a war to be just, three things are necessary. First, the authority of the sovereign by whose command the war is to be waged. For it is not the business of a private individual to declare war, because he can seek for redress of his rights from the tribunal of his superior.",
+              "kind": "Free",
+              "translator": "Fathers of the English Dominican Province",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Summa_Theologiae/First_Part/Question_2",
+                "lang": "en",
+                "title": "Thomas Aquinas, Summa Theologiae"
+              }
+            },
+            "ru": {
+              "edition": "summa-just-war.ru.ours",
+              "from": "2.2.40.1.1",
+              "to": "2.2.40.1.1",
+              "text": "Отвечаю: для того чтобы война была справедливой, необходимы три вещи. Во-первых, власть государя, по чьему повелению ведётся война. Ибо не дело частного лица объявлять войну, потому что оно может искать защиты своих прав в суде своего вышестоящего.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Summa_Theologiae/First_Part/Question_2",
+                "lang": "en",
+                "title": "Фома Аквинский, «Сумма теологии»"
+              }
+            },
+            "uk": {
+              "edition": "summa-just-war.uk.ours",
+              "from": "2.2.40.1.1",
+              "to": "2.2.40.1.1",
+              "text": "Відповідаю: для того щоб війна була справедливою, потрібні три речі. По-перше, влада государя, з чийого наказу ведеться війна. Бо не справа приватної особи оголошувати війну, адже вона може шукати захисту своїх прав у суді свого зверхника.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Summa_Theologiae/First_Part/Question_2",
+                "lang": "en",
+                "title": "Тома Аквінський, «Сума теології»"
+              }
+            },
+            "pl": {
+              "edition": "summa-just-war.pl.ours",
+              "from": "2.2.40.1.1",
+              "to": "2.2.40.1.1",
+              "text": "Odpowiadam: aby wojna była sprawiedliwa, potrzebne są trzy rzeczy. Po pierwsze, władza panującego, na którego rozkaz wojna ma być prowadzona. Nie do osoby prywatnej bowiem należy wypowiadanie wojny, gdyż może ona dochodzić swych praw przed trybunałem swego zwierzchnika.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Summa_Theologiae/First_Part/Question_2",
+                "lang": "en",
+                "title": "Tomasz z Akwinu, Suma teologiczna"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://www.corpusthomisticum.org/sth3034.html"
+          }
+        },
+        {
+          "by": {
+            "en": "The second condition",
+            "ru": "Второе условие",
+            "uk": "Друга умова",
+            "pl": "Warunek drugi"
+          },
+          "quotes": {
+            "en": {
+              "edition": "summa-just-war.en.dominican",
+              "from": "2.2.40.1.2",
+              "to": "2.2.40.1.2",
+              "text": "Secondly, a just cause is required, namely that those who are attacked, should be attacked because they deserve it on account of some fault.",
+              "kind": "Free",
+              "translator": "Fathers of the English Dominican Province",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Summa_Theologiae/First_Part/Question_2",
+                "lang": "en",
+                "title": "Thomas Aquinas, Summa Theologiae"
+              }
+            },
+            "ru": {
+              "edition": "summa-just-war.ru.ours",
+              "from": "2.2.40.1.2",
+              "to": "2.2.40.1.2",
+              "text": "Во-вторых, требуется справедливая причина, а именно чтобы те, на кого нападают, подвергались нападению потому, что заслужили его какой-то виной.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Summa_Theologiae/First_Part/Question_2",
+                "lang": "en",
+                "title": "Фома Аквинский, «Сумма теологии»"
+              }
+            },
+            "uk": {
+              "edition": "summa-just-war.uk.ours",
+              "from": "2.2.40.1.2",
+              "to": "2.2.40.1.2",
+              "text": "По-друге, потрібна справедлива причина, а саме: щоб на тих, на кого нападають, нападали тому, що вони заслужили цього якоюсь провиною.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Summa_Theologiae/First_Part/Question_2",
+                "lang": "en",
+                "title": "Тома Аквінський, «Сума теології»"
+              }
+            },
+            "pl": {
+              "edition": "summa-just-war.pl.ours",
+              "from": "2.2.40.1.2",
+              "to": "2.2.40.1.2",
+              "text": "Po drugie, wymagana jest słuszna przyczyna, mianowicie by ci, których się atakuje, byli atakowani dlatego, że zasłużyli na to jakąś winą.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Summa_Theologiae/First_Part/Question_2",
+                "lang": "en",
+                "title": "Tomasz z Akwinu, Suma teologiczna"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://www.corpusthomisticum.org/sth3034.html"
+          }
+        },
+        {
+          "by": {
+            "en": "The third condition",
+            "ru": "Третье условие",
+            "uk": "Третя умова",
+            "pl": "Warunek trzeci"
+          },
+          "quotes": {
+            "en": {
+              "edition": "summa-just-war.en.dominican",
+              "from": "2.2.40.1.3",
+              "to": "2.2.40.1.3",
+              "text": "Thirdly, it is necessary that the belligerents should have a rightful intention, so that they intend the advancement of good, or the avoidance of evil.",
+              "kind": "Free",
+              "translator": "Fathers of the English Dominican Province",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Summa_Theologiae/First_Part/Question_2",
+                "lang": "en",
+                "title": "Thomas Aquinas, Summa Theologiae"
+              }
+            },
+            "ru": {
+              "edition": "summa-just-war.ru.ours",
+              "from": "2.2.40.1.3",
+              "to": "2.2.40.1.3",
+              "text": "В-третьих, необходимо, чтобы у воюющих было правое намерение, то есть чтобы они стремились к умножению добра или к избежанию зла.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Summa_Theologiae/First_Part/Question_2",
+                "lang": "en",
+                "title": "Фома Аквинский, «Сумма теологии»"
+              }
+            },
+            "uk": {
+              "edition": "summa-just-war.uk.ours",
+              "from": "2.2.40.1.3",
+              "to": "2.2.40.1.3",
+              "text": "По-третє, необхідно, щоб ті, хто воює, мали слушний намір, тобто щоб вони прагнули примноження добра або уникнення зла.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Summa_Theologiae/First_Part/Question_2",
+                "lang": "en",
+                "title": "Тома Аквінський, «Сума теології»"
+              }
+            },
+            "pl": {
+              "edition": "summa-just-war.pl.ours",
+              "from": "2.2.40.1.3",
+              "to": "2.2.40.1.3",
+              "text": "Po trzecie, konieczne jest, by walczący mieli słuszną intencję, to jest by zamierzali pomnażać dobro albo unikać zła.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Summa_Theologiae/First_Part/Question_2",
+                "lang": "en",
+                "title": "Tomasz z Akwinu, Suma teologiczna"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://www.corpusthomisticum.org/sth3034.html"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Aquinas does not put war under justice but under charity: it is one of the sins against peace, after discord, contention and schism and before strife and sedition — the question being whether it is always a sin.",
+            "ru": "Фома рассматривает войну не в разделе о справедливости, а в разделе о любви: среди грехов против мира — после раздора, спора и раскола и перед дракой и мятежом; вопрос в том, всегда ли она грех.",
+            "uk": "Тома розглядає війну не в розділі про справедливість, а в розділі про любов: серед гріхів проти миру — після незгоди, суперечки й розколу та перед бійкою і заколотом; питання в тому, чи завжди вона гріх.",
+            "pl": "Tomasz omawia wojnę nie w części o sprawiedliwości, lecz w części o miłości: wśród grzechów przeciw pokojowi — po niezgodzie, kłótni i schizmie, a przed bójką i buntem; pytanie brzmi, czy zawsze jest grzechem."
+          },
+          "source": "Thomas Aquinas, Summa Theologiae II-II qq. 37–42"
+        },
+        {
+          "fact": {
+            "en": "The answer leans on Augustine throughout: its last words are the passage of the Reply to Faustus (22.74) you have just read, in another translation. One saying Aquinas gives to Augustine is not his at all — it comes from Gratian's Decretum, the Church's book of canon law, as his English translators note.",
+            "ru": "Ответ всё время опирается на Августина: его последние слова — тот самый отрывок из «Против Фавста» (22.74), который вы только что прочли, в другом переводе. Одно изречение, которое Фома приписывает Августину, вовсе не его: оно взято из «Декрета» Грациана, сборника церковного права, как отмечают английские переводчики.",
+            "uk": "Відповідь увесь час спирається на Августина: її останні слова — той самий уривок із «Проти Фавста» (22.74), який ви щойно прочитали, в іншому перекладі. Один вислів, який Тома приписує Августинові, зовсім не його: його взято з «Декрету» Граціана, збірки церковного права, як зазначають англійські перекладачі.",
+            "pl": "Odpowiedź przez cały czas opiera się na Augustynie: jej ostatnie słowa to ten sam fragment Przeciw Faustusowi (22.74), który właśnie przeczytałeś, w innym przekładzie. Jedno powiedzenie, które Tomasz przypisuje Augustynowi, wcale nie jest jego: pochodzi z Dekretu Gracjana, zbioru prawa kościelnego, jak zaznaczają angielscy tłumacze."
+          },
+          "source": "Thomas Aquinas, Summa Theologiae II-II q. 40 a. 1, with the note of the Fathers of the English Dominican Province (1920)"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Melos, summer 416 BC",
+        "ru": "Мелос, лето 416 года до н. э.",
+        "uk": "Мелос, літо 416 року до н. е.",
+        "pl": "Melos, lato 416 p.n.e."
+      },
+      "scene": {
+        "en": "Your island in the Aegean was settled from Sparta seven hundred years ago, and would not submit to Athens as the other islands did; since the Athenians ravaged your fields, you have been openly at war with them. Now thirty-eight ships lie off your coast, and some three thousand heavy infantry are camped on your land. Before doing any harm, the Athenian generals send envoys. You and the other magistrates will not let them speak before the people, and hear them in council. They do not pretend to any right: become Athens' tributary ally and keep your land — or be destroyed. What do you do?",
+        "ru": "Ваш остров в Эгейском море заселён выходцами из Спарты семьсот лет назад и не захотел подчиниться Афинам, как другие острова; с тех пор как афиняне опустошили ваши поля, вы открыто воюете с ними. Теперь у ваших берегов стоят тридцать восемь кораблей, а на вашей земле — лагерем около трёх тысяч тяжеловооружённых воинов. Прежде чем причинить какой-либо вред, афинские стратеги присылают послов. Вы и другие должностные лица не даёте им говорить перед народом и выслушиваете их в совете. Они не ссылаются ни на какое право: станьте данником и союзником Афин и сохраните свою землю — или будете уничтожены. Что вы сделаете?",
+        "uk": "Ваш острів в Егейському морі заселили вихідці зі Спарти сімсот років тому, і він не захотів підкоритися Афінам, як інші острови; відколи афіняни спустошили ваші поля, ви відкрито воюєте з ними. Тепер біля ваших берегів стоять тридцять вісім кораблів, а на вашій землі — табором близько трьох тисяч важкоозброєних воїнів. Перш ніж заподіяти будь-яку шкоду, афінські стратеги надсилають послів. Ви та інші урядовці не даєте їм говорити перед народом і вислуховуєте їх у раді. Вони не посилаються на жодне право: станьте данником і союзником Афін і збережіть свою землю — або вас буде знищено. Що ви зробите?",
+        "pl": "Twoja wyspa na Morzu Egejskim została zasiedlona ze Sparty siedemset lat temu i nie chciała poddać się Atenom jak inne wyspy; odkąd Ateńczycy spustoszyli wasze pola, jesteście z nimi w otwartej wojnie. Teraz u waszych brzegów stoi trzydzieści osiem okrętów, a na waszej ziemi obozuje około trzech tysięcy ciężkozbrojnych. Zanim wyrządzą jakąkolwiek szkodę, ateńscy wodzowie przysyłają posłów. Ty i inni urzędnicy nie pozwalacie im mówić przed ludem i wysłuchujecie ich w radzie. Nie powołują się na żadne prawo: zostańcie płacącymi daninę sprzymierzeńcami Aten i zachowajcie swoją ziemię — albo zostaniecie zniszczeni. Co robisz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Submit: pay the tribute, and keep your city and your lives",
+            "ru": "Подчиниться: платить дань и сохранить город и жизнь",
+            "uk": "Підкоритися: платити данину і зберегти місто й життя",
+            "pl": "Poddać się: płacić daninę i zachować miasto i życie"
+          },
+          "reply": {
+            "en": "That was exactly what the Athenians offered, as a “moderate offer”; to the Melians it meant slavery after seven hundred years of freedom.",
+            "ru": "Именно это афиняне и предлагали, называя это «умеренным предложением»; для мелосцев это значило рабство после семисот лет свободы.",
+            "uk": "Саме це афіняни й пропонували, називаючи це «помірною пропозицією»; для мелосців це означало рабство після семисот років свободи.",
+            "pl": "Dokładnie to proponowali Ateńczycy, nazywając to „umiarkowaną ofertą”; dla Melijczyków oznaczało to niewolę po siedmiuset latach wolności."
+          }
+        },
+        {
+          "choice": {
+            "en": "Resist: you are in the right, the gods are just, and Sparta will come",
+            "ru": "Сопротивляться: правда на вашей стороне, боги справедливы, и Спарта придёт на помощь",
+            "uk": "Опиратися: правда на вашому боці, боги справедливі, і Спарта прийде на допомогу",
+            "pl": "Stawić opór: racja jest po waszej stronie, bogowie są sprawiedliwi, a Sparta przyjdzie z pomocą"
+          },
+          "reply": {
+            "en": "That was the Melians' hope; the Athenians answered that Sparta helped others only when it was safe — and no Spartan army came.",
+            "ru": "Такова была надежда мелосцев; афиняне ответили, что Спарта помогает другим, только когда это безопасно, — и спартанское войско так и не пришло.",
+            "uk": "Такою була надія мелосців; афіняни відповіли, що Спарта допомагає іншим лише тоді, коли це безпечно, — і спартанське військо так і не прийшло.",
+            "pl": "Taka była nadzieja Melijczyków; Ateńczycy odpowiedzieli, że Sparta pomaga innym tylko wtedy, gdy jest to bezpieczne — i żadne spartańskie wojsko nie przybyło."
+          }
+        },
+        {
+          "choice": {
+            "en": "Let the people decide: bring the envoys before the assembly",
+            "ru": "Пусть решает народ: привести послов в народное собрание",
+            "uk": "Хай вирішує народ: привести послів до народних зборів",
+            "pl": "Niech zdecyduje lud: przyprowadzić posłów na zgromadzenie ludowe"
+          },
+          "reply": {
+            "en": "The magistrates of Melos refused this; the Athenians said it was because the few feared the many would be persuaded. What the people would have chosen, no one knows.",
+            "ru": "Должностные лица Мелоса отказались от этого; афиняне говорили, что немногие боялись, как бы многих не убедили. Что выбрал бы народ, никто не знает.",
+            "uk": "Урядовці Мелосу відмовилися від цього; афіняни казали, що нечисленні боялися, щоб багатьох не переконали. Що обрав би народ, ніхто не знає.",
+            "pl": "Urzędnicy Melos odmówili; Ateńczycy mówili, że nieliczni bali się, iż wielu da się przekonać. Co wybrałby lud, nikt nie wie."
+          }
+        },
+        {
+          "choice": {
+            "en": "Offer neutrality: friends to Athens, enemies to no one",
+            "ru": "Предложить нейтралитет: друзья Афинам, враги никому",
+            "uk": "Запропонувати нейтралітет: друзі Афінам, вороги нікому",
+            "pl": "Zaproponować neutralność: przyjaciele Aten, wrogowie nikogo"
+          },
+          "reply": {
+            "en": "The Melians did offer it; the Athenians answered that their friendship would show the empire's subjects Athens' weakness, and their hatred its power.",
+            "ru": "Мелосцы это и предложили; афиняне ответили, что их дружба показала бы подданным державы слабость Афин, а их ненависть — её силу.",
+            "uk": "Мелосці це й запропонували; афіняни відповіли, що їхня дружба показала б підданим держави слабкість Афін, а їхня ненависть — її силу.",
+            "pl": "Melijczycy właśnie to zaproponowali; Ateńczycy odpowiedzieli, że ich przyjaźń pokazałaby poddanym imperium słabość Aten, a ich nienawiść — jego siłę."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "These were the magistrates of Melos. They answered that they would not in a moment take freedom from a city seven hundred years old, and would trust in the gods and the Spartans. The Athenians walled the city round. Twice the Melians broke out and took part of the lines; but in the winter fresh troops came from Athens, there was treachery inside, and Melos surrendered at discretion. The Athenians put to death all the grown men they took, sold the women and children as slaves, and sent five hundred colonists of their own to live on the island. Thucydides tells it without a word of judgement — and goes straight on to the Athenians' decision to sail against Sicily, where their great fleet was destroyed.",
+        "ru": "Это были должностные лица Мелоса. Они ответили, что не лишат в одно мгновение свободы город, которому семьсот лет, и положатся на богов и на спартанцев. Афиняне обнесли город стеной. Дважды мелосцы совершали вылазки и захватывали часть осадных укреплений; но зимой из Афин пришли свежие войска, внутри города нашлись предатели, и Мелос сдался на милость победителя. Афиняне казнили всех взрослых мужчин, которых захватили, продали женщин и детей в рабство и прислали на остров пятьсот собственных поселенцев. Фукидид рассказывает это, не прибавляя ни слова оценки, — и сразу переходит к решению афинян плыть на Сицилию, где их огромный флот погиб.",
+        "uk": "Це були урядовці Мелосу. Вони відповіли, що не позбавлять в одну мить свободи місто, якому сімсот років, і покладуться на богів і на спартанців. Афіняни обвели місто стіною. Двічі мелосці робили вилазки й захоплювали частину облогових укріплень; але взимку з Афін прийшли свіжі війська, усередині міста знайшлися зрадники, і Мелос здався на ласку переможця. Афіняни стратили всіх дорослих чоловіків, яких захопили, продали жінок і дітей у рабство й надіслали на острів п’ятсот власних поселенців. Фукідід розповідає це, не додаючи жодного слова оцінки, — і одразу переходить до рішення афінян плисти на Сицилію, де загинув їхній величезний флот.",
+        "pl": "To byli urzędnicy Melos. Odpowiedzieli, że nie odbiorą w jednej chwili wolności miastu, które ma siedemset lat, i zaufają bogom i Spartanom. Ateńczycy otoczyli miasto murem. Dwukrotnie Melijczycy robili wypady i zdobywali część umocnień oblężniczych; lecz zimą z Aten przybyły świeże wojska, w mieście znaleźli się zdrajcy i Melos poddał się na łaskę zwycięzcy. Ateńczycy stracili wszystkich dorosłych mężczyzn, których pojmali, kobiety i dzieci sprzedali w niewolę i wysłali na wyspę pięciuset własnych osadników. Tukidydes opowiada to bez słowa oceny — i od razu przechodzi do decyzji Ateńczyków o wyprawie na Sycylię, gdzie zginęła ich wielka flota."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "The Athenian envoys, in Thucydides (5.89)",
+            "ru": "Афинские послы у Фукидида (5.89)",
+            "uk": "Афінські посли у Фукідіда (5.89)",
+            "pl": "Posłowie ateńscy u Tukidydesa (5.89)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "war-just-war.en.crawley",
+              "from": "5.89",
+              "to": "5.89",
+              "text": "For ourselves, we shall not trouble you with specious pretences--either of how we have a right to our empire because we overthrew the Mede, or are now attacking you because of wrong that you have done us--and make a long speech which would not be believed; and in return we hope that you, instead of thinking to influence us by saying that you did not join the Lacedaemonians, although their colonists, or that you have done us no wrong, will aim at what is feasible, holding in view the real sentiments of us both; since you know as well as we do that right, as the world goes, is only in question between equals in power, while the strong do what they can and the weak suffer what they must.",
+              "kind": "Free",
+              "translator": "Richard Crawley",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/History_of_the_Peloponnesian_War/Book_3",
+                "lang": "en",
+                "title": "Thucydides, History of the Peloponnesian War"
+              }
+            },
+            "ru": {
+              "edition": "war-just-war.ru.ours",
+              "from": "5.89",
+              "to": "5.89",
+              "text": "Что до нас, мы не станем утруждать вас благовидными предлогами — будто мы по праву владеем державой, потому что сокрушили мидян, или будто идём теперь на вас за обиду, которую вы нам нанесли, — и произносить длинную речь, которой никто бы не поверил; и взамен надеемся, что и вы, вместо того чтобы думать повлиять на нас словами, что не примкнули к лакедемонянам, хотя вы их колонисты, или что не причинили нам никакой обиды, будете стремиться к осуществимому, имея в виду подлинные мысли и тех и других; ведь вы знаете не хуже нас, что право, как водится на свете, бывает предметом спора лишь между равными по силе, а сильные делают то, что могут, слабые же терпят то, что должны.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/History_of_the_Peloponnesian_War/Book_3",
+                "lang": "en",
+                "title": "Фукидид, «История Пелопоннесской войны»"
+              }
+            },
+            "uk": {
+              "edition": "war-just-war.uk.ours",
+              "from": "5.89",
+              "to": "5.89",
+              "text": "Щодо нас, ми не обтяжуватимемо вас благовидними приводами — нібито ми по праву володіємо державою, бо здолали мідян, або нібито йдемо тепер на вас через кривду, якої ви нам завдали, — і не виголошуватимемо довгої промови, якій ніхто б не повірив; і натомість сподіваємося, що й ви, замість думати вплинути на нас словами, що не приєдналися до лакедемонян, хоч ви їхні колоністи, або що не завдали нам жодної кривди, прагнутимете здійсненного, маючи на увазі справжні думки і тих, і других; адже ви знаєте не гірше за нас, що право, як ведеться на світі, буває предметом суперечки лише між рівними за силою, а сильні роблять те, що можуть, слабкі ж терплять те, що мусять.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/History_of_the_Peloponnesian_War/Book_3",
+                "lang": "en",
+                "title": "Фукідід, «Історія Пелопоннеської війни»"
+              }
+            },
+            "pl": {
+              "edition": "war-just-war.pl.ours",
+              "from": "5.89",
+              "to": "5.89",
+              "text": "Co do nas, nie będziemy was trudzić pięknie brzmiącymi pozorami — że mamy prawo do naszego imperium, bo obaliliśmy Medów, albo że napadamy teraz na was z powodu krzywdy, którą nam wyrządziliście — ani wygłaszać długiej mowy, której nikt nie dałby wiary; w zamian zaś mamy nadzieję, że i wy, zamiast myśleć, że wpłyniecie na nas, mówiąc, iż nie przyłączyliście się do Lacedemończyków, choć jesteście ich kolonistami, albo że nie wyrządziliście nam żadnej krzywdy, będziecie dążyć do tego, co wykonalne, mając na względzie prawdziwe myśli obu stron; wiecie bowiem równie dobrze jak my, że prawo, jak to bywa na świecie, wchodzi w grę tylko między równymi siłą, a silni robią, co mogą, słabi zaś znoszą, co muszą.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://pl.wikisource.org/wiki/Historya_wojny_peloponneskiéj/Xięga_Trzecia",
+                "lang": "pl",
+                "title": "Tukidydes, Wojna peloponeska"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:5.89/"
+          }
+        },
+        {
+          "by": {
+            "en": "The Melians' answer (5.112)",
+            "ru": "Ответ мелосцев (5.112)",
+            "uk": "Відповідь мелосців (5.112)",
+            "pl": "Odpowiedź Melijczyków (5.112)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "war-just-war.en.crawley",
+              "from": "5.112",
+              "to": "5.112",
+              "text": "Our resolution, Athenians, is the same as it was at first. We will not in a moment deprive of freedom a city that has been inhabited these seven hundred years; but we put our trust in the fortune by which the gods have preserved it until now, and in the help of men, that is, of the Lacedaemonians; and so we will try and save ourselves.",
+              "kind": "Free",
+              "translator": "Richard Crawley",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/History_of_the_Peloponnesian_War/Book_3",
+                "lang": "en",
+                "title": "Thucydides, History of the Peloponnesian War"
+              }
+            },
+            "ru": {
+              "edition": "war-just-war.ru.ours",
+              "from": "5.112",
+              "to": "5.112",
+              "text": "Наше решение, афиняне, то же, что и вначале. Мы не лишим в одно мгновение свободы город, населённый вот уже семьсот лет; но мы полагаемся на судьбу, которой боги хранили его до сих пор, и на помощь людей, то есть лакедемонян, и так попытаемся спастись.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/History_of_the_Peloponnesian_War/Book_3",
+                "lang": "en",
+                "title": "Фукидид, «История Пелопоннесской войны»"
+              }
+            },
+            "uk": {
+              "edition": "war-just-war.uk.ours",
+              "from": "5.112",
+              "to": "5.112",
+              "text": "Наше рішення, афіняни, те саме, що й спочатку. Ми не позбавимо в одну мить свободи місто, заселене ось уже сімсот років; але ми покладаємося на долю, якою боги оберігали його досі, і на допомогу людей, тобто лакедемонян, і так спробуємо врятуватися.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/History_of_the_Peloponnesian_War/Book_3",
+                "lang": "en",
+                "title": "Фукідід, «Історія Пелопоннеської війни»"
+              }
+            },
+            "pl": {
+              "edition": "war-just-war.pl.ours",
+              "from": "5.112",
+              "to": "5.112",
+              "text": "Nasze postanowienie, Ateńczycy, jest takie samo jak na początku. Nie odbierzemy w jednej chwili wolności miastu zamieszkanemu już od siedmiuset lat; lecz pokładamy ufność w losie, dzięki któremu bogowie dotąd je zachowali, i w pomocy ludzi, to jest Lacedemończyków; i tak spróbujemy się ocalić.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://pl.wikisource.org/wiki/Historya_wojny_peloponneskiéj/Xięga_Trzecia",
+                "lang": "pl",
+                "title": "Tukidydes, Wojna peloponeska"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:5.112/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Ten years before, in 426 BC, Nicias had landed on Melos with sixty ships and two thousand heavy infantry and laid waste its land, because the Melians would not be subject to Athens nor join its alliance.",
+            "ru": "За десять лет до того, в 426 году до н. э., Никий высадился на Мелосе с шестьюдесятью кораблями и двумя тысячами гоплитов и опустошил его землю, потому что мелосцы не желали ни подчиняться Афинам, ни вступать в их союз.",
+            "uk": "За десять років до того, 426 року до н. е., Нікій висадився на Мелосі з шістдесятьма кораблями і двома тисячами гоплітів і спустошив його землю, бо мелосці не бажали ні підкорятися Афінам, ні вступати в їхній союз.",
+            "pl": "Dziesięć lat wcześniej, w 426 roku p.n.e., Nikiasz wylądował na Melos z sześćdziesięcioma okrętami i dwoma tysiącami hoplitów i spustoszył jego ziemię, bo Melijczycy nie chcieli ani podlegać Atenom, ani przystąpić do ich sojuszu."
+          },
+          "source": "Thucydides 3.91"
+        },
+        {
+          "fact": {
+            "en": "In the spring of 415 BC, a few months after Melos fell, Euripides put on The Trojan Women in Athens: the women of a captured city, their men dead, waiting to be shared out as slaves.",
+            "ru": "Весной 415 года до н. э., через несколько месяцев после падения Мелоса, Еврипид поставил в Афинах «Троянок»: женщины взятого города, чьи мужья убиты, ждут, когда их поделят как рабынь.",
+            "uk": "Навесні 415 року до н. е., за кілька місяців після падіння Мелосу, Евріпід поставив в Афінах «Троянок»: жінки здобутого міста, чиї чоловіки вбиті, чекають, коли їх поділять як рабинь.",
+            "pl": "Wiosną 415 roku p.n.e., kilka miesięcy po upadku Melos, Eurypides wystawił w Atenach Trojanki: kobiety zdobytego miasta, których mężczyźni zginęli, czekają, aż zostaną rozdzielone jako niewolnice."
+          },
+          "source": "Aelian, Historical Miscellany 2.8 (the date); Euripides, The Trojan Women"
+        },
+        {
+          "fact": {
+            "en": "When Athens was losing the war, the Spartan commander Lysander brought the surviving Melians back to their island.",
+            "ru": "Когда Афины проигрывали войну, спартанский полководец Лисандр вернул уцелевших мелосцев на их остров.",
+            "uk": "Коли Афіни програвали війну, спартанський полководець Лісандр повернув уцілілих мелосців на їхній острів.",
+            "pl": "Gdy Ateny przegrywały wojnę, spartański wódz Lizander przywrócił ocalałych Melijczyków na ich wyspę."
+          },
+          "source": "Xenophon, Hellenica 2.2.9; Plutarch, Life of Lysander 14"
+        }
+      ]
+    },
+    {
+      "think": "just-war",
+      "question": {
+        "en": "Think of a war — in history, or in today's news. Was it just, for either side? What would have had to be different for it to be just — or can no war ever be?",
+        "ru": "Вспомните какую-нибудь войну — из истории или из сегодняшних новостей. Была ли она справедливой для какой-либо из сторон? Что должно было бы быть иначе, чтобы она была справедливой, — или никакая война никогда не может быть такой?",
+        "uk": "Пригадайте якусь війну — з історії чи із сьогоднішніх новин. Чи була вона справедливою для котроїсь зі сторін? Що мало б бути інакше, щоб вона була справедливою, — чи жодна війна ніколи не може бути такою?",
+        "pl": "Pomyśl o jakiejś wojnie — z historii albo z dzisiejszych wiadomości. Czy była sprawiedliwa dla którejkolwiek ze stron? Co musiałoby być inaczej, żeby była sprawiedliwa — czy też żadna wojna nigdy taka być nie może?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: can a war be just?",
+        "ru": "А теперь: может ли война быть справедливой?",
+        "uk": "А тепер: чи може війна бути справедливою?",
+        "pl": "A teraz: czy wojna może być sprawiedliwa?"
+      }
+    }
+  ]
+}
