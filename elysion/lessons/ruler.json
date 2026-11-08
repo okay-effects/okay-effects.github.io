@@ -1,0 +1,1307 @@
+{
+  "id": "ruler",
+  "title": {
+    "en": "What makes a good ruler?",
+    "ru": "Каким должен быть хороший правитель?",
+    "uk": "Яким має бути добрий правитель?",
+    "pl": "Co czyni władcę dobrym?"
+  },
+  "subtitle": {
+    "en": "Confucius, Laozi, Plato, Kautilya and Machiavelli — and you",
+    "ru": "Конфуций, Лао-цзы, Платон, Каутилья и Макиавелли — и вы",
+    "uk": "Конфуцій, Лао-цзи, Платон, Каутілья і Макіавеллі — і ви",
+    "pl": "Konfucjusz, Laozi, Platon, Kautilja i Machiavelli — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: what makes a good ruler?",
+        "ru": "Прежде чем читать кого-либо: каким должен быть хороший правитель?",
+        "uk": "Перш ніж читати когось: яким має бути добрий правитель?",
+        "pl": "Zanim kogokolwiek przeczytasz: co czyni władcę dobrym?"
+      },
+      "options": [
+        {
+          "en": "Wisdom: those who know best should rule",
+          "ru": "Мудрость: править должны те, кто знает лучше всех",
+          "uk": "Мудрість: правити мають ті, хто знає найкраще",
+          "pl": "Mądrość: rządzić powinni ci, którzy wiedzą najlepiej"
+        },
+        {
+          "en": "Virtue: a ruler leads by example, and the people follow it",
+          "ru": "Добродетель: правитель ведёт за собой примером, и народ следует ему",
+          "uk": "Чеснота: правитель веде за собою прикладом, і народ іде за ним",
+          "pl": "Cnota: władca prowadzi przykładem, a lud za nim podąża"
+        },
+        {
+          "en": "Strength and skill: to keep the state safe, by whatever means it takes",
+          "ru": "Сила и умение: сохранить государство любыми средствами, какие понадобятся",
+          "uk": "Сила й уміння: уберегти державу будь-якими засобами, які знадобляться",
+          "pl": "Siła i zręczność: ochronić państwo wszelkimi środkami, jakie będą potrzebne"
+        },
+        {
+          "en": "A light hand: the best ruler is the one the people hardly notice",
+          "ru": "Лёгкая рука: лучший правитель — тот, кого народ почти не замечает",
+          "uk": "Легка рука: найкращий правитель — той, кого народ майже не помічає",
+          "pl": "Lekka ręka: najlepszy władca to ten, którego lud prawie nie zauważa"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Confucius: the wind and the grass",
+        "ru": "Конфуций: ветер и трава",
+        "uk": "Конфуцій: вітер і трава",
+        "pl": "Konfucjusz: wiatr i trawa"
+      },
+      "intro": {
+        "en": "The state of Lu, in eastern China, early in the 5th century BC. Its duke reigns, but the Ji family rules, and the head of the family, Ji Kang, has called home an old teacher who spent fourteen years going from court to court in search of a ruler who would listen to him. Confucius' answers on government are short. His disciple Zigong was told that it needs three things — enough food, enough weapons, and the people's trust — and that if one must go, it should be the weapons. And if one more must go?",
+        "ru": "Царство Лу, восток Китая, начало V века до н. э. Царствует князь, но правит род Цзи, и глава рода, Цзи Кан-цзы, вернул домой старого учителя, который четырнадцать лет ходил от двора ко двору в поисках правителя, готового его слушать. Ответы Конфуция об управлении коротки. Ученику Цзы-гуну он сказал, что для управления нужны три вещи — достаточно пищи, достаточно оружия и доверие народа, — и если от одной придётся отказаться, то сначала от оружия. А если придётся отказаться ещё от одной?",
+        "uk": "Царство Лу, схід Китаю, початок V століття до н. е. Царює князь, але править рід Цзі, і голова роду, Цзі Кан-цзи, повернув додому старого вчителя, який чотирнадцять років ходив від двору до двору, шукаючи правителя, готового його слухати. Відповіді Конфуція про врядування короткі. Учневі Цзи-гуну він сказав, що для врядування потрібні три речі — досить їжі, досить зброї та довіра народу, — і якщо від однієї доведеться відмовитися, то спершу від зброї. А якщо доведеться відмовитися ще від однієї?",
+        "pl": "Państwo Lu, na wschodzie Chin, początek V wieku p.n.e. Panuje książę, lecz rządzi ród Ji, a głowa rodu, Ji Kangzi, sprowadził do domu starego nauczyciela, który przez czternaście lat chodził od dworu do dworu, szukając władcy gotowego go słuchać. Odpowiedzi Konfucjusza o rządzeniu są krótkie. Uczniowi Zigongowi powiedział, że do rządzenia trzeba trzech rzeczy — dość żywności, dość broni i zaufania ludu — a jeśli z jednej trzeba zrezygnować, to najpierw z broni. A jeśli trzeba zrezygnować z jeszcze jednej?"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Confucius, Analects 12.7",
+            "ru": "Конфуций, «Лунь юй» 12.7",
+            "uk": "Конфуцій, «Лунь юй» 12.7",
+            "pl": "Konfucjusz, Dialogi konfucjańskie 12.7"
+          },
+          "quotes": {
+            "en": {
+              "edition": "analects-ruler.en.legge",
+              "from": "12.7",
+              "to": "12.7",
+              "text": "The Master answered, \"Part with the food. From of old, death has been the lot of all men; but if the people have no faith in their rulers, there is no standing for the state.\"",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Confucius, The Analects"
+              }
+            },
+            "ru": {
+              "edition": "analects-ruler.ru.ours",
+              "from": "12.7",
+              "to": "12.7",
+              "text": "Учитель ответил: «Откажись от пищи. Издревле смерть была уделом всех людей; но если у народа нет веры в своих правителей, государству не устоять».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуций, «Лунь юй»"
+              }
+            },
+            "uk": {
+              "edition": "analects-ruler.uk.ours",
+              "from": "12.7",
+              "to": "12.7",
+              "text": "Учитель відповів: «Відмовся від їжі. Здавна смерть була долею всіх людей; але якщо народ не має віри у своїх правителів, державі не встояти».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуцій, «Лунь юй»"
+              }
+            },
+            "pl": {
+              "edition": "analects-ruler.pl.ours",
+              "from": "12.7",
+              "to": "12.7",
+              "text": "Mistrz odpowiedział: „Zrezygnuj z żywności. Od dawna śmierć była losem wszystkich ludzi; lecz jeśli lud nie ma wiary w swoich władców, państwo nie może się ostać”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Konfucjusz, Dialogi konfucjańskie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/論語/顏淵第十二"
+          }
+        },
+        {
+          "by": {
+            "en": "Confucius, Analects 12.19 (Ji Kang is Legge's Chi K'ang)",
+            "ru": "Конфуций, «Лунь юй» 12.19",
+            "uk": "Конфуцій, «Лунь юй» 12.19",
+            "pl": "Konfucjusz, Dialogi konfucjańskie 12.19"
+          },
+          "quotes": {
+            "en": {
+              "edition": "analects-ruler.en.legge",
+              "from": "12.19",
+              "to": "12.19",
+              "text": "Chi K'ang asked Confucius about government, saying, \"What do you say to killing the unprincipled for the good of the principled?\" Confucius replied, \"Sir, in carrying on your government, why should you use killing at all? Let your evinced desires be for what is good, and the people will be good. The relation between superiors and inferiors, is like that between the wind and the grass. The grass must bend, when the wind blows across it.\"",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Confucius, The Analects"
+              }
+            },
+            "ru": {
+              "edition": "analects-ruler.ru.ours",
+              "from": "12.19",
+              "to": "12.19",
+              "text": "Цзи Кан-цзы спросил Конфуция об управлении, сказав: «Что вы скажете о том, чтобы казнить беспринципных ради блага людей с принципами?» Конфуций ответил: «Господин, правя, зачем вам вообще прибегать к казням? Пусть желания, которые вы выказываете, будут обращены к добру, — и народ будет добрым. Отношение между высшими и низшими подобно отношению между ветром и травой. Трава непременно склоняется, когда над ней проносится ветер».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуций, «Лунь юй»"
+              }
+            },
+            "uk": {
+              "edition": "analects-ruler.uk.ours",
+              "from": "12.19",
+              "to": "12.19",
+              "text": "Цзі Кан-цзи спитав Конфуція про врядування, сказавши: «Що ви скажете про те, щоб страчувати безпринципних задля блага людей із принципами?» Конфуцій відповів: «Пане, врядуючи, навіщо вам узагалі вдаватися до страт? Нехай бажання, які ви виявляєте, будуть звернені до добра, — і народ буде добрим. Стосунок між вищими й нижчими подібний до стосунку між вітром і травою. Трава неодмінно хилиться, коли над нею проноситься вітер».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуцій, «Лунь юй»"
+              }
+            },
+            "pl": {
+              "edition": "analects-ruler.pl.ours",
+              "from": "12.19",
+              "to": "12.19",
+              "text": "Ji Kangzi zapytał Konfucjusza o rządzenie, mówiąc: „Co sądzisz o zabijaniu ludzi bez zasad dla dobra ludzi z zasadami?” Konfucjusz odpowiedział: „Panie, sprawując rządy, po cóż miałbyś w ogóle zabijać? Niech pragnienia, które okazujesz, zwrócą się ku dobru, a lud będzie dobry. Stosunek między wyższymi a niższymi jest jak stosunek między wiatrem a trawą. Trawa musi się pochylić, gdy wiatr po niej przejdzie”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Konfucjusz, Dialogi konfucjańskie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/論語/顏淵第十二"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Ji Kang called Confucius home in 484 BC, after his disciple Ran Qiu, who led the Ji family's troops, beat an army of Qi and said he had learned war from Confucius. Yet, Sima Qian adds, Lu never gave Confucius office in the end, and he did not seek it.",
+            "ru": "Цзи Кан-цзы вернул Конфуция домой в 484 году до н. э., после того как его ученик Жань Цю, водивший войска рода Цзи, разбил армию Ци и сказал, что военному делу учился у Конфуция. И всё же, добавляет Сыма Цянь, Лу так и не дало Конфуцию должности, а он её и не искал.",
+            "uk": "Цзі Кан-цзи повернув Конфуція додому 484 року до н. е., після того як його учень Жань Цю, що водив війська роду Цзі, розбив армію Ці і сказав, що військової справи вчився в Конфуція. І все ж, додає Сима Цянь, Лу так і не дало Конфуцію посади, а він її й не шукав.",
+            "pl": "Ji Kangzi sprowadził Konfucjusza do domu w 484 roku p.n.e., gdy jego uczeń Ran Qiu, dowodzący wojskami rodu Ji, pobił armię Qi i powiedział, że sztuki wojennej uczył się u Konfucjusza. A jednak, dodaje Sima Qian, Lu ostatecznie nie dało Konfucjuszowi urzędu, a on go nie szukał."
+          },
+          "source": "Sima Qian, Records of the Grand Historian (Shiji) 47, the Hereditary House of Confucius"
+        },
+        {
+          "fact": {
+            "en": "The same Ran Qiu collected the Ji family's taxes and made it richer than the Duke of Zhou had been. \"He is no disciple of mine,\" said Confucius. \"My little children, beat the drum and assail him.\"",
+            "ru": "Тот же Жань Цю собирал подати для рода Цзи и сделал его богаче, чем был сам Чжоу-гун. «Он мне не ученик, — сказал Конфуций. — Дети мои, бейте в барабан и нападайте на него».",
+            "uk": "Той самий Жань Цю збирав податки для роду Цзі й зробив його багатшим, ніж був сам Чжоу-гун. «Він мені не учень, — сказав Конфуцій. — Діти мої, бийте в барабан і нападайте на нього».",
+            "pl": "Ten sam Ran Qiu ściągał podatki dla rodu Ji i uczynił go bogatszym, niż był książę Zhou. „To nie mój uczeń — rzekł Konfucjusz. — Dzieci moje, bijcie w bęben i natrzyjcie na niego”."
+          },
+          "source": "Analects 11.17 (11.16 in Legge)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Laozi: the rulers no one knew",
+        "ru": "Лао-цзы: правители, о которых не знали",
+        "uk": "Лао-цзи: правителі, про яких не знали",
+        "pl": "Laozi: władcy, o których nie wiedziano"
+      },
+      "intro": {
+        "en": "China, some time before 300 BC. A small book of about five thousand characters, later called the Dao De Jing — the Classic of the Way and of Virtue — and set under the name of Laozi, the Old Master, turns the question round. Its sage acts without striving and teaches without words; and it ranks rulers from the best down:",
+        "ru": "Китай, когда-то до 300 года до н. э. Небольшая книга примерно в пять тысяч иероглифов, позже названная «Дао дэ цзин» — «Канон пути и добродетели» — и приписанная Лао-цзы, Старому учителю, переворачивает вопрос. Её мудрец действует, не усердствуя, и учит без слов; и она располагает правителей от лучших вниз:",
+        "uk": "Китай, колись до 300 року до н. е. Невелика книжка приблизно на п’ять тисяч ієрогліфів, пізніше названа «Дао де цзін» — «Канон шляху і чесноти» — і приписана Лао-цзи, Старому вчителеві, перевертає питання. Її мудрець діє, не силкуючись, і навчає без слів; і вона розташовує правителів від найкращих донизу:",
+        "pl": "Chiny, kiedyś przed 300 rokiem p.n.e. Niewielka księga z około pięciu tysięcy znaków, później nazwana Daodejing — „Księgą drogi i cnoty” — i przypisana Laoziemu, Staremu Mistrzowi, odwraca pytanie. Jej mędrzec działa bez wysiłku i naucza bez słów; a władców szereguje od najlepszych w dół:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Laozi, Dao De Jing 17 (the words in brackets are Legge's)",
+            "ru": "Лао-цзы, «Дао дэ цзин» 17 (слова в скобках добавил Легг)",
+            "uk": "Лао-цзи, «Дао де цзін» 17 (слова в дужках додав Легг)",
+            "pl": "Laozi, Daodejing 17 (słowa w nawiasach dodał Legge)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "daodejing-ruler.en.legge",
+              "from": "17.1",
+              "to": "17.2",
+              "text": "In the highest antiquity, (the people) did not know that there were (their rulers). In the next age they loved them and praised them. In the next they feared them; in the next they despised them. Thus it was that when faith (in the Tao) was deficient (in the rulers) a want of faith in them ensued (in the people). How irresolute did those (earliest rulers) appear, showing (by their reticence) the importance which they set upon their words! Their work was done and their undertakings were successful, while the people all said, 'We are as we are, of ourselves!'",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tâo_Teh_King",
+                "lang": "en",
+                "title": "Laozi, Dao De Jing"
+              }
+            },
+            "ru": {
+              "edition": "daodejing-ruler.ru.ours",
+              "from": "17.1",
+              "to": "17.2",
+              "text": "В глубочайшей древности (народ) не знал, что у него есть (правители). В следующую эпоху их любили и восхваляли. В следующую — их боялись; в следующую — их презирали. Так, когда (у правителей) недоставало веры (в Дао), (у народа) возникало неверие в них. Какими нерешительными казались те (древнейшие правители), показывая (своей сдержанностью), как высоко они ценят свои слова! Их дело было сделано, их начинания удавались, а народ говорил: «Мы таковы, каковы есть, сами по себе!»",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/Тао-Те-Кинг_(Лао-цзы;_Конисси)/Тао-Те-Кинг",
+                "lang": "ru",
+                "title": "Лао-цзы, «Дао дэ цзин»"
+              }
+            },
+            "uk": {
+              "edition": "daodejing-ruler.uk.ours",
+              "from": "17.1",
+              "to": "17.2",
+              "text": "У найглибшій давнині (народ) не знав, що в нього є (правителі). У наступну добу їх любили й вихваляли. У наступну — їх боялися; у наступну — їх зневажали. Так, коли (правителям) бракувало віри (в Дао), (у народі) поставала невіра в них. Якими нерішучими здавалися ті (найдавніші правителі), показуючи (своєю стриманістю), як високо вони цінують свої слова! Їхню справу було зроблено, їхні починання вдавалися, а народ казав: «Ми такі, які є, самі собою!»",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tâo_Teh_King",
+                "lang": "en",
+                "title": "Лао-цзи, «Дао де цзін»"
+              }
+            },
+            "pl": {
+              "edition": "daodejing-ruler.pl.ours",
+              "from": "17.1",
+              "to": "17.2",
+              "text": "W najdawniejszej starożytności (lud) nie wiedział, że ma (władców). W następnej epoce kochano ich i wychwalano. W następnej się ich bano; w następnej nimi gardzono. Tak to, gdy (władcom) brakowało wiary (w Tao), rodził się (w ludzie) brak wiary w nich. Jakże niezdecydowani wydawali się owi (najdawniejsi władcy), okazując (swoją powściągliwością), jak wielką wagę przywiązują do swoich słów! Ich dzieło było dokonane, a przedsięwzięcia się udawały, lud zaś mówił: „Jesteśmy, jacy jesteśmy, sami z siebie!”",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tâo_Teh_King",
+                "lang": "en",
+                "title": "Laozi, Daodejing"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/道德經_(王弼本)"
+          }
+        },
+        {
+          "by": {
+            "en": "Laozi, Dao De Jing 60",
+            "ru": "Лао-цзы, «Дао дэ цзин» 60",
+            "uk": "Лао-цзи, «Дао де цзін» 60",
+            "pl": "Laozi, Daodejing 60"
+          },
+          "quotes": {
+            "en": {
+              "edition": "daodejing-ruler.en.legge",
+              "from": "60.1",
+              "to": "60.1",
+              "text": "Governing a great state is like cooking small fish.",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tâo_Teh_King",
+                "lang": "en",
+                "title": "Laozi, Dao De Jing"
+              }
+            },
+            "ru": {
+              "edition": "daodejing-ruler.ru.ours",
+              "from": "60.1",
+              "to": "60.1",
+              "text": "Управление большим государством подобно приготовлению мелкой рыбы.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/Тао-Те-Кинг_(Лао-цзы;_Конисси)/Тао-Те-Кинг",
+                "lang": "ru",
+                "title": "Лао-цзы, «Дао дэ цзин»"
+              }
+            },
+            "uk": {
+              "edition": "daodejing-ruler.uk.ours",
+              "from": "60.1",
+              "to": "60.1",
+              "text": "Керування великою державою подібне до готування дрібної риби.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tâo_Teh_King",
+                "lang": "en",
+                "title": "Лао-цзи, «Дао де цзін»"
+              }
+            },
+            "pl": {
+              "edition": "daodejing-ruler.pl.ours",
+              "from": "60.1",
+              "to": "60.1",
+              "text": "Rządzenie wielkim państwem jest jak gotowanie małych ryb.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tâo_Teh_King",
+                "lang": "en",
+                "title": "Laozi, Daodejing"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/道德經_(王弼本)"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The story Sima Qian tells, about 100 BC: Laozi kept the archives of the Zhou court; seeing Zhou decline, he left for the west, and at the frontier pass its keeper begged him for a book. He wrote one in two parts, of some five thousand words, and went away — no one knows where. Sima Qian himself was not sure who Laozi had been.",
+            "ru": "Предание, которое около 100 года до н. э. записал Сыма Цянь: Лао-цзы был хранителем архива при дворе Чжоу; видя упадок Чжоу, он ушёл на запад, и на пограничной заставе её начальник упросил его написать книгу. Он написал книгу в двух частях, примерно в пять тысяч слов, и ушёл — неизвестно куда. Сам Сыма Цянь не был уверен, кем был Лао-цзы.",
+            "uk": "Переказ, який близько 100 року до н. е. записав Сима Цянь: Лао-цзи був хранителем архіву при дворі Чжоу; бачачи занепад Чжоу, він пішов на захід, і на прикордонній заставі її начальник ублагав його написати книжку. Він написав книжку у двох частинах, приблизно на п’ять тисяч слів, і пішов — невідомо куди. Сам Сима Цянь не був певен, ким був Лао-цзи.",
+            "pl": "Opowieść, którą około 100 roku p.n.e. spisał Sima Qian: Laozi był strażnikiem archiwów na dworze Zhou; widząc upadek Zhou, odszedł na zachód, a na przełęczy granicznej jej strażnik uprosił go o księgę. Napisał księgę w dwóch częściach, liczącą około pięciu tysięcy słów, i odszedł — nikt nie wie dokąd. Sam Sima Qian nie był pewien, kim Laozi był."
+          },
+          "source": "Sima Qian, Records of the Grand Historian (Shiji) 63"
+        },
+        {
+          "fact": {
+            "en": "The oldest known copy of this chapter is on bamboo slips found in 1993 in a tomb at Guodian, in Hubei, closed around 300 BC; they hold about two-fifths of the book.",
+            "ru": "Древнейшая известная копия этой главы — на бамбуковых планках, найденных в 1993 году в гробнице в Годяни, в провинции Хубэй, закрытой около 300 года до н. э.; на них около двух пятых книги.",
+            "uk": "Найдавніша відома копія цього розділу — на бамбукових планках, знайдених 1993 року в гробниці в Годяні, у провінції Хубей, закритій близько 300 року до н. е.; на них близько двох п’ятих книжки.",
+            "pl": "Najstarsza znana kopia tego rozdziału jest na bambusowych listewkach znalezionych w 1993 roku w grobowcu w Guodian, w prowincji Hubei, zamkniętym około 300 roku p.n.e.; mieszczą one około dwóch piątych księgi."
+          },
+          "source": "Robert G. Henricks, Lao Tzu's Tao Te Ching: A Translation of the Startling New Documents Found at Guodian (2000)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Plato: until philosophers are kings",
+        "ru": "Платон: пока философы не станут царями",
+        "uk": "Платон: доки філософи не стануть царями",
+        "pl": "Platon: dopóki filozofowie nie zostaną królami"
+      },
+      "intro": {
+        "en": "Athens, around 375 BC. Plato has seen the Thirty Tyrants rule his city, and the democracy that overthrew them put his teacher Socrates to death. In the Republic his Socrates builds a just city in words; asked whether such a city could ever exist, he gives the answer he fears will drown him in laughter — \"the greatest of the waves\". And he adds who should rule in it:",
+        "ru": "Афины, около 375 года до н. э. Платон видел, как его городом правили Тридцать тиранов, а демократия, свергнувшая их, казнила его учителя Сократа. В «Государстве» его Сократ строит справедливый город на словах; на вопрос, может ли такой город когда-нибудь существовать, он даёт ответ, который, как он боится, потопит его в смехе, — «величайшую из волн». И добавляет, кому в нём править:",
+        "uk": "Афіни, близько 375 року до н. е. Платон бачив, як його містом правили Тридцять тиранів, а демократія, що повалила їх, стратила його вчителя Сократа. У «Державі» його Сократ будує справедливе місто на словах; на питання, чи може таке місто колись існувати, він дає відповідь, яка, як він боїться, втопить його в сміху, — «найбільшу з хвиль». І додає, кому в ньому правити:",
+        "pl": "Ateny, około 375 roku p.n.e. Platon widział, jak jego miastem rządziło Trzydziestu Tyranów, a demokracja, która ich obaliła, skazała na śmierć jego nauczyciela Sokratesa. W Państwie jego Sokrates buduje sprawiedliwe miasto w słowach; zapytany, czy takie miasto mogłoby kiedykolwiek istnieć, daje odpowiedź, która — jak się obawia — utopi go w śmiechu, „największą z fal”. I dodaje, kto powinien w nim rządzić:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Plato, Republic V, 473c–e",
+            "ru": "Платон, «Государство» V, 473c–e",
+            "uk": "Платон, «Держава» V, 473c–e",
+            "pl": "Platon, Państwo V, 473c–e"
+          },
+          "quotes": {
+            "en": {
+              "edition": "republic-ruler.en.jowett",
+              "from": "5.473",
+              "to": "5.473",
+              "text": "Until philosophers are kings, or the kings and princes of this world have the spirit and power of philosophy, and political greatness and wisdom meet in one, and those commoner natures who pursue either to the exclusion of the other are compelled to stand aside, cities will never have rest from their evils—no, nor the human race, as I believe—and then only will this our State have a possibility of life and behold the light of day.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Plato, The Republic"
+              }
+            },
+            "ru": {
+              "edition": "republic-ruler.ru.ours",
+              "from": "5.473",
+              "to": "5.473",
+              "text": "Пока философы не станут царями или цари и властители этого мира не обретут дух и силу философии, пока государственное величие и мудрость не сойдутся в одном, а те более заурядные натуры, что стремятся к одному из них, исключая другое, не будут принуждены отойти в сторону, — городам никогда не будет покоя от их бед, нет, как я думаю, и роду человеческому; и лишь тогда это наше государство получит возможность жить и увидит свет дня.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/Политика_или_государство._Книга_первая_(Платон;_Карпов)",
+                "lang": "ru",
+                "title": "Платон, «Государство»"
+              }
+            },
+            "uk": {
+              "edition": "republic-ruler.uk.ours",
+              "from": "5.473",
+              "to": "5.473",
+              "text": "Доки філософи не стануть царями або царі й володарі цього світу не матимуть духу й сили філософії, доки державна велич і мудрість не зійдуться в одному, а ті буденніші натури, що прагнуть одного з них, відкидаючи друге, не будуть змушені відступити, — містам ніколи не буде спокою від їхнього лиха, ні, як я думаю, і людському родові; і лише тоді ця наша держава матиме змогу жити й побачить світло дня.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Платон, «Держава»"
+              }
+            },
+            "pl": {
+              "edition": "republic-ruler.pl.ours",
+              "from": "5.473",
+              "to": "5.473",
+              "text": "Dopóki filozofowie nie zostaną królami albo królowie i władcy tego świata nie posiądą ducha i mocy filozofii, dopóki wielkość polityczna i mądrość nie połączą się w jedno, a owe pospolitsze natury, które dążą do jednej z nich z wyłączeniem drugiej, nie zostaną zmuszone ustąpić, miasta nigdy nie zaznają wytchnienia od swoich nieszczęść — ani też, jak sądzę, rodzaj ludzki — i dopiero wtedy to nasze państwo będzie miało możliwość życia i ujrzy światło dnia.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://wolnelektury.pl/katalog/lektura/platon-panstwo.html",
+                "lang": "pl",
+                "title": "Platon, Państwo"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0167:book=5:section=473c"
+          }
+        },
+        {
+          "by": {
+            "en": "Plato, Republic VII, 520c–d",
+            "ru": "Платон, «Государство» VII, 520c–d",
+            "uk": "Платон, «Держава» VII, 520c–d",
+            "pl": "Platon, Państwo VII, 520c–d"
+          },
+          "quotes": {
+            "en": {
+              "edition": "republic-ruler.en.jowett",
+              "from": "7.520",
+              "to": "7.520",
+              "text": "And thus our State, which is also yours, will be a reality, and not a dream only, and will be administered in a spirit unlike that of other States, in which men fight with one another about shadows only and are distracted in the struggle for power, which in their eyes is a great good. Whereas the truth is that the State in which the rulers are most reluctant to govern is always the best and most quietly governed, and the State in which they are most eager, the worst.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Plato, The Republic"
+              }
+            },
+            "ru": {
+              "edition": "republic-ruler.ru.ours",
+              "from": "7.520",
+              "to": "7.520",
+              "text": "И так наше государство, которое и ваше тоже, станет явью, а не только сном, и управляться оно будет в ином духе, чем другие государства, где люди дерутся друг с другом лишь из-за теней и мечутся в борьбе за власть, которая в их глазах — великое благо. Истина же в том, что государство, в котором правители всего неохотнее берутся править, всегда управляется лучше и спокойнее всех, а то, в котором они к этому всего охотнее, — хуже всех.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/Политика_или_государство._Книга_первая_(Платон;_Карпов)",
+                "lang": "ru",
+                "title": "Платон, «Государство»"
+              }
+            },
+            "uk": {
+              "edition": "republic-ruler.uk.ours",
+              "from": "7.520",
+              "to": "7.520",
+              "text": "І так наша держава, яка є і вашою, стане дійсністю, а не лише сном, і правитимуть нею в іншому дусі, ніж іншими державами, де люди б’ються одне з одним лише за тіні й шарпаються в боротьбі за владу, яка в їхніх очах — велике благо. Правда ж у тому, що держава, в якій правителі найменш охоче беруться правити, завжди керована найкраще й найспокійніше, а та, в якій вони найохочіші до цього, — найгірше.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Платон, «Держава»"
+              }
+            },
+            "pl": {
+              "edition": "republic-ruler.pl.ours",
+              "from": "7.520",
+              "to": "7.520",
+              "text": "I tak nasze państwo, które jest też wasze, stanie się rzeczywistością, a nie tylko snem, i będzie rządzone w innym duchu niż inne państwa, w których ludzie walczą ze sobą tylko o cienie i szarpią się w zmaganiach o władzę, uchodzącą w ich oczach za wielkie dobro. Prawda zaś jest taka, że państwo, w którym rządzący najmniej chętnie biorą się do rządzenia, jest zawsze rządzone najlepiej i najspokojniej, a to, w którym są do tego najchętniejsi, najgorzej.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://wolnelektury.pl/katalog/lektura/platon-panstwo.html",
+                "lang": "pl",
+                "title": "Platon, Państwo"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0167:book=7:section=520d"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "In the Seventh Letter — whether Plato wrote it is disputed — he says that when the Thirty took Athens in 404 BC, some of them were his relatives and friends and invited him to join them; he soon saw them make the government before them look like a golden age.",
+            "ru": "В Седьмом письме — написал ли его Платон, спорят — он рассказывает, что, когда в 404 году до н. э. Афины захватили Тридцать, некоторые из них были его родственниками и знакомыми и звали его к себе; вскоре он увидел, что рядом с ними прежнее правление казалось золотым веком.",
+            "uk": "У Сьомому листі — чи написав його Платон, сперечаються — він розповідає, що, коли 404 року до н. е. Афіни захопили Тридцять, деякі з них були його родичами й знайомими і кликали його до себе; невдовзі він побачив, що поряд із ними попереднє правління здавалося золотим віком.",
+            "pl": "W Liście siódmym — czy napisał go Platon, jest sporne — opowiada, że gdy w 404 roku p.n.e. Ateny zagarnęło Trzydziestu, niektórzy z nich byli jego krewnymi i znajomymi i wzywali go do siebie; wkrótce zobaczył, że przy nich dawny ustrój wyglądał na złoty wiek."
+          },
+          "source": "Plato (?), Seventh Letter 324c–d"
+        },
+        {
+          "fact": {
+            "en": "The same letter says that in 367 BC he sailed to Syracuse at his friend Dion's call, to try to make the young tyrant Dionysius II a philosopher — and that it failed. A later story, told by Diogenes Laertius, has it that on an earlier visit Dionysius' father had Plato sold as a slave at Aegina, until Anniceris of Cyrene ransomed him.",
+            "ru": "То же письмо говорит, что в 367 году до н. э. он отплыл в Сиракузы по зову своего друга Диона, чтобы попытаться сделать философом молодого тирана Дионисия II, — и что из этого ничего не вышло. Позднейший рассказ, который передаёт Диоген Лаэртский, гласит, что в одну из прежних поездок отец Дионисия велел продать Платона в рабство на Эгине и его выкупил Анникерид из Кирены.",
+            "uk": "Той самий лист каже, що 367 року до н. е. він відплив до Сиракуз на заклик свого друга Діона, щоб спробувати зробити філософом молодого тирана Діонісія II, — і що з цього нічого не вийшло. Пізніша оповідь, яку переказує Діоген Лаертський, каже, що під час однієї з попередніх поїздок батько Діонісія звелів продати Платона в рабство на Егіні і його викупив Анікерид із Кірени.",
+            "pl": "Ten sam list mówi, że w 367 roku p.n.e. popłynął do Syrakuz na wezwanie swego przyjaciela Diona, by spróbować uczynić filozofem młodego tyrana Dionizjosa II — i że nic z tego nie wyszło. Późniejsza opowieść, którą przekazuje Diogenes Laertios, głosi, że podczas jednej z wcześniejszych podróży ojciec Dionizjosa kazał sprzedać Platona w niewolę na Eginie, a wykupił go Annikeris z Cyreny."
+          },
+          "source": "Plato (?), Seventh Letter 327d–330b; Diogenes Laertius, Lives of the Eminent Philosophers 3.18–20"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Kautilya: punishment as deserved",
+        "ru": "Каутилья: наказание по заслугам",
+        "uk": "Каутілья: покарання за заслугами",
+        "pl": "Kautilja: kara według zasługi"
+      },
+      "intro": {
+        "en": "India. The Arthashastra, the science of artha — of wealth and of the power that wins and keeps it — is a manual for kings: of spies and taxes, law, war and alliances. Tradition gives it to Kautilya, a Brahmin, minister of the king who founded the Maurya empire. His own teacher, he reports, would have the king always hold the rod of punishment raised: there is no better instrument to bring people under control. Kautilya answers:",
+        "ru": "Индия. «Артхашастра», наука об артхе — о богатстве и о власти, которая его добывает и удерживает, — это руководство для царей: о шпионах и налогах, законе, войне и союзах. Предание приписывает её Каутилье, брахману, министру царя, основавшего державу Маурьев. Его собственный учитель, сообщает он, хотел бы, чтобы царь всегда держал жезл наказания поднятым: нет лучшего орудия, чтобы держать людей в повиновении. Каутилья отвечает:",
+        "uk": "Індія. «Артхашастра», наука про артху — про багатство і про владу, що його здобуває і втримує, — це посібник для царів: про шпигунів і податки, закон, війну й союзи. Переказ приписує її Каутільї, брахманові, міністрові царя, який заснував державу Маур’їв. Його власний учитель, повідомляє він, хотів би, щоб цар завжди тримав жезл покарання піднятим: немає кращого знаряддя, щоб тримати людей у покорі. Каутілья відповідає:",
+        "pl": "Indie. Arthaśastra, nauka o arthcie — o bogactwie i o władzy, która je zdobywa i utrzymuje — to podręcznik dla królów: o szpiegach i podatkach, prawie, wojnie i sojuszach. Tradycja przypisuje ją Kautilji, braminowi, ministrowi króla, który założył państwo Maurjów. Jego własny nauczyciel, jak relacjonuje, chciałby, by król zawsze trzymał berło kary uniesione: nie ma lepszego narzędzia, by trzymać ludzi w posłuchu. Kautilja odpowiada:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Kautilya, Arthashastra 1.4",
+            "ru": "Каутилья, «Артхашастра» 1.4",
+            "uk": "Каутілья, «Артхашастра» 1.4",
+            "pl": "Kautilja, Arthaśastra 1.4"
+          },
+          "quotes": {
+            "en": {
+              "edition": "arthashastra-ruler.en.shamasastry",
+              "from": "1.4",
+              "to": "1.4",
+              "text": "\"No,\" says Kautilya; for whoever imposes severe punishment becomes repulsive to the people; while he who awards mild punishment becomes contemptible. But whoever imposes punishment as deserved becomes respectable. For punishment (danda) when awarded with due consideration, makes the people devoted to righteousness and to works productive of wealth and enjoyment; while punishment, when ill-awarded under the influence of greed and anger or owing to ignorance, excites fury even among hermits and ascetics dwelling in forests, not to speak of householders.",
+              "kind": "Free",
+              "translator": "R. Shamasastry",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Arthashastra",
+                "lang": "en",
+                "title": "Kautilya, Arthashastra"
+              }
+            },
+            "ru": {
+              "edition": "arthashastra-ruler.ru.ours",
+              "from": "1.4",
+              "to": "1.4",
+              "text": "«Нет», — говорит Каутилья; ибо тот, кто налагает суровые наказания, становится отвратителен народу, а тот, кто назначает мягкие, — презренным. Но тот, кто налагает наказание по заслугам, становится почитаемым. Ибо наказание (данда), назначенное с должным рассуждением, делает народ преданным праведности и трудам, приносящим богатство и наслаждение; а наказание, назначенное дурно — под влиянием алчности и гнева или по невежеству, — вызывает ярость даже у отшельников и аскетов, живущих в лесах, не говоря уже о домохозяевах.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Arthashastra",
+                "lang": "en",
+                "title": "Каутилья, «Артхашастра»"
+              }
+            },
+            "uk": {
+              "edition": "arthashastra-ruler.uk.ours",
+              "from": "1.4",
+              "to": "1.4",
+              "text": "«Ні», — каже Каутілья; бо той, хто накладає суворі покарання, стає огидним народові, а той, хто призначає м’які, — зневажуваним. Але той, хто накладає покарання за заслугами, стає шанованим. Бо покарання (данда), призначене з належним розмислом, робить народ відданим праведності й працям, що приносять багатство й насолоду; а покарання, призначене погано — під впливом жадібності й гніву чи через неуцтво, — викликає лють навіть у пустельників і подвижників, що живуть у лісах, не кажучи вже про домогосподарів.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Arthashastra",
+                "lang": "en",
+                "title": "Каутілья, «Артхашастра»"
+              }
+            },
+            "pl": {
+              "edition": "arthashastra-ruler.pl.ours",
+              "from": "1.4",
+              "to": "1.4",
+              "text": "„Nie” — mówi Kautilja; kto bowiem wymierza surowe kary, staje się odrażający dla ludu, a kto wymierza łagodne — godny pogardy. Kto zaś wymierza karę według zasługi, staje się szanowany. Kara (danda) wymierzona bowiem z należytym namysłem czyni lud oddanym prawości i pracom przynoszącym bogactwo i przyjemność; kara zaś wymierzona źle — pod wpływem chciwości i gniewu albo z niewiedzy — budzi wściekłość nawet wśród pustelników i ascetów mieszkających w lasach, nie mówiąc o gospodarzach.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Arthashastra",
+                "lang": "en",
+                "title": "Kautilja, Arthaśastra"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Sanskrit",
+              "ru": "оригинал на санскрите",
+              "uk": "оригінал санскритом",
+              "pl": "oryginał w sanskrycie"
+            },
+            "url": "https://sa.wikisource.org/wiki/कौटिलीयम्_अर्थशास्त्रम्/विनयाधिकारिकम्"
+          }
+        },
+        {
+          "by": {
+            "en": "Kautilya, Arthashastra 1.19, the duties of a king",
+            "ru": "Каутилья, «Артхашастра» 1.19, об обязанностях царя",
+            "uk": "Каутілья, «Артхашастра» 1.19, про обов’язки царя",
+            "pl": "Kautilja, Arthaśastra 1.19, o obowiązkach króla"
+          },
+          "quotes": {
+            "en": {
+              "edition": "arthashastra-ruler.en.shamasastry",
+              "from": "1.19",
+              "to": "1.19",
+              "text": "In the happiness of his subjects lies his happiness; in their welfare his welfare; whatever pleases himself he shall not consider as good, but whatever pleases his subjects he shall consider as good.",
+              "kind": "Free",
+              "translator": "R. Shamasastry",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Arthashastra",
+                "lang": "en",
+                "title": "Kautilya, Arthashastra"
+              }
+            },
+            "ru": {
+              "edition": "arthashastra-ruler.ru.ours",
+              "from": "1.19",
+              "to": "1.19",
+              "text": "В счастье его подданных — его счастье, в их благополучии — его благополучие; не то, что угодно ему самому, будет он считать хорошим, но то, что угодно его подданным, будет он считать хорошим.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Arthashastra",
+                "lang": "en",
+                "title": "Каутилья, «Артхашастра»"
+              }
+            },
+            "uk": {
+              "edition": "arthashastra-ruler.uk.ours",
+              "from": "1.19",
+              "to": "1.19",
+              "text": "У щасті його підданих — його щастя, у їхньому добробуті — його добробут; не те, що до вподоби йому самому, вважатиме він добрим, а те, що до вподоби його підданим, вважатиме він добрим.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Arthashastra",
+                "lang": "en",
+                "title": "Каутілья, «Артхашастра»"
+              }
+            },
+            "pl": {
+              "edition": "arthashastra-ruler.pl.ours",
+              "from": "1.19",
+              "to": "1.19",
+              "text": "W szczęściu jego poddanych leży jego szczęście, w ich pomyślności jego pomyślność; nie to, co jemu samemu się podoba, ma uważać za dobre, lecz to, co podoba się jego poddanym, ma uważać za dobre.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Arthashastra",
+                "lang": "en",
+                "title": "Kautilja, Arthaśastra"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Sanskrit",
+              "ru": "оригинал на санскрите",
+              "uk": "оригінал санскритом",
+              "pl": "oryginał w sanskrycie"
+            },
+            "url": "https://sa.wikisource.org/wiki/कौटिलीयम्_अर्थशास्त्रम्/विनयाधिकारिकम्"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The book ends with a verse: it was made by the one who, unable to bear misrule, quickly rescued the sacred texts, the science of arms and the earth from the Nanda king. Tradition took him to be Chanakya, who helped Chandragupta Maurya overthrow the Nandas and found an empire in the late 4th century BC; Patrick Olivelle dates the text as we have it between the 1st century BC and the 3rd century AD.",
+            "ru": "Книга кончается стихом: её создал тот, кто, не стерпев дурного правления, быстро вызволил священные тексты, науку оружия и землю из рук царя Нанды. Предание видело в нём Чанакью, который помог Чандрагупте Маурье свергнуть Нандов и основать державу в конце IV века до н. э.; Патрик Оливелл относит текст в том виде, в каком он дошёл до нас, ко времени между I веком до н. э. и III веком н. э.",
+            "uk": "Книжка закінчується віршем: її створив той, хто, не стерпівши лихого правління, швидко визволив священні тексти, науку зброї та землю з рук царя Нанди. Переказ бачив у ньому Чанак’ю, який допоміг Чандрагупті Маур’ї повалити Нандів і заснувати державу наприкінці IV століття до н. е.; Патрік Олівелл відносить текст у тому вигляді, в якому він дійшов до нас, до часу між I століттям до н. е. і III століттям н. е.",
+            "pl": "Księga kończy się wierszem: stworzył ją ten, kto, nie znosząc złych rządów, szybko wyrwał święte teksty, naukę o broni i ziemię z rąk króla Nandy. Tradycja widziała w nim Ćanakję, który pomógł Ćandragupcie Maurji obalić Nandów i założyć państwo pod koniec IV wieku p.n.e.; Patrick Olivelle datuje tekst w postaci, w jakiej do nas dotarł, na czas między I wiekiem p.n.e. a III wiekiem n.e."
+          },
+          "source": "Arthashastra 15.1, its closing verse; Patrick Olivelle, King, Governance, and Law in Ancient India: Kauṭilya's Arthaśāstra (2013)"
+        },
+        {
+          "fact": {
+            "en": "Modern scholars knew the book only by its fame until 1905, when a Brahmin from Tanjore gave a palm-leaf manuscript of it to the Oriental Library in Mysore, and its librarian, R. Shamasastry, saw what it was; he published the text in 1909 and the translation quoted here in 1915.",
+            "ru": "Современные учёные знали книгу лишь по её славе, пока в 1905 году брахман из Танджавура не передал её рукопись на пальмовых листьях в Восточную библиотеку в Майсуре, а её библиотекарь Р. Шамасастри не понял, что это такое; он издал текст в 1909 году, а приведённый здесь перевод — в 1915-м.",
+            "uk": "Сучасні вчені знали книжку лише з її слави, доки 1905 року брахман із Танджавура не передав її рукопис на пальмовому листі до Східної бібліотеки в Майсурі, а її бібліотекар Р. Шамасастрі не зрозумів, що це таке; він видав текст 1909 року, а наведений тут переклад — 1915-го.",
+            "pl": "Współcześni uczeni znali tę księgę jedynie ze sławy, dopóki w 1905 roku pewien bramin z Thanjavuru nie przekazał jej rękopisu na liściach palmowych Bibliotece Orientalnej w Majsurze, a jej bibliotekarz, R. Shamasastry, nie rozpoznał, czym jest; tekst wydał w 1909 roku, a przytoczony tu przekład w 1915."
+          },
+          "source": "Patrick Olivelle, King, Governance, and Law in Ancient India: Kauṭilya's Arthaśāstra (2013), introduction"
+        },
+        {
+          "fact": {
+            "en": "Kautilya counts about forty ways in which officials embezzle, and warns that, just as one cannot help tasting honey or poison on the tip of one's tongue, a servant of the government cannot help eating up at least a bit of the king's revenue — and can no more be caught at it than a fish can be seen drinking water.",
+            "ru": "Каутилья насчитывает около сорока способов, какими чиновники расхищают казну, и предупреждает: как нельзя не почувствовать вкус мёда или яда на кончике языка, так государственный служащий не может не съесть хоть немного царского дохода — и поймать его на этом не легче, чем увидеть, как рыба пьёт воду.",
+            "uk": "Каутілья налічує близько сорока способів, якими урядовці розкрадають скарбницю, і застерігає: як не можна не відчути смаку меду чи отрути на кінчику язика, так державний службовець не може не з’їсти хоч трохи царського прибутку — і впіймати його на цьому не легше, ніж побачити, як риба п’є воду.",
+            "pl": "Kautilja wylicza około czterdziestu sposobów, na jakie urzędnicy defraudują dochody, i ostrzega: jak nie sposób nie poczuć smaku miodu czy trucizny na koniuszku języka, tak urzędnik państwowy nie może nie zjeść choć odrobiny królewskiego dochodu — a przyłapać go na tym nie łatwiej, niż zobaczyć, jak ryba pije wodę."
+          },
+          "source": "Arthashastra 2.8–2.9 (Shamasastry's chapters VIII and IX of Book II)"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "San Casciano, near Florence, December 1513",
+        "ru": "Сан-Кашано под Флоренцией, декабрь 1513 года",
+        "uk": "Сан-Кашано під Флоренцією, грудень 1513 року",
+        "pl": "San Casciano pod Florencją, grudzień 1513"
+      },
+      "scene": {
+        "en": "You are Niccolò Machiavelli, of Florence. For fourteen years you served the Republic as a secretary: you rode on its missions to the king of France, to Cesare Borgia, to the Pope, to the Emperor, and you raised its militia. In 1512 a Spanish army brought the Medici back; you lost your post, and in February your name was found on a conspirators' list — you were jailed and tortured with the rope, until the election of a Medici pope brought an amnesty. Now you live on your small farm near San Casciano: you see to your woodcutters, snare thrushes, and quarrel over cards at the inn. In the evenings you put on your court dress and read the ancients — and you have written a little book on principalities: what they are, how they are won, kept and lost. Your friend Francesco Vettori is the Florentine ambassador in Rome, at the court of the new pope, Leo X, a Medici. What do you do with the book?",
+        "ru": "Вы — Никколо Макиавелли, флорентиец. Четырнадцать лет вы служили Республике секретарём: ездили с её поручениями к королю Франции, к Чезаре Борджиа, к папе, к императору и набирали её ополчение. В 1512 году испанское войско вернуло Медичи; вы лишились должности, а в феврале ваше имя нашли в списке заговорщиков — вас бросили в тюрьму и пытали дыбой, пока избрание папы из Медичи не принесло амнистию. Теперь вы живёте в своём маленьком имении под Сан-Кашано: присматриваете за рубкой своего леса, ловите силками дроздов и спорите над картами в трактире. По вечерам вы надеваете придворное платье и читаете древних — и вы написали небольшую книгу о княжествах: что они такое, как их добывают, удерживают и теряют. Ваш друг Франческо Веттори — посол Флоренции в Риме, при дворе нового папы, Льва X, из Медичи. Что вы сделаете с книгой?",
+        "uk": "Ви — Нікколо Макіавеллі, флорентієць. Чотирнадцять років ви служили Республіці секретарем: їздили з її дорученнями до короля Франції, до Чезаре Борджа, до папи, до імператора і набирали її ополчення. 1512 року іспанське військо повернуло Медичі; ви втратили посаду, а в лютому ваше ім’я знайшли в списку змовників — вас кинули до в’язниці й катували на дибі, доки обрання папи з Медичі не принесло амністії. Тепер ви живете у своєму маленькому маєтку під Сан-Кашано: наглядаєте за рубкою свого лісу, ловите сильцями дроздів і сперечаєтеся над картами в шинку. Вечорами ви вдягаєте придворне вбрання і читаєте давніх — і ви написали невелику книжку про князівства: що вони таке, як їх здобувають, утримують і втрачають. Ваш друг Франческо Ветторі — посол Флоренції в Римі, при дворі нового папи, Лева X, із Медичі. Що ви зробите з книжкою?",
+        "pl": "Jesteś Niccolò Machiavellim, florentczykiem. Przez czternaście lat służyłeś Republice jako sekretarz: jeździłeś z jej poselstwami do króla Francji, do Cezara Borgii, do papieża, do cesarza i werbowałeś jej milicję. W 1512 roku wojsko hiszpańskie przywróciło Medyceuszy; straciłeś urząd, a w lutym twoje nazwisko znaleziono na liście spiskowców — wtrącono cię do więzienia i torturowano na strappado, dopóki wybór papieża z Medyceuszy nie przyniósł amnestii. Teraz mieszkasz w swoim małym majątku pod San Casciano: doglądasz wyrębu swego lasu, łowisz drozdy w sidła i kłócisz się przy kartach w gospodzie. Wieczorami wkładasz strój dworski i czytasz starożytnych — i napisałeś niewielką książkę o księstwach: czym są, jak się je zdobywa, utrzymuje i traci. Twój przyjaciel Francesco Vettori jest posłem Florencji w Rzymie, na dworze nowego papieża, Leona X, z Medyceuszy. Co zrobisz z książką?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Send it to Vettori for the Medici, dedicated to Giuliano: a new prince needs counsel, and you need work",
+            "ru": "Послать её Веттори для Медичи, с посвящением Джулиано: новому государю нужен совет, а вам — работа",
+            "uk": "Надіслати її Ветторі для Медичі, з присвятою Джуліано: новому державцеві потрібна порада, а вам — робота",
+            "pl": "Wysłać ją Vettoriemu dla Medyceuszy, z dedykacją dla Giuliana: nowy książę potrzebuje rady, a ty pracy"
+          },
+          "reply": {
+            "en": "That is what he meant to do — after talking it over with his friend Filippo Casavecchia: whether to give it at all, and whether to bring it himself or send it.",
+            "ru": "Это он и собирался сделать — обсудив с другом Филиппо Казавеккьей, отдавать ли её вообще и отвезти ли её самому или послать.",
+            "uk": "Це він і збирався зробити — обговоривши з другом Філіппо Казавекк’єю, чи віддавати її взагалі і чи відвезти її самому, чи надіслати.",
+            "pl": "To właśnie zamierzał zrobić — po rozmowie z przyjacielem Filippem Casavecchią o tym, czy w ogóle ją dać i czy zawieźć ją samemu, czy wysłać."
+          }
+        },
+        {
+          "choice": {
+            "en": "Keep it: they tortured you, and the book would only teach them to rule harder",
+            "ru": "Оставить её у себя: они вас пытали, а книга лишь научит их править жёстче",
+            "uk": "Залишити її в себе: вони вас катували, а книжка лише навчить їх правити жорсткіше",
+            "pl": "Zatrzymać ją: torturowali cię, a książka nauczy ich tylko rządzić twardszą ręką"
+          },
+          "reply": {
+            "en": "He did weigh it — he feared Giuliano would not even read it, and that the pope's secretary Ardinghelli would take the credit — but he wrote that need drove him: he was wearing himself out, and could not go on so long without being despised for his poverty.",
+            "ru": "Он и это взвешивал — боялся, что Джулиано её даже не прочтёт, а честь присвоит себе папский секретарь Ардингелли, — но писал, что его гонит нужда: он изнуряет себя и не может долго так жить, не став презираемым из-за бедности.",
+            "uk": "Він і це зважував — боявся, що Джуліано її навіть не прочитає, а честь привласнить собі папський секретар Ардінгеллі, — але писав, що його жене нужда: він виснажує себе і не може довго так жити, не ставши зневажуваним через бідність.",
+            "pl": "Rozważał i to — obawiał się, że Giuliano nawet jej nie przeczyta, a zasługę przypisze sobie papieski sekretarz Ardinghelli — ale pisał, że pędzi go potrzeba: wyniszcza się i nie może długo tak żyć, by nie stać się pogardzanym z powodu ubóstwa."
+          }
+        },
+        {
+          "choice": {
+            "en": "Publish it for all to read: let the people see how princes rule them",
+            "ru": "Издать её для всех: пусть народ увидит, как им правят государи",
+            "uk": "Видати її для всіх: хай народ побачить, як ним правлять державці",
+            "pl": "Wydać ją dla wszystkich: niech lud zobaczy, jak rządzą nim książęta"
+          },
+          "reply": {
+            "en": "He never published it; it went round in copies, and was printed only in 1532, five years after his death.",
+            "ru": "Он её так и не издал; она ходила в списках и была напечатана лишь в 1532 году, через пять лет после его смерти.",
+            "uk": "Він її так і не видав; вона ходила в списках і була надрукована лише 1532 року, через п’ять років після його смерті.",
+            "pl": "Nigdy jej nie wydał; krążyła w odpisach i została wydrukowana dopiero w 1532 roku, pięć lat po jego śmierci."
+          }
+        },
+        {
+          "choice": {
+            "en": "Put it aside and write about republics instead: they, not princes, keep a people free",
+            "ru": "Отложить её и писать о республиках: свободу народа хранят они, а не государи",
+            "uk": "Відкласти її і писати про республіки: свободу народу бережуть вони, а не державці",
+            "pl": "Odłożyć ją i pisać o republikach: to one, a nie książęta, strzegą wolności ludu"
+          },
+          "reply": {
+            "en": "He did both: before he had done with The Prince he had begun the Discourses on Livy, his book on republics.",
+            "ru": "Он сделал и то и другое: ещё не покончив с «Государем», он начал «Рассуждения о первой декаде Тита Ливия» — свою книгу о республиках.",
+            "uk": "Він зробив і те, і те: ще не покінчивши з «Державцем», він почав «Міркування про першу декаду Тита Лівія» — свою книжку про республіки.",
+            "pl": "Zrobił jedno i drugie: nie skończywszy jeszcze Księcia, zaczął Rozważania nad pierwszym dziesięcioksięgiem historii Rzymu Liwiusza — swoją książkę o republikach."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "Machiavelli meant his little book for Giuliano. But Giuliano de' Medici died in 1516, and it was dedicated instead to his nephew Lorenzo, who now ruled Florence; there is no evidence that Lorenzo ever read it, and he never gave its author employment. Machiavelli stayed in the country and wrote — the Discourses on Livy, The Art of War, a comedy, The Mandrake. Only in 1520 did Cardinal Giulio de' Medici commission him to write a History of Florence. When the Medici were driven out again in 1527, he hoped for his old office in the restored Republic; it went to another man, and on 22 June he died. The book he had written to win back a post was printed five years later — and has been read ever since as the manual of power without illusions.",
+        "ru": "Макиавелли предназначал свою небольшую книгу Джулиано. Но Джулиано Медичи умер в 1516 году, и её посвятили вместо него его племяннику Лоренцо, правившему теперь Флоренцией; нет никаких свидетельств, что Лоренцо её хотя бы прочёл, и он так и не дал её автору никакой должности. Макиавелли остался в деревне и писал — «Рассуждения о первой декаде Тита Ливия», «О военном искусстве», комедию «Мандрагора». Лишь в 1520 году кардинал Джулио Медичи заказал ему «Историю Флоренции». Когда в 1527 году Медичи снова изгнали, он надеялся вернуть прежнюю должность в восстановленной Республике; её получил другой, и 22 июня он умер. Книга, которую он написал, чтобы вернуть себе место, была напечатана пять лет спустя — и с тех пор её читают как учебник власти без иллюзий.",
+        "uk": "Макіавеллі призначав свою невелику книжку Джуліано. Але Джуліано Медичі помер 1516 року, і її присвятили натомість його небожеві Лоренцо, який тепер правив Флоренцією; немає жодних свідчень, що Лоренцо її бодай прочитав, і він так і не дав її авторові жодної посади. Макіавеллі лишився в селі й писав — «Міркування про першу декаду Тита Лівія», «Про військове мистецтво», комедію «Мандрагора». Лише 1520 року кардинал Джуліо Медичі замовив йому «Історію Флоренції». Коли 1527 року Медичі знову вигнали, він сподівався повернути колишню посаду у відновленій Республіці; її отримав інший, і 22 червня він помер. Книжку, яку він написав, щоб повернути собі місце, надрукували через п’ять років — і відтоді її читають як підручник влади без ілюзій.",
+        "pl": "Machiavelli przeznaczył swoją książeczkę dla Giuliana. Lecz Giuliano de' Medici zmarł w 1516 roku, a dedykowano ją zamiast niego jego bratankowi Lorenzowi, który rządził teraz Florencją; nie ma żadnych świadectw, że Lorenzo ją choćby przeczytał, i nigdy nie dał jej autorowi żadnego urzędu. Machiavelli pozostał na wsi i pisał — Rozważania nad Liwiuszem, O sztuce wojennej, komedię Mandragora. Dopiero w 1520 roku kardynał Giulio de' Medici zamówił u niego Historię Florencji. Gdy w 1527 roku Medyceuszy znów wygnano, liczył na swój dawny urząd w przywróconej Republice; dostał go inny, a 22 czerwca Machiavelli zmarł. Książkę, którą napisał, by odzyskać posadę, wydrukowano pięć lat później — i od tamtej pory czyta się ją jako podręcznik władzy bez złudzeń."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Machiavelli to Francesco Vettori, 10 December 1513",
+            "ru": "Макиавелли — Франческо Веттори, 10 декабря 1513 года",
+            "uk": "Макіавеллі — Франческо Ветторі, 10 грудня 1513 року",
+            "pl": "Machiavelli do Francesca Vettoriego, 10 grudnia 1513"
+          },
+          "quotes": {
+            "en": {
+              "edition": "vettori-ruler.en.marriott",
+              "from": "1.1",
+              "to": "1.1",
+              "text": "The evening being come, I return home and go to my study; at the entrance I pull off my peasant-clothes, covered with dust and dirt, and put on my noble court dress, and thus becomingly re-clothed I pass into the ancient courts of the men of old, where, being lovingly received by them, I am fed with that food which is mine alone; where I do not hesitate to speak with them, and to ask for the reason of their actions, and they in their benignity answer me; and for four hours I feel no weariness, I forget every trouble, poverty does not dismay, death does not terrify me; I am possessed entirely by those great men.",
+              "kind": "Free",
+              "translator": "W. K. Marriott",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Prince_(Marriott)/Introduction",
+                "lang": "en",
+                "title": "Niccolò Machiavelli, Letter to Francesco Vettori (1513)"
+              }
+            },
+            "ru": {
+              "edition": "vettori-ruler.ru.ours",
+              "from": "1.1",
+              "to": "1.1",
+              "text": "Когда наступает вечер, я возвращаюсь домой и иду в свой кабинет; на пороге я сбрасываю крестьянскую одежду, покрытую пылью и грязью, надеваю благородное придворное платье и, подобающе переодетый, вступаю в древние дворы людей старины, где, любовно ими принятый, я вкушаю ту пищу, что одна лишь моя; где я не колеблюсь говорить с ними и спрашивать о причинах их поступков, и они по своей доброте отвечают мне; и четыре часа я не чувствую усталости, забываю всякую тревогу, бедность меня не пугает, смерть не страшит; мной всецело владеют эти великие люди.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Prince_(Marriott)/Introduction",
+                "lang": "en",
+                "title": "Никколо Макиавелли, письмо Франческо Веттори (1513)"
+              }
+            },
+            "uk": {
+              "edition": "vettori-ruler.uk.ours",
+              "from": "1.1",
+              "to": "1.1",
+              "text": "Коли настає вечір, я повертаюся додому й іду до свого кабінету; на порозі я скидаю селянський одяг, укритий пилом і брудом, вдягаю шляхетне придворне вбрання і, належно перевдягнений, вступаю до давніх дворів людей старовини, де, з любов’ю ними прийнятий, я живлюся тією їжею, яка лише моя; де я не вагаюся розмовляти з ними й питати про причини їхніх учинків, і вони зі своєї доброти відповідають мені; і чотири години я не відчуваю втоми, забуваю всяку тривогу, бідність мене не лякає, смерть не страшить; мною цілком володіють ці великі люди.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Prince_(Marriott)/Introduction",
+                "lang": "en",
+                "title": "Нікколо Макіавеллі, лист до Франческо Ветторі (1513)"
+              }
+            },
+            "pl": {
+              "edition": "vettori-ruler.pl.ours",
+              "from": "1.1",
+              "to": "1.1",
+              "text": "Gdy nadchodzi wieczór, wracam do domu i idę do swojej pracowni; u progu zrzucam chłopskie ubranie, pokryte kurzem i błotem, wkładam szlachetny strój dworski i tak przystojnie przyodziany wchodzę na starożytne dwory ludzi dawnych wieków, gdzie, serdecznie przez nich przyjęty, karmię się tym pokarmem, który jedynie do mnie należy; gdzie nie waham się z nimi rozmawiać i pytać o przyczyny ich czynów, a oni w swej łaskawości mi odpowiadają; i przez cztery godziny nie czuję znużenia, zapominam o wszelkiej trosce, ubóstwo mnie nie trwoży, śmierć nie przeraża; całkowicie władają mną ci wielcy ludzie.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Prince_(Marriott)/Introduction",
+                "lang": "en",
+                "title": "Niccolò Machiavelli, list do Francesca Vettoriego (1513)"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Italian",
+              "ru": "оригинал на итальянском",
+              "uk": "оригінал італійською",
+              "pl": "oryginał po włosku"
+            },
+            "url": "https://it.wikisource.org/wiki/Lettere_(Machiavelli)/Lettera_XI_a_Francesco_Vettori"
+          }
+        },
+        {
+          "by": {
+            "en": "The same letter",
+            "ru": "То же письмо",
+            "uk": "Той самий лист",
+            "pl": "Ten sam list"
+          },
+          "quotes": {
+            "en": {
+              "edition": "vettori-ruler.en.marriott",
+              "from": "1.2",
+              "to": "1.2",
+              "text": "I have noted down what I have gained from their conversation, and have composed a small work on 'Principalities,' where I pour myself out as fully as I can in meditation on the subject, discussing what a principality is, what kinds there are, how they can be acquired, how they can be kept, why they are lost: and if any of my fancies ever pleased you, this ought not to displease you: and to a prince, especially to a new one, it should be welcome: therefore I dedicate it to his Magnificence Giuliano.",
+              "kind": "Free",
+              "translator": "W. K. Marriott",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Prince_(Marriott)/Introduction",
+                "lang": "en",
+                "title": "Niccolò Machiavelli, Letter to Francesco Vettori (1513)"
+              }
+            },
+            "ru": {
+              "edition": "vettori-ruler.ru.ours",
+              "from": "1.2",
+              "to": "1.2",
+              "text": "Я записал то, что извлёк из бесед с ними, и сочинил небольшой труд «О княжествах», где погружаюсь, насколько могу, в размышления об этом предмете, рассуждая о том, что такое княжество, каковы их виды, как их можно приобрести, как можно удержать, почему их теряют; и если вам когда-нибудь нравилась хоть одна из моих причуд, то не должна быть вам неприятна и эта; а государю, особенно новому, она должна прийтись по душе; поэтому я посвящаю её Его Великолепию Джулиано.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Prince_(Marriott)/Introduction",
+                "lang": "en",
+                "title": "Никколо Макиавелли, письмо Франческо Веттори (1513)"
+              }
+            },
+            "uk": {
+              "edition": "vettori-ruler.uk.ours",
+              "from": "1.2",
+              "to": "1.2",
+              "text": "Я записав те, що здобув із розмов із ними, і склав невеликий твір «Про князівства», де заглиблююся, наскільки можу, в роздуми про цей предмет, розмірковуючи, що таке князівство, які бувають їхні види, як їх можна здобути, як можна втримати, чому їх утрачають; і якщо вам колись подобалася бодай одна з моїх примх, то не має бути вам неприємна й ця; а державцеві, надто новому, вона має припасти до душі; тож я присвячую її Його Пишності Джуліано.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Prince_(Marriott)/Introduction",
+                "lang": "en",
+                "title": "Нікколо Макіавеллі, лист до Франческо Ветторі (1513)"
+              }
+            },
+            "pl": {
+              "edition": "vettori-ruler.pl.ours",
+              "from": "1.2",
+              "to": "1.2",
+              "text": "Zapisałem to, co zyskałem z rozmów z nimi, i ułożyłem niewielkie dzieło „O księstwach”, w którym zagłębiam się, jak tylko mogę, w rozważania nad tym przedmiotem, roztrząsając, czym jest księstwo, jakie są ich rodzaje, jak można je zdobyć, jak można je utrzymać, dlaczego się je traci; i jeśli kiedykolwiek podobał się wam któryś z moich kaprysów, ten nie powinien być wam niemiły; a księciu, zwłaszcza nowemu, powinien być mile widziany; dlatego dedykuję go Jego Wspaniałości Giulianowi.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Prince_(Marriott)/Introduction",
+                "lang": "en",
+                "title": "Niccolò Machiavelli, list do Francesca Vettoriego (1513)"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Italian",
+              "ru": "оригинал на итальянском",
+              "uk": "оригінал італійською",
+              "pl": "oryginał po włosku"
+            },
+            "url": "https://it.wikisource.org/wiki/Lettere_(Machiavelli)/Lettera_XI_a_Francesco_Vettori"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "His day, as he told it in the letter: all September he caught thrushes with his own hands; then he went to his woods, to a spring with a book — Dante or Petrarch, or Tibullus or Ovid — and to the inn, where he played cards and backgammon with the innkeeper, a butcher, a miller and two kiln-men, quarrelling over a farthing so loud that they were heard in San Casciano.",
+            "ru": "Его день, как он описал его в письме: весь сентябрь он своими руками ловил дроздов; потом ходил в свой лес, к роднику с книгой — Данте или Петраркой, Тибуллом или Овидием, — и в трактир, где играл в карты и в трик-трак с трактирщиком, мясником, мельником и двумя обжигальщиками, споря из-за гроша так громко, что их было слышно в Сан-Кашано.",
+            "uk": "Його день, як він описав його в листі: увесь вересень він власноруч ловив дроздів; потім ходив до свого лісу, до джерела з книжкою — Данте чи Петраркою, Тібуллом чи Овідієм, — і до шинку, де грав у карти й у трик-трак із шинкарем, різником, мельником і двома випалювачами, сперечаючись за гріш так голосно, що їх було чути в Сан-Кашано.",
+            "pl": "Jego dzień, jak go opisał w liście: przez cały wrzesień łowił drozdy własnymi rękami; potem chodził do swego lasu, do źródła z książką — Dantem albo Petrarką, Tibullusem albo Owidiuszem — i do gospody, gdzie grał w karty i w tryktraka z karczmarzem, rzeźnikiem, młynarzem i dwoma wypalaczami, kłócąc się o grosz tak głośno, że słychać ich było w San Casciano."
+          },
+          "source": "Machiavelli to Francesco Vettori, 10 December 1513 (in the Italian of his Lettere)"
+        },
+        {
+          "fact": {
+            "en": "In February 1513 his name was found on a list kept by two young men plotting against the Medici; he was jailed and tortured with the rope (the strappado), and freed in March in the amnesty that followed the election of Giovanni de' Medici as Pope Leo X.",
+            "ru": "В феврале 1513 года его имя нашли в списке двух молодых людей, замышлявших заговор против Медичи; его бросили в тюрьму и пытали дыбой (страппадо), а в марте освободили по амнистии после избрания Джованни Медичи папой Львом X.",
+            "uk": "У лютому 1513 року його ім’я знайшли в списку двох молодиків, які змовлялися проти Медичі; його кинули до в’язниці й катували на дибі (стрападо), а в березні звільнили за амністією після обрання Джованні Медичі папою Левом X.",
+            "pl": "W lutym 1513 roku jego nazwisko znaleziono na liście dwóch młodych ludzi spiskujących przeciw Medyceuszom; wtrącono go do więzienia i torturowano na strappado, a w marcu uwolniono na mocy amnestii po wyborze Giovanniego de' Medici na papieża Leona X."
+          },
+          "source": "Roberto Ridolfi, The Life of Niccolò Machiavelli (1954; tr. Cecil Grayson, 1963)"
+        },
+        {
+          "fact": {
+            "en": "W. K. Marriott, whose translation of the letter is quoted here, dates it 13 December; the letter itself is dated \"Die 10 Decembris 1513\".",
+            "ru": "У. К. Марриотт, чей перевод письма приведён здесь, датирует его 13 декабря; само письмо помечено «Die 10 Decembris 1513».",
+            "uk": "В. К. Марріотт, чий переклад листа наведено тут, датує його 13 грудня; сам лист позначено «Die 10 Decembris 1513».",
+            "pl": "W. K. Marriott, którego przekład listu tu przytoczono, datuje go na 13 grudnia; sam list nosi datę „Die 10 Decembris 1513”."
+          },
+          "source": "W. K. Marriott, Introduction to The Prince (1908); Machiavelli, Lettere, letter to Francesco Vettori of 10 December 1513"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Machiavelli: better feared than loved",
+        "ru": "Макиавелли: лучше, чтобы боялись, чем любили",
+        "uk": "Макіавеллі: краще, щоб боялися, ніж любили",
+        "pl": "Machiavelli: lepiej budzić strach, niż być kochanym"
+      },
+      "intro": {
+        "en": "What was in the little book? Machiavelli takes the virtues a ruler is praised for — generosity, mercy, keeping his word — and asks not whether a prince should have them, but what they cost him, and what happens to a state whose prince has them at the wrong moment:",
+        "ru": "Что же было в небольшой книге? Макиавелли берёт добродетели, за которые хвалят правителя, — щедрость, милосердие, верность слову — и спрашивает не о том, должен ли государь ими обладать, а о том, чего они ему стоят и что бывает с государством, чей государь проявляет их не вовремя:",
+        "uk": "Що ж було в невеликій книжці? Макіавеллі бере чесноти, за які хвалять правителя, — щедрість, милосердя, вірність слову — і питає не про те, чи має державець їх мати, а про те, чого вони йому коштують і що буває з державою, чий державець виявляє їх не вчасно:",
+        "pl": "Co więc było w książeczce? Machiavelli bierze cnoty, za które chwali się władcę — hojność, łaskawość, dotrzymywanie słowa — i pyta nie o to, czy książę powinien je mieć, lecz o to, ile go kosztują i co się dzieje z państwem, którego książę okazuje je w niewłaściwej chwili:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Machiavelli, The Prince, chapter XVII",
+            "ru": "Макиавелли, «Государь», глава XVII",
+            "uk": "Макіавеллі, «Державець», розділ XVII",
+            "pl": "Machiavelli, Książę, rozdział XVII"
+          },
+          "quotes": {
+            "en": {
+              "edition": "prince-ruler.en.thomson",
+              "from": "1.17",
+              "to": "1.17",
+              "text": "And here comes in the question whether it is better to be loved rather than feared, or feared rather than loved. It might perhaps be answered that we should wish to be both; but since love and fear can hardly exist together, if we must choose between them, it is far safer to be feared than loved.",
+              "kind": "Free",
+              "translator": "N. H. Thomson",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Prince_(Hill_Thomson)",
+                "lang": "en",
+                "title": "Niccolò Machiavelli, The Prince"
+              }
+            },
+            "ru": {
+              "edition": "prince-ruler.ru.ours",
+              "from": "1.17",
+              "to": "1.17",
+              "text": "И тут встаёт вопрос, что лучше: чтобы тебя любили больше, чем боялись, или боялись больше, чем любили. Пожалуй, можно ответить, что следует желать и того и другого; но поскольку любовь и страх едва ли уживаются вместе, то, если приходится выбирать между ними, гораздо безопаснее, чтобы тебя боялись, чем любили.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Prince_(Hill_Thomson)",
+                "lang": "en",
+                "title": "Никколо Макиавелли, «Государь»"
+              }
+            },
+            "uk": {
+              "edition": "prince-ruler.uk.ours",
+              "from": "1.17",
+              "to": "1.17",
+              "text": "І тут постає питання, що краще: щоб тебе любили більше, ніж боялися, чи боялися більше, ніж любили. Можна, мабуть, відповісти, що слід бажати і того, і другого; але оскільки любов і страх ледве чи можуть існувати разом, то, коли доводиться вибирати між ними, куди безпечніше, щоб тебе боялися, ніж любили.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Prince_(Hill_Thomson)",
+                "lang": "en",
+                "title": "Нікколо Макіавеллі, «Державець»"
+              }
+            },
+            "pl": {
+              "edition": "prince-ruler.pl.ours",
+              "from": "1.17",
+              "to": "1.17",
+              "text": "I tu pojawia się pytanie, czy lepiej być kochanym bardziej, niż budzić strach, czy budzić strach bardziej, niż być kochanym. Można by może odpowiedzieć, że powinniśmy pragnąć jednego i drugiego; ponieważ jednak miłość i strach z trudem mogą istnieć razem, jeśli musimy między nimi wybierać, o wiele bezpieczniej jest budzić strach, niż być kochanym.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Prince_(Hill_Thomson)",
+                "lang": "en",
+                "title": "Niccolò Machiavelli, Książę"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Italian",
+              "ru": "оригинал на итальянском",
+              "uk": "оригінал італійською",
+              "pl": "oryginał po włosku"
+            },
+            "url": "https://it.wikisource.org/wiki/Il_Principe/Capitolo_XVII"
+          }
+        },
+        {
+          "by": {
+            "en": "Machiavelli, The Prince, chapter XVIII, how princes should keep faith",
+            "ru": "Макиавелли, «Государь», глава XVIII, о том, как государям держать слово",
+            "uk": "Макіавеллі, «Державець», розділ XVIII, про те, як державцям дотримувати слова",
+            "pl": "Machiavelli, Książę, rozdział XVIII, o tym, jak książęta mają dotrzymywać słowa"
+          },
+          "quotes": {
+            "en": {
+              "edition": "prince-ruler.en.thomson",
+              "from": "1.18",
+              "to": "1.18",
+              "text": "And you are to understand that a Prince, and most of all a new Prince, cannot observe all those rules of conduct in respect whereof men are accounted good, being often forced, in order to preserve his Princedom, to act in opposition to good faith, charity, humanity, and religion. He must therefore keep his mind ready to shift as the winds and tides of Fortune turn, and, as I have already said, he ought not to quit good courses if he can help it, but should know how to follow evil courses if he must.",
+              "kind": "Free",
+              "translator": "N. H. Thomson",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Prince_(Hill_Thomson)",
+                "lang": "en",
+                "title": "Niccolò Machiavelli, The Prince"
+              }
+            },
+            "ru": {
+              "edition": "prince-ruler.ru.ours",
+              "from": "1.18",
+              "to": "1.18",
+              "text": "И надо понимать, что государь, а более всего государь новый, не может соблюдать всех тех правил поведения, за которые людей почитают хорошими, ибо часто бывает вынужден ради сохранения своего княжества действовать вопреки верности слову, милосердию, человечности и религии. Поэтому ему нужно держать свой ум готовым поворачивать так, как поворачивают ветры и приливы Фортуны, и, как я уже сказал, не сходить с доброго пути, если можно, но уметь идти путями зла, если он вынужден.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Prince_(Hill_Thomson)",
+                "lang": "en",
+                "title": "Никколо Макиавелли, «Государь»"
+              }
+            },
+            "uk": {
+              "edition": "prince-ruler.uk.ours",
+              "from": "1.18",
+              "to": "1.18",
+              "text": "І треба розуміти, що державець, а найбільше новий державець, не може дотримуватися всіх тих правил поведінки, за які людей уважають добрими, бо часто буває змушений, щоб зберегти своє князівство, діяти всупереч вірності слову, милосердю, людяності й релігії. Тож він мусить тримати свій розум готовим повертати так, як повертають вітри й припливи Фортуни, і, як я вже казав, не сходити з доброго шляху, якщо може, але вміти йти шляхами зла, якщо змушений.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Prince_(Hill_Thomson)",
+                "lang": "en",
+                "title": "Нікколо Макіавеллі, «Державець»"
+              }
+            },
+            "pl": {
+              "edition": "prince-ruler.pl.ours",
+              "from": "1.18",
+              "to": "1.18",
+              "text": "I trzeba rozumieć, że książę, a zwłaszcza książę nowy, nie może przestrzegać wszystkich tych zasad postępowania, za które ludzi uważa się za dobrych, bo często bywa zmuszony, by utrzymać swoje księstwo, działać wbrew dobrej wierze, miłosierdziu, człowieczeństwu i religii. Musi więc mieć umysł gotowy zwracać się tak, jak zwracają się wiatry i przypływy Fortuny, i, jak już powiedziałem, nie porzucać dobrych dróg, jeśli może, lecz umieć iść drogami zła, jeśli musi.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Prince_(Hill_Thomson)",
+                "lang": "en",
+                "title": "Niccolò Machiavelli, Książę"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Italian",
+              "ru": "оригинал на итальянском",
+              "uk": "оригінал італійською",
+              "pl": "oryginał po włosku"
+            },
+            "url": "https://it.wikisource.org/wiki/Il_Principe/Capitolo_XVIII"
+          }
+        },
+        {
+          "by": {
+            "en": "And of himself, in the letter to Vettori of 10 December 1513",
+            "ru": "А о себе — в письме к Веттори от 10 декабря 1513 года",
+            "uk": "А про себе — у листі до Ветторі від 10 грудня 1513 року",
+            "pl": "A o sobie — w liście do Vettoriego z 10 grudnia 1513"
+          },
+          "quotes": {
+            "en": {
+              "edition": "vettori-ruler.en.marriott",
+              "from": "1.3",
+              "to": "1.3",
+              "text": "And of my loyalty none could doubt, because having always kept faith I could not now learn how to break it; for he who has been faithful and honest, as I have, cannot change his nature; and my poverty is a witness to my honesty.",
+              "kind": "Free",
+              "translator": "W. K. Marriott",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Prince_(Marriott)/Introduction",
+                "lang": "en",
+                "title": "Niccolò Machiavelli, Letter to Francesco Vettori (1513)"
+              }
+            },
+            "ru": {
+              "edition": "vettori-ruler.ru.ours",
+              "from": "1.3",
+              "to": "1.3",
+              "text": "А в моей верности никто не мог бы усомниться, ибо, всегда храня верность, я не мог бы теперь научиться её нарушать; ведь тот, кто был верен и честен, как я, не может переменить свою природу; и моя бедность — свидетель моей честности.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Prince_(Marriott)/Introduction",
+                "lang": "en",
+                "title": "Никколо Макиавелли, письмо Франческо Веттори (1513)"
+              }
+            },
+            "uk": {
+              "edition": "vettori-ruler.uk.ours",
+              "from": "1.3",
+              "to": "1.3",
+              "text": "А в моїй вірності ніхто не міг би засумніватися, бо, завжди дотримуючи вірності, я не міг би тепер навчитися її порушувати; адже той, хто був вірним і чесним, як я, не може змінити своєї природи; і моя бідність — свідок моєї чесності.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Prince_(Marriott)/Introduction",
+                "lang": "en",
+                "title": "Нікколо Макіавеллі, лист до Франческо Ветторі (1513)"
+              }
+            },
+            "pl": {
+              "edition": "vettori-ruler.pl.ours",
+              "from": "1.3",
+              "to": "1.3",
+              "text": "A w moją wierność nikt nie mógłby wątpić, bo zawsze dochowując wierności, nie mógłbym teraz nauczyć się jej łamać; kto bowiem był wierny i uczciwy, jak ja, nie może zmienić swej natury; a moje ubóstwo jest świadkiem mojej uczciwości.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Prince_(Marriott)/Introduction",
+                "lang": "en",
+                "title": "Niccolò Machiavelli, list do Francesca Vettoriego (1513)"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Italian",
+              "ru": "оригинал на итальянском",
+              "uk": "оригінал італійською",
+              "pl": "oryginał po włosku"
+            },
+            "url": "https://it.wikisource.org/wiki/Lettere_(Machiavelli)/Lettera_XI_a_Francesco_Vettori"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "In the Discourses on Livy, which he wrote in the same years, Machiavelli argues the other side as well: one of its chapters is headed \"The multitude is wiser and more constant than a prince\".",
+            "ru": "В «Рассуждениях о первой декаде Тита Ливия», написанных в те же годы, Макиавелли отстаивает и другую сторону: одна из глав называется «Толпа мудрее и постояннее государя».",
+            "uk": "У «Міркуваннях про першу декаду Тита Лівія», написаних у ті самі роки, Макіавеллі обстоює й інший бік: один із розділів називається «Юрба мудріша й постійніша за державця».",
+            "pl": "W Rozważaniach nad Liwiuszem, pisanych w tych samych latach, Machiavelli broni także drugiej strony: jeden z rozdziałów nosi tytuł „Tłum jest mądrzejszy i stalszy niż książę”."
+          },
+          "source": "Machiavelli, Discourses on the First Decade of Titus Livius 1.58"
+        },
+        {
+          "fact": {
+            "en": "The Prince was printed in 1532, five years after his death; in 1559 all of Machiavelli's works were put on the first Roman Index of Forbidden Books.",
+            "ru": "«Государь» был напечатан в 1532 году, через пять лет после смерти автора; в 1559 году все сочинения Макиавелли внесли в первый римский Индекс запрещённых книг.",
+            "uk": "«Державця» надрукували 1532 року, через п’ять років після смерті автора; 1559 року всі твори Макіавеллі внесли до першого римського Індексу заборонених книг.",
+            "pl": "Książę został wydrukowany w 1532 roku, pięć lat po śmierci autora; w 1559 roku wszystkie dzieła Machiavellego wpisano na pierwszy rzymski Indeks ksiąg zakazanych."
+          },
+          "source": "Sydney Anglo, Machiavelli — The First Century: Studies in Enthusiasm, Hostility, and Irrelevance (2005)"
+        },
+        {
+          "fact": {
+            "en": "In 1739 Crown Prince Frederick of Prussia wrote a refutation of the book, the Anti-Machiavel; Voltaire saw it through the press in 1740 — the year Frederick became king, and in December invaded Silesia.",
+            "ru": "В 1739 году кронпринц Фридрих Прусский написал опровержение книги — «Анти-Макиавелли»; Вольтер довёл его до печати в 1740 году — в тот год, когда Фридрих стал королём и в декабре вторгся в Силезию.",
+            "uk": "1739 року кронпринц Фрідріх Прусський написав спростування книжки — «Анти-Макіавеллі»; Вольтер довів його до друку 1740 року — того року, коли Фрідріх став королем і в грудні вдерся до Сілезії.",
+            "pl": "W 1739 roku następca tronu Fryderyk Pruski napisał polemikę z tą książką — Antymachiavella; Wolter doprowadził ją do druku w 1740 roku — w tym samym, w którym Fryderyk został królem i w grudniu najechał Śląsk."
+          },
+          "source": "Tim Blanning, Frederick the Great: King of Prussia (2015)"
+        }
+      ]
+    },
+    {
+      "think": "ruler",
+      "question": {
+        "en": "Think of someone who has had power over you — a parent, a teacher, a boss, a government. When did you follow them willingly, and when only from fear? If you had to choose a ruler for the people you love, what would that ruler have to be — and what would you allow them to do to stay in power?",
+        "ru": "Вспомните кого-то, у кого была власть над вами, — родителя, учителя, начальника, правительство. Когда вы следовали за ним охотно, а когда — только из страха? Если бы вам пришлось выбрать правителя для тех, кого вы любите, каким он должен был бы быть — и что вы позволили бы ему сделать, чтобы удержаться у власти?",
+        "uk": "Згадайте когось, хто мав над вами владу, — батьків, учителя, начальника, уряд. Коли ви йшли за ним охоче, а коли — лише зі страху? Якби вам довелося вибрати правителя для тих, кого ви любите, яким він мав би бути — і що ви дозволили б йому зробити, щоб утриматися при владі?",
+        "pl": "Pomyśl o kimś, kto miał nad tobą władzę — rodzicu, nauczycielu, szefie, rządzie. Kiedy szedłeś za nim chętnie, a kiedy tylko ze strachu? Gdybyś musiał wybrać władcę dla ludzi, których kochasz, jaki musiałby być — i na co byś mu pozwolił, by utrzymał się przy władzy?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: what makes a good ruler?",
+        "ru": "А теперь: каким должен быть хороший правитель?",
+        "uk": "А тепер: яким має бути добрий правитель?",
+        "pl": "A teraz: co czyni władcę dobrym?"
+      }
+    }
+  ]
+}
