@@ -7,10 +7,10 @@
     "pl": "Czym jest przyjaźń?"
   },
   "subtitle": {
-    "en": "Aristotle, Epicurus, Confucius and Montaigne — and you",
-    "ru": "Аристотель, Эпикур, Конфуций и Монтень — и вы",
-    "uk": "Аристотель, Епікур, Конфуцій і Монтень — і ви",
-    "pl": "Arystoteles, Epikur, Konfucjusz i Montaigne — i ty"
+    "en": "Aristotle, Epicurus, Confucius, Augustine and Montaigne — and you",
+    "ru": "Аристотель, Эпикур, Конфуций, Августин и Монтень — и вы",
+    "uk": "Аристотель, Епікур, Конфуцій, Августин і Монтень — і ви",
+    "pl": "Arystoteles, Epikur, Konfucjusz, Augustyn i Montaigne — i ty"
   },
   "steps": [
     {
@@ -223,6 +223,15 @@
             "pl": "Greckie słowo philia jest szersze niż nasza „przyjaźń”: Arystoteles nazywa tak także więź rodziców i dzieci, męża i żony, towarzyszy podróży morskiej, towarzyszy broni i współobywateli."
           },
           "source": "Aristotle, Nicomachean Ethics VIII.9–12"
+        },
+        {
+          "fact": {
+            "en": "Asked what a friend is, Aristotle answered, Diogenes Laertius reports, “a single soul dwelling in two bodies”; another saying credited to him — “O my friends, there is no friend” — Montaigne quotes in his essay on friendship.",
+            "ru": "На вопрос, что такое друг, Аристотель, по словам Диогена Лаэртского, ответил: «одна душа, живущая в двух телах»; другое приписываемое ему изречение — «О друзья мои, нет друзей!» — Монтень приводит в своём опыте о дружбе.",
+            "uk": "На питання, що таке друг, Аристотель, за словами Діогена Лаертського, відповів: «одна душа, що живе у двох тілах»; інший приписуваний йому вислів — «О друзі мої, немає друзів!» — Монтень наводить у своєму есеї про дружбу.",
+            "pl": "Zapytany, czym jest przyjaciel, Arystoteles odpowiedział — jak podaje Diogenes Laertios — „jedną duszą mieszkającą w dwóch ciałach”; inne przypisywane mu powiedzenie — „O przyjaciele, nie ma przyjaciół!” — Montaigne przytacza w swoim eseju o przyjaźni."
+          },
+          "source": "Diogenes Laertius, Lives of the Eminent Philosophers 5.20–21; Montaigne, Essays I.27 (Of Friendship)"
         }
       ]
     },
@@ -401,6 +410,15 @@
             "pl": "W testamencie Epikur zostawił Ogród swojej szkole i poprosił, by uczniowie zbierali się dwudziestego dnia każdego miesiąca dla upamiętnienia jego i Metrodora."
           },
           "source": "Diogenes Laertius, Lives of the Eminent Philosophers 10.16–18"
+        },
+        {
+          "fact": {
+            "en": "More of his sayings turned up only in 1888, in a fourteenth-century manuscript in the Vatican Library. One of them, as most editors read it, holds this reading's tension in a line: every friendship is desirable for its own sake, though it begins in need.",
+            "ru": "Ещё часть его изречений нашлась лишь в 1888 году, в рукописи XIV века в Ватиканской библиотеке. Одно из них, как читает его большинство издателей, вмещает напряжение этого чтения в одну строку: всякая дружба желанна сама по себе, хотя начинается с нужды.",
+            "uk": "Ще частина його висловів знайшлася лише 1888 року, у рукописі XIV століття у Ватиканській бібліотеці. Один із них, як читає його більшість видавців, вміщує напругу цього читання в один рядок: кожна дружба бажана сама по собі, хоч починається з потреби.",
+            "pl": "Część jego sentencji odnalazła się dopiero w 1888 roku, w czternastowiecznym rękopisie w Bibliotece Watykańskiej. Jedna z nich, tak jak odczytuje ją większość wydawców, mieści napięcie tego czytania w jednym wersie: każda przyjaźń jest godna wyboru sama dla siebie, choć zaczyna się od potrzeby."
+          },
+          "source": "Epicurus, Vatican Sayings 23 (Codex Vaticanus Graecus 1950); Cyril Bailey, Epicurus: The Extant Remains (1926)"
         }
       ]
     },
@@ -579,6 +597,273 @@
             "pl": "Sto lat później Mencjusz wymienił pięć więzi ludzkiego życia — ojciec i syn, władca i minister, mąż i żona, starszy i młodszy, przyjaciel i przyjaciel — a cnotą przyjaciół nazwał wierność."
           },
           "source": "Mencius 3A4"
+        },
+        {
+          "fact": {
+            "en": "A Chinese story, told in the third century BC, gave close friendship its name: when the zither player Bo Ya played thinking of high mountains, his friend Zhong Ziqi heard the mountains; when Ziqi died, Bo Ya broke his zither and never played again, for there was no one left in the world worth playing for. A true friend is still called zhiyin, “one who knows the tone”.",
+            "ru": "Китайская история, записанная в III веке до н. э., дала близкой дружбе её имя: когда цитрист Бо Я играл, думая о высоких горах, его друг Чжун Цзыци слышал горы; когда Цзыци умер, Бо Я разбил свою цитру и больше никогда не играл — на свете не осталось никого, для кого стоило бы играть. Настоящего друга в Китае до сих пор называют чжиинь — «знающий звук».",
+            "uk": "Китайська історія, записана в III столітті до н. е., дала близькій дружбі її ім’я: коли цитрист Бо Я грав, думаючи про високі гори, його друг Чжун Цзиці чув гори; коли Цзиці помер, Бо Я розбив свою цитру й більше ніколи не грав — на світі не лишилося нікого, для кого варто було б грати. Справжнього друга в Китаї досі називають чжиінь — «той, хто знає звук».",
+            "pl": "Chińska opowieść, spisana w III wieku p.n.e., dała bliskiej przyjaźni jej imię: gdy cytrzysta Bo Ya grał, myśląc o wysokich górach, jego przyjaciel Zhong Ziqi słyszał góry; gdy Ziqi umarł, Bo Ya rozbił cytrę i nigdy więcej nie zagrał, bo na świecie nie został nikt, dla kogo warto by grać. Prawdziwego przyjaciela wciąż nazywa się zhiyin — „ten, kto zna ton”."
+          },
+          "source": "Lüshi Chunqiu 14.2 (Ben wei); Liezi 5 (Tang wen)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Augustine: half of my soul",
+        "ru": "Августин: половина моей души",
+        "uk": "Августин: половина моєї душі",
+        "pl": "Augustyn: połowa mojej duszy"
+      },
+      "intro": {
+        "en": "Thagaste, North Africa, about AD 375. Augustine, about twenty and not yet a Christian, teaches rhetoric in his home town; the friend he grew up with dies of a fever after scarcely a year of their friendship. More than twenty years later, a bishop, he writes in the Confessions what the friend had been to him, what friends are loved for — and which friend cannot be lost:",
+        "ru": "Тагаст, Северная Африка, около 375 года. Двадцатилетний Августин, ещё не христианин, преподаёт риторику в родном городе; друг, с которым он вырос, умирает от лихорадки, едва через год их дружбы. Больше двадцати лет спустя, уже епископом, он пишет в «Исповеди», кем был для него друг, за что любят друзей — и какого друга нельзя потерять:",
+        "uk": "Тагаст, Північна Африка, близько 375 року. Двадцятилітній Августин, ще не християнин, викладає риторику в рідному місті; друг, з яким він виріс, помирає від гарячки, ледве через рік їхньої дружби. Понад двадцять років по тому, вже єпископом, він пише в «Сповіді», ким був для нього друг, за що люблять друзів — і якого друга не можна втратити:",
+        "pl": "Tagaste, Afryka Północna, około 375 roku. Dwudziestoletni Augustyn, jeszcze nie chrześcijanin, uczy retoryki w rodzinnym mieście; przyjaciel, z którym dorastał, umiera na gorączkę po ledwie roku ich przyjaźni. Ponad dwadzieścia lat później, już jako biskup, pisze w Wyznaniach, kim był dla niego przyjaciel, za co kocha się przyjaciół — i którego przyjaciela nie można utracić:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Augustine, Confessions 4.6.11",
+            "ru": "Августин, «Исповедь» 4.6.11",
+            "uk": "Августин, «Сповідь» 4.6.11",
+            "pl": "Augustyn, Wyznania 4.6.11"
+          },
+          "quotes": {
+            "en": {
+              "edition": "confessions-friendship.en.pilkington",
+              "from": "4.6.11",
+              "to": "4.6.11",
+              "text": "For I was astonished that other mortals lived, since he whom I loved, as if he would never die, was dead; and I wondered still more that I, who was to him a second self, could live when he was dead. Well did one say of his friend, “Thou half of my soul,” for I felt that my soul and his soul were but one soul in two bodies; and, consequently, my life was a horror to me, because I would not live in half.",
+              "kind": "Free",
+              "translator": "J. G. Pilkington",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_I/Confessions/Book_II",
+                "lang": "en",
+                "title": "Augustine, Confessions"
+              }
+            },
+            "ru": {
+              "edition": "confessions-friendship.ru.ours",
+              "from": "4.6.11",
+              "to": "4.6.11",
+              "text": "Ибо я изумлялся, что другие смертные живут, когда он, которого я любил так, будто он никогда не умрёт, был мёртв; и ещё больше изумлялся, что я, бывший для него вторым «я», могу жить, когда он мёртв. Хорошо сказал кто-то о своём друге: «ты — половина моей души», — ибо я чувствовал, что моя душа и его душа были лишь одной душой в двух телах; и, следовательно, жизнь была мне ужасна, ибо я не хотел жить половиной.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/Исповедь_(Августин)/Книга_вторая",
+                "lang": "ru",
+                "title": "Августин, «Исповедь»"
+              }
+            },
+            "uk": {
+              "edition": "confessions-friendship.uk.ours",
+              "from": "4.6.11",
+              "to": "4.6.11",
+              "text": "Бо я дивувався, що інші смертні живуть, коли той, кого я любив так, ніби він ніколи не помре, був мертвий; і ще більше дивувався, що я, який був для нього другим «я», можу жити, коли він мертвий. Добре сказав хтось про свого друга: «ти — половина моєї душі», — бо я відчував, що моя душа і його душа були лише однією душею у двох тілах; і, отже, життя було мені жахом, бо я не хотів жити половиною.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_I/Confessions/Book_II",
+                "lang": "en",
+                "title": "Августин, «Сповідь»"
+              }
+            },
+            "pl": {
+              "edition": "confessions-friendship.pl.ours",
+              "from": "4.6.11",
+              "to": "4.6.11",
+              "text": "Zdumiewałem się bowiem, że inni śmiertelni żyją, skoro on, którego kochałem tak, jakby nigdy nie miał umrzeć, był martwy; a jeszcze bardziej dziwiłem się, że ja, który byłem dla niego drugim „ja”, mogę żyć, gdy on nie żyje. Dobrze ktoś powiedział o swoim przyjacielu: „ty, połowo mojej duszy”, bo czułem, że moja dusza i jego dusza były tylko jedną duszą w dwóch ciałach; a zatem życie budziło we mnie zgrozę, bo nie chciałem żyć połową.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://pl.wikisource.org/wiki/Wyznania_(Augustyn_z_Hippony,_1847)/Księga_Druga/całość",
+                "lang": "pl",
+                "title": "Augustyn, Wyznania"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/Confessiones/Liber_Quartus"
+          }
+        },
+        {
+          "by": {
+            "en": "Augustine, Confessions 4.8.13",
+            "ru": "Августин, «Исповедь» 4.8.13",
+            "uk": "Августин, «Сповідь» 4.8.13",
+            "pl": "Augustyn, Wyznania 4.8.13"
+          },
+          "quotes": {
+            "en": {
+              "edition": "confessions-friendship.en.pilkington",
+              "from": "4.8.13",
+              "to": "4.8.13",
+              "text": "There were other things in them which did more lay hold of my mind,—to discourse and jest with them; to indulge in an interchange of kindnesses; to read together pleasant books; together to trifle, and together to be earnest; to differ at times without ill-humour, as a man would do with his own self; and even by the infrequency of these differences to give zest to our more frequent consentings; sometimes teaching, sometimes being taught; longing for the absent with impatience, and welcoming the coming with joy.",
+              "kind": "Free",
+              "translator": "J. G. Pilkington",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_I/Confessions/Book_II",
+                "lang": "en",
+                "title": "Augustine, Confessions"
+              }
+            },
+            "ru": {
+              "edition": "confessions-friendship.ru.ours",
+              "from": "4.8.13",
+              "to": "4.8.13",
+              "text": "Было в них и другое, что сильнее захватывало мой ум, — беседовать и шутить с ними; обмениваться добрыми услугами; вместе читать приятные книги; вместе забавляться и вместе быть серьёзными; порой расходиться во мнениях без досады, как человек расходится сам с собой, и самой редкостью этих разногласий придавать вкус нашему более частому согласию; иногда учить, иногда учиться; с нетерпением тосковать об отсутствующих и с радостью встречать приходящих.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/Исповедь_(Августин)/Книга_вторая",
+                "lang": "ru",
+                "title": "Августин, «Исповедь»"
+              }
+            },
+            "uk": {
+              "edition": "confessions-friendship.uk.ours",
+              "from": "4.8.13",
+              "to": "4.8.13",
+              "text": "Було в них і інше, що дужче захоплювало мій розум, — розмовляти й жартувати з ними; обмінюватися добрими послугами; разом читати приємні книжки; разом забавлятися й разом бути серйозними; часом не погоджуватися без роздратування, як людина не погоджується сама з собою, і самою рідкістю цих розбіжностей додавати смаку нашій частішій згоді; часом навчати, часом навчатися; з нетерпінням сумувати за відсутніми і з радістю зустрічати тих, хто приходить.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_I/Confessions/Book_II",
+                "lang": "en",
+                "title": "Августин, «Сповідь»"
+              }
+            },
+            "pl": {
+              "edition": "confessions-friendship.pl.ours",
+              "from": "4.8.13",
+              "to": "4.8.13",
+              "text": "Było w nich i coś innego, co mocniej zawładnęło moim umysłem — rozmawiać i żartować z nimi; wyświadczać sobie nawzajem życzliwości; razem czytać miłe książki; razem się zabawiać i razem być poważnymi; różnić się czasem bez urazy, jak człowiek różni się sam ze sobą, i samą rzadkością tych różnic dodawać smaku naszej częstszej zgodzie; czasem uczyć, czasem się uczyć; z niecierpliwością tęsknić za nieobecnymi i z radością witać przybywających.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://pl.wikisource.org/wiki/Wyznania_(Augustyn_z_Hippony,_1847)/Księga_Druga/całość",
+                "lang": "pl",
+                "title": "Augustyn, Wyznania"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/Confessiones/Liber_Quartus"
+          }
+        },
+        {
+          "by": {
+            "en": "Augustine, Confessions 4.9.14",
+            "ru": "Августин, «Исповедь» 4.9.14",
+            "uk": "Августин, «Сповідь» 4.9.14",
+            "pl": "Augustyn, Wyznania 4.9.14"
+          },
+          "quotes": {
+            "en": {
+              "edition": "confessions-friendship.en.pilkington",
+              "from": "4.9.14",
+              "to": "4.9.14",
+              "text": "Blessed be he who loveth Thee, and his friend in Thee, and his enemy for Thy sake. For he alone loses none dear to him to whom all are dear in Him who cannot be lost.",
+              "kind": "Free",
+              "translator": "J. G. Pilkington",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_I/Confessions/Book_II",
+                "lang": "en",
+                "title": "Augustine, Confessions"
+              }
+            },
+            "ru": {
+              "edition": "confessions-friendship.ru.ours",
+              "from": "4.9.14",
+              "to": "4.9.14",
+              "text": "Блажен, кто любит Тебя, и друга в Тебе, и врага ради Тебя. Ибо лишь тот не теряет никого из дорогих ему, кому все дороги в Том, Кто не может быть утрачен.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/Исповедь_(Августин)/Книга_вторая",
+                "lang": "ru",
+                "title": "Августин, «Исповедь»"
+              }
+            },
+            "uk": {
+              "edition": "confessions-friendship.uk.ours",
+              "from": "4.9.14",
+              "to": "4.9.14",
+              "text": "Блаженний, хто любить Тебе, і друга в Тобі, і ворога заради Тебе. Бо лише той не втрачає нікого з дорогих йому, кому всі дорогі в Тому, Хто не може бути втрачений.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_I/Confessions/Book_II",
+                "lang": "en",
+                "title": "Августин, «Сповідь»"
+              }
+            },
+            "pl": {
+              "edition": "confessions-friendship.pl.ours",
+              "from": "4.9.14",
+              "to": "4.9.14",
+              "text": "Błogosławiony, kto miłuje Ciebie, i przyjaciela w Tobie, i nieprzyjaciela dla Ciebie. Albowiem tylko ten nie traci nikogo sobie drogiego, komu wszyscy są drodzy w Tym, którego nie można utracić.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://pl.wikisource.org/wiki/Wyznania_(Augustyn_z_Hippony,_1847)/Księga_Druga/całość",
+                "lang": "pl",
+                "title": "Augustyn, Wyznania"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/Confessiones/Liber_Quartus"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Augustine never names the friend. He had drawn him into the Manichaean sect; when the young man, unconscious with fever, was baptized and then recovered, he rebuked Augustine for mocking the baptism — and a few days later, while Augustine was away, the fever returned and he died.",
+            "ru": "Августин так и не называет имени друга. Он сам увлёк его в секту манихеев; когда юношу, лежавшего без сознания в горячке, крестили и он поправился, то резко оборвал Августина, насмехавшегося над крещением, — а через несколько дней, когда Августина не было рядом, лихорадка вернулась, и он умер.",
+            "uk": "Августин так і не називає імені друга. Він сам утягнув його в секту маніхеїв; коли юнака, що лежав непритомний у гарячці, охрестили і він одужав, то різко обірвав Августина, який глузував із хрещення, — а за кілька днів, коли Августина не було поруч, гарячка повернулася, і він помер.",
+            "pl": "Augustyn nigdy nie wymienia imienia przyjaciela. Sam wciągnął go do sekty manichejczyków; gdy młodzieńca, nieprzytomnego w gorączce, ochrzczono, a on odzyskał przytomność, zgromił Augustyna za drwiny z chrztu — a kilka dni później, gdy Augustyna nie było przy nim, gorączka wróciła i zmarł."
+          },
+          "source": "Augustine, Confessions 4.4.7–8"
+        },
+        {
+          "fact": {
+            "en": "“Half of my soul” is Horace's phrase for his friend Virgil. Late in life, rereading the Confessions, Augustine judged what he had added there — that he perhaps feared to die lest his friend die wholly — “rather a light declamation than a serious confession”.",
+            "ru": "«Половина моей души» — слова Горация о его друге Вергилии. На склоне лет, перечитывая «Исповедь», Августин назвал то, что добавил здесь, — что, быть может, боялся умереть, чтобы друг не умер целиком, — «скорее лёгкой декламацией, чем серьёзной исповедью».",
+            "uk": "«Половина моєї душі» — слова Горація про його друга Вергілія. На схилі віку, перечитуючи «Сповідь», Августин назвав те, що додав тут, — що, можливо, боявся померти, щоб друг не помер цілком, — «радше легкою декламацією, ніж серйозною сповіддю».",
+            "pl": "„Połowa mojej duszy” to słowa Horacego o jego przyjacielu Wergiliuszu. Pod koniec życia, czytając na nowo Wyznania, Augustyn nazwał to, co tu dodał — że może bał się umrzeć, by przyjaciel nie umarł cały — „raczej lekką deklamacją niż poważnym wyznaniem”."
+          },
+          "source": "Horace, Odes 1.3.8; Augustine, Retractations 2.6"
+        },
+        {
+          "fact": {
+            "en": "Grief drove him from Thagaste to Carthage. Even after his conversion he would not live without friends: in 386 he withdrew with them to a villa at Cassiciacum near Milan, and back in Africa lived with them in common at Thagaste — the beginning of the monastic life he later shaped as bishop.",
+            "ru": "Горе погнало его из Тагаста в Карфаген. И после обращения он не хотел жить без друзей: в 386 году уединился с ними на вилле в Кассициаке близ Милана, а вернувшись в Африку, жил с ними общиной в Тагасте — так началась монашеская жизнь, которую он потом устроил как епископ.",
+            "uk": "Горе погнало його з Тагаста до Карфагена. І після навернення він не хотів жити без друзів: 386 року усамітнився з ними на віллі в Кассиціаку поблизу Мілана, а повернувшись до Африки, жив із ними громадою в Тагасті — так почалося чернече життя, яке він згодом упорядкував як єпископ.",
+            "pl": "Żal wygnał go z Tagaste do Kartaginy. Także po nawróceniu nie chciał żyć bez przyjaciół: w 386 roku usunął się z nimi do willi w Cassiciacum koło Mediolanu, a po powrocie do Afryki żył z nimi wspólnie w Tagaste — tak zaczęło się życie zakonne, które potem urządził jako biskup."
+          },
+          "source": "Augustine, Confessions 4.7.12, 9.3.5; Possidius, Life of Augustine 3; Peter Brown, Augustine of Hippo: A Biography (1967)"
         }
       ]
     },
@@ -821,6 +1106,15 @@
             "pl": "W młodości La Boétie napisał Rozprawę o dobrowolnej niewoli, wymierzoną w tyranię. Montaigne chciał umieścić ją w samym środku pierwszej księgi Prób; gdy w latach siedemdziesiątych XVI wieku hugenoccy pamfleciści wydrukowali ją jako broń przeciw koronie, zrezygnował z tego."
           },
           "source": "Montaigne, Essays I.27 (Of Friendship); Donald M. Frame, Montaigne: A Biography (1965)"
+        },
+        {
+          "fact": {
+            "en": "Eighteen years later, in 1581, at the baths of La Villa near Lucca, Montaigne noted in his travel journal that while writing a letter he had fallen into thoughts of La Boétie so painful, and stayed in them so long, that it did him great harm.",
+            "ru": "Восемнадцать лет спустя, в 1581 году, на водах Ла-Вилла близ Лукки, Монтень записал в путевом дневнике, что, сочиняя письмо, впал в такие мучительные мысли о Ла Боэси и пробыл в них так долго, что это причинило ему большой вред.",
+            "uk": "Через вісімнадцять років, 1581-го, на водах Ла-Вілла поблизу Лукки, Монтень записав у подорожньому щоденнику, що, пишучи листа, поринув у такі болісні думки про Ла Боесі й пробув у них так довго, що це завдало йому великої шкоди.",
+            "pl": "Osiemnaście lat później, w 1581 roku, u wód La Villa koło Lukki, Montaigne zanotował w dzienniku podróży, że pisząc list, popadł w tak bolesne myśli o La Boétiem i trwał w nich tak długo, że bardzo mu to zaszkodziło."
+          },
+          "source": "Montaigne, Journal of the Journey to Italy (1581, at the baths of La Villa); Donald M. Frame, Montaigne: A Biography (1965)"
         }
       ]
     },

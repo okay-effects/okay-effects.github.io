@@ -7,10 +7,10 @@
     "pl": "Po co cierpienie?"
   },
   "subtitle": {
-    "en": "Job, Epicurus, Voltaire and Schopenhauer — and you",
-    "ru": "Иов, Эпикур, Вольтер и Шопенгауэр — и вы",
-    "uk": "Йов, Епікур, Вольтер і Шопенгауер — і ви",
-    "pl": "Hiob, Epikur, Wolter i Schopenhauer — i ty"
+    "en": "Job, Epicurus, Voltaire, Schopenhauer and the Buddha — and you",
+    "ru": "Иов, Эпикур, Вольтер, Шопенгауэр и Будда — и вы",
+    "uk": "Йов, Епікур, Вольтер, Шопенгауер і Будда — і ви",
+    "pl": "Hiob, Epikur, Wolter, Schopenhauer i Budda — i ty"
   },
   "steps": [
     {
@@ -56,18 +56,18 @@
         "pl": "Hiob: Radykalne przyjęcie"
       },
       "intro": {
-        "en": "After losing his children, wealth, and health, Job sits in ashes, refusing to curse God despite his wife's urging.",
-        "ru": "Потеряв детей, богатство и здоровье, Иов сидит в пепле и, вопреки уговорам жены, отказывается проклинать Бога.",
-        "uk": "Позбавлений дітей, багатства та здоров’я, Йов сидить у попелі, відмовляючись проклясти Бога, попри заклики своєї дружини.",
-        "pl": "Po stracie dzieci, majątku i zdrowia Hiob siedzi w popiele, odmawiając przeklęcia Boga, mimo namów swojej żony."
+        "en": "In a single day Job loses his wealth and his children; then he is struck with sores from head to foot and sits down among the ashes. He blesses God — and when his wife urges him to curse God and die, he refuses:",
+        "ru": "В один день Иов теряет богатство и детей; затем его поражают язвы с головы до ног, и он садится в пепел. Он благословляет Бога — а когда жена уговаривает его похулить Бога и умереть, отказывается:",
+        "uk": "За один день Йов втрачає багатство і дітей; потім його вражають струпи з голови до ніг, і він сідає в попіл. Він благословляє Бога — а коли дружина підмовляє його проклясти Бога й померти, відмовляється:",
+        "pl": "W jednym dniu Hiob traci majątek i dzieci; potem okrywają go wrzody od stóp do głów i siada w popiele. Błogosławi Boga — a gdy żona namawia go, by przeklął Boga i umarł, odmawia:"
       },
       "cited": [
         {
           "by": {
-            "en": "The Book of Job",
-            "ru": "Книга Иова",
-            "uk": "Книга Йова",
-            "pl": "Księga Hioba"
+            "en": "The Book of Job 1:21",
+            "ru": "Книга Иова 1:21",
+            "uk": "Книга Йова 1:21",
+            "pl": "Księga Hioba 1,21"
           },
           "quotes": {
             "en": {
@@ -130,7 +130,78 @@
               "uk": "оригінал мовою іврит",
               "pl": "oryginał, w języku hebrajskim"
             },
-            "url": "https://he.wikisource.org/wiki/איוב_לח"
+            "url": "https://he.wikisource.org/wiki/איוב_א"
+          }
+        },
+        {
+          "by": {
+            "en": "The Book of Job 2:10",
+            "ru": "Книга Иова 2:10",
+            "uk": "Книга Йова 2:10",
+            "pl": "Księga Hioba 2,10"
+          },
+          "quotes": {
+            "en": {
+              "edition": "job.en.kingjamesversion",
+              "from": "2.10",
+              "to": "2.10",
+              "text": "But he said unto her, Thou speakest as one of the foolish women speaketh. What? shall we receive good at the hand of God, and shall we not receive evil? In all this did not Job sin with his lips.",
+              "kind": "Free",
+              "translator": "King James Version",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Job",
+                "lang": "en",
+                "title": "The Book of Job"
+              }
+            },
+            "ru": {
+              "edition": "job.ru.ours",
+              "from": "2.10",
+              "to": "2.10",
+              "text": "Но он сказал ей: ты говоришь, как говорит одна из безумных женщин. Что же? Неужели доброе мы будем принимать от руки Божией, а злого не будем принимать? Во всём этом не согрешил Иов устами своими.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/Книга_Иова",
+                "lang": "ru",
+                "title": "Книга Иова"
+              }
+            },
+            "uk": {
+              "edition": "job.uk.ours",
+              "from": "2.10",
+              "to": "2.10",
+              "text": "Але він сказав їй: ти говориш, як говорить одна з нерозумних жінок. Що ж? Невже добре ми прийматимемо з руки Божої, а злого не прийматимемо? У всьому цьому не згрішив Йов своїми устами.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://uk.wikisource.org/wiki/Біблія_(Огієнко)/Книги_Старого_Заповіту/Книга_Йова",
+                "lang": "uk",
+                "title": "Книга Йова"
+              }
+            },
+            "pl": {
+              "edition": "job.pl.ours",
+              "from": "2.10",
+              "to": "2.10",
+              "text": "Lecz on rzekł do niej: Mówisz, jak mówi jedna z głupich kobiet. Cóż? Mamy przyjmować dobro z ręki Boga, a zła nie mielibyśmy przyjmować? W tym wszystkim nie zgrzeszył Hiob swymi wargami.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://pl.wikisource.org/wiki/Biblia_Gdańska/Księga_Hioba_(całość)",
+                "lang": "pl",
+                "title": "Księga Hioba"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Hebrew",
+              "ru": "оригинал на иврите",
+              "uk": "оригінал мовою іврит",
+              "pl": "oryginał, w języku hebrajskim"
+            },
+            "url": "https://he.wikisource.org/wiki/איוב_ב"
           }
         }
       ],
@@ -152,6 +223,15 @@
             "pl": "Już prorok Ezechiel wymienia Hioba — obok Noego i Daniela — jako wzór sprawiedliwego."
           },
           "source": "Ezekiel 14:14"
+        },
+        {
+          "fact": {
+            "en": "His three friends sit with him seven days and seven nights without a word, then argue that such suffering must be the punishment of sin. When God at last answers, out of the whirlwind, he gives no reason — he asks, “Where wast thou when I laid the foundations of the earth?” — and then says that the friends have not spoken of him what is right, as Job has.",
+            "ru": "Трое друзей сидят с ним семь дней и семь ночей, не говоря ни слова, а потом доказывают, что такое страдание может быть только наказанием за грех. Когда Бог наконец отвечает из бури, он не называет причины — он спрашивает: «Где был ты, когда Я полагал основания земли?» — а затем говорит, что друзья говорили о нём не так верно, как Иов.",
+            "uk": "Троє друзів сидять із ним сім днів і сім ночей, не мовивши ні слова, а потім доводять, що таке страждання може бути лише карою за гріх. Коли Бог нарешті відповідає з бурі, він не називає причини — він питає: «Де ти був, коли Я закладав основи землі?» — а потім каже, що друзі говорили про нього не так правдиво, як Йов.",
+            "pl": "Trzej przyjaciele siedzą przy nim siedem dni i siedem nocy, nie mówiąc ani słowa, a potem dowodzą, że takie cierpienie musi być karą za grzech. Gdy Bóg wreszcie odpowiada z wichru, nie podaje przyczyny — pyta: „Gdzie byłeś, gdy zakładałem fundamenty ziemi?” — a potem mówi, że przyjaciele nie mówili o nim słusznie, tak jak Hiob."
+          },
+          "source": "Job 2:13; 38:4; 42:7"
         }
       ]
     },
@@ -250,6 +330,15 @@
             "pl": "Napisał około trzystu zwojów; prawie wszystko zaginęło — ocalały trzy listy i kilka sentencji, zachowane przez Diogenesa Laertiosa."
           },
           "source": "Diogenes Laertius, Lives of the Eminent Philosophers 10.26–35"
+        },
+        {
+          "fact": {
+            "en": "Lactantius, a Christian writer of the early fourth century, ascribes to Epicurus the dilemma Lisbon would raise again: God either wishes to take away evils and cannot, or can and does not wish to; if he both wishes and can, whence are evils? No surviving text of Epicurus contains it.",
+            "ru": "Лактанций, христианский писатель начала IV века, приписывает Эпикуру дилемму, которую вновь поставит Лиссабон: Бог либо хочет устранить зло и не может, либо может и не хочет; если же и хочет, и может, — откуда зло? Ни в одном уцелевшем тексте Эпикура её нет.",
+            "uk": "Лактанцій, християнський письменник початку IV століття, приписує Епікурові дилему, яку знову поставить Лісабон: Бог або хоче усунути зло і не може, або може і не хоче; а якщо і хоче, і може, — звідки зло? У жодному з уцілілих текстів Епікура її немає.",
+            "pl": "Laktancjusz, pisarz chrześcijański z początku IV wieku, przypisuje Epikurowi dylemat, który Lizbona postawi na nowo: Bóg albo chce usunąć zło i nie może, albo może i nie chce; a jeśli i chce, i może — skąd zło? Żaden zachowany tekst Epikura go nie zawiera."
+          },
+          "source": "Lactantius, On the Anger of God 13.20–21"
         }
       ]
     },
@@ -401,6 +490,77 @@
             },
             "url": "https://fr.wikisource.org/wiki/Poème_sur_le_désastre_de_Lisbonne"
           }
+        },
+        {
+          "by": {
+            "en": "Voltaire, Poem on the Lisbon Disaster",
+            "ru": "Вольтер, Поэма о гибели Лиссабона",
+            "uk": "Вольтер, Поема про загибель Лісабона",
+            "pl": "Wolter, Poemat o zniszczeniu Lizbony"
+          },
+          "quotes": {
+            "en": {
+              "edition": "voltaire.en.josephmccabe",
+              "from": "1.9",
+              "to": "1.9",
+              "text": "All will be well one day—so runs our hope. All now is well, is but an idle dream. The wise deceive me: God alone is right.",
+              "kind": "Free",
+              "translator": "Joseph McCabe",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Toleration_and_other_essays/Poem_on_the_Lisbon_Disaster",
+                "lang": "en",
+                "title": "Voltaire, Poem on the Lisbon Disaster"
+              }
+            },
+            "ru": {
+              "edition": "voltaire.ru.ours",
+              "from": "1.9",
+              "to": "1.9",
+              "text": "Однажды всё будет хорошо — вот наша надежда. Всё хорошо сейчас — лишь праздный сон. Мудрецы обманывают меня: прав один лишь Бог.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Toleration_and_other_essays/Poem_on_the_Lisbon_Disaster",
+                "lang": "en",
+                "title": "Вольтер, «Поэма о гибели Лиссабона»"
+              }
+            },
+            "uk": {
+              "edition": "voltaire.uk.ours",
+              "from": "1.9",
+              "to": "1.9",
+              "text": "Колись усе буде добре — така наша надія. Усе добре нині — лише марний сон. Мудреці мене обманюють: правий тільки Бог.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Toleration_and_other_essays/Poem_on_the_Lisbon_Disaster",
+                "lang": "en",
+                "title": "Вольтер, «Поема про загибель Лісабона»"
+              }
+            },
+            "pl": {
+              "edition": "voltaire.pl.ours",
+              "from": "1.9",
+              "to": "1.9",
+              "text": "Kiedyś wszystko będzie dobrze — tak brzmi nasza nadzieja. Wszystko jest dobrze teraz — to tylko próżny sen. Mędrcy mnie zwodzą: tylko Bóg ma rację.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Toleration_and_other_essays/Poem_on_the_Lisbon_Disaster",
+                "lang": "en",
+                "title": "Wolter, Poemat o zniszczeniu Lizbony"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском языке",
+              "uk": "оригінал французькою мовою",
+              "pl": "oryginał, po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Poème_sur_le_désastre_de_Lisbonne"
+          }
         }
       ],
       "context": [
@@ -421,6 +581,15 @@
             "pl": "Trzy lata później Wolter znów odpowiedział optymizmowi — śmiechem: w Kandydzie (1759) doktor Pangloss powtarza pośród wszelkich nieszczęść, że wszystko jest ku najlepszemu."
           },
           "source": "Voltaire, Candide, or Optimism (1759)"
+        },
+        {
+          "fact": {
+            "en": "Rousseau answered the poem in a letter to Voltaire of 18 August 1756: most of the evil at Lisbon was of human making — nature had not gathered twenty thousand houses of six and seven storeys there — and many died because they went back for their clothes, their papers or their money.",
+            "ru": "Руссо ответил на поэму письмом к Вольтеру от 18 августа 1756 года: бóльшая часть лиссабонского зла — дело рук человеческих (не природа собрала там двадцать тысяч домов в шесть-семь этажей), и многие погибли, потому что вернулись за одеждой, бумагами или деньгами.",
+            "uk": "Руссо відповів на поему листом до Вольтера від 18 серпня 1756 року: більша частина лісабонського зла — справа людських рук (не природа зібрала там двадцять тисяч будинків на шість-сім поверхів), і багато хто загинув, бо повернувся по одяг, папери чи гроші.",
+            "pl": "Rousseau odpowiedział na poemat listem do Woltera z 18 sierpnia 1756 roku: większość lizbońskiego zła była dziełem ludzi — to nie natura zgromadziła tam dwadzieścia tysięcy domów o sześciu i siedmiu piętrach — a wielu zginęło, bo wróciło po ubrania, papiery albo pieniądze."
+          },
+          "source": "Jean-Jacques Rousseau, Letter to Voltaire on Providence, 18 August 1756"
         }
       ]
     },
@@ -519,6 +688,202 @@
             "pl": "Był jednym z pierwszych filozofów europejskich, którzy uważnie czytali upaniszady i teksty buddyjskie, a w gabinecie trzymał posąg Buddy."
           },
           "source": "Rüdiger Safranski, Schopenhauer and the Wild Years of Philosophy (1987)"
+        },
+        {
+          "fact": {
+            "en": "In 1840 the Royal Danish Society of Sciences refused its prize to his essay On the Basis of Morality, though it was the only one sent in — partly for its contempt of “eminent philosophers” such as Hegel. In it he made compassion, feeling another's suffering as one's own, the root of all morality.",
+            "ru": "В 1840 году Датское королевское общество наук отказало в премии его сочинению «Об основе морали», хотя оно было единственным присланным, — отчасти за пренебрежение к «выдающимся философам» вроде Гегеля. В нём он назвал сострадание — способность чувствовать чужое страдание как своё — корнем всякой морали.",
+            "uk": "1840 року Данське королівське товариство наук відмовило в премії його праці «Про основу моралі», хоча вона була єдиною надісланою, — почасти за зневагу до «видатних філософів», як-от Гегель. У ній він назвав співчуття — здатність відчувати чуже страждання як своє — коренем усякої моралі.",
+            "pl": "W 1840 roku Królewskie Duńskie Towarzystwo Nauk odmówiło nagrody jego rozprawie O podstawie moralności, choć była jedyną nadesłaną — po części za lekceważenie „wybitnych filozofów”, takich jak Hegel. Uczynił w niej współczucie — odczuwanie cudzego cierpienia jak własnego — korzeniem wszelkiej moralności."
+          },
+          "source": "Arthur Schopenhauer, On the Basis of Morality (1841), preface; David E. Cartwright, Schopenhauer: A Biography (2010)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "The Buddha: suffering has a cause, and an end",
+        "ru": "Будда: у страдания есть причина — и конец",
+        "uk": "Будда: страждання має причину — і кінець",
+        "pl": "Budda: cierpienie ma przyczynę — i kres"
+      },
+      "intro": {
+        "en": "India, the fifth century BC. More than two thousand years before Schopenhauer, the Buddha too began from suffering. But he did not call it the aim of life: suffering has an origin — craving, the clinging to what is pleasant and dear — and what has an origin can end. The Dhammapada, verses the tradition holds to be his words, puts his four truths in a single sentence, and their root in one line:",
+        "ru": "Индия, V век до н. э. Больше чем за две тысячи лет до Шопенгауэра Будда тоже начал со страдания. Но он не назвал его целью жизни: у страдания есть источник — жажда, привязанность к приятному и дорогому, — а то, у чего есть источник, может прекратиться. «Дхаммапада», стихи, которые традиция считает его словами, излагает его четыре истины в одной фразе, а их корень — в одной строке:",
+        "uk": "Індія, V століття до н. е. Більш ніж за дві тисячі років до Шопенгауера Будда теж почав зі страждання. Але він не назвав його метою життя: страждання має джерело — жагу, прив’язаність до приємного й дорогого, — а те, що має джерело, може припинитися. «Дхаммапада», вірші, які традиція вважає його словами, викладає його чотири істини в одному реченні, а їхній корінь — в одному рядку:",
+        "pl": "Indie, V wiek p.n.e. Ponad dwa tysiące lat przed Schopenhauerem Budda także zaczął od cierpienia. Lecz nie nazwał go celem życia: cierpienie ma źródło — pragnienie, przywiązanie do tego, co miłe i drogie — a to, co ma źródło, może ustać. Dhammapada, wersety, które tradycja uważa za jego słowa, wykłada jego cztery prawdy w jednym zdaniu, a ich korzeń — w jednym wersie:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "The Dhammapada, verses 190–192 (chapter XIV, “The Buddha”)",
+            "ru": "Дхаммапада, стихи 190–192 (глава XIV, «Будда»)",
+            "uk": "Дхаммапада, вірші 190–192 (розділ XIV, «Будда»)",
+            "pl": "Dhammapada, wersety 190–192 (rozdział XIV, „Budda”)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "dhammapada-suffering.en.muller",
+              "from": "14.190",
+              "to": "14.192",
+              "text": "He who takes refuge with Buddha, the Law, and the Church; he who, with clear understanding, sees the four holy truths:-- Viz. pain, the origin of pain, the destruction of pain, and the eightfold holy way that leads to the quieting of pain;-- That is the safe refuge, that is the best refuge; having gone to that refuge, a man is delivered from all pain.",
+              "kind": "Free",
+              "translator": "F. Max Müller",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "The Dhammapada"
+              }
+            },
+            "ru": {
+              "edition": "dhammapada-suffering.ru.ours",
+              "from": "14.190",
+              "to": "14.192",
+              "text": "Кто принимает прибежище в Будде, Законе и Общине; кто ясным разумением видит четыре святые истины — а именно: страдание, происхождение страдания, уничтожение страдания и святой восьмеричный путь, ведущий к утолению страдания, — вот надёжное прибежище, вот наилучшее прибежище; придя к этому прибежищу, человек избавляется от всякого страдания.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "«Дхаммапада»"
+              }
+            },
+            "uk": {
+              "edition": "dhammapada-suffering.uk.ours",
+              "from": "14.190",
+              "to": "14.192",
+              "text": "Хто приймає притулок у Будді, Законі й Спільноті; хто ясним розумінням бачить чотири святі істини — а саме: страждання, походження страждання, знищення страждання і святий восьмеричний шлях, що веде до вгамування страждання, — ось надійний притулок, ось найкращий притулок; прийшовши до цього притулку, людина звільняється від усякого страждання.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "«Дгаммапада»"
+              }
+            },
+            "pl": {
+              "edition": "dhammapada-suffering.pl.ours",
+              "from": "14.190",
+              "to": "14.192",
+              "text": "Kto przyjmuje schronienie w Buddzie, Prawie i Wspólnocie; kto jasnym rozumieniem widzi cztery święte prawdy — mianowicie: cierpienie, powstanie cierpienia, zniszczenie cierpienia i święty ośmioraki szlak, który wiedzie do uciszenia cierpienia — oto bezpieczne schronienie, oto najlepsze schronienie; doszedłszy do tego schronienia, człowiek zostaje wyzwolony od wszelkiego cierpienia.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "Dhammapada"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Pali",
+              "ru": "оригинал на пали",
+              "uk": "оригінал палі",
+              "pl": "oryginał w pali"
+            },
+            "url": "https://suttacentral.net/dhp179-196/pli/ms"
+          }
+        },
+        {
+          "by": {
+            "en": "The Dhammapada, verse 212 (chapter XVI, “Pleasure”)",
+            "ru": "Дхаммапада, стих 212 (глава XVI, «Удовольствие»)",
+            "uk": "Дхаммапада, вірш 212 (розділ XVI, «Насолода»)",
+            "pl": "Dhammapada, werset 212 (rozdział XVI, „Przyjemność”)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "dhammapada-suffering.en.muller",
+              "from": "16.212",
+              "to": "16.212",
+              "text": "From pleasure comes grief, from pleasure comes fear; he who is free from pleasure knows neither grief nor fear.",
+              "kind": "Free",
+              "translator": "F. Max Müller",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "The Dhammapada"
+              }
+            },
+            "ru": {
+              "edition": "dhammapada-suffering.ru.ours",
+              "from": "16.212",
+              "to": "16.212",
+              "text": "От удовольствия происходит печаль, от удовольствия происходит страх; кто свободен от удовольствия, не знает ни печали, ни страха.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "«Дхаммапада»"
+              }
+            },
+            "uk": {
+              "edition": "dhammapada-suffering.uk.ours",
+              "from": "16.212",
+              "to": "16.212",
+              "text": "Від насолоди походить печаль, від насолоди походить страх; хто вільний від насолоди, не знає ні печалі, ні страху.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "«Дгаммапада»"
+              }
+            },
+            "pl": {
+              "edition": "dhammapada-suffering.pl.ours",
+              "from": "16.212",
+              "to": "16.212",
+              "text": "Z przyjemności rodzi się smutek, z przyjemności rodzi się lęk; kto jest wolny od przyjemności, nie zna ani smutku, ani lęku.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "Dhammapada"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Pali",
+              "ru": "оригинал на пали",
+              "uk": "оригінал палі",
+              "pl": "oryginał w pali"
+            },
+            "url": "https://suttacentral.net/dhp209-220/pli/ms"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Tradition says the Buddha first taught the four truths in the Deer Park at Isipatana, near Benares, to five ascetics who had left him when he gave up starving himself — the sermon called the Turning of the Wheel of the Dhamma.",
+            "ru": "По преданию, впервые Будда изложил четыре истины в Оленьем парке в Исипатане, близ Бенареса, пяти аскетам, которые оставили его, когда он перестал морить себя голодом, — эту проповедь называют «Поворотом колеса Дхаммы».",
+            "uk": "За переказом, уперше Будда виклав чотири істини в Олениному парку в Ісіпатані, поблизу Бенареса, п’ятьом аскетам, які покинули його, коли він перестав морити себе голодом, — цю проповідь називають «Поворотом колеса Дхамми».",
+            "pl": "Według tradycji Budda po raz pierwszy wyłożył cztery prawdy w Gaju Jeleni w Isipatanie, koło Benaresu, pięciu ascetom, którzy opuścili go, gdy przestał się głodzić — to kazanie nazywa się Wprawieniem w ruch Koła Dhammy."
+          },
+          "source": "Saṃyutta Nikāya 56.11 (Dhammacakkappavattana Sutta); Vinaya, Mahāvagga 1.6"
+        },
+        {
+          "fact": {
+            "en": "The Dhammapada has 423 verses in 26 chapters and belongs to the Khuddaka Nikāya of the Pali Canon; a commentary of the fifth century AD, ascribed to Buddhaghosa, tells for each verse the occasion on which the Buddha is said to have spoken it.",
+            "ru": "«Дхаммапада» — 423 стиха в 26 главах, часть Кхуддака-никаи палийского канона; комментарий V века н. э., приписываемый Буддагхосе, рассказывает о каждом стихе, по какому случаю Будда будто бы его произнёс.",
+            "uk": "«Дхаммапада» — 423 вірші у 26 розділах, частина Кхуддака-нікаї палійського канону; коментар V століття н. е., що його приписують Буддагхосі, розповідає про кожен вірш, з якої нагоди Будда нібито його промовив.",
+            "pl": "Dhammapada liczy 423 wersety w 26 rozdziałach i należy do Khuddaka Nikāji kanonu palijskiego; komentarz z V wieku n.e., przypisywany Buddhaghosie, opowiada przy każdym wersecie, przy jakiej okazji Budda miał go wypowiedzieć."
+          },
+          "source": "K. R. Norman, Pāli Literature (1983)"
+        },
+        {
+          "fact": {
+            "en": "Among the oldest Buddhist manuscripts known is a Dhammapada not in Pali but in Gāndhārī, written on birch bark in the first or second century AD and bought near Khotan, on the Silk Road, in 1892.",
+            "ru": "Одна из древнейших известных буддийских рукописей — «Дхаммапада» не на пали, а на гандхари, написанная на бересте в I или II веке н. э. и купленная близ Хотана, на Шёлковом пути, в 1892 году.",
+            "uk": "Один із найдавніших відомих буддійських рукописів — «Дхаммапада» не мовою палі, а мовою гандхарі, написана на бересті в I або II столітті н. е. і куплена поблизу Хотана, на Шовковому шляху, 1892 року.",
+            "pl": "Jednym z najstarszych znanych rękopisów buddyjskich jest Dhammapada nie w pali, lecz w gandhari, spisana na korze brzozowej w I lub II wieku n.e. i kupiona koło Chotanu, na Jedwabnym Szlaku, w 1892 roku."
+          },
+          "source": "John Brough, The Gāndhārī Dharmapada (1962)"
         }
       ]
     },
