@@ -1,0 +1,1386 @@
+{
+  "id": "forgiveness",
+  "title": {
+    "en": "Should we forgive those who wronged us?",
+    "ru": "Должны ли мы прощать тех, кто причинил нам зло?",
+    "uk": "Чи маємо ми прощати тих, хто заподіяв нам зло?",
+    "pl": "Czy powinniśmy przebaczać tym, którzy nas skrzywdzili?"
+  },
+  "subtitle": {
+    "en": "Confucius, the Dhammapada, Seneca, the Gospel, Joseph Butler, Gregory VII at Canossa — and you",
+    "ru": "Конфуций, «Дхаммапада», Сенека, Евангелие, Джозеф Батлер, Григорий VII в Каноссе — и вы",
+    "uk": "Конфуцій, «Дгаммапада», Сенека, Євангеліє, Джозеф Батлер, Григорій VII у Каноссі — і ви",
+    "pl": "Konfucjusz, Dhammapada, Seneka, Ewangelia, Joseph Butler, Grzegorz VII w Canossie — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: should we forgive those who wronged us?",
+        "ru": "Прежде чем читать кого-либо: должны ли мы прощать тех, кто причинил нам зло?",
+        "uk": "Перш ніж читати когось: чи маємо ми прощати тих, хто заподіяв нам зло?",
+        "pl": "Zanim kogokolwiek przeczytasz: czy powinniśmy przebaczać tym, którzy nas skrzywdzili?"
+      },
+      "options": [
+        {
+          "en": "Always: to answer a wrong with a wrong only keeps the wrong alive",
+          "ru": "Всегда: отвечать злом на зло — значит лишь продлевать зло",
+          "uk": "Завжди: відповідати злом на зло — означає лише продовжувати зло",
+          "pl": "Zawsze: odpowiadać złem na zło to tylko przedłużać zło"
+        },
+        {
+          "en": "If they repent and ask: forgiveness is the answer to repentance",
+          "ru": "Если они раскаялись и просят: прощение — ответ на раскаяние",
+          "uk": "Якщо вони покаялися й просять: прощення — відповідь на каяття",
+          "pl": "Jeśli żałują i proszą: przebaczenie jest odpowiedzią na skruchę"
+        },
+        {
+          "en": "Justice first: to treat a wrong as if it were nothing is unfair to those who did right",
+          "ru": "Сначала справедливость: обходиться со злом так, будто его не было, несправедливо к тем, кто поступал хорошо",
+          "uk": "Спершу справедливість: ставитися до зла так, ніби його не було, несправедливо щодо тих, хто чинив добре",
+          "pl": "Najpierw sprawiedliwość: traktować zło tak, jakby go nie było, to niesprawiedliwość wobec tych, którzy czynili dobrze"
+        },
+        {
+          "en": "Not always: some wrongs should not be forgiven — and it is not ours to forgive what was done to others",
+          "ru": "Не всегда: некоторое зло прощать нельзя — и не нам прощать то, что сделано другим",
+          "uk": "Не завжди: деяке зло не можна прощати — і не нам прощати те, що заподіяно іншим",
+          "pl": "Nie zawsze: niektórych krzywd nie wolno przebaczać — i nie nam przebaczać to, co wyrządzono innym"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Confucius: repay injury with justice",
+        "ru": "Конфуций: за обиду — справедливостью",
+        "uk": "Конфуцій: за кривду — справедливістю",
+        "pl": "Konfucjusz: za krzywdę — sprawiedliwością"
+      },
+      "intro": {
+        "en": "The state of Lu, in eastern China, about 500 BC. Confucius — a teacher more than an official, though tradition says he served Lu for a time as its minister of crime — gathers disciples and talks with whoever comes. After his death his disciples, and theirs, wrote his sayings down: the book called the Analects. In one of them someone puts to him a saying that was going round: that injury should be repaid with kindness. In Chinese the word for kindness, de, is also the word for virtue; the word Legge renders as injury, yuan, is the grudge, the enmity, that a wrong leaves between people. The Master answers with a question of his own:",
+        "ru": "Царство Лу, восток Китая, около 500 года до н. э. Конфуций — скорее учитель, чем чиновник, хотя, по преданию, он одно время служил в Лу главой судебного ведомства, — собирает учеников и беседует со всяким, кто приходит. После его смерти ученики и ученики учеников записали его изречения — это книга «Лунь юй». В одном из них кто-то приводит ему ходившее тогда изречение: за обиду надо воздавать добротой. По-китайски слово «доброта», дэ, означает и «добродетель»; слово, которое Легг переводит как «обида», юань, — это неприязнь, вражда, которую зло оставляет между людьми. Учитель отвечает своим вопросом:",
+        "uk": "Царство Лу, схід Китаю, близько 500 року до н. е. Конфуцій — радше вчитель, ніж урядовець, хоча, за переказом, він якийсь час служив у Лу очільником судового відомства, — збирає учнів і розмовляє з кожним, хто приходить. Після його смерті учні та учні учнів записали його вислови — це книга «Лунь юй». В одному з них хтось наводить йому вислів, що тоді ходив між людьми: за кривду треба відплачувати добротою. Китайською слово «доброта», де, означає й «чеснота»; слово, яке Легг перекладає як «кривда», юань, — це неприязнь, ворожнеча, яку зло залишає між людьми. Учитель відповідає власним запитанням:",
+        "pl": "Państwo Lu, wschodnie Chiny, około 500 roku p.n.e. Konfucjusz — bardziej nauczyciel niż urzędnik, choć według tradycji przez pewien czas był w Lu ministrem sprawiedliwości — skupia uczniów i rozmawia z każdym, kto przychodzi. Po jego śmierci uczniowie i uczniowie uczniów spisali jego wypowiedzi — to księga zwana Dialogami konfucjańskimi. W jednej z nich ktoś przytacza mu krążące wówczas powiedzenie: krzywdę należy odpłacać dobrocią. Po chińsku słowo „dobroć”, de, znaczy także „cnota”; słowo, które Legge oddaje jako „krzywda”, yuan, to uraza, wrogość, jaką zło zostawia między ludźmi. Mistrz odpowiada własnym pytaniem:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Confucius, Analects 14.36",
+            "ru": "Конфуций, «Лунь юй», 14.36",
+            "uk": "Конфуцій, «Лунь юй», 14.36",
+            "pl": "Konfucjusz, Dialogi konfucjańskie 14.36"
+          },
+          "quotes": {
+            "en": {
+              "edition": "analects-forgiveness.en.legge",
+              "from": "14.36",
+              "to": "14.36",
+              "text": "Some one said, \"What do you say concerning the principle that injury should be recompensed with kindness?\"",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Confucius, The Analects"
+              }
+            },
+            "ru": {
+              "edition": "analects-forgiveness.ru.ours",
+              "from": "14.36",
+              "to": "14.36",
+              "text": "Некто спросил: «Что вы скажете о правиле, по которому за обиду следует воздавать добротой?»",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуций, «Лунь юй»"
+              }
+            },
+            "uk": {
+              "edition": "analects-forgiveness.uk.ours",
+              "from": "14.36",
+              "to": "14.36",
+              "text": "Хтось спитав: «Що ви скажете про правило, за яким за кривду слід відплачувати добротою?»",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуцій, «Лунь юй»"
+              }
+            },
+            "pl": {
+              "edition": "analects-forgiveness.pl.ours",
+              "from": "14.36",
+              "to": "14.36",
+              "text": "Ktoś zapytał: „Co powiesz o zasadzie, że krzywdę należy odpłacać dobrocią?”",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Konfucjusz, Dialogi konfucjańskie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/論語/憲問第十四"
+          }
+        },
+        {
+          "by": {
+            "en": "The same",
+            "ru": "Там же",
+            "uk": "Там само",
+            "pl": "Tamże"
+          },
+          "quotes": {
+            "en": {
+              "edition": "analects-forgiveness.en.legge",
+              "from": "14.36",
+              "to": "14.36",
+              "text": "The Master said, \"With what then will you recompense kindness?",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Confucius, The Analects"
+              }
+            },
+            "ru": {
+              "edition": "analects-forgiveness.ru.ours",
+              "from": "14.36",
+              "to": "14.36",
+              "text": "Учитель сказал: «Чем же тогда вы будете воздавать за доброту?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуций, «Лунь юй»"
+              }
+            },
+            "uk": {
+              "edition": "analects-forgiveness.uk.ours",
+              "from": "14.36",
+              "to": "14.36",
+              "text": "Учитель сказав: «Чим же тоді ви відплачуватимете за доброту?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуцій, «Лунь юй»"
+              }
+            },
+            "pl": {
+              "edition": "analects-forgiveness.pl.ours",
+              "from": "14.36",
+              "to": "14.36",
+              "text": "Mistrz rzekł: „Czym więc odpłacisz za dobroć?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Konfucjusz, Dialogi konfucjańskie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/論語/憲問第十四"
+          }
+        },
+        {
+          "by": {
+            "en": "The same",
+            "ru": "Там же",
+            "uk": "Там само",
+            "pl": "Tamże"
+          },
+          "quotes": {
+            "en": {
+              "edition": "analects-forgiveness.en.legge",
+              "from": "14.36",
+              "to": "14.36",
+              "text": "\"Recompense injury with justice, and recompense kindness with kindness.\"",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Confucius, The Analects"
+              }
+            },
+            "ru": {
+              "edition": "analects-forgiveness.ru.ours",
+              "from": "14.36",
+              "to": "14.36",
+              "text": "«За обиду воздавайте справедливостью, а за доброту воздавайте добротой».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуций, «Лунь юй»"
+              }
+            },
+            "uk": {
+              "edition": "analects-forgiveness.uk.ours",
+              "from": "14.36",
+              "to": "14.36",
+              "text": "«За кривду відплачуйте справедливістю, а за доброту відплачуйте добротою».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуцій, «Лунь юй»"
+              }
+            },
+            "pl": {
+              "edition": "analects-forgiveness.pl.ours",
+              "from": "14.36",
+              "to": "14.36",
+              "text": "„Krzywdę odpłacaj sprawiedliwością, a dobroć odpłacaj dobrocią”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Konfucjusz, Dialogi konfucjańskie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/論語/憲問第十四"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The saying the questioner brings stands, almost word for word, in the Daodejing, the Taoist book ascribed to Laozi: among the ways of the sage it names “to recompense injury with kindness” — bao yuan yi de, the same three words that the Analects give as yi de bao yuan.",
+            "ru": "Изречение, которое приводит спрашивающий, почти слово в слово стоит в «Дао дэ цзин», даосской книге, приписываемой Лао-цзы: среди путей мудреца она называет «воздавать за обиду добротой» — бао юань и дэ, те же слова, что в «Лунь юй» звучат как и дэ бао юань.",
+            "uk": "Вислів, який наводить той, хто питає, майже слово в слово стоїть у «Дао де цзін», даоській книзі, приписуваній Лао-цзи: серед шляхів мудреця вона називає «відплачувати за кривду добротою» — бао юань і де, ті самі слова, що в «Лунь юй» звучать як і де бао юань.",
+            "pl": "Powiedzenie, które przytacza pytający, stoi niemal słowo w słowo w Daodejingu, taoistycznej księdze przypisywanej Laozi: wśród dróg mędrca wymienia ona „odpłacać za krzywdę dobrocią” — bao yuan yi de, te same słowa, które w Dialogach konfucjańskich brzmią yi de bao yuan."
+          },
+          "source": "Laozi, Daodejing 63; Confucius, Analects 14.36"
+        },
+        {
+          "fact": {
+            "en": "Asked whether there is one word that may serve as a rule of practice for all one's life, Confucius answered: shu, “reciprocity” — “What you do not want done to yourself, do not do to others.” The rule forbids returning a wrong; it does not ask us to treat a wrong as a gift.",
+            "ru": "На вопрос, есть ли одно слово, которым можно руководствоваться всю жизнь, Конфуций ответил: шу, «взаимность» — «Чего не желаешь себе, того не делай другим». Это правило запрещает отвечать злом на зло, но не требует принимать зло как подарок.",
+            "uk": "На запитання, чи є одне слово, яким можна керуватися все життя, Конфуцій відповів: шу, «взаємність» — «Чого не бажаєш собі, того не роби іншим». Це правило забороняє відповідати злом на зло, але не вимагає приймати зло як дарунок.",
+            "pl": "Zapytany, czy jest jedno słowo, którym można się kierować przez całe życie, Konfucjusz odpowiedział: shu, „wzajemność” — „Czego sam nie chcesz, tego nie czyń innym”. Ta zasada zabrania odpłacania złem za zło, ale nie każe przyjmować zła jak daru."
+          },
+          "source": "Confucius, Analects 15.23 (and 12.2)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "The Dhammapada: hatred does not cease by hatred",
+        "ru": "«Дхаммапада»: ненависть не прекращается ненавистью",
+        "uk": "«Дгаммапада»: ненависть не припиняється ненавистю",
+        "pl": "Dhammapada: nienawiść nie ustaje przez nienawiść"
+      },
+      "intro": {
+        "en": "Northern India, the fifth century BC, as most scholars date the Buddha. He teaches that suffering comes from craving, and that the mind makes what we are: the Dhammapada, a collection of his verses kept in the Pali Canon, opens with that thought. Its next verses are about someone who has been wronged — and what he does with the wrong inside himself:",
+        "ru": "Северная Индия, V век до н. э., как датирует жизнь Будды большинство учёных. Он учит, что страдание рождается из жажды и что ум творит то, что мы есть: этой мыслью открывается «Дхаммапада», собрание его стихов, сохранённое в Палийском каноне. Следующие стихи — о том, кому причинили зло, и о том, что он делает с этим злом в себе:",
+        "uk": "Північна Індія, V століття до н. е., як датує життя Будди більшість учених. Він навчає, що страждання народжується з жаги і що розум творить те, чим ми є: цією думкою відкривається «Дгаммапада», збірка його віршів, збережена в Палійському каноні. Наступні вірші — про того, кому заподіяли зло, і про те, що він робить із цим злом у собі:",
+        "pl": "Północne Indie, V wiek p.n.e., jak datuje życie Buddy większość uczonych. Naucza on, że cierpienie rodzi się z pragnienia, a umysł tworzy to, czym jesteśmy: tą myślą otwiera się Dhammapada, zbiór jego wersetów zachowany w kanonie palijskim. Następne wersety mówią o kimś, kogo skrzywdzono — i o tym, co robi z tą krzywdą w sobie:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "The Dhammapada, 3–4",
+            "ru": "«Дхаммапада», 3–4",
+            "uk": "«Дгаммапада», 3–4",
+            "pl": "Dhammapada, 3–4"
+          },
+          "quotes": {
+            "en": {
+              "edition": "dhammapada-forgiveness.en.muller",
+              "from": "1.3",
+              "to": "1.4",
+              "text": "\"He abused me, he beat me, he defeated me, he robbed me,\"--in those who harbour such thoughts hatred will never cease. \"He abused me, he beat me, he defeated me, he robbed me,\"--in those who do not harbour such thoughts hatred will cease.",
+              "kind": "Free",
+              "translator": "F. Max Müller",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "The Dhammapada"
+              }
+            },
+            "ru": {
+              "edition": "dhammapada-forgiveness.ru.ours",
+              "from": "1.3",
+              "to": "1.4",
+              "text": "«Он оскорбил меня, он избил меня, он победил меня, он ограбил меня», — в тех, кто таит такие мысли, ненависть никогда не утихнет. «Он оскорбил меня, он избил меня, он победил меня, он ограбил меня», — в тех, кто не таит таких мыслей, ненависть утихнет.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "«Дхаммапада»"
+              }
+            },
+            "uk": {
+              "edition": "dhammapada-forgiveness.uk.ours",
+              "from": "1.3",
+              "to": "1.4",
+              "text": "«Він зневажив мене, він побив мене, він переміг мене, він пограбував мене», — у тих, хто плекає такі думки, ненависть ніколи не вщухне. «Він зневажив мене, він побив мене, він переміг мене, він пограбував мене», — у тих, хто не плекає таких думок, ненависть ущухне.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "«Дгаммапада»"
+              }
+            },
+            "pl": {
+              "edition": "dhammapada-forgiveness.pl.ours",
+              "from": "1.3",
+              "to": "1.4",
+              "text": "„Znieważył mnie, pobił mnie, pokonał mnie, okradł mnie” — w tych, którzy żywią takie myśli, nienawiść nigdy nie ustanie. „Znieważył mnie, pobił mnie, pokonał mnie, okradł mnie” — w tych, którzy nie żywią takich myśli, nienawiść ustanie.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "Dhammapada"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Pali",
+              "ru": "оригинал на пали",
+              "uk": "оригінал мовою палі",
+              "pl": "oryginał w języku pali"
+            },
+            "url": "https://suttacentral.net/dhp1-20/pli/ms"
+          }
+        },
+        {
+          "by": {
+            "en": "The Dhammapada, 5",
+            "ru": "«Дхаммапада», 5",
+            "uk": "«Дгаммапада», 5",
+            "pl": "Dhammapada, 5"
+          },
+          "quotes": {
+            "en": {
+              "edition": "dhammapada-forgiveness.en.muller",
+              "from": "1.5",
+              "to": "1.5",
+              "text": "For hatred does not cease by hatred at any time: hatred ceases by love, this is an old rule.",
+              "kind": "Free",
+              "translator": "F. Max Müller",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "The Dhammapada"
+              }
+            },
+            "ru": {
+              "edition": "dhammapada-forgiveness.ru.ours",
+              "from": "1.5",
+              "to": "1.5",
+              "text": "Ибо ненависть никогда не прекращается ненавистью: ненависть прекращается любовью — таково древнее правило.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "«Дхаммапада»"
+              }
+            },
+            "uk": {
+              "edition": "dhammapada-forgiveness.uk.ours",
+              "from": "1.5",
+              "to": "1.5",
+              "text": "Бо ненависть ніколи не припиняється ненавистю: ненависть припиняється любов'ю — таке давнє правило.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "«Дгаммапада»"
+              }
+            },
+            "pl": {
+              "edition": "dhammapada-forgiveness.pl.ours",
+              "from": "1.5",
+              "to": "1.5",
+              "text": "Bo nienawiść nigdy nie ustaje przez nienawiść: nienawiść ustaje przez miłość — oto dawna zasada.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "Dhammapada"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Pali",
+              "ru": "оригинал на пали",
+              "uk": "оригінал мовою палі",
+              "pl": "oryginał w języku pali"
+            },
+            "url": "https://suttacentral.net/dhp1-20/pli/ms"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The monks' rule, the Vinaya, tells how the Buddha, when the monks of Kosambī were quarrelling, told them of King Dīghīti of Kosala, whose kingdom was seized by Brahmadatta, king of Kāsi. Led out to be executed, Dīghīti told his son: not by hatred is hatred appeased, but by not-hatred. Years later the son, Dīghāvu, had Brahmadatta asleep in his lap in a forest; three times he drew his sword, and three times he remembered his father's words and spared him.",
+            "ru": "Устав монахов, Виная, рассказывает, как Будда, когда монахи Косамби перессорились, поведал им о царе Дигхити из Косалы, чьё царство захватил Брахмадатта, царь Каси. Когда Дигхити вели на казнь, он сказал сыну: ненависть не утоляется ненавистью, а утоляется отсутствием ненависти. Годы спустя сын, Дигхаву, держал спящего Брахмадатту головой у себя на коленях в лесу; трижды он вынимал меч и трижды вспоминал слова отца и щадил его.",
+            "uk": "Статут ченців, Віная, розповідає, як Будда, коли ченці Косамбі пересварилися, оповів їм про царя Дігхіті з Косали, чиє царство захопив Брахмадатта, цар Касі. Коли Дігхіті вели на страту, він сказав синові: ненависть не вгамовується ненавистю, а вгамовується відсутністю ненависті. Роки по тому син, Дігхаву, тримав сплячого Брахмадатту головою в себе на колінах у лісі; тричі він видобував меч і тричі згадував батькові слова й щадив його.",
+            "pl": "Reguła mnichów, Winaja, opowiada, jak Budda, gdy mnisi z Kosambi się pokłócili, opowiedział im o królu Dighitim z Kosali, którego królestwo zagarnął Brahmadatta, król Kasi. Prowadzony na egzekucję Dighiti powiedział synowi: nienawiść nie ustaje przez nienawiść, lecz przez brak nienawiści. Po latach syn, Dighawu, miał śpiącego Brahmadattę z głową na swoich kolanach w lesie; trzy razy dobywał miecza i trzy razy przypominał sobie słowa ojca i oszczędzał go."
+          },
+          "source": "Vinaya Piṭaka, Mahāvagga X.2 (Vinaya Texts III, tr. T. W. Rhys Davids and H. Oldenberg, Sacred Books of the East 17, 1882)"
+        },
+        {
+          "fact": {
+            "en": "In September 1951, at the San Francisco conference that made peace with Japan, the delegate of Ceylon, J. R. Jayewardene, explained why his country would not claim reparations by quoting this verse: “hatred ceases not by hatred but by love.”",
+            "ru": "В сентябре 1951 года на конференции в Сан-Франциско, заключившей мир с Японией, делегат Цейлона Дж. Р. Джаявардене, объясняя, почему его страна не станет требовать репараций, привёл этот стих: «ненависть прекращается не ненавистью, а любовью».",
+            "uk": "У вересні 1951 року на конференції в Сан-Франциско, що уклала мир з Японією, делегат Цейлону Дж. Р. Джаявардене, пояснюючи, чому його країна не вимагатиме репарацій, навів цей вірш: «ненависть припиняється не ненавистю, а любов'ю».",
+            "pl": "We wrześniu 1951 roku na konferencji w San Francisco, która zawarła pokój z Japonią, delegat Cejlonu J. R. Jayewardene, wyjaśniając, dlaczego jego kraj nie będzie żądał reparacji, przytoczył ten werset: „nienawiść ustaje nie przez nienawiść, lecz przez miłość”."
+          },
+          "source": "Conference for the Conclusion and Signature of the Treaty of Peace with Japan, San Francisco, September 1951: Record of Proceedings (US Department of State, 1951), the speech of the delegate of Ceylon"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Seneca: mercy, not pardon",
+        "ru": "Сенека: милосердие, а не прощение",
+        "uk": "Сенека: милосердя, а не прощення",
+        "pl": "Seneka: łaskawość, nie przebaczenie"
+      },
+      "intro": {
+        "en": "Rome, about AD 56. Nero, just past eighteen, has been emperor for two years; his old tutor Seneca, a Stoic philosopher, writes for him a book On Mercy: the power of life and death is in the young man's hands, and Seneca wants gentleness to rule it. Yet the Stoics were accused of teaching that the wise man never pities and never pardons. Seneca takes up the charge — and draws a line between pardon and mercy:",
+        "ru": "Рим, около 56 года н. э. Нерону едва исполнилось восемнадцать, императором он уже два года; его старый наставник Сенека, философ-стоик, пишет для него книгу «О милосердии»: власть над жизнью и смертью — в руках юноши, и Сенека хочет, чтобы ею правила мягкость. Но стоиков обвиняли в том, что, по их учению, мудрец никогда не жалеет и никогда не прощает. Сенека принимает это обвинение — и проводит черту между прощением и милосердием:",
+        "uk": "Рим, близько 56 року н. е. Неронові щойно минуло вісімнадцять, імператором він уже два роки; його старий наставник Сенека, філософ-стоїк, пише для нього книгу «Про милосердя»: влада над життям і смертю — в руках юнака, і Сенека хоче, щоб нею правила лагідність. Але стоїків звинувачували в тому, що, за їхнім ученням, мудрець ніколи не жаліє й ніколи не прощає. Сенека береться за це звинувачення — і проводить межу між прощенням і милосердям:",
+        "pl": "Rzym, około 56 roku n.e. Neron, ledwie po osiemnastce, od dwóch lat jest cesarzem; jego dawny nauczyciel Seneka, filozof stoik, pisze dla niego księgę O łaskawości: władza nad życiem i śmiercią jest w rękach młodzieńca, a Seneka chce, by rządziła nią łagodność. Stoikom zarzucano jednak, że według ich nauki mędrzec nigdy się nie lituje i nigdy nie przebacza. Seneka podejmuje ten zarzut — i wyznacza granicę między przebaczeniem a łaskawością:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Seneca, On Mercy II.7",
+            "ru": "Сенека, «О милосердии», II.7",
+            "uk": "Сенека, «Про милосердя», II.7",
+            "pl": "Seneka, O łaskawości II.7"
+          },
+          "quotes": {
+            "en": {
+              "edition": "clemency-forgiveness.en.stewart",
+              "from": "2.7",
+              "to": "2.7",
+              "text": "But why should he not pardon? Let us decide by exact definition this other slippery matter, the true nature of pardon, and we shall then perceive that the wise man ought not to grant it. Pardon is the remitting of a deserved punishment.",
+              "kind": "Free",
+              "translator": "Aubrey Stewart",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Of_Clemency",
+                "lang": "en",
+                "title": "Seneca, On Mercy"
+              }
+            },
+            "ru": {
+              "edition": "clemency-forgiveness.ru.ours",
+              "from": "2.7",
+              "to": "2.7",
+              "text": "Но почему же ему не прощать? Определим точно и это другое скользкое понятие — что такое прощение, и тогда увидим, что мудрец не должен его даровать. Прощение есть отмена заслуженного наказания.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Of_Clemency",
+                "lang": "en",
+                "title": "Сенека, «О милосердии»"
+              }
+            },
+            "uk": {
+              "edition": "clemency-forgiveness.uk.ours",
+              "from": "2.7",
+              "to": "2.7",
+              "text": "Але чому ж йому не прощати? Визначмо точно й це інше слизьке поняття — що таке прощення, і тоді побачимо, що мудрець не повинен його дарувати. Прощення — це скасування заслуженої кари.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Of_Clemency",
+                "lang": "en",
+                "title": "Сенека, «Про милосердя»"
+              }
+            },
+            "pl": {
+              "edition": "clemency-forgiveness.pl.ours",
+              "from": "2.7",
+              "to": "2.7",
+              "text": "Lecz dlaczego nie miałby przebaczać? Określmy dokładnie i tę drugą śliską sprawę — czym jest przebaczenie, a wtedy zobaczymy, że mędrzec nie powinien go udzielać. Przebaczenie to darowanie zasłużonej kary.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Of_Clemency",
+                "lang": "en",
+                "title": "Seneka, O łaskawości"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/De_clementia#LIBER_II"
+          }
+        },
+        {
+          "by": {
+            "en": "The same, giving the Stoics' reasons",
+            "ru": "Там же, излагая доводы стоиков",
+            "uk": "Там само, викладаючи доводи стоїків",
+            "pl": "Tamże, przedstawiając racje stoików"
+          },
+          "quotes": {
+            "en": {
+              "edition": "clemency-forgiveness.en.stewart",
+              "from": "2.7",
+              "to": "2.7",
+              "text": "But the wise man will bestow upon you in a more honourable way that which you wish to obtain by pardon, for he will make allowances for you, will consult your interests, and will correct your bad habits: he will act just as though he were pardoning you, but nevertheless he will not pardon you, because he who pardons admits that in so doing he has neglected a part of his duty.",
+              "kind": "Free",
+              "translator": "Aubrey Stewart",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Of_Clemency",
+                "lang": "en",
+                "title": "Seneca, On Mercy"
+              }
+            },
+            "ru": {
+              "edition": "clemency-forgiveness.ru.ours",
+              "from": "2.7",
+              "to": "2.7",
+              "text": "Но то, чего ты хочешь добиться прощением, мудрец дарует тебе более достойным путём: он будет снисходителен к тебе, позаботится о твоей пользе и исправит твои дурные привычки; он поступит в точности так, как если бы прощал тебя, и всё же не простит тебя, потому что тот, кто прощает, признаёт, что тем самым пренебрёг частью своего долга.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Of_Clemency",
+                "lang": "en",
+                "title": "Сенека, «О милосердии»"
+              }
+            },
+            "uk": {
+              "edition": "clemency-forgiveness.uk.ours",
+              "from": "2.7",
+              "to": "2.7",
+              "text": "Але те, чого ти хочеш досягти прощенням, мудрець дасть тобі гіднішим шляхом: він буде поблажливий до тебе, подбає про твою користь і виправить твої лихі звички; він учинить достоту так, ніби прощає тебе, і все ж не простить тебе, бо той, хто прощає, визнає, що цим знехтував частиною свого обов'язку.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Of_Clemency",
+                "lang": "en",
+                "title": "Сенека, «Про милосердя»"
+              }
+            },
+            "pl": {
+              "edition": "clemency-forgiveness.pl.ours",
+              "from": "2.7",
+              "to": "2.7",
+              "text": "Lecz to, co chcesz uzyskać przez przebaczenie, mędrzec da ci zaszczytniejszą drogą: okaże ci wyrozumiałość, zatroszczy się o twoje dobro i poprawi twoje złe nawyki; postąpi dokładnie tak, jakby ci przebaczał, a jednak ci nie przebaczy, bo kto przebacza, przyznaje, że zaniedbał przez to część swojego obowiązku.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Of_Clemency",
+                "lang": "en",
+                "title": "Seneka, O łaskawości"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/De_clementia#LIBER_II"
+          }
+        },
+        {
+          "by": {
+            "en": "The same, in his own voice",
+            "ru": "Там же, от себя",
+            "uk": "Там само, від себе",
+            "pl": "Tamże, od siebie"
+          },
+          "quotes": {
+            "en": {
+              "edition": "clemency-forgiveness.en.stewart",
+              "from": "2.7",
+              "to": "2.7",
+              "text": "In my opinion, this is a mere dispute about words, and we are agreed about the thing itself. The wise man will remit many penalties, and will save many who are wicked, but whose wickedness is not incurable.",
+              "kind": "Free",
+              "translator": "Aubrey Stewart",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Of_Clemency",
+                "lang": "en",
+                "title": "Seneca, On Mercy"
+              }
+            },
+            "ru": {
+              "edition": "clemency-forgiveness.ru.ours",
+              "from": "2.7",
+              "to": "2.7",
+              "text": "По-моему, это лишь спор о словах, а о самом деле мы согласны. Мудрец отменит многие наказания и спасёт многих порочных, но таких, чья порочность не неизлечима.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Of_Clemency",
+                "lang": "en",
+                "title": "Сенека, «О милосердии»"
+              }
+            },
+            "uk": {
+              "edition": "clemency-forgiveness.uk.ours",
+              "from": "2.7",
+              "to": "2.7",
+              "text": "На мою думку, це лише суперечка про слова, а щодо самої справи ми згодні. Мудрець скасує багато кар і врятує багатьох порочних, але таких, чия порочність не невиліковна.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Of_Clemency",
+                "lang": "en",
+                "title": "Сенека, «Про милосердя»"
+              }
+            },
+            "pl": {
+              "edition": "clemency-forgiveness.pl.ours",
+              "from": "2.7",
+              "to": "2.7",
+              "text": "Moim zdaniem to tylko spór o słowa, co do samej rzeczy zaś jesteśmy zgodni. Mędrzec daruje wiele kar i ocali wielu złych, lecz takich, których zło nie jest nieuleczalne.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Of_Clemency",
+                "lang": "en",
+                "title": "Seneka, O łaskawości"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/De_clementia#LIBER_II"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The book itself shows when it was written: Augustus, Seneca reminds Nero, was already shedding blood “at the age you are now, just past eighteen”. Three years later, in AD 59, Nero had his mother Agrippina killed; in AD 65, after the conspiracy of Piso, he ordered Seneca to take his own life.",
+            "ru": "Сама книга показывает, когда она написана: Август, напоминает Сенека Нерону, уже проливал кровь «в том возрасте, в каком ты сейчас, едва перешагнув восемнадцать лет». Через три года, в 59 году, Нерон приказал убить свою мать Агриппину; в 65 году, после заговора Пизона, он велел Сенеке покончить с собой.",
+            "uk": "Сама книга показує, коли її написано: Август, нагадує Сенека Неронові, уже проливав кров «у тому віці, в якому ти тепер, щойно переступивши вісімнадцять років». Через три роки, у 59 році, Нерон наказав убити свою матір Агриппіну; у 65 році, після змови Пізона, він звелів Сенеці накласти на себе руки.",
+            "pl": "Sama księga pokazuje, kiedy powstała: August, przypomina Seneka Neronowi, przelewał już krew „w wieku, w którym ty jesteś teraz, ledwie po osiemnastym roku”. Trzy lata później, w 59 roku, Neron kazał zabić swoją matkę Agrypinę; w 65 roku, po spisku Pizona, rozkazał Senece odebrać sobie życie."
+          },
+          "source": "Seneca, On Mercy I.9.1; Tacitus, Annals XIV.8 and XV.60–64"
+        },
+        {
+          "fact": {
+            "en": "In the same book Seneca tells how Augustus, learning that the young Cinna, Pompey's grandson, meant to kill him, spent a sleepless night until his wife Livia advised him to try mercy. He called Cinna in, reproached him for more than two hours — and pardoned him, and later gave him the consulship. Cinna made him his sole heir, and no one plotted against Augustus again. Corneille made a tragedy of the story: Cinna, or the Clemency of Augustus (1641).",
+            "ru": "В той же книге Сенека рассказывает, как Август, узнав, что юный Цинна, внук Помпея, задумал его убить, провёл бессонную ночь, пока жена его Ливия не посоветовала ему попробовать милосердие. Он призвал Цинну, больше двух часов упрекал его — и простил, а потом дал ему консульство. Цинна сделал его своим единственным наследником, и никто больше не злоумышлял против Августа. Корнель сделал из этой истории трагедию — «Цинна, или Милосердие Августа» (1641).",
+            "uk": "У тій самій книзі Сенека розповідає, як Август, дізнавшись, що юний Цинна, онук Помпея, задумав його вбити, провів безсонну ніч, аж поки дружина Лівія не порадила йому спробувати милосердя. Він покликав Цинну, понад дві години дорікав йому — і простив, а згодом дав йому консульство. Цинна зробив його своїм єдиним спадкоємцем, і ніхто більше не замишляв проти Августа. Корнель зробив із цієї історії трагедію — «Цинна, або Милосердя Августа» (1641).",
+            "pl": "W tej samej księdze Seneka opowiada, jak August, dowiedziawszy się, że młody Cynna, wnuk Pompejusza, zamierza go zabić, spędził bezsenną noc, aż żona Liwia poradziła mu spróbować łaskawości. Wezwał Cynnę, ponad dwie godziny robił mu wyrzuty — i przebaczył mu, a potem dał mu konsulat. Cynna uczynił go swoim jedynym spadkobiercą i nikt więcej nie spiskował przeciw Augustowi. Corneille zrobił z tej historii tragedię: Cynna, czyli łaskawość Augusta (1641)."
+          },
+          "source": "Seneca, On Mercy I.9; Pierre Corneille, Cinna, ou la Clémence d'Auguste (1641)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "The Gospel: seventy times seven",
+        "ru": "Евангелие: до седмижды семидесяти",
+        "uk": "Євангеліє: до сімдесяти разів по сім",
+        "pl": "Ewangelia: siedemdziesiąt razy po siedem"
+      },
+      "intro": {
+        "en": "Galilee, about the year 30, as the Gospel of Matthew tells it, written down some decades later. Jesus has been teaching his disciples what to do when a brother sins against them: go and tell him his fault between the two of you alone; if he will not hear, take one or two more with you; then tell it to the whole assembly. Peter wants a number. Jesus answers him — and then tells a parable: a king forgives a servant a debt of ten thousand talents that he could never pay; the same servant goes out, seizes a fellow servant who owes him a hundred pence, and has him thrown into prison until he pays. The king hears of it:",
+        "ru": "Галилея, около 30 года, как рассказывает Евангелие от Матфея, записанное несколько десятилетий спустя. Иисус учит учеников, что делать, когда брат согрешит против них: пойди и обличи его наедине; если не послушает, возьми с собой ещё одного или двух; потом скажи всему собранию. Пётр хочет знать число. Иисус отвечает ему — и рассказывает притчу: царь прощает рабу долг в десять тысяч талантов, который тот никогда не смог бы выплатить; этот же раб выходит, хватает товарища, который должен ему сто динариев, и сажает его в тюрьму, пока тот не отдаст долг. Царь узнаёт об этом:",
+        "uk": "Галілея, близько 30 року, як розповідає Євангеліє від Матвія, записане кілька десятиліть по тому. Ісус навчає учнів, що робити, коли брат згрішить проти них: піди й докори йому наодинці; якщо не послухає, візьми з собою ще одного чи двох; потім скажи всьому зібранню. Петро хоче знати число. Ісус відповідає йому — і розповідає притчу: цар прощає рабові борг у десять тисяч талантів, якого той ніколи не зміг би сплатити; цей самий раб виходить, хапає товариша, що винен йому сто динаріїв, і кидає його до в'язниці, доки той не віддасть боргу. Цар дізнається про це:",
+        "pl": "Galilea, około roku 30, jak opowiada Ewangelia według św. Mateusza, spisana kilkadziesiąt lat później. Jezus uczy uczniów, co robić, gdy brat zgrzeszy przeciw nim: idź i upomnij go w cztery oczy; jeśli nie posłucha, weź ze sobą jeszcze jednego lub dwóch; potem powiedz całemu zgromadzeniu. Piotr chce znać liczbę. Jezus mu odpowiada — i opowiada przypowieść: król daruje słudze dług dziesięciu tysięcy talentów, którego ten nigdy nie zdołałby spłacić; ten sam sługa wychodzi, chwyta współsługę, który jest mu winien sto denarów, i wtrąca go do więzienia, dopóki nie odda długu. Król dowiaduje się o tym:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "The Gospel of Matthew 18:21–22",
+            "ru": "Евангелие от Матфея 18:21–22",
+            "uk": "Євангеліє від Матвія 18:21–22",
+            "pl": "Ewangelia według św. Mateusza 18,21–22"
+          },
+          "quotes": {
+            "en": {
+              "edition": "matthew-forgiveness.en.kjv",
+              "from": "18.21",
+              "to": "18.22",
+              "text": "Then came Peter to him, and said, Lord, how oft shall my brother sin against me, and I forgive him? till seven times? Jesus saith unto him, I say not unto thee, Until seven times: but, Until seventy times seven.",
+              "kind": "Free",
+              "translator": "King James Version",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "The Gospel of Matthew"
+              }
+            },
+            "ru": {
+              "edition": "matthew-forgiveness.ru.ours",
+              "from": "18.21",
+              "to": "18.22",
+              "text": "Тогда пришёл к Нему Пётр и сказал: Господи! сколько раз мой брат будет согрешать против меня, а я прощать ему? до семи ли раз? Иисус говорит ему: не говорю тебе: до семи раз, но: до седмижды семидесяти.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "Евангелие от Матфея"
+              }
+            },
+            "uk": {
+              "edition": "matthew-forgiveness.uk.ours",
+              "from": "18.21",
+              "to": "18.22",
+              "text": "Тоді підійшов до Нього Петро й сказав: Господи, скільки разів мій брат грішитиме проти мене, а я прощатиму йому? Аж до семи разів? Ісус каже йому: Не кажу тобі: до семи разів, але: до сімдесяти разів по сім.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "Євангеліє від Матвія"
+              }
+            },
+            "pl": {
+              "edition": "matthew-forgiveness.pl.ours",
+              "from": "18.21",
+              "to": "18.22",
+              "text": "Wtedy przyszedł do Niego Piotr i rzekł: Panie, ile razy mój brat będzie grzeszył przeciwko mnie, a ja mam mu przebaczać? Aż do siedmiu razy? Jezus mówi mu: Nie mówię ci: aż do siedmiu razy, lecz: aż do siedemdziesięciu razy po siedem.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "Ewangelia według św. Mateusza"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://el.wikisource.org/wiki/%CE%9A%CE%B1%CF%84%CE%AC_%CE%9C%CE%B1%CF%84%CE%B8%CE%B1%CE%AF%CE%BF%CE%BD#18:21"
+          }
+        },
+        {
+          "by": {
+            "en": "The same, 18:32–35",
+            "ru": "Там же, 18:32–35",
+            "uk": "Там само, 18:32–35",
+            "pl": "Tamże, 18,32–35"
+          },
+          "quotes": {
+            "en": {
+              "edition": "matthew-forgiveness.en.kjv",
+              "from": "18.32",
+              "to": "18.35",
+              "text": "Then his lord, after that he had called him, said unto him, O thou wicked servant, I forgave thee all that debt, because thou desiredst me: Shouldest not thou also have had compassion on thy fellowservant, even as I had pity on thee? And his lord was wroth, and delivered him to the tormentors, till he should pay all that was due unto him. So likewise shall my heavenly Father do also unto you, if ye from your hearts forgive not every one his brother their trespasses.",
+              "kind": "Free",
+              "translator": "King James Version",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "The Gospel of Matthew"
+              }
+            },
+            "ru": {
+              "edition": "matthew-forgiveness.ru.ours",
+              "from": "18.32",
+              "to": "18.35",
+              "text": "Тогда господин его, призвав его, сказал ему: злой раб! весь тот долг я простил тебе, потому что ты упросил меня; не следовало ли и тебе сжалиться над товарищем твоим, как и я сжалился над тобою? И господин его разгневался и отдал его истязателям, пока он не заплатит всего, что был ему должен. Так и Отец Мой Небесный поступит с вами, если каждый из вас не простит от сердца своего брату своему его прегрешений.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "Евангелие от Матфея"
+              }
+            },
+            "uk": {
+              "edition": "matthew-forgiveness.uk.ours",
+              "from": "18.32",
+              "to": "18.35",
+              "text": "Тоді пан його покликав його й сказав йому: Рабе лукавий! Увесь той борг я простив тобі, бо ти благав мене. Чи не належало й тобі змилуватися над твоїм товаришем, як і я змилувався над тобою? І пан його розгнівався й віддав його катам, доки той не сплатить усього, що був йому винен. Так само й Отець Мій Небесний учинить вам, якщо кожен із вас не простить від серця своєму братові його провин.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "Євангеліє від Матвія"
+              }
+            },
+            "pl": {
+              "edition": "matthew-forgiveness.pl.ours",
+              "from": "18.32",
+              "to": "18.35",
+              "text": "Wtedy pan jego, przywoławszy go, rzekł do niego: Sługo niegodziwy! Cały ten dług darowałem ci, ponieważ mnie prosiłeś. Czyż i ty nie powinieneś był zlitować się nad swoim współsługą, jak i ja zlitowałem się nad tobą? I pan jego rozgniewał się, i wydał go oprawcom, dopóki nie spłaci wszystkiego, co był mu winien. Tak samo i mój Ojciec niebieski uczyni wam, jeśli każdy z was nie przebaczy z serca swemu bratu jego przewinień.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "Ewangelia według św. Mateusza"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://el.wikisource.org/wiki/%CE%9A%CE%B1%CF%84%CE%AC_%CE%9C%CE%B1%CF%84%CE%B8%CE%B1%CE%AF%CE%BF%CE%BD#18:32"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The sums are meant to be beyond measure. The margin of the King James Bible itself reckons them: a talent is 750 ounces of silver, the Roman penny an eighth of an ounce — six thousand pence to the talent. Ten thousand talents are sixty million pence, against the fellow servant's hundred; and in the same Gospel a labourer is hired for a penny a day.",
+            "ru": "Суммы задуманы как безмерные. Поля Библии короля Якова сами их пересчитывают: талант — 750 унций серебра, римский динарий — восьмая часть унции, то есть шесть тысяч динариев в таланте. Десять тысяч талантов — шестьдесят миллионов динариев против ста, которые должен товарищ; а в том же Евангелии работника нанимают за динарий в день.",
+            "uk": "Суми задумано як безмірні. Береги Біблії короля Якова самі їх перелічують: талант — 750 унцій срібла, римський динарій — восьма частина унції, тобто шість тисяч динаріїв у таланті. Десять тисяч талантів — шістдесят мільйонів динаріїв проти ста, що їх винен товариш; а в тому самому Євангелії робітника наймають за динарій на день.",
+            "pl": "Sumy mają być niewyobrażalne. Margines Biblii króla Jakuba sam je przelicza: talent to 750 uncji srebra, rzymski denar — ósma część uncji, czyli sześć tysięcy denarów na talent. Dziesięć tysięcy talentów to sześćdziesiąt milionów denarów wobec stu, które winien jest współsługa; a w tej samej Ewangelii robotnika najmuje się za denara dziennie."
+          },
+          "source": "Matthew 18:24 and 18:28, with the King James Version's marginal notes (1611); Matthew 20:2"
+        },
+        {
+          "fact": {
+            "en": "The same condition stands in the prayer Jesus teaches in this Gospel: “forgive us our debts, as we forgive our debtors” — and right after it: “if ye forgive not men their trespasses, neither will your Father forgive your trespasses.”",
+            "ru": "То же условие стоит в молитве, которой Иисус учит в этом Евангелии: «прости нам долги наши, как и мы прощаем должникам нашим», — и сразу после неё: «если не будете прощать людям согрешения их, то и Отец ваш не простит вам согрешений ваших».",
+            "uk": "Та сама умова стоїть у молитві, якої Ісус навчає в цьому Євангелії: «прости нам довги наші, як і ми прощаємо боржникам нашим», — і відразу після неї: «якщо ж не будете прощати людям їхніх провин, то й Отець ваш не простить вам ваших провин».",
+            "pl": "Ten sam warunek stoi w modlitwie, której Jezus uczy w tej Ewangelii: „odpuść nam nasze długi, jak i my odpuszczamy naszym dłużnikom” — i zaraz po niej: „jeśli nie przebaczycie ludziom ich przewinień, i Ojciec wasz nie przebaczy wam waszych przewinień”."
+          },
+          "source": "Matthew 6:12 and 6:14–15"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Joseph Butler: resentment without revenge",
+        "ru": "Джозеф Батлер: негодование без мести",
+        "uk": "Джозеф Батлер: обурення без помсти",
+        "pl": "Joseph Butler: uraza bez zemsty"
+      },
+      "intro": {
+        "en": "London, the 1720s. Joseph Butler, a young Anglican priest, preaches at the Rolls Chapel in Chancery Lane, among the courts of law. Two of his sermons take the same text from the Sermon on the Mount — “Love your enemies” — and the first asks a question a preacher might rather avoid: if goodwill is the great law, why did God put resentment in us at all? Not, Butler answers, to be torn out, but to be used for what it is for:",
+        "ru": "Лондон, 1720-е годы. Джозеф Батлер, молодой англиканский священник, проповедует в часовне Роллс на Чансери-лейн, среди судов. Две его проповеди написаны на один и тот же текст из Нагорной проповеди — «Любите врагов ваших», — и первая задаёт вопрос, которого проповедник мог бы и избегать: если доброжелательность — великий закон, зачем Бог вообще вложил в нас негодование? Не для того, отвечает Батлер, чтобы его вырвать, а чтобы употреблять для того, для чего оно дано:",
+        "uk": "Лондон, 1720-ті роки. Джозеф Батлер, молодий англіканський священник, проповідує в каплиці Роллс на Ченсері-лейн, серед судів. Дві його проповіді написано на той самий текст із Нагірної проповіді — «Любіть ворогів ваших», — і перша ставить питання, якого проповідник міг би й уникати: якщо доброзичливість — великий закон, навіщо Бог узагалі вклав у нас обурення? Не для того, відповідає Батлер, щоб його вирвати, а щоб уживати для того, для чого воно дане:",
+        "pl": "Londyn, lata 20. XVIII wieku. Joseph Butler, młody duchowny anglikański, głosi kazania w kaplicy Rolls przy Chancery Lane, pośród sądów. Dwa jego kazania mają ten sam tekst z Kazania na górze — „Miłujcie waszych nieprzyjaciół” — a pierwsze stawia pytanie, którego kaznodzieja wolałby unikać: jeśli życzliwość jest wielkim prawem, po co Bóg w ogóle dał nam urazę? Nie po to, odpowiada Butler, by ją wyrwać, lecz by jej używać do tego, do czego jest:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Joseph Butler, Sermon VIII, Upon Resentment (1726)",
+            "ru": "Джозеф Батлер, проповедь VIII, «О негодовании» (1726)",
+            "uk": "Джозеф Батлер, проповідь VIII, «Про обурення» (1726)",
+            "pl": "Joseph Butler, kazanie VIII, O urazie (1726)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "sermons-forgiveness.en",
+              "from": "8.8",
+              "to": "8.8",
+              "text": "The natural object or occasion of settled resentment, then, being injury, as distinct from pain or loss, it is easy to see, that to prevent and to remedy such injury, and the miseries arising from it, is the end for which this passion was implanted in man. It is to be considered as a weapon put into our hands by nature, against injury, injustice, and cruelty.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Whole_Works_of_Joseph_Butler",
+                "lang": "en",
+                "title": "Joseph Butler, Fifteen Sermons Preached at the Rolls Chapel"
+              }
+            },
+            "ru": {
+              "edition": "sermons-forgiveness.ru.ours",
+              "from": "8.8",
+              "to": "8.8",
+              "text": "Итак, поскольку естественный предмет, или повод, устойчивого негодования — обида, в отличие от боли или потери, легко увидеть, что предотвращать и исправлять такую обиду и происходящие от неё бедствия — вот цель, ради которой эта страсть вложена в человека. Его следует рассматривать как оружие, вложенное природой в наши руки против обиды, несправедливости и жестокости.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Whole_Works_of_Joseph_Butler",
+                "lang": "en",
+                "title": "Джозеф Батлер, «Пятнадцать проповедей, произнесённых в часовне Роллс»"
+              }
+            },
+            "uk": {
+              "edition": "sermons-forgiveness.uk.ours",
+              "from": "8.8",
+              "to": "8.8",
+              "text": "Отже, оскільки природний предмет, або привід, сталого обурення — кривда, на відміну від болю чи втрати, легко побачити, що запобігати такій кривді й виправляти її та нещастя, що з неї постають, — ось мета, задля якої цю пристрасть вкладено в людину. Його слід розглядати як зброю, яку природа вклала нам у руки проти кривди, несправедливості й жорстокості.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Whole_Works_of_Joseph_Butler",
+                "lang": "en",
+                "title": "Джозеф Батлер, «П'ятнадцять проповідей, виголошених у каплиці Роллс»"
+              }
+            },
+            "pl": {
+              "edition": "sermons-forgiveness.pl.ours",
+              "from": "8.8",
+              "to": "8.8",
+              "text": "Skoro więc naturalnym przedmiotem, czyli powodem, utrwalonej urazy jest krzywda — w odróżnieniu od bólu czy straty — łatwo zobaczyć, że zapobieganie takiej krzywdzie i naprawianie jej oraz nieszczęść, które z niej wynikają, jest celem, dla którego ta namiętność została w człowieku zaszczepiona. Należy ją uważać za broń, którą natura włożyła nam do rąk przeciw krzywdzie, niesprawiedliwości i okrucieństwu.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Whole_Works_of_Joseph_Butler",
+                "lang": "en",
+                "title": "Joseph Butler, Piętnaście kazań wygłoszonych w kaplicy Rolls"
+              }
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "Joseph Butler, Sermon IX, Upon Forgiveness of Injuries (1726)",
+            "ru": "Джозеф Батлер, проповедь IX, «О прощении обид» (1726)",
+            "uk": "Джозеф Батлер, проповідь IX, «Про прощення кривд» (1726)",
+            "pl": "Joseph Butler, kazanie IX, O przebaczaniu krzywd (1726)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "sermons-forgiveness.en",
+              "from": "9.13",
+              "to": "9.13",
+              "text": "Resentment is not inconsistent with good-will: for we often see both together in very high degrees, not only in parents towards their children, but in cases of friendship and dependence, where there is no natural relation. These contrary passions, though they may lessen, do not necessarily destroy each other. We may therefore love our enemy, and yet have resentment against him for his injurious behaviour towards us. But when this resentment entirely destroys our natural benevolence towards him, it is excessive, and becomes malice or revenge. The command to prevent its having this effect, i.e., to forgive injuries, is the same as to love our enemies; because that love is always supposed, unless destroyed by resentment.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Whole_Works_of_Joseph_Butler",
+                "lang": "en",
+                "title": "Joseph Butler, Fifteen Sermons Preached at the Rolls Chapel"
+              }
+            },
+            "ru": {
+              "edition": "sermons-forgiveness.ru.ours",
+              "from": "9.13",
+              "to": "9.13",
+              "text": "Негодование не несовместимо с доброжелательностью: мы часто видим их вместе, и в очень высокой степени, — не только у родителей по отношению к детям, но и в дружбе и в зависимости, где нет природного родства. Эти противоположные страсти, хотя и могут ослаблять друг друга, не обязательно друг друга уничтожают. Поэтому мы можем любить врага и всё же испытывать негодование против него за его несправедливое поведение по отношению к нам. Но когда это негодование совершенно уничтожает наше природное благорасположение к нему, оно чрезмерно и становится злобой или мщением. Заповедь не дать ему произвести это действие, то есть прощать обиды, — то же самое, что заповедь любить врагов; ибо эта любовь всегда предполагается, если её не уничтожило негодование.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Whole_Works_of_Joseph_Butler",
+                "lang": "en",
+                "title": "Джозеф Батлер, «Пятнадцать проповедей, произнесённых в часовне Роллс»"
+              }
+            },
+            "uk": {
+              "edition": "sermons-forgiveness.uk.ours",
+              "from": "9.13",
+              "to": "9.13",
+              "text": "Обурення не є несумісним із доброзичливістю: ми часто бачимо їх разом, і то в дуже високій мірі, — не лише в батьків щодо дітей, а й у дружбі та в залежності, де немає природної спорідненості. Ці протилежні пристрасті, хоч і можуть послаблювати одна одну, не обов'язково одна одну знищують. Тож ми можемо любити свого ворога й усе ж мати обурення проти нього за його несправедливу поведінку щодо нас. Але коли це обурення цілком знищує нашу природну прихильність до нього, воно надмірне й стає злобою або помстою. Заповідь не дати йому цього вчинити, тобто прощати кривди, — те саме, що заповідь любити ворогів; бо ця любов завжди передбачається, якщо її не знищило обурення.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Whole_Works_of_Joseph_Butler",
+                "lang": "en",
+                "title": "Джозеф Батлер, «П'ятнадцять проповідей, виголошених у каплиці Роллс»"
+              }
+            },
+            "pl": {
+              "edition": "sermons-forgiveness.pl.ours",
+              "from": "9.13",
+              "to": "9.13",
+              "text": "Uraza nie jest sprzeczna z życzliwością: często widzimy je obie razem, i to w bardzo wysokim stopniu, nie tylko u rodziców wobec dzieci, lecz także w przyjaźni i w zależności, gdzie nie ma naturalnego pokrewieństwa. Te przeciwne namiętności, choć mogą się nawzajem osłabiać, niekoniecznie się niszczą. Możemy więc kochać naszego wroga, a mimo to żywić do niego urazę za jego krzywdzące nas postępowanie. Lecz gdy ta uraza całkowicie niszczy naszą naturalną życzliwość wobec niego, jest nadmierna i staje się złą wolą lub zemstą. Przykazanie, by nie dopuścić do takiego jej skutku, czyli by przebaczać krzywdy, jest tym samym co przykazanie miłości nieprzyjaciół; ta miłość jest bowiem zawsze zakładana, chyba że zniszczyła ją uraza.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Whole_Works_of_Joseph_Butler",
+                "lang": "en",
+                "title": "Joseph Butler, Piętnaście kazań wygłoszonych w kaplicy Rolls"
+              }
+            }
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Butler was preacher at the Rolls Chapel from 1719 to 1726; when he left, he chose fifteen of the sermons he had preached there and published them as Fifteen Sermons Preached at the Rolls Chapel (1726). He later became bishop of Bristol, and in 1750 bishop of Durham.",
+            "ru": "Батлер был проповедником часовни Роллс с 1719 по 1726 год; уходя, он отобрал пятнадцать проповедей, произнесённых там, и издал их под названием «Пятнадцать проповедей, произнесённых в часовне Роллс» (1726). Позднее он стал епископом Бристольским, а в 1750 году — епископом Даремским.",
+            "uk": "Батлер був проповідником каплиці Роллс з 1719 по 1726 рік; ідучи, він відібрав п'ятнадцять проповідей, виголошених там, і видав їх під назвою «П'ятнадцять проповідей, виголошених у каплиці Роллс» (1726). Пізніше він став єпископом Бристольським, а 1750 року — єпископом Даремським.",
+            "pl": "Butler był kaznodzieją w kaplicy Rolls od 1719 do 1726 roku; odchodząc, wybrał piętnaście wygłoszonych tam kazań i wydał je jako Piętnaście kazań wygłoszonych w kaplicy Rolls (1726). Później został biskupem Bristolu, a w 1750 roku biskupem Durham."
+          },
+          "source": "Dictionary of National Biography, vol. 8 (1886), “Butler, Joseph”"
+        },
+        {
+          "fact": {
+            "en": "Butler ends the sermon on forgiveness with the parable read above — “the king who took account of his servants” — and, just before it, with the words of Jesus on the cross, “Father, forgive them; for they know not what they do”, which he calls an example of forgiveness “in its utmost perfection”.",
+            "ru": "Батлер заканчивает проповедь о прощении притчей, прочитанной выше, — о «царе, который захотел сосчитаться с рабами своими», — а незадолго до неё приводит слова Иисуса на кресте: «Отче, прости им, ибо не знают, что делают», — пример прощения, говорит он, «в высшем его совершенстве».",
+            "uk": "Батлер закінчує проповідь про прощення притчею, прочитаною вище, — про «царя, що захотів порахуватися зі своїми рабами», — а незадовго перед нею наводить слова Ісуса на хресті: «Отче, прости їм, бо не знають, що чинять», — приклад прощення, каже він, «у найвищій його досконалості».",
+            "pl": "Butler kończy kazanie o przebaczeniu przypowieścią czytaną wyżej — o „królu, który chciał się rozliczyć ze swoimi sługami” — a tuż przed nią przytacza słowa Jezusa na krzyżu: „Ojcze, przebacz im, bo nie wiedzą, co czynią” — przykład przebaczenia, mówi, „w jego najwyższej doskonałości”."
+          },
+          "source": "Joseph Butler, Sermon IX, Upon Forgiveness of Injuries (1726), its last two paragraphs; Luke 23:34"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Canossa, January 1077",
+        "ru": "Каносса, январь 1077 года",
+        "uk": "Каносса, січень 1077 року",
+        "pl": "Canossa, styczeń 1077"
+      },
+      "scene": {
+        "en": "You are Pope Gregory VII. A year ago, at Worms, King Henry IV of Germany had his bishops declare you deposed, and wrote to you as “Hildebrand, at present not pope but false monk”; at your Lenten synod in Rome you answered by excommunicating him and releasing his subjects from their oaths. The German princes have since given him a year from the ban to be absolved, or lose his crown, and they have invited you to Augsburg to judge him there. You were on your way north when you heard that he had crossed the Alps in midwinter, and you took refuge in Canossa, the mountain castle of your faithful Countess Matilda. He has not come with an army. For three days he has stood at the gate, barefoot, in a penitent's wool, weeping and asking for absolution; Matilda, his godfather Abbot Hugh of Cluny and his mother-in-law Adelaide of Turin plead for him. What do you do?",
+        "ru": "Вы — папа Григорий VII. Год назад в Вормсе король Германии Генрих IV заставил своих епископов объявить вас низложенным и написал вам как «Гильдебранду, ныне не папе, а лжемонаху»; на своём великопостном соборе в Риме вы ответили, отлучив его от Церкви и освободив его подданных от присяги. С тех пор германские князья дали ему год со дня отлучения, чтобы получить прощение, — иначе он лишится короны, — и пригласили вас в Аугсбург судить его там. Вы были на пути на север, когда узнали, что он посреди зимы перешёл Альпы, и укрылись в Каноссе, горном замке верной вам графини Матильды. Он пришёл не с войском. Три дня он стоит у ворот босой, в шерстяной одежде кающегося, плачет и просит отпущения; за него просят Матильда, его крёстный аббат Гуго Клюнийский и его тёща Аделаида Туринская. Что вы сделаете?",
+        "uk": "Ви — папа Григорій VII. Рік тому у Вормсі король Німеччини Генріх IV змусив своїх єпископів оголосити вас скинутим і написав вам як «Гільдебрандові, нині не папі, а лжемонахові»; на своєму великопісному соборі в Римі ви відповіли, відлучивши його від Церкви й звільнивши його підданих від присяги. Відтоді німецькі князі дали йому рік від дня відлучення, щоб здобути прощення, — інакше він утратить корону, — і запросили вас до Аугсбурга судити його там. Ви були в дорозі на північ, коли довідалися, що він посеред зими перейшов Альпи, і сховалися в Каноссі, гірському замку вірної вам графині Матильди. Він прийшов не з військом. Три дні він стоїть біля брами босий, у вовняній одежі каяника, плаче й просить розрішення; за нього благають Матильда, його хрещений батько абат Гуго Клюнійський і його теща Аделаїда Туринська. Що ви зробите?",
+        "pl": "Jesteś papieżem Grzegorzem VII. Rok temu w Wormacji król Niemiec Henryk IV kazał swoim biskupom ogłosić cię złożonym z urzędu i napisał do ciebie jako do „Hildebranda, obecnie nie papieża, lecz fałszywego mnicha”; na swoim wielkopostnym synodzie w Rzymie odpowiedziałeś, ekskomunikując go i zwalniając jego poddanych z przysięgi. Od tego czasu książęta niemieccy dali mu rok od klątwy na uzyskanie rozgrzeszenia — inaczej straci koronę — i zaprosili cię do Augsburga, byś go tam osądził. Byłeś w drodze na północ, gdy dowiedziałeś się, że w środku zimy przekroczył Alpy, i schroniłeś się w Canossie, górskim zamku wiernej ci hrabiny Matyldy. Nie przyszedł z wojskiem. Od trzech dni stoi u bramy boso, w wełnianym stroju pokutnika, płacze i prosi o rozgrzeszenie; wstawiają się za nim Matylda, jego ojciec chrzestny opat Hugo z Cluny i jego teściowa Adelajda z Turynu. Co zrobisz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Open the gate and absolve him: a priest may not turn away a penitent who asks",
+            "ru": "Открыть ворота и дать ему отпущение: священник не вправе прогнать кающегося, который просит",
+            "uk": "Відчинити браму й дати йому розрішення: священник не має права прогнати каяника, який просить",
+            "pl": "Otworzyć bramę i dać mu rozgrzeszenie: kapłan nie może odprawić pokutnika, który prosi"
+          },
+          "reply": {
+            "en": "That is what Gregory did on the fourth day — “conquered”, he wrote, by the king's compunction and by the pleas of everyone at the castle.",
+            "ru": "Так Григорий и поступил на четвёртый день — «побеждённый», как он написал, сокрушением короля и мольбами всех, кто был в замке.",
+            "uk": "Так Григорій і вчинив на четвертий день — «переможений», як він написав, каяттям короля і благаннями всіх, хто був у замку.",
+            "pl": "Tak właśnie Grzegorz postąpił czwartego dnia — „zwyciężony”, jak napisał, skruchą króla i błaganiami wszystkich obecnych w zamku."
+          }
+        },
+        {
+          "choice": {
+            "en": "Keep the gate shut: the princes are to judge him at Augsburg, and absolution now would let him slip out of their judgment",
+            "ru": "Держать ворота закрытыми: судить его должны князья в Аугсбурге, а отпущение сейчас позволит ему ускользнуть от их суда",
+            "uk": "Тримати браму зачиненою: судити його мають князі в Аугсбурзі, а розрішення тепер дозволить йому вислизнути з-під їхнього суду",
+            "pl": "Trzymać bramę zamkniętą: mają go sądzić książęta w Augsburgu, a rozgrzeszenie teraz pozwoli mu wymknąć się ich sądowi"
+          },
+          "reply": {
+            "en": "That was the princes' plan, and Gregory had agreed to it; for three days he kept the gate shut, until some of those around him cried out that he was showing not apostolic severity but a tyrant's cruelty.",
+            "ru": "Таков был замысел князей, и Григорий с ним согласился; три дня он держал ворота закрытыми, пока некоторые из окружавших его не закричали, что он проявляет не апостольскую строгость, а жестокость тирана.",
+            "uk": "Такий був задум князів, і Григорій на нього пристав; три дні він тримав браму зачиненою, аж поки дехто з оточення не закричав, що він виявляє не апостольську суворість, а жорстокість тирана.",
+            "pl": "Taki był zamysł książąt i Grzegorz się na niego zgodził; przez trzy dni trzymał bramę zamkniętą, aż niektórzy z otoczenia zaczęli wołać, że okazuje nie apostolską surowość, lecz okrucieństwo tyrana."
+          }
+        },
+        {
+          "choice": {
+            "en": "Absolve him, but bind him first by oath: forgiveness for the sin, justice still for the deeds",
+            "ru": "Дать отпущение, но сначала связать его клятвой: прощение — за грех, а за дела — всё же суд",
+            "uk": "Дати розрішення, але спершу зв'язати його присягою: прощення — за гріх, а за вчинки — все ж суд",
+            "pl": "Dać rozgrzeszenie, ale najpierw związać go przysięgą: przebaczenie za grzech, a za czyny — mimo to sąd"
+          },
+          "reply": {
+            "en": "Gregory did ask for an oath: Henry swore to do justice or make peace with the princes as the pope would judge or counsel, and to let the pope travel safely beyond the Alps, or anywhere else.",
+            "ru": "Григорий действительно потребовал клятвы: Генрих поклялся либо дать удовлетворение, либо заключить мир с князьями — по суду или совету папы — и обеспечить папе безопасный путь за Альпы или куда бы то ни было.",
+            "uk": "Григорій справді зажадав присяги: Генріх присягнув або дати задоволення, або укласти мир із князями — за судом чи порадою папи — і забезпечити папі безпечну дорогу за Альпи чи будь-куди.",
+            "pl": "Grzegorz rzeczywiście zażądał przysięgi: Henryk przysiągł albo dać zadośćuczynienie, albo zawrzeć pokój z książętami — według sądu lub rady papieża — i zapewnić papieżowi bezpieczną drogę za Alpy czy dokądkolwiek."
+          }
+        },
+        {
+          "choice": {
+            "en": "Refuse him: this is not repentance but policy — he only wants to keep his crown before the year runs out",
+            "ru": "Отказать: это не покаяние, а расчёт — он лишь хочет сохранить корону, пока не истёк год",
+            "uk": "Відмовити: це не каяття, а розрахунок — він лише хоче зберегти корону, доки не минув рік",
+            "pl": "Odmówić: to nie skrucha, lecz polityka — chce tylko zachować koronę, zanim minie rok"
+          },
+          "reply": {
+            "en": "Many of the German princes believed just that; but a pope who turned a barefoot penitent from his door would have looked, as some at Canossa were already crying, like a tyrant rather than a priest.",
+            "ru": "Многие германские князья так и думали; но папа, прогнавший босого кающегося от своих ворот, выглядел бы, как уже кричали некоторые в Каноссе, скорее тираном, чем священником.",
+            "uk": "Багато німецьких князів саме так і думали; але папа, що прогнав босого каяника від своєї брами, виглядав би, як уже кричав дехто в Каноссі, радше тираном, ніж священником.",
+            "pl": "Wielu książąt niemieckich właśnie tak sądziło; ale papież, który odprawiłby bosego pokutnika sprzed swojej bramy, wyglądałby, jak już wołali niektórzy w Canossie, raczej na tyrana niż na kapłana."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "On 28 January 1077 Gregory lifted the excommunication, received Henry back into the communion of the Church, and took his oath. It did not bring peace. In March the princes who opposed Henry, meeting at Forchheim, elected another king, Rudolf of Swabia, and Germany fell into civil war. In 1080 Gregory excommunicated Henry again and recognised Rudolf; Henry's bishops answered at Brixen by electing a pope of their own, Wibert of Ravenna, and that autumn Rudolf died of his wounds after a battle on the Elster. In 1084 Henry took Rome and was crowned emperor by his own pope. Gregory, rescued by the Normans of Robert Guiscard, who sacked the city, died in exile at Salerno on 25 May 1085. Henry died in 1106, still excommunicated, with his own son in arms against him.",
+        "ru": "28 января 1077 года Григорий снял отлучение, вновь принял Генриха в общение Церкви и принял его клятву. Мира это не принесло. В марте враждебные Генриху князья, собравшись в Форххайме, избрали другого короля, Рудольфа Швабского, и Германия погрузилась в гражданскую войну. В 1080 году Григорий снова отлучил Генриха и признал Рудольфа; епископы Генриха ответили в Бриксене, избрав своего папу, Виберта Равеннского, а осенью того же года Рудольф умер от ран после битвы на Эльстере. В 1084 году Генрих взял Рим и был коронован императором своим папой. Григорий, которого спасли норманны Роберта Гвискара, разграбившие город, умер в изгнании в Салерно 25 мая 1085 года. Генрих умер в 1106 году, всё ещё отлучённым, когда против него с оружием поднялся его собственный сын.",
+        "uk": "28 січня 1077 року Григорій зняв відлучення, знову прийняв Генріха до спільноти Церкви й прийняв його присягу. Миру це не принесло. У березні ворожі Генріхові князі, зібравшись у Форхгаймі, обрали іншого короля, Рудольфа Швабського, і Німеччина поринула в громадянську війну. 1080 року Григорій знову відлучив Генріха й визнав Рудольфа; єпископи Генріха відповіли в Бриксені, обравши власного папу, Віберта Равеннського, а восени того ж року Рудольф помер від ран після битви на Ельстері. 1084 року Генріх здобув Рим і був коронований на імператора своїм папою. Григорій, якого врятували нормани Роберта Гвіскара, що пограбували місто, помер у вигнанні в Салерно 25 травня 1085 року. Генріх помер 1106 року, досі відлучений, коли проти нього зі зброєю повстав його власний син.",
+        "pl": "28 stycznia 1077 roku Grzegorz zdjął ekskomunikę, przyjął Henryka z powrotem do wspólnoty Kościoła i odebrał od niego przysięgę. Pokoju to nie przyniosło. W marcu wrodzy Henrykowi książęta, zebrani w Forchheim, wybrali innego króla, Rudolfa Szwabskiego, i Niemcy pogrążyły się w wojnie domowej. W 1080 roku Grzegorz ponownie ekskomunikował Henryka i uznał Rudolfa; biskupi Henryka odpowiedzieli w Brixen, wybierając własnego papieża, Wiberta z Rawenny, a jesienią tego roku Rudolf zmarł z ran po bitwie nad Elsterą. W 1084 roku Henryk zdobył Rzym i został koronowany na cesarza przez swojego papieża. Grzegorz, uratowany przez Normanów Roberta Guiscarda, którzy złupili miasto, zmarł na wygnaniu w Salerno 25 maja 1085 roku. Henryk zmarł w 1106 roku, wciąż wyklęty, gdy przeciw niemu chwycił za broń jego własny syn."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Gregory VII, letter to the German princes, January 1077 (Register IV.12), in Ernest F. Henderson's English (1892)",
+            "ru": "Григорий VII, письмо германским князьям, январь 1077 года (Регистр IV.12)",
+            "uk": "Григорій VII, лист до німецьких князів, січень 1077 року (Реєстр IV.12)",
+            "pl": "Grzegorz VII, list do książąt niemieckich, styczeń 1077 (Rejestr IV.12)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "register-forgiveness.en.henderson",
+              "from": "4.12.4",
+              "to": "4.12.4",
+              "text": "And there, having laid aside all the belongings of royalty, wretchedly, with bare feet and clad in wool, he continued for three days to stand before the gate of the castle. Nor did he desist from imploring with many tears the aid and consolation of the apostolic mercy until he had moved all of those who were present there, and whom the report of it reached, to such pity and depth of compassion that, interceding for him with many prayers and tears, all wondered indeed at the unaccustomed hardness of our heart, while some actually cried out that we were exercising, not the gravity of apostolic severity, but the cruelty, as it were, of a tyrannical ferocity.",
+              "kind": "Free",
+              "translator": "Ernest F. Henderson",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Select_Historical_Documents_of_the_Middle_Ages/Book_IV/Gregory_VII.%27s_Letter_to_the_German_Princes_concerning_the_Penance_of_Henry_IV._at_Canossa",
+                "lang": "en",
+                "title": "Gregory VII, Letter to the German Princes on Canossa (Register IV.12)"
+              }
+            },
+            "ru": {
+              "edition": "register-forgiveness.ru.ours",
+              "from": "4.12.4",
+              "to": "4.12.4",
+              "text": "И там, сложив с себя всё, что принадлежит королевскому сану, жалкий, босой и одетый в шерсть, он три дня стоял перед воротами замка. И он не переставал со многими слезами молить о помощи и утешении апостольского милосердия, пока не тронул всех, кто был там, и всех, до кого дошла молва об этом, до такой жалости и такой глубины сострадания, что, заступаясь за него со многими мольбами и слезами, все поистине дивились непривычной жёсткости нашего сердца, а некоторые даже восклицали, что мы проявляем не строгость апостольской суровости, а как бы жестокость тиранической свирепости.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Select_Historical_Documents_of_the_Middle_Ages/Book_IV/Gregory_VII.%27s_Letter_to_the_German_Princes_concerning_the_Penance_of_Henry_IV._at_Canossa",
+                "lang": "en",
+                "title": "Григорий VII, письмо германским князьям о Каноссе (Регистр IV.12)"
+              }
+            },
+            "uk": {
+              "edition": "register-forgiveness.uk.ours",
+              "from": "4.12.4",
+              "to": "4.12.4",
+              "text": "І там, склавши з себе все, що належить до королівської гідності, жалюгідний, босоніж і вбраний у вовну, він три дні стояв перед брамою замку. І він не переставав із багатьма сльозами благати про поміч і розраду апостольського милосердя, аж поки не зворушив усіх, хто там був, і всіх, до кого дійшла про це чутка, до такого жалю й такої глибини співчуття, що, заступаючись за нього з багатьма молитвами й сльозами, всі справді дивувалися незвичній твердості нашого серця, а дехто навіть вигукував, що ми виявляємо не поважність апостольської суворості, а немовби жорстокість тиранської лютості.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Select_Historical_Documents_of_the_Middle_Ages/Book_IV/Gregory_VII.%27s_Letter_to_the_German_Princes_concerning_the_Penance_of_Henry_IV._at_Canossa",
+                "lang": "en",
+                "title": "Григорій VII, лист до німецьких князів про Каноссу (Реєстр IV.12)"
+              }
+            },
+            "pl": {
+              "edition": "register-forgiveness.pl.ours",
+              "from": "4.12.4",
+              "to": "4.12.4",
+              "text": "I tam, złożywszy wszystkie oznaki królewskiej godności, nędzny, boso i odziany w wełnę, przez trzy dni stał przed bramą zamku. I nie przestawał z wieloma łzami błagać o pomoc i pociechę apostolskiego miłosierdzia, aż poruszył wszystkich, którzy tam byli, i tych, do których doszła o tym wieść, do takiej litości i tak głębokiego współczucia, że wstawiając się za nim z wieloma modlitwami i łzami, wszyscy zaiste dziwili się niezwykłej twardości naszego serca, a niektórzy wręcz wołali, że okazujemy nie powagę apostolskiej surowości, lecz jakby okrucieństwo tyrańskiej srogości.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Select_Historical_Documents_of_the_Middle_Ages/Book_IV/Gregory_VII.%27s_Letter_to_the_German_Princes_concerning_the_Penance_of_Henry_IV._at_Canossa",
+                "lang": "en",
+                "title": "Grzegorz VII, list do książąt niemieckich o Canossie (Rejestr IV.12)"
+              }
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "The same",
+            "ru": "Там же",
+            "uk": "Там само",
+            "pl": "Tamże"
+          },
+          "quotes": {
+            "en": {
+              "edition": "register-forgiveness.en.henderson",
+              "from": "4.12.5",
+              "to": "4.12.5",
+              "text": "Finally, conquered by the persistency of his compunction and by the constant supplications of all those who were present we loosed the chain of the anathema and at length received him into the favour of communion and into the lap of the holy mother church, those being accepted as sponsors for him whose names are written below.",
+              "kind": "Free",
+              "translator": "Ernest F. Henderson",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Select_Historical_Documents_of_the_Middle_Ages/Book_IV/Gregory_VII.%27s_Letter_to_the_German_Princes_concerning_the_Penance_of_Henry_IV._at_Canossa",
+                "lang": "en",
+                "title": "Gregory VII, Letter to the German Princes on Canossa (Register IV.12)"
+              }
+            },
+            "ru": {
+              "edition": "register-forgiveness.ru.ours",
+              "from": "4.12.5",
+              "to": "4.12.5",
+              "text": "Наконец, побеждённые упорством его сокрушения и неотступными мольбами всех присутствовавших, мы разрешили узы анафемы и в конце концов приняли его в милость общения и в лоно святой матери Церкви, приняв поручителями за него тех, чьи имена написаны ниже.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Select_Historical_Documents_of_the_Middle_Ages/Book_IV/Gregory_VII.%27s_Letter_to_the_German_Princes_concerning_the_Penance_of_Henry_IV._at_Canossa",
+                "lang": "en",
+                "title": "Григорий VII, письмо германским князьям о Каноссе (Регистр IV.12)"
+              }
+            },
+            "uk": {
+              "edition": "register-forgiveness.uk.ours",
+              "from": "4.12.5",
+              "to": "4.12.5",
+              "text": "Нарешті, переможені впертістю його каяття і невідступними благаннями всіх присутніх, ми розв'язали пута анатеми й урешті прийняли його до ласки причастя та в лоно святої матері Церкви, прийнявши за нього поручителями тих, чиї імена записано нижче.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Select_Historical_Documents_of_the_Middle_Ages/Book_IV/Gregory_VII.%27s_Letter_to_the_German_Princes_concerning_the_Penance_of_Henry_IV._at_Canossa",
+                "lang": "en",
+                "title": "Григорій VII, лист до німецьких князів про Каноссу (Реєстр IV.12)"
+              }
+            },
+            "pl": {
+              "edition": "register-forgiveness.pl.ours",
+              "from": "4.12.5",
+              "to": "4.12.5",
+              "text": "Wreszcie, zwyciężeni wytrwałością jego skruchy i nieustannymi błaganiami wszystkich obecnych, rozwiązaliśmy więzy anatemy i w końcu przyjęliśmy go do łaski komunii i na łono świętej matki Kościoła, przyjąwszy za niego poręczycieli, których imiona są niżej wypisane.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Select_Historical_Documents_of_the_Middle_Ages/Book_IV/Gregory_VII.%27s_Letter_to_the_German_Princes_concerning_the_Penance_of_Henry_IV._at_Canossa",
+                "lang": "en",
+                "title": "Grzegorz VII, list do książąt niemieckich o Canossie (Rejestr IV.12)"
+              }
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "The same, to the princes",
+            "ru": "Там же, князьям",
+            "uk": "Там само, князям",
+            "pl": "Tamże, do książąt"
+          },
+          "quotes": {
+            "en": {
+              "edition": "register-forgiveness.en.henderson",
+              "from": "4.12.6",
+              "to": "4.12.6",
+              "text": "know that we are not otherwise bound to the king save that, by word alone as is our custom, we have said that he might have hopes from us in those matters in which, without danger to his soul or to our own, we might be able to help him to his salvation and honour either through justice or through mercy.",
+              "kind": "Free",
+              "translator": "Ernest F. Henderson",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Select_Historical_Documents_of_the_Middle_Ages/Book_IV/Gregory_VII.%27s_Letter_to_the_German_Princes_concerning_the_Penance_of_Henry_IV._at_Canossa",
+                "lang": "en",
+                "title": "Gregory VII, Letter to the German Princes on Canossa (Register IV.12)"
+              }
+            },
+            "ru": {
+              "edition": "register-forgiveness.ru.ours",
+              "from": "4.12.6",
+              "to": "4.12.6",
+              "text": "знайте, что мы ничем иным не связаны с королём, кроме того, что лишь на словах, как у нас в обычае, сказали, что он может надеяться на нас в том, в чём мы без опасности для его души или для нашей сможем помочь ему ко спасению и к чести — либо по справедливости, либо по милосердию.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Select_Historical_Documents_of_the_Middle_Ages/Book_IV/Gregory_VII.%27s_Letter_to_the_German_Princes_concerning_the_Penance_of_Henry_IV._at_Canossa",
+                "lang": "en",
+                "title": "Григорий VII, письмо германским князьям о Каноссе (Регистр IV.12)"
+              }
+            },
+            "uk": {
+              "edition": "register-forgiveness.uk.ours",
+              "from": "4.12.6",
+              "to": "4.12.6",
+              "text": "знайте, що ми не зв'язані з королем нічим іншим, крім того, що лише словом, як у нас заведено, сказали, що він може сподіватися на нас у тому, в чому ми без небезпеки для його душі чи для нашої зможемо допомогти йому до спасіння й честі — чи то справедливістю, чи то милосердям.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Select_Historical_Documents_of_the_Middle_Ages/Book_IV/Gregory_VII.%27s_Letter_to_the_German_Princes_concerning_the_Penance_of_Henry_IV._at_Canossa",
+                "lang": "en",
+                "title": "Григорій VII, лист до німецьких князів про Каноссу (Реєстр IV.12)"
+              }
+            },
+            "pl": {
+              "edition": "register-forgiveness.pl.ours",
+              "from": "4.12.6",
+              "to": "4.12.6",
+              "text": "wiedzcie, że nie jesteśmy związani z królem niczym innym, jak tylko tym, że samym słowem, jak to mamy w zwyczaju, powiedzieliśmy, iż może mieć w nas nadzieję w tych sprawach, w których bez niebezpieczeństwa dla jego duszy czy dla naszej moglibyśmy mu pomóc ku zbawieniu i czci — czy to przez sprawiedliwość, czy przez miłosierdzie.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Select_Historical_Documents_of_the_Middle_Ages/Book_IV/Gregory_VII.%27s_Letter_to_the_German_Princes_concerning_the_Penance_of_Henry_IV._at_Canossa",
+                "lang": "en",
+                "title": "Grzegorz VII, list do książąt niemieckich o Canossie (Rejestr IV.12)"
+              }
+            }
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Lampert of Hersfeld, a German monk writing soon after, tells how hard the crossing of the Alps was that winter: the queen and her women were drawn down the frozen slopes on ox-hides, the horses let down on ropes or dragged with their feet bound, and many of them died. At Canossa, he says, the king stood from morning to evening, fasting, between the castle's walls.",
+            "ru": "Ламперт Херсфельдский, немецкий монах, писавший вскоре после событий, рассказывает, как тяжёл был в ту зиму переход через Альпы: королеву и её женщин спускали по обледенелым склонам на бычьих шкурах, лошадей спускали на верёвках или тащили со связанными ногами, и многие из них погибли. В Каноссе, говорит он, король стоял с утра до вечера, постясь, между стенами замка.",
+            "uk": "Ламперт Герсфельдський, німецький чернець, що писав невдовзі після подій, розповідає, яким тяжким був тієї зими перехід через Альпи: королеву та її жінок спускали обмерзлими схилами на волових шкурах, коней спускали на мотузках або тягли зі зв'язаними ногами, і багато з них загинуло. У Каноссі, каже він, король стояв від ранку до вечора, постячи, між мурами замку.",
+            "pl": "Lambert z Hersfeldu, niemiecki mnich piszący wkrótce potem, opowiada, jak ciężka była tej zimy przeprawa przez Alpy: królową i jej kobiety ściągano po oblodzonych stokach na wołowych skórach, konie spuszczano na linach albo wleczono ze związanymi nogami i wiele z nich padło. W Canossie, mówi, król stał od rana do wieczora, poszcząc, między murami zamku."
+          },
+          "source": "Lampert of Hersfeld, Annals, year 1077"
+        },
+        {
+          "fact": {
+            "en": "Canossa became a byword. In 1872, in his struggle with the Catholic Church, Bismarck told the Reichstag: “We are not going to Canossa — neither in body nor in spirit.”",
+            "ru": "Слово «Каносса» стало нарицательным. В 1872 году, в разгар борьбы с Католической церковью, Бисмарк заявил в рейхстаге: «В Каноссу мы не пойдём — ни телом, ни духом».",
+            "uk": "Слово «Каносса» стало прозивним. 1872 року, у розпалі боротьби з Католицькою церквою, Бісмарк заявив у рейхстагу: «До Каносси ми не підемо — ні тілом, ні духом».",
+            "pl": "Canossa stała się przysłowiowa. W 1872 roku, w walce z Kościołem katolickim, Bismarck oświadczył w Reichstagu: „Do Canossy nie pójdziemy — ani ciałem, ani duchem”."
+          },
+          "source": "Otto von Bismarck, speech in the Reichstag, 14 May 1872 (Stenographische Berichte über die Verhandlungen des Deutschen Reichstages)"
+        },
+        {
+          "fact": {
+            "en": "As tradition reports them, Gregory's last words at Salerno were: “I have loved justice and hated iniquity; therefore I die in exile.”",
+            "ru": "Последними словами Григория в Салерно, как передаёт предание, были: «Я возлюбил справедливость и возненавидел беззаконие, потому и умираю в изгнании».",
+            "uk": "Останніми словами Григорія в Салерно, як переказує передання, були: «Я полюбив справедливість і зненавидів беззаконня, тому й помираю у вигнанні».",
+            "pl": "Ostatnimi słowami Grzegorza w Salerno były, jak przekazuje tradycja: „Umiłowałem sprawiedliwość i znienawidziłem nieprawość, dlatego umieram na wygnaniu”."
+          },
+          "source": "Paul of Bernried, Life of Pope Gregory VII (1128); H. E. J. Cowdrey, Pope Gregory VII, 1073–1085 (Oxford, 1998)"
+        }
+      ]
+    },
+    {
+      "think": "forgiveness",
+      "question": {
+        "en": "Think of a real wrong — done to you, or to someone you love. The one who did it comes and asks to be forgiven. What do you owe them: forgiveness, justice, or both? And if they never ask — can you still forgive, and should you?",
+        "ru": "Вспомните настоящее зло — причинённое вам или тому, кого вы любите. Тот, кто его причинил, приходит и просит прощения. Что вы ему должны: прощение, справедливость или и то и другое? А если он так и не попросит — можете ли вы всё же простить, и должны ли?",
+        "uk": "Пригадайте справжнє зло — заподіяне вам або тому, кого ви любите. Той, хто його заподіяв, приходить і просить прощення. Що ви йому винні: прощення, справедливість чи і те, і те? А якщо він так і не попросить — чи можете ви все ж простити, і чи повинні?",
+        "pl": "Pomyśl o prawdziwej krzywdzie — wyrządzonej tobie albo komuś, kogo kochasz. Ten, kto ją wyrządził, przychodzi i prosi o przebaczenie. Co mu jesteś winien: przebaczenie, sprawiedliwość, czy jedno i drugie? A jeśli nigdy nie poprosi — czy mimo to możesz przebaczyć, i czy powinieneś?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: should we forgive those who wronged us?",
+        "ru": "А теперь: должны ли мы прощать тех, кто причинил нам зло?",
+        "uk": "А тепер: чи маємо ми прощати тих, хто заподіяв нам зло?",
+        "pl": "A teraz: czy powinniśmy przebaczać tym, którzy nas skrzywdzili?"
+      }
+    }
+  ]
+}

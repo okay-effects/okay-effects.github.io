@@ -1,0 +1,1280 @@
+{
+  "id": "punishment",
+  "title": {
+    "en": "Why do we punish?",
+    "ru": "Зачем мы наказываем?",
+    "uk": "Навіщо ми караємо?",
+    "pl": "Dlaczego karzemy?"
+  },
+  "subtitle": {
+    "en": "Protagoras, Confucius, the Book of Documents, Beccaria and Kant — and you",
+    "ru": "Протагор, Конфуций, «Шуцзин», Беккариа и Кант — и вы",
+    "uk": "Протагор, Конфуцій, «Шуцзін», Беккаріа і Кант — і ви",
+    "pl": "Protagoras, Konfucjusz, Shujing, Beccaria i Kant — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: why do we punish?",
+        "ru": "Прежде чем читать кого-либо: зачем мы наказываем?",
+        "uk": "Перш ніж читати когось: навіщо ми караємо?",
+        "pl": "Zanim kogokolwiek przeczytasz: dlaczego karzemy?"
+      },
+      "options": [
+        {
+          "en": "Because the guilty deserve it: a wrong calls for a penalty that fits it",
+          "ru": "Потому что виновный этого заслуживает: зло требует соразмерной кары",
+          "uk": "Бо винний на це заслуговує: зло вимагає співмірної кари",
+          "pl": "Bo winny na to zasługuje: zło domaga się kary, która mu odpowiada"
+        },
+        {
+          "en": "To prevent crime: so that neither the offender nor anyone else does it again",
+          "ru": "Чтобы предупредить преступление: чтобы ни сам виновный, ни другие больше так не делали",
+          "uk": "Щоб запобігти злочину: щоб ні сам винний, ні інші більше так не робили",
+          "pl": "By zapobiec przestępstwom: żeby ani winny, ani nikt inny więcej tego nie zrobił"
+        },
+        {
+          "en": "To mend the wrongdoer: punishment should teach",
+          "ru": "Чтобы исправить провинившегося: наказание должно учить",
+          "uk": "Щоб виправити винного: покарання має навчати",
+          "pl": "By poprawić winowajcę: kara powinna uczyć"
+        },
+        {
+          "en": "We punish too much: a good society would hardly need it",
+          "ru": "Мы наказываем слишком много: доброму обществу это почти не нужно",
+          "uk": "Ми караємо забагато: доброму суспільству це майже не потрібно",
+          "pl": "Karzemy za dużo: dobre społeczeństwo prawie by tego nie potrzebowało"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Protagoras: no one punishes for the past",
+        "ru": "Протагор: никто не наказывает за прошлое",
+        "uk": "Протагор: ніхто не карає за минуле",
+        "pl": "Protagoras: nikt nie karze za przeszłość"
+      },
+      "intro": {
+        "en": "Athens, before the great war with Sparta. In the house of Callias, one of the richest men in the city, the most famous teacher of the age is staying: Protagoras of Abdera, who takes fees to make young men good citizens. Socrates, not yet forty, doubts that virtue can be taught at all: in the affairs of the city, he says, the Athenians take anyone's advice, as if no knowledge were needed, and the best of them cannot teach it to their own sons. Protagoras answers with a myth, and then with an argument — and the argument is about punishment. Why do we punish a man who does wrong, but not a man who is ugly or small?",
+        "ru": "Афины, накануне великой войны со Спартой. В доме Каллия, одного из богатейших людей города, гостит самый знаменитый учитель своего времени — Протагор из Абдер, который берёт плату за то, чтобы делать юношей добрыми гражданами. Сократ, которому ещё нет сорока, сомневается, что добродетели вообще можно научить: в делах города, говорит он, афиняне слушают совета любого, будто тут не нужно никакого знания, а лучшие из них не могут научить ей собственных сыновей. Протагор отвечает мифом, а затем доводом — и этот довод о наказании. Почему мы наказываем того, кто поступил дурно, но не того, кто уродлив или мал ростом?",
+        "uk": "Афіни, напередодні великої війни зі Спартою. У домі Каллія, одного з найбагатших людей міста, гостює найславетніший учитель свого часу — Протагор з Абдер, який бере плату за те, щоб робити юнаків добрими громадянами. Сократ, якому ще немає сорока, сумнівається, що чесноти взагалі можна навчити: у справах міста, каже він, афіняни слухають поради будь-кого, ніби тут не потрібно жодного знання, а найкращі з них не можуть навчити її власних синів. Протагор відповідає міфом, а тоді доводом — і цей довід про покарання. Чому ми караємо того, хто вчинив зле, але не того, хто негарний чи малий на зріст?",
+        "pl": "Ateny, w przededniu wielkiej wojny ze Spartą. W domu Kalliasa, jednego z najbogatszych ludzi w mieście, gości najsłynniejszy nauczyciel epoki — Protagoras z Abdery, który bierze zapłatę za to, że czyni młodych ludzi dobrymi obywatelami. Sokrates, który nie ma jeszcze czterdziestu lat, wątpi, czy cnoty w ogóle można nauczyć: w sprawach miasta, mówi, Ateńczycy słuchają rady każdego, jakby nie trzeba było tu żadnej wiedzy, a najlepsi z nich nie potrafią jej nauczyć własnych synów. Protagoras odpowiada mitem, a potem argumentem — i ten argument dotyczy kary. Dlaczego karzemy tego, kto postąpił źle, a nie tego, kto jest brzydki albo niskiego wzrostu?"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Protagoras, in Plato's Protagoras 324a–b",
+            "ru": "Протагор у Платона, «Протагор» 324a–b",
+            "uk": "Протагор у Платона, «Протагор» 324a–b",
+            "pl": "Protagoras u Platona, Protagoras 324a–b"
+          },
+          "quotes": {
+            "en": {
+              "edition": "protagoras-punishment.en.jowett",
+              "from": "323",
+              "to": "324",
+              "text": "If you will think, Socrates, of the nature of punishment, you will see at once that in the opinion of mankind virtue may be acquired; no one punishes the evil-doer under the notion, or for the reason, that he has done wrong,—only the unreasonable fury of a beast acts in that manner. But he who desires to inflict rational punishment does not retaliate for a past wrong which cannot be undone; he has regard to the future, and is desirous that the man who is punished, and he who sees him punished, may be deterred from doing wrong again. He punishes for the sake of prevention, thereby clearly implying that virtue is capable of being taught.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Protagoras",
+                "lang": "en",
+                "title": "Plato, Protagoras"
+              }
+            },
+            "ru": {
+              "edition": "protagoras-punishment.ru.ours",
+              "from": "323",
+              "to": "324",
+              "text": "Если ты, Сократ, подумаешь о том, что такое наказание, ты сразу увидишь, что, по мнению людей, добродетель можно приобрести: никто не наказывает злодея с той мыслью или по той причине, что он совершил зло, — так поступает лишь неразумная ярость зверя. Тот же, кто хочет наказывать разумно, не мстит за прошлую несправедливость, которую уже не исправить; он смотрит в будущее и желает, чтобы и наказанный, и тот, кто видит его наказанным, удержались от того, чтобы снова поступать дурно. Он наказывает ради предупреждения, тем самым ясно показывая, что добродетели можно научить.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Protagoras",
+                "lang": "en",
+                "title": "Платон, «Протагор»"
+              }
+            },
+            "uk": {
+              "edition": "protagoras-punishment.uk.ours",
+              "from": "323",
+              "to": "324",
+              "text": "Якщо ти, Сократе, подумаєш про те, що таке покарання, ти одразу побачиш, що, на думку людей, чесноту можна набути: ніхто не карає лиходія з тією думкою чи з тієї причини, що він вчинив зло, — так чинить лише нерозумна лють звіра. А той, хто хоче карати розумно, не мститься за минулу кривду, якої вже не виправити; він дивиться в майбутнє і бажає, щоб і покараний, і той, хто бачить його покараним, утрималися від того, щоб знову чинити зле. Він карає задля запобігання, цим ясно показуючи, що чесноти можна навчити.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Protagoras",
+                "lang": "en",
+                "title": "Платон, «Протагор»"
+              }
+            },
+            "pl": {
+              "edition": "protagoras-punishment.pl.ours",
+              "from": "323",
+              "to": "324",
+              "text": "Jeśli pomyślisz, Sokratesie, czym jest kara, od razu zobaczysz, że w mniemaniu ludzi cnotę można nabyć: nikt nie karze złoczyńcy z tą myślą albo z tego powodu, że wyrządził zło — tak postępuje tylko nierozumna wściekłość zwierzęcia. Kto zaś chce karać rozumnie, nie odpłaca za przeszłą krzywdę, której nie da się już cofnąć; patrzy w przyszłość i pragnie, by i ukarany, i ten, kto widzi go ukaranym, powstrzymali się od ponownego czynienia zła. Karze dla zapobieżenia, dając tym jasno do zrozumienia, że cnoty można nauczyć.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Protagoras",
+                "lang": "en",
+                "title": "Platon, Protagoras"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg022.perseus-grc2:324/"
+          }
+        },
+        {
+          "by": {
+            "en": "The same speech, a little before (323d)",
+            "ru": "Та же речь, чуть раньше (323d)",
+            "uk": "Та сама промова, трохи раніше (323d)",
+            "pl": "Ta sama mowa, nieco wcześniej (323d)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "protagoras-punishment.en.jowett",
+              "from": "323",
+              "to": "323",
+              "text": "No one would instruct, no one would rebuke, or be angry with those whose calamities they suppose to be due to nature or chance; they do not try to punish or to prevent them from being what they are; they do but pity them.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Protagoras",
+                "lang": "en",
+                "title": "Plato, Protagoras"
+              }
+            },
+            "ru": {
+              "edition": "protagoras-punishment.ru.ours",
+              "from": "323",
+              "to": "323",
+              "text": "Никто не стал бы наставлять, никто не стал бы укорять тех, чьи несчастья, как полагают, происходят от природы или случая, или гневаться на них; их не пытаются наказывать или мешать им быть такими, какие они есть, — их только жалеют.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Protagoras",
+                "lang": "en",
+                "title": "Платон, «Протагор»"
+              }
+            },
+            "uk": {
+              "edition": "protagoras-punishment.uk.ours",
+              "from": "323",
+              "to": "323",
+              "text": "Ніхто не став би напучувати, ніхто не став би докоряти тим, чиї нещастя, як вважають, походять від природи чи випадку, або гніватися на них; їх не намагаються карати чи заважати їм бути такими, якими вони є, — їх лише жаліють.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Protagoras",
+                "lang": "en",
+                "title": "Платон, «Протагор»"
+              }
+            },
+            "pl": {
+              "edition": "protagoras-punishment.pl.ours",
+              "from": "323",
+              "to": "323",
+              "text": "Nikt nie pouczałby, nikt nie ganiłby ani nie gniewałby się na tych, których nieszczęścia uważa się za dzieło natury lub przypadku; nie próbuje się ich karać ani powstrzymywać od bycia takimi, jakimi są — tylko się nad nimi lituje.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Protagoras",
+                "lang": "en",
+                "title": "Platon, Protagoras"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg022.perseus-grc2:323/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Plato sets the scene as a crowd: in Callias' portico Protagoras walks up and down with a train of listeners who take care never to get in his way, Hippias of Elis sits on a high chair answering questions about the stars, and Prodicus of Ceos lies wrapped in fleeces and blankets in a storeroom turned into a guest room.",
+            "ru": "Платон рисует целую толпу: в портике Каллия Протагор прохаживается взад и вперёд со свитой слушателей, которые следят, чтобы никогда не оказаться у него на пути, Гиппий из Элиды сидит на высоком кресле и отвечает на вопросы о небесных светилах, а Продик Кеосский лежит, закутанный в овчины и одеяла, в кладовой, обращённой в комнату для гостей.",
+            "uk": "Платон змальовує цілий натовп: у портику Каллія Протагор походжає туди й назад із почтом слухачів, які пильнують, щоб ніколи не опинитися в нього на дорозі, Гіппій з Еліди сидить на високому кріслі й відповідає на питання про небесні світила, а Продік Кеоський лежить, закутаний в овчини й ковдри, у коморі, оберненій на кімнату для гостей.",
+            "pl": "Platon maluje cały tłum: w portyku Kalliasa Protagoras przechadza się tam i z powrotem z orszakiem słuchaczy, którzy pilnują, by nigdy nie stanąć mu na drodze, Hippiasz z Elidy siedzi na wysokim krześle i odpowiada na pytania o gwiazdy, a Prodikos z Keos leży owinięty w skóry i koce w spiżarni zamienionej na pokój gościnny."
+          },
+          "source": "Plato, Protagoras 314e–316a"
+        },
+        {
+          "fact": {
+            "en": "The man who argues here about punishment was himself asked to make laws: Heraclides Ponticus, as Diogenes Laertius reports, says that Protagoras wrote the laws for Thurii, the colony the Athenians founded in southern Italy.",
+            "ru": "Тот, кто рассуждает здесь о наказании, и сам писал законы: Гераклид Понтийский, как сообщает Диоген Лаэртский, говорит, что Протагор составил законы для Фурий — колонии, которую афиняне основали на юге Италии.",
+            "uk": "Той, хто міркує тут про покарання, і сам писав закони: Гераклід Понтійський, як повідомляє Діоген Лаертський, каже, що Протагор уклав закони для Фурій — колонії, яку афіняни заснували на півдні Італії.",
+            "pl": "Ten, kto rozprawia tu o karze, sam też pisał prawa: Heraklides z Pontu, jak podaje Diogenes Laertios, mówi, że Protagoras ułożył prawa dla Turioj — kolonii, którą Ateńczycy założyli w południowej Italii."
+          },
+          "source": "Diogenes Laertius, Lives of the Eminent Philosophers 9.50"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Confucius: laws, or virtue?",
+        "ru": "Конфуций: законы или добродетель?",
+        "uk": "Конфуцій: закони чи чеснота?",
+        "pl": "Konfucjusz: prawa czy cnota?"
+      },
+      "intro": {
+        "en": "China, about 500 BC. The royal house of Zhou reigns in name only; the states fight one another, and in many of them great families rule in their dukes' place. Rulers have begun to govern by written regulations and fixed penalties, and some have had their penal laws cast in bronze and iron for all to see. Confucius, a teacher from the small state of Lu, held office there for a few years and spent many more going from court to court; his disciples wrote down his sayings. Here is one of the shortest, on the difference between a people that obeys and a people that is good.",
+        "ru": "Китай, около 500 года до н. э. Царский дом Чжоу царствует лишь по имени; царства воюют друг с другом, и во многих из них вместо князей правят знатные роды. Правители начали управлять с помощью писаных предписаний и установленных наказаний, а некоторые велели отлить свои уголовные законы в бронзе и железе, чтобы их видели все. Конфуций, учитель из маленького царства Лу, несколько лет занимал там должность и ещё много лет ходил от двора ко двору; его ученики записали его изречения. Вот одно из самых коротких — о разнице между народом, который подчиняется, и народом, который добр.",
+        "uk": "Китай, близько 500 року до н. е. Царський дім Чжоу царює лише з імені; царства воюють одне з одним, і в багатьох із них замість князів правлять знатні роди. Правителі почали врядувати за допомогою писаних приписів і встановлених покарань, а деякі звеліли відлити свої карні закони в бронзі й залізі, щоб їх бачили всі. Конфуцій, учитель із маленького царства Лу, кілька років обіймав там посаду і ще багато років ходив від двору до двору; його учні записали його вислови. Ось один із найкоротших — про різницю між народом, який кориться, і народом, який добрий.",
+        "pl": "Chiny, około 500 roku p.n.e. Królewski dom Zhou panuje już tylko z nazwy; państwa walczą ze sobą, a w wielu z nich zamiast książąt rządzą możne rody. Władcy zaczęli rządzić za pomocą spisanych przepisów i ustalonych kar, a niektórzy kazali odlać swoje prawa karne w brązie i żelazie, by wszyscy je widzieli. Konfucjusz, nauczyciel z małego państwa Lu, przez kilka lat sprawował tam urząd, a przez wiele następnych chodził od dworu do dworu; jego uczniowie spisali jego powiedzenia. Oto jedno z najkrótszych — o różnicy między ludem, który jest posłuszny, a ludem, który jest dobry."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Confucius, Analects 2.3",
+            "ru": "Конфуций, «Лунь юй» 2.3",
+            "uk": "Конфуцій, «Лунь юй» 2.3",
+            "pl": "Konfucjusz, Dialogi konfucjańskie 2.3"
+          },
+          "quotes": {
+            "en": {
+              "edition": "analects-punishment.en.legge",
+              "from": "2.3",
+              "to": "2.3",
+              "text": "If the people be led by laws, and uniformity sought to be given them by punishments, they will try to avoid the punishment, but have no sense of shame.",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Confucius, The Analects"
+              }
+            },
+            "ru": {
+              "edition": "analects-punishment.ru.ours",
+              "from": "2.3",
+              "to": "2.3",
+              "text": "Если вести народ законами и добиваться единообразия наказаниями, люди будут стараться избежать наказания, но не будут знать стыда.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуций, «Лунь юй»"
+              }
+            },
+            "uk": {
+              "edition": "analects-punishment.uk.ours",
+              "from": "2.3",
+              "to": "2.3",
+              "text": "Якщо вести народ законами й домагатися однаковості покараннями, люди намагатимуться уникнути покарання, але не матимуть сорому.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуцій, «Лунь юй»"
+              }
+            },
+            "pl": {
+              "edition": "analects-punishment.pl.ours",
+              "from": "2.3",
+              "to": "2.3",
+              "text": "Jeśli lud prowadzi się prawami, a jednolitości szuka się w karach, ludzie będą starali się uniknąć kary, ale nie będą znali wstydu.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Konfucjusz, Dialogi konfucjańskie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/論語/爲政第二"
+          }
+        },
+        {
+          "by": {
+            "en": "The same chapter",
+            "ru": "Та же глава",
+            "uk": "Той самий розділ",
+            "pl": "Ten sam rozdział"
+          },
+          "quotes": {
+            "en": {
+              "edition": "analects-punishment.en.legge",
+              "from": "2.3",
+              "to": "2.3",
+              "text": "If they be led by virtue, and uniformity sought to be given them by the rules of propriety, they will have the sense of shame, and moreover will become good.",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Confucius, The Analects"
+              }
+            },
+            "ru": {
+              "edition": "analects-punishment.ru.ours",
+              "from": "2.3",
+              "to": "2.3",
+              "text": "Если вести их добродетелью и добиваться единообразия правилами благопристойности, у них будет чувство стыда, и более того — они станут добрыми.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуций, «Лунь юй»"
+              }
+            },
+            "uk": {
+              "edition": "analects-punishment.uk.ours",
+              "from": "2.3",
+              "to": "2.3",
+              "text": "Якщо вести їх чеснотою й домагатися однаковості правилами благопристойності, вони матимуть почуття сорому, і більше того — стануть добрими.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуцій, «Лунь юй»"
+              }
+            },
+            "pl": {
+              "edition": "analects-punishment.pl.ours",
+              "from": "2.3",
+              "to": "2.3",
+              "text": "Jeśli prowadzi się ich cnotą, a jednolitości szuka się w zasadach przyzwoitości, będą mieli poczucie wstydu, a co więcej, staną się dobrzy.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Konfucjusz, Dialogi konfucjańskie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/論語/爲政第二"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Sima Qian says that Confucius rose to be Lu's Grand Minister of Crime. After three months of his share in the government, sellers of lambs and pigs no longer padded their prices, and no one picked up what had been dropped on the road. Then the neighbouring state of Qi sent the duke eighty fine dancing girls; the court stopped attending to government, and Confucius left Lu.",
+            "ru": "Сыма Цянь рассказывает, что Конфуций дослужился в Лу до должности великого министра наказаний. Через три месяца его участия в правлении торговцы ягнятами и поросятами перестали завышать цены, и никто не подбирал того, что было обронено на дороге. Тогда соседнее царство Ци прислало князю восемьдесят прекрасных танцовщиц; двор перестал заниматься делами правления, и Конфуций покинул Лу.",
+            "uk": "Сима Цянь розповідає, що Конфуцій дослужився в Лу до посади великого міністра покарань. Через три місяці його участі у врядуванні торговці ягнятами й поросятами перестали завищувати ціни, і ніхто не підбирав того, що було загублено на дорозі. Тоді сусіднє царство Ці надіслало князеві вісімдесят гарних танцівниць; двір перестав займатися справами врядування, і Конфуцій покинув Лу.",
+            "pl": "Sima Qian opowiada, że Konfucjusz doszedł w Lu do urzędu wielkiego ministra kar. Po trzech miesiącach jego udziału w rządach handlarze jagniętami i prosiętami przestali zawyżać ceny, a nikt nie podnosił tego, co ktoś zgubił na drodze. Wtedy sąsiednie państwo Qi przysłało księciu osiemdziesiąt pięknych tancerek; dwór przestał zajmować się rządzeniem, a Konfucjusz opuścił Lu."
+          },
+          "source": "Sima Qian, Records of the Grand Historian (Shiji) 47, the Hereditary House of Confucius"
+        },
+        {
+          "fact": {
+            "en": "In 513 BC the state of Jin cast its penal laws on a tripod, with iron levied from the people. The Zuo zhuan gives Confucius' verdict: \"Jin is going to ruin! It has lost its proper rule.\"",
+            "ru": "В 513 году до н. э. царство Цзинь отлило свои уголовные законы на треножнике из железа, собранного с народа. «Цзо чжуань» приводит приговор Конфуция: «Цзинь погибнет! Оно утратило должную меру».",
+            "uk": "513 року до н. е. царство Цзінь відлило свої карні закони на тринозі із заліза, зібраного з народу. «Цзо чжуань» наводить присуд Конфуція: «Цзінь загине! Воно втратило належну міру».",
+            "pl": "W 513 roku p.n.e. państwo Jin odlało swoje prawa karne na trójnogu z żelaza ściągniętego od ludu. Zuo zhuan przytacza werdykt Konfucjusza: „Jin zginie! Utraciło właściwą miarę”."
+          },
+          "source": "Zuo zhuan, Duke Zhao, 29th year"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "The Book of Documents: punishment that ends punishment",
+        "ru": "«Шуцзин»: наказание, которое кладёт конец наказаниям",
+        "uk": "«Шуцзін»: покарання, що кладе край покаранням",
+        "pl": "Shujing: kara, która kładzie kres karom"
+      },
+      "intro": {
+        "en": "Confucius did not say that punishment had no place. The Book of Documents, which his school treasured as the words of the ancient kings, remembers the sage emperor Shun and his Minister of Crime, Gao Yao — Legge writes Kâo-yâo, and calls the emperor \"the Tî\". In one of its chapters Shun thanks his minister, and the minister answers with the rules by which the emperor judged. Tradition puts them more than two thousand years before Christ; the chapter itself, scholars have shown, was compiled long after Confucius, partly from sayings that older books quote.",
+        "ru": "Конфуций не говорил, что наказанию нет места. «Шуцзин» — «Книга документов», которую его школа чтила как слова древних государей, — помнит мудрого государя Шуня и его министра наказаний Гао Яо. В одной из её глав Шунь благодарит своего министра, а министр отвечает перечнем правил, по которым судил государь. Предание относит их к временам более чем за две тысячи лет до Рождества Христова; сама же глава, как показали учёные, была составлена много позже Конфуция — отчасти из изречений, которые приводят более древние книги.",
+        "uk": "Конфуцій не казав, що покаранню немає місця. «Шуцзін» — «Книга документів», яку його школа шанувала як слова давніх володарів, — пам’ятає мудрого володаря Шуня і його міністра покарань Гао Яо. В одному з її розділів Шунь дякує своєму міністрові, а міністр відповідає переліком правил, за якими судив володар. Переказ відносить їх до часів, віддалених більш ніж на дві тисячі років від Різдва Христового; сам же розділ, як показали вчені, було укладено набагато пізніше від Конфуція — почасти з висловів, які наводять давніші книги.",
+        "pl": "Konfucjusz nie mówił, że dla kary nie ma miejsca. Shujing — Księga dokumentów, którą jego szkoła czciła jako słowa dawnych władców — pamięta mądrego władcę Shuna i jego ministra kar Gao Yao. W jednym z jej rozdziałów Shun dziękuje swemu ministrowi, a minister odpowiada wyliczeniem zasad, według których władca sądził. Tradycja umieszcza ich ponad dwa tysiące lat przed narodzeniem Chrystusa; sam rozdział, jak wykazali uczeni, ułożono długo po Konfucjuszu — po części z powiedzeń, które przytaczają starsze księgi."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "The Book of Documents, The Counsels of the Great Yu (Part II, Book II, 2)",
+            "ru": "«Шуцзин», «Советы Великого Юя» (часть II, книга II, 2)",
+            "uk": "«Шуцзін», «Поради Великого Юя» (частина II, книга II, 2)",
+            "pl": "Shujing, Rady Wielkiego Yu (część II, księga II, 2)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "shujing-punishment.en.legge",
+              "from": "2.2.2",
+              "to": "2.2.2",
+              "text": "The Tî said, 'Kâo-yâo, that of these my ministers and all (my people) hardly one is found to offend against the regulations of the government is owing to your being Minister of Crime, and intelligent in the use of the five punishments, thereby assisting (the inculcation of) the five cardinal duties, with a view to the perfection of my government, and that through punishment there may come to be no punishments, but the people accord with (the path of) the Mean. (Continue to) be strenuous.'",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu",
+                "lang": "en",
+                "title": "The Book of Documents (Shujing)"
+              }
+            },
+            "ru": {
+              "edition": "shujing-punishment.ru.ours",
+              "from": "2.2.2",
+              "to": "2.2.2",
+              "text": "Государь сказал: «Гао Яо, если среди моих министров и всех (моих людей) едва ли найдётся один, кто преступает установления правления, то это потому, что ты — министр наказаний и разумно применяешь пять наказаний, помогая (насаждению) пяти основных обязанностей, ради совершенства моего правления, — чтобы через наказание дойти до того, что наказаний не будет, а народ держался (пути) Середины. (Продолжай) усердствовать».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu",
+                "lang": "en",
+                "title": "«Шуцзин» («Книга документов»)"
+              }
+            },
+            "uk": {
+              "edition": "shujing-punishment.uk.ours",
+              "from": "2.2.2",
+              "to": "2.2.2",
+              "text": "Володар сказав: «Гао Яо, якщо серед моїх міністрів і всіх (моїх людей) ледве знайдеться один, хто порушує установлення врядування, то це тому, що ти — міністр покарань і розумно застосовуєш п’ять покарань, допомагаючи (утвердженню) п’яти основних обов’язків, задля досконалості мого врядування, — щоб через покарання дійти до того, що покарань не буде, а народ тримався (шляху) Середини. (Продовжуй) старатися».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu",
+                "lang": "en",
+                "title": "«Шуцзін» («Книга документів»)"
+              }
+            },
+            "pl": {
+              "edition": "shujing-punishment.pl.ours",
+              "from": "2.2.2",
+              "to": "2.2.2",
+              "text": "Władca rzekł: „Gao Yao, to, że spośród moich ministrów i całego (mego ludu) ledwie jeden narusza przepisy rządu, zawdzięczam temu, że jesteś ministrem kar i rozumnie stosujesz pięć kar, wspierając (krzewienie) pięciu głównych powinności, ku doskonałości mego rządu — aby przez karę dojść do tego, że kar nie będzie, a lud trzymał się (drogi) Środka. (Nadal) się staraj”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu",
+                "lang": "en",
+                "title": "Shujing (Księga dokumentów)"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/尚書/大禹謨"
+          }
+        },
+        {
+          "by": {
+            "en": "Gao Yao answers (the same chapter)",
+            "ru": "Ответ Гао Яо (та же глава)",
+            "uk": "Відповідь Гао Яо (той самий розділ)",
+            "pl": "Odpowiedź Gao Yao (ten sam rozdział)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "shujing-punishment.en.legge",
+              "from": "2.2.2",
+              "to": "2.2.2",
+              "text": "Punishments do not extend to (the criminal's) heirs, while rewards reach to (succeeding) generations. You pardon inadvertent faults, however great, and punish purposed crimes, however small. In cases of doubtful crimes, you deal with them lightly; in cases of doubtful merit, you prefer the high estimation. Rather than put an innocent person to death, you will run the risk of irregularity and error. This life-loving virtue has penetrated the minds of the people, and this is why they do not render themselves liable to be punished by your officers.",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu",
+                "lang": "en",
+                "title": "The Book of Documents (Shujing)"
+              }
+            },
+            "ru": {
+              "edition": "shujing-punishment.ru.ours",
+              "from": "2.2.2",
+              "to": "2.2.2",
+              "text": "Наказания не простираются на наследников (преступника), а награды доходят до (следующих) поколений. Ты прощаешь непреднамеренные проступки, как бы велики они ни были, и наказываешь умышленные преступления, как бы малы они ни были. Когда преступление сомнительно, ты судишь мягко; когда сомнительна заслуга, ты предпочитаешь высокую оценку. Чем казнить невиновного, ты скорее пойдёшь на риск нарушить порядок и ошибиться. Эта жизнелюбивая добродетель проникла в умы народа, и потому люди не навлекают на себя наказания от твоих чиновников.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu",
+                "lang": "en",
+                "title": "«Шуцзин» («Книга документов»)"
+              }
+            },
+            "uk": {
+              "edition": "shujing-punishment.uk.ours",
+              "from": "2.2.2",
+              "to": "2.2.2",
+              "text": "Покарання не сягають спадкоємців (злочинця), а нагороди доходять до (наступних) поколінь. Ти прощаєш ненавмисні провини, хоч би якими великими вони були, і караєш умисні злочини, хоч би якими малими вони були. Коли злочин сумнівний, ти судиш м’яко; коли сумнівна заслуга, ти віддаєш перевагу високій оцінці. Ніж стратити невинного, ти радше підеш на ризик порушити порядок і помилитися. Ця життєлюбна чеснота проникла в уми народу, і тому люди не накликають на себе покарання від твоїх урядовців.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu",
+                "lang": "en",
+                "title": "«Шуцзін» («Книга документів»)"
+              }
+            },
+            "pl": {
+              "edition": "shujing-punishment.pl.ours",
+              "from": "2.2.2",
+              "to": "2.2.2",
+              "text": "Kary nie sięgają spadkobierców (przestępcy), a nagrody dochodzą do (następnych) pokoleń. Przebaczasz niezamierzone przewinienia, choćby były wielkie, i karzesz zamierzone zbrodnie, choćby były małe. Gdy zbrodnia jest wątpliwa, sądzisz łagodnie; gdy wątpliwa jest zasługa, wolisz wysoką ocenę. Zamiast skazać na śmierć niewinnego, raczej zaryzykujesz nieprawidłowość i błąd. Ta miłująca życie cnota przeniknęła umysły ludu i dlatego ludzie nie narażają się na kary ze strony twoich urzędników.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu",
+                "lang": "en",
+                "title": "Shujing (Księga dokumentów)"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/尚書/大禹謨"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The line \"Rather than put an innocent person to death...\" is older than the chapter that holds it: the Zuo zhuan, under the year 547 BC, already quotes it as a saying from \"the Books of Xia\".",
+            "ru": "Строка «Чем казнить невиновного…» старше главы, в которой она стоит: «Цзо чжуань» под 547 годом до н. э. уже приводит её как изречение из «Книг Ся».",
+            "uk": "Рядок «Ніж стратити невинного…» старший за розділ, у якому він стоїть: «Цзо чжуань» під 547 роком до н. е. вже наводить його як вислів із «Книг Ся».",
+            "pl": "Zdanie „Zamiast skazać na śmierć niewinnego…” jest starsze niż rozdział, w którym stoi: Zuo zhuan pod rokiem 547 p.n.e. przytacza je już jako powiedzenie z „Ksiąg Xia”."
+          },
+          "source": "Zuo zhuan, Duke Xiang, 26th year"
+        },
+        {
+          "fact": {
+            "en": "The Counsels of the Great Yu is one of the chapters of the Documents that appeared only early in the 4th century AD, in a text presented to the Eastern Jin court by Mei Ze. In the 17th century the scholar Yan Ruoju (1636–1704) showed that these chapters were a later compilation.",
+            "ru": "«Советы Великого Юя» — одна из глав «Шуцзина», появившихся лишь в начале IV века н. э., в тексте, который Мэй Цзэ поднёс двору Восточной Цзинь. В XVII веке учёный Янь Жоцзюй (1636–1704) показал, что эти главы — позднейшая компиляция.",
+            "uk": "«Поради Великого Юя» — один із розділів «Шуцзіну», що з’явилися лише на початку IV століття н. е., у тексті, який Мей Цзе підніс дворові Східної Цзінь. У XVII столітті вчений Янь Жоцзюй (1636–1704) показав, що ці розділи — пізніша компіляція.",
+            "pl": "Rady Wielkiego Yu to jeden z rozdziałów Shujingu, które pojawiły się dopiero na początku IV wieku n.e., w tekście przedstawionym dworowi Wschodniej Jin przez Mei Ze. W XVII wieku uczony Yan Ruoju (1636–1704) wykazał, że rozdziały te są późniejszą kompilacją."
+          },
+          "source": "Edward L. Shaughnessy, \"Shang shu (Shu ching)\", in Michael Loewe (ed.), Early Chinese Texts: A Bibliographical Guide (1993)"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Athens, 594 BC",
+        "ru": "Афины, 594 год до н. э.",
+        "uk": "Афіни, 594 рік до н. е.",
+        "pl": "Ateny, 594 rok p.n.e."
+      },
+      "scene": {
+        "en": "You are Solon, an Athenian of good family but modest fortune, known for your poems. Athens is close to civil war: the poor are in debt to the rich, and a man who cannot pay may be seized with his wife and children as a slave; some have been sold abroad. Both sides have agreed to make you archon and mediator, and to put the laws in your hands. You have cancelled the debts and forbidden loans on the security of a person. Now you turn to the laws of Draco, written down a generation ago: for nearly every offence they have one penalty — death. The man who steals a cabbage dies as the man who kills. What do you do with Draco's laws?",
+        "ru": "Вы — Солон, афинянин знатного рода, но скромного достатка, известный своими стихами. Афины на пороге междоусобицы: бедные в долгу у богатых, и того, кто не может заплатить, вместе с женой и детьми могут обратить в рабство; некоторых уже продали на чужбину. Обе стороны согласились избрать вас архонтом и примирителем и отдать законы в ваши руки. Вы уже отменили долги и запретили давать в долг под залог свободы человека. Теперь вы обращаетесь к законам Драконта, записанным поколение назад: почти за любой проступок у них одно наказание — смерть. Укравший кочан капусты умирает так же, как убийца. Что вы сделаете с законами Драконта?",
+        "uk": "Ви — Солон, афінянин знатного роду, але скромних статків, відомий своїми віршами. Афіни на порозі міжусобиці: бідні в боргу в багатих, і того, хто не може заплатити, разом із дружиною та дітьми можуть обернути на раба; декого вже продали на чужину. Обидві сторони погодилися обрати вас архонтом і примирителем та віддати закони у ваші руки. Ви вже скасували борги й заборонили позичати під заставу свободи людини. Тепер ви звертаєтеся до законів Драконта, записаних покоління тому: майже за будь-яку провину в них одне покарання — смерть. Той, хто вкрав качан капусти, помирає так само, як убивця. Що ви зробите із законами Драконта?",
+        "pl": "Jesteś Solonem, Ateńczykiem ze znakomitego rodu, ale skromnego majątku, znanym ze swoich wierszy. Ateny stoją na progu wojny domowej: biedni są zadłużeni u bogatych, a tego, kto nie może zapłacić, można wraz z żoną i dziećmi zabrać w niewolę; niektórych sprzedano już za granicę. Obie strony zgodziły się wybrać cię archontem i rozjemcą i oddać prawa w twoje ręce. Umorzyłeś już długi i zakazałeś pożyczek pod zastaw osoby. Teraz zwracasz się ku prawom Drakona, spisanym przed pokoleniem: niemal za każde przewinienie mają jedną karę — śmierć. Kto ukradł główkę kapusty, ginie tak samo jak zabójca. Co zrobisz z prawami Drakona?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Keep them: if a stolen cabbage costs a life, no one will steal",
+            "ru": "Оставить их: если за украденный кочан капусты платят жизнью, никто не станет красть",
+            "uk": "Залишити їх: якщо за вкрадений качан капусти платять життям, ніхто не крастиме",
+            "pl": "Zachować je: jeśli za skradzioną kapustę płaci się życiem, nikt nie będzie kradł"
+          },
+          "reply": {
+            "en": "That was Draco's own defence, as Plutarch tells it — small offences deserve death, and he had nothing higher for great ones; Solon judged his laws too severe and his penalties too great.",
+            "ru": "Так защищал их сам Драконт, как рассказывает Плутарх: малые проступки заслуживают смерти, а для больших у него не было ничего выше; Солон счёл его законы слишком суровыми, а наказания слишком большими.",
+            "uk": "Так боронив їх сам Драконт, як розповідає Плутарх: малі провини заслуговують смерті, а для великих у нього не було нічого вищого; Солон визнав його закони надто суворими, а покарання надто великими.",
+            "pl": "Tak bronił ich sam Drakon, jak opowiada Plutarch: małe przewinienia zasługują na śmierć, a na wielkie nie miał nic wyższego; Solon uznał jego prawa za zbyt surowe, a kary za zbyt wielkie."
+          }
+        },
+        {
+          "choice": {
+            "en": "Repeal them all, the law on homicide too: a new city needs new laws",
+            "ru": "Отменить их все, и закон об убийстве тоже: новому городу нужны новые законы",
+            "uk": "Скасувати їх усі, і закон про вбивство теж: новому місту потрібні нові закони",
+            "pl": "Uchylić je wszystkie, także prawo o zabójstwie: nowe miasto potrzebuje nowych praw"
+          },
+          "reply": {
+            "en": "Solon kept one part: Draco's laws on homicide stayed in force, and two centuries later the Athenians were still judging killings by them.",
+            "ru": "Одну часть Солон сохранил: законы Драконта об убийстве остались в силе, и два века спустя афиняне всё ещё судили по ним за убийство.",
+            "uk": "Одну частину Солон зберіг: закони Драконта про вбивство лишилися чинними, і через два століття афіняни все ще судили за ними вбивства.",
+            "pl": "Jedną część Solon zachował: prawa Drakona o zabójstwie pozostały w mocy i dwa wieki później Ateńczycy wciąż sądzili według nich zabójstwa."
+          }
+        },
+        {
+          "choice": {
+            "en": "Repeal them, but keep the law on homicide, and give lesser wrongs lesser penalties — fines",
+            "ru": "Отменить их, но сохранить закон об убийстве, а за меньшие проступки назначить меньшие наказания — штрафы",
+            "uk": "Скасувати їх, але зберегти закон про вбивство, а за менші провини призначити менші покарання — штрафи",
+            "pl": "Uchylić je, ale zachować prawo o zabójstwie, a za mniejsze przewinienia wyznaczyć mniejsze kary — grzywny"
+          },
+          "reply": {
+            "en": "This is what Solon did: Plutarch lists his fines — a hundred drachmas for the rape of a free woman, twenty for seducing her, three drachmas to a man slandered in a temple or a court, and two more to the city.",
+            "ru": "Так Солон и поступил: Плутарх перечисляет его штрафы — сто драхм за насилие над свободной женщиной, двадцать за её совращение, три драхмы тому, кого злословили в храме или в суде, и ещё две — городу.",
+            "uk": "Так Солон і вчинив: Плутарх перелічує його штрафи — сто драхм за насильство над вільною жінкою, двадцять за її звабу, три драхми тому, кого лихословили в храмі чи в суді, і ще дві — місту.",
+            "pl": "Tak właśnie postąpił Solon: Plutarch wylicza jego grzywny — sto drachm za zgwałcenie wolnej kobiety, dwadzieścia za jej uwiedzenie, trzy drachmy dla tego, kogo oczerniono w świątyni lub w sądzie, i jeszcze dwie dla miasta."
+          }
+        },
+        {
+          "choice": {
+            "en": "Let any citizen take to court a wrong done to anyone, not only the one who suffered it",
+            "ru": "Позволить любому гражданину привлечь к суду за обиду, причинённую кому угодно, а не только пострадавшему",
+            "uk": "Дозволити будь-якому громадянинові позиватися за кривду, заподіяну будь-кому, а не лише потерпілому",
+            "pl": "Pozwolić każdemu obywatelowi pozwać za krzywdę wyrządzoną komukolwiek, nie tylko poszkodowanemu"
+          },
+          "reply": {
+            "en": "Solon made this law too; asked which city was best governed, he is said to have answered: the one where those who are not wronged pursue and punish the wrongdoers as much as those who are.",
+            "ru": "Солон издал и этот закон; на вопрос, какой город устроен лучше всех, он, говорят, ответил: тот, где не потерпевшие обиды преследуют и наказывают обидчиков не меньше, чем потерпевшие.",
+            "uk": "Солон ухвалив і цей закон; на питання, яке місто влаштоване найкраще, він, кажуть, відповів: те, де ті, кого не скривдили, переслідують і карають кривдників не менше, ніж скривджені.",
+            "pl": "Solon ustanowił i to prawo; zapytany, które miasto jest najlepiej urządzone, miał odpowiedzieć: to, w którym ci, których nie skrzywdzono, ścigają i karzą krzywdzicieli nie mniej niż skrzywdzeni."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "Solon repealed all of Draco's laws except those on homicide, and wrote new ones, graded to the offence; the right of any citizen to seek redress for another was later counted among the most democratic things he did. His laws were set up on wooden tablets in the King's Porch, and the Athenians swore to keep them for a hundred years. Then, beset by people who wanted them explained or changed, he left Athens for ten years: the laws, he held, should be obeyed as they were written. He pleased neither side — the poor had hoped for a share-out of all property, the rich for the old order — and a generation later Peisistratus made himself tyrant, though he kept most of Solon's laws. Draco's law on homicide outlived them both: in 409/8 BC the Athenians had it copied onto a marble stele, part of which survives.",
+        "ru": "Солон отменил все законы Драконта, кроме законов об убийстве, и написал новые, соразмеренные с проступком; право любого гражданина добиваться возмещения за другого позже назвали одним из самых демократических его дел. Его законы выставили на деревянных таблицах в Царском портике, и афиняне поклялись соблюдать их сто лет. Затем, осаждаемый людьми, которые хотели, чтобы он их растолковал или изменил, он на десять лет уехал из Афин: законы, считал он, надо исполнять так, как они написаны. Он не угодил ни одной стороне — бедные надеялись на передел всего имущества, богатые на прежний порядок, — и поколение спустя тираном стал Писистрат, хотя и сохранил бо́льшую часть законов Солона. Закон Драконта об убийстве пережил их обоих: в 409/408 году до н. э. афиняне велели переписать его на мраморную стелу, часть которой сохранилась.",
+        "uk": "Солон скасував усі закони Драконта, крім законів про вбивство, і написав нові, співмірні з провиною; право будь-якого громадянина домагатися відшкодування за іншого згодом назвали одним із найдемократичніших його діянь. Його закони виставили на дерев’яних таблицях у Царському портику, і афіняни поклялися дотримуватися їх сто років. Тоді, обсаджений людьми, які хотіли, щоб він їх розтлумачив чи змінив, він на десять років виїхав з Афін: закони, вважав він, треба виконувати так, як їх написано. Він не догодив жодній стороні — бідні сподівалися на переділ усього майна, багаті на давній лад, — і через покоління тираном став Пісістрат, хоча й зберіг більшість законів Солона. Закон Драконта про вбивство пережив їх обох: 409/408 року до н. е. афіняни звеліли переписати його на мармурову стелу, частина якої збереглася.",
+        "pl": "Solon uchylił wszystkie prawa Drakona z wyjątkiem praw o zabójstwie i napisał nowe, stopniowane według przewinienia; prawo każdego obywatela do dochodzenia zadośćuczynienia za kogoś innego zaliczono później do najbardziej demokratycznych spośród jego dzieł. Jego prawa wystawiono na drewnianych tablicach w Portyku Królewskim, a Ateńczycy przysięgli przestrzegać ich przez sto lat. Potem, oblegany przez ludzi, którzy chcieli, by je objaśnił albo zmienił, na dziesięć lat opuścił Ateny: prawa, uważał, należy wypełniać tak, jak są napisane. Nie zadowolił żadnej strony — biedni liczyli na podział całego majątku, bogaci na dawny porządek — i pokolenie później tyranem został Pizystrat, choć zachował większość praw Solona. Prawo Drakona o zabójstwie przetrwało ich obu: w 409/408 roku p.n.e. Ateńczycy kazali przepisać je na marmurową stelę, której część się zachowała."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Plutarch, Life of Solon 17",
+            "ru": "Плутарх, «Солон» 17",
+            "uk": "Плутарх, «Солон» 17",
+            "pl": "Plutarch, Solon 17"
+          },
+          "quotes": {
+            "en": {
+              "edition": "solon-punishment.en.clough",
+              "from": "17.1",
+              "to": "17.1",
+              "text": "First, then, he repealed all Draco's laws, except those concerning homicide, because they were too severe, and the punishments too great; for death was appointed for almost all offences, insomuch that those that were convicted of idleness were to die, and those that stole a cabbage or an apple to suffer even as villains that committed sacrilege or murder. So that Demades, in after time, was thought to have said very happily, that Draco's laws were written not with ink, but blood; and he himself, being once asked why he made death the punishment of most offences, replied, \"Small ones deserve that, and I have no higher for the greater crimes.\"",
+              "kind": "Free",
+              "translator": "Thomas Creech (in the translation called Dryden's, 1683), revised by Arthur Hugh Clough",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Plutarch%27s_Lives_(Clough)/Life_of_Solon",
+                "lang": "en",
+                "title": "Plutarch, Life of Solon"
+              }
+            },
+            "ru": {
+              "edition": "solon-punishment.ru.ours",
+              "from": "17.1",
+              "to": "17.1",
+              "text": "Прежде всего он отменил все законы Драконта, кроме касавшихся убийства, потому что они были слишком суровы, а наказания слишком велики: почти за все проступки была назначена смерть, так что осуждённые за праздность должны были умирать, а укравшие кочан капусты или яблоко — нести ту же кару, что и злодеи, совершившие святотатство или убийство. Потому Демад впоследствии, как считалось, очень удачно сказал, что законы Драконта написаны не чернилами, а кровью; а сам Драконт, когда его однажды спросили, почему он сделал смерть наказанием за большинство проступков, ответил: «Малые проступки заслуживают её, а для больших преступлений у меня нет ничего выше».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Plutarch%27s_Lives_(Clough)/Life_of_Solon",
+                "lang": "en",
+                "title": "Плутарх, «Солон»"
+              }
+            },
+            "uk": {
+              "edition": "solon-punishment.uk.ours",
+              "from": "17.1",
+              "to": "17.1",
+              "text": "Насамперед він скасував усі закони Драконта, крім тих, що стосувалися вбивства, бо вони були надто суворі, а покарання надто великі: майже за всі провини було призначено смерть, так що засуджені за неробство мали вмирати, а ті, хто вкрав качан капусти чи яблуко, — зазнавати тієї самої кари, що й лиходії, які вчинили святотатство чи вбивство. Тому Демад згодом, як вважали, дуже влучно сказав, що закони Драконта написані не чорнилом, а кров’ю; а сам Драконт, коли його якось спитали, чому він зробив смерть покаранням за більшість провин, відповів: «Малі провини на неї заслуговують, а для більших злочинів я не маю нічого вищого».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Plutarch%27s_Lives_(Clough)/Life_of_Solon",
+                "lang": "en",
+                "title": "Плутарх, «Солон»"
+              }
+            },
+            "pl": {
+              "edition": "solon-punishment.pl.ours",
+              "from": "17.1",
+              "to": "17.1",
+              "text": "Najpierw więc uchylił wszystkie prawa Drakona z wyjątkiem tych, które dotyczyły zabójstwa, ponieważ były zbyt surowe, a kary zbyt wielkie: niemal za wszystkie przewinienia wyznaczono śmierć, tak że skazani za próżniactwo mieli umierać, a ci, którzy ukradli główkę kapusty albo jabłko, ponosić tę samą karę co złoczyńcy winni świętokradztwa lub morderstwa. Dlatego Demades, jak sądzono, bardzo trafnie powiedział później, że prawa Drakona napisano nie atramentem, lecz krwią; a sam Drakon, zapytany kiedyś, dlaczego za większość przewinień ustanowił karę śmierci, odpowiedział: „Małe na nią zasługują, a na większe zbrodnie nie mam wyższej”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Plutarch%27s_Lives_(Clough)/Life_of_Solon",
+                "lang": "en",
+                "title": "Plutarch, Żywot Solona"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg007.perseus-grc2:17.1/"
+          }
+        },
+        {
+          "by": {
+            "en": "Solon's own lines, in the Constitution of the Athenians 12.4",
+            "ru": "Стихи самого Солона, в «Афинской политии» 12.4",
+            "uk": "Вірші самого Солона, в «Афінській політії» 12.4",
+            "pl": "Wiersze samego Solona, w Ustroju politycznym Aten 12.4"
+          },
+          "quotes": {
+            "en": {
+              "edition": "athenians-punishment.en.kenyon",
+              "from": "12.4",
+              "to": "12.4",
+              "text": "Equal laws I gave To evil and to good, with even hand Drawing straight justice for the lot of each.",
+              "kind": "Free",
+              "translator": "Frederic G. Kenyon",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Athenian_Constitution",
+                "lang": "en",
+                "title": "Aristotle (or his school), The Constitution of the Athenians"
+              }
+            },
+            "ru": {
+              "edition": "athenians-punishment.ru.ours",
+              "from": "12.4",
+              "to": "12.4",
+              "text": "Равные законы дал я злому и доброму, ровной рукой отмеряя прямую справедливость на долю каждого.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Athenian_Constitution",
+                "lang": "en",
+                "title": "Аристотель, «Афинская полития»"
+              }
+            },
+            "uk": {
+              "edition": "athenians-punishment.uk.ours",
+              "from": "12.4",
+              "to": "12.4",
+              "text": "Рівні закони дав я злому й доброму, рівною рукою відміряючи пряму справедливість на долю кожного.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Athenian_Constitution",
+                "lang": "en",
+                "title": "Арістотель, «Афінська політія»"
+              }
+            },
+            "pl": {
+              "edition": "athenians-punishment.pl.ours",
+              "from": "12.4",
+              "to": "12.4",
+              "text": "Równe prawa dałem złym i dobrym, równą ręką odmierzając prostą sprawiedliwość na los każdego.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Athenian_Constitution",
+                "lang": "en",
+                "title": "Arystoteles, Ustrój polityczny Aten"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg003.perseus-grc2:12.4/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The Constitution of the Athenians dates Draco's laws only by the archon of the year, Aristaichmus; the traditional date is 621 BC. It counts them as the first code of laws Athens had.",
+            "ru": "«Афинская полития» датирует законы Драконта лишь именем архонта того года, Аристехма; по преданию, это 621 год до н. э. Она называет их первым сводом законов, какой был у Афин.",
+            "uk": "«Афінська політія» датує закони Драконта лише іменем архонта того року, Аристехма; за переказом, це 621 рік до н. е. Вона називає їх першим зводом законів, який мали Афіни.",
+            "pl": "Ustrój polityczny Aten datuje prawa Drakona tylko imieniem archonta tego roku, Arystajchmosa; według tradycji jest to rok 621 p.n.e. Uznaje je za pierwszy zbiór praw, jaki miały Ateny."
+          },
+          "source": "Constitution of the Athenians 4.1, 41.2; P. J. Rhodes, A Commentary on the Aristotelian Athenaion Politeia (1981)"
+        },
+        {
+          "fact": {
+            "en": "The stele of 409/8 BC, broken, was found in Athens and can still be read in part. Draco's law, as it gives it, opens: \"even if a man kills another without intent, he shall go into exile\".",
+            "ru": "Стела 409/408 года до н. э., расколотая, была найдена в Афинах, и её ещё можно отчасти прочесть. Закон Драконта, как она его передаёт, открывается словами: «даже если кто убьёт другого без умысла, пусть уходит в изгнание».",
+            "uk": "Стелу 409/408 року до н. е., розколоту, знайшли в Афінах, і її ще можна почасти прочитати. Закон Драконта, як вона його передає, відкривається словами: «навіть якщо хтось уб’є іншого без наміру, хай іде у вигнання».",
+            "pl": "Stelę z 409/408 roku p.n.e., rozbitą, odnaleziono w Atenach i wciąż można ją częściowo odczytać. Prawo Drakona, tak jak ona je podaje, otwierają słowa: „nawet jeśli ktoś zabije drugiego bez zamiaru, niech idzie na wygnanie”."
+          },
+          "source": "Inscriptiones Graecae I³ 104; Michael Gagarin, Drakon and Early Athenian Homicide Law (1981)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Beccaria: certainty, not cruelty",
+        "ru": "Беккариа: неотвратимость, а не жестокость",
+        "uk": "Беккаріа: невідворотність, а не жорстокість",
+        "pl": "Beccaria: pewność, nie okrucieństwo"
+      },
+      "intro": {
+        "en": "Milan, 1764, under Austrian rule. Across Europe the accused are still tortured to make them confess, thieves are hanged, and the worst criminals are broken on the wheel in the public square. Cesare Beccaria, a young marquis of twenty-six who has been reading Montesquieu and the English and French philosophers, writes, urged on by his friends Pietro and Alessandro Verri, a short book on crimes and punishments. It asks what a punishment is for — and answers that cruelty is not only wicked but useless.",
+        "ru": "Милан, 1764 год, под властью Австрии. По всей Европе обвиняемых всё ещё пытают, чтобы добиться признания, воров вешают, а худших преступников колесуют на площади. Чезаре Беккариа, молодой маркиз двадцати шести лет, читавший Монтескьё и английских и французских философов, по настоянию своих друзей Пьетро и Алессандро Верри пишет небольшую книгу о преступлениях и наказаниях. Она спрашивает, для чего нужно наказание, — и отвечает, что жестокость не только дурна, но и бесполезна.",
+        "uk": "Мілан, 1764 рік, під владою Австрії. По всій Європі обвинувачених досі катують, щоб домогтися зізнання, злодіїв вішають, а найгірших злочинців колесують на площі. Чезаре Беккаріа, молодий маркіз двадцяти шести років, що читав Монтеск’є та англійських і французьких філософів, на наполягання своїх друзів П’єтро й Алессандро Веррі пише невелику книжку про злочини та покарання. Вона питає, для чого потрібне покарання, — і відповідає, що жорстокість не лише лиха, а й марна.",
+        "pl": "Mediolan, rok 1764, pod panowaniem Austrii. W całej Europie oskarżonych wciąż się torturuje, by wymusić przyznanie się do winy, złodziei się wiesza, a najgorszych przestępców łamie kołem na rynku. Cesare Beccaria, młody markiz dwudziestosześcioletni, który czytał Monteskiusza oraz angielskich i francuskich filozofów, za namową swych przyjaciół Pietra i Alessandra Verrich pisze niewielką książkę o przestępstwach i karach. Pyta w niej, czemu służy kara — i odpowiada, że okrucieństwo jest nie tylko złe, ale i bezużyteczne."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Beccaria, On Crimes and Punishments, chapter 12",
+            "ru": "Беккариа, «О преступлениях и наказаниях», глава 12",
+            "uk": "Беккаріа, «Про злочини та покарання», розділ 12",
+            "pl": "Beccaria, O przestępstwach i karach, rozdział 12"
+          },
+          "quotes": {
+            "en": {
+              "edition": "beccaria-punishment.en.anonymous",
+              "from": "12.2",
+              "to": "12.2",
+              "text": "The end of punishment, therefore, is no other, than to prevent the criminal from doing further injury to society, and to prevent others from committing the like offence. Such punishments, therefore, and such a mode of inflicting them, ought to be chosen, as will make the strongest and most lasting impressions on the minds of others, with the least torment to the body of the criminal.",
+              "kind": "Free",
+              "translator": "an anonymous translator (1767)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/An_Essay_on_Crimes_and_Punishments",
+                "lang": "en",
+                "title": "Cesare Beccaria, On Crimes and Punishments"
+              }
+            },
+            "ru": {
+              "edition": "beccaria-punishment.ru.ours",
+              "from": "12.2",
+              "to": "12.2",
+              "text": "Итак, цель наказания — не что иное, как помешать преступнику и дальше вредить обществу и удержать других от подобного преступления. Поэтому следует избирать такие наказания и такой способ их исполнения, которые произведут самое сильное и самое долгое впечатление на умы других при наименьшем мучении для тела преступника.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/An_Essay_on_Crimes_and_Punishments",
+                "lang": "en",
+                "title": "Чезаре Беккариа, «О преступлениях и наказаниях»"
+              }
+            },
+            "uk": {
+              "edition": "beccaria-punishment.uk.ours",
+              "from": "12.2",
+              "to": "12.2",
+              "text": "Отже, мета покарання — не що інше, як не дати злочинцеві й далі шкодити суспільству та втримати інших від подібного злочину. Тому слід обирати такі покарання і такий спосіб їх виконання, які справлять найсильніше й найтриваліше враження на уми інших за найменших мук для тіла злочинця.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/An_Essay_on_Crimes_and_Punishments",
+                "lang": "en",
+                "title": "Чезаре Беккаріа, «Про злочини та покарання»"
+              }
+            },
+            "pl": {
+              "edition": "beccaria-punishment.pl.ours",
+              "from": "12.2",
+              "to": "12.2",
+              "text": "Celem kary nie jest więc nic innego, jak przeszkodzić przestępcy w wyrządzaniu dalszych szkód społeczeństwu i powstrzymać innych od popełnienia podobnego przestępstwa. Należy zatem wybierać takie kary i taki sposób ich wymierzania, które wywrą najsilniejsze i najtrwalsze wrażenie na umysłach innych przy najmniejszej męce ciała przestępcy.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/An_Essay_on_Crimes_and_Punishments",
+                "lang": "en",
+                "title": "Cesare Beccaria, O przestępstwach i karach"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Italian",
+              "ru": "оригинал на итальянском",
+              "uk": "оригінал італійською",
+              "pl": "oryginał po włosku"
+            },
+            "url": "https://it.wikisource.org/wiki/Dei_delitti_e_delle_pene/Capitolo_XII"
+          }
+        },
+        {
+          "by": {
+            "en": "Chapter 27, Of the Mildness of Punishments",
+            "ru": "Глава 27, «О мягкости наказаний»",
+            "uk": "Розділ 27, «Про м’якість покарань»",
+            "pl": "Rozdział 27, O łagodności kar"
+          },
+          "quotes": {
+            "en": {
+              "edition": "beccaria-punishment.en.anonymous",
+              "from": "27.1",
+              "to": "27.1",
+              "text": "Crimes are more effectually prevented by the certainty, than the severity of punishment.",
+              "kind": "Free",
+              "translator": "an anonymous translator (1767)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/An_Essay_on_Crimes_and_Punishments",
+                "lang": "en",
+                "title": "Cesare Beccaria, On Crimes and Punishments"
+              }
+            },
+            "ru": {
+              "edition": "beccaria-punishment.ru.ours",
+              "from": "27.1",
+              "to": "27.1",
+              "text": "Преступления надёжнее предупреждаются неотвратимостью наказания, чем его суровостью.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/An_Essay_on_Crimes_and_Punishments",
+                "lang": "en",
+                "title": "Чезаре Беккариа, «О преступлениях и наказаниях»"
+              }
+            },
+            "uk": {
+              "edition": "beccaria-punishment.uk.ours",
+              "from": "27.1",
+              "to": "27.1",
+              "text": "Злочинам надійніше запобігає невідворотність покарання, ніж його суворість.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/An_Essay_on_Crimes_and_Punishments",
+                "lang": "en",
+                "title": "Чезаре Беккаріа, «Про злочини та покарання»"
+              }
+            },
+            "pl": {
+              "edition": "beccaria-punishment.pl.ours",
+              "from": "27.1",
+              "to": "27.1",
+              "text": "Przestępstwom skuteczniej zapobiega pewność kary niż jej surowość.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/An_Essay_on_Crimes_and_Punishments",
+                "lang": "en",
+                "title": "Cesare Beccaria, O przestępstwach i karach"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Italian",
+              "ru": "оригинал на итальянском",
+              "uk": "оригінал італійською",
+              "pl": "oryginał po włosku"
+            },
+            "url": "https://it.wikisource.org/wiki/Dei_delitti_e_delle_pene/Capitolo_XXVII"
+          }
+        },
+        {
+          "by": {
+            "en": "The same chapter",
+            "ru": "Та же глава",
+            "uk": "Той самий розділ",
+            "pl": "Ten sam rozdział"
+          },
+          "quotes": {
+            "en": {
+              "edition": "beccaria-punishment.en.anonymous",
+              "from": "27.2",
+              "to": "27.2",
+              "text": "That a punishment may produce the effect required, it is sufficient that the evil it occasions should exceed the good expected from the crime; including in the calculation the certainty of the punishment, and the privation of the expected advantage. All severity beyond this is superfluous, and therefore tyrannical.",
+              "kind": "Free",
+              "translator": "an anonymous translator (1767)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/An_Essay_on_Crimes_and_Punishments",
+                "lang": "en",
+                "title": "Cesare Beccaria, On Crimes and Punishments"
+              }
+            },
+            "ru": {
+              "edition": "beccaria-punishment.ru.ours",
+              "from": "27.2",
+              "to": "27.2",
+              "text": "Чтобы наказание произвело нужное действие, достаточно, чтобы причиняемое им зло превышало благо, ожидаемое от преступления, — включая в расчёт неотвратимость наказания и потерю ожидаемой выгоды. Всякая суровость сверх этого излишня и потому тиранична.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/An_Essay_on_Crimes_and_Punishments",
+                "lang": "en",
+                "title": "Чезаре Беккариа, «О преступлениях и наказаниях»"
+              }
+            },
+            "uk": {
+              "edition": "beccaria-punishment.uk.ours",
+              "from": "27.2",
+              "to": "27.2",
+              "text": "Щоб покарання справило потрібну дію, досить, щоб заподіяне ним зло перевищувало благо, очікуване від злочину, — враховуючи в розрахунку невідворотність покарання і втрату очікуваної вигоди. Будь-яка суворість понад це зайва, а отже, тиранічна.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/An_Essay_on_Crimes_and_Punishments",
+                "lang": "en",
+                "title": "Чезаре Беккаріа, «Про злочини та покарання»"
+              }
+            },
+            "pl": {
+              "edition": "beccaria-punishment.pl.ours",
+              "from": "27.2",
+              "to": "27.2",
+              "text": "Aby kara wywarła zamierzony skutek, wystarczy, by zło, które wyrządza, przewyższało dobro spodziewane z przestępstwa — wliczając w rachunek pewność kary i utratę spodziewanej korzyści. Wszelka surowość ponad to jest zbędna, a zatem tyrańska.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/An_Essay_on_Crimes_and_Punishments",
+                "lang": "en",
+                "title": "Cesare Beccaria, O przestępstwach i karach"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Italian",
+              "ru": "оригинал на итальянском",
+              "uk": "оригінал італійською",
+              "pl": "oryginał po włosku"
+            },
+            "url": "https://it.wikisource.org/wiki/Dei_delitti_e_delle_pene/Capitolo_XXVII"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Beccaria published the book anonymously, at Livorno in Tuscany, in 1764; in 1766 it was put on the Catholic Church's Index of Forbidden Books. By then it was being read all over Europe: André Morellet's French translation came out the same year, and Voltaire wrote a commentary on it.",
+            "ru": "Беккариа издал книгу анонимно, в Ливорно, в Тоскане, в 1764 году; в 1766 году её внесли в Индекс запрещённых книг католической церкви. К тому времени её читали по всей Европе: в том же году вышел французский перевод Андре Морелле, а Вольтер написал к ней комментарий.",
+            "uk": "Беккаріа видав книжку анонімно, у Ліворно, в Тоскані, 1764 року; 1766 року її внесли до Індексу заборонених книг католицької церкви. На той час її читали по всій Європі: того ж року вийшов французький переклад Андре Мореле, а Вольтер написав до неї коментар.",
+            "pl": "Beccaria wydał książkę anonimowo, w Livorno w Toskanii, w 1764 roku; w 1766 roku wpisano ją na kościelny Indeks ksiąg zakazanych. Czytano ją już wtedy w całej Europie: w tym samym roku ukazał się francuski przekład André Morelleta, a Wolter napisał do niej komentarz."
+          },
+          "source": "Richard Bellamy, introduction to Beccaria, On Crimes and Punishments and Other Writings (Cambridge, 1995)"
+        },
+        {
+          "fact": {
+            "en": "Catherine II of Russia drew on it for her Instruction (Nakaz) of 1767 to the commission that was to draw up a new code of laws for the empire, copying whole passages. The commission met, debated, and never produced the code.",
+            "ru": "Екатерина II опиралась на неё в своём «Наказе» 1767 года комиссии, которая должна была составить для империи новое уложение, и переписывала из неё целые места. Комиссия собиралась, спорила — и так и не создала уложения.",
+            "uk": "Катерина II спиралася на неї у своєму «Наказі» 1767 року комісії, яка мала укласти для імперії нове уложення, і переписувала з неї цілі місця. Комісія збиралася, сперечалася — і так і не створила уложення.",
+            "pl": "Katarzyna II oparła się na niej w swojej Instrukcji (Nakazie) z 1767 roku dla komisji, która miała ułożyć dla cesarstwa nowy kodeks praw, przepisując z niej całe ustępy. Komisja zbierała się, debatowała — i nigdy nie stworzyła kodeksu."
+          },
+          "source": "Isabel de Madariaga, Russia in the Age of Catherine the Great (1981)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Kant: punishment because it is deserved",
+        "ru": "Кант: наказание — потому что оно заслужено",
+        "uk": "Кант: покарання — бо воно заслужене",
+        "pl": "Kant: kara, bo jest zasłużona"
+      },
+      "intro": {
+        "en": "Königsberg, 1797. Torture has by now been abolished in Prussia, Austria and elsewhere, and in 1786 Tuscany abolished the death penalty altogether. Immanuel Kant, seventy-two, publishes the Doctrine of Right, the first part of his long-promised Metaphysics of Morals. He does not deny that punishment may deter. He denies that this is what gives us the right to punish — and he follows his answer to its hardest case.",
+        "ru": "Кёнигсберг, 1797 год. Пытки к этому времени отменены в Пруссии, Австрии и других странах, а в 1786 году Тоскана вовсе отменила смертную казнь. Иммануил Кант, которому семьдесят два года, издаёт «Учение о праве» — первую часть своей давно обещанной «Метафизики нравов». Он не отрицает, что наказание может устрашать. Он отрицает, что именно это даёт нам право наказывать, — и доводит свой ответ до самого трудного случая.",
+        "uk": "Кенігсберг, 1797 рік. Тортури на цей час скасовано в Пруссії, Австрії та інших країнах, а 1786 року Тоскана взагалі скасувала смертну кару. Іммануїл Кант, якому сімдесят два роки, видає «Вчення про право» — першу частину своєї давно обіцяної «Метафізики звичаїв». Він не заперечує, що покарання може залякувати. Він заперечує, що саме це дає нам право карати, — і доводить свою відповідь до найважчого випадку.",
+        "pl": "Królewiec, rok 1797. Tortury zniesiono już w Prusach, Austrii i gdzie indziej, a w 1786 roku Toskania w ogóle zniosła karę śmierci. Immanuel Kant, siedemdziesięciodwuletni, wydaje Naukę prawa — pierwszą część swojej dawno obiecanej Metafizyki moralności. Nie przeczy, że kara może odstraszać. Przeczy, że to właśnie daje nam prawo karać — i prowadzi swoją odpowiedź aż do najtrudniejszego przypadku."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Kant, The Metaphysics of Morals, Doctrine of Right, General Remark E (6:331)",
+            "ru": "Кант, «Метафизика нравов», «Учение о праве», общее примечание E (6:331)",
+            "uk": "Кант, «Метафізика звичаїв», «Вчення про право», загальна примітка E (6:331)",
+            "pl": "Kant, Metafizyka moralności, Nauka prawa, uwaga ogólna E (6:331)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "metaphysics-punishment.en.hastie",
+              "from": "6.331",
+              "to": "6.331",
+              "text": "Juridical Punishment can never be administered merely as a means for promoting another Good either with regard to the Criminal himself or to Civil Society, but must in all cases be imposed only because the individual on whom it is inflicted has committed a Crime. For one man ought never to be dealt with merely as a means subservient to the purpose of another, nor be mixed up with the subjects of Real Right. Against such treatment his Inborn Personality has a Right to protect him, even although he may be condemned to lose his Civil Personality. He must first be found guilty and punishable, before there can be any thought of drawing from his Punishment any benefit for himself or his fellow-citizens.",
+              "kind": "Free",
+              "translator": "William Hastie",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Philosophy_of_Law",
+                "lang": "en",
+                "title": "Kant, The Metaphysics of Morals: Doctrine of Right"
+              }
+            },
+            "ru": {
+              "edition": "metaphysics-punishment.ru.ours",
+              "from": "6.331",
+              "to": "6.331",
+              "text": "Судебное наказание никогда не может назначаться лишь как средство для достижения другого блага — для самого преступника или для гражданского общества, — но во всех случаях должно налагаться только потому, что тот, кого наказывают, совершил преступление. Ибо с человеком никогда нельзя обращаться лишь как со средством для целей другого и смешивать его с предметами вещного права. От такого обращения его защищает его врождённая личность, даже если он может быть приговорён к утрате гражданской личности. Сначала он должен быть признан виновным и заслуживающим наказания, и лишь потом можно думать о том, чтобы извлечь из его наказания какую-либо пользу для него самого или для его сограждан.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Philosophy_of_Law",
+                "lang": "en",
+                "title": "Кант, «Метафизика нравов. Учение о праве»"
+              }
+            },
+            "uk": {
+              "edition": "metaphysics-punishment.uk.ours",
+              "from": "6.331",
+              "to": "6.331",
+              "text": "Судове покарання ніколи не може призначатися лише як засіб для досягнення іншого блага — для самого злочинця чи для громадянського суспільства, — але в усіх випадках має накладатися тільки тому, що той, кого карають, учинив злочин. Бо з людиною ніколи не можна поводитися лише як із засобом для цілей когось іншого чи змішувати її з предметами речового права. Від такого поводження злочинця захищає його вроджена особистість, навіть якщо його можуть засудити до втрати громадянської особистості. Спершу його мають визнати винним і таким, що заслуговує покарання, і лише тоді можна думати про те, щоб здобути з його покарання якусь користь для нього самого чи для його співгромадян.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Philosophy_of_Law",
+                "lang": "en",
+                "title": "Кант, «Метафізика звичаїв. Вчення про право»"
+              }
+            },
+            "pl": {
+              "edition": "metaphysics-punishment.pl.ours",
+              "from": "6.331",
+              "to": "6.331",
+              "text": "Kara sądowa nigdy nie może być wymierzana jedynie jako środek do osiągnięcia jakiegoś innego dobra — dla samego przestępcy albo dla społeczeństwa obywatelskiego — lecz musi być we wszystkich przypadkach nakładana tylko dlatego, że ten, na kogo się ją nakłada, popełnił przestępstwo. Z człowiekiem bowiem nigdy nie wolno postępować jedynie jako ze środkiem do celów kogoś innego ani mieszać go z przedmiotami prawa rzeczowego. Przed takim traktowaniem chroni go jego wrodzona osobowość, nawet jeśli może zostać skazany na utratę osobowości obywatelskiej. Najpierw musi zostać uznany za winnego i zasługującego na karę, zanim w ogóle pomyśli się o wyciągnięciu z jego kary jakiejkolwiek korzyści dla niego samego lub dla jego współobywateli.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Philosophy_of_Law",
+                "lang": "en",
+                "title": "Kant, Metafizyka moralności. Nauka prawa"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in German",
+              "ru": "оригинал на немецком",
+              "uk": "оригінал німецькою",
+              "pl": "oryginał po niemiecku"
+            },
+            "url": "https://korpora.org/Kant/aa06/331.html"
+          }
+        },
+        {
+          "by": {
+            "en": "The same remark: the island (6:333)",
+            "ru": "То же примечание: остров (6:333)",
+            "uk": "Та сама примітка: острів (6:333)",
+            "pl": "Ta sama uwaga: wyspa (6:333)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "metaphysics-punishment.en.hastie",
+              "from": "6.332",
+              "to": "6.332",
+              "text": "Even if a Civil Society resolved to dissolve itself with the consent of all its members—as might be supposed in the case of a People inhabiting an island resolving to separate and scatter themselves throughout the whole world—the last Murderer lying in the prison ought to be executed before the resolution was carried out. This ought to be done in order that every one may realize the desert of his deeds, and that bloodguiltiness may not remain upon the people; for otherwise they might all be regarded as participators in the murder as a public violation of Justice.",
+              "kind": "Free",
+              "translator": "William Hastie",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Philosophy_of_Law",
+                "lang": "en",
+                "title": "Kant, The Metaphysics of Morals: Doctrine of Right"
+              }
+            },
+            "ru": {
+              "edition": "metaphysics-punishment.ru.ours",
+              "from": "6.332",
+              "to": "6.332",
+              "text": "Даже если бы гражданское общество с согласия всех своих членов решило распуститься — как, например, если бы народ, живущий на острове, решил разойтись и рассеяться по всему свету, — последний убийца, находящийся в тюрьме, должен был бы быть казнён прежде, чем это решение будет исполнено. Это должно быть сделано для того, чтобы каждый испытал то, чего заслуживают его дела, и чтобы кровавая вина не осталась на народе; ибо иначе все они могли бы считаться соучастниками этого убийства как публичного нарушения справедливости.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Philosophy_of_Law",
+                "lang": "en",
+                "title": "Кант, «Метафизика нравов. Учение о праве»"
+              }
+            },
+            "uk": {
+              "edition": "metaphysics-punishment.uk.ours",
+              "from": "6.332",
+              "to": "6.332",
+              "text": "Навіть якби громадянське суспільство за згодою всіх своїх членів вирішило розпуститися — як, скажімо, якби народ, що живе на острові, вирішив розійтися й розсіятися по всьому світу, — останнього вбивцю, який перебуває у в’язниці, слід було б стратити, перш ніж це рішення буде виконано. Це треба зробити для того, щоб кожен зазнав того, на що заслуговують його вчинки, і щоб кривава провина не лишилася на народі; бо інакше всіх їх можна було б вважати співучасниками цього вбивства як публічного порушення справедливості.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Philosophy_of_Law",
+                "lang": "en",
+                "title": "Кант, «Метафізика звичаїв. Вчення про право»"
+              }
+            },
+            "pl": {
+              "edition": "metaphysics-punishment.pl.ours",
+              "from": "6.332",
+              "to": "6.332",
+              "text": "Nawet gdyby społeczeństwo obywatelskie za zgodą wszystkich swoich członków postanowiło się rozwiązać — jak gdyby lud zamieszkujący wyspę postanowił się rozejść i rozproszyć po całym świecie — ostatni morderca przebywający w więzieniu powinien zostać stracony, zanim to postanowienie zostanie wykonane. Należy to uczynić po to, by każdy doznał tego, na co zasługują jego czyny, i by wina krwi nie pozostała na ludzie; inaczej bowiem wszyscy mogliby zostać uznani za współuczestników tego morderstwa jako publicznego pogwałcenia sprawiedliwości.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Philosophy_of_Law",
+                "lang": "en",
+                "title": "Kant, Metafizyka moralności. Nauka prawa"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in German",
+              "ru": "оригинал на немецком",
+              "uk": "оригінал німецькою",
+              "pl": "oryginał po niemiecku"
+            },
+            "url": "https://korpora.org/Kant/aa06/333.html"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "In the same remark Kant answers Beccaria by name: moved, he writes, by \"the compassionate sentimentality of a humane feeling\", Beccaria held that no one could consent in the social contract to his own death. Kant calls this \"mere sophistry\": no one is punished because he willed the punishment, but because he willed a punishable act.",
+            "ru": "В том же примечании Кант отвечает Беккариа поимённо: тот, пишет он, движимый «сострадательной чувствительностью гуманного чувства», утверждал, что в общественном договоре никто не мог согласиться на собственную смерть. Кант называет это «чистой софистикой»: никого не наказывают за то, что он хотел наказания, — его наказывают за то, что он хотел наказуемого поступка.",
+            "uk": "У тій самій примітці Кант відповідає Беккаріа поіменно: той, пише він, рухомий «співчутливою чутливістю гуманного почуття», стверджував, що в суспільному договорі ніхто не міг погодитися на власну смерть. Кант називає це «чистою софістикою»: нікого не карають за те, що він хотів покарання, — його карають за те, що він хотів караного вчинку.",
+            "pl": "W tej samej uwadze Kant odpowiada Beccarii z imienia: ten, pisze, poruszony „współczującą czułostkowością ludzkiego uczucia”, twierdził, że w umowie społecznej nikt nie mógł zgodzić się na własną śmierć. Kant nazywa to „czystą sofistyką”: nikogo nie karze się za to, że chciał kary, lecz za to, że chciał czynu podlegającego karze."
+          },
+          "source": "Kant, The Metaphysics of Morals, Doctrine of Right, General Remark E (Academy edition 6:334–335)"
+        },
+        {
+          "fact": {
+            "en": "The \"Pharisaic maxim\" Kant scorns a few lines further on — \"It is better that one man should die than that the whole people should perish\" — is the high priest Caiaphas' counsel to the council about Jesus: \"it is expedient for us, that one man should die for the people, and that the whole nation perish not.\"",
+            "ru": "«Фарисейское правило», которое Кант отвергает несколькими строками дальше, — «лучше одному человеку умереть, чем погибнуть всему народу», — это совет первосвященника Каиафы синедриону об Иисусе: «лучше нам, чтобы один человек умер за людей, нежели чтобы весь народ погиб».",
+            "uk": "«Фарисейське правило», яке Кант відкидає кількома рядками далі, — «краще одній людині померти, ніж загинути всьому народові», — це порада первосвященика Каяфи синедріонові про Ісуса: «краще для нас, щоб один чоловік помер за людей, аніж щоб увесь народ мав загинути».",
+            "pl": "„Faryzejska maksyma”, którą Kant odrzuca kilka linijek dalej — „lepiej, żeby umarł jeden człowiek, niż żeby zginął cały lud” — to rada arcykapłana Kajfasza dana Radzie w sprawie Jezusa: „lepiej jest dla nas, gdy jeden człowiek umrze za lud, niż miałby zginąć cały naród”."
+          },
+          "source": "Kant, The Metaphysics of Morals, Doctrine of Right, General Remark E (Academy edition 6:331); John 11:50 (King James Version)"
+        }
+      ]
+    },
+    {
+      "think": "punishment",
+      "question": {
+        "en": "Think of a punishment you know well — one you received, or gave, or read about in the news. What was it for: to pay back a wrong, to keep it from happening again, or to make the one punished better? And if a murderer could be made sure never to harm anyone again, and no one would ever know whether he was punished — should he still be punished? Why?",
+        "ru": "Вспомните наказание, которое вы хорошо знаете, — то, что получили вы сами, назначили кому-то или о котором прочли в новостях. Зачем оно было: чтобы воздать за зло, чтобы оно не повторилось или чтобы наказанный стал лучше? А если бы можно было точно знать, что убийца больше никому не причинит вреда, и никто никогда не узнал бы, наказан ли он, — нужно ли было бы всё равно его наказать? Почему?",
+        "uk": "Згадайте покарання, яке ви добре знаєте, — те, якого зазнали самі, яке призначили комусь або про яке прочитали в новинах. Навіщо воно було: щоб відплатити за зло, щоб воно не повторилося чи щоб покараний став кращим? А якби можна було напевно знати, що вбивця більше нікому не заподіє шкоди, і ніхто ніколи не дізнався б, чи його покарано, — чи треба було б однаково його покарати? Чому?",
+        "pl": "Pomyśl o karze, którą dobrze znasz — taką, którą sam otrzymałeś, komuś wymierzyłeś albo o której przeczytałeś w wiadomościach. Po co była: by odpłacić za zło, by się nie powtórzyło, czy by ukarany stał się lepszy? A gdyby można było mieć pewność, że morderca nigdy już nikogo nie skrzywdzi, i nikt nigdy by się nie dowiedział, czy został ukarany — czy mimo to należałoby go ukarać? Dlaczego?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: why do we punish?",
+        "ru": "А теперь: зачем мы наказываем?",
+        "uk": "А тепер: навіщо ми караємо?",
+        "pl": "A teraz: dlaczego karzemy?"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1697 @@
+{
+  "id": "courage",
+  "title": {
+    "en": "What is courage?",
+    "ru": "Что такое мужество?",
+    "uk": "Що таке мужність?",
+    "pl": "Czym jest męstwo?"
+  },
+  "subtitle": {
+    "en": "Plato, Aristotle, the Bhagavad Gita, Mencius and Herodotus — and you",
+    "ru": "Платон, Аристотель, Бхагавадгита, Мэн-цзы и Геродот — и вы",
+    "uk": "Платон, Аристотель, Бгаґавадґіта, Мен-цзи і Геродот — і ви",
+    "pl": "Platon, Arystoteles, Bhagawadgita, Mencjusz i Herodot — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: what is courage?",
+        "ru": "Прежде чем читать кого-либо: что такое мужество?",
+        "uk": "Перш ніж читати когось: що таке мужність?",
+        "pl": "Zanim kogokolwiek przeczytasz: czym jest męstwo?"
+      },
+      "options": [
+        {
+          "en": "Standing your ground when you are afraid",
+          "ru": "Стоять на своём месте, когда страшно",
+          "uk": "Стояти на своєму місці, коли страшно",
+          "pl": "Trwać na swoim miejscu, gdy się boisz"
+        },
+        {
+          "en": "Knowing what really deserves to be feared, and what does not",
+          "ru": "Знать, чего действительно стоит бояться, а чего нет",
+          "uk": "Знати, чого справді варто боятися, а чого ні",
+          "pl": "Wiedzieć, czego naprawdę warto się bać, a czego nie"
+        },
+        {
+          "en": "Doing your duty, whatever comes of it",
+          "ru": "Исполнять свой долг, что бы из этого ни вышло",
+          "uk": "Виконувати свій обов’язок, хоч би що з того вийшло",
+          "pl": "Spełniać swój obowiązek, cokolwiek z tego wyniknie"
+        },
+        {
+          "en": "Knowing you are in the right, so that nothing can shake you",
+          "ru": "Знать, что ты прав, — так, чтобы ничто не могло тебя поколебать",
+          "uk": "Знати, що ти правий, — так, щоб ніщо не могло тебе похитнути",
+          "pl": "Wiedzieć, że masz rację, tak by nic nie mogło tobą zachwiać"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Plato: two generals try to say what courage is",
+        "ru": "Платон: два полководца пытаются сказать, что такое мужество",
+        "uk": "Платон: два полководці намагаються сказати, що таке мужність",
+        "pl": "Platon: dwaj wodzowie próbują powiedzieć, czym jest męstwo"
+      },
+      "intro": {
+        "en": "Athens, a few years after the defeat at Delium in 424 BC. Two fathers ask two famous generals, Laches and Nicias, whether their sons should learn to fight in armour; Socrates is drawn in, and turns the talk to the question beneath it: if courage is what the boys should learn, what is courage? Laches, a soldier, answers first:",
+        "ru": "Афины, несколько лет спустя после поражения при Делии в 424 году до н. э. Двое отцов спрашивают двух знаменитых полководцев, Лахета и Никия, стоит ли их сыновьям учиться сражаться в доспехах; к разговору привлекают Сократа, и он поворачивает его к вопросу, который лежит под ним: если мальчикам нужно учиться мужеству, то что такое мужество? Первым отвечает Лахет, человек военный:",
+        "uk": "Афіни, кілька років після поразки під Делієм у 424 році до н. е. Двоє батьків питають двох славетних полководців, Лахета й Нікія, чи варто їхнім синам учитися битися в обладунках; до розмови залучають Сократа, і він повертає її до питання, що лежить під нею: якщо хлопцям треба вчитися мужності, то що таке мужність? Першим відповідає Лахет, вояк:",
+        "pl": "Ateny, kilka lat po klęsce pod Delion w 424 roku p.n.e. Dwaj ojcowie pytają dwóch słynnych wodzów, Lachesa i Nikiasza, czy ich synowie powinni uczyć się walki w zbroi; do rozmowy zostaje wciągnięty Sokrates i kieruje ją ku pytaniu, które się pod nią kryje: jeśli chłopcy mają się uczyć męstwa, to czym jest męstwo? Pierwszy odpowiada Laches, żołnierz:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Laches' first answer (190e)",
+            "ru": "Первый ответ Лахета (190e)",
+            "uk": "Перша відповідь Лахета (190e)",
+            "pl": "Pierwsza odpowiedź Lachesa (190e)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "laches-courage.en.jowett",
+              "from": "190e",
+              "to": "190e",
+              "text": "Indeed, Socrates, I see no difficulty in answering; he is a man of courage who does not run away, but remains at his post and fights against the enemy; there can be no mistake about that.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Laches",
+                "lang": "en",
+                "title": "Plato, Laches"
+              }
+            },
+            "ru": {
+              "edition": "laches-courage.ru.ours",
+              "from": "190e",
+              "to": "190e",
+              "text": "Право же, Сократ, ответить тут нетрудно: мужествен тот, кто не бежит, а остаётся на своём посту и сражается с врагом; в этом не может быть ошибки.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Laches",
+                "lang": "en",
+                "title": "Платон, «Лахет»"
+              }
+            },
+            "uk": {
+              "edition": "laches-courage.uk.ours",
+              "from": "190e",
+              "to": "190e",
+              "text": "Справді, Сократе, відповісти тут неважко: мужній той, хто не тікає, а залишається на своєму посту й б’ється з ворогом; у цьому не може бути помилки.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Laches",
+                "lang": "en",
+                "title": "Платон, «Лахет»"
+              }
+            },
+            "pl": {
+              "edition": "laches-courage.pl.ours",
+              "from": "190e",
+              "to": "190e",
+              "text": "Doprawdy, Sokratesie, nie widzę trudności w odpowiedzi: mężny jest ten, kto nie ucieka, lecz pozostaje na swoim posterunku i walczy z wrogiem; co do tego nie może być pomyłki.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Laches",
+                "lang": "en",
+                "title": "Platon, Laches"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg019.perseus-grc2:190/"
+          }
+        },
+        {
+          "by": {
+            "en": "Socrates asks what is the same in every kind of courage; Laches again (192b–c)",
+            "ru": "Сократ спрашивает, что одинаково во всяком мужестве; снова Лахет (192b–c)",
+            "uk": "Сократ питає, що однакове в кожній мужності; знову Лахет (192b–c)",
+            "pl": "Sokrates pyta, co jest wspólne każdemu męstwu; znów Laches (192b–c)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "laches-courage.en.jowett",
+              "from": "192b",
+              "to": "192b",
+              "text": "I should say that courage is a sort of endurance of the soul, if I am to speak of the universal nature which pervades them all.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Laches",
+                "lang": "en",
+                "title": "Plato, Laches"
+              }
+            },
+            "ru": {
+              "edition": "laches-courage.ru.ours",
+              "from": "192b",
+              "to": "192b",
+              "text": "Я сказал бы, что мужество — это некая стойкость души, если уж говорить о той общей природе, которая пронизывает их все.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Laches",
+                "lang": "en",
+                "title": "Платон, «Лахет»"
+              }
+            },
+            "uk": {
+              "edition": "laches-courage.uk.ours",
+              "from": "192b",
+              "to": "192b",
+              "text": "Я сказав би, що мужність — це певна стійкість душі, якщо вже говорити про ту загальну природу, яка пронизує їх усі.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Laches",
+                "lang": "en",
+                "title": "Платон, «Лахет»"
+              }
+            },
+            "pl": {
+              "edition": "laches-courage.pl.ours",
+              "from": "192b",
+              "to": "192b",
+              "text": "Powiedziałbym, że męstwo jest pewnego rodzaju wytrwałością duszy, jeśli mam mówić o tej powszechnej naturze, która przenika je wszystkie.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Laches",
+                "lang": "en",
+                "title": "Platon, Laches"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg019.perseus-grc2:192/"
+          }
+        },
+        {
+          "by": {
+            "en": "Nicias: courage is a kind of knowledge (194e–195a)",
+            "ru": "Никий: мужество — это род знания (194e–195a)",
+            "uk": "Нікій: мужність — це різновид знання (194e–195a)",
+            "pl": "Nikiasz: męstwo jest rodzajem wiedzy (194e–195a)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "laches-courage.en.jowett",
+              "from": "194e",
+              "to": "194e",
+              "text": "courage is the knowledge of that which inspires fear or confidence in war, or in anything.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Laches",
+                "lang": "en",
+                "title": "Plato, Laches"
+              }
+            },
+            "ru": {
+              "edition": "laches-courage.ru.ours",
+              "from": "194e",
+              "to": "194e",
+              "text": "мужество — это знание того, что внушает страх или уверенность, на войне или в чём бы то ни было.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Laches",
+                "lang": "en",
+                "title": "Платон, «Лахет»"
+              }
+            },
+            "uk": {
+              "edition": "laches-courage.uk.ours",
+              "from": "194e",
+              "to": "194e",
+              "text": "мужність — це знання того, що викликає страх або впевненість, на війні чи в будь-чому іншому.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Laches",
+                "lang": "en",
+                "title": "Платон, «Лахет»"
+              }
+            },
+            "pl": {
+              "edition": "laches-courage.pl.ours",
+              "from": "194e",
+              "to": "194e",
+              "text": "męstwo jest wiedzą o tym, co budzi strach albo ufność, na wojnie czy w czymkolwiek innym.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Laches",
+                "lang": "en",
+                "title": "Platon, Laches"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg019.perseus-grc2:194/"
+          }
+        },
+        {
+          "by": {
+            "en": "The end of the search (199e)",
+            "ru": "Конец поиска (199e)",
+            "uk": "Кінець пошуку (199e)",
+            "pl": "Koniec poszukiwań (199e)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "laches-courage.en.jowett",
+              "from": "199e",
+              "to": "199e",
+              "text": "Then, Nicias, we have not discovered what courage is.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Laches",
+                "lang": "en",
+                "title": "Plato, Laches"
+              }
+            },
+            "ru": {
+              "edition": "laches-courage.ru.ours",
+              "from": "199e",
+              "to": "199e",
+              "text": "Итак, Никий, мы не нашли, что такое мужество.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Laches",
+                "lang": "en",
+                "title": "Платон, «Лахет»"
+              }
+            },
+            "uk": {
+              "edition": "laches-courage.uk.ours",
+              "from": "199e",
+              "to": "199e",
+              "text": "Отже, Нікію, ми не знайшли, що таке мужність.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Laches",
+                "lang": "en",
+                "title": "Платон, «Лахет»"
+              }
+            },
+            "pl": {
+              "edition": "laches-courage.pl.ours",
+              "from": "199e",
+              "to": "199e",
+              "text": "A zatem, Nikiaszu, nie odkryliśmy, czym jest męstwo.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Laches",
+                "lang": "en",
+                "title": "Platon, Laches"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg019.perseus-grc2:199/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Laches and Nicias were real generals of Athens. Both swore for her to the peace with Sparta of 421 BC, called the Peace of Nicias; Laches fell at Mantinea in 418, and Nicias, after the disaster in Sicily, was put to death by the Syracusans in 413.",
+            "ru": "Лахет и Никий — подлинные афинские полководцы. Оба приносили от имени Афин клятву при заключении мира со Спартой в 421 году до н. э., названного Никиевым миром; Лахет пал при Мантинее в 418 году, а Никия после катастрофы в Сицилии в 413 году казнили сиракузяне.",
+            "uk": "Лахет і Нікій — справжні афінські полководці. Обидва складали від імені Афін присягу на мирі зі Спартою 421 року до н. е., що зветься Нікієвим миром; Лахет загинув під Мантинеєю 418 року, а Нікія після катастрофи на Сицилії 413 року стратили сиракузяни.",
+            "pl": "Laches i Nikiasz to prawdziwi wodzowie ateńscy. Obaj w imieniu Aten złożyli przysięgę przy zawarciu pokoju ze Spartą w 421 roku p.n.e., zwanego pokojem Nikiasza; Laches poległ pod Mantineją w 418 roku, a Nikiasza po klęsce na Sycylii stracili Syrakuzanie w 413 roku."
+          },
+          "source": "Thucydides 5.19, 5.74, 7.86"
+        },
+        {
+          "fact": {
+            "en": "At Delium, in 424 BC, the Boeotians routed the Athenians. In the dialogue Laches says that Socrates retreated beside him, and that had the others been like him, Athens would not have suffered such a fall; in the Symposium Alcibiades tells how calmly Socrates walked away from that rout, beside Laches.",
+            "ru": "При Делии в 424 году до н. э. беотийцы разгромили афинян. В диалоге Лахет говорит, что Сократ отступал рядом с ним и что, будь другие такими же, Афины не потерпели бы такого падения; а в «Пире» Алкивиад рассказывает, как спокойно уходил Сократ с поля того разгрома — рядом с Лахетом.",
+            "uk": "Під Делієм у 424 році до н. е. беотійці розгромили афінян. У діалозі Лахет каже, що Сократ відступав поруч із ним і що, якби інші були такі самі, Афіни не зазнали б такого падіння; а в «Бенкеті» Алківіад розповідає, як спокійно відходив Сократ з поля того розгрому — поруч із Лахетом.",
+            "pl": "Pod Delion w 424 roku p.n.e. Beoci rozgromili Ateńczyków. W dialogu Laches mówi, że Sokrates cofał się u jego boku i że gdyby inni byli tacy jak on, Ateny nie doznałyby takiego upadku; a w Uczcie Alkibiades opowiada, jak spokojnie Sokrates schodził z pola tej klęski — obok Lachesa."
+          },
+          "source": "Thucydides 4.96; Plato, Laches 181b; Symposium 221a–b"
+        },
+        {
+          "fact": {
+            "en": "Socrates' last move against Nicias: courage, Nicias agrees, is only one part of virtue; but knowledge of what is to be feared and dared turns out to be knowledge of all good and evil — and whoever had that would lack no virtue. So the definition makes courage the whole of virtue, and fails.",
+            "ru": "Последний ход Сократа против Никия: мужество, соглашается Никий, — лишь одна из частей добродетели; но знание того, чего следует бояться и на что дерзать, оказывается знанием всякого добра и зла, — а тот, кто им обладает, не был бы лишён ни одной добродетели. Так определение делает мужество всей добродетелью — и рушится.",
+            "uk": "Останній хід Сократа проти Нікія: мужність, погоджується Нікій, — лише одна з частин чесноти; але знання того, чого слід боятися і на що зважуватися, виявляється знанням усякого добра і зла, — а той, хто його має, не був би позбавлений жодної чесноти. Тож визначення робить мужність усією чеснотою — і руйнується.",
+            "pl": "Ostatni ruch Sokratesa przeciw Nikiaszowi: męstwo, przyznaje Nikiasz, jest tylko jedną z części cnoty; lecz wiedza o tym, czego należy się bać i na co się ważyć, okazuje się wiedzą o wszelkim dobru i złu — a kto by ją posiadał, nie byłby pozbawiony żadnej cnoty. Tak definicja czyni męstwo całą cnotą — i upada."
+          },
+          "source": "Plato, Laches 198a–199e"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Aristotle: the mean between fear and rashness",
+        "ru": "Аристотель: середина между страхом и безрассудством",
+        "uk": "Аристотель: середина між страхом і безрозсудністю",
+        "pl": "Arystoteles: środek między strachem a zuchwałością"
+      },
+      "intro": {
+        "en": "Athens, the 330s or 320s BC. Aristotle, who studied for twenty years in Plato's Academy, lectures in his own school, the Lyceum. Every virtue of character, he has argued, is a mean between two vices; the first he examines is courage, a mean between fear and boldness — and the brave man is not the one who fears nothing:",
+        "ru": "Афины, 330-е или 320-е годы до н. э. Аристотель, двадцать лет учившийся в Академии Платона, читает лекции в собственной школе — Ликее. Всякая добродетель характера, доказывал он, есть середина между двумя пороками; первой он разбирает мужество — середину между страхом и дерзостью, — и мужествен не тот, кто ничего не боится:",
+        "uk": "Афіни, 330-ті або 320-ті роки до н. е. Аристотель, який двадцять років навчався в Академії Платона, читає лекції у власній школі — Лікеї. Кожна чеснота характеру, доводив він, є серединою між двома вадами; першою він розглядає мужність — середину між страхом і зухвалістю, — і мужній не той, хто нічого не боїться:",
+        "pl": "Ateny, lata 30. lub 20. IV wieku p.n.e. Arystoteles, który przez dwadzieścia lat uczył się w Akademii Platona, wykłada we własnej szkole, Likejonie. Każda cnota charakteru, dowodził, jest środkiem między dwiema wadami; pierwszą rozważa męstwo, środek między strachem a śmiałością — i mężny nie jest ten, kto niczego się nie boi:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Nicomachean Ethics III 6: the brave in the proper sense",
+            "ru": "«Никомахова этика», III 6: мужественный в собственном смысле",
+            "uk": "«Нікомахова етика», III 6: мужній у власному сенсі",
+            "pl": "Etyka nikomachejska III 6: mężny we właściwym sensie"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ethics-courage.en.chase",
+              "from": "3.6",
+              "to": "3.6",
+              "text": "He then may be most properly denominated Brave who is fearless in respect of honourable death and such sudden emergencies as threaten death; now such specially are those which arise in the course of war.",
+              "kind": "Free",
+              "translator": "D. P. Chase",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Aristotle, Nicomachean Ethics"
+              }
+            },
+            "ru": {
+              "edition": "ethics-courage.ru.ours",
+              "from": "3.6",
+              "to": "3.6",
+              "text": "Итак, с наибольшим правом мужественным можно назвать того, кто бесстрашен перед почётной смертью и перед такими внезапными опасностями, которые грозят смертью; а таковы прежде всего опасности, возникающие на войне.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Никомахова этика»"
+              }
+            },
+            "uk": {
+              "edition": "ethics-courage.uk.ours",
+              "from": "3.6",
+              "to": "3.6",
+              "text": "Отже, з найбільшим правом мужнім можна назвати того, хто безстрашний перед почесною смертю і перед такими раптовими небезпеками, які загрожують смертю; а такі передусім небезпеки, що виникають на війні.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Нікомахова етика»"
+              }
+            },
+            "pl": {
+              "edition": "ethics-courage.pl.ours",
+              "from": "3.6",
+              "to": "3.6",
+              "text": "Najwłaściwiej więc można nazwać mężnym tego, kto jest nieustraszony wobec zaszczytnej śmierci i wobec takich nagłych niebezpieczeństw, które grożą śmiercią; a takie są zwłaszcza niebezpieczeństwa, jakie niesie wojna.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Arystoteles, Etyka nikomachejska"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg010.perseus-grc2:3.6/"
+          }
+        },
+        {
+          "by": {
+            "en": "III 7: he will fear, but as he ought",
+            "ru": "III 7: он будет бояться, но как должно",
+            "uk": "III 7: він боятиметься, але як належить",
+            "pl": "III 7: będzie się bał, ale jak należy"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ethics-courage.en.chase",
+              "from": "3.7",
+              "to": "3.7",
+              "text": "Now the Brave man cannot be frighted from his propriety (but of course only so far as he is man); fear such things indeed he will, but he will stand up against them as he ought and as right reason may direct, with a view to what is honourable, because this is the end of the virtue.",
+              "kind": "Free",
+              "translator": "D. P. Chase",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Aristotle, Nicomachean Ethics"
+              }
+            },
+            "ru": {
+              "edition": "ethics-courage.ru.ours",
+              "from": "3.7",
+              "to": "3.7",
+              "text": "Мужественного же нельзя запугать так, чтобы он отступил от подобающего (но, разумеется, лишь насколько он человек); такого он, конечно, будет страшиться, но будет противостоять ему, как должно и как велит верный разум, ради того, что почётно, ибо в этом цель добродетели.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Никомахова этика»"
+              }
+            },
+            "uk": {
+              "edition": "ethics-courage.uk.ours",
+              "from": "3.7",
+              "to": "3.7",
+              "text": "Мужнього ж не можна залякати так, щоб він відступив від належного (але, звісно, лише настільки, наскільки він людина); такого він, звичайно, боятиметься, але протистоятиме цьому, як належить і як велить правильний розум, задля того, що почесне, бо в цьому мета чесноти.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Нікомахова етика»"
+              }
+            },
+            "pl": {
+              "edition": "ethics-courage.pl.ours",
+              "from": "3.7",
+              "to": "3.7",
+              "text": "Mężnego zaś nie można przestraszyć tak, by odstąpił od tego, co właściwe (oczywiście tylko o tyle, o ile jest człowiekiem); takich rzeczy będzie się wprawdzie bał, lecz stawi im czoło, jak należy i jak nakazuje słuszny rozum, ze względu na to, co zaszczytne, bo to jest celem cnoty.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Arystoteles, Etyka nikomachejska"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg010.perseus-grc2:3.7/"
+          }
+        },
+        {
+          "by": {
+            "en": "III 7: a mean — and what is not courage",
+            "ru": "III 7: середина — и то, что не мужество",
+            "uk": "III 7: середина — і те, що не є мужністю",
+            "pl": "III 7: środek — i to, co męstwem nie jest"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ethics-courage.en.chase",
+              "from": "3.7",
+              "to": "3.7",
+              "text": "Well then, as has been said, Courage is a mean state in respect of objects inspiring boldness or fear, in the circumstances which have been stated, and the Brave man chooses his line and withstands danger either because to do so is honourable, or because not to do so is base. But dying to escape from poverty, or the pangs of love, or anything that is simply painful, is the act not of a Brave man but of a coward; because it is mere softness to fly from what is toilsome, and the suicide braves the terrors of death not because it is honourable but to get out of the reach of evil.",
+              "kind": "Free",
+              "translator": "D. P. Chase",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Aristotle, Nicomachean Ethics"
+              }
+            },
+            "ru": {
+              "edition": "ethics-courage.ru.ours",
+              "from": "3.7",
+              "to": "3.7",
+              "text": "Итак, как уже сказано, мужество есть середина в отношении того, что внушает дерзость или страх, при указанных обстоятельствах, и мужественный избирает свой путь и выдерживает опасность либо потому, что так поступать почётно, либо потому, что не поступать так постыдно. Но умереть, чтобы избежать бедности, или мук любви, или чего-либо просто мучительного, — это поступок не мужественного, а труса; ибо бежать от тягостного — одна лишь изнеженность, и самоубийца идёт навстречу ужасам смерти не потому, что это почётно, а чтобы уйти от зла.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Никомахова этика»"
+              }
+            },
+            "uk": {
+              "edition": "ethics-courage.uk.ours",
+              "from": "3.7",
+              "to": "3.7",
+              "text": "Отже, як уже сказано, мужність є серединою щодо того, що викликає сміливість або страх, за названих обставин, і мужній обирає свій шлях і витримує небезпеку або тому, що так чинити почесно, або тому, що не чинити так ганебно. Але померти, щоб утекти від бідності, чи від мук кохання, чи від чогось просто болісного, — це вчинок не мужнього, а боягуза; бо тікати від тяжкого — то лише розніженість, і самогубець іде назустріч жахам смерті не тому, що це почесно, а щоб утекти від зла.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Нікомахова етика»"
+              }
+            },
+            "pl": {
+              "edition": "ethics-courage.pl.ours",
+              "from": "3.7",
+              "to": "3.7",
+              "text": "Jak więc powiedziano, męstwo jest stanem pośrednim wobec tego, co budzi śmiałość albo strach, w okolicznościach, o których była mowa, a mężny obiera swoją drogę i wytrzymuje niebezpieczeństwo albo dlatego, że tak postępować jest rzeczą zaszczytną, albo dlatego, że nie postępować tak jest rzeczą haniebną. Lecz umrzeć, by uciec przed ubóstwem, mękami miłości albo czymkolwiek po prostu bolesnym, to czyn nie mężnego, lecz tchórza; bo uciekać od tego, co uciążliwe, to zwykła miękkość, a samobójca stawia czoło grozie śmierci nie dlatego, że to zaszczytne, lecz by uciec przed złem.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Arystoteles, Etyka nikomachejska"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg010.perseus-grc2:3.7/"
+          }
+        },
+        {
+          "by": {
+            "en": "III 8: courage only in name — and Socrates",
+            "ru": "III 8: мужество лишь по названию — и Сократ",
+            "uk": "III 8: мужність лише з назви — і Сократ",
+            "pl": "III 8: męstwo tylko z nazwy — i Sokrates"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ethics-courage.en.chase",
+              "from": "3.8",
+              "to": "3.8",
+              "text": "In the next place, Experience and Skill in the various particulars is thought to be a species of Courage: whence Socrates also thought that Courage was knowledge.",
+              "kind": "Free",
+              "translator": "D. P. Chase",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Aristotle, Nicomachean Ethics"
+              }
+            },
+            "ru": {
+              "edition": "ethics-courage.ru.ours",
+              "from": "3.8",
+              "to": "3.8",
+              "text": "Далее, видом мужества считают опытность и умение в отдельных делах; потому и Сократ думал, что мужество есть знание.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Никомахова этика»"
+              }
+            },
+            "uk": {
+              "edition": "ethics-courage.uk.ours",
+              "from": "3.8",
+              "to": "3.8",
+              "text": "Далі, різновидом мужності вважають досвід і вміння в окремих справах; тому й Сократ думав, що мужність — це знання.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Нікомахова етика»"
+              }
+            },
+            "pl": {
+              "edition": "ethics-courage.pl.ours",
+              "from": "3.8",
+              "to": "3.8",
+              "text": "Dalej, za rodzaj męstwa uważa się doświadczenie i biegłość w poszczególnych sprawach; dlatego też Sokrates sądził, że męstwo jest wiedzą.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Arystoteles, Etyka nikomachejska"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg010.perseus-grc2:3.8/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Andreia, the Greek word for courage, is made from anēr, “a man”, and means “manliness”. Aristotle's brave man is first of all a soldier, and his examples come from war and from Homer.",
+            "ru": "Андрейя, греческое слово для мужества, образовано от анэр, «мужчина», и значит «мужественность». Мужественный у Аристотеля — прежде всего воин, и примеры он берёт из войны и из Гомера.",
+            "uk": "Андрейя, грецьке слово для мужності, утворене від анер, «чоловік», і означає «мужність», «чоловічість». Мужній в Аристотеля — передусім воїн, і приклади він бере з війни та з Гомера.",
+            "pl": "Andreia, greckie słowo na męstwo, pochodzi od aner, „mężczyzna”, i znaczy „męskość”. Mężny u Arystotelesa to przede wszystkim żołnierz, a przykłady bierze z wojny i z Homera."
+          },
+          "source": "Liddell and Scott, A Greek–English Lexicon, s.v. ἀνδρεία; Aristotle, Nicomachean Ethics III 6–8"
+        },
+        {
+          "fact": {
+            "en": "When Aristotle writes that Socrates thought courage was knowledge, he points back to Plato: in the Protagoras Socrates concludes that courage is wisdom about what is and is not to be feared — the very definition Nicias offered in the Laches.",
+            "ru": "Когда Аристотель пишет, что Сократ считал мужество знанием, он отсылает к Платону: в «Протагоре» Сократ приходит к выводу, что мужество есть мудрость в том, чего следует и чего не следует страшиться, — то самое определение, которое в «Лахете» предложил Никий.",
+            "uk": "Коли Аристотель пише, що Сократ вважав мужність знанням, він відсилає до Платона: у «Протагорі» Сократ доходить висновку, що мужність є мудрістю щодо того, чого слід і чого не слід боятися, — те саме визначення, яке в «Лахеті» запропонував Нікій.",
+            "pl": "Gdy Arystoteles pisze, że Sokrates uważał męstwo za wiedzę, odsyła do Platona: w Protagorasie Sokrates dochodzi do wniosku, że męstwo jest mądrością co do tego, czego należy, a czego nie należy się bać — tą samą definicją, którą w Lachesie podał Nikiasz."
+          },
+          "source": "Plato, Protagoras 360d; Laches 194e–195a"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "The Bhagavad Gita: Arjuna lays down his bow",
+        "ru": "Бхагавадгита: Арджуна откладывает лук",
+        "uk": "Бгаґавадґіта: Арджуна відкладає лук",
+        "pl": "Bhagawadgita: Ardżuna odkłada łuk"
+      },
+      "intro": {
+        "en": "Kurukshetra, the field of the great war of the Mahabharata. Prince Arjuna has asked his charioteer, Krishna, to drive him between the two armies; there, on the other side, he sees his teachers, his grandsire Bhishma, his cousins and kinsmen. Better, he says, to be slain unresisting than to slay them; and he sinks down in the chariot. What Krishna answers him is the Bhagavad Gita, the “Song of the Lord”:",
+        "ru": "Курукшетра, поле великой битвы «Махабхараты». Царевич Арджуна попросил своего возничего, Кришну, вывести колесницу между двумя войсками; и там, на другой стороне, он видит своих учителей, деда Бхишму, двоюродных братьев и родичей. Лучше, говорит он, быть убитым, не сопротивляясь, чем убивать их, — и опускается на сиденье колесницы. То, что отвечает ему Кришна, и есть Бхагавадгита, «Песнь Господа»:",
+        "uk": "Курукшетра, поле великої битви «Магабгарати». Царевич Арджуна попросив свого візничого, Крішну, вивести колісницю між двома військами; і там, на другому боці, він бачить своїх учителів, діда Бгішму, двоюрідних братів і родичів. Краще, каже він, бути вбитим, не опираючись, ніж убивати їх, — і опускається на сидіння колісниці. Те, що відповідає йому Крішна, і є Бгаґавадґіта, «Пісня Господа»:",
+        "pl": "Kurukszetra, pole wielkiej bitwy z Mahabharaty. Królewicz Ardżuna poprosił swego woźnicę, Krysznę, by wjechał rydwanem między dwie armie; tam, po drugiej stronie, widzi swoich nauczycieli, dziada Bhiszmę, kuzynów i krewnych. Lepiej, mówi, zginąć bez oporu, niż ich zabijać — i osuwa się na siedzenie rydwanu. To, co odpowiada mu Kryszna, jest Bhagawadgitą, „Pieśnią Pana”:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Krishna's first words (2.3)",
+            "ru": "Первые слова Кришны (2.3)",
+            "uk": "Перші слова Крішни (2.3)",
+            "pl": "Pierwsze słowa Kryszny (2.3)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "gita-courage.en.besant",
+              "from": "2.3",
+              "to": "2.3",
+              "text": "Yield not to impotence, O Partha! it doth not befit thee. Shake off this paltry faint-heartedness! Stand up, Parantapa!",
+              "kind": "Free",
+              "translator": "Annie Besant",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "The Bhagavad Gītā"
+              }
+            },
+            "ru": {
+              "edition": "gita-courage.ru.ours",
+              "from": "2.3",
+              "to": "2.3",
+              "text": "Не поддавайся бессилию, о Партха! оно тебе не подобает. Стряхни это жалкое малодушие! Встань, Парантапа!",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "«Бхагавадгита»"
+              }
+            },
+            "uk": {
+              "edition": "gita-courage.uk.ours",
+              "from": "2.3",
+              "to": "2.3",
+              "text": "Не піддавайся безсиллю, о Партхо! воно тобі не личить. Струсни із себе цю жалюгідну малодушність! Встань, Парантапо!",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "«Бгаґавадґіта»"
+              }
+            },
+            "pl": {
+              "edition": "gita-courage.pl.ours",
+              "from": "2.3",
+              "to": "2.3",
+              "text": "Nie poddawaj się niemocy, o Partho! nie przystoi ci ona. Otrząśnij się z tej nędznej małoduszności! Powstań, Parantapo!",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "Bhagawadgita"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Sanskrit",
+              "ru": "оригинал на санскрите",
+              "uk": "оригінал санскритом",
+              "pl": "oryginał w sanskrycie"
+            },
+            "url": "https://sa.wikisource.org/wiki/भगवद्गीता/साङ्ख्ययोगः"
+          }
+        },
+        {
+          "by": {
+            "en": "Arjuna: “my mind is confused as to duty” (2.7)",
+            "ru": "Арджуна: «ум мой в смятении о долге» (2.7)",
+            "uk": "Арджуна: «розум мій у сум’ятті щодо обов’язку» (2.7)",
+            "pl": "Ardżuna: „umysł mój jest w zamęcie co do obowiązku” (2.7)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "gita-courage.en.besant",
+              "from": "2.7",
+              "to": "2.7",
+              "text": "My heart is weighed down with the vice of faintness; my mind is confused as to duty. I ask thee which may be the better—that tell me decisively. I am thy disciple, suppliant to Thee; teach me.",
+              "kind": "Free",
+              "translator": "Annie Besant",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "The Bhagavad Gītā"
+              }
+            },
+            "ru": {
+              "edition": "gita-courage.ru.ours",
+              "from": "2.7",
+              "to": "2.7",
+              "text": "Сердце моё отягчено пороком слабости; ум мой в смятении о долге. Спрашиваю тебя, что было бы лучше, — скажи мне это решительно. Я твой ученик, с мольбой прибегаю к Тебе; наставь меня.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "«Бхагавадгита»"
+              }
+            },
+            "uk": {
+              "edition": "gita-courage.uk.ours",
+              "from": "2.7",
+              "to": "2.7",
+              "text": "Серце моє обтяжене вадою слабкості; розум мій у сум’ятті щодо обов’язку. Питаю тебе, що було б краще, — скажи мені це рішуче. Я твій учень, з благанням удаюся до Тебе; навчи мене.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "«Бгаґавадґіта»"
+              }
+            },
+            "pl": {
+              "edition": "gita-courage.pl.ours",
+              "from": "2.7",
+              "to": "2.7",
+              "text": "Serce moje przygniata przywara słabości; umysł mój jest w zamęcie co do obowiązku. Pytam cię, co byłoby lepsze — to powiedz mi stanowczo. Jestem twoim uczniem, błagalnie zwracam się do Ciebie; poucz mnie.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "Bhagawadgita"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Sanskrit",
+              "ru": "оригинал на санскрите",
+              "uk": "оригінал санскритом",
+              "pl": "oryginał w sanskrycie"
+            },
+            "url": "https://sa.wikisource.org/wiki/भगवद्गीता/साङ्ख्ययोगः"
+          }
+        },
+        {
+          "by": {
+            "en": "Krishna: your own duty (2.31)",
+            "ru": "Кришна: твой собственный долг (2.31)",
+            "uk": "Крішна: твій власний обов’язок (2.31)",
+            "pl": "Kryszna: twój własny obowiązek (2.31)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "gita-courage.en.besant",
+              "from": "2.31",
+              "to": "2.31",
+              "text": "Further, looking to thine own duty thou shouldst not tremble; for there is nothing more welcome to a Kshattriya than righteous war.",
+              "kind": "Free",
+              "translator": "Annie Besant",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "The Bhagavad Gītā"
+              }
+            },
+            "ru": {
+              "edition": "gita-courage.ru.ours",
+              "from": "2.31",
+              "to": "2.31",
+              "text": "Далее, взирая на собственный долг, ты не должен трепетать; ибо для кшатрия нет ничего желаннее праведной войны.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "«Бхагавадгита»"
+              }
+            },
+            "uk": {
+              "edition": "gita-courage.uk.ours",
+              "from": "2.31",
+              "to": "2.31",
+              "text": "Далі, зважаючи на власний обов’язок, ти не повинен тремтіти; бо для кшатрія немає нічого бажанішого за праведну війну.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "«Бгаґавадґіта»"
+              }
+            },
+            "pl": {
+              "edition": "gita-courage.pl.ours",
+              "from": "2.31",
+              "to": "2.31",
+              "text": "Dalej, zważając na własny obowiązek, nie powinieneś drżeć; bo dla kszatrii nie ma nic milszego niż sprawiedliwa wojna.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "Bhagawadgita"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Sanskrit",
+              "ru": "оригинал на санскрите",
+              "uk": "оригінал санскритом",
+              "pl": "oryginał w sanskrycie"
+            },
+            "url": "https://sa.wikisource.org/wiki/भगवद्गीता/साङ्ख्ययोगः"
+          }
+        },
+        {
+          "by": {
+            "en": "Krishna: victory and defeat alike (2.38)",
+            "ru": "Кришна: победа и поражение равны (2.38)",
+            "uk": "Крішна: перемога й поразка рівні (2.38)",
+            "pl": "Kryszna: zwycięstwo i klęska jednakowo (2.38)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "gita-courage.en.besant",
+              "from": "2.38",
+              "to": "2.38",
+              "text": "Taking as equal pleasure and pain, gain and loss, victory and defeat, gird thee for the battle; thus thou shalt not incur sin.",
+              "kind": "Free",
+              "translator": "Annie Besant",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "The Bhagavad Gītā"
+              }
+            },
+            "ru": {
+              "edition": "gita-courage.ru.ours",
+              "from": "2.38",
+              "to": "2.38",
+              "text": "Почитая равными удовольствие и боль, прибыль и потерю, победу и поражение, препояшься для битвы; так ты не навлечёшь на себя греха.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "«Бхагавадгита»"
+              }
+            },
+            "uk": {
+              "edition": "gita-courage.uk.ours",
+              "from": "2.38",
+              "to": "2.38",
+              "text": "Вважаючи рівними насолоду й біль, здобуток і втрату, перемогу й поразку, підпережися до битви; так ти не накличеш на себе гріха.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "«Бгаґавадґіта»"
+              }
+            },
+            "pl": {
+              "edition": "gita-courage.pl.ours",
+              "from": "2.38",
+              "to": "2.38",
+              "text": "Uznając za równe przyjemność i ból, zysk i stratę, zwycięstwo i klęskę, przepasz się do bitwy; tak nie ściągniesz na siebie grzechu.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "Bhagawadgita"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Sanskrit",
+              "ru": "оригинал на санскрите",
+              "uk": "оригінал санскритом",
+              "pl": "oryginał w sanskrycie"
+            },
+            "url": "https://sa.wikisource.org/wiki/भगवद्गीता/साङ्ख्ययोगः"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The Gita is not a book of its own but eighteen chapters of the sixth book of the Mahabharata, the Bhishma Parva: the battle has not yet begun when Arjuna loses heart.",
+            "ru": "Гита — не отдельная книга, а восемнадцать глав шестой книги «Махабхараты», «Бхишмапарвы»: битва ещё не началась, когда Арджуна падает духом.",
+            "uk": "Ґіта — не окрема книга, а вісімнадцять розділів шостої книги «Магабгарати», «Бгішмапарви»: битва ще не почалася, коли Арджуна занепадає духом.",
+            "pl": "Gita nie jest osobną księgą, lecz osiemnastoma rozdziałami szóstej księgi Mahabharaty, Bhiszmaparwy: bitwa jeszcze się nie zaczęła, gdy Ardżuna traci ducha."
+          },
+          "source": "The Mahābhārata, critical edition (Poona, 1933–66), Bhīṣmaparvan 6.23–40"
+        },
+        {
+          "fact": {
+            "en": "Before he speaks of duty, Krishna answers Arjuna's grief: the self that dwells in every body is not slain when the body is slain, so there is no one to mourn. At the end of the poem Arjuna says that his delusion is destroyed, and that he will do as Krishna says.",
+            "ru": "Прежде чем говорить о долге, Кришна отвечает на скорбь Арджуны: «я», живущее в каждом теле, не бывает убито, когда убивают тело, — значит, оплакивать некого. В конце поэмы Арджуна говорит, что его заблуждение рассеяно и что он поступит, как велит Кришна.",
+            "uk": "Перш ніж говорити про обов’язок, Крішна відповідає на скорботу Арджуни: «я», що живе в кожному тілі, не буває вбите, коли вбивають тіло, — отже, оплакувати нікого. Наприкінці поеми Арджуна каже, що його оману розвіяно і що він учинить, як велить Крішна.",
+            "pl": "Zanim zacznie mówić o obowiązku, Kryszna odpowiada na smutek Ardżuny: jaźń, która mieszka w każdym ciele, nie ginie, gdy ginie ciało — nie ma więc kogo opłakiwać. Na końcu poematu Ardżuna mówi, że jego złudzenie zostało rozwiane i że uczyni, jak mówi Kryszna."
+          },
+          "source": "Bhagavad Gita 2.19–20, 2.30; 18.73"
+        },
+        {
+          "fact": {
+            "en": "The word Besant renders “impotence” in 2.3 is klaibya, from klība, “a eunuch”: unmanliness. It is the Greek andreia, “manliness”, seen from the other side.",
+            "ru": "Слово, которое Безант передаёт как «бессилие» (2.3), — клайбья, от клиба, «евнух»: немужественность. Это греческая андрейя, «мужественность», увиденная с другой стороны.",
+            "uk": "Слово, яке Безант передає як «безсилля» (2.3), — клайб’я, від кліба, «євнух»: немужність. Це грецька андрейя, «мужність», побачена з іншого боку.",
+            "pl": "Słowo, które Besant oddaje jako „niemoc” (2.3), to klaibja, od kliba, „eunuch”: niemęskość. To greckie andreia, „męskość”, widziane z drugiej strony."
+          },
+          "source": "Monier-Williams, A Sanskrit–English Dictionary (1899), s.v. klaibya, klība"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Mencius: the unmoved mind and the vast, flowing qi",
+        "ru": "Мэн-цзы: невозмутимое сердце и безбрежная сила ци",
+        "uk": "Мен-цзи: незворушне серце і безмежна сила ці",
+        "pl": "Mencjusz: niewzruszone serce i bezmierne qi"
+      },
+      "intro": {
+        "en": "The state of Qi, the late fourth century BC. Mencius, the follower of Confucius, has come to Qi. His disciple Gongsun Chou asks him: if you were made chief minister here, and could raise the prince to be king over all, would your mind be moved? Mencius answers that it would not, and explains where such steadiness comes from — not from the fighter's daring, but from examining oneself, as Confucius' disciple Zengzi did, and from qi, the energy of body and spirit, “nourished” by righteousness:",
+        "ru": "Царство Ци, конец IV века до н. э. Мэн-цзы, последователь Конфуция, прибыл в Ци. Его ученик Гунсунь Чоу спрашивает: если бы вас сделали здесь первым министром и вы могли бы возвести здешнего государя в цари над всеми, дрогнуло бы ваше сердце? Мэн-цзы отвечает, что нет, и объясняет, откуда берётся такая твёрдость: не от дерзости бойца, а от проверки самого себя, как у ученика Конфуция Цзэн-цзы, и от ци — силы тела и духа, которую «питает» справедливость:",
+        "uk": "Царство Ці, кінець IV століття до н. е. Мен-цзи, послідовник Конфуція, прибув до Ці. Його учень Гунсунь Чоу питає: якби вас зробили тут першим міністром і ви могли б піднести тутешнього государя до царя над усіма, чи здригнулося б ваше серце? Мен-цзи відповідає, що ні, і пояснює, звідки береться така твердість: не від зухвалості бійця, а від перевірки самого себе, як в учня Конфуція Цзен-цзи, і від ці — сили тіла й духу, яку «живить» справедливість:",
+        "pl": "Państwo Qi, koniec IV wieku p.n.e. Mencjusz, kontynuator nauki Konfucjusza, przybył do Qi. Jego uczeń Gongsun Chou pyta: gdyby uczyniono cię tu pierwszym ministrem i mógłbyś wynieść tutejszego władcę na króla nad wszystkimi, czy twoje serce by drgnęło? Mencjusz odpowiada, że nie, i wyjaśnia, skąd bierze się taka stałość: nie z zuchwałości wojownika, lecz z badania samego siebie, jak u ucznia Konfucjusza Zengzi, i z qi — siły ciała i ducha, którą „karmi” prawość:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Mencius 2A2: at forty",
+            "ru": "Мэн-цзы 2A2: в сорок лет",
+            "uk": "Мен-цзи 2A2: у сорок років",
+            "pl": "Mencjusz 2A2: w wieku czterdziestu lat"
+          },
+          "quotes": {
+            "en": {
+              "edition": "mencius-courage.en.legge",
+              "from": "2.1.2",
+              "to": "2.1.2",
+              "text": "No. At forty, I attained to an unperturbed mind.",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencius"
+              }
+            },
+            "ru": {
+              "edition": "mencius-courage.ru.ours",
+              "from": "2.1.2",
+              "to": "2.1.2",
+              "text": "Нет. В сорок лет я обрёл невозмутимое сердце.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мэн-цзы»"
+              }
+            },
+            "uk": {
+              "edition": "mencius-courage.uk.ours",
+              "from": "2.1.2",
+              "to": "2.1.2",
+              "text": "Ні. У сорок років я здобув незворушне серце.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мен-цзи»"
+              }
+            },
+            "pl": {
+              "edition": "mencius-courage.pl.ours",
+              "from": "2.1.2",
+              "to": "2.1.2",
+              "text": "Nie. W wieku czterdziestu lat osiągnąłem niewzruszone serce.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencjusz"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/孟子/公孫丑上"
+          }
+        },
+        {
+          "by": {
+            "en": "The fighter Meng Shi She: rising above fear",
+            "ru": "Боец Мэн Ши-шэ: быть выше страха",
+            "uk": "Боєць Мен Ши-ше: бути вищим за страх",
+            "pl": "Wojownik Meng Shishe: ponad strachem"
+          },
+          "quotes": {
+            "en": {
+              "edition": "mencius-courage.en.legge",
+              "from": "2.1.2",
+              "to": "2.1.2",
+              "text": "I look upon not conquering and conquering in the same way. To measure the enemy and then advance; to calculate the chances of victory and then engage - this is to stand in awe of the opposing force. How can I make certain of conquering? I can only rise superior to all fear.",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencius"
+              }
+            },
+            "ru": {
+              "edition": "mencius-courage.ru.ours",
+              "from": "2.1.2",
+              "to": "2.1.2",
+              "text": "Я смотрю на поражение и на победу одинаково. Измерить врага и лишь тогда наступать, рассчитать, будет ли победа, и лишь тогда вступать в бой — значит трепетать перед войском противника. Как могу я быть уверен в победе? Я могу лишь быть выше всякого страха.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мэн-цзы»"
+              }
+            },
+            "uk": {
+              "edition": "mencius-courage.uk.ours",
+              "from": "2.1.2",
+              "to": "2.1.2",
+              "text": "Я дивлюся на поразку й на перемогу однаково. Зміряти ворога і лише тоді наступати, розрахувати, чи буде перемога, і лише тоді вступати в бій — означає тремтіти перед військом супротивника. Як можу я бути певен перемоги? Я можу лише бути вищим за всякий страх.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мен-цзи»"
+              }
+            },
+            "pl": {
+              "edition": "mencius-courage.pl.ours",
+              "from": "2.1.2",
+              "to": "2.1.2",
+              "text": "Na porażkę i na zwycięstwo patrzę tak samo. Zmierzyć wroga, a dopiero potem nacierać, obliczyć szanse zwycięstwa, a dopiero potem wydać bitwę — to znaczy lękać się wrogich wojsk. Jakże mogę być pewien zwycięstwa? Mogę jedynie wznieść się ponad wszelki strach.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencjusz"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/孟子/公孫丑上"
+          }
+        },
+        {
+          "by": {
+            "en": "Zengzi's great valour, heard from Confucius",
+            "ru": "Великая отвага Цзэн-цзы, услышанная от Конфуция",
+            "uk": "Велика відвага Цзен-цзи, почута від Конфуція",
+            "pl": "Wielka odwaga Zengzi, usłyszana od Konfucjusza"
+          },
+          "quotes": {
+            "en": {
+              "edition": "mencius-courage.en.legge",
+              "from": "2.1.2",
+              "to": "2.1.2",
+              "text": "I heard an account of great valour from the Master. It speaks thus: ‘If, on self-examination, I find that I am not upright, shall I not be in fear even of a poor man in his loose garments of hair-cloth? If, on self-examination, I find that I am upright, I will go forward against thousands and tens of thousands.’",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencius"
+              }
+            },
+            "ru": {
+              "edition": "mencius-courage.ru.ours",
+              "from": "2.1.2",
+              "to": "2.1.2",
+              "text": "Я слышал от Учителя о великой отваге. Вот что он говорил: «Если, проверив себя, я нахожу, что я не прав, разве не устрашусь я даже бедняка в его широкой одежде из грубой ткани? Если, проверив себя, я нахожу, что я прав, я пойду вперёд против тысяч и десятков тысяч».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мэн-цзы»"
+              }
+            },
+            "uk": {
+              "edition": "mencius-courage.uk.ours",
+              "from": "2.1.2",
+              "to": "2.1.2",
+              "text": "Я чув від Учителя про велику відвагу. Ось що він казав: «Якщо, перевіривши себе, я бачу, що я неправий, хіба не злякаюся я навіть бідняка в його широкому вбранні з грубої тканини? Якщо, перевіривши себе, я бачу, що я правий, я піду вперед проти тисяч і десятків тисяч».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мен-цзи»"
+              }
+            },
+            "pl": {
+              "edition": "mencius-courage.pl.ours",
+              "from": "2.1.2",
+              "to": "2.1.2",
+              "text": "Słyszałem od Mistrza o wielkiej odwadze. Tak mówił: „Jeśli, zbadawszy siebie, widzę, że nie jestem prawy, czyż nie ulęknę się nawet biedaka w jego szerokiej szacie z grubego włosia? Jeśli, zbadawszy siebie, widzę, że jestem prawy, pójdę naprzód przeciw tysiącom i dziesiątkom tysięcy”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencjusz"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/孟子/公孫丑上"
+          }
+        },
+        {
+          "by": {
+            "en": "The vast, flowing qi",
+            "ru": "Безбрежная, разливающаяся сила ци",
+            "uk": "Безмежна, розлита сила ці",
+            "pl": "Bezmierne, rozlewne qi"
+          },
+          "quotes": {
+            "en": {
+              "edition": "mencius-courage.en.legge",
+              "from": "2.1.2",
+              "to": "2.1.2",
+              "text": "This is the passion-nature: It is exceedingly great, and exceedingly strong. Being nourished by rectitude, and sustaining no injury, it fills up all between heaven and earth. This is the passion-nature: It is the mate and assistant of righteousness and reason. Without it, man is in a state of starvation. It is produced by the accumulation of righteous deeds; it is not to be obtained by incidental acts of righteousness. If the mind does not feel complacency in the conduct, the nature becomes starved.",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencius"
+              }
+            },
+            "ru": {
+              "edition": "mencius-courage.ru.ours",
+              "from": "2.1.2",
+              "to": "2.1.2",
+              "text": "Такова эта сила ци: она предельно велика и предельно крепка. Если питать её прямотой и ничем ей не вредить, она заполняет всё между небом и землёй. Такова эта сила ци: она — спутница и помощница справедливости и пути. Без неё человек голодает. Она рождается из накопления справедливых дел; её не добыть случайными справедливыми поступками. Если в поступках есть то, чем сердце недовольно, она истощается от голода.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мэн-цзы»"
+              }
+            },
+            "uk": {
+              "edition": "mencius-courage.uk.ours",
+              "from": "2.1.2",
+              "to": "2.1.2",
+              "text": "Така ця сила ці: вона надзвичайно велика й надзвичайно міцна. Якщо живити її прямотою і нічим їй не шкодити, вона заповнює все між небом і землею. Така ця сила ці: вона — супутниця й помічниця справедливості та шляху. Без неї людина голодує. Вона народжується з нагромадження справедливих учинків; її не здобути випадковими справедливими вчинками. Якщо в учинках є те, чим серце невдоволене, вона виснажується з голоду.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мен-цзи»"
+              }
+            },
+            "pl": {
+              "edition": "mencius-courage.pl.ours",
+              "from": "2.1.2",
+              "to": "2.1.2",
+              "text": "Taka jest ta siła qi: jest nadzwyczaj wielka i nadzwyczaj mocna. Karmiona prawością i niczym nienaruszona, wypełnia wszystko między niebem a ziemią. Taka jest ta siła qi: jest towarzyszką i pomocnicą sprawiedliwości i drogi. Bez niej człowiek głoduje. Rodzi się z nagromadzenia prawych czynów; nie można jej zdobyć przypadkowymi prawymi uczynkami. Jeśli w postępowaniu jest coś, z czego serce nie jest zadowolone, słabnie ona z głodu.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencjusz"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/孟子/公孫丑上"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Zengzi, whom Mencius quotes, was a disciple of Confucius remembered for examining himself. “I daily examine myself on three points,” he says in the Analects: whether he has been faithful in working for others, sincere with his friends, and has practised what his teacher taught him.",
+            "ru": "Цзэн-цзы, которого приводит Мэн-цзы, — ученик Конфуция, известный тем, что проверял себя. «Каждый день я проверяю себя в трёх вещах», — говорит он в «Лунь юй»: был ли он верен, трудясь для других, искренен с друзьями и исполнял ли то, чему учил его учитель.",
+            "uk": "Цзен-цзи, якого наводить Мен-цзи, — учень Конфуція, відомий тим, що перевіряв себе. «Щодня я перевіряю себе в трьох речах», — каже він у «Лунь юй»: чи був він вірний, працюючи для інших, щирий із друзями і чи виконував те, чого навчав його вчитель.",
+            "pl": "Zengzi, którego przytacza Mencjusz, był uczniem Konfucjusza, zapamiętanym z tego, że badał samego siebie. „Codziennie badam siebie w trzech sprawach” — mówi w Dialogach konfucjańskich: czy był wierny, pracując dla innych, szczery wobec przyjaciół i czy praktykował to, czego nauczył go nauczyciel."
+          },
+          "source": "Analects 1.4"
+        },
+        {
+          "fact": {
+            "en": "The historian Sima Qian writes that Mencius studied under the disciples of Zisi, Confucius' grandson, and went to serve King Xuan of Qi, who could not use him: the states were busy with alliances and wars, and Mencius spoke of the virtue of the ancient sage kings.",
+            "ru": "Историк Сыма Цянь пишет, что Мэн-цзы учился у учеников Цзы-сы, внука Конфуция, и отправился служить царю Сюаню из Ци, но тот не сумел им воспользоваться: царства были заняты союзами и войнами, а Мэн-цзы говорил о добродетели древних мудрых государей.",
+            "uk": "Історик Сима Цянь пише, що Мен-цзи навчався в учнів Цзи-си, онука Конфуція, і вирушив служити царю Сюаню з Ці, але той не зумів ним скористатися: царства були зайняті союзами й війнами, а Мен-цзи говорив про чесноту давніх мудрих государів.",
+            "pl": "Historyk Sima Qian pisze, że Mencjusz uczył się u uczniów Zisi, wnuka Konfucjusza, i udał się na służbę do króla Xuana z Qi, lecz ten nie potrafił zrobić z niego użytku: państwa zajęte były sojuszami i wojnami, a Mencjusz mówił o cnocie dawnych mędrców-królów."
+          },
+          "source": "Sima Qian, Records of the Grand Historian (Shiji) 74"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Thermopylae, 480 BC",
+        "ru": "Фермопилы, 480 год до н. э.",
+        "uk": "Фермопіли, 480 рік до н. е.",
+        "pl": "Termopile, 480 rok p.n.e."
+      },
+      "scene": {
+        "en": "You are Leonidas, king of Sparta. For two days you and a few thousand Greeks have held the narrow pass of Thermopylae, between the mountains and the sea, against the army of Xerxes, king of Persia; the rest of Sparta's army is to follow when the festival of the Carneia is over. In the night a Malian named Ephialtes has led Persian troops round by a path over the mountain. Before dawn deserters bring the news, and at daybreak the lookouts run down from the heights: within hours you will be surrounded. Your seer, Megistias, has already read death in the sacrifice. The allies argue among themselves. What do you do?",
+        "ru": "Вы — Леонид, царь Спарты. Два дня вы и несколько тысяч греков удерживаете узкий проход Фермопил между горами и морем против войска Ксеркса, царя Персии; остальное спартанское войско должно подойти, когда закончится праздник Карней. Ночью малиец по имени Эфиальт провёл персов в обход, тропой через гору. Ещё до рассвета перебежчики приносят весть, а на заре с высот сбегают дозорные: через несколько часов вы будете окружены. Ваш прорицатель Мегистий уже прочёл смерть по жертве. Союзники спорят между собой. Что вы сделаете?",
+        "uk": "Ви — Леонід, цар Спарти. Два дні ви й кілька тисяч греків утримуєте вузький прохід Фермопіл між горами й морем проти війська Ксеркса, царя Персії; решта спартанського війська має підійти, коли скінчиться свято Карней. Уночі малієць на ім’я Ефіальт провів персів в обхід, стежкою через гору. Ще до світанку перебіжчики приносять звістку, а на зорі з висот збігають вартові: за кілька годин вас оточать. Ваш віщун Мегістій уже прочитав смерть у жертві. Союзники сперечаються між собою. Що ви зробите?",
+        "pl": "Jesteś Leonidasem, królem Sparty. Od dwóch dni ty i kilka tysięcy Greków bronicie wąskiego przejścia Termopil między górami a morzem przed armią Kserksesa, króla Persji; reszta wojsk Sparty ma nadejść, gdy skończy się święto Karnejów. W nocy Malijczyk imieniem Efialtes poprowadził Persów w obejście, ścieżką przez górę. Jeszcze przed świtem przynoszą wieść zbiegowie, a o brzasku zbiegają z wyżyn czaty: za kilka godzin będziecie okrążeni. Twój wieszczek Megistias wyczytał już śmierć z ofiary. Sprzymierzeńcy spierają się między sobą. Co zrobisz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Retreat with the whole army while the road south is still open: live to fight another day",
+            "ru": "Отступить со всем войском, пока дорога на юг ещё открыта: остаться в живых, чтобы сражаться в другой день",
+            "uk": "Відступити з усім військом, поки дорога на південь ще відкрита: лишитися живими, щоб битися іншого дня",
+            "pl": "Wycofać się z całą armią, póki droga na południe jest otwarta: przeżyć, by walczyć innego dnia"
+          },
+          "reply": {
+            "en": "Many of the allies wanted just that, and went home to their cities; Leonidas did not go with them.",
+            "ru": "Многие союзники хотели именно этого и разошлись по своим городам; Леонид с ними не ушёл.",
+            "uk": "Багато союзників хотіли саме цього й розійшлися по своїх містах; Леонід із ними не пішов.",
+            "pl": "Wielu sprzymierzeńców chciało właśnie tego i rozeszło się do swoich miast; Leonidas z nimi nie odszedł."
+          }
+        },
+        {
+          "choice": {
+            "en": "Keep every man here and make the last stand all together",
+            "ru": "Удержать здесь каждого и всем вместе принять последний бой",
+            "uk": "Утримати тут кожного й усім разом прийняти останній бій",
+            "pl": "Zatrzymać tu każdego i stoczyć ostatni bój wszyscy razem"
+          },
+          "reply": {
+            "en": "Leonidas did not: seeing the allies out of heart, Herodotus believes, he sent them away — though he kept the Thebans, as hostages.",
+            "ru": "Леонид так не сделал: видя, что союзники пали духом, — так думает Геродот, — он отослал их, хотя фиванцев удержал как заложников.",
+            "uk": "Леонід так не вчинив: бачачи, що союзники занепали духом, — так думає Геродот, — він відіслав їх, хоча фіванців утримав як заручників.",
+            "pl": "Leonidas tak nie zrobił: widząc, że sprzymierzeńcy upadli na duchu — tak sądzi Herodot — odesłał ich, choć Tebańczyków zatrzymał jako zakładników."
+          }
+        },
+        {
+          "choice": {
+            "en": "Send the allies away and stay with your Spartans: you may not leave the post you came to guard",
+            "ru": "Отослать союзников и остаться со своими спартанцами: нельзя покинуть пост, который вы пришли охранять",
+            "uk": "Відіслати союзників і залишитися зі своїми спартанцями: не можна покинути пост, який ви прийшли охороняти",
+            "pl": "Odesłać sprzymierzeńców i zostać ze swoimi Spartanami: nie wolno opuścić posterunku, którego przyszliście strzec"
+          },
+          "reply": {
+            "en": "This is what Leonidas did, as Herodotus judges; the seven hundred Thespians would not go, and stayed with him.",
+            "ru": "Так и поступил Леонид, по суждению Геродота; семьсот феспийцев не захотели уйти и остались с ним.",
+            "uk": "Так і вчинив Леонід, на думку Геродота; сімсот феспійців не захотіли піти й залишилися з ним.",
+            "pl": "Tak właśnie postąpił Leonidas, jak ocenia Herodot; siedmiuset Tespijczyków nie chciało odejść i zostało z nim."
+          }
+        },
+        {
+          "choice": {
+            "en": "Strike first: a night attack on the Persian camp, to reach Xerxes himself",
+            "ru": "Ударить первым: ночная атака на персидский лагерь, чтобы добраться до самого Ксеркса",
+            "uk": "Ударити першим: нічний напад на перський табір, щоб дістатися до самого Ксеркса",
+            "pl": "Uderzyć pierwszy: nocny atak na obóz perski, by dotrzeć do samego Kserksesa"
+          },
+          "reply": {
+            "en": "Diodorus, writing four centuries later, tells of such an attack; Herodotus, our oldest source, knows nothing of it.",
+            "ru": "Диодор, писавший четыре века спустя, рассказывает о такой атаке; Геродот, древнейший наш источник, ничего о ней не знает.",
+            "uk": "Діодор, який писав чотири століття потому, розповідає про такий напад; Геродот, наше найдавніше джерело, нічого про нього не знає.",
+            "pl": "Diodor, piszący cztery wieki później, opowiada o takim ataku; Herodot, nasze najstarsze źródło, nic o nim nie wie."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "Leonidas sent the allies away and stayed — with his three hundred Spartans, with the seven hundred Thespians, who would not leave him, and with the Thebans, whom he kept as hostages. That morning he led them out into the wider part of the pass and fought in the open; when their spears broke they fought with swords, and Leonidas fell. Four times the Greeks drove the Persians back from his body; then, as the troops led by Ephialtes came up behind them, they drew back to a little hill in the pass and fought on with daggers, with hands and teeth, until the missiles overwhelmed them. Herodotus thinks Leonidas sent the others home because for him to go away was not honourable, and because an oracle had said that either Sparta would be destroyed by the barbarians or her king would die. And now the question of this lesson: was this courage as Laches meant it — staying at one's post? As Aristotle meant it — fearing rightly, for the sake of what is noble? Or something else, obedience or the wish for glory, which Herodotus too sees in it?",
+        "ru": "Леонид отослал союзников и остался — со своими тремястами спартанцами, с семьюстами феспийцами, которые не захотели его покинуть, и с фиванцами, которых он удержал как заложников. В то утро он вывел их в широкую часть прохода и сражался в открытую; когда копья сломались, бились мечами, и Леонид пал. Четыре раза греки отбрасывали персов от его тела; затем, когда сзади подошли отряды, которые вёл Эфиальт, они отступили на холм в проходе и бились дальше кинжалами, руками и зубами, пока их не засыпали стрелами и копьями. Геродот думает, что Леонид отослал остальных потому, что самому ему уйти было бы бесчестно, и потому, что оракул предсказал: либо Спарту погубят варвары, либо погибнет её царь. А теперь вопрос этого урока: было ли это мужеством в смысле Лахета — остаться на своём посту? В смысле Аристотеля — бояться как должно, ради прекрасного? Или чем-то иным — послушанием или жаждой славы, которую видит здесь и Геродот?",
+        "uk": "Леонід відіслав союзників і залишився — зі своїми трьомастами спартанцями, із сімомастами феспійцями, які не захотіли його покинути, і з фіванцями, яких утримав як заручників. Того ранку він вивів їх у ширшу частину проходу й бився відкрито; коли списи поламалися, билися мечами, і Леонід поліг. Чотири рази греки відкидали персів від його тіла; потім, коли ззаду підійшли загони, які вів Ефіальт, вони відступили на пагорб у проході й билися далі кинджалами, руками й зубами, аж поки їх не засипали стрілами й списами. Геродот думає, що Леонід відіслав інших тому, що самому йому піти було б безчесно, і тому, що оракул провістив: або Спарту знищать варвари, або загине її цар. А тепер питання цього уроку: чи було це мужністю в сенсі Лахета — залишитися на своєму посту? У сенсі Аристотеля — боятися як належить, задля прекрасного? Чи чимось іншим — послухом чи жагою слави, яку бачить тут і Геродот?",
+        "pl": "Leonidas odesłał sprzymierzeńców i został — ze swymi trzystoma Spartanami, z siedmiuset Tespijczykami, którzy nie chcieli go opuścić, i z Tebańczykami, których zatrzymał jako zakładników. Tego ranka wyprowadził ich w szerszą część przejścia i walczył w otwartym polu; gdy włócznie się połamały, walczyli mieczami, i Leonidas poległ. Cztery razy Grecy odpierali Persów od jego ciała; potem, gdy z tyłu nadeszły oddziały prowadzone przez Efialtesa, cofnęli się na wzgórek w przejściu i walczyli dalej sztyletami, rękami i zębami, aż zasypały ich pociski. Herodot sądzi, że Leonidas odesłał innych, bo odejście nie byłoby dla niego zaszczytne, i dlatego, że wyrocznia zapowiedziała: albo Sparta zostanie zniszczona przez barbarzyńców, albo zginie jej król. A teraz pytanie tej lekcji: czy było to męstwo w rozumieniu Lachesa — pozostać na swoim posterunku? W rozumieniu Arystotelesa — bać się jak należy, ze względu na to, co piękne? Czy coś innego — posłuszeństwo albo żądza sławy, którą widzi tu także Herodot?"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Herodotus, Histories VII 219–220: why Leonidas stayed",
+            "ru": "Геродот, «История», VII 219–220: почему Леонид остался",
+            "uk": "Геродот, «Історія», VII 219–220: чому Леонід залишився",
+            "pl": "Herodot, Dzieje VII 219–220: dlaczego Leonidas został"
+          },
+          "quotes": {
+            "en": {
+              "edition": "histories-courage.en.macaulay",
+              "from": "7.219",
+              "to": "7.219",
+              "text": "However it is reported also that Leonidas himself sent them away, having a care that they might not perish, but thinking that it was not seemly for himself and for the Spartans who were present to leave the post to which they had come at first to keep guard there. I am inclined rather to be of this latter opinion, namely that because Leonidas perceived that the allies were out of heart and did not desire to face the danger with him to the end, he ordered them to depart, but held that for himself to go away was not honourable, whereas if he remained, a great fame of him would be left behind, and the prosperity of Sparta would not be blotted out",
+              "kind": "Free",
+              "translator": "G. C. Macaulay",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Macaulay)/Book_I",
+                "lang": "en",
+                "title": "Herodotus, Histories"
+              }
+            },
+            "ru": {
+              "edition": "histories-courage.ru.ours",
+              "from": "7.219",
+              "to": "7.219",
+              "text": "Однако говорят и то, что Леонид сам отослал их, заботясь, чтобы они не погибли, но считая, что ему самому и бывшим при нём спартанцам не подобает покидать пост, который они с самого начала пришли охранять. Я скорее склоняюсь к этому последнему мнению, а именно что Леонид, видя, что союзники пали духом и не желают вместе с ним встретить опасность до конца, велел им уходить, а сам считал, что уйти ему было бы бесчестно, тогда как, если он останется, о нём останется великая слава и процветание Спарты не будет стёрто",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Macaulay)/Book_I",
+                "lang": "en",
+                "title": "Геродот, «История»"
+              }
+            },
+            "uk": {
+              "edition": "histories-courage.uk.ours",
+              "from": "7.219",
+              "to": "7.219",
+              "text": "Однак кажуть і те, що Леонід сам відіслав їх, дбаючи, щоб вони не загинули, але вважаючи, що йому самому й спартанцям, які були з ним, не личить покидати пост, який вони від самого початку прийшли охороняти. Я радше схиляюся до цієї останньої думки, а саме що Леонід, бачачи, що союзники занепали духом і не бажають разом із ним зустріти небезпеку до кінця, звелів їм іти, а сам вважав, що піти йому було б безчесно, тоді як, якщо він залишиться, по ньому лишиться велика слава і процвітання Спарти не буде стерте",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Macaulay)/Book_I",
+                "lang": "en",
+                "title": "Геродот, «Історія»"
+              }
+            },
+            "pl": {
+              "edition": "histories-courage.pl.ours",
+              "from": "7.219",
+              "to": "7.219",
+              "text": "Opowiadają jednak i to, że Leonidas sam ich odesłał, troszcząc się, by nie zginęli, lecz uważając, że jemu samemu i obecnym przy nim Spartanom nie przystoi opuszczać posterunku, którego od początku przyszli strzec. Skłaniam się raczej ku temu drugiemu mniemaniu, mianowicie że Leonidas, widząc, iż sprzymierzeńcy upadli na duchu i nie chcą stawić czoła niebezpieczeństwu wraz z nim do końca, kazał im odejść, sam zaś uważał, że odejść nie byłoby dla niego rzeczą zaszczytną, gdyby zaś został, pozostałaby po nim wielka sława, a pomyślność Sparty nie zostałaby zatarta",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Macaulay)/Book_I",
+                "lang": "en",
+                "title": "Herodot, Dzieje"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0016.tlg001.perseus-grc2:7.220/"
+          }
+        },
+        {
+          "by": {
+            "en": "VII 222: the Thebans and the Thespians",
+            "ru": "VII 222: фиванцы и феспийцы",
+            "uk": "VII 222: фіванці й феспійці",
+            "pl": "VII 222: Tebańczycy i Tespijczycy"
+          },
+          "quotes": {
+            "en": {
+              "edition": "histories-courage.en.macaulay",
+              "from": "7.222",
+              "to": "7.222",
+              "text": "Of these the Thebans stayed against their will and not because they desired it, for Leonidas kept them, counting them as hostages; but the Thespians very willingly, for they said that they would not depart and leave Leonidas and those with him, but they stayed behind and died with them.",
+              "kind": "Free",
+              "translator": "G. C. Macaulay",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Macaulay)/Book_I",
+                "lang": "en",
+                "title": "Herodotus, Histories"
+              }
+            },
+            "ru": {
+              "edition": "histories-courage.ru.ours",
+              "from": "7.222",
+              "to": "7.222",
+              "text": "Из них фиванцы остались против воли, а не по желанию, ибо Леонид удержал их, считая заложниками; феспийцы же — весьма охотно: они сказали, что не уйдут и не покинут Леонида и тех, кто с ним, но остались и погибли вместе с ними.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Macaulay)/Book_I",
+                "lang": "en",
+                "title": "Геродот, «История»"
+              }
+            },
+            "uk": {
+              "edition": "histories-courage.uk.ours",
+              "from": "7.222",
+              "to": "7.222",
+              "text": "З них фіванці залишилися проти волі, а не з власного бажання, бо Леонід утримав їх, вважаючи заручниками; феспійці ж — дуже охоче: вони сказали, що не підуть і не покинуть Леоніда й тих, хто з ним, але залишилися й загинули разом із ними.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Macaulay)/Book_I",
+                "lang": "en",
+                "title": "Геродот, «Історія»"
+              }
+            },
+            "pl": {
+              "edition": "histories-courage.pl.ours",
+              "from": "7.222",
+              "to": "7.222",
+              "text": "Spośród nich Tebańczycy zostali wbrew swej woli, a nie dlatego, że tego chcieli, bo Leonidas zatrzymał ich, mając ich za zakładników; Tespijczycy zaś bardzo chętnie, bo powiedzieli, że nie odejdą i nie opuszczą Leonidasa i tych, którzy z nim byli, lecz zostali i zginęli razem z nimi.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Macaulay)/Book_I",
+                "lang": "en",
+                "title": "Herodot, Dzieje"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0016.tlg001.perseus-grc2:7.222/"
+          }
+        },
+        {
+          "by": {
+            "en": "VII 226: Dienekes",
+            "ru": "VII 226: Диенек",
+            "uk": "VII 226: Дієнек",
+            "pl": "VII 226: Dienekes"
+          },
+          "quotes": {
+            "en": {
+              "edition": "histories-courage.en.macaulay",
+              "from": "7.226",
+              "to": "7.226",
+              "text": "yet the Spartan Dienekes is said to have proved himself the best man of all, the same who, as they report, uttered this saying before they engaged battle with the Medes:—being informed by one of the men of Trachis that when the Barbarians discharged their arrows they obscured the light of the sun by the multitude of the arrows, so great was the number of their host, he was not dismayed by this, but making small account of the number of the Medes, he said that their guest from Trachis brought them very good news, for if the Medes obscured the light of the sun, the battle against them would be in the shade and not in the sun.",
+              "kind": "Free",
+              "translator": "G. C. Macaulay",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Macaulay)/Book_I",
+                "lang": "en",
+                "title": "Herodotus, Histories"
+              }
+            },
+            "ru": {
+              "edition": "histories-courage.ru.ours",
+              "from": "7.226",
+              "to": "7.226",
+              "text": "однако лучшим из всех, говорят, показал себя спартанец Диенек, тот самый, кто, как рассказывают, перед битвой с мидянами произнёс такое слово: когда некий трахинец сообщил ему, что, когда варвары выпускают стрелы, они затмевают свет солнца множеством стрел, — так велико их войско, — он не устрашился, но, ни во что не ставя численность мидян, сказал, что их гость из Трахина принёс им очень добрую весть: ведь если мидяне затмят свет солнца, битва с ними будет в тени, а не на солнце.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Macaulay)/Book_I",
+                "lang": "en",
+                "title": "Геродот, «История»"
+              }
+            },
+            "uk": {
+              "edition": "histories-courage.uk.ours",
+              "from": "7.226",
+              "to": "7.226",
+              "text": "проте найкращим з усіх, кажуть, показав себе спартанець Дієнек, той самий, хто, як розповідають, перед битвою з мідянами мовив таке слово: коли один трахінець повідомив йому, що, коли варвари випускають стріли, вони затьмарюють світло сонця безліччю стріл, — таке велике їхнє військо, — він не злякався, а, зневажаючи чисельність мідян, сказав, що їхній гість із Трахіна приніс їм дуже добру звістку: адже якщо мідяни затьмарять світло сонця, битва з ними буде в тіні, а не на сонці.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Macaulay)/Book_I",
+                "lang": "en",
+                "title": "Геродот, «Історія»"
+              }
+            },
+            "pl": {
+              "edition": "histories-courage.pl.ours",
+              "from": "7.226",
+              "to": "7.226",
+              "text": "jednak najlepszym ze wszystkich okazał się podobno Spartanin Dienekes, ten sam, który, jak opowiadają, wypowiedział przed bitwą z Medami takie słowo: gdy jeden z mieszkańców Trachis powiedział mu, że kiedy barbarzyńcy wypuszczają strzały, zaćmiewają światło słońca mnogością strzał, tak wielkie jest ich wojsko, on nie przeląkł się tego, lecz lekceważąc liczbę Medów, rzekł, że ich gość z Trachis przynosi im bardzo dobrą wieść: jeśli bowiem Medowie zaćmią światło słońca, bitwa z nimi będzie w cieniu, a nie w słońcu.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Macaulay)/Book_I",
+                "lang": "en",
+                "title": "Herodot, Dzieje"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0016.tlg001.perseus-grc2:7.226/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Two of the three hundred, Eurytus and Aristodemus, had been sent away from the camp sick with their eyes. Eurytus had himself led back into the fight and died; Aristodemus went home. In Sparta no one would give him fire or speak to him, and he was called “the coward”. At Plataea, the next year, he fought best of all, Herodotus judges — yet the Spartans gave him no honour, because he had wished to die there to be rid of his shame, and had left his place in the line.",
+            "ru": "Двое из трёхсот, Еврит и Аристодем, были отосланы из лагеря с болезнью глаз. Еврит велел отвести себя обратно в бой и погиб; Аристодем вернулся домой. В Спарте никто не давал ему огня и не говорил с ним, и его прозвали «трусом». Под Платеями на следующий год он сражался лучше всех, по суждению Геродота, — и всё же спартанцы не почтили его, потому что он хотел там умереть, чтобы избавиться от позора, и покинул своё место в строю.",
+            "uk": "Двоє з трьохсот, Еврит і Аристодем, були відіслані з табору з хворобою очей. Еврит звелів відвести себе назад у бій і загинув; Аристодем повернувся додому. У Спарті ніхто не давав йому вогню й не говорив із ним, і його прозвали «боягузом». Під Платеями наступного року він бився найкраще з усіх, на думку Геродота, — і все ж спартанці не вшанували його, бо він хотів там померти, щоб позбутися ганьби, і покинув своє місце в строю.",
+            "pl": "Dwóch z trzystu, Eurytos i Arystodemos, odesłano z obozu z chorobą oczu. Eurytos kazał się zaprowadzić z powrotem do walki i zginął; Arystodemos wrócił do domu. W Sparcie nikt nie dawał mu ognia ani z nim nie rozmawiał, i nazywano go „tchórzem”. Pod Platejami w następnym roku walczył najlepiej ze wszystkich, jak ocenia Herodot — a jednak Spartanie nie uczcili go, bo chciał tam zginąć, by pozbyć się hańby, i opuścił swoje miejsce w szyku."
+          },
+          "source": "Herodotus 7.229–231; 9.71"
+        },
+        {
+          "fact": {
+            "en": "Sparta had sent Leonidas ahead with only an advance force because of the festival of the Carneia; the other allies held back too, for the Olympic games fell at the same time. No one expected the fight at Thermopylae to be decided so soon.",
+            "ru": "Спарта выслала Леонида вперёд лишь с передовым отрядом из-за праздника Карней; медлили и другие союзники, ибо на то же время пришлись Олимпийские игры. Никто не ждал, что бой при Фермопилах решится так скоро.",
+            "uk": "Спарта вислала Леоніда вперед лише з передовим загоном через свято Карней; зволікали й інші союзники, бо на той самий час припали Олімпійські ігри. Ніхто не чекав, що бій під Фермопілами вирішиться так скоро.",
+            "pl": "Sparta wysłała Leonidasa naprzód tylko ze strażą przednią z powodu święta Karnejów; zwlekali i inni sprzymierzeńcy, bo w tym samym czasie przypadły igrzyska olimpijskie. Nikt nie spodziewał się, że walka pod Termopilami rozstrzygnie się tak szybko."
+          },
+          "source": "Herodotus 7.206"
+        },
+        {
+          "fact": {
+            "en": "The dead were buried where they fell. On the Spartans' stone, Herodotus records, the passer-by was asked to tell Sparta that they lay there, obedient to her words. The inscriptions were set up by the Amphictyons; only the seer Megistias' was written by Simonides, his friend.",
+            "ru": "Павших похоронили там, где они пали. На камне спартанцев, сообщает Геродот, прохожего просили передать Спарте, что они лежат здесь, послушные её словам. Надписи поставили амфиктионы; лишь надпись прорицателю Мегистию сочинил Симонид, его друг.",
+            "uk": "Полеглих поховали там, де вони впали. На камені спартанців, повідомляє Геродот, перехожого просили переказати Спарті, що вони лежать тут, слухняні її словам. Написи поставили амфіктіони; лише напис віщунові Мегістію склав Симонід, його друг.",
+            "pl": "Poległych pochowano tam, gdzie padli. Na kamieniu Spartan, jak podaje Herodot, przechodnia proszono, by powiedział Sparcie, że leżą tu, posłuszni jej słowom. Napisy wznieśli amfiktionowie; tylko napis dla wieszczka Megistiasa ułożył Symonides, jego przyjaciel."
+          },
+          "source": "Herodotus 7.228"
+        }
+      ]
+    },
+    {
+      "think": "courage",
+      "question": {
+        "en": "Think of an act you would call brave — on a battlefield, in a hospital, at a meeting where no one else would speak. What made it courage, and not recklessness, stubbornness or mere obedience? Must a brave person feel fear — and can someone be brave in a bad cause?",
+        "ru": "Вспомните поступок, который вы назвали бы смелым, — на поле боя, в больнице, на собрании, где никто больше не решился заговорить. Что делало его мужеством, а не безрассудством, упрямством или простым послушанием? Должен ли мужественный человек чувствовать страх — и можно ли быть мужественным в дурном деле?",
+        "uk": "Пригадайте вчинок, який ви назвали б сміливим, — на полі бою, у лікарні, на зборах, де ніхто більше не наважився заговорити. Що робило його мужністю, а не безрозсудністю, упертістю чи простим послухом? Чи має мужня людина відчувати страх — і чи можна бути мужнім у поганій справі?",
+        "pl": "Pomyśl o czynie, który nazwałbyś odważnym — na polu bitwy, w szpitalu, na zebraniu, na którym nikt inny nie odważył się zabrać głosu. Co czyniło go męstwem, a nie lekkomyślnością, uporem czy zwykłym posłuszeństwem? Czy mężny człowiek musi odczuwać strach — i czy można być mężnym w złej sprawie?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: what is courage?",
+        "ru": "А теперь: что такое мужество?",
+        "uk": "А тепер: що таке мужність?",
+        "pl": "A teraz: czym jest męstwo?"
+      }
+    }
+  ]
+}
