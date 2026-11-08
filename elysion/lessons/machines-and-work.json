@@ -7,10 +7,10 @@
     "pl": "Czy maszyny zabiorą nam pracę?"
   },
   "subtitle": {
-    "en": "Aristotle, a weaver of 1811, Lord Byron and Norbert Wiener — and you",
-    "ru": "Аристотель, ткач 1811 года, лорд Байрон и Норберт Винер — и вы",
-    "uk": "Аристотель, ткач 1811 року, лорд Байрон і Норберт Вінер — і ви",
-    "pl": "Arystoteles, tkacz z 1811 roku, lord Byron i Norbert Wiener — i ty"
+    "en": "Aristotle, a weaver of 1811, Lord Byron, Gandhi and Norbert Wiener — and you",
+    "ru": "Аристотель, ткач 1811 года, лорд Байрон, Ганди и Норберт Винер — и вы",
+    "uk": "Аристотель, ткач 1811 року, лорд Байрон, Ганді і Норберт Вінер — і ви",
+    "pl": "Arystoteles, tkacz z 1811 roku, lord Byron, Gandhi i Norbert Wiener — i ty"
   },
   "steps": [
     {
@@ -399,6 +399,193 @@
     },
     {
       "read": {
+        "en": "Gandhi: machinery, a great sin",
+        "ru": "Ганди: машины — великий грех",
+        "uk": "Ганді: машини — великий гріх",
+        "pl": "Gandhi: maszyny — wielki grzech"
+      },
+      "intro": {
+        "en": "1909, a century after the Luddites, on a ship from London to South Africa. Mohandas Gandhi, an Indian lawyer who leads his countrymen's struggle for their rights in South Africa, writes a short book as a dialogue between a Reader and an Editor — himself. The Reader asks whether India must do without machinery too. The Editor answers:",
+        "ru": "1909 год, век спустя после луддитов, на корабле из Лондона в Южную Африку. Мохандас Ганди, индийский адвокат, возглавляющий борьбу своих соотечественников за их права в Южной Африке, пишет небольшую книгу — диалог Читателя и Редактора, то есть себя самого. Читатель спрашивает, неужели Индии придётся обойтись и без машин. Редактор отвечает:",
+        "uk": "1909 рік, через століття після луддитів, на кораблі з Лондона до Південної Африки. Мохандас Ганді, індійський адвокат, що очолює боротьбу своїх співвітчизників за їхні права в Південній Африці, пише невелику книжку — діалог Читача і Редактора, тобто себе самого. Читач питає, невже Індії доведеться обійтися і без машин. Редактор відповідає:",
+        "pl": "Rok 1909, sto lat po luddystach, na statku z Londynu do Afryki Południowej. Mohandas Gandhi, indyjski adwokat, który przewodzi walce swoich rodaków o ich prawa w Afryce Południowej, pisze niewielką książkę — dialog Czytelnika i Redaktora, czyli siebie samego. Czytelnik pyta, czy Indie mają się obejść także bez maszyn. Redaktor odpowiada:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "M. K. Gandhi, Hind Swaraj, chapter XIX, “Machinery”",
+            "ru": "М. К. Ганди, «Хинд сварадж», глава XIX, «Машины»",
+            "uk": "М. К. Ганді, «Гінд сварадж», розділ XIX, «Машини»",
+            "pl": "M. K. Gandhi, Hind swaraj, rozdział XIX, „Maszyny”"
+          },
+          "quotes": {
+            "en": {
+              "edition": "hind-swaraj-machines-and-work.en.gandhi",
+              "from": "19.2",
+              "to": "19.3",
+              "text": "It is machinery that has impoverished India. It is difficult to measure the harm that Manchester has done to us. It is due to Manchester that Indian handicraft has all but disappeared. But I make a mistake. How can Manchester be blamed? We wore Manchester cloth, and that is why Manchester wove it.",
+              "kind": "Free",
+              "translator": "M. K. Gandhi",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Indian_Home_Rule_(5th_edition)",
+                "lang": "en",
+                "title": "M. K. Gandhi, Hind Swaraj, or Indian Home Rule"
+              }
+            },
+            "ru": {
+              "edition": "hind-swaraj-machines-and-work.ru.ours",
+              "from": "19.2",
+              "to": "19.3",
+              "text": "Это машины разорили Индию. Трудно измерить вред, который причинил нам Манчестер. Из-за Манчестера индийское ремесло почти исчезло. Но я ошибаюсь. Как можно винить Манчестер? Мы носили манчестерскую ткань — вот почему Манчестер её ткал.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Indian_Home_Rule_(5th_edition)",
+                "lang": "en",
+                "title": "М. К. Ганди, «Хинд сварадж, или Индийское самоуправление»"
+              }
+            },
+            "uk": {
+              "edition": "hind-swaraj-machines-and-work.uk.ours",
+              "from": "19.2",
+              "to": "19.3",
+              "text": "Це машини зубожили Індію. Важко виміряти шкоду, якої завдав нам Манчестер. Через Манчестер індійське ремесло майже зникло. Але я помиляюся. Як можна звинувачувати Манчестер? Ми носили манчестерську тканину — ось чому Манчестер її ткав.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Indian_Home_Rule_(5th_edition)",
+                "lang": "en",
+                "title": "М. К. Ганді, «Гінд сварадж, або Індійське самоврядування»"
+              }
+            },
+            "pl": {
+              "edition": "hind-swaraj-machines-and-work.pl.ours",
+              "from": "19.2",
+              "to": "19.3",
+              "text": "To maszyny zubożyły Indie. Trudno zmierzyć szkodę, jaką wyrządził nam Manchester. Przez Manchester indyjskie rękodzieło niemal zniknęło. Ale mylę się. Jak można winić Manchester? Nosiliśmy manchesterskie sukno i dlatego Manchester je tkał.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Indian_Home_Rule_(5th_edition)",
+                "lang": "en",
+                "title": "M. K. Gandhi, Hind swaraj, czyli indyjska samorządność"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Gujarati",
+              "ru": "оригинал на гуджарати",
+              "uk": "оригінал гуджараті",
+              "pl": "oryginał w gudżarati"
+            },
+            "url": "https://gu.wikisource.org/wiki/હિંદ_સ્વરાજ/૧૯._સંચાકામ"
+          }
+        },
+        {
+          "by": {
+            "en": "The same chapter",
+            "ru": "Та же глава",
+            "uk": "Той самий розділ",
+            "pl": "Ten sam rozdział"
+          },
+          "quotes": {
+            "en": {
+              "edition": "hind-swaraj-machines-and-work.en.gandhi",
+              "from": "19.4",
+              "to": "19.4",
+              "text": "Machinery has begun to desolate Europe. Ruination is now knocking at the English gates. Machinery is the chief symbol of modern civilization; it represents a great sin.",
+              "kind": "Free",
+              "translator": "M. K. Gandhi",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Indian_Home_Rule_(5th_edition)",
+                "lang": "en",
+                "title": "M. K. Gandhi, Hind Swaraj, or Indian Home Rule"
+              }
+            },
+            "ru": {
+              "edition": "hind-swaraj-machines-and-work.ru.ours",
+              "from": "19.4",
+              "to": "19.4",
+              "text": "Машины начали опустошать Европу. Разорение уже стучится в ворота Англии. Машины — главный символ современной цивилизации; они воплощают великий грех.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Indian_Home_Rule_(5th_edition)",
+                "lang": "en",
+                "title": "М. К. Ганди, «Хинд сварадж, или Индийское самоуправление»"
+              }
+            },
+            "uk": {
+              "edition": "hind-swaraj-machines-and-work.uk.ours",
+              "from": "19.4",
+              "to": "19.4",
+              "text": "Машини почали спустошувати Європу. Руїна вже стукає у ворота Англії. Машини — головний символ сучасної цивілізації; вони втілюють великий гріх.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Indian_Home_Rule_(5th_edition)",
+                "lang": "en",
+                "title": "М. К. Ганді, «Гінд сварадж, або Індійське самоврядування»"
+              }
+            },
+            "pl": {
+              "edition": "hind-swaraj-machines-and-work.pl.ours",
+              "from": "19.4",
+              "to": "19.4",
+              "text": "Maszyny zaczęły pustoszyć Europę. Ruina puka już do bram Anglii. Maszyny są głównym symbolem nowoczesnej cywilizacji; uosabiają wielki grzech.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Indian_Home_Rule_(5th_edition)",
+                "lang": "en",
+                "title": "M. K. Gandhi, Hind swaraj, czyli indyjska samorządność"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Gujarati",
+              "ru": "оригинал на гуджарати",
+              "uk": "оригінал гуджараті",
+              "pl": "oryginał w gudżarati"
+            },
+            "url": "https://gu.wikisource.org/wiki/હિંદ_સ્વરાજ/૧૯._સંચાકામ"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "He wrote it in Gujarati in ten days, on board the Kildonan Castle, in November 1909, and printed it in his weekly Indian Opinion. In March 1910 the government of Bombay banned it; that same month Gandhi published his own English translation.",
+            "ru": "Он написал её на гуджарати за десять дней, на борту «Килдонан Касл», в ноябре 1909 года, и напечатал в своём еженедельнике «Индиан опиньон». В марте 1910 года власти Бомбея её запретили; в том же месяце Ганди издал собственный английский перевод.",
+            "uk": "Він написав її мовою гуджараті за десять днів, на борту «Кілдонан Касл», у листопаді 1909 року, і надрукував у своєму тижневику «Індіан опініон». У березні 1910 року влада Бомбея її заборонила; того самого місяця Ганді видав власний англійський переклад.",
+            "pl": "Napisał ją w gudżarati w dziesięć dni, na pokładzie „Kildonan Castle”, w listopadzie 1909 roku, i wydrukował w swoim tygodniku „Indian Opinion”. W marcu 1910 roku władze Bombaju jej zakazały; w tym samym miesiącu Gandhi wydał własny angielski przekład."
+          },
+          "source": "Anthony J. Parel (ed.), Gandhi: Hind Swaraj and Other Writings (Cambridge, 1997), Introduction"
+        },
+        {
+          "fact": {
+            "en": "The “Mr. Dutt” he names is Romesh Chunder Dutt, whose Economic History of India (1902) blamed British policy for the ruin of India's weavers. From 1921 Gandhi had foreign cloth burnt on bonfires, and asked every Indian to spin and to wear khadi, cloth spun and woven by hand.",
+            "ru": "«Мистер Датт», которого он называет, — это Ромеш Чундер Датт, чья «Экономическая история Индии» (1902) винила британскую политику в разорении индийских ткачей. С 1921 года Ганди устраивал костры из иностранной ткани и призывал каждого индийца прясть и носить кхади — ткань, спряденную и сотканную вручную.",
+            "uk": "«Містер Датт», якого він згадує, — це Ромеш Чандер Датт, чия «Економічна історія Індії» (1902) звинувачувала британську політику в розоренні індійських ткачів. Від 1921 року Ганді влаштовував вогнища з іноземної тканини і закликав кожного індійця прясти й носити кхаді — тканину, спрядену й виткану вручну.",
+            "pl": "„Pan Dutt”, o którym mówi, to Romesh Chunder Dutt, którego Historia gospodarcza Indii (1902) winiła politykę brytyjską za ruinę indyjskich tkaczy. Od 1921 roku Gandhi kazał palić na stosach obcą tkaninę i wzywał każdego Hindusa, by prządł i nosił khadi — tkaninę przędzioną i tkaną ręcznie."
+          },
+          "source": "R. C. Dutt, The Economic History of India under Early British Rule (1902); Judith M. Brown, Gandhi: Prisoner of Hope (1989)"
+        },
+        {
+          "fact": {
+            "en": "Later he said that what he objected to was not machinery as such but the “craze” for labour-saving machines that leave thousands without work — and he called the Singer sewing machine one of the few useful things ever invented.",
+            "ru": "Позже он говорил, что возражает не против машин как таковых, а против «помешательства» на машинах, «сберегающих труд», которые оставляют тысячи людей без работы, — а швейную машину Зингера назвал одной из немногих полезных вещей, когда-либо изобретённых.",
+            "uk": "Згодом він казав, що заперечує не проти машин як таких, а проти «манії» машин, які «заощаджують працю» й лишають тисячі людей без роботи, — а швацьку машину Зінгера назвав однією з небагатьох корисних речей, будь-коли винайдених.",
+            "pl": "Później mówił, że sprzeciwia się nie maszynom jako takim, lecz „szałowi” maszyn „oszczędzających pracę”, które pozbawiają pracy tysiące ludzi — a maszynę do szycia Singera nazwał jedną z niewielu pożytecznych rzeczy, jakie kiedykolwiek wynaleziono."
+          },
+          "source": "Young India, 13 November 1924 (The Collected Works of Mahatma Gandhi, vol. 25)"
+        }
+      ]
+    },
+    {
+      "read": {
         "en": "Wiener, 1948: the second industrial revolution",
         "ru": "Винер, 1948: вторая промышленная революция",
         "uk": "Вінер, 1948: друга промислова революція",
@@ -581,6 +768,35 @@
               "translator": "Elysion (draft)"
             }
           }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The Human Use of Human Beings, subtitled Cybernetics and Society, came out in 1950 for readers without mathematics; the words quoted here are from its revised second edition of 1954.",
+            "ru": "«Человеческое использование человеческих существ» с подзаголовком «Кибернетика и общество» вышло в 1950 году для читателей без математики; приведённые слова — из второго, переработанного издания 1954 года.",
+            "uk": "«Людське використання людських істот» з підзаголовком «Кібернетика і суспільство» вийшло 1950 року для читачів без математики; наведені слова — з другого, переробленого видання 1954 року.",
+            "pl": "„Ludzkie użytkowanie istot ludzkich” z podtytułem „Cybernetyka i społeczeństwo” ukazało się w 1950 roku dla czytelników bez matematyki; przytoczone słowa pochodzą z drugiego, poprawionego wydania z 1954 roku."
+          },
+          "source": "Norbert Wiener, The Human Use of Human Beings (Boston: Houghton Mifflin, 1950; 2nd ed., Garden City: Doubleday Anchor, 1954)"
+        },
+        {
+          "fact": {
+            "en": "In January 1947, in The Atlantic Monthly, he published “A Scientist Rebels”: a letter refusing to give his work to anyone who might turn it into weapons.",
+            "ru": "В январе 1947 года он напечатал в The Atlantic Monthly «Учёный восстаёт» — письмо с отказом отдавать свою работу тем, кто может обратить её в оружие.",
+            "uk": "У січні 1947 року він надрукував у The Atlantic Monthly «Учений повстає» — лист із відмовою віддавати свою працю тим, хто може обернути її на зброю.",
+            "pl": "W styczniu 1947 roku opublikował w „The Atlantic Monthly” „Naukowiec się buntuje” — list, w którym odmówił oddawania swojej pracy tym, którzy mogliby obrócić ją w broń."
+          },
+          "source": "Norbert Wiener, “A Scientist Rebels”, The Atlantic Monthly 179 (January 1947)"
+        },
+        {
+          "fact": {
+            "en": "His father Leo Wiener, born in Białystok in 1862, taught Slavic languages at Harvard and translated the complete works of Tolstoy into English, in twenty-four volumes.",
+            "ru": "Его отец Лео Винер, родившийся в Белостоке в 1862 году, преподавал славянские языки в Гарварде и перевёл на английский полное собрание сочинений Толстого — двадцать четыре тома.",
+            "uk": "Його батько Лео Вінер, народжений у Білостоці 1862 року, викладав слов'янські мови в Гарварді й переклав англійською повне зібрання творів Толстого — двадцять чотири томи.",
+            "pl": "Jego ojciec Leo Wiener, urodzony w Białymstoku w 1862 roku, wykładał języki słowiańskie na Harvardzie i przełożył na angielski dzieła zebrane Tołstoja — dwadzieścia cztery tomy."
+          },
+          "source": "Norbert Wiener, Ex-Prodigy (1953); The Complete Works of Count Tolstoy, tr. Leo Wiener (Boston: Dana Estes, 1904–1905)"
         }
       ]
     },

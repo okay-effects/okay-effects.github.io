@@ -7,10 +7,10 @@
     "pl": "Jak żyć z tym, co od nas nie zależy?"
   },
   "subtitle": {
-    "en": "Epictetus, Laozi, the Bhagavad Gītā and Boethius — and you",
-    "ru": "Эпиктет, Лао-цзы, Бхагавадгита и Боэций — и вы",
-    "uk": "Епіктет, Лао-цзи, Бгаґавадґіта і Боецій — і ви",
-    "pl": "Epiktet, Laozi, Bhagawadgita i Boecjusz — i ty"
+    "en": "Epictetus, Laozi, the Bhagavad Gītā, Boethius and Descartes — and you",
+    "ru": "Эпиктет, Лао-цзы, Бхагавадгита, Боэций и Декарт — и вы",
+    "uk": "Епіктет, Лао-цзи, Бгаґавадґіта, Боецій і Декарт — і ви",
+    "pl": "Epiktet, Laozi, Bhagawadgita, Boecjusz i Kartezjusz — i ty"
   },
   "steps": [
     {
@@ -410,6 +410,15 @@
             "pl": "Najstarsze znane odpisy, na bambusowych listewkach, znaleziono w 1993 roku w grobowcu w Guodian, zamkniętym około 300 roku p.n.e."
           },
           "source": "Guodian Chu Slips (Jingmen Museum, 1998)"
+        },
+        {
+          "fact": {
+            "en": "Water is the book's favourite image. Chapter 8 says the highest excellence is like water: it benefits all things and does not strive, keeping to the low places that all men dislike.",
+            "ru": "Вода — любимый образ книги. В главе 8 сказано, что высшее совершенство подобно воде: она приносит пользу всем вещам и не борется, занимая низкие места, которые всем не по душе.",
+            "uk": "Вода — улюблений образ книги. У розділі 8 сказано, що найвища досконалість подібна до води: вона приносить користь усім речам і не бореться, займаючи низькі місця, які всім не до душі.",
+            "pl": "Woda to ulubiony obraz tej księgi. Rozdział 8 mówi, że najwyższa doskonałość jest jak woda: przynosi pożytek wszystkim rzeczom i nie walczy, zajmując niskie miejsca, których nikt nie lubi."
+          },
+          "source": "Dao De Jing 8 (tr. James Legge, 1891)"
         }
       ]
     },
@@ -517,6 +526,15 @@
             "pl": "W 1785 roku Charles Wilkins wydał pierwszy angielski przekład. Gandhi przełożył Gitę na gudżarati jako Anasaktijoga — „joga nieprzywiązania” (1930)."
           },
           "source": "Charles Wilkins, The Bhagvat-Geeta (London, 1785); M. K. Gandhi, Anāsaktiyoga (1930)"
+        },
+        {
+          "fact": {
+            "en": "Arjuna lays down his bow because of whom he sees in both armies: fathers and grandfathers, teachers, uncles, brothers, sons and friends. The war is between two branches of one family, the Pāṇḍavas and their cousins the Kauravas.",
+            "ru": "Арджуна опускает лук из-за тех, кого видит в обоих войсках: отцов и дедов, учителей, дядей, братьев, сыновей и друзей. Это война двух ветвей одного рода — Пандавов и их двоюродных братьев Кауравов.",
+            "uk": "Арджуна опускає лук через тих, кого бачить в обох військах: батьків і дідів, учителів, дядьків, братів, синів і друзів. Це війна двох гілок одного роду — Пандавів та їхніх двоюрідних братів Кауравів.",
+            "pl": "Ardżuna opuszcza łuk z powodu tych, których widzi w obu wojskach: ojców i dziadów, nauczycieli, wujów, braci, synów i przyjaciół. To wojna dwóch gałęzi jednego rodu — Pandawów i ich braci stryjecznych, Kaurawów."
+          },
+          "source": "Bhagavad Gītā 1.26–47; Mahābhārata, Ādiparvan"
         }
       ]
     },
@@ -688,6 +706,202 @@
             "pl": "Stracono go w 524 lub 525 roku za ostrogockiego króla Teodoryka. Jego grób jest w kościele San Pietro in Ciel d'Oro w Pawii, a Dante umieszcza go wśród mędrców w Raju."
           },
           "source": "Dante, Paradiso 10.124–129"
+        },
+        {
+          "fact": {
+            "en": "His fall began when he defended another man: the senator Albinus, accused of treasonable letters to the emperor in Constantinople. In Book I of the Consolation Boethius pleads his own case and calls the letters brought against him forged.",
+            "ru": "Его падение началось, когда он заступился за другого — сенатора Альбина, обвинённого в изменнических письмах к императору в Константинополь. В I книге «Утешения» Боэций сам защищает себя и называет письма, приведённые против него, подложными.",
+            "uk": "Його падіння почалося, коли він заступився за іншого — сенатора Альбіна, звинуваченого в зрадницьких листах до імператора в Константинополь. У I книзі «Розради» Боецій сам себе захищає і називає листи, наведені проти нього, підробленими.",
+            "pl": "Jego upadek zaczął się, gdy wstawił się za innym — senatorem Albinem, oskarżonym o zdradzieckie listy do cesarza w Konstantynopolu. W I księdze O pocieszeniu Boecjusz sam się broni i nazywa listy przytoczone przeciw niemu sfałszowanymi."
+          },
+          "source": "Boethius, The Consolation of Philosophy I, prose 4; Anonymus Valesianus 85–87"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Descartes: change my desires, not the world",
+        "ru": "Декарт: менять свои желания, а не мир",
+        "uk": "Декарт: змінювати свої бажання, а не світ",
+        "pl": "Kartezjusz: zmieniać swoje pragnienia, nie świat"
+      },
+      "intro": {
+        "en": "Holland, 1637, eleven centuries after Boethius. René Descartes has resolved to doubt everything he was taught — but even while doubting one has to live. So for that time he gives himself a few rules; the third could have been written by Epictetus:",
+        "ru": "Голландия, 1637 год, одиннадцать веков спустя после Боэция. Рене Декарт решил усомниться во всём, чему его учили, — но и сомневаясь, надо как-то жить. И на это время он даёт себе несколько правил; третье мог бы написать Эпиктет:",
+        "uk": "Голландія, 1637 рік, через одинадцять століть після Боеція. Рене Декарт вирішив засумніватися в усьому, чого його вчили, — але й сумніваючись, треба якось жити. Тож на цей час він дає собі кілька правил; третє міг би написати Епіктет:",
+        "pl": "Holandia, 1637 rok, jedenaście wieków po Boecjuszu. Kartezjusz postanowił zwątpić we wszystko, czego go nauczono — ale i wątpiąc, trzeba jakoś żyć. Na ten czas daje więc sobie kilka reguł; trzecią mógłby napisać Epiktet:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "René Descartes, Discourse on the Method III, the third maxim",
+            "ru": "Рене Декарт, «Рассуждение о методе», III, третье правило",
+            "uk": "Рене Декарт, «Міркування про метод», III, третє правило",
+            "pl": "Kartezjusz, Rozprawa o metodzie III, trzecia maksyma"
+          },
+          "quotes": {
+            "en": {
+              "edition": "discourse-what-is-up-to-us.en.veitch",
+              "from": "3.4",
+              "to": "3.4",
+              "text": "My third maxim was to endeavour always to conquer myself rather than fortune, and change my desires rather than the order of the world, and in general, accustom myself to the persuasion that, except our own thoughts, there is nothing absolutely in our power; so that when we have done our best in respect of things external to us, all wherein we fail of success is to be held, as regards us, absolutely impossible",
+              "kind": "Free",
+              "translator": "John Veitch",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Discourse_on_the_Method",
+                "lang": "en",
+                "title": "René Descartes, Discourse on the Method"
+              }
+            },
+            "ru": {
+              "edition": "discourse-what-is-up-to-us.ru.ours",
+              "from": "3.4",
+              "to": "3.4",
+              "text": "Моё третье правило состояло в том, чтобы всегда стараться побеждать скорее себя, чем судьбу, и изменять скорее свои желания, чем порядок мира, и вообще приучить себя к убеждению, что, кроме наших собственных мыслей, нет ничего, что было бы всецело в нашей власти; так что, когда мы сделали всё, что могли, в отношении внешних нам вещей, всё, в чём мы не достигли успеха, должно считаться для нас совершенно невозможным",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Discourse_on_the_Method",
+                "lang": "en",
+                "title": "Рене Декарт, «Рассуждение о методе»"
+              }
+            },
+            "uk": {
+              "edition": "discourse-what-is-up-to-us.uk.ours",
+              "from": "3.4",
+              "to": "3.4",
+              "text": "Моє третє правило полягало в тому, щоб завжди намагатися перемагати радше себе, ніж долю, і змінювати радше свої бажання, ніж лад світу, і взагалі привчити себе до переконання, що, крім наших власних думок, немає нічого, що було б цілковито в нашій владі; тож коли ми зробили все, що могли, щодо зовнішніх для нас речей, усе, у чому ми не досягли успіху, слід уважати для нас цілком неможливим",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Discourse_on_the_Method",
+                "lang": "en",
+                "title": "Рене Декарт, «Міркування про метод»"
+              }
+            },
+            "pl": {
+              "edition": "discourse-what-is-up-to-us.pl.ours",
+              "from": "3.4",
+              "to": "3.4",
+              "text": "Moją trzecią maksymą było starać się zawsze zwyciężać raczej siebie niż los i zmieniać raczej swoje pragnienia niż porządek świata, i w ogóle przyzwyczaić się do przekonania, że poza naszymi własnymi myślami nie ma niczego, co byłoby całkowicie w naszej mocy; tak że gdy zrobiliśmy wszystko, co mogliśmy, wobec rzeczy zewnętrznych, wszystko, w czym nie osiągnęliśmy powodzenia, należy uważać, jeśli chodzi o nas, za zupełnie niemożliwe",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Discourse_on_the_Method",
+                "lang": "en",
+                "title": "Kartezjusz, Rozprawa o metodzie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Discours_de_la_méthode_(éd._Cousin)/Troisième_partie"
+          }
+        },
+        {
+          "by": {
+            "en": "The same paragraph",
+            "ru": "Тот же абзац",
+            "uk": "Той самий абзац",
+            "pl": "Ten sam akapit"
+          },
+          "quotes": {
+            "en": {
+              "edition": "discourse-what-is-up-to-us.en.veitch",
+              "from": "3.4",
+              "to": "3.4",
+              "text": "and thus making, so to speak, a virtue of necessity, we shall no more desire health in disease, or freedom in imprisonment, than we now do bodies incorruptible as diamonds, or the wings of birds to fly with. But I confess there is need of prolonged discipline and frequently repeated meditation to accustom the mind to view all objects in this light; and I believe that in this chiefly consisted the secret of the power of such philosophers as in former times were enabled to rise superior to the influence of fortune, and, amid suffering and poverty, enjoy a happiness which their gods might have envied.",
+              "kind": "Free",
+              "translator": "John Veitch",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Discourse_on_the_Method",
+                "lang": "en",
+                "title": "René Descartes, Discourse on the Method"
+              }
+            },
+            "ru": {
+              "edition": "discourse-what-is-up-to-us.ru.ours",
+              "from": "3.4",
+              "to": "3.4",
+              "text": "и так, делая, если можно так сказать, из нужды добродетель, мы будем желать здоровья в болезни или свободы в заточении не больше, чем теперь желаем тела, нетленного, как алмаз, или птичьих крыльев, чтобы летать. Но признаюсь, нужны долгое упражнение и часто повторяемое размышление, чтобы приучить ум смотреть на все вещи в этом свете; и я думаю, что главным образом в этом и состояла тайна силы тех философов, которые в прежние времена умели подняться над властью судьбы и среди страданий и бедности наслаждаться счастьем, которому могли бы позавидовать их боги.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Discourse_on_the_Method",
+                "lang": "en",
+                "title": "Рене Декарт, «Рассуждение о методе»"
+              }
+            },
+            "uk": {
+              "edition": "discourse-what-is-up-to-us.uk.ours",
+              "from": "3.4",
+              "to": "3.4",
+              "text": "і так, роблячи, сказати б, із необхідності чесноту, ми бажатимемо здоров'я в хворобі чи свободи у в'язниці не більше, ніж тепер бажаємо тіла, нетлінного, як алмаз, чи пташиних крил, щоб літати. Але визнаю, потрібні тривала вправа й часто повторюване роздумування, щоб привчити розум дивитися на всі речі в цьому світлі; і я вважаю, що головно в цьому й полягала таємниця сили тих філософів, які в давні часи вміли піднестися над владою долі і серед страждань і бідності втішатися щастям, якому могли б позаздрити їхні боги.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Discourse_on_the_Method",
+                "lang": "en",
+                "title": "Рене Декарт, «Міркування про метод»"
+              }
+            },
+            "pl": {
+              "edition": "discourse-what-is-up-to-us.pl.ours",
+              "from": "3.4",
+              "to": "3.4",
+              "text": "i tak, czyniąc, że tak powiem, z konieczności cnotę, nie będziemy bardziej pragnąć zdrowia w chorobie ani wolności w więzieniu, niż pragniemy teraz ciał niezniszczalnych jak diamenty albo ptasich skrzydeł, by latać. Wyznaję jednak, że potrzeba długiego ćwiczenia i często powtarzanego rozmyślania, by przyzwyczaić umysł do patrzenia na wszystkie rzeczy w tym świetle; i sądzę, że głównie na tym polegała tajemnica potęgi tych filozofów, którzy w dawnych czasach umieli wznieść się ponad władzę losu i pośród cierpień i ubóstwa zażywać szczęścia, którego mogliby im pozazdrościć ich bogowie.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Discourse_on_the_Method",
+                "lang": "en",
+                "title": "Kartezjusz, Rozprawa o metodzie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Discours_de_la_méthode_(éd._Cousin)/Troisième_partie"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The Discourse appeared at Leiden in 1637 without its author's name, as the preface to three essays — on optics, on the weather and on geometry, where he joined algebra to geometry. He wrote it in French, not in the Latin of the schools, so that, he says, those who use their natural reason would judge it.",
+            "ru": "«Рассуждение» вышло в Лейдене в 1637 году без имени автора, как предисловие к трём трактатам — об оптике, о явлениях погоды и о геометрии, где он соединил алгебру с геометрией. Он написал его по-французски, а не на школьной латыни, — чтобы, по его словам, о нём судили те, кто пользуется своим естественным разумом.",
+            "uk": "«Міркування» вийшло в Лейдені 1637 року без імені автора, як передмова до трьох трактатів — про оптику, про явища погоди і про геометрію, де він поєднав алгебру з геометрією. Він написав його французькою, а не шкільною латиною, — щоб, за його словами, про нього судили ті, хто користується своїм природним розумом.",
+            "pl": "Rozprawa ukazała się w Lejdzie w 1637 roku bez nazwiska autora, jako przedmowa do trzech traktatów — o optyce, o zjawiskach pogody i o geometrii, w której połączył algebrę z geometrią. Napisał ją po francusku, a nie szkolną łaciną — by, jak mówi, sądzili o niej ci, którzy posługują się swoim przyrodzonym rozumem."
+          },
+          "source": "Descartes, Discourse on the Method (Leiden: Jan Maire, 1637), Part VI; Stephen Gaukroger, Descartes: An Intellectual Biography (1995)"
+        },
+        {
+          "fact": {
+            "en": "The rules were made, he tells, in Germany in the winter of 1619, where the war had drawn him — the Thirty Years' War, just begun: alone all day, shut in a stove-heated room, he thought out his method. He lived by these maxims through the nine years of wandering that followed.",
+            "ru": "Эти правила, рассказывает он, сложились в Германии зимой 1619 года, куда его привлекла война — только что начавшаяся Тридцатилетняя: целый день один, запершись в комнате, натопленной печью, он обдумывал свой метод. По этим правилам он жил и в последовавшие девять лет странствий.",
+            "uk": "Ці правила, розповідає він, склалися в Німеччині взимку 1619 року, куди його привабила війна — щойно розпочата Тридцятилітня: цілий день сам, зачинившись у кімнаті, натопленій грубкою, він обмірковував свій метод. За цими правилами він жив і в наступні дев'ять років мандрів.",
+            "pl": "Reguły te, jak opowiada, powstały w Niemczech zimą 1619 roku, dokąd przyciągnęła go wojna — dopiero rozpoczęta trzydziestoletnia: cały dzień sam, zamknięty w izbie ogrzewanej piecem, obmyślał swoją metodę. Według tych maksym żył też przez następne dziewięć lat wędrówek."
+          },
+          "source": "Descartes, Discourse on the Method, Parts II–III; Adrien Baillet, La Vie de Monsieur Des-Cartes (1691)"
+        },
+        {
+          "fact": {
+            "en": "In 1645 he read Seneca's On the Happy Life in letters with Princess Elisabeth of Bohemia, and set out to her these same three rules again.",
+            "ru": "В 1645 году он читал в переписке с принцессой Елизаветой Богемской трактат Сенеки «О счастливой жизни» и снова изложил ей те же три правила.",
+            "uk": "1645 року він читав у листуванні з принцесою Єлизаветою Богемською трактат Сенеки «Про щасливе життя» і знову виклав їй ті самі три правила.",
+            "pl": "W 1645 roku czytał w listach z księżniczką Elżbietą z Palatynatu traktat Seneki O szczęśliwym życiu i znów wyłożył jej te same trzy reguły."
+          },
+          "source": "Descartes, letter to Princess Elisabeth, 4 August 1645"
         }
       ]
     },

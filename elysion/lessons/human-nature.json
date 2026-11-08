@@ -7,10 +7,10 @@
     "pl": "Czy natura człowieka jest dobra?"
   },
   "subtitle": {
-    "en": "Mencius, Xunzi, Augustine and Hobbes — and you",
-    "ru": "Мэн-цзы, Сюнь-цзы, Августин и Гоббс — и вы",
-    "uk": "Мен-цзи, Сюнь-цзи, Августин і Гоббс — і ви",
-    "pl": "Mencjusz, Xunzi, Augustyn i Hobbes — i ty"
+    "en": "Mencius, Xunzi, Aristotle, Augustine and Hobbes — and you",
+    "ru": "Мэн-цзы, Сюнь-цзы, Аристотель, Августин и Гоббс — и вы",
+    "uk": "Мен-цзи, Сюнь-цзи, Аристотель, Августин і Гоббс — і ви",
+    "pl": "Mencjusz, Xunzi, Arystoteles, Augustyn i Hobbes — i ty"
   },
   "steps": [
     {
@@ -217,6 +217,15 @@
         },
         {
           "fact": {
+            "en": "Like Confucius, he went from court to court advising kings. His book opens with King Hui of Liang asking what profit he can bring the kingdom; Mencius answers: why must Your Majesty speak of profit? There are benevolence and righteousness.",
+            "ru": "Как и Конфуций, он ходил от двора ко двору, давая советы царям. Его книга открывается тем, что царь Хуэй из Лян спрашивает, какую выгоду тот принесёт его царству; Мэн-цзы отвечает: зачем вашему величеству говорить о выгоде? Есть человеколюбие и долг.",
+            "uk": "Як і Конфуцій, він ходив від двору до двору, радячи царям. Його книга відкривається тим, що цар Хуей із Лян питає, яку вигоду той принесе його царству; Мен-цзи відповідає: навіщо вашій величності говорити про вигоду? Є людинолюбство і обов'язок.",
+            "pl": "Jak Konfucjusz, chodził od dworu do dworu, doradzając królom. Jego księga zaczyna się od tego, że król Hui z Liang pyta, jaki zysk przyniesie jego królestwu; Mencjusz odpowiada: czemu Wasza Królewska Mość ma mówić o zysku? Jest ludzkość i prawość."
+          },
+          "source": "Mencius 1A.1"
+        },
+        {
+          "fact": {
             "en": "Zhu Xi made the Mencius one of the Four Books (1190); from 1313 to 1905 they were the core of China's civil-service examinations.",
             "ru": "Чжу Си включил «Мэн-цзы» в Четверокнижие (1190); с 1313 по 1905 год эти книги были основой государственных экзаменов в Китае.",
             "uk": "Чжу Сі включив «Мен-цзи» до Чотирикнижжя (1190); з 1313 по 1905 рік ці книги були основою державних іспитів у Китаї.",
@@ -412,6 +421,273 @@
             "pl": "Jego słowo na to, co zrobione, 偽 (wei), pisze się znakiem „człowiek” obok znaku „robić”; wskazał na to komentator Yang Liang w 818 roku."
           },
           "source": "Yang Liang, commentary on Xunzi, ch. 23 (818)"
+        },
+        {
+          "fact": {
+            "en": "In the state of Qi he was three times the libationer — the senior master — of the Jixia academy, where scholars of every school gathered, kept by the king.",
+            "ru": "В царстве Ци он трижды был «возливающим вино» — старшим наставником — академии Цзися, где на содержании царя собирались учёные всех школ.",
+            "uk": "У царстві Ці він тричі був «тим, хто звершує узливання», — старшим наставником — академії Цзіся, де на утриманні царя збиралися вчені всіх шкіл.",
+            "pl": "W państwie Qi trzykrotnie był „składającym ofiarę z wina” — najstarszym mistrzem — akademii Jixia, gdzie na utrzymaniu króla zbierali się uczeni wszystkich szkół."
+          },
+          "source": "Sima Qian, Records of the Grand Historian, ch. 74"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Aristotle: we become what we do",
+        "ru": "Аристотель: мы становимся тем, что делаем",
+        "uk": "Аристотель: ми стаємо тим, що робимо",
+        "pl": "Arystoteles: stajemy się tym, co robimy"
+      },
+      "intro": {
+        "en": "Greece, in Mencius' own century. Aristotle, who had taught the young Alexander the Great, gives a third answer: we are born neither good nor bad — only able to become either.",
+        "ru": "Греция, в том же веке, что и Мэн-цзы. Аристотель, учивший юного Александра Македонского, даёт третий ответ: мы рождаемся не добрыми и не злыми — лишь способными стать и теми, и другими.",
+        "uk": "Греція, у тому ж столітті, що й Мен-цзи. Аристотель, який навчав юного Олександра Македонського, дає третю відповідь: ми народжуємося не добрими й не злими — лише здатними стати і тими, і іншими.",
+        "pl": "Grecja, w tym samym stuleciu co Mencjusz. Arystoteles, który uczył młodego Aleksandra Wielkiego, daje trzecią odpowiedź: nie rodzimy się ani dobrzy, ani źli — tylko zdolni stać się jednymi albo drugimi."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Aristotle, Nicomachean Ethics II.1, 1103a",
+            "ru": "Аристотель, «Никомахова этика», II.1, 1103a",
+            "uk": "Аристотель, «Нікомахова етика», II.1, 1103a",
+            "pl": "Arystoteles, Etyka nikomachejska II.1, 1103a"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ethics-human-nature.en.chase",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "not one of the Moral Virtues comes to be in us merely by nature: because of such things as exist by nature, none can be changed by custom: a stone, for instance, by nature gravitating downwards, could never by custom be brought to ascend, not even if one were to try and accustom it by throwing it up ten thousand times; nor could fire again be brought to descend, nor in fact could anything whose nature is in one way be brought by custom to be in another. The Virtues then come to be in us neither by nature, nor in despite of nature, but we are furnished by nature with a capacity for receiving them, and are perfected in them through custom.",
+              "kind": "Free",
+              "translator": "D. P. Chase",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Aristotle, Nicomachean Ethics"
+              }
+            },
+            "ru": {
+              "edition": "ethics-human-nature.ru.ours",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "ни одна из нравственных добродетелей не возникает в нас просто от природы: ведь ничто из существующего от природы нельзя изменить привычкой; так, камень, по природе движущийся вниз, никогда не приучишь подниматься вверх, даже если бы кто-то вздумал приучать его, подбрасывая вверх десять тысяч раз; и огонь не приучишь опускаться вниз, и вообще ничто, по природе устроенное одним образом, нельзя привычкой сделать иным. Итак, добродетели возникают в нас не от природы и не вопреки природе, но природа даёт нам способность их принять, а совершенствуемся в них мы через привычку.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Никомахова этика»"
+              }
+            },
+            "uk": {
+              "edition": "ethics-human-nature.uk.ours",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "жодна з моральних чеснот не виникає в нас просто від природи: адже ніщо з того, що існує від природи, не можна змінити звичкою; так, камінь, що за природою рухається вниз, ніколи не привчиш підійматися вгору, навіть якби хтось узявся привчати його, підкидаючи вгору десять тисяч разів; і вогонь не привчиш опускатися вниз, і взагалі ніщо, від природи влаштоване одним чином, не можна звичкою зробити іншим. Отже, чесноти виникають у нас не від природи і не всупереч природі, але природа дає нам здатність їх прийняти, а вдосконалюємося в них ми через звичку.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Нікомахова етика»"
+              }
+            },
+            "pl": {
+              "edition": "ethics-human-nature.pl.ours",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "żadna z cnót moralnych nie powstaje w nas po prostu z natury: niczego bowiem, co istnieje z natury, nie można zmienić przyzwyczajeniem; kamienia, który z natury spada w dół, nigdy nie przyzwyczai się do wznoszenia w górę, nawet gdyby ktoś próbował go przyzwyczaić, podrzucając go dziesięć tysięcy razy; ani ognia do opadania w dół, ani w ogóle niczego, co z natury jest takie, nie można przyzwyczajeniem uczynić innym. Cnoty zatem powstają w nas ani nie z natury, ani wbrew naturze, lecz natura daje nam zdolność ich przyjęcia, a doskonalimy się w nich przez przyzwyczajenie.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Arystoteles, Etyka nikomachejska"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg010.perseus-grc2:2.1/"
+          }
+        },
+        {
+          "by": {
+            "en": "The same chapter",
+            "ru": "Та же глава",
+            "uk": "Той самий розділ",
+            "pl": "Ten sam rozdział"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ethics-human-nature.en.chase",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "men come to be builders, for instance, by building; harp-players, by playing on the harp: exactly so, by doing just actions we come to be just; by doing the actions of self-mastery we come to be perfected in self-mastery; and by doing brave actions brave.",
+              "kind": "Free",
+              "translator": "D. P. Chase",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Aristotle, Nicomachean Ethics"
+              }
+            },
+            "ru": {
+              "edition": "ethics-human-nature.ru.ours",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "люди становятся строителями, например, строя, кифаристами — играя на кифаре; точно так же, совершая справедливые поступки, мы становимся справедливыми, совершая поступки, в которых владеют собой, — совершенствуемся во владении собой, а совершая мужественные поступки — мужественными.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Никомахова этика»"
+              }
+            },
+            "uk": {
+              "edition": "ethics-human-nature.uk.ours",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "люди стають будівничими, наприклад, будуючи, кіфаристами — граючи на кіфарі; так само, чинячи справедливі вчинки, ми стаємо справедливими, чинячи вчинки, у яких володіють собою, — удосконалюємося у володінні собою, а чинячи мужні вчинки — мужніми.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Нікомахова етика»"
+              }
+            },
+            "pl": {
+              "edition": "ethics-human-nature.pl.ours",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "ludzie stają się budowniczymi, na przykład, budując, kitarzystami — grając na kitarze; tak samo, spełniając czyny sprawiedliwe, stajemy się sprawiedliwi, spełniając czyny panowania nad sobą — doskonalimy się w panowaniu nad sobą, a spełniając czyny mężne — mężni.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Arystoteles, Etyka nikomachejska"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg010.perseus-grc2:2.1/"
+          }
+        },
+        {
+          "by": {
+            "en": "The same chapter",
+            "ru": "Та же глава",
+            "uk": "Той самий розділ",
+            "pl": "Ten sam rozdział"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ethics-human-nature.en.chase",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "So then, whether we are accustomed this way or that straight from childhood, makes not a small but an important difference, or rather I would say it makes all the difference.",
+              "kind": "Free",
+              "translator": "D. P. Chase",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Aristotle, Nicomachean Ethics"
+              }
+            },
+            "ru": {
+              "edition": "ethics-human-nature.ru.ours",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "Итак, приучают ли нас к одному или к другому с самого детства — это составляет не малую, а важную разницу, или, лучше сказать, всю разницу.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Никомахова этика»"
+              }
+            },
+            "uk": {
+              "edition": "ethics-human-nature.uk.ours",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "Отже, чи привчають нас до одного чи до іншого від самого дитинства — це становить не малу, а важливу різницю, чи, краще сказати, всю різницю.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Нікомахова етика»"
+              }
+            },
+            "pl": {
+              "edition": "ethics-human-nature.pl.ours",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "Tak więc to, czy od samego dzieciństwa przyzwyczaja się nas tak, czy inaczej, stanowi nie małą, lecz ważną różnicę, a raczej powiedziałbym: całą różnicę.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Arystoteles, Etyka nikomachejska"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg010.perseus-grc2:2.1/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "His argument is in the Greek words themselves: character is ēthos, habit is ethos — as he notes at the start of Book II, the one name comes from the other by a slight change.",
+            "ru": "Его довод заключён в самих греческих словах: нрав — ēthos, привычка — ethos; как он замечает в начале II книги, одно название получилось из другого малым изменением.",
+            "uk": "Його аргумент закладено в самих грецьких словах: вдача — ēthos, звичка — ethos; як він зауважує на початку II книги, одна назва постала з іншої невеликою зміною.",
+            "pl": "Jego argument tkwi w samych greckich słowach: charakter to ēthos, przyzwyczajenie — ethos; jak zauważa na początku II księgi, jedna nazwa powstała z drugiej przez drobną zmianę."
+          },
+          "source": "Aristotle, Nicomachean Ethics II.1, 1103a17–18"
+        },
+        {
+          "fact": {
+            "en": "From 335 BC he taught in Athens at his own school, the Lyceum, walking up and down as he talked; so his followers were called Peripatetics, “those who walk about”.",
+            "ru": "С 335 года до н. э. он учил в Афинах в собственной школе, Ликее, прохаживаясь во время бесед; оттого его последователей прозвали перипатетиками — «прогуливающимися».",
+            "uk": "Від 335 року до н. е. він навчав в Афінах у власній школі, Лікеї, походжаючи під час бесід; тому його послідовників прозвали перипатетиками — «тими, що прогулюються».",
+            "pl": "Od 335 roku p.n.e. nauczał w Atenach we własnej szkole, Likejonie, przechadzając się podczas rozmów; dlatego jego uczniów nazwano perypatetykami — „przechadzającymi się”."
+          },
+          "source": "Diogenes Laertius, Lives of the Eminent Philosophers 5.2, 5.10"
+        },
+        {
+          "fact": {
+            "en": "Aristotle (384–322 BC) and Mencius (about 372–289 BC) lived at the same time, at opposite ends of Eurasia, and knew nothing of each other.",
+            "ru": "Аристотель (384–322 до н. э.) и Мэн-цзы (около 372–289 до н. э.) жили в одно время, на противоположных концах Евразии, и ничего не знали друг о друге.",
+            "uk": "Аристотель (384–322 до н. е.) і Мен-цзи (близько 372–289 до н. е.) жили в один час, на протилежних кінцях Євразії, і нічого не знали один про одного.",
+            "pl": "Arystoteles (384–322 p.n.e.) i Mencjusz (około 372–289 p.n.e.) żyli w tym samym czasie, na przeciwległych krańcach Eurazji, i nic o sobie nie wiedzieli."
+          },
+          "source": "Diogenes Laertius, Lives of the Eminent Philosophers 5.9–10; D. C. Lau, Mencius (Penguin, 1970), Introduction"
         }
       ]
     },
@@ -654,6 +930,15 @@
             "pl": "Napisał Wyznania około 397–400 roku jako biskup Hippony; często nazywa się je pierwszą autobiografią Zachodu. Zmarł w 430 roku, gdy Wandalowie oblegali jego miasto."
           },
           "source": "Peter Brown, Augustine of Hippo (1967); Possidius, Life of Augustine 28–31"
+        },
+        {
+          "fact": {
+            "en": "In his sixteenth year he was idle at home in Thagaste: his studies had stopped while his father, a man of small means, saved up to send him to Carthage.",
+            "ru": "На шестнадцатом году он бездельничал дома в Тагасте: учёба прервалась, пока отец, человек небогатый, копил деньги, чтобы отправить его в Карфаген.",
+            "uk": "На шістнадцятому році він байдикував удома в Тагасті: навчання перервалося, поки батько, людина небагата, збирав гроші, щоб відправити його до Карфагена.",
+            "pl": "W szesnastym roku życia próżnował w domu w Tagaście: nauka się urwała, bo ojciec, człowiek niezamożny, odkładał pieniądze, by posłać go do Kartaginy."
+          },
+          "source": "Augustine, Confessions 2.3.5–6"
         }
       ]
     },
