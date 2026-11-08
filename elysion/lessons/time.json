@@ -1,0 +1,1067 @@
+{
+  "id": "time",
+  "title": {
+    "en": "What is time?",
+    "ru": "Что такое время?",
+    "uk": "Що таке час?",
+    "pl": "Czym jest czas?"
+  },
+  "subtitle": {
+    "en": "Plato, Zhuangzi, Augustine, Newton and Montaigne — and you",
+    "ru": "Платон, Чжуан-цзы, Августин, Ньютон и Монтень — и вы",
+    "uk": "Платон, Чжуан-цзи, Августин, Ньютон і Монтень — і ви",
+    "pl": "Platon, Zhuangzi, Augustyn, Newton i Montaigne — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: what is time?",
+        "ru": "Прежде чем читать кого-либо: что такое время?",
+        "uk": "Перш ніж читати когось: що таке час?",
+        "pl": "Zanim kogokolwiek przeczytasz: czym jest czas?"
+      },
+      "options": [
+        {
+          "en": "A river of its own: it would flow on even if nothing in the world moved",
+          "ru": "Река сама по себе: оно текло бы, даже если бы в мире ничто не двигалось",
+          "uk": "Ріка сама по собі: він плинув би, навіть якби у світі ніщо не рухалося",
+          "pl": "Rzeka sama w sobie: płynąłby, nawet gdyby nic na świecie się nie poruszało"
+        },
+        {
+          "en": "The measure of change: if nothing moved, there would be no time",
+          "ru": "Мера перемен: если бы ничто не двигалось, не было бы и времени",
+          "uk": "Міра змін: якби ніщо не рухалося, не було б і часу",
+          "pl": "Miara zmian: gdyby nic się nie poruszało, nie byłoby czasu"
+        },
+        {
+          "en": "Something in the mind: memory of what was, attention to what is, expectation of what will be",
+          "ru": "Нечто в уме: память о том, что было, внимание к тому, что есть, ожидание того, что будет",
+          "uk": "Щось у розумі: пам’ять про те, що було, увага до того, що є, очікування того, що буде",
+          "pl": "Coś w umyśle: pamięć tego, co było, uwaga na to, co jest, oczekiwanie tego, co będzie"
+        },
+        {
+          "en": "A human convention: hours and calendars that we made ourselves",
+          "ru": "Человеческая условность: часы и календари, которые мы придумали сами",
+          "uk": "Людська умовність: години й календарі, які ми вигадали самі",
+          "pl": "Ludzka umowa: godziny i kalendarze, które sami wymyśliliśmy"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Plato: time, a moving image of eternity",
+        "ru": "Платон: время — движущийся образ вечности",
+        "uk": "Платон: час — рухомий образ вічності",
+        "pl": "Platon: czas — ruchomy obraz wieczności"
+      },
+      "intro": {
+        "en": "Athens, around 360 BC. Plato, past sixty, has taught for a quarter of a century in his school at the Academy, outside the city walls. In his Timaeus the speaker is Timaeus of Locris, a city of southern Italy, the best astronomer among Socrates' friends, and he tells how the world was made. A divine craftsman shapes it after an eternal pattern — but the pattern always is, and a thing that is made can only come to be. So the craftsman gives the world the nearest thing to eternity that a made thing can have:",
+        "ru": "Афины, около 360 года до н. э. Платон, которому за шестьдесят, уже четверть века учит в своей школе в Академии, за городскими стенами. В его «Тимее» говорит Тимей из Локр, города на юге Италии, лучший астроном среди друзей Сократа, и он рассказывает, как был создан мир. Божественный мастер творит его по вечному образцу — но образец всегда есть, а сделанная вещь может лишь становиться. И мастер даёт миру то, что ближе всего к вечности из доступного сделанной вещи:",
+        "uk": "Афіни, близько 360 року до н. е. Платон, якому за шістдесят, уже чверть століття навчає у своїй школі в Академії, за міськими мурами. У його «Тімеї» говорить Тімей із Локр, міста на півдні Італії, найкращий астроном серед друзів Сократа, і він розповідає, як було створено світ. Божественний майстер творить його за вічним взірцем — але взірець завжди є, а зроблена річ може лише ставати. Тож майстер дає світові те, що найближче до вічності з доступного зробленій речі:",
+        "pl": "Ateny, około 360 roku p.n.e. Platon, który przekroczył sześćdziesiątkę, od ćwierć wieku naucza w swojej szkole w Akademii, za murami miasta. W jego „Timajosie” mówi Timajos z Lokrów, miasta w południowej Italii, najlepszy astronom wśród przyjaciół Sokratesa, i opowiada, jak powstał świat. Boski rzemieślnik kształtuje go według wiecznego wzoru — ale wzór zawsze jest, a rzecz zrobiona może się tylko stawać. Rzemieślnik daje więc światu to, co najbliższe wieczności, na ile może to mieć rzecz zrobiona:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Plato, Timaeus 37d–e",
+            "ru": "Платон, «Тимей» 37d–e",
+            "uk": "Платон, «Тімей» 37d–e",
+            "pl": "Platon, Timajos 37d–e"
+          },
+          "quotes": {
+            "en": {
+              "edition": "timaeus-time.en.jowett",
+              "from": "37c",
+              "to": "37c",
+              "text": "Wherefore he resolved to have a moving image of eternity, and when he set in order the heaven, he made this image eternal but moving according to number, while eternity itself rests in unity; and this image we call time. For there were no days and nights and months and years before the heaven was created, but when he constructed the heaven he created them also.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Timaeus_(Jowett)",
+                "lang": "en",
+                "title": "Plato, Timaeus"
+              }
+            },
+            "ru": {
+              "edition": "timaeus-time.ru.ours",
+              "from": "37c",
+              "to": "37c",
+              "text": "Поэтому он решил создать движущийся образ вечности и, упорядочивая небо, сделал этот образ вечным, но движущимся по числу, тогда как сама вечность пребывает в единстве; и этот образ мы называем временем. Ведь до того как было создано небо, не было ни дней, ни ночей, ни месяцев, ни лет, но, устрояя небо, он создал и их.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Timaeus_(Jowett)",
+                "lang": "en",
+                "title": "Платон, «Тимей»"
+              }
+            },
+            "uk": {
+              "edition": "timaeus-time.uk.ours",
+              "from": "37c",
+              "to": "37c",
+              "text": "Тому він вирішив створити рухомий образ вічності і, впорядковуючи небо, зробив цей образ вічним, але рухомим за числом, тоді як сама вічність перебуває в єдності; і цей образ ми називаємо часом. Адже до того, як було створене небо, не було ні днів, ні ночей, ні місяців, ні років, але, влаштовуючи небо, він створив і їх.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Timaeus_(Jowett)",
+                "lang": "en",
+                "title": "Платон, «Тімей»"
+              }
+            },
+            "pl": {
+              "edition": "timaeus-time.pl.ours",
+              "from": "37c",
+              "to": "37c",
+              "text": "Dlatego postanowił stworzyć ruchomy obraz wieczności i porządkując niebo, uczynił ten obraz wiecznym, lecz poruszającym się według liczby, podczas gdy sama wieczność trwa w jedności; i ten obraz nazywamy czasem. Nie było bowiem dni ani nocy, ani miesięcy, ani lat, zanim stworzono niebo, lecz budując niebo, stworzył także je.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Timaeus_(Jowett)",
+                "lang": "en",
+                "title": "Platon, Timajos"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg031.perseus-grc2:37d/"
+          }
+        },
+        {
+          "by": {
+            "en": "Plato, Timaeus 38b",
+            "ru": "Платон, «Тимей» 38b",
+            "uk": "Платон, «Тімей» 38b",
+            "pl": "Platon, Timajos 38b"
+          },
+          "quotes": {
+            "en": {
+              "edition": "timaeus-time.en.jowett",
+              "from": "38b",
+              "to": "38b",
+              "text": "Time, then, and the heaven came into being at the same instant in order that, having been created together, if ever there was to be a dissolution of them, they might be dissolved together.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Timaeus_(Jowett)",
+                "lang": "en",
+                "title": "Plato, Timaeus"
+              }
+            },
+            "ru": {
+              "edition": "timaeus-time.ru.ours",
+              "from": "38b",
+              "to": "38b",
+              "text": "Итак, время и небо возникли в одно и то же мгновение, чтобы, будучи созданы вместе, они и распались вместе, если им когда-нибудь суждено распасться.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Timaeus_(Jowett)",
+                "lang": "en",
+                "title": "Платон, «Тимей»"
+              }
+            },
+            "uk": {
+              "edition": "timaeus-time.uk.ours",
+              "from": "38b",
+              "to": "38b",
+              "text": "Отже, час і небо постали в одну й ту саму мить, щоб, створені разом, вони й розпалися разом, якщо їм колись судилося розпастися.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Timaeus_(Jowett)",
+                "lang": "en",
+                "title": "Платон, «Тімей»"
+              }
+            },
+            "pl": {
+              "edition": "timaeus-time.pl.ours",
+              "from": "38b",
+              "to": "38b",
+              "text": "Czas więc i niebo powstały w tej samej chwili, aby stworzone razem, razem też uległy rozpadowi, jeśli kiedykolwiek miałyby się rozpaść.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Timaeus_(Jowett)",
+                "lang": "en",
+                "title": "Platon, Timajos"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg031.perseus-grc2:38b/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Aristotle objected that Plato alone made time come into being, together with the world: every 'now', he argued, is a middle between a before and an after, so there can have been no first moment of time.",
+            "ru": "Аристотель возражал, что один лишь Платон заставил время возникнуть — вместе с миром: всякое «теперь», доказывал он, есть середина между «прежде» и «потом», так что первого мгновения времени быть не могло.",
+            "uk": "Аристотель заперечував, що лише Платон змусив час постати — разом зі світом: кожне «тепер», доводив він, є серединою між «перед» і «потім», тож першої миті часу бути не могло.",
+            "pl": "Arystoteles zarzucał, że jedynie Platon kazał czasowi powstać — razem ze światem: każde „teraz”, dowodził, jest środkiem między „przedtem” a „potem”, nie mogło więc być pierwszej chwili czasu."
+          },
+          "source": "Aristotle, Physics 8.1, 251b14–28"
+        },
+        {
+          "fact": {
+            "en": "For most of the Middle Ages the Latin West knew Plato chiefly by the first part of this dialogue, in the Latin translation Calcidius made in the fourth century.",
+            "ru": "Большую часть Средних веков латинский Запад знал Платона главным образом по первой части этого диалога, в латинском переводе, который сделал в IV веке Халкидий.",
+            "uk": "Більшу частину Середньовіччя латинський Захід знав Платона головно з першої частини цього діалогу, у латинському перекладі, який зробив у IV столітті Халкідій.",
+            "pl": "Przez większą część średniowiecza łaciński Zachód znał Platona głównie z pierwszej części tego dialogu, w łacińskim przekładzie, który w IV wieku sporządził Kalcydiusz."
+          },
+          "source": "Raymond Klibansky, The Continuity of the Platonic Tradition during the Middle Ages (1939)"
+        },
+        {
+          "fact": {
+            "en": "In Raphael's School of Athens, painted for the pope's rooms in the Vatican in 1509–1511, Plato points to the sky and holds a book lettered TIMEO — the Timaeus.",
+            "ru": "На «Афинской школе» Рафаэля, написанной для папских покоев в Ватикане в 1509–1511 годах, Платон указывает на небо и держит книгу с надписью TIMEO — «Тимей».",
+            "uk": "На «Афінській школі» Рафаеля, написаній для папських покоїв у Ватикані в 1509–1511 роках, Платон вказує на небо і тримає книжку з написом TIMEO — «Тімей».",
+            "pl": "Na „Szkole ateńskiej” Rafaela, namalowanej dla papieskich komnat w Watykanie w latach 1509–1511, Platon wskazuje niebo i trzyma księgę z napisem TIMEO — „Timajos”."
+          },
+          "source": "Raphael, The School of Athens (1509–1511), Stanza della Segnatura, Vatican Palace"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Zhuangzi: time is without end",
+        "ru": "Чжуан-цзы: у времени нет конца",
+        "uk": "Чжуан-цзи: час не має кінця",
+        "pl": "Zhuangzi: czas nie ma końca"
+      },
+      "intro": {
+        "en": "China, the fourth century BC: the age of the Warring States. Seven kingdoms fight over what is left of the realm of Zhou, and wandering scholars offer kings their ways of ordering the world. Zhuang Zhou of Meng, the historian Sima Qian says, was once a petty official in a lacquer garden. In the book that bears his name, the Spirit of the River, swollen by the autumn floods, laughs for joy that all the beauty of the earth is gathered in himself — until he flows east to the ocean, sees no limit to its waves, and is ashamed. The Spirit of the Ocean teaches him:",
+        "ru": "Китай, IV век до н. э., эпоха Сражающихся царств. Семь царств бьются за то, что осталось от державы Чжоу, а странствующие учёные предлагают царям свои способы упорядочить мир. Чжуан Чжоу из Мэн, по словам историка Сыма Цяня, был когда-то мелким чиновником в лаковом саду. В книге, носящей его имя, Дух Реки, вздувшейся от осенних паводков, смеётся от радости, что вся красота земли собралась в нём, — пока не доходит, течением на восток, до океана, не видит, что его волнам нет предела, и не устыжается. Дух Океана наставляет его:",
+        "uk": "Китай, IV століття до н. е., доба Царств, що воюють. Сім царств б’ються за те, що лишилося від держави Чжоу, а мандрівні вчені пропонують царям свої способи впорядкувати світ. Чжуан Чжоу з Мена, за словами історика Сима Цяня, був колись дрібним урядовцем у лаковому саду. У книжці, що носить його ім’я, Дух Ріки, яка набухла від осінніх повеней, сміється з радості, що вся краса землі зібралася в ньому, — аж доки, пливучи на схід, не доходить до океану, не бачить, що його хвилям немає меж, і не соромиться. Дух Океану навчає його:",
+        "pl": "Chiny, IV wiek p.n.e., epoka Walczących Królestw. Siedem królestw walczy o to, co zostało z państwa Zhou, a wędrowni uczeni oferują władcom swoje sposoby uporządkowania świata. Zhuang Zhou z Meng był, jak pisze historyk Sima Qian, niegdyś drobnym urzędnikiem w ogrodzie laki. W księdze noszącej jego imię Duch Rzeki, wezbranej od jesiennych powodzi, śmieje się z radości, że całe piękno ziemi zebrało się w nim — dopóki, płynąc na wschód, nie dociera do oceanu, nie widzi, że jego fale nie mają granic, i nie zawstydza się. Duch Oceanu poucza go:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Zhuangzi, chapter 17 (“Autumn Floods”)",
+            "ru": "Чжуан-цзы, глава 17 («Осенний разлив»)",
+            "uk": "Чжуан-цзи, розділ 17 («Осіння повінь»)",
+            "pl": "Zhuangzi, rozdział 17 („Jesienne wezbranie”)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "zhuangzi-time.en.giles",
+              "from": "17.1.11",
+              "to": "17.1.11",
+              "text": "Dimensions are limitless; time is endless. Conditions are not invariable; terms are not final. Thus, the wise man looks into space, and does not regard the small as too little, nor the great as too much; for he knows that there is no limit to dimension. He looks back into the past, and does not grieve over what is far off, nor rejoice over what is near; for he knows that time is without end.",
+              "kind": "Free",
+              "translator": "Herbert A. Giles",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "Zhuangzi"
+              }
+            },
+            "ru": {
+              "edition": "zhuangzi-time.ru.ours",
+              "from": "17.1.11",
+              "to": "17.1.11",
+              "text": "Величинам нет предела; времени нет конца. Обстоятельства не постоянны; сроки не окончательны. Поэтому мудрец смотрит в пространство и не считает малое слишком малым, а великое слишком великим, ибо знает, что у величины нет предела. Он оглядывается на прошлое и не печалится о далёком, не радуется близкому, ибо знает, что у времени нет конца.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "«Чжуан-цзы»"
+              }
+            },
+            "uk": {
+              "edition": "zhuangzi-time.uk.ours",
+              "from": "17.1.11",
+              "to": "17.1.11",
+              "text": "Величинам немає меж; часові немає кінця. Обставини не сталі; строки не остаточні. Тож мудрець дивиться в простір і не вважає мале надто малим, а велике надто великим, бо знає, що величині немає меж. Він озирається на минуле і не сумує за далеким, не радіє близькому, бо знає, що часові немає кінця.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "«Чжуан-цзи»"
+              }
+            },
+            "pl": {
+              "edition": "zhuangzi-time.pl.ours",
+              "from": "17.1.11",
+              "to": "17.1.11",
+              "text": "Wymiary są bez granic; czas jest bez końca. Okoliczności nie są niezmienne; terminy nie są ostateczne. Dlatego mędrzec patrzy w przestrzeń i nie uważa małego za zbyt małe ani wielkiego za zbyt wielkie, bo wie, że wymiar nie ma granic. Spogląda wstecz w przeszłość i nie smuci się tym, co dalekie, ani nie cieszy tym, co bliskie, bo wie, że czas nie ma końca.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "Zhuangzi"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/莊子/秋水"
+          }
+        },
+        {
+          "by": {
+            "en": "The same chapter",
+            "ru": "Там же",
+            "uk": "Там само",
+            "pl": "Tamże"
+          },
+          "quotes": {
+            "en": {
+              "edition": "zhuangzi-time.en.giles",
+              "from": "17.1.44",
+              "to": "17.1.44",
+              "text": "Tao is without beginning, without end. Other things are born and die. They are impermanent; and now for better, now for worse, they are ceaselessly changing form. Past years cannot be recalled: time cannot be arrested. The succession of states is endless; and every end is followed by a new beginning.",
+              "kind": "Free",
+              "translator": "Herbert A. Giles",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "Zhuangzi"
+              }
+            },
+            "ru": {
+              "edition": "zhuangzi-time.ru.ours",
+              "from": "17.1.44",
+              "to": "17.1.44",
+              "text": "У Дао нет ни начала, ни конца. Прочие вещи рождаются и умирают. Они непостоянны и то к лучшему, то к худшему непрестанно меняют облик. Минувших лет не вернуть; время не остановить. Смене состояний нет конца, и за всяким концом следует новое начало.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "«Чжуан-цзы»"
+              }
+            },
+            "uk": {
+              "edition": "zhuangzi-time.uk.ours",
+              "from": "17.1.44",
+              "to": "17.1.44",
+              "text": "Дао не має ні початку, ні кінця. Інші речі народжуються й помирають. Вони нетривкі й то на краще, то на гірше безупинно змінюють форму. Минулих років не вернути; часу не спинити. Зміні станів немає кінця, і за кожним кінцем іде новий початок.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "«Чжуан-цзи»"
+              }
+            },
+            "pl": {
+              "edition": "zhuangzi-time.pl.ours",
+              "from": "17.1.44",
+              "to": "17.1.44",
+              "text": "Tao jest bez początku, bez końca. Inne rzeczy rodzą się i umierają. Są nietrwałe i raz na lepsze, raz na gorsze nieustannie zmieniają postać. Minionych lat nie da się przywołać; czasu nie da się zatrzymać. Następstwo stanów nie ma końca, a po każdym końcu przychodzi nowy początek.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "Zhuangzi"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/莊子/秋水"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Of the book's thirty-three chapters, scholars commonly take only the first seven, the 'inner chapters', to be Zhuangzi's own; 'Autumn Floods' is one of the 'outer chapters', written by later followers. The arrangement in thirty-three chapters is that of Guo Xiang, who edited the book around AD 300.",
+            "ru": "Из тридцати трёх глав книги учёные обычно считают принадлежащими самому Чжуан-цзы лишь первые семь, «внутренние»; «Осенний разлив» — одна из «внешних» глав, написанных позднейшими последователями. Деление на тридцать три главы принадлежит Го Сяну, который издал книгу около 300 года.",
+            "uk": "З тридцяти трьох розділів книжки вчені зазвичай вважають написаними самим Чжуан-цзи лише перші сім, «внутрішні»; «Осіння повінь» — один із «зовнішніх» розділів, написаних пізнішими послідовниками. Поділ на тридцять три розділи належить Го Сяну, який упорядкував книжку близько 300 року.",
+            "pl": "Spośród trzydziestu trzech rozdziałów księgi uczeni zwykle uznają za dzieło samego Zhuangzi tylko pierwszych siedem, „wewnętrznych”; „Jesienne wezbranie” należy do rozdziałów „zewnętrznych”, napisanych przez późniejszych uczniów. Podział na trzydzieści trzy rozdziały pochodzi od Guo Xianga, który opracował księgę około 300 roku."
+          },
+          "source": "A. C. Graham, Chuang-tzŭ: The Inner Chapters (1981)"
+        },
+        {
+          "fact": {
+            "en": "The same chapter tells that while Zhuangzi was fishing, two high officials came from the ruler of Chu to offer him the government of the state. He asked them whether the sacred tortoise, dead three thousand years and kept in the ruler's ancestral temple, would rather be venerated so or be alive and wagging its tail in the mud — and sent them away: he, too, would wag his tail in the mud.",
+            "ru": "Та же глава рассказывает, что, когда Чжуан-цзы удил рыбу, к нему пришли два сановника от правителя Чу и предложили ему управлять государством. Он спросил их, чего бы хотела священная черепаха, умершая три тысячи лет назад и хранимая в храме предков правителя: чтобы её так почитали или быть живой и волочить хвост по грязи, — и отослал их: он тоже будет волочить хвост по грязи.",
+            "uk": "Той самий розділ розповідає, що, коли Чжуан-цзи вудив рибу, до нього прийшли два сановники від правителя Чу й запропонували йому керувати державою. Він спитав їх, чого б хотіла священна черепаха, що померла три тисячі років тому й зберігається в храмі предків правителя: щоб її так шанували чи бути живою й волочити хвіст по багнюці, — і відіслав їх: він теж волочитиме хвіст по багнюці.",
+            "pl": "Ten sam rozdział opowiada, że gdy Zhuangzi łowił ryby, przybyło do niego dwóch wysokich urzędników od władcy Chu z propozycją, by objął rządy w państwie. Zapytał ich, czy święty żółw, martwy od trzech tysięcy lat i przechowywany w świątyni przodków władcy, wolałby być tak czczony, czy żyć i machać ogonem w błocie — i odesłał ich: on też będzie machał ogonem w błocie."
+          },
+          "source": "Zhuangzi 17 (the tortoise of Chu)"
+        },
+        {
+          "fact": {
+            "en": "The chapter ends with Zhuangzi and his friend Huizi on a bridge over the river Hao, arguing whether one who is not a fish can know the pleasure of fishes.",
+            "ru": "Глава кончается тем, что Чжуан-цзы и его друг Хуэй-цзы спорят на мосту через реку Хао, может ли тот, кто не рыба, знать радость рыб.",
+            "uk": "Розділ закінчується тим, що Чжуан-цзи і його друг Хуей-цзи сперечаються на мосту через річку Хао, чи може той, хто не риба, знати радість риб.",
+            "pl": "Rozdział kończy się sporem Zhuangzi i jego przyjaciela Huizi na moście nad rzeką Hao: czy ten, kto nie jest rybą, może znać radość ryb."
+          },
+          "source": "Zhuangzi 17 (its last story)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Augustine: if no one asks me, I know",
+        "ru": "Августин: если никто меня не спрашивает, я знаю",
+        "uk": "Августин: якщо ніхто мене не питає, я знаю",
+        "pl": "Augustyn: jeśli nikt mnie nie pyta, wiem"
+      },
+      "intro": {
+        "en": "Hippo Regius, a port on the coast of Roman North Africa, a few years before AD 400. Augustine, once a teacher of rhetoric in Carthage, Rome and Milan, is now the town's bishop. He writes the Confessions as a prayer spoken to God: the story of his restless youth and of his conversion, and then, in the last books, a reading of the first verse of Genesis — “In the beginning God created the heaven and the earth.” Some ask, mocking: what was God doing before that? There was no “before”, Augustine answers: God made time itself together with the world. Then he turns to the harder question:",
+        "ru": "Гиппон, порт на побережье римской Северной Африки, за несколько лет до 400 года. Августин, когда-то преподававший риторику в Карфагене, Риме и Милане, теперь епископ этого города. Он пишет «Исповедь» как молитву, обращённую к Богу: историю своей беспокойной юности и своего обращения, а затем, в последних книгах, толкование первого стиха Книги Бытия — «В начале сотворил Бог небо и землю». Некоторые насмешливо спрашивают: что же делал Бог до того? Никакого «до» не было, отвечает Августин: Бог сотворил само время вместе с миром. И тогда он обращается к вопросу потруднее:",
+        "uk": "Гіппон, порт на узбережжі римської Північної Африки, за кілька років до 400 року. Августин, колись викладач риторики в Карфагені, Римі й Мілані, тепер єпископ цього міста. Він пише «Сповідь» як молитву, звернену до Бога: історію своєї неспокійної юності та свого навернення, а потім, в останніх книгах, тлумачення першого вірша Книги Буття — «На початку створив Бог небо і землю». Дехто глузливо питає: а що ж робив Бог до того? Ніякого «до» не було, відповідає Августин: Бог створив сам час разом зі світом. І тоді він звертається до складнішого питання:",
+        "pl": "Hippona, port na wybrzeżu rzymskiej Afryki Północnej, kilka lat przed rokiem 400. Augustyn, niegdyś nauczyciel retoryki w Kartaginie, Rzymie i Mediolanie, jest teraz biskupem tego miasta. Pisze „Wyznania” jako modlitwę skierowaną do Boga: historię swojej niespokojnej młodości i nawrócenia, a potem, w ostatnich księgach, wykład pierwszego wersetu Księgi Rodzaju — „Na początku Bóg stworzył niebo i ziemię”. Niektórzy pytają drwiąco: co robił Bóg przedtem? Żadnego „przedtem” nie było, odpowiada Augustyn: Bóg stworzył sam czas razem ze światem. I wtedy zwraca się ku pytaniu trudniejszemu:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Augustine, Confessions 11.14.17",
+            "ru": "Августин, «Исповедь» 11.14.17",
+            "uk": "Августин, «Сповідь» 11.14.17",
+            "pl": "Augustyn, Wyznania 11.14.17"
+          },
+          "quotes": {
+            "en": {
+              "edition": "confessions-time.en.pilkington",
+              "from": "11.14.17",
+              "to": "11.14.17",
+              "text": "What, then, is time? If no one ask of me, I know; if I wish to explain to him who asks, I know not. Yet I say with confidence, that I know that if nothing passed away, there would not be past time; and if nothing were coming, there would not be future time; and if nothing were, there would not be present time. Those two times, therefore, past and future, how are they, when even the past now is not; and the future is not as yet?",
+              "kind": "Free",
+              "translator": "J. G. Pilkington",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_I/Confessions/Book_II",
+                "lang": "en",
+                "title": "Augustine, Confessions"
+              }
+            },
+            "ru": {
+              "edition": "confessions-time.ru.ours",
+              "from": "11.14.17",
+              "to": "11.14.17",
+              "text": "Что же такое время? Если никто меня об этом не спрашивает, я знаю; если хочу объяснить спрашивающему — не знаю. Однако с уверенностью говорю, что знаю: если бы ничто не проходило, не было бы прошедшего времени; если бы ничто не приходило, не было бы будущего времени; и если бы ничего не было, не было бы настоящего времени. Как же есть эти два времени, прошедшее и будущее, когда прошедшего уже нет, а будущего ещё нет?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/Исповедь_(Августин)/Книга_вторая",
+                "lang": "ru",
+                "title": "Августин, «Исповедь»"
+              }
+            },
+            "uk": {
+              "edition": "confessions-time.uk.ours",
+              "from": "11.14.17",
+              "to": "11.14.17",
+              "text": "Що ж таке час? Якщо ніхто мене про це не питає, я знаю; якщо хочу пояснити тому, хто питає, — не знаю. Проте впевнено кажу, що знаю: якби ніщо не минало, не було б минулого часу; якби ніщо не надходило, не було б майбутнього часу; і якби нічого не було, не було б теперішнього часу. Як же існують ці два часи, минуле й майбутнє, коли минулого вже немає, а майбутнього ще немає?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_I/Confessions/Book_II",
+                "lang": "en",
+                "title": "Августин, «Сповідь»"
+              }
+            },
+            "pl": {
+              "edition": "confessions-time.pl.ours",
+              "from": "11.14.17",
+              "to": "11.14.17",
+              "text": "Czymże więc jest czas? Jeśli nikt mnie o to nie pyta, wiem; jeśli chcę wyjaśnić pytającemu, nie wiem. A jednak mówię z ufnością, że wiem: gdyby nic nie przemijało, nie byłoby czasu przeszłego; gdyby nic nie nadchodziło, nie byłoby czasu przyszłego; i gdyby nic nie było, nie byłoby czasu teraźniejszego. Jakże więc są te dwa czasy, przeszły i przyszły, skoro przeszłego już nie ma, a przyszłego jeszcze nie ma?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://pl.wikisource.org/wiki/Wyznania_(Augustyn_z_Hippony,_1847)/Księga_Druga/całość",
+                "lang": "pl",
+                "title": "Augustyn, Wyznania"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/Confessiones/Liber_Undecimus"
+          }
+        },
+        {
+          "by": {
+            "en": "Augustine, Confessions 11.20.26",
+            "ru": "Августин, «Исповедь» 11.20.26",
+            "uk": "Августин, «Сповідь» 11.20.26",
+            "pl": "Augustyn, Wyznania 11.20.26"
+          },
+          "quotes": {
+            "en": {
+              "edition": "confessions-time.en.pilkington",
+              "from": "11.20.26",
+              "to": "11.20.26",
+              "text": "Nor is it fitly said, “There are three times, past, present and future;” but perchance it might be fitly said, “There are three times; a present of things past, a present of things present, and a present of things future.” For these three do somehow exist in the soul, and otherwise I see them not: present of things past, memory; present of things present, sight; present of things future, expectation.",
+              "kind": "Free",
+              "translator": "J. G. Pilkington",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_I/Confessions/Book_II",
+                "lang": "en",
+                "title": "Augustine, Confessions"
+              }
+            },
+            "ru": {
+              "edition": "confessions-time.ru.ours",
+              "from": "11.20.26",
+              "to": "11.20.26",
+              "text": "И неправильно говорят: «Есть три времени: прошедшее, настоящее и будущее»; но, пожалуй, правильно было бы сказать: «Есть три времени: настоящее прошедшего, настоящее настоящего и настоящее будущего». Ибо эти три как-то существуют в душе, а иначе я их не вижу: настоящее прошедшего — память; настоящее настоящего — зрение; настоящее будущего — ожидание.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/Исповедь_(Августин)/Книга_вторая",
+                "lang": "ru",
+                "title": "Августин, «Исповедь»"
+              }
+            },
+            "uk": {
+              "edition": "confessions-time.uk.ours",
+              "from": "11.20.26",
+              "to": "11.20.26",
+              "text": "І неправильно кажуть: «Є три часи: минуле, теперішнє і майбутнє»; але, мабуть, правильно було б сказати: «Є три часи: теперішнє минулого, теперішнє теперішнього і теперішнє майбутнього». Бо ці три якось існують у душі, а інакше я їх не бачу: теперішнє минулого — пам’ять; теперішнє теперішнього — зір; теперішнє майбутнього — очікування.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_I/Confessions/Book_II",
+                "lang": "en",
+                "title": "Августин, «Сповідь»"
+              }
+            },
+            "pl": {
+              "edition": "confessions-time.pl.ours",
+              "from": "11.20.26",
+              "to": "11.20.26",
+              "text": "Ani też nie mówi się właściwie: „Są trzy czasy: przeszły, teraźniejszy i przyszły”; lecz może właściwie byłoby powiedzieć: „Są trzy czasy: teraźniejszość rzeczy przeszłych, teraźniejszość rzeczy teraźniejszych i teraźniejszość rzeczy przyszłych”. Te trzy bowiem jakoś istnieją w duszy, a inaczej ich nie widzę: teraźniejszość rzeczy przeszłych — pamięć; teraźniejszość rzeczy teraźniejszych — patrzenie; teraźniejszość rzeczy przyszłych — oczekiwanie.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://pl.wikisource.org/wiki/Wyznania_(Augustyn_z_Hippony,_1847)/Księga_Druga/całość",
+                "lang": "pl",
+                "title": "Augustyn, Wyznania"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/Confessiones/Liber_Undecimus"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "He would not give the old joke for his answer — that before making heaven and earth God was preparing hell for those who pry into mysteries: he would rather say “I know not what I know not” than make a laughing-stock of one who asks deep things.",
+            "ru": "Он не захотел отвечать старой шуткой — будто прежде, чем создать небо и землю, Бог готовил ад для тех, кто выпытывает тайны: лучше сказать «не знаю того, чего не знаю», чем выставить на смех того, кто спрашивает о глубоком.",
+            "uk": "Він не захотів відповідати старим жартом — ніби перш ніж створити небо і землю, Бог готував пекло для тих, хто випитує таємниці: краще сказати «не знаю того, чого не знаю», ніж виставити на сміх того, хто питає про глибоке.",
+            "pl": "Nie chciał odpowiedzieć starym żartem — że zanim stworzył niebo i ziemię, Bóg przygotowywał piekło dla tych, którzy wścibiają nos w tajemnice: wolał powiedzieć „nie wiem tego, czego nie wiem”, niż wystawić na pośmiewisko kogoś, kto pyta o rzeczy głębokie."
+          },
+          "source": "Augustine, Confessions 11.12.14"
+        },
+        {
+          "fact": {
+            "en": "To catch time in the act, he measured the syllables of a line of Ambrose's hymn, Deus creator omnium — short and long by turns — and found he was measuring not the sounds, which were already gone, but what stayed of them in his memory. Time, he concluded, is a stretching-out (distentio) of the mind itself.",
+            "ru": "Чтобы поймать время с поличным, он измерял слоги строки из гимна Амвросия Deus creator omnium — краткие и долгие поочерёдно — и обнаружил, что меряет не звуки, которых уже нет, а то, что от них осталось в памяти. Время, заключил он, — это растяжение (distentio) самой души.",
+            "uk": "Щоб спіймати час на гарячому, він міряв склади рядка з гімну Амвросія Deus creator omnium — короткі й довгі почергово — і виявив, що міряє не звуки, яких уже немає, а те, що від них лишилося в пам’яті. Час, підсумував він, — це розтягнення (distentio) самої душі.",
+            "pl": "Aby przyłapać czas na gorącym uczynku, mierzył sylaby wersu z hymnu Ambrożego Deus creator omnium — krótkie i długie na przemian — i odkrył, że mierzy nie dźwięki, których już nie ma, lecz to, co z nich zostało w pamięci. Czas, wywnioskował, jest rozciągnięciem (distentio) samego umysłu."
+          },
+          "source": "Augustine, Confessions 11.26.33, 11.27.35–36; the hymn is Ambrose's (9.12.32)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Newton: absolute time flows equably",
+        "ru": "Ньютон: абсолютное время течёт равномерно",
+        "uk": "Ньютон: абсолютний час тече рівномірно",
+        "pl": "Newton: czas absolutny płynie jednostajnie"
+      },
+      "intro": {
+        "en": "Cambridge and London, 1687. Isaac Newton, fellow of Trinity College and professor of mathematics at Cambridge, publishes in Latin the Mathematical Principles of Natural Philosophy: one law of gravity for a stone falling to the earth, for the moon going round it, and for the planets round the sun. Before the first book he defines his words. Time he does not define, “as being well known to all” — but he warns that common people conceive it only by its relation to the things they see, and that from this come prejudices:",
+        "ru": "Кембридж и Лондон, 1687 год. Исаак Ньютон, член Тринити-колледжа и профессор математики в Кембридже, выпускает на латыни «Математические начала натуральной философии»: один закон тяготения — для камня, падающего на землю, для Луны, обращающейся вокруг неё, и для планет вокруг Солнца. Перед первой книгой он даёт определения своих слов. Времени он не определяет, «как всем хорошо известного», — но предупреждает, что простые люди понимают его лишь через отношение к видимым вещам и что отсюда рождаются предрассудки:",
+        "uk": "Кембридж і Лондон, 1687 рік. Ісаак Ньютон, член Триніті-коледжу і професор математики в Кембриджі, видає латиною «Математичні начала натуральної філософії»: один закон тяжіння — для каменя, що падає на землю, для Місяця, що обертається довкола неї, і для планет довкола Сонця. Перед першою книгою він дає означення своїх слів. Часу він не означує, «як усім добре відомого», — але застерігає, що прості люди розуміють його лише через відношення до видимих речей і що звідси постають упередження:",
+        "pl": "Cambridge i Londyn, rok 1687. Isaac Newton, członek Trinity College i profesor matematyki w Cambridge, wydaje po łacinie „Matematyczne zasady filozofii przyrody”: jedno prawo ciążenia dla kamienia spadającego na ziemię, dla Księżyca krążącego wokół niej i dla planet wokół Słońca. Przed pierwszą księgą definiuje swoje słowa. Czasu nie definiuje, „jako wszystkim dobrze znanego” — ostrzega jednak, że prości ludzie pojmują go tylko przez odniesienie do rzeczy widzialnych i że stąd biorą się przesądy:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Newton, Principia, the Scholium to the Definitions, I (Motte's English, 1729)",
+            "ru": "Ньютон, «Математические начала», поучение к определениям, I",
+            "uk": "Ньютон, «Математичні начала», повчання до означень, I",
+            "pl": "Newton, Principia, scholium do definicji, I"
+          },
+          "quotes": {
+            "en": {
+              "edition": "principia-time.en.motte",
+              "from": "0.2",
+              "to": "0.2",
+              "text": "Absolute, True, and Mathematical Time, of it self, and from its own nature, flows equably without relation to anything external, and by another name is called Duration: Relative, Apparent, and Common Time, is some sensible and external (whether accurate or unequable) measure of Duration by the means of motion, which is commonly used instead of True time; such as an Hour, a Day, a Month, a Year.",
+              "kind": "Free",
+              "translator": "Andrew Motte",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1729)",
+                "lang": "en",
+                "title": "Isaac Newton, The Mathematical Principles of Natural Philosophy"
+              }
+            },
+            "ru": {
+              "edition": "principia-time.ru.ours",
+              "from": "0.2",
+              "to": "0.2",
+              "text": "Абсолютное, истинное и математическое время само по себе и по самой своей природе течёт равномерно, безотносительно к чему-либо внешнему, и иначе называется длительностью; относительное, кажущееся и обыденное время есть некая чувственная и внешняя (точная или неравномерная) мера длительности посредством движения, которой обычно пользуются вместо истинного времени, — таковы час, день, месяц, год.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1729)",
+                "lang": "en",
+                "title": "Исаак Ньютон, «Математические начала натуральной философии»"
+              }
+            },
+            "uk": {
+              "edition": "principia-time.uk.ours",
+              "from": "0.2",
+              "to": "0.2",
+              "text": "Абсолютний, істинний і математичний час сам по собі й за власною природою тече рівномірно, безвідносно до будь-чого зовнішнього, і інакше називається тривалістю; відносний, видимий і буденний час є певна чуттєва і зовнішня (точна чи нерівномірна) міра тривалості через рух, якою зазвичай користуються замість істинного часу, — такі година, день, місяць, рік.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1729)",
+                "lang": "en",
+                "title": "Ісаак Ньютон, «Математичні начала натуральної філософії»"
+              }
+            },
+            "pl": {
+              "edition": "principia-time.pl.ours",
+              "from": "0.2",
+              "to": "0.2",
+              "text": "Czas absolutny, prawdziwy i matematyczny sam z siebie i z własnej natury płynie jednostajnie, bez odniesienia do czegokolwiek zewnętrznego, i inną nazwą zwie się trwaniem; czas względny, pozorny i potoczny jest jakąś zmysłową i zewnętrzną (dokładną bądź niejednostajną) miarą trwania za pomocą ruchu, której zwykle używa się zamiast czasu prawdziwego — jak godzina, dzień, miesiąc, rok.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1729)",
+                "lang": "en",
+                "title": "Isaac Newton, Matematyczne zasady filozofii przyrody"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/Philosophiae_Naturalis_Principia_Mathematica/Definitiones"
+          }
+        },
+        {
+          "by": {
+            "en": "The same Scholium",
+            "ru": "Там же",
+            "uk": "Там само",
+            "pl": "Tamże"
+          },
+          "quotes": {
+            "en": {
+              "edition": "principia-time.en.motte",
+              "from": "0.6",
+              "to": "0.6",
+              "text": "It may be, that there is no such thing as an equable motion, whereby time may be accurately measured. All motions may be accelerated and retarded, but the True, or equable progress, of Absolute time is liable to no change. The duration or perseverance of the existence of things remains the same, whether the motions are swift or slow, or none at all",
+              "kind": "Free",
+              "translator": "Andrew Motte",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1729)",
+                "lang": "en",
+                "title": "Isaac Newton, The Mathematical Principles of Natural Philosophy"
+              }
+            },
+            "ru": {
+              "edition": "principia-time.ru.ours",
+              "from": "0.6",
+              "to": "0.6",
+              "text": "Возможно, что не существует такого равномерного движения, которым время могло бы измеряться точно. Все движения могут ускоряться и замедляться, но истинный, или равномерный, ход абсолютного времени не подвержен никакому изменению. Длительность, или продолжительность существования вещей, остаётся одной и той же, быстры ли движения, медленны или их нет вовсе",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1729)",
+                "lang": "en",
+                "title": "Исаак Ньютон, «Математические начала натуральной философии»"
+              }
+            },
+            "uk": {
+              "edition": "principia-time.uk.ours",
+              "from": "0.6",
+              "to": "0.6",
+              "text": "Можливо, що не існує такого рівномірного руху, яким час можна було б точно виміряти. Усі рухи можуть прискорюватися й сповільнюватися, але істинний, або рівномірний, плин абсолютного часу не підлягає жодній зміні. Тривалість, або тривання існування речей, лишається тією самою, чи рухи швидкі, чи повільні, чи їх немає зовсім",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1729)",
+                "lang": "en",
+                "title": "Ісаак Ньютон, «Математичні начала натуральної філософії»"
+              }
+            },
+            "pl": {
+              "edition": "principia-time.pl.ours",
+              "from": "0.6",
+              "to": "0.6",
+              "text": "Być może nie ma takiego ruchu jednostajnego, za pomocą którego czas mógłby być dokładnie mierzony. Wszystkie ruchy mogą być przyspieszane i opóźniane, lecz prawdziwy, czyli jednostajny, bieg czasu absolutnego nie podlega żadnej zmianie. Trwanie, czyli utrzymywanie się istnienia rzeczy, pozostaje takie samo, czy ruchy są szybkie, czy powolne, czy nie ma ich wcale",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1729)",
+                "lang": "en",
+                "title": "Isaac Newton, Matematyczne zasady filozofii przyrody"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/Philosophiae_Naturalis_Principia_Mathematica/Definitiones"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The Royal Society, which was to publish the book, had spent its money on a History of Fishes; Edmond Halley paid for the printing himself.",
+            "ru": "Королевское общество, которое должно было издать книгу, истратило свои деньги на «Историю рыб»; печатание оплатил из своего кармана Эдмонд Галлей.",
+            "uk": "Королівське товариство, яке мало видати книжку, витратило свої гроші на «Історію риб»; друк оплатив зі своєї кишені Едмонд Галлей.",
+            "pl": "Towarzystwo Królewskie, które miało wydać książkę, wydało swoje pieniądze na „Historię ryb”; druk opłacił z własnej kieszeni Edmond Halley."
+          },
+          "source": "Richard S. Westfall, Never at Rest: A Biography of Isaac Newton (1980)"
+        },
+        {
+          "fact": {
+            "en": "In letters of 1715–1716 to Newton's friend Samuel Clarke, Leibniz answered that time is nothing in itself: like space, it is only an order — the order of things that succeed one another. Clarke defended Newton's absolute time; Leibniz died before the exchange was finished.",
+            "ru": "В письмах 1715–1716 годов к другу Ньютона Сэмюэлу Кларку Лейбниц отвечал, что время само по себе ничто: как и пространство, это лишь порядок — порядок вещей, следующих одна за другой. Кларк защищал абсолютное время Ньютона; Лейбниц умер, не дождавшись конца переписки.",
+            "uk": "У листах 1715–1716 років до друга Ньютона Семюела Кларка Лейбніц відповідав, що час сам по собі ніщо: як і простір, це лише порядок — порядок речей, що слідують одна за одною. Кларк обстоював абсолютний час Ньютона; Лейбніц помер, не дочекавшись кінця листування.",
+            "pl": "W listach z lat 1715–1716 do przyjaciela Newtona, Samuela Clarke’a, Leibniz odpowiadał, że czas sam w sobie jest niczym: jak przestrzeń, jest tylko porządkiem — porządkiem rzeczy następujących po sobie. Clarke bronił absolutnego czasu Newtona; Leibniz zmarł przed końcem tej wymiany listów."
+          },
+          "source": "The Leibniz–Clarke Correspondence (1717), Leibniz's third paper, §4"
+        },
+        {
+          "fact": {
+            "en": "In 1905 Einstein showed that two events at the same time for one observer need not be at the same time for another who moves relative to him: there is no single time flowing alike for all.",
+            "ru": "В 1905 году Эйнштейн показал, что два события, одновременные для одного наблюдателя, не обязательно одновременны для другого, движущегося относительно него: нет единого времени, текущего одинаково для всех.",
+            "uk": "1905 року Ейнштейн показав, що дві події, одночасні для одного спостерігача, не обов’язково одночасні для іншого, який рухається відносно нього: немає єдиного часу, що плине однаково для всіх.",
+            "pl": "W 1905 roku Einstein wykazał, że dwa zdarzenia jednoczesne dla jednego obserwatora nie muszą być jednoczesne dla innego, który porusza się względem niego: nie ma jednego czasu, płynącego jednakowo dla wszystkich."
+          },
+          "source": "Albert Einstein, “Zur Elektrodynamik bewegter Körper”, Annalen der Physik 17 (1905), §§1–2"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "France, December 1582: ten days taken out of the year",
+        "ru": "Франция, декабрь 1582 года: из года вынимают десять дней",
+        "uk": "Франція, грудень 1582 року: з року вилучають десять днів",
+        "pl": "Francja, grudzień 1582 roku: z roku wyjmuje się dziesięć dni"
+      },
+      "scene": {
+        "en": "You are a magistrate in a Catholic city of France — say Bordeaux, whose mayor this year is a gentleman named Michel de Montaigne. The calendar of Julius Caesar makes the year some eleven minutes too long, and since the Council of Nicaea, twelve and a half centuries ago, the error has grown to ten days: the spring equinox, which then fell on 21 March, now comes about the 11th, and Easter, reckoned from it, drifts. In February Pope Gregory XIII signed a bull: ten days are to be taken out. In Rome, in Spain, Portugal and Poland, Thursday 4 October was followed by Friday 15 October. Now the king's order reaches you: after Sunday 9 December will come Monday 20 December. Rents fall due on fixed days, workmen are paid by the month, fairs and feasts have their dates — and people ask you where the ten days are going. What do you do?",
+        "ru": "Вы — городской судья в католическом городе Франции, скажем в Бордо, мэром которого в этом году служит дворянин по имени Мишель де Монтень. Календарь Юлия Цезаря делает год длиннее примерно на одиннадцать минут, и со времён Никейского собора, за двенадцать с половиной веков, ошибка выросла до десяти дней: весеннее равноденствие, приходившееся тогда на 21 марта, теперь наступает около 11-го, и Пасха, которую от него отсчитывают, сползает. В феврале папа Григорий XIII подписал буллу: десять дней надлежит изъять. В Риме, в Испании, Португалии и Польше за четвергом 4 октября последовала пятница 15 октября. Теперь до вас доходит королевский указ: после воскресенья 9 декабря наступит понедельник 20 декабря. Арендная плата вносится в установленные дни, работникам платят помесячно, у ярмарок и праздников свои числа — и люди спрашивают вас, куда денутся десять дней. Что вы сделаете?",
+        "uk": "Ви — міський суддя в католицькому місті Франції, скажімо в Бордо, мером якого цього року є шляхтич на ім’я Мішель де Монтень. Календар Юлія Цезаря робить рік довшим приблизно на одинадцять хвилин, і від часів Нікейського собору, за дванадцять із половиною століть, помилка зросла до десяти днів: весняне рівнодення, що тоді припадало на 21 березня, тепер настає близько 11-го, і Великдень, який від нього відлічують, зсувається. У лютому папа Григорій XIII підписав буллу: десять днів належить вилучити. У Римі, в Іспанії, Португалії та Польщі за четвергом 4 жовтня настала п’ятниця 15 жовтня. Тепер до вас доходить королівський наказ: після неділі 9 грудня настане понеділок 20 грудня. Орендну плату вносять у визначені дні, робітникам платять щомісяця, ярмарки і свята мають свої дати — і люди питають вас, куди подінуться десять днів. Що ви зробите?",
+        "pl": "Jesteś sędzią miejskim w katolickim mieście Francji — powiedzmy w Bordeaux, którego merem jest w tym roku szlachcic nazwiskiem Michel de Montaigne. Kalendarz Juliusza Cezara czyni rok dłuższym o mniej więcej jedenaście minut i od czasów soboru nicejskiego, przez dwanaście i pół wieku, błąd urósł do dziesięciu dni: wiosenna równonoc, przypadająca wtedy na 21 marca, wypada teraz około 11-go, a Wielkanoc, liczona od niej, się przesuwa. W lutym papież Grzegorz XIII podpisał bullę: dziesięć dni należy usunąć. W Rzymie, w Hiszpanii, Portugalii i w Polsce po czwartku 4 października nastąpił piątek 15 października. Teraz dociera do ciebie rozkaz króla: po niedzieli 9 grudnia nastanie poniedziałek 20 grudnia. Czynsze płaci się w ustalone dni, robotnikom płaci się co miesiąc, jarmarki i święta mają swoje daty — a ludzie pytają cię, gdzie podzieje się dziesięć dni. Co robisz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Proclaim it as it stands: rents and wages fall due by the new dates",
+            "ru": "Объявить указ как есть: аренда и жалованье — по новым числам",
+            "uk": "Оголосити наказ як є: оренда й платня — за новими датами",
+            "pl": "Ogłosić rozkaz, jak jest: czynsze i zapłaty według nowych dat"
+          },
+          "reply": {
+            "en": "Then a tenant pays for a full term though he has lived ten days fewer. The bull had foreseen it: in disputes over yearly or monthly payments, judges were to take the lost days into account and add ten days at the end of the term.",
+            "ru": "Тогда арендатор платит за полный срок, хотя прожил на десять дней меньше. Булла это предвидела: в спорах о годовых и месячных платежах судьи должны были учитывать изъятые дни и добавлять десять дней в конце срока.",
+            "uk": "Тоді орендар платить за повний строк, хоча прожив на десять днів менше. Булла це передбачила: у суперечках про річні й місячні платежі судді мали враховувати вилучені дні й додавати десять днів наприкінці строку.",
+            "pl": "Wtedy dzierżawca płaci za pełny termin, choć przeżył dziesięć dni mniej. Bulla to przewidziała: w sporach o płatności roczne i miesięczne sędziowie mieli uwzględniać usunięte dni i dodawać dziesięć dni na końcu terminu."
+          }
+        },
+        {
+          "choice": {
+            "en": "Proclaim it, and give every debtor and tenant ten days more",
+            "ru": "Объявить указ и дать каждому должнику и арендатору десять лишних дней",
+            "uk": "Оголосити наказ і дати кожному боржникові та орендареві десять зайвих днів",
+            "pl": "Ogłosić rozkaz i dać każdemu dłużnikowi i dzierżawcy dziesięć dni więcej"
+          },
+          "reply": {
+            "en": "That is what the bull itself asked of judges: in disputes over yearly or monthly payments, to reckon with the subtraction and add another ten days at the end of each term.",
+            "ru": "Именно этого булла и требовала от судей: в спорах о годовых и месячных платежах принимать вычет в расчёт и добавлять ещё десять дней в конце каждого срока.",
+            "uk": "Саме цього булла й вимагала від суддів: у суперечках про річні й місячні платежі брати вирахування до уваги й додавати ще десять днів наприкінці кожного строку.",
+            "pl": "Właśnie tego bulla wymagała od sędziów: w sporach o płatności roczne i miesięczne brać pod uwagę to odjęcie i dodawać jeszcze dziesięć dni na końcu każdego terminu."
+          }
+        },
+        {
+          "choice": {
+            "en": "Refuse: no pope and no king can take ten days out of a man's life",
+            "ru": "Отказаться: ни папа, ни король не могут вынуть десять дней из жизни человека",
+            "uk": "Відмовитися: ні папа, ні король не можуть вийняти десять днів із життя людини",
+            "pl": "Odmówić: ani papież, ani król nie mogą wyjąć dziesięciu dni z ludzkiego życia"
+          },
+          "reply": {
+            "en": "No one's life was shortened — only ten days lost their names. The Protestant states refused for reasons of their own, unwilling to take a calendar from the pope: the Protestant lands of Germany waited until 1700, Great Britain until 1752.",
+            "ru": "Ничья жизнь не стала короче — лишь десять дней лишились своих имён. Протестантские государства отказались по своим причинам, не желая брать календарь у папы: протестантские земли Германии ждали до 1700 года, Великобритания — до 1752-го.",
+            "uk": "Нічиє життя не стало коротшим — лише десять днів утратили свої назви. Протестантські держави відмовилися з власних причин, не бажаючи брати календар від папи: протестантські землі Німеччини чекали до 1700 року, Велика Британія — до 1752-го.",
+            "pl": "Niczyje życie nie stało się krótsze — tylko dziesięć dni straciło swoje nazwy. Państwa protestanckie odmówiły z własnych powodów, nie chcąc przyjąć kalendarza od papieża: protestanckie ziemie Niemiec czekały do 1700 roku, Wielka Brytania — do 1752."
+          }
+        },
+        {
+          "choice": {
+            "en": "Do it slowly: leave out the leap day for forty years, and lose nothing at once",
+            "ru": "Делать это постепенно: сорок лет пропускать високосный день и ничего не терять разом",
+            "uk": "Робити це поступово: сорок років пропускати високосний день і нічого не втрачати одразу",
+            "pl": "Robić to powoli: przez czterdzieści lat pomijać dzień przestępny i nie tracić niczego od razu"
+          },
+          "reply": {
+            "en": "Montaigne heard it said that the change might have been made with less inconvenience so, as Augustus once did; but Rome wanted the equinox, and Easter with it, back in its place at once.",
+            "ru": "Монтень слышал, что так можно было бы обойтись с меньшими неудобствами, как некогда поступил Август; но Рим хотел вернуть на место равноденствие, а с ним и Пасху, сразу.",
+            "uk": "Монтень чув, що так можна було б обійтися з меншими незручностями, як колись учинив Август; але Рим хотів повернути на місце рівнодення, а з ним і Великдень, одразу.",
+            "pl": "Montaigne słyszał, że można to było zrobić z mniejszą niewygodą, jak niegdyś uczynił August; ale Rzym chciał przywrócić na miejsce równonoc, a z nią Wielkanoc, od razu."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "France obeyed: in December 1582, after the 9th came the 20th. Rome, Spain, Portugal and Poland had changed in October, the other Catholic lands soon followed, and lands too far away for the bull to reach in time were allowed to change in October of a later year. The Protestants would not take a calendar from the pope: the Protestant states of Germany waited until 1700, Britain until 1752, when the gap had grown to eleven days; Russia changed only in 1918, when 31 January was followed by 14 February. Nothing in the sky was touched. The equinox, which had drifted to 11 March, was back on the 21st, where the Council of Nicaea had found it, and a new rule — no leap day in 1700, 1800 and 1900, but one in 2000 — keeps it there. A few years later Montaigne wrote that the reform had seemed to move heaven and earth at once, and yet nothing stirred from its place: his neighbours still found their seasons of sowing and reaping where they always had.",
+        "ru": "Франция подчинилась: в декабре 1582 года после 9-го наступило 20-е. Рим, Испания, Португалия и Польша перешли на новый счёт в октябре, прочие католические земли вскоре последовали за ними, а краям слишком дальним, куда булла не могла дойти вовремя, позволено было перейти в октябре другого года. Протестанты не пожелали брать календарь у папы: протестантские государства Германии ждали до 1700 года, Великобритания — до 1752-го, когда разница выросла уже до одиннадцати дней; Россия перешла лишь в 1918 году, когда за 31 января последовало 14 февраля. В небе не тронули ничего. Равноденствие, сползшее к 11 марта, вернулось на 21-е, где его застал Никейский собор, а новое правило — без високосного дня в 1700, 1800 и 1900 годах, но с ним в 2000-м — удерживает его там. Несколько лет спустя Монтень написал, что реформа, казалось, разом сдвинула небо и землю, и всё же ничто не сдвинулось с места: соседи по-прежнему находили свои сроки сева и жатвы там же, где и всегда.",
+        "uk": "Франція скорилася: у грудні 1582 року після 9-го настало 20-те. Рим, Іспанія, Португалія та Польща перейшли на новий лік у жовтні, інші католицькі землі невдовзі пішли за ними, а краям надто далеким, куди булла не могла дійти вчасно, дозволено було перейти в жовтні іншого року. Протестанти не захотіли брати календар від папи: протестантські держави Німеччини чекали до 1700 року, Велика Британія — до 1752-го, коли різниця зросла вже до одинадцяти днів; Росія перейшла лише 1918 року, коли за 31 січня настало 14 лютого. У небі не зачепили нічого. Рівнодення, що зсунулося до 11 березня, повернулося на 21-ше, де його застав Нікейський собор, а нове правило — без високосного дня в 1700, 1800 і 1900 роках, але з ним у 2000-му — утримує його там. Кілька років по тому Монтень написав, що реформа, здавалося, разом зрушила небо й землю, а проте ніщо не зрушило з місця: сусіди й далі знаходили свої строки сівби й жнив там само, де й завжди.",
+        "pl": "Francja usłuchała: w grudniu 1582 roku po 9-tym nastąpił 20-ty. Rzym, Hiszpania, Portugalia i Polska zmieniły rachubę w październiku, inne ziemie katolickie wkrótce poszły w ich ślady, a krajom zbyt dalekim, by bulla dotarła do nich na czas, pozwolono zmienić ją w październiku innego roku. Protestanci nie chcieli przyjąć kalendarza od papieża: protestanckie państwa Niemiec czekały do 1700 roku, Wielka Brytania — do 1752, gdy różnica urosła już do jedenastu dni; Rosja przeszła dopiero w 1918 roku, kiedy po 31 stycznia nastąpił 14 lutego. Na niebie nie tknięto niczego. Równonoc, która zsunęła się na 11 marca, wróciła na 21-szy, gdzie zastał ją sobór nicejski, a nowa reguła — bez dnia przestępnego w latach 1700, 1800 i 1900, ale z nim w 2000 — utrzymuje ją tam. Kilka lat później Montaigne napisał, że reforma zdawała się poruszyć naraz niebo i ziemię, a jednak nic nie ruszyło się z miejsca: sąsiedzi wciąż znajdowali swoje pory siewu i żniw tam, gdzie zawsze."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Montaigne, Essays III.11, “Of Cripples”",
+            "ru": "Монтень, «Опыты» III.11, «О хромых»",
+            "uk": "Монтень, «Проби» III.11, «Про кульгавих»",
+            "pl": "Montaigne, Próby III.11, „O kulawych”"
+          },
+          "quotes": {
+            "en": {
+              "edition": "essays-time.en.cotton",
+              "from": "3.11.1",
+              "to": "3.11.1",
+              "text": "'Tis now two or three years ago that they made the year ten days shorter in France.—[By the adoption of the Gregorian calendar.]—How many changes may we expect should follow this reformation! it was really moving heaven and earth at once.",
+              "kind": "Free",
+              "translator": "Charles Cotton",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Montaigne, Essays"
+              }
+            },
+            "ru": {
+              "edition": "essays-time.ru.ours",
+              "from": "3.11.1",
+              "to": "3.11.1",
+              "text": "Тому уже два или три года, как во Франции укоротили год на десять дней. — [Приняв григорианский календарь.] — Скольких перемен можно было ожидать вслед за этой реформой! Это поистине значило сдвинуть разом небо и землю.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Монтень, «Опыты»"
+              }
+            },
+            "uk": {
+              "edition": "essays-time.uk.ours",
+              "from": "3.11.1",
+              "to": "3.11.1",
+              "text": "Минуло вже два чи три роки, відколи у Франції вкоротили рік на десять днів. — [Запровадивши григоріанський календар.] — Скільки змін можна було чекати слідом за цією реформою! Це воістину означало зрушити разом небо й землю.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Монтень, «Проби»"
+              }
+            },
+            "pl": {
+              "edition": "essays-time.pl.ours",
+              "from": "3.11.1",
+              "to": "3.11.1",
+              "text": "Minęły już dwa czy trzy lata, odkąd skrócono we Francji rok o dziesięć dni. — [Przyjmując kalendarz gregoriański.] — Ileż zmian można się było spodziewać po tej reformie! Doprawdy, oznaczało to poruszyć naraz niebo i ziemię.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Montaigne, Próby"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Essais/Livre_III/Chapitre_11"
+          }
+        },
+        {
+          "by": {
+            "en": "The same essay",
+            "ru": "Там же",
+            "uk": "Там само",
+            "pl": "Tamże"
+          },
+          "quotes": {
+            "en": {
+              "edition": "essays-time.en.cotton",
+              "from": "3.11.1",
+              "to": "3.11.1",
+              "text": "We have no other account of time but years; the world has for many ages made use of that only; and yet it is a measure that to this day we are not agreed upon, and one that we still doubt what form other nations have variously given to it, and what was the true use of it.",
+              "kind": "Free",
+              "translator": "Charles Cotton",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Montaigne, Essays"
+              }
+            },
+            "ru": {
+              "edition": "essays-time.ru.ours",
+              "from": "3.11.1",
+              "to": "3.11.1",
+              "text": "У нас нет иного счёта времени, кроме лет; мир много веков пользуется только им; и всё же это мера, о которой мы до сих пор не договорились, и мы всё ещё сомневаемся, какой вид по-разному придавали ей другие народы и каково было её истинное употребление.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Монтень, «Опыты»"
+              }
+            },
+            "uk": {
+              "edition": "essays-time.uk.ours",
+              "from": "3.11.1",
+              "to": "3.11.1",
+              "text": "Ми не маємо іншого ліку часу, крім років; світ багато віків користується лише ним; і все ж це міра, щодо якої ми досі не дійшли згоди, і ми все ще сумніваємося, якого вигляду по-різному надавали їй інші народи і яким було її справжнє вживання.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Монтень, «Проби»"
+              }
+            },
+            "pl": {
+              "edition": "essays-time.pl.ours",
+              "from": "3.11.1",
+              "to": "3.11.1",
+              "text": "Nie mamy innej rachuby czasu niż lata; świat od wielu wieków posługuje się tylko nią; a jednak jest to miara, co do której do dziś nie doszliśmy do zgody, i wciąż mamy wątpliwości, jaką postać różnie nadawały jej inne narody i jaki był jej prawdziwy użytek.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Montaigne, Próby"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Essais/Livre_III/Chapitre_11"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The bull, Inter gravissimas, names where the reform came from: a book written by Aloysius Lilius and brought to the pope by his brother Antonio, a doctor of arts and medicine; Lilius had died before it was adopted. The astronomer Christopher Clavius made the calculations and later explained the calendar in a folio of eight hundred pages.",
+            "ru": "Булла Inter gravissimas называет, откуда пришла реформа: из книги, написанной Алоизием Лилием и поднесённой папе его братом Антонием, доктором искусств и медицины; сам Лилий умер, не дожив до её принятия. Расчёты выполнил астроном Христофор Клавий, позднее объяснивший календарь в фолианте в восемьсот страниц.",
+            "uk": "Булла Inter gravissimas називає, звідки прийшла реформа: з книжки, написаної Алоїзієм Лілієм і піднесеної папі його братом Антонієм, доктором мистецтв і медицини; сам Лілій помер, не доживши до її ухвалення. Розрахунки виконав астроном Христофор Клавій, який згодом пояснив календар у фоліанті на вісімсот сторінок.",
+            "pl": "Bulla Inter gravissimas mówi, skąd wzięła się reforma: z księgi napisanej przez Alojzego Liliusa, którą papieżowi przyniósł jego brat Antoni, doktor sztuk i medycyny; sam Lilius zmarł, zanim ją przyjęto. Obliczenia wykonał astronom Krzysztof Klawiusz, który później objaśnił kalendarz w foliale liczącym osiemset stron."
+          },
+          "source": "Gregory XIII, Inter gravissimas (1582), §5; Encyclopædia Britannica, 9th edition, “Calendar”"
+        },
+        {
+          "fact": {
+            "en": "The days of the week ran on unbroken: Thursday 4 October was followed by Friday 15 October, so no Friday or Sunday was lost — only the numbers between.",
+            "ru": "Дни недели шли без перерыва: за четвергом 4 октября последовала пятница 15 октября, так что ни одна пятница или воскресенье не пропали — пропали только числа между ними.",
+            "uk": "Дні тижня йшли без перерви: за четвергом 4 жовтня настала п’ятниця 15 жовтня, тож жодна п’ятниця чи неділя не зникла — зникли тільки числа між ними.",
+            "pl": "Dni tygodnia biegły bez przerwy: po czwartku 4 października nastąpił piątek 15 października, nie przepadł więc żaden piątek ani niedziela — tylko liczby pomiędzy."
+          },
+          "source": "Catholic Encyclopedia (1913), “General Chronology”"
+        },
+        {
+          "fact": {
+            "en": "Montaigne was chosen mayor of Bordeaux in 1581 while far from France, at the baths near Lucca in Italy; he asked to be excused, but was told the king, too, commanded it. Months earlier, in Rome, he had been received by Gregory XIII and, as the custom was, kissed his foot.",
+            "ru": "Монтеня избрали мэром Бордо в 1581 году, когда он был далеко от Франции, на водах близ Лукки в Италии; он просил освободить его, но ему сказали, что того требует и король. За несколько месяцев до того в Риме его принял Григорий XIII, и Монтень, как велел обычай, поцеловал ему ногу.",
+            "uk": "Монтеня обрали мером Бордо 1581 року, коли він був далеко від Франції, на водах поблизу Лукки в Італії; він просив звільнити його, але йому сказали, що цього вимагає і король. За кілька місяців до того в Римі його прийняв Григорій XIII, і Монтень, як велів звичай, поцілував йому ногу.",
+            "pl": "Montaigne’a wybrano merem Bordeaux w 1581 roku, gdy był daleko od Francji, u wód pod Lukką we Włoszech; prosił o zwolnienie, lecz powiedziano mu, że rozkazuje tego również król. Kilka miesięcy wcześniej w Rzymie przyjął go Grzegorz XIII i Montaigne, jak nakazywał zwyczaj, ucałował jego stopę."
+          },
+          "source": "Montaigne, Essays 3.10; his Journal of the journey to Italy (1580–1581), Rome"
+        }
+      ]
+    },
+    {
+      "think": "time",
+      "question": {
+        "en": "Think of an hour that flew and an hour that would not end. Were they the same hour? Is time something that flows by itself, even if nothing moved; or the measure we take of motion; or something in the mind that remembers and expects? And when ten days were taken out of the calendar, was any time lost?",
+        "ru": "Вспомните час, который пролетел, и час, который никак не кончался. Был ли это один и тот же час? Время — это то, что течёт само по себе, даже если бы ничто не двигалось; или мера, которой мы мерим движение; или нечто в уме, что помнит и ожидает? И когда из календаря вынули десять дней, пропало ли хоть сколько-нибудь времени?",
+        "uk": "Згадайте годину, що пролетіла, і годину, що ніяк не кінчалася. Чи це була та сама година? Час — це те, що плине саме по собі, навіть якби ніщо не рухалося; чи міра, якою ми міряємо рух; чи щось у розумі, що пам’ятає й очікує? І коли з календаря вийняли десять днів, чи зникло хоч трохи часу?",
+        "pl": "Przypomnij sobie godzinę, która przeleciała, i godzinę, która nie chciała się skończyć. Czy była to ta sama godzina? Czy czas płynie sam z siebie, nawet gdyby nic się nie poruszało; czy jest miarą, którą mierzymy ruch; czy czymś w umyśle, co pamięta i oczekuje? A kiedy z kalendarza wyjęto dziesięć dni, czy zniknęło choć trochę czasu?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: what is time?",
+        "ru": "А теперь: что такое время?",
+        "uk": "А тепер: що таке час?",
+        "pl": "A teraz: czym jest czas?"
+      }
+    }
+  ]
+}

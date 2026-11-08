@@ -1,0 +1,1075 @@
+{
+  "id": "animals",
+  "title": {
+    "en": "What do we owe to animals?",
+    "ru": "Что мы должны животным?",
+    "uk": "Що ми винні тваринам?",
+    "pl": "Co jesteśmy winni zwierzętom?"
+  },
+  "subtitle": {
+    "en": "Plutarch, Descartes, Bentham, the Jains and Ashoka — and you",
+    "ru": "Плутарх, Декарт, Бентам, джайны и Ашока — и вы",
+    "uk": "Плутарх, Декарт, Бентам, джайни й Ашока — і ви",
+    "pl": "Plutarch, Kartezjusz, Bentham, dżiniści i Aśoka — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: what do we owe to animals?",
+        "ru": "Прежде чем читать кого-либо: что мы должны животным?",
+        "uk": "Перш ніж читати когось: що ми винні тваринам?",
+        "pl": "Zanim kogokolwiek przeczytasz: co jesteśmy winni zwierzętom?"
+      },
+      "options": [
+        {
+          "en": "As much as to people: a creature that can suffer counts as much as we do",
+          "ru": "Столько же, сколько людям: существо, способное страдать, значит столько же, сколько мы",
+          "uk": "Стільки ж, скільки людям: істота, здатна страждати, важить стільки ж, скільки ми",
+          "pl": "Tyle samo co ludziom: istota zdolna do cierpienia liczy się tyle samo co my"
+        },
+        {
+          "en": "Not to make them suffer: we may use them, even eat them, but never torment them",
+          "ru": "Не причинять им страданий: пользоваться ими, даже есть их можно, но мучить — никогда",
+          "uk": "Не завдавати їм страждань: користуватися ними, навіть їсти їх можна, але мучити — ніколи",
+          "pl": "Nie zadawać im cierpienia: wolno ich używać, nawet je jeść, ale nigdy dręczyć"
+        },
+        {
+          "en": "Kindness, not justice: rights are for people, but cruelty to animals shames us",
+          "ru": "Доброту, а не справедливость: права — для людей, но жестокость к животным нас позорит",
+          "uk": "Доброту, а не справедливість: права — для людей, але жорстокість до тварин нас ганьбить",
+          "pl": "Dobroć, nie sprawiedliwość: prawa są dla ludzi, ale okrucieństwo wobec zwierząt nas hańbi"
+        },
+        {
+          "en": "Nothing in themselves: without reason or speech, they are owed nothing",
+          "ru": "Ничего самим по себе: без разума и речи им ничего не причитается",
+          "uk": "Нічого самим по собі: без розуму й мови їм нічого не належить",
+          "pl": "Nic samym w sobie: bez rozumu i mowy nic im się nie należy"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Plutarch: kindness wider than justice",
+        "ru": "Плутарх: доброта шире справедливости",
+        "uk": "Плутарх: доброта ширша за справедливість",
+        "pl": "Plutarch: dobroć szersza niż sprawiedliwość"
+      },
+      "intro": {
+        "en": "Chaeronea, in Boeotia, about AD 100. Greece has been ruled by Rome for two and a half centuries. Plutarch, a Greek of a small town and a priest of Apollo at Delphi, is writing his Parallel Lives — a Greek beside a Roman, their virtues and their failings. He has reached Cato the Elder, the stern censor of three centuries before, famous for his thrift: Cato used his slaves like beasts of burden and sold them when they grew old. Plutarch stops to disagree. In the translation that bears Dryden's name, revised by Arthur Hugh Clough:",
+        "ru": "Херонея в Беотии, около 100 года н. э. Греция уже два с половиной века под властью Рима. Плутарх, грек из маленького города и жрец Аполлона в Дельфах, пишет «Сравнительные жизнеописания» — грека рядом с римлянином, их доблести и их пороки. Он дошёл до Катона Старшего, сурового цензора, жившего тремя веками раньше и прославленного своей бережливостью: Катон выжимал из рабов работу, как из вьючного скота, и продавал их, когда они старели. Плутарх останавливается, чтобы возразить. В переводе, вышедшем под именем Драйдена и исправленном Артуром Хью Клафом:",
+        "uk": "Херонея в Беотії, близько 100 року н. е. Греція вже два з половиною століття під владою Риму. Плутарх, грек із маленького міста і жрець Аполлона в Дельфах, пише «Порівняльні життєписи» — грека поруч із римлянином, їхні чесноти та вади. Він дійшов до Катона Старшого, суворого цензора, що жив трьома століттями раніше і славився своєю ощадливістю: Катон використовував рабів, як в’ючну худобу, і продавав їх, коли вони старіли. Плутарх зупиняється, щоб заперечити. У перекладі, що вийшов під іменем Драйдена, виправленому Артуром Г’ю Клафом:",
+        "pl": "Cheroneja w Beocji, około 100 roku n.e. Grecja od dwóch i pół wieku jest pod władzą Rzymu. Plutarch, Grek z małego miasta i kapłan Apollina w Delfach, pisze Żywoty równoległe — Greka obok Rzymianina, ich cnoty i ich wady. Doszedł do Katona Starszego, surowego cenzora sprzed trzech wieków, słynnego z oszczędności: Katon używał niewolników jak bydła jucznego i sprzedawał ich, gdy się zestarzeli. Plutarch zatrzymuje się, by się z nim nie zgodzić. W przekładzie wydanym pod nazwiskiem Drydena, poprawionym przez Arthura Hugh Clougha:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Plutarch, Life of Marcus Cato, ch. 5",
+            "ru": "Плутарх, «Марк Катон», гл. 5",
+            "uk": "Плутарх, «Марк Катон», розд. 5",
+            "pl": "Plutarch, Marek Katon, rozdz. 5"
+          },
+          "quotes": {
+            "en": {
+              "edition": "plutarch-animals.en.clough",
+              "from": "5.1",
+              "to": "5.1",
+              "text": "We see that kindness or humanity has a larger field than bare justice to exercise itself in; law and justice we cannot, in the nature of things, employ on others than men; but we may extend our goodness and charity even to irrational creatures; and such acts flow from a gentle nature, as water from an abundant spring. It is doubtless the part of a kind-natured man to keep even worn-out horses and dogs, and not only take care of them when they are foals and whelps, but also when they are grown old.",
+              "kind": "Free",
+              "translator": "John Dryden and others, revised by Arthur Hugh Clough",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Plutarch%27s_Lives_(Clough)/Marcus_Cato",
+                "lang": "en",
+                "title": "Plutarch, Life of Marcus Cato"
+              }
+            },
+            "ru": {
+              "edition": "plutarch-animals.ru.ours",
+              "from": "5.1",
+              "to": "5.1",
+              "text": "Мы видим, что доброта, или человечность, имеет для себя поле шире, чем голая справедливость; закон и справедливость мы по самой природе вещей не можем применять ни к кому, кроме людей, но свою доброту и милосердие можем простирать даже на неразумных тварей; и такие поступки текут из кроткой натуры, как вода из обильного источника. Несомненно, доброму человеку подобает держать даже изработавшихся лошадей и собак и заботиться о них не только когда они жеребята и щенки, но и когда они состарились.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Plutarch%27s_Lives_(Clough)/Marcus_Cato",
+                "lang": "en",
+                "title": "Плутарх, «Марк Катон»"
+              }
+            },
+            "uk": {
+              "edition": "plutarch-animals.uk.ours",
+              "from": "5.1",
+              "to": "5.1",
+              "text": "Ми бачимо, що доброта, або людяність, має для себе поле ширше, ніж гола справедливість; закон і справедливість ми за самою природою речей не можемо застосовувати ні до кого, крім людей, але свою доброту й милосердя можемо поширювати навіть на нерозумних створінь; і такі вчинки випливають із лагідної вдачі, як вода з багатого джерела. Безперечно, добросердій людині личить тримати навіть знесилених працею коней і собак і дбати про них не лише тоді, коли вони лошата й цуценята, а й тоді, коли вони постаріли.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Plutarch%27s_Lives_(Clough)/Marcus_Cato",
+                "lang": "en",
+                "title": "Плутарх, «Марк Катон»"
+              }
+            },
+            "pl": {
+              "edition": "plutarch-animals.pl.ours",
+              "from": "5.1",
+              "to": "5.1",
+              "text": "Widzimy, że dobroć, czyli człowieczeństwo, ma do działania pole szersze niż sama sprawiedliwość; prawa i sprawiedliwości nie możemy, z samej natury rzeczy, stosować do nikogo poza ludźmi, lecz naszą dobroć i miłosierdzie możemy rozciągać nawet na stworzenia nierozumne; a takie uczynki płyną z łagodnej natury jak woda z obfitego źródła. Bez wątpienia przystoi człowiekowi dobrego serca trzymać nawet wysłużone konie i psy i troszczyć się o nie nie tylko wtedy, gdy są źrebiętami i szczeniętami, lecz także wtedy, gdy się zestarzeją.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Plutarch%27s_Lives_(Clough)/Marcus_Cato",
+                "lang": "en",
+                "title": "Plutarch, Marek Katon"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg025.perseus-grc2:5.2/"
+          }
+        },
+        {
+          "by": {
+            "en": "The same chapter: old shoes",
+            "ru": "Та же глава: старая обувь",
+            "uk": "Той самий розділ: старе взуття",
+            "pl": "Ten sam rozdział: stare buty"
+          },
+          "quotes": {
+            "en": {
+              "edition": "plutarch-animals.en.clough",
+              "from": "5.1",
+              "to": "5.1",
+              "text": "Nor are we to use living creatures like old shoes or dishes, and throw them away when they are worn out or broken with service; but if it were for nothing else, but by way of study and practice in humanity, a man ought always to prehabituate himself in these things to be of a kind and sweet disposition.",
+              "kind": "Free",
+              "translator": "John Dryden and others, revised by Arthur Hugh Clough",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Plutarch%27s_Lives_(Clough)/Marcus_Cato",
+                "lang": "en",
+                "title": "Plutarch, Life of Marcus Cato"
+              }
+            },
+            "ru": {
+              "edition": "plutarch-animals.ru.ours",
+              "from": "5.1",
+              "to": "5.1",
+              "text": "И не следует обращаться с живыми существами, как со старой обувью или посудой, и выбрасывать их, когда они износились или надломлены службой; но хотя бы ради одного лишь упражнения и навыка в человечности человеку следует всегда заранее приучать себя в этом к доброму и мягкому нраву.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Plutarch%27s_Lives_(Clough)/Marcus_Cato",
+                "lang": "en",
+                "title": "Плутарх, «Марк Катон»"
+              }
+            },
+            "uk": {
+              "edition": "plutarch-animals.uk.ours",
+              "from": "5.1",
+              "to": "5.1",
+              "text": "І не слід поводитися з живими істотами, як зі старим взуттям чи посудом, і викидати їх, коли вони зносилися чи надломлені службою; але хоча б задля самої лише вправи й навички в людяності людині слід завжди заздалегідь привчати себе в цьому до доброї та м’якої вдачі.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Plutarch%27s_Lives_(Clough)/Marcus_Cato",
+                "lang": "en",
+                "title": "Плутарх, «Марк Катон»"
+              }
+            },
+            "pl": {
+              "edition": "plutarch-animals.pl.ours",
+              "from": "5.1",
+              "to": "5.1",
+              "text": "Nie wolno też obchodzić się z żywymi stworzeniami jak ze starymi butami czy naczyniami i wyrzucać ich, gdy się zużyją albo połamią w służbie; lecz choćby dla niczego innego, jak tylko dla ćwiczenia się i wprawy w człowieczeństwie, człowiek powinien zawsze zawczasu przyzwyczajać się w tych sprawach do usposobienia dobrego i łagodnego.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Plutarch%27s_Lives_(Clough)/Marcus_Cato",
+                "lang": "en",
+                "title": "Plutarch, Marek Katon"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg025.perseus-grc2:5.5/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Cato himself, in his book on farming, tells the owner to sell what he no longer needs: old oxen, an old wagon, worn-out tools, an old slave, a sick slave.",
+            "ru": "Сам Катон в своей книге о земледелии советует хозяину продавать то, что ему больше не нужно: старых волов, старую телегу, изношенные орудия, старого раба, больного раба.",
+            "uk": "Сам Катон у своїй книжці про землеробство радить господареві продавати те, що йому вже не потрібне: старих волів, старий віз, зношені знаряддя, старого раба, хворого раба.",
+            "pl": "Sam Katon w swojej książce o rolnictwie radzi gospodarzowi sprzedawać to, czego już nie potrzebuje: stare woły, stary wóz, zużyte narzędzia, starego niewolnika, chorego niewolnika."
+          },
+          "source": "Cato the Elder, On Agriculture (De agri cultura) 2.7"
+        },
+        {
+          "fact": {
+            "en": "Plutarch wrote about animals elsewhere too: two speeches On the Eating of Flesh ask with what feeling the first man put his lips to the flesh of a dead creature, and in a dialogue Gryllus, one of Odysseus' men turned by Circe into a pig, refuses to become a man again.",
+            "ru": "Плутарх писал о животных и в других сочинениях: две речи «О поедании мяса» спрашивают, с каким чувством первый человек коснулся губами плоти мёртвого существа, а в диалоге Грилл, один из спутников Одиссея, обращённый Киркой в свинью, отказывается снова стать человеком.",
+            "uk": "Плутарх писав про тварин і в інших творах: дві промови «Про споживання м’яса» питають, із яким почуттям перша людина торкнулася губами плоті мертвої істоти, а в діалозі Грілл, один із супутників Одіссея, обернений Кірке на свиню, відмовляється знову стати людиною.",
+            "pl": "Plutarch pisał o zwierzętach także gdzie indziej: dwie mowy O jedzeniu mięsa pytają, z jakim uczuciem pierwszy człowiek dotknął ustami ciała martwego stworzenia, a w dialogu Gryllos, jeden z towarzyszy Odyseusza zamieniony przez Kirke w świnię, nie chce znów stać się człowiekiem."
+          },
+          "source": "Plutarch, Moralia 993a–999b (On the Eating of Flesh) and 985d–992e (Gryllus, or Beasts Are Rational)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Descartes: a clock of wheels and weights",
+        "ru": "Декарт: часы из колёс и гирь",
+        "uk": "Декарт: годинник із коліс і гир",
+        "pl": "Kartezjusz: zegar z kół i ciężarków"
+      },
+      "intro": {
+        "en": "Leiden, 1637. Four years earlier, in Rome, Galileo was condemned for teaching that the Earth moves, and René Descartes, a Frenchman living in the Dutch Republic, put away the treatise on the world he had all but finished. Now a Leiden printer brings out, in French and without its author's name, his Discourse on the Method. In its fifth part Descartes tells what the hidden treatise held: the body of an animal is a machine made by the hands of God, finer than any automaton. How, then, could we tell a man from such a machine — and a man from a beast? In John Veitch's translation:",
+        "ru": "Лейден, 1637 год. Четырьмя годами раньше в Риме осудили Галилея за учение о том, что Земля движется, и Рене Декарт, француз, живущий в Голландской республике, отложил почти законченный трактат о мире. Теперь лейденский печатник выпускает по-французски, без имени автора, его «Рассуждение о методе». В пятой части Декарт рассказывает, что было в спрятанном трактате: тело животного — машина, созданная руками Бога, совершеннее любого автомата. Как же тогда отличить человека от такой машины — и человека от животного? В переводе Джона Вейча:",
+        "uk": "Лейден, 1637 рік. Чотирма роками раніше в Римі засудили Галілея за вчення про те, що Земля рухається, і Рене Декарт, француз, який жив у Голландській республіці, відклав майже завершений трактат про світ. Тепер лейденський друкар видає французькою, без імені автора, його «Міркування про метод». У п’ятій частині Декарт розповідає, що містив схований трактат: тіло тварини — машина, створена руками Бога, досконаліша за будь-який автомат. Як же тоді відрізнити людину від такої машини — і людину від тварини? У перекладі Джона Вейча:",
+        "pl": "Lejda, rok 1637. Cztery lata wcześniej w Rzymie potępiono Galileusza za nauczanie, że Ziemia się porusza, i Kartezjusz, Francuz mieszkający w Republice Niderlandów, odłożył niemal ukończony traktat o świecie. Teraz drukarz z Lejdy wydaje po francusku, bez nazwiska autora, jego Rozprawę o metodzie. W części piątej Kartezjusz opowiada, co zawierał ukryty traktat: ciało zwierzęcia jest maszyną zrobioną rękami Boga, doskonalszą od każdego automatu. Jak więc odróżnić człowieka od takiej maszyny — i człowieka od zwierzęcia? W przekładzie Johna Veitcha:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "René Descartes, Discourse on the Method (1637), part V",
+            "ru": "Рене Декарт, «Рассуждение о методе» (1637), ч. V",
+            "uk": "Рене Декарт, «Міркування про метод» (1637), ч. V",
+            "pl": "Kartezjusz, Rozprawa o metodzie (1637), cz. V"
+          },
+          "quotes": {
+            "en": {
+              "edition": "descartes-animals.en.veitch",
+              "from": "5.9",
+              "to": "5.9",
+              "text": "Again, by means of these two tests we may likewise know the difference between men and brutes. For it is highly deserving of remark, that there are no men so dull and stupid, not even idiots, as to be incapable of joining together different words, and thereby constructing a declaration by which to make their thoughts understood; and that on the other hand, there is no other animal, however perfect or happily circumstanced which can do the like.",
+              "kind": "Free",
+              "translator": "John Veitch",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Discourse_on_the_Method",
+                "lang": "en",
+                "title": "René Descartes, Discourse on the Method"
+              }
+            },
+            "ru": {
+              "edition": "descartes-animals.ru.ours",
+              "from": "5.9",
+              "to": "5.9",
+              "text": "Далее, с помощью тех же двух признаков мы можем познать и различие между людьми и животными. Ибо весьма примечательно, что нет людей столь тупых и глупых, даже слабоумных, которые были бы неспособны связать вместе разные слова и составить из них речь, чтобы сделать понятными свои мысли; и что, напротив, нет другого животного, сколь бы совершенным и счастливо рождённым оно ни было, которое могло бы сделать подобное.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Discourse_on_the_Method",
+                "lang": "en",
+                "title": "Рене Декарт, «Рассуждение о методе»"
+              }
+            },
+            "uk": {
+              "edition": "descartes-animals.uk.ours",
+              "from": "5.9",
+              "to": "5.9",
+              "text": "Далі, за допомогою тих самих двох ознак ми можемо пізнати й різницю між людьми та тваринами. Бо вельми варте уваги те, що немає людей таких тупих і дурних, навіть недоумкуватих, які були б нездатні поєднати різні слова й скласти з них мову, щоб зробити зрозумілими свої думки; і що, навпаки, немає іншої тварини, хоч якою досконалою і щасливо народженою вона була б, яка могла б зробити щось подібне.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Discourse_on_the_Method",
+                "lang": "en",
+                "title": "Рене Декарт, «Міркування про метод»"
+              }
+            },
+            "pl": {
+              "edition": "descartes-animals.pl.ours",
+              "from": "5.9",
+              "to": "5.9",
+              "text": "Dalej, za pomocą tych samych dwóch sprawdzianów możemy poznać także różnicę między ludźmi a zwierzętami. Godne jest bowiem wielkiej uwagi, że nie ma ludzi tak tępych i głupich, nawet niedorozwiniętych, by nie potrafili złączyć różnych słów i ułożyć z nich wypowiedzi, przez którą dają zrozumieć swoje myśli; i że przeciwnie, nie ma żadnego innego zwierzęcia, choćby najdoskonalszego i najszczęśliwiej urodzonego, które mogłoby zrobić coś podobnego.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Discourse_on_the_Method",
+                "lang": "en",
+                "title": "Kartezjusz, Rozprawa o metodzie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Discours_de_la_m%C3%A9thode_(%C3%A9d._Cousin)/Cinqui%C3%A8me_partie"
+          }
+        },
+        {
+          "by": {
+            "en": "The same part: none at all",
+            "ru": "Та же часть: вовсе нет",
+            "uk": "Та сама частина: зовсім немає",
+            "pl": "Ta sama część: wcale"
+          },
+          "quotes": {
+            "en": {
+              "edition": "descartes-animals.en.veitch",
+              "from": "5.9",
+              "to": "5.9",
+              "text": "And this proves not only that the brutes have less Reason than man, but that they have none at all: for we see that very little is required to enable a person to speak; and since a certain inequality of capacity is observable among animals of the same species, as well as among men, and since some are more capable of being instructed than others, it is incredible that the most perfect ape or parrot of its species, should not in this be equal to the most stupid infant of its kind, or at least to one that was crack-brained, unless the soul of brutes were of a nature wholly different from ours.",
+              "kind": "Free",
+              "translator": "John Veitch",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Discourse_on_the_Method",
+                "lang": "en",
+                "title": "René Descartes, Discourse on the Method"
+              }
+            },
+            "ru": {
+              "edition": "descartes-animals.ru.ours",
+              "from": "5.9",
+              "to": "5.9",
+              "text": "И это доказывает не только то, что у животных меньше разума, чем у человека, но и то, что у них его нет вовсе: ибо мы видим, что для умения говорить нужно совсем немного; а поскольку среди животных одного вида, как и среди людей, заметно некоторое неравенство способностей и одни лучше поддаются обучению, чем другие, невероятно, чтобы самая совершенная обезьяна или попугай своего вида не сравнялись в этом с самым глупым младенцем или хотя бы с младенцем, повреждённым в уме, — если только душа животных не совершенно иной природы, чем наша.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Discourse_on_the_Method",
+                "lang": "en",
+                "title": "Рене Декарт, «Рассуждение о методе»"
+              }
+            },
+            "uk": {
+              "edition": "descartes-animals.uk.ours",
+              "from": "5.9",
+              "to": "5.9",
+              "text": "І це доводить не лише те, що тварини мають менше розуму, ніж людина, а й те, що вони не мають його зовсім: бо ми бачимо, що для вміння говорити потрібно зовсім небагато; а що серед тварин одного виду, як і серед людей, помітна певна нерівність здібностей і одні краще піддаються навчанню, ніж інші, то неймовірно, щоб найдосконаліша мавпа чи папуга свого виду не зрівнялися в цьому з найдурнішим немовлям або принаймні з немовлям, ушкодженим на розумі, — хіба що душа тварин зовсім іншої природи, ніж наша.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Discourse_on_the_Method",
+                "lang": "en",
+                "title": "Рене Декарт, «Міркування про метод»"
+              }
+            },
+            "pl": {
+              "edition": "descartes-animals.pl.ours",
+              "from": "5.9",
+              "to": "5.9",
+              "text": "A to dowodzi nie tylko, że zwierzęta mają mniej rozumu niż człowiek, lecz że nie mają go wcale: widzimy bowiem, że bardzo niewiele trzeba, by umieć mówić; a ponieważ wśród zwierząt jednego gatunku, tak samo jak wśród ludzi, widać pewną nierówność zdolności i jedne łatwiej dają się wyuczyć niż inne, nie do wiary, by najdoskonalsza małpa czy papuga swego gatunku nie dorównała w tym najgłupszemu niemowlęciu albo przynajmniej niemowlęciu o pomieszanym umyśle — chyba że dusza zwierząt jest natury zupełnie innej niż nasza.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Discourse_on_the_Method",
+                "lang": "en",
+                "title": "Kartezjusz, Rozprawa o metodzie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Discours_de_la_m%C3%A9thode_(%C3%A9d._Cousin)/Cinqui%C3%A8me_partie"
+          }
+        },
+        {
+          "by": {
+            "en": "The same part: the clock",
+            "ru": "Та же часть: часы",
+            "uk": "Та сама частина: годинник",
+            "pl": "Ta sama część: zegar"
+          },
+          "quotes": {
+            "en": {
+              "edition": "descartes-animals.en.veitch",
+              "from": "5.9",
+              "to": "5.9",
+              "text": "It is also very worthy of remark, that, though there are many animals which manifest more industry than we in certain of their actions, the same animals are yet observed to show none at all in many others: so that the circumstance that they do better than we does not prove that they are endowed with mind, for it would thence follow that they possessed greater Reason than any of us, and could surpass us in all things; on the contrary, it rather proves that they are destitute of Reason, and that it is Nature which acts in them according to the disposition of their organs: thus it is seen, that a clock composed only of wheels and weights can number the hours and measure time more exactly than we with all our skill.",
+              "kind": "Free",
+              "translator": "John Veitch",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Discourse_on_the_Method",
+                "lang": "en",
+                "title": "René Descartes, Discourse on the Method"
+              }
+            },
+            "ru": {
+              "edition": "descartes-animals.ru.ours",
+              "from": "5.9",
+              "to": "5.9",
+              "text": "Весьма примечательно и то, что, хотя многие животные в некоторых своих действиях проявляют больше искусности, чем мы, те же самые животные, как замечено, не проявляют её вовсе во многих других: так что то обстоятельство, что они делают что-то лучше нас, не доказывает, что они наделены умом, ибо отсюда следовало бы, что разума у них больше, чем у любого из нас, и что они могли бы превзойти нас во всём; напротив, это скорее доказывает, что они лишены разума и что в них действует природа, сообразно расположению их органов: так мы видим, что часы, составленные из одних лишь колёс и гирь, могут отсчитывать часы и измерять время точнее, чем мы со всем нашим искусством.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Discourse_on_the_Method",
+                "lang": "en",
+                "title": "Рене Декарт, «Рассуждение о методе»"
+              }
+            },
+            "uk": {
+              "edition": "descartes-animals.uk.ours",
+              "from": "5.9",
+              "to": "5.9",
+              "text": "Вельми варте уваги й те, що, хоча багато тварин у деяких своїх діях виявляють більше вправності, ніж ми, ті самі тварини, як помічено, не виявляють її зовсім у багатьох інших: тож та обставина, що вони роблять щось краще за нас, не доводить, що вони обдаровані умом, бо звідси випливало б, що розуму в них більше, ніж у будь-кого з нас, і що вони могли б перевершити нас у всьому; навпаки, це радше доводить, що вони позбавлені розуму і що в них діє природа відповідно до будови їхніх органів: так ми бачимо, що годинник, складений лише з коліс і гир, може лічити години й вимірювати час точніше, ніж ми з усім нашим умінням.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Discourse_on_the_Method",
+                "lang": "en",
+                "title": "Рене Декарт, «Міркування про метод»"
+              }
+            },
+            "pl": {
+              "edition": "descartes-animals.pl.ours",
+              "from": "5.9",
+              "to": "5.9",
+              "text": "Godne wielkiej uwagi jest także to, że choć wiele zwierząt w niektórych swoich czynnościach okazuje więcej zręczności niż my, to te same zwierzęta, jak widać, nie okazują jej wcale w wielu innych: tak że okoliczność, iż robią coś lepiej od nas, nie dowodzi, że mają umysł, bo wynikałoby z tego, że mają więcej rozumu niż ktokolwiek z nas i mogłyby nas we wszystkim prześcignąć; przeciwnie, dowodzi raczej, że rozumu są pozbawione i że to natura działa w nich stosownie do układu ich narządów: tak widzimy, że zegar złożony tylko z kół i ciężarków potrafi liczyć godziny i mierzyć czas dokładniej niż my z całą naszą umiejętnością.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Discourse_on_the_Method",
+                "lang": "en",
+                "title": "Kartezjusz, Rozprawa o metodzie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Discours_de_la_m%C3%A9thode_(%C3%A9d._Cousin)/Cinqui%C3%A8me_partie"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Whether Descartes denied animals all feeling is argued to this day. To the English philosopher Henry More he wrote in 1649 that he denied them thought — not life, nor even sensation, in so far as it depends on a bodily organ.",
+            "ru": "Отказывал ли Декарт животным во всяком чувстве — об этом спорят до сих пор. Английскому философу Генри Мору он писал в 1649 году, что отрицает у них мысль — но не жизнь и даже не ощущение, поскольку оно зависит от телесного органа.",
+            "uk": "Чи відмовляв Декарт тваринам у будь-якому чутті — про це сперечаються досі. Англійському філософові Генрі Мору він писав 1649 року, що заперечує в них думку — але не життя і навіть не відчуття, оскільки воно залежить від тілесного органа.",
+            "pl": "Czy Kartezjusz odmawiał zwierzętom wszelkiego czucia — spiera się o to do dziś. Angielskiemu filozofowi Henry’emu More’owi pisał w 1649 roku, że odmawia im myśli — ale nie życia, a nawet nie czucia, o ile zależy ono od narządu cielesnego."
+          },
+          "source": "Descartes, letter to Henry More, 5 February 1649 (Adam–Tannery V 278)"
+        },
+        {
+          "fact": {
+            "en": "Some of his followers went further. A memoir of the Jansenists of Port-Royal tells of Cartesians there who beat dogs with perfect indifference and laughed at those who pitied them: the cries, they said, were only the noise of a little spring that had been touched.",
+            "ru": "Некоторые его последователи пошли дальше. Воспоминания о янсенистах Пор-Рояля рассказывают о тамошних картезианцах, которые с полным безразличием били собак и смеялись над теми, кто их жалел: крики, говорили они, — лишь шум задетой пружинки.",
+            "uk": "Деякі його послідовники пішли далі. Спогади про янсеністів Пор-Рояля розповідають про тамтешніх картезіанців, які з цілковитою байдужістю били собак і сміялися з тих, хто їх жалів: крики, казали вони, — лише шум зачепленої пружинки.",
+            "pl": "Niektórzy jego zwolennicy poszli dalej. Wspomnienia o jansenistach z Port-Royal opowiadają o tamtejszych kartezjanach, którzy z doskonałą obojętnością bili psy i śmiali się z tych, którzy się nad nimi litowali: krzyk, mówili, to tylko odgłos poruszonej sprężynki."
+          },
+          "source": "Nicolas Fontaine, Mémoires pour servir à l'histoire de Port-Royal (1736)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Bentham: can they suffer?",
+        "ru": "Бентам: могут ли они страдать?",
+        "uk": "Бентам: чи можуть вони страждати?",
+        "pl": "Bentham: czy potrafią cierpieć?"
+      },
+      "intro": {
+        "en": "London, 1789 — the year the Bastille falls. Jeremy Bentham, trained for the bar but more eager to reform the law than to practise it, at last publishes a book printed nine years before: An Introduction to the Principles of Morals and Legislation. Its rule is utility: the right act is the one that brings the greatest happiness to those whose interest is in question. In its last chapter he asks whose interest that is, and his answer reaches past mankind. He does not forbid us to eat animals: we are the better for it, he says, and they are never the worse. In a note — reprinted by Henry Salt in his Animals' Rights of 1892 — he says what we may not do:",
+        "ru": "Лондон, 1789 год — год падения Бастилии. Джереми Бентам, выученный на адвоката, но больше стремящийся преобразовать право, чем практиковать его, наконец выпускает книгу, отпечатанную девятью годами раньше: «Введение в основания нравственности и законодательства». Её правило — польза: правильный поступок тот, что приносит наибольшее счастье тем, о чьих интересах идёт речь. В последней главе он спрашивает, чьи это интересы, и его ответ выходит за пределы человечества. Он не запрещает нам есть животных: нам от этого лучше, говорит он, а им никогда не хуже. В примечании — его перепечатал Генри Солт в книге «Права животных» в 1892 году — он говорит, чего нам делать нельзя:",
+        "uk": "Лондон, 1789 рік — рік падіння Бастилії. Джеремі Бентам, вивчений на адвоката, але більш охочий перебудувати право, ніж практикувати його, нарешті видає книжку, надруковану дев’ятьма роками раніше: «Вступ до принципів моралі та законодавства». Її правило — корисність: правильний учинок той, що приносить найбільше щастя тим, про чиї інтереси йдеться. В останньому розділі він питає, чиї це інтереси, і його відповідь виходить за межі людства. Він не забороняє нам їсти тварин: нам від цього краще, каже він, а їм ніколи не гірше. У примітці — її передрукував Генрі Солт у книжці «Права тварин» 1892 року — він каже, чого нам робити не можна:",
+        "pl": "Londyn, rok 1789 — rok upadku Bastylii. Jeremy Bentham, wykształcony na adwokata, ale chętniej reformujący prawo niż je praktykujący, wydaje wreszcie książkę wydrukowaną dziewięć lat wcześniej: Wprowadzenie do zasad moralności i prawodawstwa. Jej regułą jest użyteczność: słuszny czyn to ten, który przynosi największe szczęście tym, o których interes chodzi. W ostatnim rozdziale pyta, czyj to interes, i jego odpowiedź sięga poza ludzkość. Nie zabrania nam jeść zwierząt: nam to wychodzi na dobre, mówi, a im nigdy na gorsze. W przypisie — przedrukował go Henry Salt w książce Prawa zwierząt z 1892 roku — mówi, czego nam robić nie wolno:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Jeremy Bentham, An Introduction to the Principles of Morals and Legislation (1789), ch. XVII, note",
+            "ru": "Джереми Бентам, «Введение в основания нравственности и законодательства» (1789), гл. XVII, примечание",
+            "uk": "Джеремі Бентам, «Вступ до принципів моралі та законодавства» (1789), розд. XVII, примітка",
+            "pl": "Jeremy Bentham, Wprowadzenie do zasad moralności i prawodawstwa (1789), rozdz. XVII, przypis"
+          },
+          "quotes": {
+            "en": {
+              "edition": "bentham-animals.en",
+              "from": "17.4",
+              "to": "17.4",
+              "text": "If the being killed were all, there is very good reason why we should be suffered to kill such as molest us: we should be the worse for their living, and they are never the worse of being dead. But is there any reason why we should be suffered to torment them? Not any that I can see. Are there any why we should not be suffered to torment them? Yes; several.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Animals%27_Rights:_Considered_in_Relation_to_Social_Progress/Bibliographical_Appendix/Introduction_to_the_Principles_of_Morals_and_Legislation",
+                "lang": "en",
+                "title": "Jeremy Bentham, An Introduction to the Principles of Morals and Legislation"
+              }
+            },
+            "ru": {
+              "edition": "bentham-animals.ru.ours",
+              "from": "17.4",
+              "to": "17.4",
+              "text": "Если бы всё дело было в том, что их убивают, есть очень веская причина, почему нам должно быть позволено убивать тех, кто нам досаждает: нам было бы хуже от того, что они живы, а им никогда не бывает хуже от того, что они мертвы. Но есть ли какая-нибудь причина, почему нам должно быть позволено их мучить? Никакой, насколько я вижу. А есть ли причины, почему нам не должно быть позволено их мучить? Да; несколько.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Animals%27_Rights:_Considered_in_Relation_to_Social_Progress/Bibliographical_Appendix/Introduction_to_the_Principles_of_Morals_and_Legislation",
+                "lang": "en",
+                "title": "Иеремия Бентам, «Введение в основания нравственности и законодательства»"
+              }
+            },
+            "uk": {
+              "edition": "bentham-animals.uk.ours",
+              "from": "17.4",
+              "to": "17.4",
+              "text": "Якби вся справа була в тому, що їх убивають, є дуже вагома причина, чому нам має бути дозволено вбивати тих, хто нам докучає: нам було б гірше від того, що вони живі, а їм ніколи не буває гірше від того, що вони мертві. Але чи є бодай якась причина, чому нам має бути дозволено їх мучити? Жодної, наскільки я бачу. А чи є причини, чому нам не має бути дозволено їх мучити? Так; кілька.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Animals%27_Rights:_Considered_in_Relation_to_Social_Progress/Bibliographical_Appendix/Introduction_to_the_Principles_of_Morals_and_Legislation",
+                "lang": "en",
+                "title": "Джеремі Бентам, «Вступ до принципів моралі та законодавства»"
+              }
+            },
+            "pl": {
+              "edition": "bentham-animals.pl.ours",
+              "from": "17.4",
+              "to": "17.4",
+              "text": "Gdyby chodziło tylko o to, że się je zabija, jest bardzo dobry powód, dla którego powinno nam być wolno zabijać te, które nam dokuczają: byłoby nam gorzej z tym, że żyją, a im nigdy nie jest gorzej z tym, że są martwe. Ale czy jest jakikolwiek powód, dla którego powinno nam być wolno je dręczyć? Żadnego, o ile widzę. Czy są powody, dla których nie powinno nam być wolno ich dręczyć? Tak; kilka.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Animals%27_Rights:_Considered_in_Relation_to_Social_Progress/Bibliographical_Appendix/Introduction_to_the_Principles_of_Morals_and_Legislation",
+                "lang": "en",
+                "title": "Jeremy Bentham, Wprowadzenie do zasad moralności i prawodawstwa"
+              }
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "The same note: the insuperable line",
+            "ru": "То же примечание: непреодолимая черта",
+            "uk": "Та сама примітка: непереборна межа",
+            "pl": "Ten sam przypis: nieprzekraczalna granica"
+          },
+          "quotes": {
+            "en": {
+              "edition": "bentham-animals.en",
+              "from": "17.4",
+              "to": "17.4",
+              "text": "The French have already discovered that the blackness of the skin is no reason why a human being should be abandoned, without redress, to the caprice of a tormentor. It may come one day to be recognized that the number of the legs, the villosity of the skin, or the termination of the os sacrum, are reasons equally insufficient for abandoning a sensitive being to the same fate. What else is it should trace the insuperable line? Is it the faculty of reason, or, perhaps, the faculty of discourse? But a full-grown horse or dog is, beyond comparison, a more rational, as well as more conversable animal than an infant of a day, a week, or even a month old. But suppose the case were otherwise, what would it avail? The question is not, Can they reason? nor, Can they talk? but, Can they suffer?",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Animals%27_Rights:_Considered_in_Relation_to_Social_Progress/Bibliographical_Appendix/Introduction_to_the_Principles_of_Morals_and_Legislation",
+                "lang": "en",
+                "title": "Jeremy Bentham, An Introduction to the Principles of Morals and Legislation"
+              }
+            },
+            "ru": {
+              "edition": "bentham-animals.ru.ours",
+              "from": "17.4",
+              "to": "17.4",
+              "text": "Французы уже открыли, что чернота кожи — не причина оставлять человеческое существо без защиты на произвол мучителя. Может настать день, когда признают, что число ног, волосатость кожи или окончание крестца — столь же недостаточные причины, чтобы обрекать чувствующее существо на ту же участь. Что же ещё должно провести непреодолимую черту? Способность ли рассуждать или, быть может, способность к речи? Но взрослая лошадь или собака — животное несравненно более разумное, а также более способное к общению, чем младенец одного дня, недели или даже месяца от роду. Но допустим даже, что это было бы не так, — что бы это дало? Вопрос не в том: могут ли они рассуждать? и не в том: могут ли они говорить? а в том: могут ли они страдать?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Animals%27_Rights:_Considered_in_Relation_to_Social_Progress/Bibliographical_Appendix/Introduction_to_the_Principles_of_Morals_and_Legislation",
+                "lang": "en",
+                "title": "Иеремия Бентам, «Введение в основания нравственности и законодательства»"
+              }
+            },
+            "uk": {
+              "edition": "bentham-animals.uk.ours",
+              "from": "17.4",
+              "to": "17.4",
+              "text": "Французи вже відкрили, що чорнота шкіри — не причина залишати людську істоту без захисту на сваволю мучителя. Може настати день, коли визнають, що число ніг, волохатість шкіри чи закінчення крижової кістки — такі самі недостатні причини, щоб прирікати чутливу істоту на ту саму долю. Що ж іще має провести непереборну межу? Здатність міркувати чи, може, здатність до мови? Але дорослий кінь або собака — тварина незрівнянно розумніша, а також здатніша до спілкування, ніж немовля одного дня, тижня чи навіть місяця від народження. Та припустімо навіть, що було б інакше, — що б це дало? Питання не в тому: чи можуть вони міркувати? і не в тому: чи можуть вони говорити? а в тому: чи можуть вони страждати?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Animals%27_Rights:_Considered_in_Relation_to_Social_Progress/Bibliographical_Appendix/Introduction_to_the_Principles_of_Morals_and_Legislation",
+                "lang": "en",
+                "title": "Джеремі Бентам, «Вступ до принципів моралі та законодавства»"
+              }
+            },
+            "pl": {
+              "edition": "bentham-animals.pl.ours",
+              "from": "17.4",
+              "to": "17.4",
+              "text": "Francuzi już odkryli, że czarność skóry nie jest powodem, by istotę ludzką wydawać bez obrony na kaprys dręczyciela. Może kiedyś zostanie uznane, że liczba nóg, owłosienie skóry czy zakończenie kości krzyżowej są powodami równie niewystarczającymi, by skazywać istotę czującą na ten sam los. Cóż innego miałoby wytyczyć nieprzekraczalną granicę? Czy zdolność rozumowania, a może zdolność mowy? Ale dorosły koń czy pies jest zwierzęciem nieporównanie rozumniejszym, a także bardziej zdolnym do porozumienia niż niemowlę jednodniowe, tygodniowe czy nawet miesięczne. Lecz przypuśćmy nawet, że byłoby inaczej — cóż by to dało? Pytanie nie brzmi: czy potrafią rozumować? ani: czy potrafią mówić? lecz: czy potrafią cierpieć?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Animals%27_Rights:_Considered_in_Relation_to_Social_Progress/Bibliographical_Appendix/Introduction_to_the_Principles_of_Morals_and_Legislation",
+                "lang": "en",
+                "title": "Jeremy Bentham, Wprowadzenie do zasad moralności i prawodawstwa"
+              }
+            }
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Thirty-three years later Britain passed its first law against cruelty to animals, Richard Martin's Act of 1822. It protected horses, mules, asses, cattle and sheep from being wantonly beaten or ill-treated — not yet dogs or cats.",
+            "ru": "Через тридцать три года Британия приняла свой первый закон против жестокости к животным — закон Ричарда Мартина 1822 года. Он защищал от жестоких побоев и дурного обращения лошадей, мулов, ослов, коров, быков и овец — но ещё не собак и кошек.",
+            "uk": "Через тридцять три роки Британія ухвалила свій перший закон проти жорстокості до тварин — закон Річарда Мартіна 1822 року. Він захищав від жорстоких побоїв і поганого поводження коней, мулів, віслюків, корів, волів і овець — але ще не собак і котів.",
+            "pl": "Trzydzieści trzy lata później Wielka Brytania uchwaliła swoje pierwsze prawo przeciw okrucieństwu wobec zwierząt — ustawę Richarda Martina z 1822 roku. Chroniła przed okrutnym biciem i złym traktowaniem konie, muły, osły, bydło i owce — ale jeszcze nie psy i koty."
+          },
+          "source": "An Act to prevent the cruel and improper Treatment of Cattle, 3 Geo. IV c. 71 (1822)"
+        },
+        {
+          "fact": {
+            "en": "Bentham meant the book as no more than the introduction to a plan of a penal code; it was printed in 1780, and he let it lie nine years before he published it.",
+            "ru": "Бентам задумывал эту книгу лишь как введение к проекту уголовного кодекса; она была отпечатана в 1780 году, и он девять лет не выпускал её в свет.",
+            "uk": "Бентам задумував цю книжку лише як вступ до проєкту кримінального кодексу; її надрукували 1780 року, і він дев’ять років не випускав її у світ.",
+            "pl": "Bentham pomyślał tę książkę jedynie jako wstęp do projektu kodeksu karnego; wydrukowano ją w 1780 roku, a on przez dziewięć lat nie wydawał jej w świat."
+          },
+          "source": "Jeremy Bentham, An Introduction to the Principles of Morals and Legislation (1789), Preface"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "The Jains: life thrives on life",
+        "ru": "Джайны: жизнь питается жизнью",
+        "uk": "Джайни: життя живиться життям",
+        "pl": "Dżiniści: życie żywi się życiem"
+      },
+      "intro": {
+        "en": "Northern India, the sixth century BC, by Jain tradition. Mahavira, a prince of Vaishali who left his palace to become an ascetic, teaches that every living thing — an animal, a plant, the tiniest creature — has a soul, and that to harm any of them weighs down one's own soul with karma. Jain monks still sweep the ground before them as they walk, so as not to tread on anything alive. Twenty-four centuries later, in 1916, Jagmanderlal Jaini, a Jain, a barrister and a judge of the High Court of Indore, set out his community's rules in English, in a book published at Cambridge: what a Jain may eat — and why even he cannot live without doing harm:",
+        "ru": "Северная Индия, VI век до н. э., по джайнскому преданию. Махавира, царевич из Вайшали, оставивший дворец ради подвижничества, учит, что у всякого живого существа — у зверя, у растения, у мельчайшей твари — есть душа и что, причиняя вред любому из них, человек отягощает собственную душу кармой. Джайнские монахи и сегодня метут землю перед собой на ходу, чтобы не наступить ни на что живое. Двадцать четыре века спустя, в 1916 году, Джагмандерлал Джайни, джайн, адвокат и судья Высокого суда княжества Индор, изложил по-английски, в книге, изданной в Кембридже, правила своей общины: что джайну можно есть — и почему даже он не может жить, никому не вредя:",
+        "uk": "Північна Індія, VI століття до н. е., за джайнським переказом. Махавіра, царевич із Вайшалі, що покинув палац заради подвижництва, навчає, що кожна жива істота — звір, рослина, найдрібніше створіння — має душу і що, завдаючи шкоди будь-якій із них, людина обтяжує власну душу кармою. Джайнські ченці й сьогодні мітуть землю перед собою на ходу, щоб не наступити ні на що живе. Двадцять чотири століття потому, 1916 року, Джагмандерлал Джайні, джайн, адвокат і суддя Високого суду князівства Індор, виклав англійською, у книжці, виданій у Кембриджі, правила своєї громади: що джайнові можна їсти — і чому навіть він не може жити, нікому не шкодячи:",
+        "pl": "Północne Indie, VI wiek p.n.e., według tradycji dżinijskiej. Mahawira, książę z Wajśali, który porzucił pałac dla życia ascety, naucza, że każda żywa istota — zwierzę, roślina, najmniejsze stworzenie — ma duszę i że krzywdząc którąkolwiek z nich, człowiek obciąża karmą własną duszę. Mnisi dżinijscy po dziś dzień zamiatają przed sobą ziemię, idąc, by nie nadepnąć na nic żywego. Dwadzieścia cztery wieki później, w 1916 roku, Jagmanderlal Jaini, dżinista, adwokat i sędzia Sądu Najwyższego księstwa Indore, wyłożył po angielsku, w książce wydanej w Cambridge, zasady swojej wspólnoty: co dżinista może jeść — i dlaczego nawet on nie może żyć, nikogo nie krzywdząc:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Jagmanderlal Jaini, Outlines of Jainism (1916), ch. III: Ethics",
+            "ru": "Джагмандерлал Джайни, «Очерки джайнизма» (1916), гл. III: этика",
+            "uk": "Джагмандерлал Джайні, «Нариси джайнізму» (1916), розд. III: етика",
+            "pl": "Jagmanderlal Jaini, Zarys dżinizmu (1916), rozdz. III: etyka"
+          },
+          "quotes": {
+            "en": {
+              "edition": "jaini-animals.en",
+              "from": "1.3.19",
+              "to": "1.3.19",
+              "text": "Food which involves the slaughter of living beings, animals, fish, birds, or anything that has five or less sense-organs, must not be taken.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Outlines_of_Jainism",
+                "lang": "en",
+                "title": "Jagmanderlal Jaini, Outlines of Jainism"
+              }
+            },
+            "ru": {
+              "edition": "jaini-animals.ru.ours",
+              "from": "1.3.19",
+              "to": "1.3.19",
+              "text": "Нельзя принимать пищу, ради которой убивают живых существ — животных, рыб, птиц или что бы то ни было, у чего пять органов чувств или меньше.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Outlines_of_Jainism",
+                "lang": "en",
+                "title": "Джагмандерлал Джайни, «Очерки джайнизма»"
+              }
+            },
+            "uk": {
+              "edition": "jaini-animals.uk.ours",
+              "from": "1.3.19",
+              "to": "1.3.19",
+              "text": "Не можна вживати їжі, заради якої вбивають живих істот — тварин, риб, птахів чи будь-що, що має п’ять органів чуття або менше.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Outlines_of_Jainism",
+                "lang": "en",
+                "title": "Джагмандерлал Джайні, «Нариси джайнізму»"
+              }
+            },
+            "pl": {
+              "edition": "jaini-animals.pl.ours",
+              "from": "1.3.19",
+              "to": "1.3.19",
+              "text": "Nie wolno spożywać pokarmu, który wymaga zabijania żywych istot — zwierząt, ryb, ptaków czy czegokolwiek, co ma pięć narządów zmysłów lub mniej.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Outlines_of_Jainism",
+                "lang": "en",
+                "title": "Jagmanderlal Jaini, Zarys dżinizmu"
+              }
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "The same chapter: life thrives on life",
+            "ru": "Та же глава: жизнь питается жизнью",
+            "uk": "Той самий розділ: життя живиться життям",
+            "pl": "Ten sam rozdział: życie żywi się życiem"
+          },
+          "quotes": {
+            "en": {
+              "edition": "jaini-animals.en",
+              "from": "1.3.20",
+              "to": "1.3.20",
+              "text": "One thing must here be made clear. Life thrives on life. The ideal practice of non-injury is possible only to the soul in its perfect condition, i.e. when it has freed itself from the last particle of karmic matter (karma-vargaṇās). On this side of that happy state, do whatever we will, some life must be transformed into our life in order to sustain it. Therefore what is meant and enjoined is simply this: \"Do not destroy life, unless it is absolutely necessary for the maintenance of a higher kind of life.\" The purer souls will, of course, not like to sanction even this. But, as formulated above, the rule does not sanction hurting or injury: it limits it to the lowest possible minimum.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Outlines_of_Jainism",
+                "lang": "en",
+                "title": "Jagmanderlal Jaini, Outlines of Jainism"
+              }
+            },
+            "ru": {
+              "edition": "jaini-animals.ru.ours",
+              "from": "1.3.20",
+              "to": "1.3.20",
+              "text": "Здесь нужно прояснить одно. Жизнь питается жизнью. Идеальное соблюдение непричинения вреда возможно лишь для души в её совершенном состоянии, то есть когда она освободилась от последней частицы кармической материи (karma-vargaṇās). По эту сторону того блаженного состояния, что бы мы ни делали, какая-то жизнь должна превращаться в нашу жизнь, чтобы её поддерживать. Поэтому подразумевается и предписывается просто вот что: «Не уничтожай жизни, если это не совершенно необходимо для поддержания высшего рода жизни». Более чистые души, конечно, не захотят одобрить даже этого. Но в изложенном выше виде правило не одобряет причинения боли или вреда: оно сводит его к наименьшему возможному пределу.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Outlines_of_Jainism",
+                "lang": "en",
+                "title": "Джагмандерлал Джайни, «Очерки джайнизма»"
+              }
+            },
+            "uk": {
+              "edition": "jaini-animals.uk.ours",
+              "from": "1.3.20",
+              "to": "1.3.20",
+              "text": "Тут треба прояснити одне. Життя живиться життям. Ідеальне дотримання незаподіяння шкоди можливе лише для душі в її досконалому стані, тобто коли вона звільнилася від останньої частки кармічної матерії (karma-vargaṇās). По цей бік того блаженного стану, хоч би що ми робили, якесь життя мусить перетворюватися на наше життя, щоб його підтримувати. Тому мається на увазі й приписується просто ось що: «Не нищ життя, якщо це не конче потрібно для підтримання вищого роду життя». Чистіші душі, звісно, не захочуть схвалити навіть цього. Але у викладеному вище вигляді правило не схвалює заподіяння болю чи шкоди: воно зводить його до найменшої можливої міри.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Outlines_of_Jainism",
+                "lang": "en",
+                "title": "Джагмандерлал Джайні, «Нариси джайнізму»"
+              }
+            },
+            "pl": {
+              "edition": "jaini-animals.pl.ours",
+              "from": "1.3.20",
+              "to": "1.3.20",
+              "text": "Jedno trzeba tu wyjaśnić. Życie żywi się życiem. Idealne przestrzeganie niekrzywdzenia jest możliwe tylko dla duszy w jej doskonałym stanie, to jest wtedy, gdy uwolniła się od ostatniej cząstki materii karmicznej (karma-vargaṇās). Po tej stronie owego szczęsnego stanu, cokolwiek byśmy czynili, jakieś życie musi przemieniać się w nasze życie, by je podtrzymać. Dlatego to, co się rozumie i nakazuje, jest po prostu tym: „Nie niszcz życia, chyba że jest to bezwzględnie konieczne do podtrzymania wyższego rodzaju życia”. Czystsze dusze, rzecz jasna, nie zechcą pochwalić nawet tego. Lecz w powyższym ujęciu reguła nie pochwala zadawania bólu ani krzywdy: ogranicza je do najmniejszej możliwej miary.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Outlines_of_Jainism",
+                "lang": "en",
+                "title": "Jagmanderlal Jaini, Zarys dżinizmu"
+              }
+            }
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "A Jain layman who has reached the sixth of the eleven stages of his discipline no longer eats at night: there are minute living beings, Jaini explains, which no light can reveal, and which would be swallowed with a meal after sunset.",
+            "ru": "Джайн-мирянин, дошедший до шестой из одиннадцати ступеней своего пути, больше не ест по ночам: есть мельчайшие живые существа, объясняет Джайни, которых не выявит никакой свет и которые были бы проглочены с едой после заката.",
+            "uk": "Джайн-мирянин, який дійшов до шостого з одинадцяти щаблів свого шляху, більше не їсть уночі: є найдрібніші живі істоти, пояснює Джайні, яких не виявить жодне світло і які були б проковтнуті з їжею після заходу сонця.",
+            "pl": "Świecki dżinista, który doszedł do szóstego z jedenastu stopni swojej drogi, nie je już nocą: są drobniutkie żywe istoty, wyjaśnia Jaini, których żadne światło nie ujawni i które zostałyby połknięte z posiłkiem po zachodzie słońca."
+          },
+          "source": "Jagmanderlal Jaini, Outlines of Jainism (1916), ch. III, Ethics"
+        },
+        {
+          "fact": {
+            "en": "Jain tradition dates Mahavira's death to 527 BC, at Pavapuri, after thirty years of preaching, and says that all who heard his sermons understood them — even the animals and birds.",
+            "ru": "Джайнское предание относит смерть Махавиры к 527 году до н. э., в Павапури, после тридцати лет проповеди, и говорит, что его проповеди понимали все, кто их слышал, — даже звери и птицы.",
+            "uk": "Джайнський переказ відносить смерть Махавіри до 527 року до н. е., у Павапурі, після тридцяти років проповіді, і каже, що його проповіді розуміли всі, хто їх чув, — навіть звірі й птахи.",
+            "pl": "Tradycja dżinijska datuje śmierć Mahawiry na rok 527 p.n.e., w Pawapuri, po trzydziestu latach nauczania, i mówi, że jego kazania rozumieli wszyscy, którzy ich słuchali — nawet zwierzęta i ptaki."
+          },
+          "source": "Jagmanderlal Jaini, Outlines of Jainism (1916), Introduction and History"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Pataliputra, about 257 BC",
+        "ru": "Паталипутра, около 257 года до н. э.",
+        "uk": "Паталіпутра, близько 257 року до н. е.",
+        "pl": "Pataliputra, około 257 p.n.e."
+      },
+      "scene": {
+        "en": "You are Ashoka, king of the Mauryas, twelve years after your consecration, in your capital, Pataliputra. Since the slaughter of Kalinga you have given yourself to the Law of Piety, and among its first rules is respect for living creatures. Now you are having your Law carved on rocks across India. But each day, in your own kitchen, living creatures are slaughtered by the thousand to make curries. At the people's festivals there are animal fights, drinking and feasting on meat; Brahmins offer animals to the gods; your subjects eat meat, and so do you. You have the power to command, and the edict is not yet carved. What do you do?",
+        "ru": "Вы — Ашока, царь из династии Маурьев, двенадцать лет спустя после вашего помазания на царство, в своей столице Паталипутре. После резни в Калинге вы отдали себя Закону благочестия, и одно из первых его правил — уважение к живым существам. Теперь вы велите высекать свой Закон на скалах по всей Индии. Но каждый день на вашей собственной кухне тысячами убивают живых существ, чтобы готовить карри. На народных празднествах — бои животных, пьянство и пиры с мясом; брахманы приносят животных в жертву богам; ваши подданные едят мясо — и вы тоже. У вас есть власть повелевать, а эдикт ещё не высечен. Что вы сделаете?",
+        "uk": "Ви — Ашока, цар із династії Маур’їв, через дванадцять років після вашого помазання на царство, у своїй столиці Паталіпутрі. Після різанини в Калінзі ви віддали себе Законові благочестя, і одне з перших його правил — повага до живих істот. Тепер ви наказуєте висікати свій Закон на скелях по всій Індії. Але щодня на вашій власній кухні тисячами вбивають живих істот, щоб готувати карі. На народних святах — бої тварин, пияцтво й бенкети з м’ясом; брахмани приносять тварин у жертву богам; ваші піддані їдять м’ясо — і ви також. Ви маєте владу наказувати, а едикт ще не висічено. Що ви зробите?",
+        "pl": "Jesteś Aśoką, królem z dynastii Maurjów, dwanaście lat po twoim namaszczeniu na króla, w twojej stolicy, Pataliputrze. Od rzezi w Kalindze oddałeś się Prawu pobożności, a jedną z jego pierwszych zasad jest szacunek dla żywych istot. Teraz każesz wykuwać swoje Prawo na skałach w całych Indiach. Lecz każdego dnia w twojej własnej kuchni zabija się tysiącami żywe stworzenia, by przyrządzać curry. Na ludowych świętach są walki zwierząt, pijaństwo i uczty z mięsem; bramini składają zwierzęta w ofierze bogom; twoi poddani jedzą mięso — i ty także. Masz władzę rozkazywać, a edykt nie jest jeszcze wykuty. Co robisz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Forbid all killing of animals in the empire, at once",
+            "ru": "Запретить всякое убийство животных по всей державе, сразу",
+            "uk": "Заборонити будь-яке вбивство тварин по всій державі, одразу",
+            "pl": "Zakazać od razu wszelkiego zabijania zwierząt w całym imperium"
+          },
+          "reply": {
+            "en": "Ashoka did not: he forbade sacrifice “here”, and only fourteen years later declared a list of creatures exempt from slaughter — never all of them.",
+            "ru": "Ашока этого не сделал: он запретил жертвоприношения «здесь» и лишь четырнадцать лет спустя объявил список существ, которых запрещено убивать, — но никогда не всех.",
+            "uk": "Ашока цього не зробив: він заборонив жертвопринесення «тут» і лише чотирнадцять років потому оголосив список істот, яких заборонено вбивати, — але ніколи не всіх.",
+            "pl": "Aśoka tego nie zrobił: zakazał ofiar „tutaj” i dopiero czternaście lat później ogłosił listę stworzeń, których nie wolno zabijać — nigdy wszystkich."
+          }
+        },
+        {
+          "choice": {
+            "en": "Begin at your own table: cut down the royal kitchen, and promise to end it",
+            "ru": "Начать с собственного стола: сократить царскую кухню и пообещать покончить с этим",
+            "uk": "Почати з власного столу: скоротити царську кухню й пообіцяти покласти цьому край",
+            "pl": "Zacząć od własnego stołu: ograniczyć królewską kuchnię i obiecać z tym skończyć"
+          },
+          "reply": {
+            "en": "Close to what he did: from many thousands a day down to three — two peacocks and an antelope, the antelope not always — and “even those three” were not to be slaughtered in future.",
+            "ru": "Близко к тому, что он сделал: от многих тысяч в день до трёх — двух павлинов и антилопы, причём антилопы не всегда, — а «даже этих трёх» обещано впредь не убивать.",
+            "uk": "Близько до того, що він зробив: від багатьох тисяч на день до трьох — двох павичів і антилопи, причому антилопи не завжди, — а «навіть цих трьох» обіцяно надалі не вбивати.",
+            "pl": "Blisko tego, co zrobił: z wielu tysięcy dziennie do trzech — dwóch pawi i antylopy, antylopy zresztą nie zawsze — a „nawet tych trzech” obiecano w przyszłości nie zabijać."
+          }
+        },
+        {
+          "choice": {
+            "en": "Leave it: what men eat and offer to their gods is their own affair",
+            "ru": "Оставить как есть: что люди едят и что приносят своим богам — их собственное дело",
+            "uk": "Залишити як є: що люди їдять і що приносять своїм богам — їхня власна справа",
+            "pl": "Zostawić to: co ludzie jedzą i co ofiarują swoim bogom, to ich własna sprawa"
+          },
+          "reply": {
+            "en": "He did not leave it: his first edict forbids slaughter for sacrifice “here”, and the merry-makings in which he saw much offence.",
+            "ru": "Он этого так не оставил: его первый эдикт запрещает «здесь» убивать животных в жертву и устраивать празднества, в которых он видел много дурного.",
+            "uk": "Він цього так не залишив: його перший едикт забороняє «тут» убивати тварин у жертву й улаштовувати свята, у яких він бачив багато лихого.",
+            "pl": "Nie zostawił tego: jego pierwszy edykt zakazuje „tutaj” zabijania zwierząt w ofierze i urządzania zabaw, w których widział wiele zła."
+          }
+        },
+        {
+          "choice": {
+            "en": "Do more than stop the killing: give animals care — healing, medicinal herbs, wells",
+            "ru": "Не только прекратить убийство, но и заботиться о животных: лечение, целебные травы, колодцы",
+            "uk": "Не лише припинити вбивство, а й дбати про тварин: лікування, цілющі трави, криниці",
+            "pl": "Nie tylko przestać zabijać, ale i zatroszczyć się o zwierzęta: leczenie, zioła lecznicze, studnie"
+          },
+          "reply": {
+            "en": "He did that too: his second edict tells of healing for men and for beasts, medicinal herbs for both, and wells and trees on the roads for man and beast.",
+            "ru": "Он сделал и это: его второй эдикт говорит о врачевании для людей и для животных, о целебных травах для тех и других, о колодцах и деревьях у дорог для людей и животных.",
+            "uk": "Він зробив і це: його другий едикт говорить про лікування для людей і для тварин, про цілющі трави для тих і для других, про криниці й дерева при дорогах для людей і тварин.",
+            "pl": "To też zrobił: jego drugi edykt mówi o leczeniu dla ludzi i dla zwierząt, o ziołach leczniczych dla jednych i drugich, o studniach i drzewach przy drogach dla ludzi i zwierząt."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "This was Ashoka, the Maurya emperor. The first of his Fourteen Rock Edicts forbids slaughtering animals for sacrifice “here”, and tells his people that the royal kitchen, which once killed living creatures by the hundred thousand to make curries, now kills three a day — two peacocks and an antelope, and the antelope not always — and that these three too will be spared. The second tells of healing for beasts as well as for men. Fourteen years later, in his fifth Pillar Edict, he declared a long list of creatures exempt from slaughter — parrots, geese, bats, tortoises, the rhinoceros, and every four-footed animal neither used nor eaten — forbade setting forests on fire to destroy what lives in them, and decreed that the living must not be fed with the living. He never forbade his subjects to eat meat. And whether the last peacock was ever spared, the edicts do not say.",
+        "ru": "Это был Ашока, император Маурьев. Первый из его Четырнадцати наскальных эдиктов запрещает «здесь» убивать животных в жертву и сообщает подданным, что царская кухня, где прежде сотнями тысяч убивали живых существ для карри, теперь убивает три в день — двух павлинов и антилопу, причём антилопу не всегда, — и что и эти три будут пощажены. Второй говорит о врачевании для животных так же, как для людей. Четырнадцать лет спустя, в пятом колонном эдикте, он объявил длинный список существ, которых запрещено убивать, — попугаев, гусей, летучих мышей, черепах, носорога и всех четвероногих, которых не используют и не едят, — запретил поджигать леса, чтобы губить в них живое, и повелел, чтобы живых не кормили живыми. Он никогда не запрещал подданным есть мясо. А пощадили ли когда-нибудь последнего павлина, эдикты не говорят.",
+        "uk": "Це був Ашока, імператор Маур’їв. Перший із його Чотирнадцяти наскельних едиктів забороняє «тут» убивати тварин у жертву й повідомляє підданим, що царська кухня, де колись сотнями тисяч убивали живих істот для карі, тепер убиває три на день — двох павичів і антилопу, причому антилопу не завжди, — і що й ці три буде помилувано. Другий говорить про лікування для тварин так само, як для людей. Чотирнадцять років потому, у п’ятому колонному едикті, він оголосив довгий список істот, яких заборонено вбивати, — папуг, гусей, кажанів, черепах, носорога і всіх чотириногих, яких не використовують і не їдять, — заборонив підпалювати ліси, щоб губити в них живе, і повелів, щоб живих не годували живими. Він ніколи не забороняв підданим їсти м’ясо. А чи помилували колись останнього павича, едикти не кажуть.",
+        "pl": "To był Aśoka, cesarz z dynastii Maurjów. Pierwszy z jego Czternastu edyktów skalnych zakazuje „tutaj” zabijania zwierząt w ofierze i oznajmia poddanym, że królewska kuchnia, w której niegdyś zabijano setkami tysięcy żywe stworzenia na curry, zabija teraz trzy dziennie — dwa pawie i antylopę, antylopę zresztą nie zawsze — i że także te trzy zostaną oszczędzone. Drugi mówi o leczeniu zwierząt tak samo jak ludzi. Czternaście lat później, w piątym edykcie kolumnowym, ogłosił długą listę stworzeń, których nie wolno zabijać — papug, gęsi, nietoperzy, żółwi, nosorożca i wszystkich czworonogów, których się nie używa ani nie je — zakazał podpalania lasów, by niszczyć to, co w nich żyje, i postanowił, że żywych nie wolno karmić żywymi. Nigdy nie zakazał poddanym jeść mięsa. A czy ostatni paw został kiedykolwiek oszczędzony, edykty nie mówią."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Ashoka, Rock Edict I: the sacredness of life",
+            "ru": "Ашока, наскальный эдикт I: святость жизни",
+            "uk": "Ашока, наскельний едикт I: святість життя",
+            "pl": "Aśoka, edykt skalny I: świętość życia"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ashoka-animals.en.smith",
+              "from": "1.2",
+              "to": "1.2",
+              "text": "Formerly, in the kitchen of His Sacred and Gracious Majesty the King each day many hundred thousands of living creatures were slaughtered to make curries. But now, when this scripture of the Law is being written, only three living creatures are slaughtered for curry [daily], to wit, two peacocks and one antelope—the antelope, however, not invariably. Even those three living creatures shall not be slaughtered in future.",
+              "kind": "Free",
+              "translator": "Vincent A. Smith",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Ashoka, The Rock Edicts"
+              }
+            },
+            "ru": {
+              "edition": "ashoka-animals.ru.ours",
+              "from": "1.2",
+              "to": "1.2",
+              "text": "Прежде на кухне Его Священного и Милостивого Величества Царя каждый день убивали многие сотни тысяч живых существ, чтобы готовить карри. Но теперь, когда пишется это писание Закона, для карри убивают [ежедневно] лишь три живых существа, а именно двух павлинов и одну антилопу, — впрочем, антилопу не всегда. И даже этих трёх живых существ впредь убивать не будут.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Ашока, «Наскальные эдикты»"
+              }
+            },
+            "uk": {
+              "edition": "ashoka-animals.uk.ours",
+              "from": "1.2",
+              "to": "1.2",
+              "text": "Колись на кухні Його Священної і Милостивої Величності Царя щодня вбивали багато сотень тисяч живих істот, щоб готувати карі. Але тепер, коли пишеться це писання Закону, для карі вбивають [щодня] лише три живі істоти, а саме двох павичів і одну антилопу, — втім, антилопу не завжди. І навіть цих трьох живих істот надалі вбивати не будуть.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Ашока, «Наскельні едикти»"
+              }
+            },
+            "pl": {
+              "edition": "ashoka-animals.pl.ours",
+              "from": "1.2",
+              "to": "1.2",
+              "text": "Dawniej w kuchni Jego Świętej i Łaskawej Mości Króla każdego dnia zabijano wiele setek tysięcy żywych stworzeń, by przyrządzać curry. Lecz teraz, gdy spisywane jest to pismo Prawa, na curry zabija się [dziennie] tylko trzy żywe stworzenia, mianowicie dwa pawie i jedną antylopę — antylopę zresztą nie zawsze. Nawet tych trzech żywych stworzeń nie będzie się zabijać w przyszłości.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Aśoka, Edykty skalne"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Prakrit",
+              "ru": "оригинал на пракрите",
+              "uk": "оригінал пракритом",
+              "pl": "oryginał w prakrycie"
+            },
+            "url": "https://archive.org/details/InscriptionsOfAsoka.NewEditionByE.Hultzsch"
+          }
+        },
+        {
+          "by": {
+            "en": "Rock Edict II: comforts for men and animals",
+            "ru": "Наскальный эдикт II: блага для людей и животных",
+            "uk": "Наскельний едикт II: блага для людей і тварин",
+            "pl": "Edykt skalny II: dobrodziejstwa dla ludzi i zwierząt"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ashoka-animals.en.smith",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "On the roads, too, wells have been dug and trees planted for the enjoyment of man and beast.",
+              "kind": "Free",
+              "translator": "Vincent A. Smith",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Ashoka, The Rock Edicts"
+              }
+            },
+            "ru": {
+              "edition": "ashoka-animals.ru.ours",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "И на дорогах вырыты колодцы и посажены деревья на радость людям и животным.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Ашока, «Наскальные эдикты»"
+              }
+            },
+            "uk": {
+              "edition": "ashoka-animals.uk.ours",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "І на дорогах викопано криниці й посаджено дерева на втіху людям і тваринам.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Ашока, «Наскельні едикти»"
+              }
+            },
+            "pl": {
+              "edition": "ashoka-animals.pl.ours",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "Także przy drogach wykopano studnie i posadzono drzewa ku uciesze ludzi i zwierząt.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Aśoka, Edykty skalne"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Prakrit",
+              "ru": "оригинал на пракрите",
+              "uk": "оригінал пракритом",
+              "pl": "oryginał w prakrycie"
+            },
+            "url": "https://archive.org/details/InscriptionsOfAsoka.NewEditionByE.Hultzsch"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The text Smith translates says “many hundred thousands”; the copy at Kalsi says simply “thousands”. Smith compares King Rantideva of the Mahabharata, who had two thousand cattle and two thousand cows slain daily in his kitchen to give meat to his people — and won incomparable fame by it.",
+            "ru": "В тексте, который переводит Смит, — «многие сотни тысяч»; копия в Калси говорит просто «тысячи». Смит сравнивает это с царём Рантидевой из «Махабхараты», на кухне которого ежедневно забивали две тысячи быков и две тысячи коров, чтобы раздавать мясо народу, — и это принесло ему несравненную славу.",
+            "uk": "У тексті, який перекладає Сміт, — «багато сотень тисяч»; копія в Калсі каже просто «тисячі». Сміт порівнює це з царем Рантідевою з «Магабгарати», на кухні якого щодня забивали дві тисячі биків і дві тисячі корів, щоб роздавати м’ясо народові, — і це принесло йому незрівнянну славу.",
+            "pl": "W tekście, który przekłada Smith, stoi „wiele setek tysięcy”; kopia w Kalsi mówi po prostu „tysiące”. Smith porównuje to z królem Rantidewą z Mahabharaty, w którego kuchni codziennie zabijano dwa tysiące wołów i dwa tysiące krów, by rozdawać mięso ludowi — co przyniosło mu niezrównaną sławę."
+          },
+          "source": "Vincent A. Smith, Asoka, the Buddhist Emperor of India, 3rd ed. (1920), ch. 4, comment on Rock Edict I"
+        },
+        {
+          "fact": {
+            "en": "The “merry-makings” (samaja) were of two kinds, Smith explains: popular festivals with animal fights, heavy drinking and much eating of meat, which Ashoka condemned, and semi-religious theatrical shows, which he approved.",
+            "ru": "«Празднества» (самаджа) были двух родов, объясняет Смит: народные гулянья с боями животных, обильной выпивкой и поеданием мяса, которые Ашока осуждал, и полурелигиозные театральные представления, которые он одобрял.",
+            "uk": "«Свята» (самаджа) були двох родів, пояснює Сміт: народні гуляння з боями тварин, рясною випивкою і споживанням м’яса, які Ашока засуджував, і напіврелігійні театральні вистави, які він схвалював.",
+            "pl": "„Zabawy” (samadża) były dwojakie, wyjaśnia Smith: ludowe święta z walkami zwierząt, obfitym piciem i jedzeniem mięsa, które Aśoka potępiał, oraz na wpół religijne przedstawienia teatralne, które pochwalał."
+          },
+          "source": "Vincent A. Smith, Asoka, the Buddhist Emperor of India, 3rd ed. (1920), ch. 4, comment on Rock Edict I"
+        },
+        {
+          "fact": {
+            "en": "The list of creatures exempt from slaughter, the ban on burning forests and the rule that “the living must not be fed with the living” are in the fifth Pillar Edict, issued when Ashoka had been consecrated twenty-six years.",
+            "ru": "Список существ, которых запрещено убивать, запрет поджигать леса и правило «живых не кормить живыми» стоят в пятом колонном эдикте, изданном, когда со дня помазания Ашоки прошло двадцать шесть лет.",
+            "uk": "Список істот, яких заборонено вбивати, заборона підпалювати ліси і правило «живих не годувати живими» містяться в п’ятому колонному едикті, виданому, коли від дня помазання Ашоки минуло двадцять шість років.",
+            "pl": "Lista stworzeń, których nie wolno zabijać, zakaz podpalania lasów i zasada „żywych nie karmić żywymi” znajdują się w piątym edykcie kolumnowym, wydanym, gdy od namaszczenia Aśoki minęło dwadzieścia sześć lat."
+          },
+          "source": "Vincent A. Smith, Asoka, the Buddhist Emperor of India, 3rd ed. (1920), ch. 5, Pillar Edict V"
+        }
+      ]
+    },
+    {
+      "think": "animals",
+      "question": {
+        "en": "Think of the animals in your own life — a dog or a cat at home, the meat, milk or eggs on your table, a mouse in a laboratory, a wasp at the window. What, if anything, do you owe each of them, and why? Is it the same for all of them — and where, if anywhere, does it stop?",
+        "ru": "Подумайте о животных в вашей собственной жизни — о собаке или кошке дома, о мясе, молоке или яйцах на вашем столе, о мыши в лаборатории, об осе на окне. Что вы должны каждому из них, если должны вообще, и почему? Одно ли и то же всем — и где, если где-то, это кончается?",
+        "uk": "Подумайте про тварин у вашому власному житті — про собаку чи кота вдома, про м’ясо, молоко чи яйця на вашому столі, про мишу в лабораторії, про осу на вікні. Що ви винні кожному з них, якщо взагалі винні, і чому? Чи те саме всім — і де, якщо десь, цьому край?",
+        "pl": "Pomyśl o zwierzętach w twoim własnym życiu — o psie czy kocie w domu, o mięsie, mleku czy jajkach na twoim stole, o myszy w laboratorium, o osie w oknie. Co, jeśli w ogóle coś, jesteś winien każdemu z nich, i dlaczego? Czy to samo wszystkim — i gdzie, jeśli gdziekolwiek, to się kończy?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: what do we owe to animals?",
+        "ru": "А теперь: что мы должны животным?",
+        "uk": "А тепер: що ми винні тваринам?",
+        "pl": "A teraz: co jesteśmy winni zwierzętom?"
+      }
+    }
+  ]
+}
