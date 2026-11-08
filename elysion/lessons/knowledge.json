@@ -1,0 +1,960 @@
+{
+  "id": "knowledge",
+  "title": {
+    "en": "Can we know anything for certain?",
+    "ru": "Можем ли мы что-нибудь знать наверняка?",
+    "uk": "Чи можемо ми щось знати напевно?",
+    "pl": "Czy możemy cokolwiek wiedzieć na pewno?"
+  },
+  "subtitle": {
+    "en": "Socrates, Zhuangzi, al-Ghazali, Montaigne and Descartes — and you",
+    "ru": "Сократ, Чжуан-цзы, аль-Газали, Монтень и Декарт — и вы",
+    "uk": "Сократ, Чжуан-цзи, аль-Газалі, Монтень і Декарт — і ви",
+    "pl": "Sokrates, Zhuangzi, al-Ghazali, Montaigne i Kartezjusz — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: can we know anything for certain?",
+        "ru": "Прежде чем читать кого-либо: можем ли мы что-нибудь знать наверняка?",
+        "uk": "Перш ніж читати когось: чи можемо ми щось знати напевно?",
+        "pl": "Zanim kogokolwiek przeczytasz: czy możemy cokolwiek wiedzieć na pewno?"
+      },
+      "options": [
+        {
+          "en": "Yes: some things cannot be doubted, however hard one tries.",
+          "ru": "Да: есть вещи, в которых невозможно усомниться, как ни старайся.",
+          "uk": "Так: є речі, у яких неможливо засумніватися, хоч як старайся.",
+          "pl": "Tak: niektórych rzeczy nie da się podać w wątpliwość, choćby nie wiem jak się starać."
+        },
+        {
+          "en": "Yes: what science has proved, we know.",
+          "ru": "Да: то, что доказала наука, мы знаем.",
+          "uk": "Так: те, що довела наука, ми знаємо.",
+          "pl": "Tak: to, co udowodniła nauka, wiemy."
+        },
+        {
+          "en": "No: any belief could turn out to be wrong.",
+          "ru": "Нет: любое убеждение может оказаться ошибочным.",
+          "uk": "Ні: будь-яке переконання може виявитися хибним.",
+          "pl": "Nie: każde przekonanie może okazać się błędne."
+        },
+        {
+          "en": "Only one thing: that I know nothing.",
+          "ru": "Только одно: что я ничего не знаю.",
+          "uk": "Лише одне: що я нічого не знаю.",
+          "pl": "Tylko jedno: że nic nie wiem."
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Delphi, 5th century BC",
+        "ru": "Дельфы, V век до н. э.",
+        "uk": "Дельфи, V століття до н. е.",
+        "pl": "Delfy, V wiek p.n.e."
+      },
+      "scene": {
+        "en": "Athens, the 5th century BC. Your old friend Chaerephon, impetuous as ever, is back from Delphi: he asked Apollo's oracle whether anyone is wiser than you, and the priestess answered — no one. You know you have no wisdom, small or great. And yet a god does not lie. What do you do?",
+        "ru": "Афины, V век до н. э. Ваш старый друг Херефонт, порывистый, как всегда, вернулся из Дельф: он спросил у оракула Аполлона, есть ли кто-нибудь мудрее вас, и жрица ответила — никого. Вы знаете, что у вас нет мудрости ни большой, ни малой. И всё же бог не лжёт. Что вы сделаете?",
+        "uk": "Афіни, V століття до н. е. Ваш давній друг Херефонт, палкий, як завжди, повернувся з Дельфів: він спитав оракула Аполлона, чи є хтось мудріший за вас, і жриця відповіла — нікого. Ви знаєте, що не маєте мудрості ні великої, ні малої. І все ж бог не бреше. Що ви зробите?",
+        "pl": "Ateny, V wiek p.n.e. Twój stary przyjaciel Chajrefon, porywczy jak zawsze, wrócił z Delf: zapytał wyrocznię Apollina, czy jest ktoś mądrzejszy od ciebie, a kapłanka odpowiedziała — nikt. Wiesz, że nie masz mądrości ani wielkiej, ani małej. A przecież bóg nie kłamie. Co zrobisz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Believe it: if the god says I am wise, I am.",
+            "ru": "Поверить: раз бог говорит, что я мудр, значит, так и есть.",
+            "uk": "Повірити: якщо бог каже, що я мудрий, то так і є.",
+            "pl": "Uwierzyć: skoro bóg mówi, że jestem mądry, to jestem."
+          },
+          "reply": {
+            "en": "Then you would count yourself wise without knowing in what — the very fault Socrates went on to find in others.",
+            "ru": "Тогда вы сочли бы себя мудрым, не зная, в чём, — тот самый изъян, который Сократ потом находил в других.",
+            "uk": "Тоді ви вважали б себе мудрим, не знаючи, у чому, — та сама вада, яку Сократ потім знаходив в інших.",
+            "pl": "Wtedy uznałbyś się za mądrego, nie wiedząc, w czym — a to właśnie ta wada, którą Sokrates potem znajdował u innych."
+          }
+        },
+        {
+          "choice": {
+            "en": "Shrug it off: oracles speak in riddles.",
+            "ru": "Отмахнуться: оракулы говорят загадками.",
+            "uk": "Відмахнутися: оракули говорять загадками.",
+            "pl": "Machnąć ręką: wyrocznie mówią zagadkami."
+          },
+          "reply": {
+            "en": "Socrates could not: “he is a god, and cannot lie” — the riddle had to mean something.",
+            "ru": "Сократ так не смог: «он ведь бог и не может лгать» — загадка должна была что-то значить.",
+            "uk": "Сократ так не зміг: «він бог і не може брехати» — загадка мусила щось означати.",
+            "pl": "Sokrates nie potrafił: „jest przecież bogiem i nie może kłamać” — zagadka musiała coś znaczyć."
+          }
+        },
+        {
+          "choice": {
+            "en": "Test it: find one person wiser than you, and bring the god a refutation.",
+            "ru": "Проверить: найти хоть одного человека мудрее себя и прийти к богу с опровержением.",
+            "uk": "Перевірити: знайти хоч одну людину, мудрішу за себе, і прийти до бога зі спростуванням.",
+            "pl": "Sprawdzić: znaleźć choć jednego człowieka mądrzejszego od siebie i przyjść do boga z odparciem w ręku."
+          },
+          "reply": {
+            "en": "That is exactly what Socrates set out to do.",
+            "ru": "Именно это Сократ и решил сделать.",
+            "uk": "Саме це Сократ і вирішив зробити.",
+            "pl": "Właśnie to postanowił zrobić Sokrates."
+          }
+        },
+        {
+          "choice": {
+            "en": "Withdraw and study until you really are wise.",
+            "ru": "Уединиться и учиться, пока и вправду не станешь мудрым.",
+            "uk": "Усамітнитися й учитися, доки справді не станеш мудрим.",
+            "pl": "Odosobnić się i uczyć, aż naprawdę zdobędę mądrość."
+          },
+          "reply": {
+            "en": "An honest aim — but it leaves the riddle unread, and no one questions those who think they know.",
+            "ru": "Честная цель — но загадка осталась бы неразгаданной, а тех, кто думает, что знает, никто бы так и не расспросил.",
+            "uk": "Чесна мета — але загадка лишилася б нерозгаданою, а тих, хто думає, що знає, ніхто б так і не розпитав.",
+            "pl": "Uczciwy cel — ale zagadka zostałaby nieodczytana, a tych, którzy myślą, że wiedzą, nikt by nie przepytał."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "Socrates went to test the oracle: first a politician famous for his wisdom, then the poets, then the craftsmen. The craftsmen at least knew their crafts; but all of them believed they also knew the greatest things, which they did not. Socrates concluded that the god meant this: the wisest of men is he who, like Socrates, knows that his wisdom is in truth worth nothing. The questioning made him dangerous enemies; in 399 BC Athens tried him for impiety and for corrupting the young, and condemned him to death.",
+        "ru": "Сократ пошёл проверять оракула: сначала к политику, славившемуся мудростью, потом к поэтам, потом к ремесленникам. Ремесленники хотя бы знали своё ремесло; но все они считали, что знают и самое важное, чего они не знали. Сократ заключил, что бог имел в виду вот что: мудрейший из людей тот, кто, подобно Сократу, знает, что его мудрость поистине ничего не стоит. Эти расспросы нажили ему опасных врагов; в 399 году до н. э. Афины судили его за нечестие и развращение юношества и приговорили к смерти.",
+        "uk": "Сократ пішов перевіряти оракула: спершу до політика, що славився мудрістю, потім до поетів, потім до ремісників. Ремісники бодай знали своє ремесло; але всі вони вважали, що знають і найважливіше, чого вони не знали. Сократ дійшов висновку, що бог мав на увазі ось що: наймудріший із людей той, хто, як Сократ, знає, що його мудрість насправді нічого не варта. Ці розпитування нажили йому небезпечних ворогів; 399 року до н. е. Афіни судили його за нечестя й розбещення молоді та засудили до смерті.",
+        "pl": "Sokrates poszedł sprawdzić wyrocznię: najpierw do polityka słynącego z mądrości, potem do poetów, potem do rzemieślników. Rzemieślnicy przynajmniej znali swój fach; ale wszyscy sądzili, że znają się też na rzeczach najważniejszych, a tak nie było. Sokrates wywnioskował, że bóg miał na myśli to: najmądrzejszy z ludzi jest ten, kto jak Sokrates wie, że jego mądrość w istocie nic nie jest warta. Te rozmowy przysporzyły mu groźnych wrogów; w 399 roku p.n.e. Ateny osądziły go za bezbożność i psucie młodzieży i skazały na śmierć."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Socrates, in Plato's Apology (20e–21a)",
+            "ru": "Сократ в «Апологии Сократа» Платона (20e–21a)",
+            "uk": "Сократ в «Апології Сократа» Платона (20e–21a)",
+            "pl": "Sokrates w Obronie Sokratesa Platona (20e–21a)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "apology-knowledge.en.jowett",
+              "from": "20",
+              "to": "21",
+              "text": "Well, Chaerephon, as you know, was very impetuous in all his doings, and he went to Delphi and boldly asked the oracle to tell him whether—as I was saying, I must beg you not to interrupt—he asked the oracle to tell him whether any one was wiser than I was, and the Pythian prophetess answered, that there was no man wiser.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Apology_(Jowett)",
+                "lang": "en",
+                "title": "Plato, Apology"
+              }
+            },
+            "ru": {
+              "edition": "apology-knowledge.ru.ours",
+              "from": "20",
+              "to": "21",
+              "text": "Так вот, Херефонт, как вы знаете, был очень порывист во всех своих делах; он отправился в Дельфы и дерзнул попросить оракула сказать ему — как я уже говорил, прошу вас не перебивать, — он попросил оракула сказать, есть ли кто-нибудь мудрее меня, и Пифия ответила, что никого мудрее нет.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Apology_(Jowett)",
+                "lang": "en",
+                "title": "Платон, «Апология Сократа»"
+              }
+            },
+            "uk": {
+              "edition": "apology-knowledge.uk.ours",
+              "from": "20",
+              "to": "21",
+              "text": "Так от, Херефонт, як ви знаєте, був дуже палкий у всіх своїх справах; він вирушив до Дельфів і зважився попросити оракула сказати йому — як я вже казав, прошу вас не перебивати, — він попросив оракула сказати, чи є хтось мудріший за мене, і Піфія відповіла, що мудрішого немає нікого.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Apology_(Jowett)",
+                "lang": "en",
+                "title": "Платон, «Апологія Сократа»"
+              }
+            },
+            "pl": {
+              "edition": "apology-knowledge.pl.ours",
+              "from": "20",
+              "to": "21",
+              "text": "Otóż Chajrefon, jak wiecie, był bardzo porywczy we wszystkim, co robił; udał się do Delf i odważył się poprosić wyrocznię, by mu powiedziała — jak już mówiłem, proszę, nie przerywajcie mi — poprosił wyrocznię, by mu powiedziała, czy jest ktoś mądrzejszy ode mnie, a Pytia odpowiedziała, że nikt nie jest mądrzejszy.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Apology_(Jowett)",
+                "lang": "en",
+                "title": "Platon, Obrona Sokratesa"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0169:text=Apol.:section=21a"
+          }
+        },
+        {
+          "by": {
+            "en": "Socrates, in Plato's Apology (21d): after the politician",
+            "ru": "Сократ в «Апологии Сократа» Платона (21d): после разговора с политиком",
+            "uk": "Сократ в «Апології Сократа» Платона (21d): після розмови з політиком",
+            "pl": "Sokrates w Obronie Sokratesa Platona (21d): po rozmowie z politykiem"
+          },
+          "quotes": {
+            "en": {
+              "edition": "apology-knowledge.en.jowett",
+              "from": "21",
+              "to": "21",
+              "text": "So I left him, saying to myself, as I went away: Well, although I do not suppose that either of us knows anything really beautiful and good, I am better off than he is,—for he knows nothing, and thinks that he knows; I neither know nor think that I know. In this latter particular, then, I seem to have slightly the advantage of him.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Apology_(Jowett)",
+                "lang": "en",
+                "title": "Plato, Apology"
+              }
+            },
+            "ru": {
+              "edition": "apology-knowledge.ru.ours",
+              "from": "21",
+              "to": "21",
+              "text": "И я ушёл от него, говоря себе на ходу: что ж, хотя я и не полагаю, что кто-либо из нас двоих знает что-нибудь поистине прекрасное и доброе, мне лучше, чем ему, — ведь он ничего не знает и думает, что знает; я же не знаю и не думаю, что знаю. Так что в этом последнем я, по-видимому, немного его превосхожу.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Apology_(Jowett)",
+                "lang": "en",
+                "title": "Платон, «Апология Сократа»"
+              }
+            },
+            "uk": {
+              "edition": "apology-knowledge.uk.ours",
+              "from": "21",
+              "to": "21",
+              "text": "І я пішов від нього, кажучи собі дорогою: що ж, хоча я й не гадаю, що хтось із нас двох знає щось справді прекрасне й добре, мені краще, ніж йому, — бо він нічого не знає і думає, що знає; я ж не знаю і не думаю, що знаю. Тож у цьому останньому я, здається, трохи його переважаю.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Apology_(Jowett)",
+                "lang": "en",
+                "title": "Платон, «Апологія Сократа»"
+              }
+            },
+            "pl": {
+              "edition": "apology-knowledge.pl.ours",
+              "from": "21",
+              "to": "21",
+              "text": "Odszedłem więc od niego, mówiąc sobie po drodze: cóż, choć nie sądzę, by którykolwiek z nas wiedział coś naprawdę pięknego i dobrego, mnie jest lepiej niż jemu — on bowiem nic nie wie, a myśli, że wie; ja zaś ani nie wiem, ani nie myślę, że wiem. W tym ostatnim więc zdaję się mieć nad nim niewielką przewagę.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Apology_(Jowett)",
+                "lang": "en",
+                "title": "Platon, Obrona Sokratesa"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0169:text=Apol.:section=21d"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Twenty-four years before the trial, Aristophanes' comedy The Clouds (423 BC) already laughed at Socrates and Chaerephon as the pale, barefoot masters of a “thinkery”.",
+            "ru": "За двадцать четыре года до суда комедия Аристофана «Облака» (423 год до н. э.) уже высмеивала Сократа и Херефонта — бледных, босоногих хозяев «мыслильни».",
+            "uk": "За двадцять чотири роки до суду комедія Арістофана «Хмари» (423 рік до н. е.) вже висміювала Сократа й Херефонта — блідих, босоногих господарів «мислильні».",
+            "pl": "Dwadzieścia cztery lata przed procesem komedia Arystofanesa Chmury (423 p.n.e.) wyśmiewała już Sokratesa i Chajrefonta — bladych, bosych właścicieli „myślarni”."
+          },
+          "source": "Aristophanes, Clouds 94–104"
+        },
+        {
+          "fact": {
+            "en": "Xenophon, another of Socrates' pupils, reports the oracle differently: Apollo answered that no man was more free, more just or more self-controlled than Socrates.",
+            "ru": "Ксенофонт, другой ученик Сократа, передаёт ответ оракула иначе: Аполлон сказал, что нет человека более свободного, более справедливого и более рассудительного, чем Сократ.",
+            "uk": "Ксенофонт, інший учень Сократа, переказує відповідь оракула інакше: Аполлон сказав, що немає людини вільнішої, справедливішої й розважливішої за Сократа.",
+            "pl": "Ksenofont, inny uczeń Sokratesa, przekazuje odpowiedź wyroczni inaczej: Apollo odrzekł, że nie ma człowieka bardziej wolnego, sprawiedliwszego ani bardziej umiarkowanego niż Sokrates."
+          },
+          "source": "Xenophon, Apology of Socrates 14"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Zhuangzi: the butterfly dream",
+        "ru": "Чжуан-цзы: сон о бабочке",
+        "uk": "Чжуан-цзи: сон про метелика",
+        "pl": "Zhuangzi: sen o motylu"
+      },
+      "intro": {
+        "en": "China, the 4th century BC, the age of the Warring States. In Zhuangzi's book a pupil asks the sage Wang Ni whether anything can be known. The sage answers with a question — and Zhuangzi then tells a dream of his own:",
+        "ru": "Китай, IV век до н. э., эпоха Сражающихся царств. В книге Чжуан-цзы ученик спрашивает мудреца Ван Ни, можно ли хоть что-нибудь знать. Мудрец отвечает вопросом — а потом Чжуан-цзы рассказывает собственный сон:",
+        "uk": "Китай, IV століття до н. е., доба Царств, що воюють. У книзі Чжуан-цзи учень питає мудреця Ван Ні, чи можна хоч щось знати. Мудрець відповідає питанням — а потім Чжуан-цзи розповідає власний сон:",
+        "pl": "Chiny, IV wiek p.n.e., epoka Walczących Królestw. W księdze Zhuangzi uczeń pyta mędrca Wang Ni, czy cokolwiek można wiedzieć. Mędrzec odpowiada pytaniem — a potem Zhuangzi opowiada własny sen:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Zhuangzi, chapter 2: the sage Wang Ni to his pupil Nie Que",
+            "ru": "Чжуан-цзы, глава 2: мудрец Ван Ни — своему ученику Не Цюэ",
+            "uk": "Чжуан-цзи, розділ 2: мудрець Ван Ні — своєму учневі Не Цюе",
+            "pl": "Zhuangzi, rozdział 2: mędrzec Wang Ni do swego ucznia Nie Que"
+          },
+          "quotes": {
+            "en": {
+              "edition": "zhuangzi-knowledge.en.giles",
+              "from": "2",
+              "to": "2",
+              "text": "How can it be known that what I call knowing is not really not knowing, and that what I call not knowing is not really knowing?",
+              "kind": "Free",
+              "translator": "Herbert A. Giles",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "Zhuangzi"
+              }
+            },
+            "ru": {
+              "edition": "zhuangzi-knowledge.ru.ours",
+              "from": "2",
+              "to": "2",
+              "text": "Откуда знать, что то, что я называю знанием, на самом деле не незнание, а то, что я называю незнанием, на самом деле не знание?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "«Чжуан-цзы»"
+              }
+            },
+            "uk": {
+              "edition": "zhuangzi-knowledge.uk.ours",
+              "from": "2",
+              "to": "2",
+              "text": "Звідки знати, що те, що я називаю знанням, насправді не є незнанням, а те, що я називаю незнанням, насправді не є знанням?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "«Чжуан-цзи»"
+              }
+            },
+            "pl": {
+              "edition": "zhuangzi-knowledge.pl.ours",
+              "from": "2",
+              "to": "2",
+              "text": "Skąd można wiedzieć, że to, co nazywam wiedzą, nie jest naprawdę niewiedzą, a to, co nazywam niewiedzą, nie jest naprawdę wiedzą?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "Zhuangzi"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/莊子/齊物論"
+          }
+        },
+        {
+          "by": {
+            "en": "Zhuangzi, chapter 2: the butterfly",
+            "ru": "Чжуан-цзы, глава 2: бабочка",
+            "uk": "Чжуан-цзи, розділ 2: метелик",
+            "pl": "Zhuangzi, rozdział 2: motyl"
+          },
+          "quotes": {
+            "en": {
+              "edition": "zhuangzi-knowledge.en.giles",
+              "from": "2",
+              "to": "2",
+              "text": "Once upon a time, I, Chuang Tzŭ, dreamt I was a butterfly, fluttering hither and thither, to all intents and purposes a butterfly. I was conscious only of following my fancies as a butterfly, and was unconscious of my individuality as a man. Suddenly, I awaked, and there I lay, myself again. Now I do not know whether I was then a man dreaming I was a butterfly, or whether I am now a butterfly dreaming I am a man.",
+              "kind": "Free",
+              "translator": "Herbert A. Giles",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "Zhuangzi"
+              }
+            },
+            "ru": {
+              "edition": "zhuangzi-knowledge.ru.ours",
+              "from": "2",
+              "to": "2",
+              "text": "Однажды я, Чжуан-цзы, видел во сне, что я бабочка, порхающая туда и сюда, — во всех отношениях бабочка. Я сознавал лишь, что следую своим прихотям как бабочка, и не сознавал себя человеком. Вдруг я проснулся — и вот лежу, снова я сам. И теперь я не знаю, был ли я тогда человеком, которому снилось, что он бабочка, или я теперь бабочка, которой снится, что она человек.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "«Чжуан-цзы»"
+              }
+            },
+            "uk": {
+              "edition": "zhuangzi-knowledge.uk.ours",
+              "from": "2",
+              "to": "2",
+              "text": "Колись я, Чжуан-цзи, бачив уві сні, що я метелик, який пурхає туди й сюди, — метелик у всьому. Я усвідомлював лише, що йду за своїми забаганками як метелик, і не усвідомлював себе людиною. Раптом я прокинувся — і ось лежу, знову я сам. І тепер я не знаю, чи був я тоді людиною, якій снилося, що вона метелик, чи я тепер метелик, якому сниться, що він людина.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "«Чжуан-цзи»"
+              }
+            },
+            "pl": {
+              "edition": "zhuangzi-knowledge.pl.ours",
+              "from": "2",
+              "to": "2",
+              "text": "Pewnego razu ja, Zhuangzi, śniłem, że jestem motylem, trzepoczącym to tu, to tam — pod każdym względem motylem. Byłem świadom tylko tego, że jako motyl idę za swoimi zachciankami, i nie byłem świadom siebie jako człowieka. Nagle się obudziłem — i oto leżałem, znów sobą. Teraz nie wiem, czy byłem wtedy człowiekiem, któremu śniło się, że jest motylem, czy też jestem teraz motylem, któremu śni się, że jest człowiekiem.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "Zhuangzi"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/莊子/齊物論"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "When King Wei of Chu sent envoys with gifts to make him chief minister, Zhuangzi laughed: an ox fattened for the sacrifice is dressed in embroidery only to be led into the temple — he would rather play in a muddy ditch.",
+            "ru": "Когда чуский царь Вэй прислал гонцов с дарами, чтобы сделать его первым министром, Чжуан-цзы рассмеялся: быка, откормленного для жертвы, наряжают в узорные ткани лишь затем, чтобы ввести в храм, — а он предпочтёт резвиться в грязной канаве.",
+            "uk": "Коли чуський цар Вей прислав посланців із дарами, щоб зробити його першим міністром, Чжуан-цзи засміявся: бика, відгодованого для жертви, вбирають у візерунчасті тканини лише для того, щоб увести до храму, — а він волітиме бавитися в брудній канаві.",
+            "pl": "Gdy król Wei z państwa Chu przysłał posłów z darami, by uczynić go pierwszym ministrem, Zhuangzi się roześmiał: wołu tuczonego na ofiarę stroi się w haftowane szaty tylko po to, by go wprowadzić do świątyni — on wolał bawić się w błotnistym rowie."
+          },
+          "source": "Sima Qian, Records of the Grand Historian (Shiji) 63"
+        },
+        {
+          "fact": {
+            "en": "The book has 33 chapters in the arrangement of Guo Xiang (died AD 312); scholars generally hold that only the first seven, the “Inner Chapters” — this one among them — are largely Zhuangzi's own.",
+            "ru": "В книге 33 главы — в том порядке, в каком их расположил Го Сян (умер в 312 году); учёные обычно считают, что лишь первые семь, «внутренние главы» — и эта среди них, — написаны в основном самим Чжуан-цзы.",
+            "uk": "У книзі 33 розділи — у тому порядку, в якому їх розташував Го Сян (помер 312 року); учені зазвичай вважають, що лише перші сім, «внутрішні розділи» — і цей серед них, — написані здебільшого самим Чжуан-цзи.",
+            "pl": "Księga ma 33 rozdziały w układzie Guo Xianga (zm. 312 n.e.); uczeni na ogół uważają, że tylko pierwsze siedem, „rozdziały wewnętrzne” — wśród nich ten — pochodzi w większości od samego Zhuangziego."
+          },
+          "source": "A. C. Graham, Chuang-tzŭ: The Inner Chapters (1981)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "al-Ghazali: a doubt no proof could cure",
+        "ru": "аль-Газали: сомнение, которого не излечит доказательство",
+        "uk": "аль-Газалі: сумнів, якого не вилікує доказ",
+        "pl": "al-Ghazali: zwątpienie, którego nie uleczy dowód"
+      },
+      "intro": {
+        "en": "Persia and Iraq, the 11th century. Al-Ghazali, one of the most celebrated teachers of Islam, wanted knowledge so certain that not even a miracle could shake it. He tested the senses — a shadow seems to stand still, a star looks no bigger than a coin — and then reason itself:",
+        "ru": "Персия и Ирак, XI век. Аль-Газали, один из самых прославленных учителей ислама, хотел знания столь достоверного, чтобы его не поколебало даже чудо. Он проверил чувства — тень кажется неподвижной, звезда кажется не больше монеты, — а затем и сам разум:",
+        "uk": "Персія та Ірак, XI століття. Аль-Газалі, один із найславетніших учителів ісламу, прагнув знання настільки достовірного, щоб його не похитнуло навіть диво. Він перевірив чуття — тінь здається нерухомою, зоря видається не більшою за монету, — а потім і сам розум:",
+        "pl": "Persja i Irak, XI wiek. Al-Ghazali, jeden z najsłynniejszych nauczycieli islamu, chciał wiedzy tak pewnej, by nie zachwiał nią nawet cud. Sprawdził zmysły — cień wydaje się nieruchomy, gwiazda wygląda na nie większą od monety — a potem sam rozum:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "al-Ghazali, Deliverance from Error: the dream",
+            "ru": "аль-Газали, «Избавляющий от заблуждения»: сон",
+            "uk": "аль-Газалі, «Той, що рятує від помилки»: сон",
+            "pl": "al-Ghazali, Wybawiający od błędu: sen"
+          },
+          "quotes": {
+            "en": {
+              "edition": "deliverance-knowledge.en.field",
+              "from": "2",
+              "to": "2",
+              "text": "\"Do you not see,\" I reflected, \"that while asleep you assume your dreams to be indisputably real? Once awake, you recognise them for what they are—baseless chimeras. Who can assure you, then, of the reliability of notions which, when awake, you derive from the senses and from reason?",
+              "kind": "Free",
+              "translator": "Claud Field",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Confessions_of_Al_Ghazzali",
+                "lang": "en",
+                "title": "al-Ghazali, Deliverance from Error"
+              }
+            },
+            "ru": {
+              "edition": "deliverance-knowledge.ru.ours",
+              "from": "2",
+              "to": "2",
+              "text": "«Разве ты не видишь, — размышлял я, — что во сне ты принимаешь свои сновидения за бесспорную явь? Проснувшись, ты узнаёшь их такими, какие они есть, — пустыми химерами. Кто же тогда поручится тебе за надёжность понятий, которые наяву ты получаешь от чувств и от разума?»",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Confessions_of_Al_Ghazzali",
+                "lang": "en",
+                "title": "аль-Газали, «Избавляющий от заблуждения»"
+              }
+            },
+            "uk": {
+              "edition": "deliverance-knowledge.uk.ours",
+              "from": "2",
+              "to": "2",
+              "text": "«Хіба ти не бачиш, — міркував я, — що уві сні ти вважаєш свої сновидіння незаперечною дійсністю? Прокинувшись, ти впізнаєш їх такими, якими вони є, — порожніми химерами. Хто ж тоді поручиться тобі за надійність уявлень, які наяву ти дістаєш від чуттів і від розуму?»",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Confessions_of_Al_Ghazzali",
+                "lang": "en",
+                "title": "аль-Газалі, «Той, що рятує від помилки»"
+              }
+            },
+            "pl": {
+              "edition": "deliverance-knowledge.pl.ours",
+              "from": "2",
+              "to": "2",
+              "text": "„Czyż nie widzisz — rozważałem — że we śnie uważasz swoje sny za niewątpliwą rzeczywistość? Po przebudzeniu rozpoznajesz je jako to, czym są — bezpodstawne chimery. Któż więc ręczy ci za wiarygodność pojęć, które na jawie czerpiesz ze zmysłów i z rozumu?”",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Confessions_of_Al_Ghazzali",
+                "lang": "en",
+                "title": "al-Ghazali, Wybawiający od błędu"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Arabic",
+              "ru": "оригинал на арабском",
+              "uk": "оригінал арабською",
+              "pl": "oryginał po arabsku"
+            },
+            "url": "https://ar.wikisource.org/wiki/المنقذ_من_الضلال"
+          }
+        },
+        {
+          "by": {
+            "en": "al-Ghazali, Deliverance from Error: the light, after two months of doubt",
+            "ru": "аль-Газали, «Избавляющий от заблуждения»: свет после двух месяцев сомнения",
+            "uk": "аль-Газалі, «Той, що рятує від помилки»: світло після двох місяців сумніву",
+            "pl": "al-Ghazali, Wybawiający od błędu: światło po dwóch miesiącach zwątpienia"
+          },
+          "quotes": {
+            "en": {
+              "edition": "deliverance-knowledge.en.field",
+              "from": "2",
+              "to": "2",
+              "text": "I owed my deliverance, not to a concatenation of proofs and arguments, but to the light which God caused to penetrate into my heart—the light which illuminates the threshold of all knowledge.",
+              "kind": "Free",
+              "translator": "Claud Field",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Confessions_of_Al_Ghazzali",
+                "lang": "en",
+                "title": "al-Ghazali, Deliverance from Error"
+              }
+            },
+            "ru": {
+              "edition": "deliverance-knowledge.ru.ours",
+              "from": "2",
+              "to": "2",
+              "text": "Своим избавлением я был обязан не цепи доказательств и доводов, а свету, которому Бог дал проникнуть в моё сердце, — свету, что освещает порог всякого знания.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Confessions_of_Al_Ghazzali",
+                "lang": "en",
+                "title": "аль-Газали, «Избавляющий от заблуждения»"
+              }
+            },
+            "uk": {
+              "edition": "deliverance-knowledge.uk.ours",
+              "from": "2",
+              "to": "2",
+              "text": "Своїм визволенням я завдячував не ланцюгові доказів і аргументів, а світлу, якому Бог дав проникнути в моє серце, — світлу, що осяває поріг усякого знання.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Confessions_of_Al_Ghazzali",
+                "lang": "en",
+                "title": "аль-Газалі, «Той, що рятує від помилки»"
+              }
+            },
+            "pl": {
+              "edition": "deliverance-knowledge.pl.ours",
+              "from": "2",
+              "to": "2",
+              "text": "Swoje wybawienie zawdzięczałem nie łańcuchowi dowodów i argumentów, lecz światłu, któremu Bóg dał przeniknąć do mego serca — światłu, które oświetla próg wszelkiej wiedzy.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Confessions_of_Al_Ghazzali",
+                "lang": "en",
+                "title": "al-Ghazali, Wybawiający od błędu"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Arabic",
+              "ru": "оригинал на арабском",
+              "uk": "оригінал арабською",
+              "pl": "oryginał po arabsku"
+            },
+            "url": "https://ar.wikisource.org/wiki/المنقذ_من_الضلال"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "His translator Claud Field tells that he was the son of a dealer in cotton thread — ghazzāl, whence his name — and that, losing his father early, he was brought up in the care of a Sufi.",
+            "ru": "Его переводчик Клод Филд рассказывает, что он был сыном торговца хлопковой пряжей — газзаля, откуда и его имя, — и что, рано лишившись отца, он рос на попечении суфия.",
+            "uk": "Його перекладач Клод Філд розповідає, що він був сином торговця бавовняною пряжею — газзаля, звідки і його ім'я, — і що, рано втративши батька, він ріс під опікою суфія.",
+            "pl": "Jego tłumacz Claud Field podaje, że był synem handlarza przędzą bawełnianą — ghazzāla, stąd jego imię — i że wcześnie straciwszy ojca, wychowywał się pod opieką sufiego."
+          },
+          "source": "Claud Field, introduction to The Confessions of Al Ghazzali (1909)"
+        },
+        {
+          "fact": {
+            "en": "He wrote this account, he says, when he had passed his fiftieth year, looking back on a search for truth he had begun before he was twenty.",
+            "ru": "Этот рассказ он написал, по его словам, когда ему было уже за пятьдесят, оглядываясь на поиски истины, начатые ещё до двадцати лет.",
+            "uk": "Цю розповідь він написав, за його словами, коли йому було вже за п'ятдесят, озираючись на пошуки істини, розпочаті ще до двадцяти років.",
+            "pl": "Tę relację napisał, jak sam mówi, gdy miał już ponad pięćdziesiąt lat, spoglądając wstecz na poszukiwanie prawdy rozpoczęte, zanim skończył dwadzieścia."
+          },
+          "source": "al-Ghazali, Deliverance from Error, section 1 (tr. Claud Field, 1909)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Montaigne: “What do I know?”",
+        "ru": "Монтень: «Что я знаю?»",
+        "uk": "Монтень: «Що я знаю?»",
+        "pl": "Montaigne: „Cóż ja wiem?”"
+      },
+      "intro": {
+        "en": "France, the 1570s, in the wars of religion. In the tower of his château Montaigne writes the longest of his essays — a “defence” of the theologian Raymond Sebond that turns into an assault on human presumption. Even the sceptics, he finds, say too much when they say “I doubt”:",
+        "ru": "Франция, 1570-е годы, время религиозных войн. В башне своего замка Монтень пишет самый длинный из своих очерков — «апологию» богослова Раймунда Сабундского, которая оборачивается атакой на человеческую самонадеянность. Даже скептики, замечает он, говорят слишком много, когда говорят «я сомневаюсь»:",
+        "uk": "Франція, 1570-ті роки, час релігійних війн. У вежі свого замку Монтень пише найдовший зі своїх нарисів — «апологію» богослова Раймунда Сабундського, що обертається атакою на людську самовпевненість. Навіть скептики, зауважує він, кажуть забагато, коли кажуть «я сумніваюся»:",
+        "pl": "Francja, lata siedemdziesiąte XVI wieku, czas wojen religijnych. W wieży swojego zamku Montaigne pisze najdłuższy ze swoich esejów — „obronę” teologa Rajmunda z Sabundy, która zamienia się w atak na ludzką zarozumiałość. Nawet sceptycy, zauważa, mówią za wiele, gdy mówią „wątpię”:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Montaigne, Essays II.12, Apology for Raymond Sebond",
+            "ru": "Монтень, «Опыты», II.12, «Апология Раймунда Сабундского»",
+            "uk": "Монтень, «Проби», II.12, «Апологія Раймунда Сабундського»",
+            "pl": "Montaigne, Próby II.12, Apologia Rajmunda z Sabundy"
+          },
+          "quotes": {
+            "en": {
+              "edition": "essays-knowledge.en.florio",
+              "from": "2.12",
+              "to": "2.12",
+              "text": "So that when they say I doubt, you have them fast by the throat to make them avow that at least you are assured and know that they doubt. So have they beene compelled to save themselves by this comparison of Physicke, without which their conceit would be inexplicable and intricate. When they pronounce, I know not, or I doubt, they say that this proposition transportes it selfe together with the rest, even as the Rewbarbe doeth, which scowred ill humours away, and therewith is carried away himselfe. This conceipt is more certainly conceived by an interrogation: What can I tell? As I beare it in an Imprese of a paire of ballances.",
+              "kind": "Free",
+              "translator": "John Florio",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Montaigne, Essays"
+              }
+            },
+            "ru": {
+              "edition": "essays-knowledge.ru.ours",
+              "from": "2.12",
+              "to": "2.12",
+              "text": "Так что стоит им сказать «я сомневаюсь», как вы хватаете их за горло, чтобы они признали: по крайней мере в этом они уверены и это знают — что они сомневаются. Вот им и пришлось спасаться сравнением из медицины, без которого их мысль была бы невыразима и запутанна. Когда они говорят «я не знаю» или «я сомневаюсь», то утверждают, что это суждение уносит само себя вместе с остальными, как ревень, который выгоняет дурные соки и сам выходит вместе с ними. Надёжнее эта мысль выражается вопросом: «Что я знаю?» — как я и ношу его девизом над изображением весов.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Монтень, «Опыты»"
+              }
+            },
+            "uk": {
+              "edition": "essays-knowledge.uk.ours",
+              "from": "2.12",
+              "to": "2.12",
+              "text": "Тож щойно вони скажуть «я сумніваюся», як ви хапаєте їх за горло, щоб вони визнали: принаймні в цьому вони впевнені й це знають — що вони сумніваються. От їм і довелося рятуватися порівнянням із медицини, без якого їхня думка була б невимовна й заплутана. Коли вони кажуть «я не знаю» або «я сумніваюся», то стверджують, що це судження виносить саме себе разом з усім іншим, як ревінь, що виганяє лихі соки й сам виходить разом із ними. Надійніше цю думку виражає питання: «Що я знаю?» — як я й ношу його девізом над зображенням терезів.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Монтень, «Проби»"
+              }
+            },
+            "pl": {
+              "edition": "essays-knowledge.pl.ours",
+              "from": "2.12",
+              "to": "2.12",
+              "text": "Kiedy więc mówią „wątpię”, chwytacie ich za gardło, by przyznali, że przynajmniej tego są pewni i to wiedzą — że wątpią. Musieli się więc ratować porównaniem z medycyny, bez którego ich myśl byłaby niewyrażalna i zawiła. Gdy mówią „nie wiem” albo „wątpię”, twierdzą, że to zdanie usuwa samo siebie razem z resztą, jak rabarbar, który wypędza złe humory i sam zostaje wydalony wraz z nimi. Pewniej ujmuje tę myśl pytanie: „Cóż ja wiem?” — jak noszę je w godle nad wizerunkiem wagi.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Montaigne, Próby"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Essais/Livre_II/Chapitre_12"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Sextus Empiricus' Outlines of Pyrrhonism, the fullest ancient account of scepticism, was printed in a Latin translation by Henri Estienne in 1562; this essay leans on it heavily.",
+            "ru": "«Пирроновы положения» Секста Эмпирика, самое полное античное изложение скептицизма, были напечатаны в латинском переводе Анри Этьенна в 1562 году; этот очерк во многом опирается на них.",
+            "uk": "«Пірронові положення» Секста Емпірика, найповніший античний виклад скептицизму, були надруковані в латинському перекладі Анрі Етьєна 1562 року; цей нарис багато в чому спирається на них.",
+            "pl": "Zarysy pirrońskie Sekstusa Empiryka, najpełniejszy antyczny wykład sceptycyzmu, wydał drukiem w przekładzie łacińskim Henri Estienne w 1562 roku; ten esej mocno się na nich opiera."
+          },
+          "source": "Richard H. Popkin, The History of Scepticism from Erasmus to Descartes (1960)"
+        },
+        {
+          "fact": {
+            "en": "On the beams of his library, in the tower of his château, Montaigne had sayings painted — many from Sextus Empiricus and from Ecclesiastes.",
+            "ru": "На балках своей библиотеки, в башне замка, Монтень велел написать изречения — многие из Секста Эмпирика и из Екклесиаста.",
+            "uk": "На балках своєї бібліотеки, у вежі замку, Монтень звелів написати вислови — чимало з Секста Емпірика та з Екклезіаста.",
+            "pl": "Na belkach swojej biblioteki, w wieży zamku, Montaigne kazał wypisać sentencje — wiele z Sekstusa Empiryka i z Księgi Koheleta."
+          },
+          "source": "Sarah Bakewell, How to Live: A Life of Montaigne (2010)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Descartes: the evil demon, and what is left",
+        "ru": "Декарт: злой демон и то, что остаётся",
+        "uk": "Декарт: злий демон і те, що лишається",
+        "pl": "Kartezjusz: złośliwy demon i to, co zostaje"
+      },
+      "intro": {
+        "en": "The Netherlands, around 1640. Descartes resolves to doubt everything that can be doubted at all — the senses, his own body, even that two and three make five — to see whether anything is left. He imagines the worst deceiver possible:",
+        "ru": "Нидерланды, около 1640 года. Декарт решает усомниться во всём, в чём вообще можно усомниться, — в чувствах, в собственном теле, даже в том, что два и три дают пять, — чтобы увидеть, останется ли хоть что-нибудь. Он воображает худшего обманщика из возможных:",
+        "uk": "Нідерланди, близько 1640 року. Декарт вирішує засумніватися в усьому, у чому взагалі можна засумніватися, — у чуттях, у власному тілі, навіть у тому, що два і три дають п'ять, — щоб побачити, чи лишиться бодай щось. Він уявляє найгіршого ошуканця з можливих:",
+        "pl": "Niderlandy, około 1640 roku. Kartezjusz postanawia zwątpić we wszystko, w co w ogóle można zwątpić — w zmysły, we własne ciało, nawet w to, że dwa i trzy to pięć — by zobaczyć, czy cokolwiek zostanie. Wyobraża sobie najgorszego z możliwych oszustów:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Descartes, Meditation I (12): the evil demon",
+            "ru": "Декарт, Размышление I (12): злой демон",
+            "uk": "Декарт, Роздум I (12): злий демон",
+            "pl": "Kartezjusz, Medytacja I (12): złośliwy demon"
+          },
+          "quotes": {
+            "en": {
+              "edition": "meditations-knowledge.en.veitch",
+              "from": "1.12",
+              "to": "1.12",
+              "text": "I will suppose, then, not that Deity, who is sovereignly good and the fountain of truth, but that some malignant demon, who is at once exceedingly potent and deceitful, has employed all his artifice to deceive me; I will suppose that the sky, the air, the earth, colors, figures, sounds, and all external things, are nothing better than the illusions of dreams, by means of which this being has laid snares for my credulity",
+              "kind": "Free",
+              "translator": "John Veitch",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Meditations_on_First_Philosophy/Meditation_II",
+                "lang": "en",
+                "title": "René Descartes, Meditations on First Philosophy"
+              }
+            },
+            "ru": {
+              "edition": "meditations-knowledge.ru.ours",
+              "from": "1.12",
+              "to": "1.12",
+              "text": "Итак, я предположу, что не Бог, всеблагой и источник истины, а некий злой демон, в высшей степени могущественный и коварный, употребил всё своё искусство, чтобы меня обмануть; я предположу, что небо, воздух, земля, цвета, фигуры, звуки и все внешние вещи — не более чем иллюзии сновидений, которыми это существо расставило сети моей доверчивости…",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Meditations_on_First_Philosophy/Meditation_II",
+                "lang": "en",
+                "title": "Рене Декарт, «Размышления о первой философии»"
+              }
+            },
+            "uk": {
+              "edition": "meditations-knowledge.uk.ours",
+              "from": "1.12",
+              "to": "1.12",
+              "text": "Отже, я припущу, що не Бог, всеблагий і джерело істини, а якийсь злий демон, украй могутній і підступний, ужив усе своє мистецтво, щоб мене обманути; я припущу, що небо, повітря, земля, кольори, фігури, звуки й усі зовнішні речі — не більше ніж ілюзії сновидінь, якими ця істота розставила пастки для моєї довірливості…",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Meditations_on_First_Philosophy/Meditation_II",
+                "lang": "en",
+                "title": "Рене Декарт, «Роздуми про першу філософію»"
+              }
+            },
+            "pl": {
+              "edition": "meditations-knowledge.pl.ours",
+              "from": "1.12",
+              "to": "1.12",
+              "text": "Założę więc, że nie Bóg, który jest w najwyższym stopniu dobry i jest źródłem prawdy, lecz jakiś złośliwy demon, zarazem nader potężny i podstępny, użył całej swej przebiegłości, by mnie zwodzić; założę, że niebo, powietrze, ziemia, barwy, kształty, dźwięki i wszystkie rzeczy zewnętrzne są niczym więcej niż złudzeniami snów, którymi ta istota zastawiła sidła na moją łatwowierność…",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Meditations_on_First_Philosophy/Meditation_II",
+                "lang": "en",
+                "title": "Kartezjusz, Medytacje o pierwszej filozofii"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/Meditationes_de_prima_philosophia_(Adam_et_Tannery)/Meditatio_I"
+          }
+        },
+        {
+          "by": {
+            "en": "Descartes, Meditation II (3): the next day",
+            "ru": "Декарт, Размышление II (3): на следующий день",
+            "uk": "Декарт, Роздум II (3): наступного дня",
+            "pl": "Kartezjusz, Medytacja II (3): nazajutrz"
+          },
+          "quotes": {
+            "en": {
+              "edition": "meditations.en.veitch",
+              "from": "2.3",
+              "to": "2.3",
+              "text": "Doubtless, then, I exist, since I am deceived; and, let him deceive me as he may, he can never bring it about that I am nothing, so long as I shall be conscious that I am something. So that it must, in fine, be maintained, all things being maturely and carefully considered, that this proposition (pronunciatum) I am, I exist, is necessarily true each time it is expressed by me, or conceived in my mind.",
+              "kind": "Free",
+              "translator": "John Veitch",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Meditations_on_First_Philosophy/Meditation_II",
+                "lang": "en",
+                "title": "René Descartes, Meditations on First Philosophy"
+              }
+            },
+            "ru": {
+              "edition": "meditations-knowledge.ru.ours",
+              "from": "2.3",
+              "to": "2.3",
+              "text": "Значит, несомненно, я существую, раз меня обманывают; и пусть обманывает сколько угодно, он никогда не добьётся того, чтобы я был ничем, пока я буду сознавать, что я нечто. Так что, всё зрело и тщательно взвесив, следует в конце концов утверждать, что это положение (pronunciatum) — я есмь, я существую — необходимо истинно всякий раз, когда я его произношу или постигаю умом.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Meditations_on_First_Philosophy/Meditation_II",
+                "lang": "en",
+                "title": "Рене Декарт, «Размышления о первой философии»"
+              }
+            },
+            "uk": {
+              "edition": "meditations-knowledge.uk.ours",
+              "from": "2.3",
+              "to": "2.3",
+              "text": "Отже, безсумнівно, я існую, якщо мене обманюють; і хай обманює скільки завгодно, він ніколи не доможеться того, щоб я був нічим, доки я усвідомлюватиму, що я є щось. Тож, усе зріло й ретельно зваживши, слід зрештою стверджувати, що це положення (pronunciatum) — я є, я існую — необхідно істинне щоразу, коли я його висловлюю або осягаю розумом.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Meditations_on_First_Philosophy/Meditation_II",
+                "lang": "en",
+                "title": "Рене Декарт, «Роздуми про першу філософію»"
+              }
+            },
+            "pl": {
+              "edition": "meditations-knowledge.pl.ours",
+              "from": "2.3",
+              "to": "2.3",
+              "text": "Niewątpliwie więc istnieję, skoro jestem zwodzony; i niech mnie zwodzi, jak tylko może, nigdy nie sprawi, bym był niczym, dopóki będę świadom, że jestem czymś. Tak więc, wszystko dojrzale i starannie rozważywszy, trzeba ostatecznie stwierdzić, że to twierdzenie (pronunciatum): jestem, istnieję, jest koniecznie prawdziwe za każdym razem, gdy je wypowiadam lub pojmuję umysłem.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Meditations_on_First_Philosophy/Meditation_II",
+                "lang": "en",
+                "title": "Kartezjusz, Medytacje o pierwszej filozofii"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/Meditationes_de_prima_philosophia_(Adam_et_Tannery)/Meditatio_II"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "On 10 November 1619, in Germany, the twenty-three-year-old Descartes noted that he had found “the foundations of a wonderful science”; that night he had three dreams. We know them from his first biographer, Adrien Baillet.",
+            "ru": "10 ноября 1619 года в Германии двадцатитрёхлетний Декарт записал, что нашёл «основания удивительной науки»; той же ночью ему приснились три сна. Мы знаем о них от его первого биографа, Адриена Байе.",
+            "uk": "10 листопада 1619 року в Німеччині двадцятитрирічний Декарт записав, що знайшов «основи дивовижної науки»; тієї ж ночі йому наснилися три сни. Ми знаємо про них від його першого біографа, Адрієна Байє.",
+            "pl": "10 listopada 1619 roku w Niemczech dwudziestotrzyletni Kartezjusz zanotował, że odnalazł „podstawy przedziwnej nauki”; tej samej nocy miał trzy sny. Znamy je od jego pierwszego biografa, Adriena Bailleta."
+          },
+          "source": "Adrien Baillet, La Vie de Monsieur Des-Cartes (1691)"
+        },
+        {
+          "fact": {
+            "en": "The Meditations appeared in Latin in Paris in 1641 together with objections from other thinkers — Hobbes, Gassendi and Arnauld among them — and Descartes' replies.",
+            "ru": "«Размышления» вышли на латыни в Париже в 1641 году вместе с возражениями других мыслителей — среди них Гоббса, Гассенди и Арно — и ответами Декарта.",
+            "uk": "«Роздуми» вийшли латиною в Парижі 1641 року разом із запереченнями інших мислителів — серед них Гоббса, Гассенді й Арно — та відповідями Декарта.",
+            "pl": "Medytacje ukazały się po łacinie w Paryżu w 1641 roku wraz z zarzutami innych myślicieli — wśród nich Hobbesa, Gassendiego i Arnaulda — oraz odpowiedziami Kartezjusza."
+          },
+          "source": "Stephen Gaukroger, Descartes: An Intellectual Biography (1995)"
+        }
+      ]
+    },
+    {
+      "think": "certain",
+      "question": {
+        "en": "Name one thing you are certain of. What makes you sure of it — and could a dream, a deceiver or your own mind be fooling you about it?",
+        "ru": "Назовите одну вещь, в которой вы уверены. Что даёт вам эту уверенность — и не могут ли вас обманывать в этом сон, обманщик или ваш собственный ум?",
+        "uk": "Назвіть одну річ, у якій ви певні. Що дає вам цю певність — і чи не можуть вас ошукувати в цьому сон, ошуканець або ваш власний розум?",
+        "pl": "Wymień jedną rzecz, której jesteś pewien. Co daje ci tę pewność — i czy sen, oszust albo twój własny umysł nie mogą cię co do niej zwodzić?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: can we know anything for certain?",
+        "ru": "И теперь: можем ли мы что-нибудь знать наверняка?",
+        "uk": "А тепер: чи можемо ми щось знати напевно?",
+        "pl": "A teraz: czy możemy cokolwiek wiedzieć na pewno?"
+      }
+    }
+  ]
+}

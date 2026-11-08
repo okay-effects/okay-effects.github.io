@@ -1,0 +1,853 @@
+{
+  "id": "friendship",
+  "title": {
+    "en": "What is friendship?",
+    "ru": "Что такое дружба?",
+    "uk": "Що таке дружба?",
+    "pl": "Czym jest przyjaźń?"
+  },
+  "subtitle": {
+    "en": "Aristotle, Epicurus, Confucius and Montaigne — and you",
+    "ru": "Аристотель, Эпикур, Конфуций и Монтень — и вы",
+    "uk": "Аристотель, Епікур, Конфуцій і Монтень — і ви",
+    "pl": "Arystoteles, Epikur, Konfucjusz i Montaigne — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: what is friendship?",
+        "ru": "Прежде чем читать кого-либо: что такое дружба?",
+        "uk": "Перш ніж читати когось: що таке дружба?",
+        "pl": "Zanim kogokolwiek przeczytasz: czym jest przyjaźń?"
+      },
+      "options": [
+        {
+          "en": "Wanting the good of another for their own sake",
+          "ru": "Желать другому добра ради него самого",
+          "uk": "Бажати іншому добра заради нього самого",
+          "pl": "Chcieć dobra drugiego ze względu na niego samego"
+        },
+        {
+          "en": "Enjoying each other's company",
+          "ru": "Радоваться обществу друг друга",
+          "uk": "Радіти товариству одне одного",
+          "pl": "Cieszyć się swoim towarzystwem"
+        },
+        {
+          "en": "Being there for each other when help is needed",
+          "ru": "Быть рядом, когда нужна помощь",
+          "uk": "Бути поруч, коли потрібна допомога",
+          "pl": "Być przy sobie, gdy potrzebna jest pomoc"
+        },
+        {
+          "en": "A bond that cannot be explained, only lived",
+          "ru": "Связь, которую нельзя объяснить, — только прожить",
+          "uk": "Зв’язок, який не можна пояснити, — лише прожити",
+          "pl": "Więź, której nie da się wyjaśnić — można ją tylko przeżyć"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Aristotle: three kinds of friendship",
+        "ru": "Аристотель: три вида дружбы",
+        "uk": "Аристотель: три види дружби",
+        "pl": "Arystoteles: trzy rodzaje przyjaźni"
+      },
+      "intro": {
+        "en": "Athens, the fourth century BC. In the Nicomachean Ethics, ten books on how to live well, Aristotle gives two to friendship. He sorts friendships by what the friends love in each other — the useful, the pleasant or the good — and only the last, he says, loves the friend himself:",
+        "ru": "Афины, IV век до н. э. В «Никомаховой этике», десяти книгах о том, как жить хорошо, Аристотель отдаёт дружбе две. Он делит дружбы по тому, что друзья любят друг в друге, — полезное, приятное или благое, — и лишь последняя, говорит он, любит самого друга:",
+        "uk": "Афіни, IV століття до н. е. У «Нікомаховій етиці», десяти книгах про те, як жити добре, Аристотель віддає дружбі дві. Він поділяє дружби за тим, що друзі люблять одне в одному, — корисне, приємне чи добре, — і лише остання, каже він, любить самого друга:",
+        "pl": "Ateny, IV wiek p.n.e. W Etyce nikomachejskiej, dziesięciu księgach o tym, jak dobrze żyć, Arystoteles poświęca przyjaźni dwie. Dzieli przyjaźnie według tego, co przyjaciele w sobie kochają — pożyteczne, przyjemne albo dobre — i tylko ta ostatnia, mówi, kocha samego przyjaciela:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Aristotle, Nicomachean Ethics VIII.1",
+            "ru": "Аристотель, «Никомахова этика», VIII.1",
+            "uk": "Аристотель, «Нікомахова етика», VIII.1",
+            "pl": "Arystoteles, Etyka nikomachejska VIII.1"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ethics-friendship.en.chase",
+              "from": "8.1",
+              "to": "8.1",
+              "text": "it is a thing most necessary for life, since no one would choose to live without friends though he should have all the other good things in the world",
+              "kind": "Free",
+              "translator": "D. P. Chase",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Aristotle, Nicomachean Ethics"
+              }
+            },
+            "ru": {
+              "edition": "ethics-friendship.ru.ours",
+              "from": "8.1",
+              "to": "8.1",
+              "text": "она есть вещь для жизни самая необходимая, ибо никто не выбрал бы жизнь без друзей, даже если бы имел все прочие блага на свете",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Никомахова этика»"
+              }
+            },
+            "uk": {
+              "edition": "ethics-friendship.uk.ours",
+              "from": "8.1",
+              "to": "8.1",
+              "text": "вона є річчю для життя найнеобхіднішою, бо ніхто не обрав би життя без друзів, навіть якби мав усі інші блага на світі",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Нікомахова етика»"
+              }
+            },
+            "pl": {
+              "edition": "ethics-friendship.pl.ours",
+              "from": "8.1",
+              "to": "8.1",
+              "text": "jest ona rzeczą do życia najbardziej potrzebną, nikt bowiem nie wybrałby życia bez przyjaciół, nawet gdyby miał wszystkie inne dobra na świecie",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Arystoteles, Etyka nikomachejska"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0053:bekker%20page=1155a"
+          }
+        },
+        {
+          "by": {
+            "en": "Aristotle, Nicomachean Ethics VIII.3",
+            "ru": "Аристотель, «Никомахова этика», VIII.3",
+            "uk": "Аристотель, «Нікомахова етика», VIII.3",
+            "pl": "Arystoteles, Etyka nikomachejska VIII.3"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ethics-friendship.en.chase",
+              "from": "8.3",
+              "to": "8.3",
+              "text": "That then is perfect Friendship which subsists between those who are good and whose similarity consists in their goodness: for these men wish one another's good in similar ways; in so far as they are good (and good they are in themselves); and those are specially friends who wish good to their friends for their sakes, because they feel thus towards them on their own account and not as a mere matter of result; so the Friendship between these men continues to subsist so long as they are good; and goodness, we know, has in it a principle of permanence.",
+              "kind": "Free",
+              "translator": "D. P. Chase",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Aristotle, Nicomachean Ethics"
+              }
+            },
+            "ru": {
+              "edition": "ethics-friendship.ru.ours",
+              "from": "8.3",
+              "to": "8.3",
+              "text": "Совершенная же дружба — та, что существует между людьми хорошими, чьё сходство — в их добродетели: ведь они одинаково желают друг другу блага, поскольку они хороши (а хороши они сами по себе); и более всего друзья те, кто желает друзьям блага ради них самих, потому что относится к ним так ради них самих, а не попутно; поэтому дружба между ними длится, пока они хороши, а добродетель, как мы знаем, несёт в себе начало постоянства.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Никомахова этика»"
+              }
+            },
+            "uk": {
+              "edition": "ethics-friendship.uk.ours",
+              "from": "8.3",
+              "to": "8.3",
+              "text": "Досконала ж дружба — та, що існує між людьми добрими, чия схожість — у їхній чесноті: адже вони однаково бажають одне одному добра, оскільки вони добрі (а добрі вони самі по собі); і найбільше друзі ті, хто бажає друзям добра заради них самих, бо ставиться до них так через них самих, а не принагідно; тому дружба між ними триває, доки вони добрі, а чеснота, як ми знаємо, несе в собі начало сталості.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Нікомахова етика»"
+              }
+            },
+            "pl": {
+              "edition": "ethics-friendship.pl.ours",
+              "from": "8.3",
+              "to": "8.3",
+              "text": "Doskonała zaś jest przyjaźń między ludźmi dobrymi, których podobieństwo polega na cnocie: tacy bowiem w podobny sposób życzą sobie nawzajem dobra, o ile są dobrzy (a dobrzy są sami w sobie); a najbardziej przyjaciółmi są ci, którzy życzą przyjaciołom dobra ze względu na nich samych, bo tak się do nich odnoszą z ich własnego powodu, a nie ubocznie; dlatego przyjaźń między nimi trwa, dopóki są dobrzy, a cnota, jak wiemy, ma w sobie zasadę trwałości.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Arystoteles, Etyka nikomachejska"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0053:bekker%20page=1156b"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Friendship gets two of the Ethics' ten books, Books VIII and IX — more than Aristotle gives to justice, which has Book V.",
+            "ru": "Дружбе отведены две из десяти книг «Этики», VIII и IX, — больше, чем справедливости, которой посвящена книга V.",
+            "uk": "Дружбі відведено дві з десяти книг «Етики», VIII і IX, — більше, ніж справедливості, якій присвячено книгу V.",
+            "pl": "Przyjaźni poświęcone są dwie z dziesięciu ksiąg Etyki, VIII i IX — więcej niż sprawiedliwości, której dotyczy księga V."
+          },
+          "source": "Aristotle, Nicomachean Ethics V, VIII–IX"
+        },
+        {
+          "fact": {
+            "en": "The Greek word, philia, is wider than our “friendship”: Aristotle uses it for parents and children, husband and wife, fellow voyagers, fellow soldiers and fellow citizens.",
+            "ru": "Греческое слово «филия» шире нашей «дружбы»: Аристотель называет так и связь родителей и детей, мужа и жены, спутников в плавании, соратников и сограждан.",
+            "uk": "Грецьке слово «філія» ширше за нашу «дружбу»: Аристотель називає так і зв’язок батьків і дітей, чоловіка й дружини, супутників у плаванні, побратимів по зброї та співгромадян.",
+            "pl": "Greckie słowo philia jest szersze niż nasza „przyjaźń”: Arystoteles nazywa tak także więź rodziców i dzieci, męża i żony, towarzyszy podróży morskiej, towarzyszy broni i współobywateli."
+          },
+          "source": "Aristotle, Nicomachean Ethics VIII.9–12"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Epicurus: friends for a life without fear",
+        "ru": "Эпикур: друзья для жизни без страха",
+        "uk": "Епікур: друзі для життя без страху",
+        "pl": "Epikur: przyjaciele dla życia bez lęku"
+      },
+      "intro": {
+        "en": "Athens, about 300 BC. In his Garden, Epicurus lives and studies with his friends. For him the aim of life is pleasure — to be free of pain and fear — and friendship, which begins in need, is the best means to it. His teaching comes down to us through Diogenes Laertius:",
+        "ru": "Афины, около 300 года до н. э. В своём Саду Эпикур живёт и занимается философией вместе с друзьями. Для него цель жизни — удовольствие, то есть свобода от боли и страха, а дружба, рождённая нуждой, — лучшее средство к нему. Его учение дошло до нас через Диогена Лаэртского:",
+        "uk": "Афіни, близько 300 року до н. е. У своєму Саду Епікур живе й філософствує разом із друзями. Для нього мета життя — насолода, тобто свобода від болю і страху, а дружба, народжена з потреби, — найкращий засіб до неї. Його вчення дійшло до нас через Діогена Лаертського:",
+        "pl": "Ateny, około 300 roku p.n.e. W swoim Ogrodzie Epikur żyje i filozofuje razem z przyjaciółmi. Dla niego celem życia jest przyjemność — wolność od bólu i lęku — a przyjaźń, zrodzona z potrzeby, jest najlepszym do niej środkiem. Jego nauka doszła do nas dzięki Diogenesowi Laertiosowi:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Epicurus, Principal Doctrines 27 (in Diogenes Laertius X.148)",
+            "ru": "Эпикур, «Главные мысли», 27 (у Диогена Лаэртского, X.148)",
+            "uk": "Епікур, «Головні думки», 27 (у Діогена Лаертського, X.148)",
+            "pl": "Epikur, Główne myśli 27 (u Diogenesa Laertiosa, X.148)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "lives-friendship.en.hicks",
+              "from": "10.148",
+              "to": "10.148",
+              "text": "Of all the means which are procured by wisdom to ensure happiness throughout the whole of life, by far the most important is the acquisition of friends.",
+              "kind": "Free",
+              "translator": "R. D. Hicks",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X",
+                "lang": "en",
+                "title": "Diogenes Laertius, Lives of the Eminent Philosophers"
+              }
+            },
+            "ru": {
+              "edition": "lives-friendship.ru.ours",
+              "from": "10.148",
+              "to": "10.148",
+              "text": "Из всех средств, которые мудрость добывает, чтобы обеспечить счастье на всю жизнь, самое важное, и намного, — приобретение друзей.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X",
+                "lang": "en",
+                "title": "Диоген Лаэртский, «О жизни, учениях и изречениях знаменитых философов»"
+              }
+            },
+            "uk": {
+              "edition": "lives-friendship.uk.ours",
+              "from": "10.148",
+              "to": "10.148",
+              "text": "З усіх засобів, які мудрість здобуває, щоб забезпечити щастя на все життя, найважливіший, і набагато, — набуття друзів.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X",
+                "lang": "en",
+                "title": "Діоген Лаертський, «Життя, вчення і вислови знаменитих філософів»"
+              }
+            },
+            "pl": {
+              "edition": "lives-friendship.pl.ours",
+              "from": "10.148",
+              "to": "10.148",
+              "text": "Ze wszystkich środków, które mądrość zdobywa, by zapewnić szczęście przez całe życie, zdecydowanie najważniejszym jest zdobycie przyjaciół.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X",
+                "lang": "en",
+                "title": "Diogenes Laertios, Żywoty i poglądy słynnych filozofów"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0257:book=10:chapter=1"
+          }
+        },
+        {
+          "by": {
+            "en": "The Epicureans' teaching, in Diogenes Laertius X.120",
+            "ru": "Учение эпикурейцев у Диогена Лаэртского, X.120",
+            "uk": "Учення епікурейців у Діогена Лаертського, X.120",
+            "pl": "Nauka epikurejczyków u Diogenesa Laertiosa, X.120"
+          },
+          "quotes": {
+            "en": {
+              "edition": "lives-friendship.en.hicks",
+              "from": "10.120",
+              "to": "10.120",
+              "text": "friendship is prompted by our needs. One of the friends, however, must make the first advances (just as we have to cast seed into the earth), but it is maintained by a partnership in the enjoyment of life’s pleasures.",
+              "kind": "Free",
+              "translator": "R. D. Hicks",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X",
+                "lang": "en",
+                "title": "Diogenes Laertius, Lives of the Eminent Philosophers"
+              }
+            },
+            "ru": {
+              "edition": "lives-friendship.ru.ours",
+              "from": "10.120",
+              "to": "10.120",
+              "text": "дружба возникает из наших нужд. Однако кто-то из друзей должен сделать первый шаг (так же, как мы должны бросить семя в землю), а держится она товариществом в наслаждении радостями жизни.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X",
+                "lang": "en",
+                "title": "Диоген Лаэртский, «О жизни, учениях и изречениях знаменитых философов»"
+              }
+            },
+            "uk": {
+              "edition": "lives-friendship.uk.ours",
+              "from": "10.120",
+              "to": "10.120",
+              "text": "дружба виникає з наших потреб. Проте хтось із друзів мусить зробити перший крок (так само, як ми мусимо кинути зерно в землю), а тримається вона товариством у насолоді радощами життя.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X",
+                "lang": "en",
+                "title": "Діоген Лаертський, «Життя, вчення і вислови знаменитих філософів»"
+              }
+            },
+            "pl": {
+              "edition": "lives-friendship.pl.ours",
+              "from": "10.120",
+              "to": "10.120",
+              "text": "przyjaźń rodzi się z naszych potrzeb. Jeden z przyjaciół musi jednak zrobić pierwszy krok (tak jak musimy rzucić ziarno w ziemię), lecz podtrzymuje ją wspólnota w cieszeniu się przyjemnościami życia.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X",
+                "lang": "en",
+                "title": "Diogenes Laertios, Żywoty i poglądy słynnych filozofów"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0257:book=10:chapter=1"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Dying of a kidney stone, Epicurus wrote to his friend Idomeneus that against all his sufferings he set the gladness of remembering their conversations, and asked him to look after the children of his late friend Metrodorus.",
+            "ru": "Умирая от камня в почках, Эпикур написал другу Идоменею, что всем своим мукам противопоставляет радость воспоминания об их беседах, и просил его позаботиться о детях своего покойного друга Метродора.",
+            "uk": "Помираючи від каменя в нирках, Епікур написав другові Ідоменею, що всім своїм мукам протиставляє радість спогаду про їхні бесіди, і просив його подбати про дітей свого покійного друга Метродора.",
+            "pl": "Umierając na kamicę nerkową, Epikur napisał do przyjaciela Idomeneusa, że wszystkim swoim cierpieniom przeciwstawia radość ze wspomnienia ich rozmów, i prosił go o opiekę nad dziećmi swego zmarłego przyjaciela Metrodora."
+          },
+          "source": "Diogenes Laertius, Lives of the Eminent Philosophers 10.15, 10.22"
+        },
+        {
+          "fact": {
+            "en": "In his will Epicurus left the Garden to his school and asked that his followers meet on the twentieth of every month in memory of him and of Metrodorus.",
+            "ru": "В завещании Эпикур оставил Сад своей школе и просил, чтобы ученики собирались двадцатого числа каждого месяца в память о нём и о Метродоре.",
+            "uk": "У заповіті Епікур залишив Сад своїй школі й просив, щоб учні збиралися двадцятого числа кожного місяця на згадку про нього і про Метродора.",
+            "pl": "W testamencie Epikur zostawił Ogród swojej szkole i poprosił, by uczniowie zbierali się dwudziestego dnia każdego miesiąca dla upamiętnienia jego i Metrodora."
+          },
+          "source": "Diogenes Laertius, Lives of the Eminent Philosophers 10.16–18"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Confucius: friends who make you better",
+        "ru": "Конфуций: друзья, которые делают тебя лучше",
+        "uk": "Конфуцій: друзі, які роблять тебе кращим",
+        "pl": "Konfucjusz: przyjaciele, którzy czynią cię lepszym"
+      },
+      "intro": {
+        "en": "China, the fifth century BC. The Analects open with friends: “Is it not delightful to have friends coming from distant quarters?” But the Master asks less what a friend gives you than what a friend makes of you:",
+        "ru": "Китай, V век до н. э. «Лунь юй» начинается с друзей: «Разве не радостно, когда друзья приходят издалека?» Но Учитель спрашивает не столько о том, что друг тебе даёт, сколько о том, каким он тебя делает:",
+        "uk": "Китай, V століття до н. е. «Лунь юй» починається з друзів: «Хіба не радісно, коли друзі приходять здалеку?» Але Учитель питає не стільки про те, що друг тобі дає, скільки про те, яким він тебе робить:",
+        "pl": "Chiny, V wiek p.n.e. Dialogi konfucjańskie zaczynają się od przyjaciół: „Czyż to nie radość, gdy przyjaciele przybywają z daleka?” Lecz Mistrz pyta nie tyle o to, co daje ci przyjaciel, ile o to, kim cię czyni:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Confucius, Analects 16.4",
+            "ru": "Конфуций, «Лунь юй», 16.4",
+            "uk": "Конфуцій, «Лунь юй», 16.4",
+            "pl": "Konfucjusz, Dialogi konfucjańskie 16.4"
+          },
+          "quotes": {
+            "en": {
+              "edition": "analects-friendship.en.legge",
+              "from": "16.4",
+              "to": "16.4",
+              "text": "Confucius said, \"There are three friendships which are advantageous, and three which are injurious. Friendship with the upright; friendship with the sincere; and friendship with the man of much observation:—these are advantageous. Friendship with the man of specious airs; friendship with the insinuatingly soft; and friendship with the glib-tongued:—these are injurious.\"",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Confucius, The Analects"
+              }
+            },
+            "ru": {
+              "edition": "analects-friendship.ru.ours",
+              "from": "16.4",
+              "to": "16.4",
+              "text": "Конфуций сказал: «Есть три дружбы полезные и три вредные. Дружба с прямым, дружба с искренним и дружба с человеком, много повидавшим, — полезны. Дружба с позёром, дружба с вкрадчиво-мягким и дружба с краснобаем — вредны».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуций, «Лунь юй»"
+              }
+            },
+            "uk": {
+              "edition": "analects-friendship.uk.ours",
+              "from": "16.4",
+              "to": "16.4",
+              "text": "Конфуцій сказав: «Є три дружби корисні й три шкідливі. Дружба з прямим, дружба зі щирим і дружба з людиною, яка багато бачила, — корисні. Дружба з позером, дружба з улесливо-м’яким і дружба з краснобаєм — шкідливі».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуцій, «Лунь юй»"
+              }
+            },
+            "pl": {
+              "edition": "analects-friendship.pl.ours",
+              "from": "16.4",
+              "to": "16.4",
+              "text": "Konfucjusz rzekł: „Są trzy przyjaźnie korzystne i trzy szkodliwe. Przyjaźń z prawym, przyjaźń ze szczerym i przyjaźń z człowiekiem, który wiele widział — są korzystne. Przyjaźń z pozerem, przyjaźń z przymilnie uległym i przyjaźń z krasomówcą — są szkodliwe”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Konfucjusz, Dialogi konfucjańskie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/論語/季氏第十六"
+          }
+        },
+        {
+          "by": {
+            "en": "Confucius, Analects 12.23",
+            "ru": "Конфуций, «Лунь юй», 12.23",
+            "uk": "Конфуцій, «Лунь юй», 12.23",
+            "pl": "Konfucjusz, Dialogi konfucjańskie 12.23"
+          },
+          "quotes": {
+            "en": {
+              "edition": "analects-friendship.en.legge",
+              "from": "12.23",
+              "to": "12.23",
+              "text": "Tsze-kung asked about friendship. The Master said, \"Faithfully admonish your friend, and skillfully lead him on. If you find him impracticable, stop. Do not disgrace yourself.\"",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Confucius, The Analects"
+              }
+            },
+            "ru": {
+              "edition": "analects-friendship.ru.ours",
+              "from": "12.23",
+              "to": "12.23",
+              "text": "Цзы-гун спросил о дружбе. Учитель сказал: «Честно увещевай своего друга и умело направляй его. Если увидишь, что он не поддаётся, — остановись. Не навлекай на себя позора».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуций, «Лунь юй»"
+              }
+            },
+            "uk": {
+              "edition": "analects-friendship.uk.ours",
+              "from": "12.23",
+              "to": "12.23",
+              "text": "Цзи-гун спитав про дружбу. Учитель сказав: «Щиро напучуй свого друга й вміло спрямовуй його. Якщо побачиш, що він не піддається, — зупинись. Не накликай на себе ганьби».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуцій, «Лунь юй»"
+              }
+            },
+            "pl": {
+              "edition": "analects-friendship.pl.ours",
+              "from": "12.23",
+              "to": "12.23",
+              "text": "Zigong zapytał o przyjaźń. Mistrz rzekł: „Szczerze napominaj przyjaciela i umiejętnie go prowadź. Jeśli widzisz, że nie daje się prowadzić, przestań. Nie okrywaj się hańbą”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Konfucjusz, Dialogi konfucjańskie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/論語/顏淵第十二"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Confucius wrote none of the Analects: his disciples and their students put the sayings together after his death in 479 BC, and many scholars think the book grew over several generations.",
+            "ru": "Конфуций не написал «Лунь юй»: его изречения собрали ученики и ученики учеников после его смерти в 479 году до н. э., и многие учёные считают, что книга складывалась на протяжении нескольких поколений.",
+            "uk": "Конфуцій не написав «Лунь юй»: його вислови зібрали учні та учні учнів після його смерті 479 року до н. е., і багато вчених вважають, що книга складалася впродовж кількох поколінь.",
+            "pl": "Konfucjusz nie napisał Dialogów: jego wypowiedzi zebrali uczniowie i uczniowie uczniów po jego śmierci w 479 roku p.n.e., a wielu uczonych uważa, że księga powstawała przez kilka pokoleń."
+          },
+          "source": "D. C. Lau, Confucius: The Analects (1979), introduction; E. Bruce Brooks and A. Taeko Brooks, The Original Analects (1998)"
+        },
+        {
+          "fact": {
+            "en": "A century later Mencius named five bonds of human life — father and son, ruler and minister, husband and wife, elder and younger, friend and friend — and the virtue he named for friends was good faith.",
+            "ru": "Столетие спустя Мэн-цзы назвал пять связей человеческой жизни — отец и сын, государь и сановник, муж и жена, старший и младший, друг и друг, — и добродетелью друзей он назвал верность.",
+            "uk": "Через століття Мен-цзи назвав п’ять зв’язків людського життя — батько й син, володар і сановник, чоловік і дружина, старший і молодший, друг і друг, — і чеснотою друзів він назвав вірність.",
+            "pl": "Sto lat później Mencjusz wymienił pięć więzi ludzkiego życia — ojciec i syn, władca i minister, mąż i żona, starszy i młodszy, przyjaciel i przyjaciel — a cnotą przyjaciół nazwał wierność."
+          },
+          "source": "Mencius 3A4"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Bordeaux, 1563",
+        "ru": "Бордо, 1563 год",
+        "uk": "Бордо, 1563 рік",
+        "pl": "Bordeaux, 1563"
+      },
+      "scene": {
+        "en": "August 1563, a house at Germignan, two leagues from Bordeaux. Your friend Étienne de La Boétie, thirty-two, a councillor of the Parlement of Bordeaux like you, lies sick with dysentery; there is plague in the houses near his lodging in town. Today he tells you that his illness is infectious, and grim to be near, and asks you to come only now and then. What do you do?",
+        "ru": "Август 1563 года, дом в Жерминьяне, в двух льё от Бордо. Ваш друг Этьен де Ла Боэси, тридцати двух лет, как и вы — советник Бордоского парламента, лежит больной дизентерией; в домах по соседству с его городским жилищем — чума. Сегодня он говорит вам, что его болезнь заразна и тягостна для окружающих, и просит приходить лишь время от времени. Что вы сделаете?",
+        "uk": "Серпень 1563 року, дім у Жерміньяні, за два льє від Бордо. Ваш друг Етьєн де Ла Боесі, тридцяти двох років, як і ви — радник Бордоського парламенту, лежить хворий на дизентерію; у сусідніх із його міським житлом будинках — чума. Сьогодні він каже вам, що його хвороба заразна і тяжка для тих, хто поруч, і просить приходити лише час від часу. Що ви зробите?",
+        "pl": "Sierpień 1563 roku, dom w Germignan, kilka kilometrów od Bordeaux. Twój przyjaciel Étienne de La Boétie, trzydziestodwuletni, tak jak ty radca parlamentu w Bordeaux, leży chory na czerwonkę; w domach w pobliżu jego mieszkania w mieście panuje dżuma. Dziś mówi ci, że jego choroba jest zaraźliwa i przykra dla otoczenia, i prosi, byś przychodził tylko od czasu do czasu. Co zrobisz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Do as he asks: come now and then, and keep yourself safe",
+            "ru": "Сделать, как он просит: приходить время от времени и беречь себя",
+            "uk": "Зробити, як він просить: приходити час від часу і берегти себе",
+            "pl": "Zrobić, jak prosi: przychodzić od czasu do czasu i uważać na siebie"
+          },
+          "reply": {
+            "en": "He asked it for your sake, and no one would have blamed you — least of all he.",
+            "ru": "Он просил об этом ради вас, и никто бы вас не упрекнул — меньше всех он сам.",
+            "uk": "Він просив про це заради вас, і ніхто б вам не дорікнув — найменше він сам.",
+            "pl": "Prosił o to dla twojego dobra i nikt by ci tego nie wyrzucał — on najmniej."
+          }
+        },
+        {
+          "choice": {
+            "en": "Stay at his side, whatever the danger",
+            "ru": "Остаться рядом с ним, какой бы ни была опасность",
+            "uk": "Залишитися поруч із ним, хай якою буде небезпека",
+            "pl": "Zostać przy nim, bez względu na niebezpieczeństwo"
+          },
+          "reply": {
+            "en": "That is what his friend did: from that day he did not leave him.",
+            "ru": "Так и поступил его друг: с того дня он не отходил от него.",
+            "uk": "Так і вчинив його друг: від того дня він не відходив від нього.",
+            "pl": "Tak właśnie postąpił jego przyjaciel: od tego dnia go nie odstępował."
+          }
+        },
+        {
+          "choice": {
+            "en": "Send the best physicians and pay for everything, but stay away",
+            "ru": "Прислать лучших врачей и за всё заплатить, но держаться в стороне",
+            "uk": "Прислати найкращих лікарів і за все заплатити, але триматися осторонь",
+            "pl": "Przysłać najlepszych lekarzy i za wszystko zapłacić, ale trzymać się z daleka"
+          },
+          "reply": {
+            "en": "You give what money can give. Is that a friendship of use, or of the good?",
+            "ru": "Вы даёте то, что могут дать деньги. Это дружба ради пользы или ради блага?",
+            "uk": "Ви даєте те, що можуть дати гроші. Це дружба задля користі чи задля добра?",
+            "pl": "Dajesz to, co mogą dać pieniądze. Czy to przyjaźń dla pożytku, czy dla dobra?"
+          }
+        },
+        {
+          "choice": {
+            "en": "Bring a notary: help him put his affairs in order while he can",
+            "ru": "Привести нотариуса: помочь ему привести дела в порядок, пока он может",
+            "uk": "Привести нотаря: допомогти йому впорядкувати справи, поки він може",
+            "pl": "Sprowadzić notariusza: pomóc mu uporządkować sprawy, póki może"
+          },
+          "reply": {
+            "en": "He did that himself, clear-headed: he made his will and took leave of each of his own.",
+            "ru": "Это он сделал сам, в ясном уме: составил завещание и простился с каждым из близких.",
+            "uk": "Це він зробив сам, при ясному розумі: склав заповіт і попрощався з кожним із близьких.",
+            "pl": "Zrobił to sam, w pełni przytomny: sporządził testament i pożegnał się z każdym z bliskich."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "This was Michel de Montaigne, thirty. He stayed. La Boétie left him his library, “a memorial of your old companion”; on Wednesday 18 August, at three in the morning, an hour after Montaigne had stepped out of the room, he called him by name once or twice and died. Montaigne told it all in a letter to his father — and years later, in his essay Of Friendship, gave the only reason he could find for their friendship:",
+        "ru": "Это был Мишель Монтень, тридцати лет. Он остался. Ла Боэси завещал ему свою библиотеку — «память о вашем старом товарище»; в среду, 18 августа, в три часа ночи, через час после того, как Монтень вышел из комнаты, он раз или два позвал его по имени и умер. Монтень рассказал обо всём в письме к отцу — а годы спустя, в опыте «О дружбе», назвал единственную причину их дружбы, какую мог найти:",
+        "uk": "Це був Мішель Монтень, тридцяти років. Він залишився. Ла Боесі заповів йому свою бібліотеку — «пам’ять про вашого старого товариша»; у середу, 18 серпня, о третій годині ночі, за годину після того, як Монтень вийшов із кімнати, він раз чи двічі покликав його на ім’я і помер. Монтень розповів про все в листі до батька — а роки по тому, в есеї «Про дружбу», назвав єдину причину їхньої дружби, яку міг знайти:",
+        "pl": "To był Michel de Montaigne, trzydziestoletni. Został. La Boétie zapisał mu swoją bibliotekę — „pamiątkę po twoim dawnym towarzyszu”; w środę 18 sierpnia o trzeciej nad ranem, godzinę po tym, jak Montaigne wyszedł z pokoju, raz czy dwa zawołał go po imieniu i zmarł. Montaigne opisał wszystko w liście do ojca — a po latach, w eseju O przyjaźni, podał jedyną przyczynę ich przyjaźni, jaką umiał znaleźć:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Montaigne, letter to his father on the death of La Boétie",
+            "ru": "Монтень, письмо к отцу о смерти Ла Боэси",
+            "uk": "Монтень, лист до батька про смерть Ла Боесі",
+            "pl": "Montaigne, list do ojca o śmierci La Boétie’go"
+          },
+          "quotes": {
+            "en": {
+              "edition": "letters-friendship.en.hazlitt",
+              "from": "1.3",
+              "to": "1.3",
+              "text": "He then gave me to understand that his complaint was infectious, and, moreover, disagreeable and depressing; and that he, knowing thoroughly my constitution, desired that I should content myself with coming to see him now and then. On the contrary, after that I never left his side.",
+              "kind": "Free",
+              "translator": "William Carew Hazlitt",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne/The_Letters_of_Montaigne",
+                "lang": "en",
+                "title": "Montaigne, Letters"
+              }
+            },
+            "ru": {
+              "edition": "letters-friendship.ru.ours",
+              "from": "1.3",
+              "to": "1.3",
+              "text": "Тогда он дал мне понять, что его болезнь заразна, а кроме того, неприятна и тягостна, и что он, хорошо зная мою натуру, желает, чтобы я довольствовался тем, что буду навещать его время от времени. Напротив, с тех пор я не отходил от него.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne/The_Letters_of_Montaigne",
+                "lang": "en",
+                "title": "Монтень, «Письма»"
+              }
+            },
+            "uk": {
+              "edition": "letters-friendship.uk.ours",
+              "from": "1.3",
+              "to": "1.3",
+              "text": "Тоді він дав мені зрозуміти, що його хвороба заразна, а крім того, неприємна й гнітюча, і що він, добре знаючи мою натуру, бажає, щоб я задовольнявся тим, що навідуватиму його час від часу. Навпаки, відтоді я не відходив від нього.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne/The_Letters_of_Montaigne",
+                "lang": "en",
+                "title": "Монтень, «Листи»"
+              }
+            },
+            "pl": {
+              "edition": "letters-friendship.pl.ours",
+              "from": "1.3",
+              "to": "1.3",
+              "text": "Dał mi wtedy do zrozumienia, że jego choroba jest zaraźliwa, a ponadto przykra i przygnębiająca, i że on, dobrze znając moją naturę, pragnie, abym poprzestał na odwiedzaniu go od czasu do czasu. Przeciwnie, odtąd nie odstępowałem go.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne/The_Letters_of_Montaigne",
+                "lang": "en",
+                "title": "Montaigne, Listy"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Discours_de_la_servitude_volontaire/%C3%89dition_1922/Lettre_de_Montaigne"
+          }
+        },
+        {
+          "by": {
+            "en": "Montaigne, Essays I.27, Of Friendship (I.28 in French editions)",
+            "ru": "Монтень, «Опыты», I.27, «О дружбе» (во французских изданиях I.28)",
+            "uk": "Монтень, «Проби», I.27, «Про дружбу» (у французьких виданнях I.28)",
+            "pl": "Montaigne, Próby I.27, O przyjaźni (w wydaniach francuskich I.28)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "essays-friendship.en.cotton",
+              "from": "1.27",
+              "to": "1.27",
+              "text": "For the rest, what we commonly call friends and friendships, are nothing but acquaintance and familiarities, either occasionally contracted, or upon some design, by means of which there happens some little intercourse betwixt our souls. But in the friendship I speak of, they mix and work themselves into one piece, with so universal a mixture, that there is no more sign of the seam by which they were first conjoined. If a man should importune me to give a reason why I loved him, I find it could no otherwise be expressed, than by making answer: because it was he, because it was I.",
+              "kind": "Free",
+              "translator": "Charles Cotton, revised by William Carew Hazlitt",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Montaigne, Essays"
+              }
+            },
+            "ru": {
+              "edition": "essays-friendship.ru.ours",
+              "from": "1.27",
+              "to": "1.27",
+              "text": "Впрочем, то, что мы обычно называем друзьями и дружбой, — не более чем знакомства и приятельства, завязавшиеся по случаю или с какой-нибудь целью, благодаря которым между нашими душами возникает некоторое общение. В той же дружбе, о которой я говорю, они смешиваются и сливаются в одно целое, смешением столь полным, что не остаётся и следа шва, которым они были вначале соединены. Если бы меня настойчиво спрашивали, почему я его любил, я чувствую, что не мог бы выразить этого иначе, чем ответив: потому что это был он, потому что это был я.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Монтень, «Опыты»"
+              }
+            },
+            "uk": {
+              "edition": "essays-friendship.uk.ours",
+              "from": "1.27",
+              "to": "1.27",
+              "text": "Утім, те, що ми зазвичай називаємо друзями і дружбою, — це лише знайомства й приятелювання, що зав’язалися з нагоди або з якоюсь метою і завдяки яким між нашими душами виникає деяке спілкування. У тій же дружбі, про яку я кажу, вони змішуються і зливаються в одне ціле, змішанням таким повним, що не лишається й сліду шва, яким вони були спершу з’єднані. Якби мене настійливо питали, чому я його любив, я відчуваю, що не міг би висловити цього інакше, ніж відповівши: бо це був він, бо це був я.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Монтень, «Проби»"
+              }
+            },
+            "pl": {
+              "edition": "essays-friendship.pl.ours",
+              "from": "1.27",
+              "to": "1.27",
+              "text": "Zresztą to, co zwykle nazywamy przyjaciółmi i przyjaźnią, to tylko znajomości i zażyłości, zawarte przy jakiejś okazji albo w jakimś celu, dzięki którym między naszymi duszami powstaje jakieś obcowanie. W przyjaźni zaś, o której mówię, mieszają się one i stapiają w jedno, tak całkowicie, że nie ma już śladu szwu, którym je na początku połączono. Gdyby ktoś nalegał, bym powiedział, dlaczego go kochałem, czuję, że nie umiałbym tego wyrazić inaczej niż odpowiadając: bo to był on, bo to byłem ja.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Montaigne, Próby"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Essais/Livre_I/Chapitre_28"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "They had met by chance, at a great feast in the city, and were at once, Montaigne writes, nearer to each other than to anything else; their friendship lasted four years.",
+            "ru": "Они встретились случайно, на большом городском празднестве, и сразу, пишет Монтень, стали друг другу ближе всего на свете; их дружба длилась четыре года.",
+            "uk": "Вони зустрілися випадково, на великому міському святі, і одразу, пише Монтень, стали одне одному найближчими на світі; їхня дружба тривала чотири роки.",
+            "pl": "Spotkali się przypadkiem, na wielkiej uczcie w mieście, i od razu, pisze Montaigne, byli sobie bliżsi niż cokolwiek innego; ich przyjaźń trwała cztery lata."
+          },
+          "source": "Montaigne, Essays I.27 (Of Friendship)"
+        },
+        {
+          "fact": {
+            "en": "As a youth La Boétie had written the Discourse on Voluntary Servitude, against tyranny. Montaigne meant to set it at the heart of his first book; when Huguenot pamphleteers printed it in the 1570s as a weapon against the crown, he left it out.",
+            "ru": "В юности Ла Боэси написал «Рассуждение о добровольном рабстве», направленное против тирании. Монтень хотел поместить его в самую середину первой книги «Опытов», но когда в 1570-е годы гугенотские памфлетисты напечатали его как оружие против короны, он отказался от этого.",
+            "uk": "Замолоду Ла Боесі написав «Міркування про добровільне рабство», спрямоване проти тиранії. Монтень хотів умістити його в самій середині першої книги «Проб», але коли в 1570-х роках гугенотські памфлетисти надрукували його як зброю проти корони, він від цього відмовився.",
+            "pl": "W młodości La Boétie napisał Rozprawę o dobrowolnej niewoli, wymierzoną w tyranię. Montaigne chciał umieścić ją w samym środku pierwszej księgi Prób; gdy w latach siedemdziesiątych XVI wieku hugenoccy pamfleciści wydrukowali ją jako broń przeciw koronie, zrezygnował z tego."
+          },
+          "source": "Montaigne, Essays I.27 (Of Friendship); Donald M. Frame, Montaigne: A Biography (1965)"
+        }
+      ]
+    },
+    {
+      "think": "friendship",
+      "question": {
+        "en": "Think of a friend you have, or once had. What holds you together — what you do for each other, the pleasure of each other's company, or who each of you is? Would the friendship last if one of you could no longer give the other anything?",
+        "ru": "Вспомните друга, который у вас есть или был когда-то. Что вас связывает — то, что вы делаете друг для друга, удовольствие от общества друг друга или то, кто вы оба есть? Продолжалась бы ваша дружба, если бы один из вас больше ничего не мог дать другому?",
+        "uk": "Згадайте друга, який у вас є або був колись. Що вас поєднує — те, що ви робите одне для одного, приємність товариства одне одного чи те, ким ви обоє є? Чи тривала б ваша дружба, якби один із вас більше нічого не міг дати іншому?",
+        "pl": "Pomyśl o przyjacielu, którego masz albo kiedyś miałeś. Co was łączy — to, co dla siebie robicie, przyjemność wspólnego towarzystwa, czy to, kim każde z was jest? Czy przyjaźń by przetrwała, gdyby jedno z was nie mogło już nic dać drugiemu?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: what is friendship?",
+        "ru": "А теперь: что такое дружба?",
+        "uk": "А тепер: що таке дружба?",
+        "pl": "A teraz: czym jest przyjaźń?"
+      }
+    }
+  ]
+}

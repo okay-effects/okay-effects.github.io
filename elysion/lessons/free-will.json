@@ -1,0 +1,738 @@
+{
+  "id": "free-will",
+  "title": {
+    "en": "Do we have free will?",
+    "ru": "Есть ли у нас свобода воли?",
+    "uk": "Чи маємо ми свободу волі?",
+    "pl": "Czy mamy wolną wolę?"
+  },
+  "subtitle": {
+    "en": "The Gītā, Boethius, Luther, Spinoza and Hume — and you",
+    "ru": "Гита, Боэций, Лютер, Спиноза и Юм — и вы",
+    "uk": "Ґіта, Боецій, Лютер, Спіноза і Юм — і ви",
+    "pl": "Gita, Boecjusz, Luter, Spinoza i Hume — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: do we have free will?",
+        "ru": "Прежде чем читать кого-либо: есть ли у нас свобода воли?",
+        "uk": "Перш ніж читати когось: чи маємо ми свободу волі?",
+        "pl": "Zanim przeczytasz kogokolwiek: czy mamy wolną wolę?"
+      },
+      "options": [
+        {
+          "en": "Yes: whatever has shaped me, in the end I choose.",
+          "ru": "Да: что бы меня ни сформировало, в конце концов выбираю я.",
+          "uk": "Так: хоч би що мене сформувало, зрештою вибираю я.",
+          "pl": "Tak: cokolwiek mnie ukształtowało, ostatecznie wybieram ja."
+        },
+        {
+          "en": "No: everything I do has causes I did not choose.",
+          "ru": "Нет: у всего, что я делаю, есть причины, которых я не выбирал.",
+          "uk": "Ні: усе, що я роблю, має причини, яких я не вибирав.",
+          "pl": "Nie: wszystko, co robię, ma przyczyny, których nie wybrałem."
+        },
+        {
+          "en": "Both: I am free when I do what I want, even if my wants have causes.",
+          "ru": "И то и другое: я свободен, когда делаю то, что хочу, даже если у моих желаний есть причины.",
+          "uk": "І те, і те: я вільний, коли роблю те, що хочу, навіть якщо мої бажання мають причини.",
+          "pl": "Jedno i drugie: jestem wolny, gdy robię, co chcę, nawet jeśli moje pragnienia mają przyczyny."
+        },
+        {
+          "en": "Freedom is not given: it is won, by understanding what moves us.",
+          "ru": "Свобода не дана: её добывают, понимая, что нами движет.",
+          "uk": "Свобода не дана: її здобувають, розуміючи, що нами рухає.",
+          "pl": "Wolność nie jest dana: zdobywa się ją, rozumiejąc, co nami porusza."
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "The Gītā: nature will constrain you",
+        "ru": "Гита: природа принудит тебя",
+        "uk": "Ґіта: природа змусить тебе",
+        "pl": "Gita: natura cię przymusi"
+      },
+      "intro": {
+        "en": "At the end of the Gītā Krishna has taught Arjuna everything, and the warrior still has to decide whether to fight. Krishna says two things that seem to clash: your nature will make you act — and act as you like.",
+        "ru": "В конце Гиты Кришна уже всему научил Арджуну, а воину всё ещё предстоит решить, вступать ли в бой. Кришна говорит две вещи, которые, кажется, спорят друг с другом: твоя природа заставит тебя действовать — и поступай как хочешь.",
+        "uk": "Наприкінці Ґіти Крішна вже всього навчив Арджуну, а воїнові ще належить вирішити, чи битися. Крішна каже дві речі, які ніби суперечать одна одній: твоя природа змусить тебе діяти — і чини, як хочеш.",
+        "pl": "Pod koniec Gity Kryszna nauczył już Ardżunę wszystkiego, a wojownik wciąż musi zdecydować, czy walczyć. Kryszna mówi dwie rzeczy, które zdają się sobie przeczyć: twoja natura zmusi cię do działania — i czyń, jak chcesz."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Bhagavad Gītā 18.59–63",
+            "ru": "Бхагавадгита, 18.59–63",
+            "uk": "Бгаґавадґіта, 18.59–63",
+            "pl": "Bhagawadgita 18.59–63"
+          },
+          "quotes": {
+            "en": {
+              "edition": "gita.en.telang18",
+              "from": "18.59",
+              "to": "18.63",
+              "text": "If entertaining egotism, you think that you may not fight, vain, indeed, is that resolution of yours. Nature will constrain you. That, O son of Kuntî! which through delusion you do not wish to do, you will do involuntarily, tied down by your own duty, flowing from your nature. The lord, O Arguna! is seated in the region of the heart of all beings, turning round all beings (as though) mounted on a machine, by his delusion. With him, O descendant of Bharata! seek shelter in every way; by his favour you will obtain the highest tranquillity, the eternal seat. Thus have I declared to you the knowledge more mysterious than any mystery. Ponder over it thoroughly, and then act as you like.",
+              "kind": "Free",
+              "translator": "K. T. Telang",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "The Bhagavad Gītā"
+              }
+            },
+            "ru": {
+              "edition": "gita.ru.ours",
+              "from": "18.59",
+              "to": "18.63",
+              "text": "Если, поддавшись самомнению, ты думаешь, что можешь не сражаться, тщетно это твоё решение. Природа принудит тебя. То, о сын Кунти, чего из-за заблуждения ты не хочешь делать, ты сделаешь и против воли, связанный своим собственным долгом, проистекающим из твоей природы. Владыка, о Арджуна, пребывает в области сердца всех существ и силой своего наваждения вращает все существа, словно закреплённые на машине. У него, о потомок Бхараты, всеми силами ищи прибежища; его милостью ты обретёшь высший покой, вечную обитель. Так я открыл тебе знание, таинственнее всякой тайны. Обдумай его до конца — и тогда поступай как хочешь.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "«Бхагавадгита»"
+              }
+            },
+            "uk": {
+              "edition": "gita.uk.ours",
+              "from": "18.59",
+              "to": "18.63",
+              "text": "Якщо, піддавшись зарозумілості, ти думаєш, що можеш не битися, марне це твоє рішення. Природа змусить тебе. Те, о сину Кунті, чого через оману ти не хочеш робити, ти зробиш і мимоволі, зв’язаний власним обов’язком, що випливає з твоєї природи. Владика, о Арджуно, перебуває в ділянці серця всіх істот і силою своєї омани обертає всі істоти, ніби закріплені на машині. У нього, о нащадку Бгарати, всіма силами шукай притулку; його ласкою ти здобудеш найвищий спокій, вічну обитель. Так я відкрив тобі знання, таємніше за будь-яку таємницю. Обміркуй його до кінця — і тоді чини, як хочеш.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "«Бгаґавадґіта»"
+              }
+            },
+            "pl": {
+              "edition": "gita.pl.ours",
+              "from": "18.59",
+              "to": "18.63",
+              "text": "Jeśli, ulegając zarozumiałości, myślisz, że możesz nie walczyć, daremne jest to twoje postanowienie. Natura cię przymusi. To, o synu Kunti, czego przez złudzenie nie chcesz uczynić, uczynisz mimowolnie, związany własnym obowiązkiem, płynącym z twojej natury. Pan, o Ardżuno, przebywa w okolicy serca wszystkich istot i mocą swego złudzenia obraca wszystkie istoty, jakby osadzone na machinie. U niego, o potomku Bharaty, na wszelki sposób szukaj schronienia; jego łaską osiągniesz najwyższy spokój, wieczną siedzibę. Tak oto wyłożyłem ci wiedzę bardziej tajemną niż wszelka tajemnica. Rozważ ją gruntownie, a potem czyń, jak chcesz.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_8/1882/Bhagavadgîtâ_Translation",
+                "lang": "en",
+                "title": "Bhagawadgita"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Sanskrit",
+              "ru": "оригинал на санскрите",
+              "uk": "оригінал санскритом",
+              "pl": "oryginał w sanskrycie"
+            },
+            "url": "https://sa.wikisource.org/wiki/भगवद्गीता/मोक्षसंन्यासयोगः"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Earlier, in chapter 11, Krishna shows Arjuna his universal form — all worlds and all times in one body. Yet his last word on it all is “act as you like”; and Arjuna answers that his delusion is gone and he will do as Krishna bids (18.73).",
+            "ru": "Раньше, в 11-й главе, Кришна являет Арджуне свой вселенский облик — все миры и все времена в одном теле. И всё же его последнее слово обо всём этом — «поступай как хочешь»; а Арджуна отвечает, что его заблуждение рассеялось и он исполнит волю Кришны (18.73).",
+            "uk": "Раніше, в 11-му розділі, Крішна являє Арджуні свій всесвітній образ — усі світи й усі часи в одному тілі. І все ж його останнє слово про все це — «чини, як хочеш»; а Арджуна відповідає, що його омана розвіялася і він виконає волю Крішни (18.73).",
+            "pl": "Wcześniej, w rozdziale 11, Kryszna ukazuje Ardżunie swą postać wszechświata — wszystkie światy i wszystkie czasy w jednym ciele. A jednak jego ostatnie słowo o tym wszystkim brzmi: „czyń, jak chcesz”; Ardżuna zaś odpowiada, że jego złudzenie minęło i spełni wolę Kryszny (18.73)."
+          },
+          "source": "Bhagavad Gītā 11; 18.63; 18.73"
+        },
+        {
+          "fact": {
+            "en": "J. Robert Oppenheimer later recalled that at the first atomic test, in July 1945, a line of chapter 11 came to his mind: “Now I am become Death, the destroyer of worlds.”",
+            "ru": "Роберт Оппенгеймер позже вспоминал, что при первом испытании атомной бомбы в июле 1945 года ему пришла на ум строка из 11-й главы: «Теперь я — Смерть, разрушитель миров».",
+            "uk": "Роберт Оппенгеймер згодом згадував, що під час першого випробування атомної бомби в липні 1945 року йому спав на думку рядок з 11-го розділу: «Тепер я — Смерть, руйнівник світів».",
+            "pl": "J. Robert Oppenheimer wspominał później, że podczas pierwszej próby atomowej, w lipcu 1945 roku, przyszedł mu na myśl wers z rozdziału 11: „Oto stałem się Śmiercią, niszczycielem światów”."
+          },
+          "source": "Kai Bird and Martin J. Sherwin, American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer (2005)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Boethius: if God foresees everything",
+        "ru": "Боэций: если Бог всё предвидит",
+        "uk": "Боецій: якщо Бог усе передбачає",
+        "pl": "Boecjusz: jeśli Bóg wszystko przewiduje"
+      },
+      "intro": {
+        "en": "In prison, waiting for death, Boethius asks Philosophy the hardest question of his book: if God already knows what I will do, how can I be free? First his question; then Philosophy's answer, with an image.",
+        "ru": "В тюрьме, в ожидании смерти, Боэций задаёт Философии самый трудный вопрос своей книги: если Бог уже знает, что я сделаю, как я могу быть свободен? Сначала его вопрос; затем ответ Философии — с образом.",
+        "uk": "У в’язниці, чекаючи смерті, Боецій ставить Філософії найважче питання своєї книжки: якщо Бог уже знає, що я зроблю, як я можу бути вільним? Спершу його питання; потім відповідь Філософії — з образом.",
+        "pl": "W więzieniu, czekając na śmierć, Boecjusz zadaje Filozofii najtrudniejsze pytanie swojej księgi: jeśli Bóg już wie, co zrobię, jak mogę być wolny? Najpierw jego pytanie; potem odpowiedź Filozofii — z obrazem."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Boethius, The Consolation of Philosophy V, prose 3 — Boethius asks",
+            "ru": "Боэций, «Утешение философией», V, проза 3 — спрашивает Боэций",
+            "uk": "Боецій, «Розрада від філософії», V, проза 3 — питає Боецій",
+            "pl": "Boecjusz, O pocieszeniu, jakie daje filozofia V, proza 3 — pyta Boecjusz"
+          },
+          "quotes": {
+            "en": {
+              "edition": "consolation.en.james5",
+              "from": "5.3",
+              "to": "5.3",
+              "text": "For if God foresees everything, and can in no wise be deceived, that which providence foresees to be about to happen must necessarily come to pass. Wherefore, if from eternity He foreknows not only what men will do, but also their designs and purposes, there can be no freedom of the will, seeing that nothing can be done, nor can any sort of purpose be entertained, save such as a Divine providence, incapable of being deceived, has perceived beforehand.",
+              "kind": "Free",
+              "translator": "H. R. James",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Consolation_of_Philosophy_(James)",
+                "lang": "en",
+                "title": "Boethius, The Consolation of Philosophy"
+              }
+            },
+            "ru": {
+              "edition": "consolation.ru.ours",
+              "from": "5.3",
+              "to": "5.3",
+              "text": "Ведь если Бог предвидит всё и никоим образом не может обмануться, то, что провидение предвидит как грядущее, непременно должно произойти. Поэтому, если Он от века знает наперёд не только дела людей, но и их замыслы и намерения, никакой свободы воли быть не может: ведь нельзя ни совершить что-либо, ни возыметь какое бы то ни было намерение, кроме того, что заранее усмотрело Божественное провидение, не способное обмануться.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Consolation_of_Philosophy_(James)",
+                "lang": "en",
+                "title": "Боэций, «Утешение философией»"
+              }
+            },
+            "uk": {
+              "edition": "consolation.uk.ours",
+              "from": "5.3",
+              "to": "5.3",
+              "text": "Адже якщо Бог передбачає все і жодним чином не може помилитися, то те, що провидіння передбачає як майбутнє, неодмінно мусить статися. Тому, якщо Він від віку знає наперед не лише вчинки людей, а й їхні задуми й наміри, жодної свободи волі бути не може: адже не можна ні вчинити щось, ні мати будь-який намір, окрім того, що заздалегідь побачило Боже провидіння, яке не здатне помилитися.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Consolation_of_Philosophy_(James)",
+                "lang": "en",
+                "title": "Боецій, «Розрада від філософії»"
+              }
+            },
+            "pl": {
+              "edition": "consolation.pl.ours",
+              "from": "5.3",
+              "to": "5.3",
+              "text": "Jeśli bowiem Bóg przewiduje wszystko i w żaden sposób nie może się omylić, to, co opatrzność przewiduje jako mające nastąpić, musi koniecznie się stać. Dlatego, jeśli od wieków zna On z góry nie tylko czyny ludzi, lecz także ich zamysły i zamiary, nie może być żadnej wolności woli, skoro nie można niczego uczynić ani powziąć jakiegokolwiek zamiaru poza tym, co wcześniej dostrzegła Boska opatrzność, która nie może się omylić.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Consolation_of_Philosophy_(James)",
+                "lang": "en",
+                "title": "Boecjusz, O pocieszeniu, jakie daje filozofia"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/De_philosophiae_consolatione/Liber_Quintus"
+          }
+        },
+        {
+          "by": {
+            "en": "Boethius, The Consolation of Philosophy V, prose 6 — Philosophy answers",
+            "ru": "Боэций, «Утешение философией», V, проза 6 — отвечает Философия",
+            "uk": "Боецій, «Розрада від філософії», V, проза 6 — відповідає Філософія",
+            "pl": "Boecjusz, O pocieszeniu, jakie daje filozofia V, proza 6 — odpowiada Filozofia"
+          },
+          "quotes": {
+            "en": {
+              "edition": "consolation.en.james5",
+              "from": "5.6",
+              "to": "5.6",
+              "text": "For even as ye, when at one and the same time ye see a man walking on the earth and the sun rising in the sky, distinguish between the two, though one glance embraces both, and judge the former voluntary, the latter necessary action: so also the Divine vision in its universal range of view does in no wise confuse the characters of the things which are present to its regard, though future in respect of time.",
+              "kind": "Free",
+              "translator": "H. R. James",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Consolation_of_Philosophy_(James)",
+                "lang": "en",
+                "title": "Boethius, The Consolation of Philosophy"
+              }
+            },
+            "ru": {
+              "edition": "consolation.ru.ours",
+              "from": "5.6",
+              "to": "5.6",
+              "text": "Ибо как вы, видя в одно и то же время человека, идущего по земле, и солнце, восходящее на небе, различаете их, хотя один взгляд охватывает оба, и считаете первое действием добровольным, а второе — необходимым, так и Божественный взор, охватывающий всё, никак не смешивает свойств вещей, представших ему, хотя по времени они ещё в будущем.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Consolation_of_Philosophy_(James)",
+                "lang": "en",
+                "title": "Боэций, «Утешение философией»"
+              }
+            },
+            "uk": {
+              "edition": "consolation.uk.ours",
+              "from": "5.6",
+              "to": "5.6",
+              "text": "Бо як ви, бачачи водночас людину, що йде по землі, і сонце, що сходить на небі, розрізняєте їх, хоч один погляд охоплює обидва, і вважаєте перше дією добровільною, а друге — необхідною, так і Божественний погляд, що охоплює все, жодним чином не змішує властивостей речей, які постають перед ним, хоч за часом вони ще в майбутньому.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Consolation_of_Philosophy_(James)",
+                "lang": "en",
+                "title": "Боецій, «Розрада від філософії»"
+              }
+            },
+            "pl": {
+              "edition": "consolation.pl.ours",
+              "from": "5.6",
+              "to": "5.6",
+              "text": "Jak bowiem wy, widząc zarazem człowieka idącego po ziemi i słońce wschodzące na niebie, rozróżniacie jedno od drugiego, choć jedno spojrzenie obejmuje oba, i uznajecie pierwsze za działanie dobrowolne, a drugie za konieczne, tak i Boskie spojrzenie, obejmujące wszystko, w żaden sposób nie miesza właściwości rzeczy, które ma przed sobą, choć co do czasu są one jeszcze przyszłe.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Consolation_of_Philosophy_(James)",
+                "lang": "en",
+                "title": "Boecjusz, O pocieszeniu, jakie daje filozofia"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/De_philosophiae_consolatione/Liber_Quintus"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "His definition of eternity in this same prose — “the possession of endless life whole and perfect at a single moment” — became the classic one: seven centuries later Thomas Aquinas opens his question on God's eternity by defending it.",
+            "ru": "Его определение вечности из той же прозы — «обладание бесконечной жизнью, целой и совершенной, в единый миг» — стало классическим: семь веков спустя Фома Аквинский открывает свой вопрос о вечности Бога его защитой.",
+            "uk": "Його визначення вічності з тієї ж прози — «володіння безконечним життям, цілим і досконалим, в одну мить» — стало класичним: через сім століть Тома Аквінський відкриває своє питання про вічність Бога його обороною.",
+            "pl": "Jego definicja wieczności z tej samej prozy — „posiadanie nieskończonego życia, całego i doskonałego, w jednej chwili” — stała się klasyczna: siedem wieków później Tomasz z Akwinu otwiera swoją kwestię o wieczności Boga jej obroną."
+          },
+          "source": "Thomas Aquinas, Summa Theologiae I, q. 10, a. 1"
+        },
+        {
+          "fact": {
+            "en": "The Consolation was read and translated through the Middle Ages and after; into English, among others, by King Alfred in the ninth century and by Queen Elizabeth I in 1593.",
+            "ru": "«Утешение» читали и переводили всё Средневековье и позже; на английский его перевели, среди прочих, король Альфред в IX веке и королева Елизавета I в 1593 году.",
+            "uk": "«Розраду» читали й перекладали все Середньовіччя і пізніше; англійською її переклали, серед інших, король Альфред у IX столітті та королева Єлизавета I 1593 року.",
+            "pl": "O pocieszeniu czytano i tłumaczono przez całe średniowiecze i później; na angielski przełożyli je między innymi król Alfred w IX wieku i królowa Elżbieta I w 1593 roku."
+          },
+          "source": "W. J. Sedgefield (ed.), King Alfred's Old English Version of Boethius (1899); Caroline Pemberton (ed.), Queen Elizabeth's Englishings of Boethius (1899)"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Worms, 1521",
+        "ru": "Вормс, 1521 год",
+        "uk": "Вормс, 1521 рік",
+        "pl": "Wormacja, 1521"
+      },
+      "scene": {
+        "en": "You are Martin Luther, an Augustinian friar and professor at Wittenberg; the Pope has already excommunicated you. In a crowded hall at Worms, before the young Emperor Charles V and the princes of the Empire, your books lie on a table. Yesterday you were asked: are these yours, and will you take back what they say? You asked for time to think and were given one day. Now the answer is due. What do you say?",
+        "ru": "Вы — Мартин Лютер, монах-августинец и профессор в Виттенберге; папа уже отлучил вас от Церкви. В переполненном зале в Вормсе, перед молодым императором Карлом V и князьями Империи, на столе лежат ваши книги. Вчера вас спросили: ваши ли это книги и отречётесь ли вы от того, что в них написано? Вы попросили время на размышление, и вам дали один день. Теперь нужен ответ. Что вы скажете?",
+        "uk": "Ви — Мартін Лютер, чернець-августинець і професор у Віттенберзі; папа вже відлучив вас від Церкви. У переповненій залі у Вормсі, перед молодим імператором Карлом V і князями Імперії, на столі лежать ваші книжки. Учора вас запитали: чи це ваші книжки і чи зречетеся ви того, що в них написано? Ви попросили часу на роздуми, і вам дали один день. Тепер потрібна відповідь. Що ви скажете?",
+        "pl": "Jesteś Marcinem Lutrem, augustiańskim zakonnikiem i profesorem w Wittenberdze; papież już cię ekskomunikował. W zatłoczonej sali w Wormacji, przed młodym cesarzem Karolem V i książętami Rzeszy, na stole leżą twoje książki. Wczoraj zapytano cię: czy to twoje książki i czy odwołasz to, co w nich napisano? Poprosiłeś o czas do namysłu i dano ci jeden dzień. Teraz trzeba odpowiedzieć. Co powiesz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Recant everything: the Church has spoken",
+            "ru": "Отречься от всего: Церковь уже сказала своё слово",
+            "uk": "Зректися всього: Церква вже сказала своє слово",
+            "pl": "Odwołać wszystko: Kościół już przemówił"
+          },
+          "reply": {
+            "en": "That is what the Emperor's spokesman asks of you. A century earlier Jan Hus also came to a council under a safe-conduct, refused to recant, and was burned.",
+            "ru": "Именно этого требует от вас представитель императора. Веком раньше Ян Гус тоже явился на собор с охранной грамотой, отказался отречься — и был сожжён.",
+            "uk": "Саме цього вимагає від вас речник імператора. Століттям раніше Ян Гус теж прибув на собор з охоронною грамотою, відмовився зректися — і був спалений.",
+            "pl": "Właśnie tego żąda od ciebie rzecznik cesarza. Sto lat wcześniej Jan Hus także przybył na sobór z listem żelaznym, odmówił odwołania — i został spalony."
+          }
+        },
+        {
+          "choice": {
+            "en": "Take back only the harshest books, those against persons",
+            "ru": "Отречься лишь от самых резких книг — тех, что против отдельных лиц",
+            "uk": "Зректися лише найрізкіших книжок — тих, що проти окремих осіб",
+            "pl": "Odwołać tylko najostrzejsze książki — te przeciw poszczególnym osobom"
+          },
+          "reply": {
+            "en": "Luther did admit that he had attacked some persons more violently than became him — and still would not take those books back, lest he strengthen his opponents.",
+            "ru": "Лютер и правда признал, что нападал на некоторых людей резче, чем подобало, — и всё же не отрёкся и от этих книг, чтобы не укрепить своих противников.",
+            "uk": "Лютер справді визнав, що нападав на деяких людей різкіше, ніж личило, — і все ж не зрікся й цих книжок, щоб не зміцнити своїх супротивників.",
+            "pl": "Luter rzeczywiście przyznał, że atakował niektóre osoby ostrzej, niż przystało — a jednak nie odwołał i tych książek, by nie wzmocnić swoich przeciwników."
+          }
+        },
+        {
+          "choice": {
+            "en": "Refuse — unless you are shown wrong by Scripture or by plain reason",
+            "ru": "Отказаться — если только вам не докажут ошибку Писанием или ясными доводами",
+            "uk": "Відмовитися — якщо тільки вам не доведуть помилки Письмом або ясними доводами",
+            "pl": "Odmówić — chyba że ktoś wykaże ci błąd Pismem lub jasnym rozumowaniem"
+          },
+          "reply": {
+            "en": "That was Luther's answer — given first in German, then again in Latin.",
+            "ru": "Таков и был ответ Лютера — сначала по-немецки, а потом ещё раз по-латыни.",
+            "uk": "Такою і була відповідь Лютера — спершу німецькою, а потім ще раз латиною.",
+            "pl": "Taka właśnie była odpowiedź Lutra — najpierw po niemiecku, a potem raz jeszcze po łacinie."
+          }
+        },
+        {
+          "choice": {
+            "en": "Say you cannot answer yet: ask for more time",
+            "ru": "Сказать, что ещё не можете ответить: попросить ещё времени",
+            "uk": "Сказати, що ще не можете відповісти: попросити ще часу",
+            "pl": "Powiedzieć, że jeszcze nie możesz odpowiedzieć: poprosić o więcej czasu"
+          },
+          "reply": {
+            "en": "You did that yesterday and were given one day. Today a plain, direct answer is demanded of you.",
+            "ru": "Это вы сделали вчера, и вам дали один день. Сегодня от вас требуют простого и прямого ответа.",
+            "uk": "Це ви зробили вчора, і вам дали один день. Сьогодні від вас вимагають простої і прямої відповіді.",
+            "pl": "Zrobiłeś to wczoraj i dano ci jeden dzień. Dziś żąda się od ciebie prostej i jasnej odpowiedzi."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "Luther refused. Unless he was convinced by Scripture or by clear reason, he said, he would take back nothing, for it cannot be right to go against one's conscience. A month later the Edict of Worms declared him an outlaw, and his prince, Frederick the Wise, had him hidden in the Wartburg castle. And now the question of this lesson: Luther said he could say no more — was his choice free? Four years later, against Erasmus, he wrote On the Bondage of the Will: before God, he argued, the human will is not free.",
+        "ru": "Лютер отказался. Если его не убедят Писанием или ясными доводами, сказал он, он ни от чего не отречётся, ибо не может быть правильно идти против совести. Месяц спустя Вормсский эдикт объявил его вне закона, и его государь, Фридрих Мудрый, укрыл его в замке Вартбург. А теперь вопрос этого урока: Лютер сказал, что больше ничего сказать не может, — свободен ли был его выбор? Четыре года спустя, возражая Эразму, он написал «О рабстве воли»: перед Богом, утверждал он, человеческая воля не свободна.",
+        "uk": "Лютер відмовився. Якщо його не переконають Письмом або ясними доводами, сказав він, він ні від чого не зречеться, бо не може бути правильно йти проти совісті. Через місяць Вормський едикт оголосив його поза законом, і його князь, Фрідріх Мудрий, сховав його в замку Вартбург. А тепер питання цього уроку: Лютер сказав, що більше нічого сказати не може, — чи був його вибір вільним? Через чотири роки, заперечуючи Еразмові, він написав «Про рабство волі»: перед Богом, доводив він, людська воля не вільна.",
+        "pl": "Luter odmówił. Jeśli nie przekona go Pismo ani jasne rozumowanie, powiedział, niczego nie odwoła, bo nie może być słuszne iść wbrew sumieniu. Miesiąc później edykt wormacki ogłosił go wyjętym spod prawa, a jego władca, Fryderyk Mądry, ukrył go na zamku Wartburg. A teraz pytanie tej lekcji: Luter powiedział, że nic więcej powiedzieć nie może — czy jego wybór był wolny? Cztery lata później, polemizując z Erazmem, napisał O niewolnej woli: przed Bogiem, dowodził, wola ludzka nie jest wolna."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Martin Luther before the Diet of Worms, 18 April 1521 — as Merle d'Aubigné gives it",
+            "ru": "Мартин Лютер перед Вормсским рейхстагом, 18 апреля 1521 года, — в изложении Мерля д’Обинье",
+            "uk": "Мартін Лютер перед Вормським рейхстагом, 18 квітня 1521 року, — у викладі Мерля д’Обіньє",
+            "pl": "Marcin Luter przed sejmem Rzeszy w Wormacji, 18 kwietnia 1521 — w przekazie Merle’a d’Aubigné"
+          },
+          "quotes": {
+            "en": {
+              "edition": "worms.en.white",
+              "from": "1.17",
+              "to": "1.17",
+              "text": "If, then, I am not convinced by proof from Holy Scripture, or by cogent reasons, if I am not satisfied by the very text I have cited, and if my judgment is not in this way brought into subjection to God's word, I neither can nor will retract anything; for it can not be right for a Christian to speak against his conscience. I stand here and can say no more. God help me. Amen.",
+              "kind": "Free",
+              "translator": "H. White",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_World%27s_Famous_Orations/Volume_7/Before_the_Diet_of_Worms",
+                "lang": "en",
+                "title": "Martin Luther, speech before the Diet of Worms (1521)"
+              }
+            },
+            "ru": {
+              "edition": "worms.ru.ours",
+              "from": "1.17",
+              "to": "1.17",
+              "text": "Итак, если меня не убедят доказательствами из Священного Писания или вескими доводами, если меня не убедит тот самый текст, который я привёл, и если моё суждение не будет таким образом подчинено слову Божьему, я не могу и не хочу ни от чего отрекаться: ибо не может быть правильно, чтобы христианин говорил против своей совести. Здесь я стою и больше ничего сказать не могу. Боже, помоги мне. Аминь.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_World%27s_Famous_Orations/Volume_7/Before_the_Diet_of_Worms",
+                "lang": "en",
+                "title": "Мартин Лютер, речь на Вормсском рейхстаге (1521)"
+              }
+            },
+            "uk": {
+              "edition": "worms.uk.ours",
+              "from": "1.17",
+              "to": "1.17",
+              "text": "Отже, якщо мене не переконають доказами зі Святого Письма або вагомими доводами, якщо мене не переконає той самий текст, який я навів, і якщо моє судження не буде в такий спосіб підкорене слову Божому, я не можу й не хочу ні від чого зрікатися: бо не може бути правильно, щоб християнин говорив проти своєї совісті. Тут я стою і більше нічого сказати не можу. Боже, допоможи мені. Амінь.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_World%27s_Famous_Orations/Volume_7/Before_the_Diet_of_Worms",
+                "lang": "en",
+                "title": "Мартін Лютер, промова на Вормському рейхстазі (1521)"
+              }
+            },
+            "pl": {
+              "edition": "worms.pl.ours",
+              "from": "1.17",
+              "to": "1.17",
+              "text": "Jeśli więc nie zostanę przekonany dowodami z Pisma Świętego lub przekonującymi racjami, jeśli nie przekona mnie ten sam tekst, który przytoczyłem, i jeśli mój sąd nie zostanie w ten sposób poddany słowu Bożemu, nie mogę i nie chcę niczego odwołać; nie może bowiem być słuszne, by chrześcijanin mówił wbrew swemu sumieniu. Tu stoję i nic więcej powiedzieć nie mogę. Boże, dopomóż mi. Amen.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_World%27s_Famous_Orations/Volume_7/Before_the_Diet_of_Worms",
+                "lang": "en",
+                "title": "Marcin Luter, mowa na sejmie w Wormacji (1521)"
+              }
+            }
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The words “Here I stand, I can do no other” are not in the notes taken in the hall: they first appear in the printed version of the speech. Only “God help me. Amen” is certainly what was heard — though the famous words may still be his.",
+            "ru": "Слов «На том стою и не могу иначе» нет в записях, сделанных в зале: они впервые появляются в печатном издании речи. Наверняка прозвучало только «Боже, помоги мне. Аминь», — хотя знаменитые слова, возможно, всё же его.",
+            "uk": "Слів «На цьому стою і не можу інакше» немає в записах, зроблених у залі: вони вперше з’являються в друкованому виданні промови. Напевно прозвучало лише «Боже, допоможи мені. Амінь», — хоча знамениті слова, можливо, все ж його.",
+            "pl": "Słów „Tu stoję, nie mogę inaczej” nie ma w notatkach sporządzonych w sali: po raz pierwszy pojawiają się w drukowanym wydaniu mowy. Na pewno padło tylko „Boże, dopomóż mi. Amen” — choć słynne słowa mogą jednak być jego."
+          },
+          "source": "Roland H. Bainton, Here I Stand: A Life of Martin Luther (1950)"
+        },
+        {
+          "fact": {
+            "en": "On his way home Luther was seized in a forest by horsemen — a “kidnapping” arranged by Frederick the Wise to keep him safe. Hidden in the Wartburg, he translated the New Testament into German; it was printed in September 1522.",
+            "ru": "По дороге домой Лютера в лесу схватили всадники — «похищение», устроенное Фридрихом Мудрым, чтобы его уберечь. Укрывшись в Вартбурге, он перевёл Новый Завет на немецкий; перевод напечатали в сентябре 1522 года.",
+            "uk": "Дорогою додому Лютера в лісі схопили вершники — «викрадення», влаштоване Фрідріхом Мудрим, щоб його вберегти. Переховуючись у Вартбурзі, він переклав Новий Заповіт німецькою; переклад надрукували у вересні 1522 року.",
+            "pl": "W drodze do domu Lutra pochwycili w lesie jeźdźcy — „porwanie” zorganizowane przez Fryderyka Mądrego, by go chronić. Ukryty na Wartburgu, przełożył Nowy Testament na niemiecki; wydrukowano go we wrześniu 1522 roku."
+          },
+          "source": "Roland H. Bainton, Here I Stand: A Life of Martin Luther (1950)"
+        },
+        {
+          "fact": {
+            "en": "Erasmus, the most famous scholar of Europe, was long pressed to write against Luther. In 1524 he did, on one question only — free will (On Free Will). Luther answered in 1525 with On the Bondage of the Will, and thanked him for going to the heart of the matter instead of quarrels over the papacy and indulgences.",
+            "ru": "Эразма, самого знаменитого учёного Европы, долго уговаривали выступить против Лютера. В 1524 году он это сделал — лишь по одному вопросу, о свободе воли («О свободе воли»). Лютер ответил в 1525 году книгой «О рабстве воли» и поблагодарил его за то, что тот взялся за самую суть дела, а не за споры о папстве и индульгенциях.",
+            "uk": "Еразма, найславетнішого вченого Європи, довго вмовляли виступити проти Лютера. 1524 року він це зробив — лише в одному питанні, про свободу волі («Про свободу волі»). Лютер відповів 1525 року книжкою «Про рабство волі» і подякував йому за те, що той узявся за саму суть справи, а не за суперечки про папство й індульгенції.",
+            "pl": "Erazma, najsłynniejszego uczonego Europy, długo nakłaniano, by wystąpił przeciw Lutrowi. W 1524 roku to zrobił — tylko w jednej sprawie, wolnej woli (O wolnej woli). Luter odpowiedział w 1525 roku dziełem O niewolnej woli i podziękował mu, że uchwycił sedno sprawy, zamiast spierać się o papiestwo i odpusty."
+          },
+          "source": "E. Gordon Rupp and Philip S. Watson (eds.), Luther and Erasmus: Free Will and Salvation (1969)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Spinoza: freedom as not knowing the causes",
+        "ru": "Спиноза: свобода как незнание причин",
+        "uk": "Спіноза: свобода як незнання причин",
+        "pl": "Spinoza: wolność jako nieznajomość przyczyn"
+      },
+      "intro": {
+        "en": "For Spinoza everything in nature follows from its causes, the human mind included. Then why do we all feel free? His answer is in a note to his Ethics. Elsewhere he adds examples: an infant believes it freely wants milk; a drunk man, that he speaks by a free decision of his mind (Ethics III, 2, note).",
+        "ru": "Для Спинозы всё в природе следует из своих причин, и человеческий ум тоже. Почему же тогда все мы чувствуем себя свободными? Его ответ — в схолии к «Этике». В другом месте он приводит примеры: младенец уверен, что свободно хочет молока, пьяный — что говорит по свободному решению ума («Этика», III, теорема 2, схолия).",
+        "uk": "Для Спінози все в природі випливає зі своїх причин, і людський розум теж. Чому ж тоді всі ми почуваємося вільними? Його відповідь — у схолії до «Етики». Деінде він наводить приклади: немовля певне, що вільно хоче молока, п’яний — що говорить із вільного рішення розуму («Етика», III, теорема 2, схолія).",
+        "pl": "Dla Spinozy wszystko w naturze wynika ze swoich przyczyn, także umysł ludzki. Dlaczego więc wszyscy czujemy się wolni? Jego odpowiedź jest w przypisie do Etyki. Gdzie indziej podaje przykłady: niemowlę wierzy, że z wolnej woli pragnie mleka, pijany — że mówi z wolnego postanowienia umysłu (Etyka III, twierdzenie 2, przypis)."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Spinoza, Ethics II, proposition 35, note",
+            "ru": "Спиноза, «Этика», II, теорема 35, схолия",
+            "uk": "Спіноза, «Етика», II, теорема 35, схолія",
+            "pl": "Spinoza, Etyka II, twierdzenie 35, przypis"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ethics.en.elwes",
+              "from": "2.35",
+              "to": "2.35",
+              "text": "For instance, men are mistaken in thinking themselves free ; their opinion is made up of consciousness of their own actions, and ignorance of the causes by which they are conditioned. Their idea of freedom, therefore, is simply their ignorance of any cause for their actions. As for their saying that human actions depend on the will, this is a mere phrase without any idea to correspond thereto.",
+              "kind": "Free",
+              "translator": "R. H. M. Elwes",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Ethics_(Spinoza)",
+                "lang": "en",
+                "title": "Baruch Spinoza, Ethics"
+              }
+            },
+            "ru": {
+              "edition": "spinoza-ethics.ru.ours",
+              "from": "2.35",
+              "to": "2.35",
+              "text": "Например, люди ошибаются, считая себя свободными; это их мнение складывается из сознания своих действий и незнания причин, которыми те обусловлены. Итак, их идея свободы есть просто незнание какой-либо причины своих действий. Что же до их слов, будто человеческие действия зависят от воли, — это пустая фраза, которой не соответствует никакая идея.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Ethics_(Spinoza)",
+                "lang": "en",
+                "title": "Барух Спиноза, «Этика»"
+              }
+            },
+            "uk": {
+              "edition": "spinoza-ethics.uk.ours",
+              "from": "2.35",
+              "to": "2.35",
+              "text": "Наприклад, люди помиляються, вважаючи себе вільними; ця їхня думка складається з усвідомлення своїх дій і незнання причин, якими ті зумовлені. Отже, їхня ідея свободи — це просто незнання будь-якої причини своїх дій. А щодо їхніх слів, ніби людські дії залежать від волі, — це порожня фраза, якій не відповідає жодна ідея.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Ethics_(Spinoza)",
+                "lang": "en",
+                "title": "Барух Спіноза, «Етика»"
+              }
+            },
+            "pl": {
+              "edition": "spinoza-ethics.pl.ours",
+              "from": "2.35",
+              "to": "2.35",
+              "text": "Na przykład ludzie mylą się, uważając się za wolnych; to ich mniemanie składa się ze świadomości własnych działań i nieznajomości przyczyn, które je warunkują. Ich idea wolności jest więc po prostu nieznajomością jakiejkolwiek przyczyny ich działań. Co zaś do ich twierdzenia, że ludzkie działania zależą od woli, jest to pusty frazes, któremu nie odpowiada żadna idea.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Ethics_(Spinoza)",
+                "lang": "en",
+                "title": "Baruch Spinoza, Etyka"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/Ethica/Pars_secunda_-_De_natura_et_origine_mentis"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "In 1656 the Portuguese-Jewish community of Amsterdam expelled Spinoza, then 23, with a herem — a writ of excommunication — for “abominable heresies”.",
+            "ru": "В 1656 году португальско-еврейская община Амстердама изгнала 23-летнего Спинозу, наложив на него херем — отлучение — за «отвратительные ереси».",
+            "uk": "1656 року португальсько-єврейська громада Амстердама вигнала 23-річного Спінозу, наклавши на нього херем — відлучення — за «огидні єресі».",
+            "pl": "W 1656 roku portugalsko-żydowska gmina Amsterdamu wykluczyła 23-letniego Spinozę, nakładając na niego cherem — klątwę — za „odrażające herezje”."
+          },
+          "source": "Steven Nadler, Spinoza: A Life (1999)"
+        },
+        {
+          "fact": {
+            "en": "He earned part of his living grinding lenses. The Ethics, set out like geometry in definitions, axioms and propositions, was published only after his death, in his Opera Posthuma (1677).",
+            "ru": "Часть средств к жизни он зарабатывал шлифовкой линз. «Этика», изложенная, как геометрия, в определениях, аксиомах и теоремах, вышла только после его смерти, в «Посмертных сочинениях» (1677).",
+            "uk": "Частину коштів на життя він заробляв шліфуванням лінз. «Етика», викладена, як геометрія, у визначеннях, аксіомах і теоремах, вийшла лише після його смерті, в «Посмертних творах» (1677).",
+            "pl": "Część środków do życia zarabiał szlifowaniem soczewek. Etyka, wyłożona jak geometria w definicjach, aksjomatach i twierdzeniach, ukazała się dopiero po jego śmierci, w Opera posthuma (1677)."
+          },
+          "source": "Steven Nadler, Spinoza: A Life (1999)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Hume: free, unless in chains",
+        "ru": "Юм: свободен всякий, кто не в цепях",
+        "uk": "Юм: вільний кожен, хто не в кайданах",
+        "pl": "Hume: wolny jest każdy, kto nie jest w kajdanach"
+      },
+      "intro": {
+        "en": "Hume thought the old quarrel of liberty and necessity was a quarrel about words. Necessity: actions follow from motives and character as regularly as effects from causes — and we count on it every day. And liberty?",
+        "ru": "Юм считал, что старый спор о свободе и необходимости — спор о словах. Необходимость: поступки следуют из мотивов и характера так же регулярно, как следствия из причин, — и мы рассчитываем на это каждый день. А свобода?",
+        "uk": "Юм вважав, що давня суперечка про свободу і необхідність — це суперечка про слова. Необхідність: вчинки випливають із мотивів і характеру так само регулярно, як наслідки з причин, — і ми розраховуємо на це щодня. А свобода?",
+        "pl": "Hume uważał, że dawny spór o wolność i konieczność jest sporem o słowa. Konieczność: czyny wynikają z motywów i charakteru równie regularnie jak skutki z przyczyn — i liczymy na to na co dzień. A wolność?"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "David Hume, An Enquiry concerning Human Understanding 8.23 (1748)",
+            "ru": "Дэвид Юм, «Исследование о человеческом познании», 8.23 (1748)",
+            "uk": "Девід Юм, «Дослідження про людське пізнання», 8.23 (1748)",
+            "pl": "David Hume, Badania dotyczące rozumu ludzkiego 8.23 (1748)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "enquiry.en.hume",
+              "from": "8.23",
+              "to": "8.23",
+              "text": "For what is meant by Liberty, when apply'd to voluntary Actions? We cannot surely mean, that Actions have so little Connexion with Motives, Inclinations, and Circumstances, that the one does not follow, with a certain Degree of Uniformity, from the other, and that the one affords no Inference, from which we can conclude the Existence of the other. For these are plain and acknowledged Matters of Fact. By Liberty, then, we can only mean, a Power of acting or not acting, according to the Determinations of the Will; that is, if we chuse to remain at rest, we may; if we chuse to move, we also may. Now this hypothetical Liberty is universally allow'd to belong to every Body, who is not a Prisoner, and in Chains. Here then is no Subject of Dispute.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Philosophical_Essays_Concerning_Human_Understanding",
+                "lang": "en",
+                "title": "David Hume, An Enquiry concerning Human Understanding"
+              }
+            },
+            "ru": {
+              "edition": "enquiry.ru.ours",
+              "from": "8.23",
+              "to": "8.23",
+              "text": "Ибо что разумеют под свободой применительно к произвольным действиям? Мы, конечно, не можем иметь в виду, что действия так мало связаны с мотивами, склонностями и обстоятельствами, что одни не следуют из других с известной степенью единообразия и что одни не дают никакого основания для вывода, по которому мы могли бы заключить о существовании других. Ибо это явные и признанные факты. Итак, под свободой мы можем разуметь лишь способность действовать или не действовать сообразно решениям воли; то есть если мы решим оставаться в покое, мы можем; если решим двигаться, тоже можем. И эта гипотетическая свобода, по всеобщему признанию, принадлежит каждому, кто не узник в цепях. Значит, здесь нет предмета для спора.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Philosophical_Essays_Concerning_Human_Understanding",
+                "lang": "en",
+                "title": "Дэвид Юм, «Исследование о человеческом познании»"
+              }
+            },
+            "uk": {
+              "edition": "enquiry.uk.ours",
+              "from": "8.23",
+              "to": "8.23",
+              "text": "Бо що розуміють під свободою стосовно вольових дій? Ми, звісно, не можемо мати на увазі, що дії настільки мало пов’язані з мотивами, схильностями й обставинами, що одні не випливають з інших із певною мірою одноманітності і що одні не дають жодного умовиводу, з якого ми могли б заключити про існування інших. Адже це очевидні й визнані факти. Отже, під свободою ми можемо розуміти лише здатність діяти або не діяти відповідно до рішень волі; тобто якщо ми вирішимо залишатися в спокої, ми можемо; якщо вирішимо рухатися, теж можемо. І ця гіпотетична свобода, за загальним визнанням, належить кожному, хто не є в’язнем у кайданах. Отже, тут немає предмета для суперечки.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Philosophical_Essays_Concerning_Human_Understanding",
+                "lang": "en",
+                "title": "Девід Юм, «Дослідження про людське пізнання»"
+              }
+            },
+            "pl": {
+              "edition": "enquiry.pl.ours",
+              "from": "8.23",
+              "to": "8.23",
+              "text": "Cóż bowiem rozumie się przez wolność w odniesieniu do działań dobrowolnych? Z pewnością nie możemy mieć na myśli tego, że działania są tak mało związane z motywami, skłonnościami i okolicznościami, iż jedne nie wynikają z drugich z pewnym stopniem jednostajności i że jedne nie dają podstawy do żadnego wnioskowania, z którego moglibyśmy wnosić o istnieniu drugich. Są to bowiem oczywiste i uznane fakty. Przez wolność możemy więc rozumieć jedynie zdolność działania lub niedziałania zgodnie z postanowieniami woli; to znaczy, jeśli postanowimy pozostać w spoczynku, możemy; jeśli postanowimy się poruszać, również możemy. Ta hipotetyczna wolność, jak powszechnie przyznają, przysługuje każdemu, kto nie jest więźniem w kajdanach. Nie ma tu więc przedmiotu sporu.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Philosophical_Essays_Concerning_Human_Understanding",
+                "lang": "en",
+                "title": "David Hume, Badania dotyczące rozumu ludzkiego"
+              }
+            }
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Hume published this book in 1748 as Philosophical Essays Concerning Human Understanding; it took the title An Enquiry concerning Human Understanding in a later edition. The English quoted here is the first edition's, with its spelling.",
+            "ru": "Юм издал эту книгу в 1748 году под названием «Философские опыты о человеческом познании»; название «Исследование о человеческом познании» она получила в одном из позднейших изданий. Английский текст цитаты — по первому изданию, с его орфографией.",
+            "uk": "Юм видав цю книжку 1748 року під назвою «Філософські есеї про людське пізнання»; назву «Дослідження про людське пізнання» вона дістала в одному з пізніших видань. Англійський текст цитати — за першим виданням, з його правописом.",
+            "pl": "Hume wydał tę książkę w 1748 roku jako Philosophical Essays Concerning Human Understanding; tytuł An Enquiry concerning Human Understanding (Badania dotyczące rozumu ludzkiego) otrzymała w jednym z późniejszych wydań. Angielski tekst cytatu podano według pierwszego wydania, z jego pisownią."
+          },
+          "source": "T. E. Jessop, A Bibliography of David Hume and of Scottish Philosophy (1938)"
+        },
+        {
+          "fact": {
+            "en": "Hume was twice refused a chair of philosophy — at Edinburgh in 1745 and at Glasgow in 1752: his name for scepticism counted against him.",
+            "ru": "Юму дважды отказывали в кафедре философии — в Эдинбурге в 1745 году и в Глазго в 1752-м: против него говорила его слава скептика.",
+            "uk": "Юмові двічі відмовляли в кафедрі філософії — в Единбурзі 1745 року і в Глазго 1752-го: проти нього свідчила його слава скептика.",
+            "pl": "Hume’owi dwukrotnie odmówiono katedry filozofii — w Edynburgu w 1745 roku i w Glasgow w 1752: przeciw niemu przemawiała jego sława sceptyka."
+          },
+          "source": "Ernest Campbell Mossner, The Life of David Hume (1954)"
+        }
+      ]
+    },
+    {
+      "think": "choose",
+      "question": {
+        "en": "Think of a choice you made that mattered. Could you have chosen otherwise — and if not, was it still yours?",
+        "ru": "Вспомните выбор, который был для вас важен. Могли бы вы выбрать иначе — а если нет, был ли он всё равно вашим?",
+        "uk": "Згадайте вибір, який був для вас важливим. Чи могли ви вибрати інакше — а якщо ні, чи був він усе одно вашим?",
+        "pl": "Pomyśl o wyborze, który był dla ciebie ważny. Czy mogłeś wybrać inaczej — a jeśli nie, czy i tak był twój?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: do we have free will?",
+        "ru": "И теперь: есть ли у нас свобода воли?",
+        "uk": "А тепер: чи маємо ми свободу волі?",
+        "pl": "A teraz: czy mamy wolną wolę?"
+      }
+    }
+  ]
+}
