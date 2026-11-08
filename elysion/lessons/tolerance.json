@@ -7,10 +7,10 @@
     "pl": "Czy powinniśmy tolerować przekonania, które uważamy za błędne?"
   },
   "subtitle": {
-    "en": "Locke, Voltaire, Mill and Ashoka — and you",
-    "ru": "Локк, Вольтер, Милль и Ашока — и вы",
-    "uk": "Локк, Вольтер, Мілль і Ашока — і ви",
-    "pl": "Locke, Wolter, Mill i Aśoka — i ty"
+    "en": "The Qur'an, Locke, Voltaire, Mill and Ashoka — and you",
+    "ru": "Коран, Локк, Вольтер, Милль и Ашока — и вы",
+    "uk": "Коран, Локк, Вольтер, Мілль і Ашока — і ви",
+    "pl": "Koran, Locke, Wolter, Mill i Aśoka — i ty"
   },
   "steps": [
     {
@@ -45,6 +45,193 @@
           "ru": "Нет: терпеть заблуждение значит не заботиться об истине",
           "uk": "Ні: терпіти помилку означає не дбати про істину",
           "pl": "Nie: tolerować błąd to nie dbać o prawdę"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "The Qur'an: no compulsion in religion",
+        "ru": "Коран: нет принуждения в религии",
+        "uk": "Коран: немає примусу в релігії",
+        "pl": "Koran: nie ma przymusu w religii"
+      },
+      "intro": {
+        "en": "Arabia, the seventh century. For some twelve years Muhammad preached in Mecca at the head of a small, often persecuted community; in 622 he and his followers moved to Medina, where he came to rule a town shared with Jewish tribes and with Arabs who had not accepted his message. The Qur'an, which Muslims hold to be the word of God revealed to him, speaks to the question of this lesson in a verse of its second and longest sura, revealed at Medina — just after the Throne Verse, which praises God's knowledge and power. Here it is in the translation of Marmaduke Pickthall, an English novelist who became a Muslim; and beside it a short sura revealed earlier, at Mecca:",
+        "ru": "Аравия, VII век. Около двенадцати лет Мухаммед проповедовал в Мекке во главе небольшой, часто гонимой общины; в 622 году он с последователями переселился в Медину, где стал править городом, в котором жили и иудейские племена, и арабы, не принявшие его проповеди. Коран, который мусульмане почитают словом Бога, ниспосланным Мухаммеду, говорит о вопросе этого урока в аяте второй, самой длинной суры, ниспосланной в Медине, — сразу после аята аль-Курси («аята о Престоле»), прославляющего знание и могущество Бога. Вот он в переводе Мармадьюка Пикталла, английского писателя, принявшего ислам, — а рядом короткая сура, ниспосланная раньше, в Мекке:",
+        "uk": "Аравія, VII століття. Близько дванадцяти років Мухаммед проповідував у Мецці на чолі невеликої, часто переслідуваної громади; 622 року він із послідовниками переселився до Медини, де став правити містом, у якому жили і юдейські племена, і араби, що не прийняли його проповіді. Коран, який мусульмани шанують як слово Бога, зіслане Мухаммедові, говорить про питання цього уроку в аяті другої, найдовшої сури, зісланої в Медині, — одразу після аята аль-Курсі («аята про Престол»), що прославляє знання й могутність Бога. Ось він у перекладі Мармадьюка Пікталла, англійського письменника, який прийняв іслам, — а поруч коротка сура, зіслана раніше, у Мецці:",
+        "pl": "Arabia, VII wiek. Przez mniej więcej dwanaście lat Mahomet nauczał w Mekce na czele niewielkiej, często prześladowanej wspólnoty; w 622 roku przeniósł się z wyznawcami do Medyny, gdzie zaczął rządzić miastem, w którym żyły i plemiona żydowskie, i Arabowie, którzy nie przyjęli jego nauki. Koran, który muzułmanie uważają za słowo Boga objawione Mahometowi, mówi o pytaniu tej lekcji w wersecie drugiej, najdłuższej sury, objawionej w Medynie — zaraz po Wersecie Tronu, który wysławia wiedzę i potęgę Boga. Oto on w przekładzie Marmaduke'a Pickthalla, angielskiego pisarza, który przyjął islam — a obok krótka sura objawiona wcześniej, w Mekce:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "The Qur'an, sura 2 (The Cow), verse 256",
+            "ru": "Коран, сура 2 («Корова»), аят 256",
+            "uk": "Коран, сура 2 («Корова»), аят 256",
+            "pl": "Koran, sura 2 (Krowa), werset 256"
+          },
+          "quotes": {
+            "en": {
+              "edition": "quran-tolerance.en.pickthall",
+              "from": "2.255",
+              "to": "2.255",
+              "text": "There is no compulsion in religion. The right direction is henceforth distinct from error. And he who rejecteth false deities and believeth in Allah hath grasped a firm handhold which will never break. Allah is Hearer, Knower.",
+              "kind": "Free",
+              "translator": "Marmaduke Pickthall",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Meaning_of_the_Glorious_Koran_(1930)",
+                "lang": "en",
+                "title": "The Qur'an, tr. Marmaduke Pickthall (The Meaning of the Glorious Koran)"
+              }
+            },
+            "ru": {
+              "edition": "quran-tolerance.ru.ours",
+              "from": "2.255",
+              "to": "2.255",
+              "text": "Нет принуждения в религии. Правый путь отныне отличён от заблуждения. И кто отвергает ложных божеств и верует в Аллаха, тот ухватился за прочную опору, которая никогда не сломается. Аллах — Слышащий, Знающий.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Meaning_of_the_Glorious_Koran_(1930)",
+                "lang": "en",
+                "title": "«Коран»"
+              }
+            },
+            "uk": {
+              "edition": "quran-tolerance.uk.ours",
+              "from": "2.255",
+              "to": "2.255",
+              "text": "Немає примусу в релігії. Правильний шлях відтепер відрізнено від омани. І хто відкидає фальшивих божеств і вірує в Аллаха, той ухопився за міцну опору, яка ніколи не зламається. Аллах — Всечуючий, Всезнаючий.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Meaning_of_the_Glorious_Koran_(1930)",
+                "lang": "en",
+                "title": "«Коран»"
+              }
+            },
+            "pl": {
+              "edition": "quran-tolerance.pl.ours",
+              "from": "2.255",
+              "to": "2.255",
+              "text": "Nie ma przymusu w religii. Prosta droga odróżniła się odtąd od błędu. A kto odrzuca fałszywe bóstwa i wierzy w Allaha, ten uchwycił się mocnego uchwytu, który nigdy nie pęknie. Allah jest Słyszący, Wiedzący.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Meaning_of_the_Glorious_Koran_(1930)",
+                "lang": "en",
+                "title": "Koran"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Arabic",
+              "ru": "оригинал на арабском",
+              "uk": "оригінал арабською",
+              "pl": "oryginał po arabsku"
+            },
+            "url": "https://ar.wikisource.org/wiki/سورة_البقرة"
+          }
+        },
+        {
+          "by": {
+            "en": "Sura 109, The Disbelievers — revealed earlier, at Mecca",
+            "ru": "Сура 109, «Неверующие» — ниспослана раньше, в Мекке",
+            "uk": "Сура 109, «Невіруючі» — зіслана раніше, у Мецці",
+            "pl": "Sura 109, Niewierni — objawiona wcześniej, w Mekce"
+          },
+          "quotes": {
+            "en": {
+              "edition": "quran-tolerance.en.pickthall",
+              "from": "109.1",
+              "to": "109.1",
+              "text": "Say: O disbelievers! I worship not that which ye worship; Nor worship ye that which I worship. And I shall not worship that which ye worship. Nor will ye worship that which I worship. Unto you your religion, and unto me my religion.",
+              "kind": "Free",
+              "translator": "Marmaduke Pickthall",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Meaning_of_the_Glorious_Koran_(1930)",
+                "lang": "en",
+                "title": "The Qur'an, tr. Marmaduke Pickthall (The Meaning of the Glorious Koran)"
+              }
+            },
+            "ru": {
+              "edition": "quran-tolerance.ru.ours",
+              "from": "109.1",
+              "to": "109.1",
+              "text": "Скажи: О неверующие! Я не поклоняюсь тому, чему поклоняетесь вы; и вы не поклоняетесь тому, чему поклоняюсь я. И я не стану поклоняться тому, чему поклоняетесь вы. И вы не станете поклоняться тому, чему поклоняюсь я. Вам — ваша религия, а мне — моя религия.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Meaning_of_the_Glorious_Koran_(1930)",
+                "lang": "en",
+                "title": "«Коран»"
+              }
+            },
+            "uk": {
+              "edition": "quran-tolerance.uk.ours",
+              "from": "109.1",
+              "to": "109.1",
+              "text": "Скажи: О невіруючі! Я не поклоняюся тому, чому поклоняєтеся ви; і ви не поклоняєтеся тому, чому поклоняюся я. І я не поклонятимусь тому, чому поклоняєтеся ви. І ви не поклонятиметеся тому, чому поклоняюся я. Вам — ваша релігія, а мені — моя релігія.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Meaning_of_the_Glorious_Koran_(1930)",
+                "lang": "en",
+                "title": "«Коран»"
+              }
+            },
+            "pl": {
+              "edition": "quran-tolerance.pl.ours",
+              "from": "109.1",
+              "to": "109.1",
+              "text": "Mów: O niewierni! Nie czczę tego, co wy czcicie; i wy nie czcicie tego, co ja czczę. I ja nie będę czcił tego, co wy czcicie. I wy nie będziecie czcić tego, co ja czczę. Wam wasza religia, a mnie moja religia.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Meaning_of_the_Glorious_Koran_(1930)",
+                "lang": "en",
+                "title": "Koran"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Arabic",
+              "ru": "оригинал на арабском",
+              "uk": "оригінал арабською",
+              "pl": "oryginał po arabsku"
+            },
+            "url": "https://ar.wikisource.org/wiki/سورة_الكافرون"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The commentators hand down a tradition, going back to Ibn Abbas, of why the verse was revealed. In Medina some women whose children kept dying vowed that if a child lived they would make it a Jew; so sons of families that later became Muslim grew up among the Jewish tribe of the Banu Nadir. When that tribe was driven out of Medina (in 625), their fathers, now Muslims, said they would not let their sons go — and the verse, the tradition says, answered them.",
+            "ru": "Толкователи передают предание, восходящее к Ибн Аббасу, о том, по какому случаю был ниспослан этот аят. В Медине некоторые женщины, у которых умирали дети, давали обет: если ребёнок выживет, сделать его иудеем; так сыновья из семей, позже принявших ислам, росли среди иудейского племени Бану Надир. Когда это племя изгнали из Медины (в 625 году), их отцы, уже мусульмане, сказали, что не отпустят своих сыновей, — и, по преданию, аят ответил им.",
+            "uk": "Тлумачі наводять переказ, що сягає Ібн Аббаса, про те, з якої нагоди було зіслано цей аят. У Медині деякі жінки, в яких помирали діти, давали обітницю: якщо дитина виживе, зробити її юдеєм; тож сини з родин, що згодом прийняли іслам, росли серед юдейського племені Бану Надір. Коли це плем’я вигнали з Медини (625 року), їхні батьки, уже мусульмани, сказали, що не відпустять своїх синів, — і, за переказом, аят відповів їм.",
+            "pl": "Komentatorzy przekazują tradycję, sięgającą Ibn Abbasa, o tym, z jakiego powodu objawiono ten werset. W Medynie niektóre kobiety, którym umierały dzieci, ślubowały, że jeśli dziecko przeżyje, uczynią je Żydem; tak synowie z rodzin, które później przyjęły islam, wychowywali się w żydowskim plemieniu Banu Nadir. Kiedy plemię to wygnano z Medyny (w 625 roku), ich ojcowie, już muzułmanie, oświadczyli, że nie puszczą swoich synów — i według tej tradycji werset im odpowiedział."
+          },
+          "source": "al-Tabari, Commentary on the Qur'an (Jāmiʿ al-bayān), on 2:256; Abu Dawud, Sunan, Book of Jihad"
+        },
+        {
+          "fact": {
+            "en": "Whether the verse still held was argued for centuries. Some early commentators said it had been abrogated by later verses commanding war; al-Tabari held that it stood, but spoke of the People of the Book — Jews, Christians, Zoroastrians — who might keep their faith under Muslim rule if they paid a poll tax, the jizya.",
+            "ru": "Действует ли этот аят, спорили веками. Одни ранние толкователи говорили, что он отменён позднейшими аятами, велящими воевать; ат-Табари считал, что он в силе, но говорит о людях Писания — иудеях, христианах, зороастрийцах, — которые под властью мусульман могли сохранить свою веру, если платили подушную подать, джизью.",
+            "uk": "Чи чинний цей аят, сперечалися століттями. Одні ранні тлумачі казали, що його скасовано пізнішими аятами, які велять воювати; ат-Табарі вважав, що він чинний, але говорить про людей Писання — юдеїв, християн, зороастрійців, — які під владою мусульман могли зберегти свою віру, якщо сплачували подушну подать, джизью.",
+            "pl": "Czy werset nadal obowiązuje, spierano się przez stulecia. Niektórzy dawni komentatorzy mówili, że uchyliły go późniejsze wersety nakazujące walkę; at-Tabari uważał, że obowiązuje, lecz mówi o ludziach Księgi — Żydach, chrześcijanach, zoroastrianach — którzy pod władzą muzułmanów mogli zachować swą wiarę, jeśli płacili podatek pogłówny, dżizję."
+          },
+          "source": "Yohanan Friedmann, Tolerance and Coercion in Islam: Interfaith Relations in the Muslim Tradition (2003)"
+        },
+        {
+          "fact": {
+            "en": "Ibn Ishaq tells that leading men of Mecca once offered Muhammad a bargain: let us worship what you worship, and you worship what we worship, and we shall share the matter between us. Sura 109, he says, was the answer.",
+            "ru": "Ибн Исхак рассказывает, что знатные мекканцы однажды предложили Мухаммеду сделку: давай мы будем поклоняться тому, чему поклоняешься ты, а ты — тому, чему поклоняемся мы, и разделим это дело между собой. Сура 109, по его словам, и была ответом.",
+            "uk": "Ібн Ісхак розповідає, що знатні мекканці якось запропонували Мухаммедові угоду: давай ми поклонятимемося тому, чому поклоняєшся ти, а ти — тому, чому поклоняємося ми, і поділимо цю справу між собою. Сура 109, за його словами, і була відповіддю.",
+            "pl": "Ibn Ishak opowiada, że możni Mekki zaproponowali kiedyś Mahometowi układ: my będziemy czcić to, co ty czcisz, a ty to, co my czcimy, i podzielimy się tą sprawą. Sura 109, jak mówi, była odpowiedzią."
+          },
+          "source": "Ibn Ishaq, The Life of Muhammad (Sīrat Rasūl Allāh), tr. A. Guillaume (1955)"
         }
       ]
     },
@@ -632,6 +819,15 @@
             "pl": "Mill wyznaczał granicę przy podżeganiu: opinia, że handlarze zbożem głodzą biednych, może swobodnie krążyć w prasie, ale może być słusznie karana, gdy wykrzykuje się ją podnieconemu tłumowi przed domem handlarza zbożem."
           },
           "source": "John Stuart Mill, On Liberty (1859), ch. 3"
+        },
+        {
+          "fact": {
+            "en": "Mill had recent cases in mind. At the summer assizes of Cornwall in 1857 a man said to be of blameless conduct, Thomas Pooley, was sentenced to twenty-one months in prison for words against Christianity, spoken and written on a gate; he was pardoned that December. Within a month, at the Old Bailey in London, two men were refused as jurors because they honestly said they had no theological belief.",
+            "ru": "Милль имел в виду недавние случаи. На летней выездной сессии суда в Корнуолле в 1857 году человека, по отзывам безупречного поведения, Томаса Пули приговорили к двадцати одному месяцу тюрьмы за слова против христианства, сказанные вслух и написанные на воротах; в декабре его помиловали. В течение того же месяца в лондонском суде Олд-Бейли двоих не допустили в присяжные, потому что они честно сказали, что не имеют никакой религиозной веры.",
+            "uk": "Мілль мав на увазі недавні випадки. На літній виїзній сесії суду в Корнволлі 1857 року чоловіка, за відгуками бездоганної поведінки, Томаса Пулі засудили до двадцяти одного місяця в’язниці за слова проти християнства, сказані вголос і написані на воротах; у грудні його помилували. Протягом того самого місяця в лондонському суді Олд-Бейлі двох людей не допустили до присяжних, бо вони чесно сказали, що не мають жодної релігійної віри.",
+            "pl": "Mill miał na myśli niedawne sprawy. Na letniej sesji sądu przysięgłych w Kornwalii w 1857 roku człowieka podobno nienagannego prowadzenia, Thomasa Pooleya, skazano na dwadzieścia jeden miesięcy więzienia za słowa przeciw chrześcijaństwu, wypowiedziane i wypisane na bramie; w grudniu go ułaskawiono. W ciągu tego samego miesiąca w londyńskim sądzie Old Bailey dwóch ludzi odrzucono jako przysięgłych, bo uczciwie oświadczyli, że nie mają żadnej wiary religijnej."
+          },
+          "source": "John Stuart Mill, On Liberty (1859), ch. 2 and its notes"
         }
       ]
     },

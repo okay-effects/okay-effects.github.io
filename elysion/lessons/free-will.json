@@ -7,10 +7,10 @@
     "pl": "Czy mamy wolną wolę?"
   },
   "subtitle": {
-    "en": "The Gītā, Boethius, Luther, Spinoza and Hume — and you",
-    "ru": "Гита, Боэций, Лютер, Спиноза и Юм — и вы",
-    "uk": "Ґіта, Боецій, Лютер, Спіноза і Юм — і ви",
-    "pl": "Gita, Boecjusz, Luter, Spinoza i Hume — i ty"
+    "en": "The Gītā, Lucretius, Boethius, Luther, Spinoza and Hume — and you",
+    "ru": "Гита, Лукреций, Боэций, Лютер, Спиноза и Юм — и вы",
+    "uk": "Ґіта, Лукрецій, Боецій, Лютер, Спіноза і Юм — і ви",
+    "pl": "Gita, Lukrecjusz, Boecjusz, Luter, Spinoza i Hume — i ty"
   },
   "steps": [
     {
@@ -152,6 +152,202 @@
             "pl": "J. Robert Oppenheimer wspominał później, że podczas pierwszej próby atomowej, w lipcu 1945 roku, przyszedł mu na myśl wers z rozdziału 11: „Oto stałem się Śmiercią, niszczycielem światów”."
           },
           "source": "Kai Bird and Martin J. Sherwin, American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer (2005)"
+        },
+        {
+          "fact": {
+            "en": "The “duty flowing from your nature” is the duty of one's class. A few verses earlier Krishna names the duty of the warrior class, to which Arjuna belongs: courage, firmness, skill, not running away from battle, generosity, the bearing of a ruler.",
+            "ru": "«Долг, проистекающий из твоей природы», — это долг своего сословия. Несколькими стихами раньше Кришна называет долг сословия воинов, к которому принадлежит Арджуна: мужество, стойкость, ловкость, не бежать с поля боя, щедрость, властность правителя.",
+            "uk": "«Обов’язок, що випливає з твоєї природи», — це обов’язок свого стану. Кількома віршами раніше Крішна називає обов’язок стану воїнів, до якого належить Арджуна: мужність, стійкість, спритність, не тікати з поля бою, щедрість, владність правителя.",
+            "pl": "„Obowiązek płynący z twojej natury” to obowiązek własnego stanu. Kilka wersetów wcześniej Kryszna wymienia obowiązek stanu wojowników, do którego należy Ardżuna: odwagę, wytrwałość, zręczność, nieuciekanie z pola bitwy, hojność, władczość."
+          },
+          "source": "Bhagavad Gītā 18.41–44"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Lucretius: the swerve",
+        "ru": "Лукреций: отклонение атомов",
+        "uk": "Лукрецій: відхилення атомів",
+        "pl": "Lukrecjusz: odchylenie atomów"
+      },
+      "intro": {
+        "en": "Rome, the 50s BC, the last years of the Republic. Titus Lucretius Carus sets out the teaching of Epicurus in a long Latin poem, On the Nature of Things: there is nothing but atoms and the void, and the gods do not meddle with the world. But if atoms only fall and strike one another, every motion follows from one before it by fixed laws — and then where does the will come from? Lucretius answers with the swerve: at no fixed time or place, the atoms turn aside, ever so little. Here in Munro's prose:",
+        "ru": "Рим, 50-е годы до н. э., последние годы республики. Тит Лукреций Кар излагает учение Эпикура в большой латинской поэме «О природе вещей»: нет ничего, кроме атомов и пустоты, и боги не вмешиваются в дела мира. Но если атомы только падают и сталкиваются, каждое движение вытекает из предыдущего по неизменным законам, — откуда же тогда воля? Лукреций отвечает: атомы отклоняются — совсем чуть-чуть, в неопределённое время и в неопределённом месте. Вот это место в прозаическом переводе Манро:",
+        "uk": "Рим, 50-ті роки до н. е., останні роки республіки. Тит Лукрецій Кар викладає вчення Епікура у великій латинській поемі «Про природу речей»: немає нічого, крім атомів і порожнечі, і боги не втручаються у справи світу. Але якщо атоми лише падають і зіштовхуються, кожен рух випливає з попереднього за незмінними законами, — звідки ж тоді воля? Лукрецій відповідає: атоми відхиляються — зовсім трохи, у невизначений час і в невизначеному місці. Ось це місце в прозовому перекладі Манро:",
+        "pl": "Rzym, lata 50. p.n.e., ostatnie lata republiki. Tytus Lukrecjusz Karus wykłada naukę Epikura w długim łacińskim poemacie O naturze rzeczy: nie ma nic poza atomami i próżnią, a bogowie nie mieszają się do spraw świata. Lecz jeśli atomy tylko spadają i zderzają się, każdy ruch wynika z poprzedniego według stałych praw — skąd więc wola? Lukrecjusz odpowiada: atomy odchylają się, odrobinę, w nieokreślonym czasie i miejscu. Oto ten ustęp w prozatorskim przekładzie Munro:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Lucretius, On the Nature of Things 2.251–262",
+            "ru": "Лукреций, «О природе вещей», 2.251–262",
+            "uk": "Лукрецій, «Про природу речей», 2.251–262",
+            "pl": "Lukrecjusz, O naturze rzeczy 2.251–262"
+          },
+          "quotes": {
+            "en": {
+              "edition": "nature-free-will.en.munro",
+              "from": "2.251",
+              "to": "2.251",
+              "text": "Again if all motion is ever linked together and a new motion ever springs from another in a fixed order and first-beginnings do not by swerving make some commencement of motion to break through the decrees of fate, that cause follow not cause from everlasting, whence have all living creatures here on earth, whence, I ask, has been wrested from the fates the power by which we go forward whither the will leads each, by which likewise we change the direction of our motions neither at a fixed time nor fixed place, but where and when the mind itself has prompted? For beyond a doubt in these things his own will makes for each a beginning and from this beginning motions are welled through the limbs.",
+              "kind": "Free",
+              "translator": "H. A. J. Munro",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_the_Nature_of_Things_(Munro)",
+                "lang": "en",
+                "title": "Lucretius, On the Nature of Things"
+              }
+            },
+            "ru": {
+              "edition": "nature-free-will.ru.ours",
+              "from": "2.251",
+              "to": "2.251",
+              "text": "И далее: если всякое движение всегда связано с другим и новое движение всегда рождается из прежнего в неизменном порядке, а первоначала, отклоняясь, не кладут начала движению, которое разорвало бы веления рока, чтобы причина не следовала за причиной от века, — откуда у всех живых существ на земле, откуда, спрашиваю я, вырвана у судеб та сила, которой мы идём вперёд, куда каждого ведёт воля, и которой так же меняем направление своих движений не в определённое время и не в определённом месте, а где и когда подскажет сам ум? Ибо, без сомнения, в этом каждому полагает начало его собственная воля, и от этого начала движения разливаются по членам.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_the_Nature_of_Things_(Munro)",
+                "lang": "en",
+                "title": "Лукреций, «О природе вещей»"
+              }
+            },
+            "uk": {
+              "edition": "nature-free-will.uk.ours",
+              "from": "2.251",
+              "to": "2.251",
+              "text": "І далі: якщо всякий рух завжди пов’язаний з іншим і новий рух завжди народжується з попереднього в незмінному порядку, а першопочатки, відхиляючись, не кладуть початку рухові, який розірвав би веління долі, щоб причина не йшла за причиною споконвіку, — звідки в усіх живих істот на землі, звідки, питаю я, вирвано в долі ту силу, якою ми йдемо вперед, куди кожного веде воля, і якою так само змінюємо напрям своїх рухів не в певний час і не в певному місці, а де й коли підкаже сам розум? Бо, без сумніву, у цьому кожному кладе початок його власна воля, і від цього початку рухи розливаються по членах.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_the_Nature_of_Things_(Munro)",
+                "lang": "en",
+                "title": "Лукрецій, «Про природу речей»"
+              }
+            },
+            "pl": {
+              "edition": "nature-free-will.pl.ours",
+              "from": "2.251",
+              "to": "2.251",
+              "text": "Dalej: jeśli każdy ruch jest zawsze powiązany z innym i nowy ruch zawsze rodzi się z poprzedniego w stałym porządku, a pierwociny, odchylając się, nie dają początku ruchowi, który by przerwał wyroki losu, tak by przyczyna nie szła za przyczyną od wieków — skąd u wszystkich żywych istot na ziemi, skąd, pytam, wydarta losom ta moc, którą idziemy naprzód, dokąd każdego wiedzie wola, i którą tak samo zmieniamy kierunek naszych ruchów nie w ustalonym czasie i nie w ustalonym miejscu, lecz gdzie i kiedy podsunie to sam umysł? Bo bez wątpienia w tych rzeczach każdemu początek daje jego własna wola i od tego początku ruchy rozlewają się po członkach.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_the_Nature_of_Things_(Munro)",
+                "lang": "en",
+                "title": "Lukrecjusz, O naturze rzeczy"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/De_rerum_natura_(Titus_Lucretius_Carus)/Liber_II"
+          }
+        },
+        {
+          "by": {
+            "en": "The same passage, 2.289–293: why the mind is not compelled",
+            "ru": "Там же, 2.289–293: почему ум не подневолен",
+            "uk": "Там само, 2.289–293: чому розум не підневільний",
+            "pl": "Tamże, 2.289–293: dlaczego umysł nie jest zniewolony"
+          },
+          "quotes": {
+            "en": {
+              "edition": "nature-free-will.en.munro",
+              "from": "2.251",
+              "to": "2.251",
+              "text": "But that the mind itself does not feel an internal necessity in all its actions and is not as it were overmastered and compelled to bear and put up with this, is caused by a minute swerving of firstbeginnings at no fixed part of space and no fixed time.",
+              "kind": "Free",
+              "translator": "H. A. J. Munro",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_the_Nature_of_Things_(Munro)",
+                "lang": "en",
+                "title": "Lucretius, On the Nature of Things"
+              }
+            },
+            "ru": {
+              "edition": "nature-free-will.ru.ours",
+              "from": "2.251",
+              "to": "2.251",
+              "text": "Но то, что сам ум не испытывает внутренней необходимости во всех своих действиях и не бывает как бы побеждён и принуждён терпеть и сносить это, — производит малейшее отклонение первоначал, не в определённом месте пространства и не в определённое время.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_the_Nature_of_Things_(Munro)",
+                "lang": "en",
+                "title": "Лукреций, «О природе вещей»"
+              }
+            },
+            "uk": {
+              "edition": "nature-free-will.uk.ours",
+              "from": "2.251",
+              "to": "2.251",
+              "text": "Але те, що сам розум не відчуває внутрішньої необхідності в усіх своїх діях і не буває ніби переможений і змушений терпіти й зносити це, — спричиняє найменше відхилення першопочатків, не в певному місці простору й не в певний час.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_the_Nature_of_Things_(Munro)",
+                "lang": "en",
+                "title": "Лукрецій, «Про природу речей»"
+              }
+            },
+            "pl": {
+              "edition": "nature-free-will.pl.ours",
+              "from": "2.251",
+              "to": "2.251",
+              "text": "Lecz to, że sam umysł nie czuje wewnętrznej konieczności we wszystkich swych działaniach i nie bywa jakby pokonany i zmuszony to znosić i cierpieć — sprawia drobne odchylenie pierwocin, nie w ustalonym miejscu przestrzeni i nie w ustalonym czasie.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_the_Nature_of_Things_(Munro)",
+                "lang": "en",
+                "title": "Lukrecjusz, O naturze rzeczy"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/De_rerum_natura_(Titus_Lucretius_Carus)/Liber_II"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "In February 54 BC Cicero wrote to his brother Quintus that Lucretius' poems were just as Quintus said: with many flashes of genius, and yet with much art.",
+            "ru": "В феврале 54 года до н. э. Цицерон писал брату Квинту, что поэмы Лукреция именно таковы, как тот говорит: в них много блеска таланта, но и много искусства.",
+            "uk": "У лютому 54 року до н. е. Цицерон писав братові Квінтові, що поеми Лукреція саме такі, як той каже: у них багато блиску таланту, але й багато мистецтва.",
+            "pl": "W lutym 54 roku p.n.e. Cyceron pisał do brata Kwintusa, że poematy Lukrecjusza są właśnie takie, jak ten mówi: wiele w nich blasku talentu, ale i wiele kunsztu."
+          },
+          "source": "Cicero, Letters to his Brother Quintus 2.9.3 (2.10.3 in some editions)"
+        },
+        {
+          "fact": {
+            "en": "Four centuries later Jerome recorded a story, perhaps no more than a story: that Lucretius was driven mad by a love potion, wrote his books in the intervals of his madness, and killed himself in his forty-fourth year — and that Cicero afterwards corrected the poem.",
+            "ru": "Четыре века спустя Иероним записал рассказ — возможно, не более чем рассказ: будто Лукреций обезумел от любовного зелья, писал свои книги в промежутках между приступами безумия и покончил с собой на сорок четвёртом году жизни, а Цицерон потом исправил поэму.",
+            "uk": "Чотири століття по тому Ієронім записав оповідь — можливо, не більш ніж оповідь: ніби Лукрецій збожеволів від любовного зілля, писав свої книги в проміжках між нападами божевілля і наклав на себе руки на сорок четвертому році життя, а Цицерон згодом виправив поему.",
+            "pl": "Cztery wieki później Hieronim zapisał opowieść — być może tylko opowieść: że Lukrecjusz oszalał od napoju miłosnego, pisał swe księgi w przerwach szaleństwa i odebrał sobie życie w czterdziestym czwartym roku życia, a Cyceron poprawił potem poemat."
+          },
+          "source": "Jerome, Chronicle (under the year 94 BC)"
+        },
+        {
+          "fact": {
+            "en": "Cicero thought the swerve a poor answer. Epicurus brought it in, he wrote, because he feared that if the atom always moved by its natural weight, nothing in us would be free — and so he made the atom turn aside without a cause; elsewhere Cicero calls the whole thing a childish fiction.",
+            "ru": "Цицерон считал отклонение плохим ответом. Эпикур ввёл его, писал он, потому что боялся, что, если атом всегда движется своей природной тяжестью, в нас не будет ничего свободного, — и потому заставил атом отклоняться без причины; в другой книге Цицерон называет всё это ребяческой выдумкой.",
+            "uk": "Цицерон вважав відхилення поганою відповіддю. Епікур увів його, писав він, бо боявся, що коли атом завжди рухається своєю природною вагою, у нас не буде нічого вільного, — і тому змусив атом відхилятися без причини; в іншій книзі Цицерон називає все це дитячою вигадкою.",
+            "pl": "Cyceron uważał odchylenie za kiepską odpowiedź. Epikur wprowadził je, pisał, bo obawiał się, że jeśli atom zawsze porusza się swym naturalnym ciężarem, nic w nas nie będzie wolne — i dlatego kazał atomowi odchylać się bez przyczyny; w innej księdze Cyceron nazywa to wszystko dziecinnym wymysłem."
+          },
+          "source": "Cicero, On Fate 22–23; On Ends 1.19"
         }
       ]
     },
@@ -330,6 +526,15 @@
             "pl": "O pocieszeniu czytano i tłumaczono przez całe średniowiecze i później; na angielski przełożyli je między innymi król Alfred w IX wieku i królowa Elżbieta I w 1593 roku."
           },
           "source": "W. J. Sedgefield (ed.), King Alfred's Old English Version of Boethius (1899); Caroline Pemberton (ed.), Queen Elizabeth's Englishings of Boethius (1899)"
+        },
+        {
+          "fact": {
+            "en": "He had been master of offices, the head of the court's administration, under Theodoric, the Ostrogothic king of Italy. When a senator, Albinus, was accused of treasonable letters to the emperor at Constantinople, Boethius defended him — and was accused in turn, condemned unheard, he complains, five hundred miles away, and put to death, probably in 524.",
+            "ru": "Он был магистром оффиций — главой придворного управления у Теодориха, остготского короля Италии. Когда сенатора Альбина обвинили в изменнических письмах к императору в Константинополь, Боэций вступился за него — и сам был обвинён, осуждён заочно, как он жалуется, за пятьсот миль от суда и казнён, вероятно, в 524 году.",
+            "uk": "Він був магістром офіцій — головою придворного управління в Теодориха, остготського короля Італії. Коли сенатора Альбіна звинуватили в зрадницьких листах до імператора в Константинополі, Боецій заступився за нього — і сам був звинувачений, засуджений заочно, як він скаржиться, за п’ятсот миль від суду, і страчений, імовірно, 524 року.",
+            "pl": "Był magistrem officiorum — szefem dworskiej administracji u Teodoryka, ostrogockiego króla Italii. Kiedy senatora Albinusa oskarżono o zdradzieckie listy do cesarza w Konstantynopolu, Boecjusz stanął w jego obronie — i sam został oskarżony, skazany zaocznie, jak się skarży, pięćset mil od sądu, i stracony, prawdopodobnie w 524 roku."
+          },
+          "source": "Boethius, The Consolation of Philosophy I, prose 4; Anonymus Valesianus 85–87"
         }
       ]
     },
@@ -608,6 +813,15 @@
             "pl": "Część środków do życia zarabiał szlifowaniem soczewek. Etyka, wyłożona jak geometria w definicjach, aksjomatach i twierdzeniach, ukazała się dopiero po jego śmierci, w Opera posthuma (1677)."
           },
           "source": "Steven Nadler, Spinoza: A Life (1999)"
+        },
+        {
+          "fact": {
+            "en": "In a letter of 1674 he gave the same thought an image. A stone set moving by an outside cause, if it could think, would believe itself free and moving by its own wish. Such, he wrote, is the human freedom all boast of: men are conscious of their desire, and ignorant of the causes that determine it.",
+            "ru": "В письме 1674 года он дал той же мысли образ. Камень, приведённый в движение внешней причиной, если бы мог мыслить, считал бы себя свободным и движущимся по собственному желанию. Такова, писал он, человеческая свобода, которой все хвалятся: люди сознают своё желание и не знают причин, которыми оно определено.",
+            "uk": "У листі 1674 року він дав тій самій думці образ. Камінь, приведений у рух зовнішньою причиною, якби міг мислити, вважав би себе вільним і таким, що рухається з власного бажання. Така, писав він, людська свобода, якою всі хваляться: люди усвідомлюють своє бажання і не знають причин, якими його визначено.",
+            "pl": "W liście z 1674 roku dał tej samej myśli obraz. Kamień wprawiony w ruch przez przyczynę zewnętrzną, gdyby mógł myśleć, uważałby się za wolny i poruszający się z własnej woli. Taka, pisał, jest ludzka wolność, którą wszyscy się chlubią: ludzie są świadomi swego pragnienia, a nie znają przyczyn, które je wyznaczają."
+          },
+          "source": "Spinoza, Letter 58, to G. H. Schuller (1674)"
         }
       ]
     },
@@ -706,6 +920,15 @@
             "pl": "Hume’owi dwukrotnie odmówiono katedry filozofii — w Edynburgu w 1745 roku i w Glasgow w 1752: przeciw niemu przemawiała jego sława sceptyka."
           },
           "source": "Ernest Campbell Mossner, The Life of David Hume (1954)"
+        },
+        {
+          "fact": {
+            "en": "He had argued the same nine years earlier, in A Treatise of Human Nature (1739), in the sections “Of liberty and necessity”. The book, he wrote in his short autobiography, “fell dead-born from the press”; believing the fault lay more in the manner than in the matter, he recast it in shorter books, this Enquiry among them.",
+            "ru": "То же самое он доказывал девятью годами раньше в «Трактате о человеческой природе» (1739), в разделах «О свободе и необходимости». Книга, писал он в краткой автобиографии, «вышла из печати мертворождённой»; полагая, что дело было скорее в манере, чем в содержании, он переработал её в более короткие книги, и это «Исследование» — одна из них.",
+            "uk": "Те саме він доводив дев’ятьма роками раніше в «Трактаті про людську природу» (1739), у розділах «Про свободу і необхідність». Книжка, писав він у короткій автобіографії, «вийшла з друку мертвонародженою»; вважаючи, що річ радше в манері, ніж у змісті, він переробив її на коротші книжки, і це «Дослідження» — одна з них.",
+            "pl": "Tego samego dowodził dziewięć lat wcześniej w Traktacie o naturze ludzkiej (1739), w rozdziałach „O wolności i konieczności”. Książka, pisał w krótkiej autobiografii, „wyszła spod prasy martwo urodzona”; sądząc, że wina leżała raczej w sposobie wykładu niż w treści, przerobił ją na krótsze książki — te Badania są jedną z nich."
+          },
+          "source": "David Hume, A Treatise of Human Nature (1739), 2.3.1–2; My Own Life (1777)"
         }
       ]
     },

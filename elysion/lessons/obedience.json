@@ -7,10 +7,10 @@
     "pl": "Czy musimy być posłuszni niesprawiedliwemu prawu?"
   },
   "subtitle": {
-    "en": "Antigone, Socrates, Mencius and Thoreau — and you",
-    "ru": "Антигона, Сократ, Мэн-цзы и Торо — и вы",
-    "uk": "Антигона, Сократ, Мен-цзи і Торо — і ви",
-    "pl": "Antygona, Sokrates, Mencjusz i Thoreau — i ty"
+    "en": "Antigone, Socrates, Mencius, Aquinas and Thoreau — and you",
+    "ru": "Антигона, Сократ, Мэн-цзы, Фома Аквинский и Торо — и вы",
+    "uk": "Антигона, Сократ, Мен-цзи, Тома Аквінський і Торо — і ви",
+    "pl": "Antygona, Sokrates, Mencjusz, Tomasz z Akwinu i Thoreau — i ty"
   },
   "steps": [
     {
@@ -223,6 +223,15 @@
             "pl": "Hegel nazywał Antygonę jednym z najwspanialszych dzieł sztuki i widział w niej starcie dwóch racji — rodziny i państwa — z których każda jest słuszna i każda jednostronna."
           },
           "source": "G. W. F. Hegel, Lectures on Aesthetics (published 1835), on dramatic poetry"
+        },
+        {
+          "fact": {
+            "en": "About a century later Aristotle, in his Rhetoric, gave her words as the example of a law of nature, common to all men, against a city's written law: to bury Polynices was just, though forbidden. A speaker whose case went against the written law, he advised, should appeal to that common law.",
+            "ru": "Примерно через сто лет Аристотель в «Риторике» приводил её слова как пример закона природы, общего для всех людей, — против писаного закона города: похоронить Полиника было справедливо, хотя и запрещено. Оратору, чьё дело противоречит писаному закону, он советовал ссылаться на этот общий закон.",
+            "uk": "Приблизно через сто років Арістотель у «Риториці» наводив її слова як приклад закону природи, спільного для всіх людей, — проти писаного закону міста: поховати Полініка було справедливо, хоч і заборонено. Промовцеві, чия справа суперечить писаному законові, він радив покликатися на цей спільний закон.",
+            "pl": "Mniej więcej sto lat później Arystoteles w Retoryce przytaczał jej słowa jako przykład prawa natury, wspólnego wszystkim ludziom, przeciw pisanemu prawu miasta: pogrzebać Polinejkesa było sprawiedliwie, choć zabroniono. Mówcy, którego sprawa przeczy prawu pisanemu, radził powoływać się na to prawo wspólne."
+          },
+          "source": "Aristotle, Rhetoric 1.13, 1373b; 1.15, 1375a–b"
         }
       ]
     },
@@ -401,6 +410,15 @@
             "pl": "Na procesie powiedział sędziom, że gdyby uwolnili go pod warunkiem, że przestanie filozofować, będzie posłuszny raczej bogu niż im."
           },
           "source": "Plato, Apology 29c–d"
+        },
+        {
+          "fact": {
+            "en": "Socrates had refused an order once before. Under the Thirty Tyrants, in 404 BC, he and four others were told to fetch Leon of Salamis to be put to death; the four went, and he went home — and, he told the jury, he might have died for it, had the Thirty not fallen soon after.",
+            "ru": "Однажды Сократ уже отказался исполнить приказ. При Тридцати тиранах, в 404 году до н. э., ему и ещё четверым велели доставить Леонта Саламинского на казнь; четверо отправились, а он пошёл домой — и, как он сказал судьям, мог бы за это поплатиться жизнью, если бы власть Тридцати вскоре не пала.",
+            "uk": "Одного разу Сократ уже відмовився виконати наказ. За Тридцяти тиранів, 404 року до н. е., йому та ще чотирьом звеліли привести Леонта Саламінського на страту; четверо пішли, а він пішов додому — і, як він сказав суддям, міг би за це поплатитися життям, якби влада Тридцяти невдовзі не впала.",
+            "pl": "Raz już Sokrates odmówił wykonania rozkazu. Za rządów Trzydziestu tyranów, w 404 roku p.n.e., jemu i czterem innym kazano przyprowadzić na śmierć Leona z Salaminy; czterej poszli, a on poszedł do domu — i, jak powiedział sędziom, mógł za to zginąć, gdyby władza Trzydziestu wkrótce nie upadła."
+          },
+          "source": "Plato, Apology 32c–d"
         }
       ]
     },
@@ -508,6 +526,202 @@
             "pl": "Gdzie indziej Mencjusz mówi wprost: najważniejszy jest lud, potem ołtarze ziemi i zboża, a władca najmniej."
           },
           "source": "Mencius 7B14"
+        },
+        {
+          "fact": {
+            "en": "Seventeen centuries later the founder of the Ming dynasty, reading the Mencius, came on the saying that a prince who treats his ministers like grass is treated by them as a robber and an enemy. “Not words for a subject,” he said, and moved to strike Mencius from the rites of the Confucian temple, threatening whoever objected. The minister Qian Tang objected all the same: “If I die for Mencius, I die with honour to spare.” The emperor spared him and soon restored Mencius — but in the end had scholars make an abridged Mencius.",
+            "ru": "Семнадцать веков спустя основатель династии Мин, читая «Мэн-цзы», дошёл до слов о том, что если государь смотрит на сановников как на сорную траву, они смотрят на него как на разбойника и врага. «Не подданному такое говорить», — сказал он и решил изъять Мэн-цзы из обрядов в храме Конфуция, пригрозив карой всякому, кто возразит. Сановник Цянь Тан всё же возразил: «Если я умру за Мэн-цзы, в этой смерти будет чести с избытком». Император не наказал его и вскоре вернул Мэн-цзы его место — но в конце концов велел учёным составить сокращённого «Мэн-цзы».",
+            "uk": "Сімнадцять століть по тому засновник династії Мін, читаючи «Мен-цзи», дійшов до слів про те, що коли государ дивиться на сановників як на бур’ян, вони дивляться на нього як на розбійника й ворога. «Не підданому таке казати», — мовив він і вирішив вилучити Мен-цзи з обрядів у храмі Конфуція, пригрозивши карою кожному, хто заперечить. Сановник Цянь Тан усе ж заперечив: «Якщо я помру за Мен-цзи, у цій смерті буде честі з надлишком». Імператор не покарав його і невдовзі повернув Мен-цзи його місце — але врешті звелів ученим укласти скороченого «Мен-цзи».",
+            "pl": "Siedemnaście wieków później założyciel dynastii Ming, czytając Mencjusza, natrafił na słowa, że jeśli władca patrzy na dostojników jak na chwast, oni patrzą na niego jak na rozbójnika i wroga. „Nie poddanemu tak mówić” — rzekł i postanowił usunąć Mencjusza z obrzędów w świątyni Konfucjusza, grożąc karą każdemu, kto się sprzeciwi. Dostojnik Qian Tang mimo to się sprzeciwił: „Jeśli umrę za Mencjusza, w tej śmierci będzie czci aż nadto”. Cesarz go nie ukarał i wkrótce przywrócił Mencjuszowi jego miejsce — ale w końcu kazał uczonym sporządzić skróconego Mencjusza."
+          },
+          "source": "Ming shi (History of the Ming), ch. 139, the life of Qian Tang; Mencius 4B3"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Aquinas: an unjust law is no law",
+        "ru": "Фома Аквинский: несправедливый закон — не закон",
+        "uk": "Тома Аквінський: несправедливий закон — не закон",
+        "pl": "Tomasz z Akwinu: niesprawiedliwe prawo nie jest prawem"
+      },
+      "intro": {
+        "en": "Paris, about 1271. Thomas Aquinas, a Dominican friar and master of theology, is writing the Summa Theologiae, a summary of all theology in questions and articles: in each article he first sets out the objections to his view, then gives his answer, then replies to them. Christians had two texts to reconcile: Paul's “let every soul be subject to the higher powers” (Romans 13), and Peter's answer to the high priest, “we ought to obey God rather than men” (Acts 5). In his treatise on law Aquinas asks whether human law binds a man in conscience. Just laws do, he answers. And unjust ones?",
+        "ru": "Париж, около 1271 года. Фома Аквинский, монах-доминиканец и магистр богословия, пишет «Сумму теологии» — свод всего богословия в вопросах и статьях: в каждой статье он сперва приводит возражения против своего взгляда, затем даёт свой ответ, затем отвечает на возражения. Христианам нужно было примирить два текста: слова Павла «всякая душа да будет покорна высшим властям» (Послание к Римлянам, 13) и ответ Петра первосвященнику: «должно повиноваться больше Богу, нежели человекам» (Деяния, 5). В трактате о законе Фома спрашивает, обязывает ли человеческий закон человека в совести. Справедливые законы обязывают, отвечает он. А несправедливые?",
+        "uk": "Париж, близько 1271 року. Тома Аквінський, чернець-домініканець і магістр богослов’я, пише «Суму теології» — звід усього богослов’я в питаннях і статтях: у кожній статті він спершу наводить заперечення проти свого погляду, тоді дає свою відповідь, тоді відповідає на заперечення. Християнам треба було погодити два тексти: слова Павла «кожна душа нехай кориться вищій владі» (Послання до римлян, 13) і відповідь Петра первосвященикові: «Бога повинно слухатися більше, ніж людей» (Дії, 5). У трактаті про закон Тома питає, чи зобов’язує людський закон людину в сумлінні. Справедливі закони зобов’язують, відповідає він. А несправедливі?",
+        "pl": "Paryż, około 1271 roku. Tomasz z Akwinu, dominikanin i mistrz teologii, pisze Sumę teologiczną — wykład całej teologii w kwestiach i artykułach: w każdym artykule najpierw przytacza zarzuty przeciw swemu poglądowi, potem daje własną odpowiedź, potem odpowiada na zarzuty. Chrześcijanie musieli pogodzić dwa teksty: słowa Pawła „każdy niech będzie poddany władzom” (List do Rzymian 13) i odpowiedź Piotra arcykapłanowi: „trzeba bardziej słuchać Boga niż ludzi” (Dzieje Apostolskie 5). W traktacie o prawie Tomasz pyta, czy prawo ludzkie obowiązuje człowieka w sumieniu. Prawa sprawiedliwe obowiązują, odpowiada. A niesprawiedliwe?"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Aquinas, Summa Theologiae I–II, q. 96, a. 4 — the answer",
+            "ru": "Фома Аквинский, «Сумма теологии», I–II, вопр. 96, ст. 4 — ответ",
+            "uk": "Тома Аквінський, «Сума теології», I–II, пит. 96, ст. 4 — відповідь",
+            "pl": "Tomasz z Akwinu, Suma teologiczna I–II, kw. 96, art. 4 — odpowiedź"
+          },
+          "quotes": {
+            "en": {
+              "edition": "summa-obedience.en.dominican",
+              "from": "1.2.96.4.2",
+              "to": "1.2.96.4.2",
+              "text": "On the other hand laws may be unjust in two ways: first, by being contrary to human good, through being opposed to the things mentioned above—either in respect of the end, as when an authority imposes on his subjects burdensome laws, conducive, not to the common good, but rather to his own cupidity or vainglory—or in respect of the author, as when a man makes a law that goes beyond the power committed to him—or in respect of the form, as when burdens are imposed unequally on the community, although with a view to the common good. The like are acts of violence rather than laws; because, as Augustine says (De Lib. Arb. i, 5), “a law that is not just, seems to be no law at all.” Wherefore such laws do not bind in conscience, except perhaps in order to avoid scandal or disturbance, for which cause a man should even yield his right, according to Mat. 5:40,41: “If a man . . . take away thy coat, let go thy cloak also unto him; and whosoever will force thee one mile, go with him other two.”",
+              "kind": "Free",
+              "translator": "Fathers of the English Dominican Province",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Summa_Theologiae/First_Part/Question_2",
+                "lang": "en",
+                "title": "Thomas Aquinas, Summa Theologiae"
+              }
+            },
+            "ru": {
+              "edition": "summa-obedience.ru.ours",
+              "from": "1.2.96.4.2",
+              "to": "1.2.96.4.2",
+              "text": "С другой стороны, законы могут быть несправедливы двояко. Во-первых, когда они противны человеческому благу, будучи противоположны тому, о чём сказано выше, — либо по цели, как когда властитель налагает на подданных обременительные законы, служащие не общему благу, а скорее его собственной алчности или тщеславию, — либо по автору, как когда человек издаёт закон, превышающий вверенную ему власть, — либо по форме, как когда тяготы возлагаются на общество неравно, пусть даже ради общего блага. Такие законы — скорее насилие, чем законы, ибо, как говорит Августин («О свободном решении», I, 5), «закон, который несправедлив, кажется, вовсе не закон». Поэтому такие законы не обязывают в совести — разве что ради того, чтобы избежать соблазна или смуты, ради чего человек должен даже поступиться своим правом, по слову Мф. 5:40–41: «Кто… возьмёт у тебя рубашку, отдай ему и верхнюю одежду; и кто принудит тебя идти с ним одно поприще, иди с ним ещё два».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Summa_Theologiae/First_Part/Question_2",
+                "lang": "en",
+                "title": "Фома Аквинский, «Сумма теологии»"
+              }
+            },
+            "uk": {
+              "edition": "summa-obedience.uk.ours",
+              "from": "1.2.96.4.2",
+              "to": "1.2.96.4.2",
+              "text": "З іншого боку, закони можуть бути несправедливі двояко. По-перше, коли вони суперечать людському благу, бувши протилежні тому, про що сказано вище, — або щодо мети, як коли володар накладає на підданих обтяжливі закони, що служать не спільному благу, а радше його власній захланності чи марнославству, — або щодо автора, як коли людина видає закон, що виходить за межі довіреної їй влади, — або щодо форми, як коли тягарі покладають на спільноту нерівно, хоч би й задля спільного блага. Такі закони — радше насильство, ніж закони, бо, як каже Августин («Про вільний вибір», I, 5), «закон, який несправедливий, здається, зовсім не закон». Тому такі закони не зобов’язують у сумлінні — хіба що задля того, щоб уникнути згіршення чи заворушення, задля чого людина повинна навіть поступитися своїм правом, за словом Мт. 5:40–41: «Хто… забере твою сорочку, віддай йому й плащ; а хто силуватиме тебе йти з ним милю, іди з ним ще дві».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Summa_Theologiae/First_Part/Question_2",
+                "lang": "en",
+                "title": "Тома Аквінський, «Сума теології»"
+              }
+            },
+            "pl": {
+              "edition": "summa-obedience.pl.ours",
+              "from": "1.2.96.4.2",
+              "to": "1.2.96.4.2",
+              "text": "Z drugiej strony prawa mogą być niesprawiedliwe na dwa sposoby. Po pierwsze, gdy sprzeciwiają się dobru ludzkiemu, będąc przeciwne temu, o czym mówiliśmy wyżej — albo co do celu, jak wtedy, gdy rządzący nakłada na poddanych uciążliwe prawa, służące nie dobru wspólnemu, lecz raczej jego własnej chciwości lub próżności — albo co do twórcy, jak wtedy, gdy ktoś stanowi prawo przekraczające powierzoną mu władzę — albo co do formy, jak wtedy, gdy ciężary nakłada się na wspólnotę nierówno, choćby i ze względu na dobro wspólne. Takie prawa są raczej gwałtem niż prawami, bo jak mówi Augustyn (O wolnej woli I, 5), „prawo, które nie jest sprawiedliwe, zdaje się w ogóle nie być prawem”. Dlatego takie prawa nie obowiązują w sumieniu — chyba że dla uniknięcia zgorszenia lub zamętu, dla czego człowiek powinien nawet ustąpić ze swego prawa, według Mt 5,40–41: „Jeśli ktoś… zabiera ci suknię, odstąp mu i płaszcz; a kto cię przymusza, byś szedł z nim milę, idź z nim jeszcze dwie”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Summa_Theologiae/First_Part/Question_2",
+                "lang": "en",
+                "title": "Tomasz z Akwinu, Suma teologiczna"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://www.corpusthomisticum.org/sth2095.html"
+          }
+        },
+        {
+          "by": {
+            "en": "The same article: laws against God",
+            "ru": "Там же: законы против Бога",
+            "uk": "Там само: закони проти Бога",
+            "pl": "Tamże: prawa przeciw Bogu"
+          },
+          "quotes": {
+            "en": {
+              "edition": "summa-obedience.en.dominican",
+              "from": "1.2.96.4.3",
+              "to": "1.2.96.4.3",
+              "text": "Secondly, laws may be unjust through being opposed to the Divine good: such are the laws of tyrants inducing to idolatry, or to anything else contrary to the Divine law: and laws of this kind must nowise be observed, because, as stated in Acts 5:29, “we ought to obey God rather than man.”",
+              "kind": "Free",
+              "translator": "Fathers of the English Dominican Province",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Summa_Theologiae/First_Part/Question_2",
+                "lang": "en",
+                "title": "Thomas Aquinas, Summa Theologiae"
+              }
+            },
+            "ru": {
+              "edition": "summa-obedience.ru.ours",
+              "from": "1.2.96.4.3",
+              "to": "1.2.96.4.3",
+              "text": "Во-вторых, законы могут быть несправедливы, будучи противны божественному благу: таковы законы тиранов, склоняющие к идолопоклонству или к чему-либо иному, противному божественному закону; и законы такого рода никоим образом нельзя соблюдать, ибо, как сказано в Деяниях 5:29, «должно повиноваться больше Богу, нежели человекам».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Summa_Theologiae/First_Part/Question_2",
+                "lang": "en",
+                "title": "Фома Аквинский, «Сумма теологии»"
+              }
+            },
+            "uk": {
+              "edition": "summa-obedience.uk.ours",
+              "from": "1.2.96.4.3",
+              "to": "1.2.96.4.3",
+              "text": "По-друге, закони можуть бути несправедливі, бувши протилежні божественному благу: такі закони тиранів, що схиляють до ідолопоклонства чи до будь-чого іншого, противного божественному законові; і закони такого роду ніяк не можна виконувати, бо, як сказано в Діяннях 5:29, «Бога повинно слухатися більше, ніж людей».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Summa_Theologiae/First_Part/Question_2",
+                "lang": "en",
+                "title": "Тома Аквінський, «Сума теології»"
+              }
+            },
+            "pl": {
+              "edition": "summa-obedience.pl.ours",
+              "from": "1.2.96.4.3",
+              "to": "1.2.96.4.3",
+              "text": "Po drugie, prawa mogą być niesprawiedliwe przez to, że sprzeciwiają się dobru Bożemu: takie są prawa tyranów skłaniające do bałwochwalstwa albo do czegokolwiek innego, co sprzeciwia się prawu Bożemu; i praw tego rodzaju w żaden sposób nie wolno przestrzegać, bo jak powiedziano w Dziejach Apostolskich 5,29, „trzeba bardziej słuchać Boga niż ludzi”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Summa_Theologiae/First_Part/Question_2",
+                "lang": "en",
+                "title": "Tomasz z Akwinu, Suma teologiczna"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://www.corpusthomisticum.org/sth2095.html"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "His own family tried to stop him becoming a friar. When he joined the Dominicans, a new order of begging preachers, in 1244, his brothers seized him on the road and kept him in the family's castles for about a year. He did not give way.",
+            "ru": "Собственная семья пыталась помешать ему стать монахом. Когда в 1244 году он вступил к доминиканцам, новому нищенствующему ордену проповедников, братья схватили его на дороге и около года держали в родовых замках. Он не уступил.",
+            "uk": "Власна родина намагалася завадити йому стати ченцем. Коли 1244 року він вступив до домініканців, нового жебрущого ордену проповідників, брати схопили його на дорозі й близько року тримали в родових замках. Він не поступився.",
+            "pl": "Własna rodzina próbowała mu przeszkodzić w zostaniu zakonnikiem. Kiedy w 1244 roku wstąpił do dominikanów, nowego zakonu żebrzących kaznodziejów, bracia pochwycili go w drodze i przez około rok trzymali w rodowych zamkach. Nie ustąpił."
+          },
+          "source": "Jean-Pierre Torrell, Saint Thomas Aquinas, vol. 1: The Person and His Work (1996)"
+        },
+        {
+          "fact": {
+            "en": "In April 1963, jailed in Birmingham, Alabama, for marching without a permit, Martin Luther King answered eight clergymen who had called his protests “unwise and untimely” with this very distinction: “An unjust law is a human law that is not rooted in eternal law and natural law,” he wrote, citing Aquinas — and, with Augustine, “an unjust law is no law at all.”",
+            "ru": "В апреле 1963 года, сидя в тюрьме Бирмингема (Алабама) за шествие без разрешения, Мартин Лютер Кинг ответил восьми священникам, назвавшим его протесты «неразумными и несвоевременными», именно этим различением: «Несправедливый закон — это человеческий закон, не укоренённый в вечном законе и в законе естественном», — писал он, ссылаясь на Фому Аквинского, а вместе с Августином: «несправедливый закон — вовсе не закон».",
+            "uk": "У квітні 1963 року, сидячи у в’язниці Бірмінгема (Алабама) за марш без дозволу, Мартін Лютер Кінг відповів вісьмом священникам, які назвали його протести «нерозважливими й несвоєчасними», саме цим розрізненням: «Несправедливий закон — це людський закон, не вкорінений у вічному законі й у законі природному», — писав він, посилаючись на Тому Аквінського, а разом з Августином: «несправедливий закон — зовсім не закон».",
+            "pl": "W kwietniu 1963 roku, uwięziony w Birmingham w Alabamie za marsz bez zezwolenia, Martin Luther King odpowiedział ośmiu duchownym, którzy nazwali jego protesty „niemądrymi i przedwczesnymi”, właśnie tym rozróżnieniem: „Niesprawiedliwe prawo to prawo ludzkie, które nie jest zakorzenione w prawie wiecznym i w prawie naturalnym” — pisał, powołując się na Tomasza z Akwinu, a za Augustynem: „niesprawiedliwe prawo w ogóle nie jest prawem”."
+          },
+          "source": "Martin Luther King Jr., “Letter from Birmingham Jail” (16 April 1963), in Why We Can't Wait (1964)"
+        },
+        {
+          "fact": {
+            "en": "He never finished the Summa. In December 1273, after something that happened to him while he was saying Mass in Naples, he stopped writing: all that he had written, he told his companion Reginald, seemed to him like straw. He died three months later, on 7 March 1274, at the abbey of Fossanova, on his way to the Council of Lyon.",
+            "ru": "Он так и не закончил «Сумму». В декабре 1273 года, после того, что произошло с ним во время мессы в Неаполе, он перестал писать: всё, что он написал, сказал он своему спутнику Реджинальду, кажется ему соломой. Он умер через три месяца, 7 марта 1274 года, в аббатстве Фоссанова, по дороге на Лионский собор.",
+            "uk": "Він так і не закінчив «Суми». У грудні 1273 року, після того, що сталося з ним під час меси в Неаполі, він перестав писати: усе, що він написав, сказав він своєму супутникові Реджинальдові, здається йому соломою. Він помер за три місяці, 7 березня 1274 року, в абатстві Фоссанова, дорогою на Ліонський собор.",
+            "pl": "Nigdy nie ukończył Sumy. W grudniu 1273 roku, po tym, co przydarzyło mu się podczas mszy w Neapolu, przestał pisać: wszystko, co napisał, powiedział swemu towarzyszowi Reginaldowi, wydaje mu się słomą. Zmarł trzy miesiące później, 7 marca 1274 roku, w opactwie Fossanova, w drodze na sobór w Lyonie."
+          },
+          "source": "Jean-Pierre Torrell, Saint Thomas Aquinas, vol. 1: The Person and His Work (1996)"
         }
       ]
     },
