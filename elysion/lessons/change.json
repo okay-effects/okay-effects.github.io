@@ -1,0 +1,1067 @@
+{
+  "id": "change",
+  "title": {
+    "en": "Does everything change?",
+    "ru": "Всё ли меняется?",
+    "uk": "Чи все змінюється?",
+    "pl": "Czy wszystko się zmienia?"
+  },
+  "subtitle": {
+    "en": "Heraclitus, Parmenides, Ecclesiastes, Confucius and the Buddha — and you",
+    "ru": "Гераклит, Парменид, Екклесиаст, Конфуций и Будда — и вы",
+    "uk": "Геракліт, Парменід, Екклезіаст, Конфуцій і Будда — і ви",
+    "pl": "Heraklit, Parmenides, Kohelet, Konfucjusz i Budda — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: does everything change?",
+        "ru": "Прежде чем читать кого-либо: всё ли меняется?",
+        "uk": "Перш ніж читати когось: чи все змінюється?",
+        "pl": "Zanim kogokolwiek przeczytasz: czy wszystko się zmienia?"
+      },
+      "options": [
+        {
+          "en": "Yes: everything flows — nothing stays the same even for a moment",
+          "ru": "Да: всё течёт — ничто не остаётся тем же ни на миг",
+          "uk": "Так: усе тече — ніщо не лишається тим самим ані на мить",
+          "pl": "Tak: wszystko płynie — nic nie pozostaje takie samo ani przez chwilę"
+        },
+        {
+          "en": "Things change, but in an order that does not: seasons, cycles, laws",
+          "ru": "Вещи меняются, но по порядку, который не меняется: времена года, круговороты, законы",
+          "uk": "Речі змінюються, але за порядком, який не змінюється: пори року, кругообіги, закони",
+          "pl": "Rzeczy się zmieniają, ale według porządku, który się nie zmienia: pory roku, cykle, prawa"
+        },
+        {
+          "en": "No: what truly is does not change — change is only how things look to us",
+          "ru": "Нет: то, что истинно есть, не меняется, — меняется лишь то, какими вещи нам кажутся",
+          "uk": "Ні: те, що справді є, не змінюється, — змінюється лише те, якими речі нам здаються",
+          "pl": "Nie: to, co naprawdę jest, się nie zmienia — zmienia się tylko to, jak rzeczy nam się wydają"
+        },
+        {
+          "en": "Everything we can hold on to changes — so it is wise not to cling",
+          "ru": "Меняется всё, за что мы можем держаться, — поэтому мудро не цепляться",
+          "uk": "Змінюється все, за що ми можемо триматися, — тому мудро не чіплятися",
+          "pl": "Zmienia się wszystko, czego możemy się trzymać — więc mądrze jest nie lgnąć"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Heraclitus: you cannot step twice into the same river",
+        "ru": "Гераклит: нельзя дважды войти в одну и ту же реку",
+        "uk": "Геракліт: не можна двічі ввійти в ту саму ріку",
+        "pl": "Heraklit: nie można dwa razy wejść do tej samej rzeki"
+      },
+      "intro": {
+        "en": "Ephesus, on the coast of Asia Minor, around 500 BC. The Greek city is ruled by the Persian king; its temple of Artemis is one of the greatest in the Greek world. Heraclitus, said to be of the city's old royal house, writes a book of short, dark sayings — lost, except for some hundred and thirty sentences that later writers quoted. The thinkers before him asked what the world is made of; he asks how it holds together when nothing in it stands still:",
+        "ru": "Эфес, на побережье Малой Азии, около 500 года до н. э. Греческим городом правит персидский царь; его храм Артемиды — один из величайших в греческом мире. Гераклит, по преданию, из древнего царского рода города, пишет книгу коротких тёмных изречений — она утрачена, остались лишь около ста тридцати фраз, которые приводили позднейшие авторы. Мыслители до него спрашивали, из чего сделан мир; он спрашивает, как мир держится, если в нём ничто не стоит на месте:",
+        "uk": "Ефес, на узбережжі Малої Азії, близько 500 року до н. е. Грецьким містом править перський цар; його храм Артеміди — один із найбільших у грецькому світі. Геракліт, за переказом, з давнього царського роду міста, пише книгу коротких темних висловів — вона втрачена, лишилося тільки близько ста тридцяти речень, які наводили пізніші автори. Мислителі до нього питали, з чого зроблено світ; він питає, як світ тримається, коли ніщо в ньому не стоїть на місці:",
+        "pl": "Efez, na wybrzeżu Azji Mniejszej, około 500 roku p.n.e. Greckim miastem rządzi król perski; jego świątynia Artemidy należy do największych w świecie greckim. Heraklit, podobno z dawnego królewskiego rodu miasta, pisze księgę krótkich, ciemnych powiedzeń — zaginęła, zostało tylko około stu trzydziestu zdań, które przytaczali późniejsi autorzy. Myśliciele przed nim pytali, z czego zbudowany jest świat; on pyta, jak świat się trzyma, skoro nic w nim nie stoi w miejscu:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Heraclitus, fragments 41–42 (Bywater's numbers; DK B91, B12)",
+            "ru": "Гераклит, фрагменты 41–42 (по нумерации Байуотера; DK B91, B12)",
+            "uk": "Геракліт, фрагменти 41–42 (за нумерацією Байвотера; DK B91, B12)",
+            "pl": "Heraklit, fragmenty 41–42 (w numeracji Bywatera; DK B91, B12)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "fragments-change.en.burnet",
+              "from": "1.41",
+              "to": "1.41",
+              "text": "You cannot step twice into the same rivers; for fresh waters are ever flowing in upon you.",
+              "kind": "Free",
+              "translator": "John Burnet",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Early_Greek_Philosophy/Herakleitos_of_Ephesos",
+                "lang": "en",
+                "title": "Heraclitus, Fragments"
+              }
+            },
+            "ru": {
+              "edition": "fragments-change.ru.ours",
+              "from": "1.41",
+              "to": "1.41",
+              "text": "Нельзя дважды войти в одни и те же реки: ведь на тебя всё время набегают новые воды.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Early_Greek_Philosophy/Herakleitos_of_Ephesos",
+                "lang": "en",
+                "title": "Гераклит, «Фрагменты»"
+              }
+            },
+            "uk": {
+              "edition": "fragments-change.uk.ours",
+              "from": "1.41",
+              "to": "1.41",
+              "text": "Не можна двічі ввійти в ті самі ріки: адже на тебе щораз набігають нові води.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Early_Greek_Philosophy/Herakleitos_of_Ephesos",
+                "lang": "en",
+                "title": "Геракліт, «Фрагменти»"
+              }
+            },
+            "pl": {
+              "edition": "fragments-change.pl.ours",
+              "from": "1.41",
+              "to": "1.41",
+              "text": "Nie można dwa razy wejść do tych samych rzek: wciąż bowiem napływają na ciebie nowe wody.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Early_Greek_Philosophy/Herakleitos_of_Ephesos",
+                "lang": "en",
+                "title": "Heraklit, Fragmenty"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://el.wikisource.org/wiki/Αποσπάσματα_(Ηράκλειτος)"
+          }
+        },
+        {
+          "by": {
+            "en": "Heraclitus, fragment 20 (Bywater's numbers; DK B30)",
+            "ru": "Гераклит, фрагмент 20 (по нумерации Байуотера; DK B30)",
+            "uk": "Геракліт, фрагмент 20 (за нумерацією Байвотера; DK B30)",
+            "pl": "Heraklit, fragment 20 (w numeracji Bywatera; DK B30)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "fragments-change.en.burnet",
+              "from": "1.20",
+              "to": "1.20",
+              "text": "This world, which is the same for all, no one of gods or men has made; but it was ever, is now, and ever shall be an ever-living Fire, with measures of it kindling, and measures going out.",
+              "kind": "Free",
+              "translator": "John Burnet",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Early_Greek_Philosophy/Herakleitos_of_Ephesos",
+                "lang": "en",
+                "title": "Heraclitus, Fragments"
+              }
+            },
+            "ru": {
+              "edition": "fragments-change.ru.ours",
+              "from": "1.20",
+              "to": "1.20",
+              "text": "Этот мир, один и тот же для всех, не создал никто из богов и никто из людей; но он всегда был, есть и всегда будет вечно живым Огнём, мерами возгорающимся и мерами угасающим.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Early_Greek_Philosophy/Herakleitos_of_Ephesos",
+                "lang": "en",
+                "title": "Гераклит, «Фрагменты»"
+              }
+            },
+            "uk": {
+              "edition": "fragments-change.uk.ours",
+              "from": "1.20",
+              "to": "1.20",
+              "text": "Цього світу, одного й того самого для всіх, не створив ніхто з богів і ніхто з людей; але він завжди був, є і завжди буде вічно живим Вогнем, що мірами спалахує і мірами згасає.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Early_Greek_Philosophy/Herakleitos_of_Ephesos",
+                "lang": "en",
+                "title": "Геракліт, «Фрагменти»"
+              }
+            },
+            "pl": {
+              "edition": "fragments-change.pl.ours",
+              "from": "1.20",
+              "to": "1.20",
+              "text": "Tego świata, jednego i tego samego dla wszystkich, nie stworzył nikt z bogów ani nikt z ludzi; lecz był on zawsze, jest i zawsze będzie wiecznie żywym Ogniem, który według miar się rozpala i według miar gaśnie.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Early_Greek_Philosophy/Herakleitos_of_Ephesos",
+                "lang": "en",
+                "title": "Heraklit, Fragmenty"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://el.wikisource.org/wiki/Αποσπάσματα_(Ηράκλειτος)"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "He laid up his book in the temple of Artemis; some said he wrote it obscurely on purpose, so that only the able would come near it.",
+            "ru": "Свою книгу он положил в храме Артемиды; некоторые говорили, что он нарочно написал её темно, чтобы к ней подступались лишь способные.",
+            "uk": "Свою книгу він поклав у храмі Артеміди; дехто казав, що він навмисне написав її темно, щоб до неї підступалися лише здібні.",
+            "pl": "Swoją księgę złożył w świątyni Artemidy; niektórzy mówili, że celowo napisał ją niejasno, by zbliżali się do niej tylko zdolni."
+          },
+          "source": "Diogenes Laertius, Lives of the Eminent Philosophers 9.6"
+        },
+        {
+          "fact": {
+            "en": "We know the river saying best from Plato, who sums Heraclitus up so: all things move on and nothing stays, as in a river you could not step into twice.",
+            "ru": "Изречение о реке лучше всего известно по Платону, который так подытоживает Гераклита: всё движется и ничто не остаётся на месте, как в реке, в которую нельзя войти дважды.",
+            "uk": "Вислів про ріку найкраще відомий завдяки Платонові, який так підсумовує Геракліта: усе рухається і ніщо не лишається на місці, як у ріці, в яку не можна ввійти двічі.",
+            "pl": "Powiedzenie o rzece najlepiej znamy z Platona, który tak streszcza Heraklita: wszystko się porusza i nic nie trwa w miejscu, jak w rzece, do której nie można wejść dwa razy."
+          },
+          "source": "Plato, Cratylus 402a"
+        },
+        {
+          "fact": {
+            "en": "His follower Cratylus went further: you could not step into the same river even once. In the end, Aristotle says, he thought one should say nothing at all, and only moved his finger.",
+            "ru": "Его последователь Кратил пошёл дальше: в одну и ту же реку нельзя войти даже однажды. В конце концов, пишет Аристотель, он счёл, что не следует ничего говорить, и только шевелил пальцем.",
+            "uk": "Його послідовник Кратил пішов далі: у ту саму ріку не можна ввійти навіть один раз. Зрештою, пише Аристотель, він вирішив, що не слід нічого казати, і тільки ворушив пальцем.",
+            "pl": "Jego zwolennik Kratylos poszedł dalej: do tej samej rzeki nie można wejść nawet raz. W końcu, pisze Arystoteles, uznał, że nie należy nic mówić, i tylko poruszał palcem."
+          },
+          "source": "Aristotle, Metaphysics 4.5, 1010a"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Parmenides: what is cannot come to be or pass away",
+        "ru": "Парменид: сущее не может ни возникнуть, ни погибнуть",
+        "uk": "Парменід: суще не може ні виникнути, ні загинути",
+        "pl": "Parmenides: to, co jest, nie może ani powstać, ani zginąć"
+      },
+      "intro": {
+        "en": "Elea, on the coast of southern Italy, early in the fifth century BC. The city was founded by Greeks who had sailed away from Phocaea in Asia Minor rather than live under the Persians. Parmenides, who is said to have given Elea its laws, writes a poem: a young man is carried in a chariot to a goddess, who shows him the way of truth. It is to be judged by argument, not by the eyes and ears — and it leads straight against the senses and, many think, against Heraclitus:",
+        "ru": "Элея, на побережье Южной Италии, начало V века до н. э. Город основали греки, уплывшие из Фокеи в Малой Азии, чтобы не жить под властью персов. Парменид, который, как говорят, дал Элее законы, пишет поэму: юношу на колеснице везут к богине, и она показывает ему путь истины. Судить о нём велено рассуждением, а не глазами и ушами, — и он ведёт прямо против чувств и, как думают многие, против Гераклита:",
+        "uk": "Елея, на узбережжі Південної Італії, початок V століття до н. е. Місто заснували греки, що відпливли з Фокеї в Малій Азії, аби не жити під владою персів. Парменід, який, кажуть, дав Елеї закони, пише поему: юнака на колісниці везуть до богині, і вона показує йому шлях істини. Судити про нього велено міркуванням, а не очима й вухами, — і він веде просто проти чуттів і, як думає багато хто, проти Геракліта:",
+        "pl": "Elea, na wybrzeżu południowej Italii, początek V wieku p.n.e. Miasto założyli Grecy, którzy odpłynęli z Fokai w Azji Mniejszej, by nie żyć pod władzą Persów. Parmenides, który podobno dał Elei prawa, pisze poemat: młodzieńca wiozą rydwanem do bogini, a ona ukazuje mu drogę prawdy. Sądzić o niej trzeba rozumowaniem, nie oczami i uszami — i prowadzi ona wprost przeciw zmysłom, a jak sądzi wielu, także przeciw Heraklitowi:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Parmenides, On Nature, fragment 8, lines 1–6 (Diels)",
+            "ru": "Парменид, «О природе», фрагмент 8, стихи 1–6 (по Дильсу)",
+            "uk": "Парменід, «Про природу», фрагмент 8, рядки 1–6 (за Дільсом)",
+            "pl": "Parmenides, O naturze, fragment 8, wersy 1–6 (wg Dielsa)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "nature-change.en.burnet",
+              "from": "8.1",
+              "to": "8.6",
+              "text": "One path only is left for us to speak of, namely, that It is. In this path are very many tokens that what is is uncreated and indestructible; for it is complete, immovable, and without end. Nor was it ever, nor will it be; for now it is, all at once, a continuous one.",
+              "kind": "Free",
+              "translator": "John Burnet",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Early_Greek_Philosophy/Parmenides_of_Elea",
+                "lang": "en",
+                "title": "Parmenides, On Nature"
+              }
+            },
+            "ru": {
+              "edition": "nature-change.ru.ours",
+              "from": "8.1",
+              "to": "8.6",
+              "text": "Остаётся лишь один путь, о котором можно говорить, — а именно, что Оно есть. На этом пути очень много знаков того, что сущее несотворённо и неуничтожимо; ибо оно цельно, неподвижно и без конца. Оно никогда не было и не будет; ибо оно есть теперь, всё сразу, единое и непрерывное.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Early_Greek_Philosophy/Parmenides_of_Elea",
+                "lang": "en",
+                "title": "Парменид, «О природе»"
+              }
+            },
+            "uk": {
+              "edition": "nature-change.uk.ours",
+              "from": "8.1",
+              "to": "8.6",
+              "text": "Залишається лише один шлях, про який можна говорити, — а саме, що Воно є. На цьому шляху дуже багато ознак того, що суще нестворене й незнищенне; бо воно цілісне, нерухоме й без кінця. Воно ніколи не було й не буде; бо воно є тепер, усе водночас, єдине й неперервне.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Early_Greek_Philosophy/Parmenides_of_Elea",
+                "lang": "en",
+                "title": "Парменід, «Про природу»"
+              }
+            },
+            "pl": {
+              "edition": "nature-change.pl.ours",
+              "from": "8.1",
+              "to": "8.6",
+              "text": "Pozostaje nam tylko jedna droga, o której można mówić: że Ono jest. Na tej drodze jest bardzo wiele znaków, że to, co jest, jest niestworzone i niezniszczalne; jest bowiem pełne, nieruchome i bez końca. Ani nie było nigdy, ani nie będzie; jest bowiem teraz, całe naraz, jedno i ciągłe.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Early_Greek_Philosophy/Parmenides_of_Elea",
+                "lang": "en",
+                "title": "Parmenides, O naturze"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://el.wikisource.org/wiki/Περί_φύσεως_(Παρμενίδης)"
+          }
+        },
+        {
+          "by": {
+            "en": "Parmenides, On Nature, fragment 8, lines 38–41 (Diels)",
+            "ru": "Парменид, «О природе», фрагмент 8, стихи 38–41 (по Дильсу)",
+            "uk": "Парменід, «Про природу», фрагмент 8, рядки 38–41 (за Дільсом)",
+            "pl": "Parmenides, O naturze, fragment 8, wersy 38–41 (wg Dielsa)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "nature-change.en.burnet",
+              "from": "8.38",
+              "to": "8.41",
+              "text": "Wherefore all these things are but names which mortals have given, believing them to be true—coming into being and passing away, being and not being, change of place and alteration of bright colour.",
+              "kind": "Free",
+              "translator": "John Burnet",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Early_Greek_Philosophy/Parmenides_of_Elea",
+                "lang": "en",
+                "title": "Parmenides, On Nature"
+              }
+            },
+            "ru": {
+              "edition": "nature-change.ru.ours",
+              "from": "8.38",
+              "to": "8.41",
+              "text": "Поэтому всё это — лишь имена, которые дали смертные, веря, что они истинны: возникновение и гибель, бытие и небытие, перемена места и смена яркого цвета.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Early_Greek_Philosophy/Parmenides_of_Elea",
+                "lang": "en",
+                "title": "Парменид, «О природе»"
+              }
+            },
+            "uk": {
+              "edition": "nature-change.uk.ours",
+              "from": "8.38",
+              "to": "8.41",
+              "text": "Тому все це — лише імена, які дали смертні, вірячи, що вони істинні: виникнення й загибель, буття й небуття, зміна місця й переміна яскравого кольору.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Early_Greek_Philosophy/Parmenides_of_Elea",
+                "lang": "en",
+                "title": "Парменід, «Про природу»"
+              }
+            },
+            "pl": {
+              "edition": "nature-change.pl.ours",
+              "from": "8.38",
+              "to": "8.41",
+              "text": "Dlatego wszystko to są tylko nazwy, które nadali śmiertelni, wierząc, że są prawdziwe: powstawanie i ginięcie, bycie i niebycie, zmiana miejsca i odmiana jasnej barwy.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Early_Greek_Philosophy/Parmenides_of_Elea",
+                "lang": "en",
+                "title": "Parmenides, O naturze"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://el.wikisource.org/wiki/Περί_φύσεως_(Παρμενίδης)"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "When the Persians besieged Phocaea in the 540s BC, many of its people put their families on their ships and sailed away rather than submit. After some years at Alalia in Corsica they founded Hyele — Elea — in southern Italy.",
+            "ru": "Когда в 540-х годах до н. э. персы осадили Фокею, многие её жители посадили семьи на корабли и уплыли, лишь бы не покориться. После нескольких лет в Алалии на Корсике они основали Гиелу — Элею — в Южной Италии.",
+            "uk": "Коли в 540-х роках до н. е. перси взяли в облогу Фокею, багато її мешканців посадили родини на кораблі й відпливли, аби не скоритися. Після кількох років в Алалії на Корсиці вони заснували Гієлу — Елею — у Південній Італії.",
+            "pl": "Gdy w latach 540. p.n.e. Persowie oblegli Fokaję, wielu jej mieszkańców wsadziło rodziny na okręty i odpłynęło, byle się nie poddać. Po kilku latach w Alalii na Korsyce założyli Hyele — Eleę — w południowej Italii."
+          },
+          "source": "Herodotus, Histories 1.164–167"
+        },
+        {
+          "fact": {
+            "en": "Plato tells that Parmenides, about sixty-five and quite white-haired, came to Athens for the Great Panathenaea with his pupil Zeno, and talked there with Socrates, then very young.",
+            "ru": "Платон рассказывает, что Парменид, лет шестидесяти пяти и совсем седой, приехал в Афины на Великие Панафинеи со своим учеником Зеноном и беседовал там с Сократом, тогда ещё совсем юным.",
+            "uk": "Платон розповідає, що Парменід, років шістдесяти п’яти й зовсім сивий, приїхав до Афін на Великі Панафінеї зі своїм учнем Зеноном і розмовляв там із Сократом, тоді ще зовсім юним.",
+            "pl": "Platon opowiada, że Parmenides, mający około sześćdziesięciu pięciu lat i zupełnie siwy, przybył do Aten na Wielkie Panatenaje ze swoim uczniem Zenonem i rozmawiał tam z Sokratesem, wtedy jeszcze bardzo młodym."
+          },
+          "source": "Plato, Parmenides 127a–c"
+        },
+        {
+          "fact": {
+            "en": "Zeno wrote his paradoxes — swift Achilles who never overtakes the tortoise, the flying arrow that is at rest — to defend him: those who mocked the One, he answered, fell into worse absurdities if there are many things; and motion, too, ends in contradiction.",
+            "ru": "Зенон сочинил свои парадоксы — быстроногий Ахилл, который никогда не догонит черепаху, летящая стрела, которая покоится, — чтобы защитить учителя: те, кто смеётся над Единым, отвечал он, впадают в ещё большие нелепости, если вещей много; и движение тоже приводит к противоречию.",
+            "uk": "Зенон склав свої парадокси — прудконогий Ахіллес, який ніколи не наздожене черепаху, летюча стріла, що перебуває в спокої, — щоб захистити вчителя: ті, хто сміється з Єдиного, відповідав він, впадають у ще більші безглуздя, якщо речей багато; і рух теж призводить до суперечності.",
+            "pl": "Zenon ułożył swoje paradoksy — szybkonogi Achilles, który nigdy nie dogoni żółwia, lecąca strzała, która spoczywa — by bronić mistrza: ci, którzy drwią z Jednego, odpowiadał, popadają w jeszcze większe niedorzeczności, jeśli rzeczy jest wiele; a i ruch prowadzi do sprzeczności."
+          },
+          "source": "Plato, Parmenides 128c–d; Aristotle, Physics 6.9, 239b"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Ecclesiastes: there is no new thing under the sun",
+        "ru": "Екклесиаст: нет ничего нового под солнцем",
+        "uk": "Екклезіаст: немає нічого нового під сонцем",
+        "pl": "Kohelet: nie ma nic nowego pod słońcem"
+      },
+      "intro": {
+        "en": "Jerusalem — or so the book says. Its speaker calls himself Qoheleth, “the Preacher”, the son of David, king in Jerusalem, and tradition took him for Solomon; scholars read the book as written centuries later. He has tried wisdom, pleasure and great works, and found them all vanity. Now he watches the generations, the sun, the wind and the rivers, all going round — and, later in the book, the seasons of a human life:",
+        "ru": "Иерусалим — так говорит сама книга. Её рассказчик называет себя Кохелет, «Проповедник», сын Давида, царь в Иерусалиме, и предание видело в нём Соломона; учёные считают, что книга написана веками позже. Он испытал мудрость, наслаждения и великие дела и нашёл, что всё это суета. Теперь он смотрит на поколения, на солнце, ветер и реки, которые ходят по кругу, — а дальше в книге на времена человеческой жизни:",
+        "uk": "Єрусалим — так каже сама книга. Її оповідач називає себе Когелет, «Проповідник», син Давидів, цар в Єрусалимі, і переказ бачив у ньому Соломона; учені вважають, що книгу написано століттями пізніше. Він випробував мудрість, насолоди й великі справи і побачив, що все це марнота. Тепер він дивиться на покоління, на сонце, вітер і ріки, що ходять по колу, — а далі в книзі на пори людського життя:",
+        "pl": "Jerozolima — tak mówi sama księga. Jej mówca nazywa siebie Kohelet, „Kaznodzieja”, syn Dawida, król w Jerozolimie, a tradycja widziała w nim Salomona; uczeni uważają, że księgę napisano wieki później. Próbował mądrości, przyjemności i wielkich dzieł i uznał, że wszystko to marność. Teraz patrzy na pokolenia, na słońce, wiatr i rzeki, które krążą — a dalej w księdze na pory ludzkiego życia:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Ecclesiastes 1:4–9",
+            "ru": "Екклесиаст 1:4–9",
+            "uk": "Екклезіаст 1:4–9",
+            "pl": "Księga Koheleta 1,4–9"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ecclesiastes-change.en.kjv",
+              "from": "1.4",
+              "to": "1.9",
+              "text": "One generation passeth away, and another generation cometh: but the earth abideth for ever. The sun also ariseth, and the sun goeth down, and hasteth to his place where he arose. The wind goeth toward the south, and turneth about unto the north; it whirleth about continually, and the wind returneth again according to his circuits. All the rivers run into the sea; yet the sea is not full; unto the place from whence the rivers come, thither they return again. All things are full of labour; man cannot utter it: the eye is not satisfied with seeing, nor the ear filled with hearing. The thing that hath been, it is that which shall be; and that which is done is that which shall be done: and there is no new thing under the sun.",
+              "kind": "Free",
+              "translator": "King James Version",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Ecclesiastes",
+                "lang": "en",
+                "title": "Ecclesiastes"
+              }
+            },
+            "ru": {
+              "edition": "ecclesiastes-change.ru.ours",
+              "from": "1.4",
+              "to": "1.9",
+              "text": "Род проходит, и род приходит, а земля пребывает вовеки. Восходит солнце, и заходит солнце, и спешит к месту своему, где оно взошло. Идёт ветер к югу и поворачивает к северу; кружится он непрестанно, и возвращается ветер на круги свои. Все реки текут в море, но море не переполняется; к тому месту, откуда реки текут, туда они и возвращаются вновь. Всё полно труда; не может человек этого выразить: не насытится глаз зрением, не наполнится ухо слушанием. Что было, то и будет; и что делалось, то и будет делаться: и нет ничего нового под солнцем.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Ecclesiastes",
+                "lang": "en",
+                "title": "Екклесиаст"
+              }
+            },
+            "uk": {
+              "edition": "ecclesiastes-change.uk.ours",
+              "from": "1.4",
+              "to": "1.9",
+              "text": "Рід проходить, і рід приходить, а земля стоїть повіки. Сходить сонце, і заходить сонце, і поспішає до свого місця, де воно зійшло. Іде вітер на південь і повертає на північ; кружляє він безупинно, і вертається вітер на круги свої. Усі ріки течуть у море, та море не переповнюється; до того місця, звідки ріки течуть, туди вони й вертаються знову. Усе сповнене труду; не може людина цього висловити: не насититься око баченням, не наповниться вухо слуханням. Що було, те й буде; і що робилося, те й робитиметься: і немає нічого нового під сонцем.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Ecclesiastes",
+                "lang": "en",
+                "title": "Екклезіаст"
+              }
+            },
+            "pl": {
+              "edition": "ecclesiastes-change.pl.ours",
+              "from": "1.4",
+              "to": "1.9",
+              "text": "Pokolenie odchodzi i pokolenie przychodzi, a ziemia trwa na wieki. Wschodzi słońce i zachodzi słońce, i spieszy do swego miejsca, gdzie wzeszło. Wiatr idzie na południe i zawraca ku północy; krąży nieustannie i wraca wiatr do swoich kręgów. Wszystkie rzeki płyną do morza, a morze nie jest pełne; do miejsca, skąd rzeki płyną, tam znowu powracają. Wszystkie rzeczy są pełne trudu; człowiek nie zdoła tego wypowiedzieć: oko nie nasyci się patrzeniem ani ucho nie napełni się słuchaniem. To, co było, jest tym, co będzie; a co się działo, to dziać się będzie: i nie ma nic nowego pod słońcem.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Ecclesiastes",
+                "lang": "en",
+                "title": "Księga Koheleta"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Hebrew",
+              "ru": "оригинал на древнееврейском",
+              "uk": "оригінал давньоєврейською",
+              "pl": "oryginał po hebrajsku"
+            },
+            "url": "https://he.wikisource.org/wiki/קהלת_א"
+          }
+        },
+        {
+          "by": {
+            "en": "Ecclesiastes 3:1–8",
+            "ru": "Екклесиаст 3:1–8",
+            "uk": "Екклезіаст 3:1–8",
+            "pl": "Księga Koheleta 3,1–8"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ecclesiastes-change.en.kjv",
+              "from": "3.1",
+              "to": "3.8",
+              "text": "To every thing there is a season, and a time to every purpose under the heaven: A time to be born, and a time to die; a time to plant, and a time to pluck up that which is planted; A time to kill, and a time to heal; a time to break down, and a time to build up; A time to weep, and a time to laugh; a time to mourn, and a time to dance; A time to cast away stones, and a time to gather stones together; a time to embrace, and a time to refrain from embracing; A time to get, and a time to lose; a time to keep, and a time to cast away; A time to rend, and a time to sew; a time to keep silence, and a time to speak; A time to love, and a time to hate; a time of war, and a time of peace.",
+              "kind": "Free",
+              "translator": "King James Version",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Ecclesiastes",
+                "lang": "en",
+                "title": "Ecclesiastes"
+              }
+            },
+            "ru": {
+              "edition": "ecclesiastes-change.ru.ours",
+              "from": "3.1",
+              "to": "3.8",
+              "text": "Всему своё время, и время всякому делу под небом: время рождаться, и время умирать; время насаждать, и время вырывать посаженное; время убивать, и время врачевать; время разрушать, и время строить; время плакать, и время смеяться; время сетовать, и время плясать; время разбрасывать камни, и время собирать камни; время обнимать, и время уклоняться от объятий; время приобретать, и время терять; время сберегать, и время выбрасывать; время раздирать, и время сшивать; время молчать, и время говорить; время любить, и время ненавидеть; время войны, и время мира.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Ecclesiastes",
+                "lang": "en",
+                "title": "Екклесиаст"
+              }
+            },
+            "uk": {
+              "edition": "ecclesiastes-change.uk.ours",
+              "from": "3.1",
+              "to": "3.8",
+              "text": "Усьому свій час, і час кожній справі під небом: час народжуватися, і час помирати; час садити, і час виривати посаджене; час убивати, і час лікувати; час руйнувати, і час будувати; час плакати, і час сміятися; час тужити, і час танцювати; час розкидати каміння, і час збирати каміння; час обіймати, і час утримуватися від обіймів; час здобувати, і час утрачати; час берегти, і час викидати; час роздирати, і час зшивати; час мовчати, і час говорити; час любити, і час ненавидіти; час війни, і час миру.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Ecclesiastes",
+                "lang": "en",
+                "title": "Екклезіаст"
+              }
+            },
+            "pl": {
+              "edition": "ecclesiastes-change.pl.ours",
+              "from": "3.1",
+              "to": "3.8",
+              "text": "Wszystko ma swoją porę i jest czas na każdą sprawę pod niebem: czas rodzenia się i czas umierania; czas sadzenia i czas wyrywania tego, co zasadzono; czas zabijania i czas leczenia; czas burzenia i czas budowania; czas płaczu i czas śmiechu; czas żałoby i czas tańca; czas rozrzucania kamieni i czas zbierania kamieni; czas obejmowania i czas powstrzymywania się od objęć; czas zdobywania i czas tracenia; czas zachowywania i czas wyrzucania; czas rozdzierania i czas zszywania; czas milczenia i czas mówienia; czas miłowania i czas nienawiści; czas wojny i czas pokoju.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Ecclesiastes",
+                "lang": "en",
+                "title": "Księga Koheleta"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Hebrew",
+              "ru": "оригинал на древнееврейском",
+              "uk": "оригінал давньоєврейською",
+              "pl": "oryginał po hebrajsku"
+            },
+            "url": "https://he.wikisource.org/wiki/קהלת_ג"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The word rendered “vanity” is Hebrew hevel: a breath, a vapour — “breath of breaths, all is breath”.",
+            "ru": "Слово, переведённое как «суета», — по-еврейски хевель: дыхание, пар — «дуновение дуновений, всё — дуновение».",
+            "uk": "Слово, перекладене як «марнота», — давньоєврейською гевел: подих, пара — «подих подихів, усе — подих».",
+            "pl": "Słowo tłumaczone jako „marność” to po hebrajsku hewel: oddech, para — „tchnienie tchnień, wszystko tchnieniem”."
+          },
+          "source": "F. Brown, S. R. Driver and C. A. Briggs, A Hebrew and English Lexicon of the Old Testament (1906), “hebel”"
+        },
+        {
+          "fact": {
+            "en": "The rabbis disputed whether the book was holy scripture at all; the Talmud says the sages wanted to hide it away, because its words contradict one another.",
+            "ru": "Раввины спорили, священное ли это вообще Писание; Талмуд говорит, что мудрецы хотели укрыть книгу, потому что её слова противоречат друг другу.",
+            "uk": "Рабини сперечалися, чи це взагалі священне Писання; Талмуд каже, що мудреці хотіли сховати книгу, бо її слова суперечать одне одному.",
+            "pl": "Rabini spierali się, czy księga w ogóle należy do Pisma Świętego; Talmud mówi, że mędrcy chcieli ją ukryć, bo jej słowa przeczą sobie nawzajem."
+          },
+          "source": "Mishnah, Yadayim 3:5; Babylonian Talmud, Shabbat 30b"
+        },
+        {
+          "fact": {
+            "en": "Its Hebrew is late and borrows Persian words — pardes, “orchard” (2:5), pitgam, “sentence” (8:11) — so most scholars date it to the Persian or the Hellenistic age, long after Solomon.",
+            "ru": "Язык книги — поздний иврит с персидскими заимствованиями: пардес, «сад» (2:5), питгам, «приговор» (8:11), — поэтому большинство учёных относят её к персидской или эллинистической эпохе, намного позже Соломона.",
+            "uk": "Мова книги — пізня давньоєврейська з перськими запозиченнями: пардес, «сад» (2:5), пітгам, «вирок» (8:11), — тож більшість учених відносять її до перської чи елліністичної доби, набагато пізніше від Соломона.",
+            "pl": "Język księgi to późna hebrajszczyzna z zapożyczeniami perskimi: pardes, „sad” (2,5), pitgam, „wyrok” (8,11) — dlatego większość uczonych datuje ją na epokę perską lub hellenistyczną, długo po Salomonie."
+          },
+          "source": "C. L. Seow, Ecclesiastes (Anchor Bible, 1997)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Confucius by the river: it does not stop, day or night",
+        "ru": "Конфуций у реки: не останавливаясь ни днём, ни ночью",
+        "uk": "Конфуцій над рікою: не спиняючись ні вдень, ні вночі",
+        "pl": "Konfucjusz nad rzeką: nie ustając ani w dzień, ani w nocy"
+      },
+      "intro": {
+        "en": "The state of Lu, in eastern China, around 500 BC. Confucius, a teacher who spent years going from state to state in search of a ruler who would govern by virtue, stands by a stream and says a single line; his disciples kept it. More than a century later, a pupil asked Mencius why the Master had so often praised water:",
+        "ru": "Царство Лу, Восточный Китай, около 500 года до н. э. Конфуций, учитель, который годами ходил из царства в царство в поисках правителя, готового править добродетелью, стоит над потоком и произносит одну-единственную фразу; ученики её сохранили. Больше века спустя ученик спросил Мэн-цзы, почему Учитель так часто хвалил воду:",
+        "uk": "Царство Лу, Східний Китай, близько 500 року до н. е. Конфуцій, учитель, що роками ходив із царства до царства, шукаючи правителя, який правив би чеснотою, стоїть над потоком і каже одне-єдине речення; учні його зберегли. Понад століття потому учень спитав Мен-цзи, чому Учитель так часто хвалив воду:",
+        "pl": "Państwo Lu, wschodnie Chiny, około 500 roku p.n.e. Konfucjusz, nauczyciel, który latami wędrował od państwa do państwa w poszukiwaniu władcy rządzącego cnotą, staje nad strumieniem i wypowiada jedno zdanie; uczniowie je zachowali. Ponad sto lat później uczeń zapytał Mencjusza, dlaczego Mistrz tak często chwalił wodę:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Confucius, Analects 9.16 (Legge's numbering; 9.17 in other editions)",
+            "ru": "Конфуций, «Лунь юй», 9.16 (по нумерации Легга; в других изданиях 9.17)",
+            "uk": "Конфуцій, «Лунь юй», 9.16 (за нумерацією Легга; в інших виданнях 9.17)",
+            "pl": "Konfucjusz, Dialogi konfucjańskie 9.16 (w numeracji Legge’a; w innych wydaniach 9.17)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "analects-change.en.legge",
+              "from": "9.16",
+              "to": "9.16",
+              "text": "The Master standing by a stream, said, \"It passes on just like this, not ceasing day or night!\"",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Confucius, The Analects"
+              }
+            },
+            "ru": {
+              "edition": "analects-change.ru.ours",
+              "from": "9.16",
+              "to": "9.16",
+              "text": "Учитель, стоя над потоком, сказал: «Вот так оно и уходит — не переставая ни днём, ни ночью!»",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуций, «Лунь юй»"
+              }
+            },
+            "uk": {
+              "edition": "analects-change.uk.ours",
+              "from": "9.16",
+              "to": "9.16",
+              "text": "Учитель, стоячи над потоком, сказав: «Отак воно й минає — не спиняючись ні вдень, ні вночі!»",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуцій, «Лунь юй»"
+              }
+            },
+            "pl": {
+              "edition": "analects-change.pl.ours",
+              "from": "9.16",
+              "to": "9.16",
+              "text": "Mistrz, stojąc nad strumieniem, rzekł: „Tak właśnie to przemija — nie ustając ani w dzień, ani w nocy!”",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Konfucjusz, Dialogi konfucjańskie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/論語/子罕第九"
+          }
+        },
+        {
+          "by": {
+            "en": "Mencius, Book IV, Part II, 18 (4B18)",
+            "ru": "Мэн-цзы, кн. IV, ч. II, 18 (4B18)",
+            "uk": "Мен-цзи, кн. IV, ч. II, 18 (4B18)",
+            "pl": "Mencjusz, ks. IV, cz. II, 18 (4B18)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "mencius-change.en.legge",
+              "from": "4.2.18",
+              "to": "4.2.18",
+              "text": "There is a spring of water; how it gushes out! It rests not day nor night. It fills up every hole, and then advances, flowing onto the four seas. Such is water having a spring! It was this which he found in it to praise.",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencius"
+              }
+            },
+            "ru": {
+              "edition": "mencius-change.ru.ours",
+              "from": "4.2.18",
+              "to": "4.2.18",
+              "text": "Вот источник воды: как он бьёт ключом! Он не отдыхает ни днём, ни ночью. Он заполняет каждую впадину и потом движется дальше, растекаясь до самых четырёх морей. Такова вода, у которой есть источник! Это-то он и находил в ней достойным хвалы.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мэн-цзы»"
+              }
+            },
+            "uk": {
+              "edition": "mencius-change.uk.ours",
+              "from": "4.2.18",
+              "to": "4.2.18",
+              "text": "Ось джерело води: як воно б’є! Воно не спочиває ні вдень, ні вночі. Воно заповнює кожну западину, а тоді рухається далі, розтікаючись аж до чотирьох морів. Така вода, що має джерело! Саме це він і знаходив у ній гідним хвали.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мен-цзи»"
+              }
+            },
+            "pl": {
+              "edition": "mencius-change.pl.ours",
+              "from": "4.2.18",
+              "to": "4.2.18",
+              "text": "Oto źródło wody: jakże tryska! Nie spoczywa ani w dzień, ani w nocy. Wypełnia każde zagłębienie, a potem posuwa się dalej, płynąc aż do czterech mórz. Taka jest woda, która ma źródło! To właśnie znajdował w niej godnym pochwały.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencjusz"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/孟子/離婁下"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Zhu Xi, whose commentary was the set reading of the Analects in China's civil examinations from 1313 to 1905, took the line to show the Way itself: in the transformations of heaven and earth what goes passes and what comes follows, without a moment's pause — and so the learner, too, must never break off.",
+            "ru": "Чжу Си, чей комментарий был обязательным толкованием «Лунь юя» на государственных экзаменах Китая с 1313 по 1905 год, видел в этой фразе сам Путь: в превращениях неба и земли уходящее проходит, а приходящее следует за ним без мгновенной остановки, — и потому учащийся тоже не должен прерываться ни на миг.",
+            "uk": "Чжу Сі, чий коментар був обов’язковим тлумаченням «Лунь юя» на державних іспитах Китаю з 1313 по 1905 рік, бачив у цьому реченні сам Шлях: у перетвореннях неба й землі те, що минає, проходить, а те, що приходить, іде слідом без жодної миттєвої зупинки, — і тому той, хто вчиться, теж не повинен перериватися ані на мить.",
+            "pl": "Zhu Xi, którego komentarz był obowiązującą wykładnią Dialogów na chińskich egzaminach państwowych od 1313 do 1905 roku, widział w tym zdaniu samą Drogę: w przemianach nieba i ziemi to, co odchodzi, mija, a to, co nadchodzi, następuje bez chwili przerwy — dlatego i uczący się nie powinien ustawać ani na chwilę."
+          },
+          "source": "Zhu Xi, Collected Commentaries on the Analects (Lunyu jizhu, 1190), on 9.16; Benjamin A. Elman, A Cultural History of Civil Examinations in Late Imperial China (2000)"
+        },
+        {
+          "fact": {
+            "en": "Sima Qian writes that late in life Confucius loved the Book of Changes, set its commentaries in order, and read it until the leather thongs that bound its bamboo strips broke three times.",
+            "ru": "Сыма Цянь пишет, что под конец жизни Конфуций полюбил «Книгу перемен», привёл в порядок её толкования и читал её так часто, что кожаные ремешки, скреплявшие её бамбуковые планки, трижды рвались.",
+            "uk": "Сима Цянь пише, що наприкінці життя Конфуцій полюбив «Книгу змін», упорядкував її тлумачення й читав її так часто, що шкіряні ремінці, які скріплювали її бамбукові планки, тричі рвалися.",
+            "pl": "Sima Qian pisze, że pod koniec życia Konfucjusz pokochał Księgę przemian, uporządkował jej komentarze i czytał ją tak często, że skórzane rzemyki spinające jej bambusowe listewki trzy razy się przerwały."
+          },
+          "source": "Sima Qian, Records of the Grand Historian (Shiji), ch. 47"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Kusinara, after the Buddha's death",
+        "ru": "Кусинара, после смерти Будды",
+        "uk": "Кусінара, після смерті Будди",
+        "pl": "Kusinara, po śmierci Buddy"
+      },
+      "scene": {
+        "en": "You are one of the Mallas of Kusinara, a small people of the Ganges plain whose chiefs meet in a council hall. An old teacher, eighty years of age, came sick to your grove of sal trees, lay down between two of them and died there; his last words to his monks were that decay is inherent in all component things. For six days your town honoured his body with music, garlands and perfumes; then you burned it, and only the bones were left. You keep them in the council hall, behind a lattice of spears and a rampart of bows. Now seven messengers come — from the king of Magadha, the great kingdom to the south-east; from the Licchavis of Vesali; from the Sakyas, his own kin; and from four more — and each says: we are worthy of a portion of the relics, and over it we will raise a mound. What do you do?",
+        "ru": "Вы — один из маллов Кусинары, небольшого народа на Гангской равнине, чьи старейшины собираются в зале совета. Старый учитель восьмидесяти лет пришёл больным в вашу рощу деревьев сал, лёг между двумя из них и там умер; его последними словами к монахам было, что распад присущ всем составным вещам. Шесть дней ваш город чтил его тело музыкой, гирляндами и благовониями; потом вы его сожгли, и остались только кости. Вы храните их в зале совета, за решёткой из копий и валом из луков. И вот приходят семь послов — от царя Магадхи, великого царства на юго-востоке; от личчхавов из Весали; от шакьев, его родичей; и ещё от четырёх, — и каждый говорит: мы достойны получить долю мощей и воздвигнем над ней курган. Что вы сделаете?",
+        "uk": "Ви — один із маллів Кусінари, невеликого народу на Гангській рівнині, чиї старійшини збираються в залі ради. Старий учитель вісімдесяти років прийшов хворим у ваш гай дерев сал, ліг між двома з них і там помер; його останніми словами до ченців було, що розпад притаманний усім складеним речам. Шість днів ваше місто шанувало його тіло музикою, гірляндами й пахощами; потім ви його спалили, і лишилися тільки кості. Ви зберігаєте їх у залі ради, за ґратами зі списів і валом із луків. І ось приходять семеро послів — від царя Магадхи, великого царства на південному сході; від ліччхавів із Весалі; від шак’їв, його родичів; і ще від чотирьох, — і кожен каже: ми гідні отримати частку мощей і зведемо над нею курган. Що ви зробите?",
+        "pl": "Jesteś jednym z Mallów z Kusinary, niewielkiego ludu na równinie Gangesu, którego starszyzna zbiera się w sali rady. Stary, osiemdziesięcioletni nauczyciel przyszedł chory do waszego gaju drzew sala, położył się między dwoma z nich i tam umarł; jego ostatnie słowa do mnichów brzmiały, że rozpad tkwi we wszystkich rzeczach złożonych. Przez sześć dni wasze miasto czciło jego ciało muzyką, girlandami i wonnościami; potem je spaliliście i zostały tylko kości. Przechowujecie je w sali rady, za kratą z włóczni i wałem z łuków. Teraz przybywa siedmiu posłańców — od króla Magadhy, wielkiego królestwa na południowym wschodzie; od Licchawiów z Wesali; od Śakjów, jego krewnych; i od czterech innych — a każdy mówi: jesteśmy godni części relikwii i wzniesiemy nad nią kopiec. Co robisz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Keep them: he died on your land, and the relics are yours",
+            "ru": "Оставить их себе: он умер на вашей земле, и мощи ваши",
+            "uk": "Залишити їх собі: він помер на вашій землі, і мощі ваші",
+            "pl": "Zatrzymać je: umarł na waszej ziemi, więc relikwie są wasze"
+          },
+          "reply": {
+            "en": "That was the Mallas' first answer — and Dona the Brahman told them it was unseemly that over the remains of a teacher of forbearance there should be strife, and wounds, and war.",
+            "ru": "Таков и был первый ответ маллов — и брахман Дона сказал им, что не подобает, чтобы из-за останков учителя терпения возникли распря, и раны, и война.",
+            "uk": "Такою й була перша відповідь маллів — і брахман Дона сказав їм, що не личить, щоб через останки вчителя терпіння постали чвари, і рани, і війна.",
+            "pl": "Taka była pierwsza odpowiedź Mallów — a bramin Dona rzekł im, że nie przystoi, by o szczątki nauczyciela cierpliwości powstał spór i rany, i wojna."
+          }
+        },
+        {
+          "choice": {
+            "en": "Divide them fairly among all who ask",
+            "ru": "Разделить их честно между всеми, кто просит",
+            "uk": "Поділити їх чесно між усіма, хто просить",
+            "pl": "Podzielić je sprawiedliwie między wszystkich, którzy proszą"
+          },
+          "reply": {
+            "en": "That is what was done, on Dona's word: eight equal portions — and for Dona himself, the vessel.",
+            "ru": "Так и было сделано по слову Доны: восемь равных долей — а самому Доне сосуд.",
+            "uk": "Так і зробили за словом Дони: вісім рівних часток — а самому Доні посудину.",
+            "pl": "Tak właśnie uczyniono na słowo Dony: osiem równych części — a dla samego Dony naczynie."
+          }
+        },
+        {
+          "choice": {
+            "en": "Give them all to the king of Magadha: he is strong enough to guard them",
+            "ru": "Отдать их все царю Магадхи: он достаточно силён, чтобы их уберечь",
+            "uk": "Віддати їх усі цареві Магадхи: він досить сильний, щоб їх уберегти",
+            "pl": "Oddać je wszystkie królowi Magadhy: jest dość silny, by ich strzec"
+          },
+          "reply": {
+            "en": "No one did; the book gives the king one portion of eight, no more than the smallest clan, and he raised his mound at Rajagaha, his capital.",
+            "ru": "Никто так не поступил: книга даёт царю одну долю из восьми, не больше, чем самому малому роду, и свой курган он воздвиг в своей столице Раджагахе.",
+            "uk": "Ніхто так не вчинив: книга дає цареві одну частку з восьми, не більше, ніж найменшому родові, і свій курган він звів у своїй столиці — місті Раджагаха.",
+            "pl": "Nikt tak nie zrobił: księga daje królowi jedną część z ośmiu, nie więcej niż najmniejszemu rodowi, a swój kopiec wzniósł on w swojej stolicy, w mieście Radżagaha."
+          }
+        },
+        {
+          "choice": {
+            "en": "Keep nothing: he taught that all things decay — the bones are not the teacher",
+            "ru": "Не оставлять ничего: он учил, что всё распадается, — кости не учитель",
+            "uk": "Нічого не залишати: він навчав, що все розпадається, — кості не вчитель",
+            "pl": "Nie zatrzymywać niczego: uczył, że wszystko się rozpada — kości to nie nauczyciel"
+          },
+          "reply": {
+            "en": "He had said that his teaching would be their teacher after him, and told his monks not to hinder themselves by honouring his remains — but he left those to believing laymen, to be honoured like a great king's, under a mound at the crossroads.",
+            "ru": "Он говорил, что после него учителем им будет его учение, и велел монахам не обременять себя почитанием его останков, — но оставил их верующим мирянам, чтобы те чтили их, как останки великого царя, под курганом на перекрёстке.",
+            "uk": "Він казав, що після нього вчителем їм буде його вчення, і велів ченцям не обтяжувати себе шануванням його останків, — але залишив їх вірним мирянам, щоб ті шанували їх, як останки великого царя, під курганом на роздоріжжі.",
+            "pl": "Mówił, że po nim ich nauczycielem będzie jego nauka, i kazał mnichom nie zaprzątać się czczeniem jego szczątków — lecz zostawił je wierzącym świeckim, by czcili je jak szczątki wielkiego króla, pod kopcem na rozstaju dróg."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "These were the Mallas of Kusinara. At first they refused: the Blessed One had died in their village domain, and they would give away no part of his remains. Then Dona the Brahman spoke his verses, and they asked him to make the division himself. He divided the bones into eight equal portions and asked only for the vessel; the Moriyas of Pipphalivana, who came too late, took away the embers. So ten mounds rose over what was left of the man who had taught that every compound thing comes apart: eight over the relics, one over the vessel, one over the embers. The book tells it as the order remembered it, with flowers falling from heaven and a funeral pile that would not catch fire until Maha Kassapa had come and bowed at his feet.",
+        "ru": "Это были маллы Кусинары. Сначала они отказали: Благословенный умер в их владениях, и они не отдадут никакой части его останков. Тогда брахман Дона произнёс свои стихи, и они попросили его самого произвести раздел. Он разделил кости на восемь равных долей и попросил себе только сосуд; мории из Пиппхаливаны, пришедшие слишком поздно, унесли угли. Так над тем, что осталось от человека, учившего, что всё составное распадается, поднялись десять курганов: восемь над мощами, один над сосудом, один над углями. Книга рассказывает это так, как запомнила община, — с цветами, падающими с неба, и погребальным костром, который не загорался, пока не пришёл Махакассапа и не поклонился его стопам.",
+        "uk": "Це були малли Кусінари. Спершу вони відмовили: Благословенний помер у їхніх володіннях, і вони не віддадуть жодної частки його останків. Тоді брахман Дона виголосив свої вірші, і вони попросили його самого зробити поділ. Він поділив кості на вісім рівних часток і попросив собі тільки посудину; морії з Піппхалівани, що прийшли надто пізно, забрали вугілля. Так над тим, що лишилося від людини, яка навчала, що все складене розпадається, постали десять курганів: вісім над мощами, один над посудиною, один над вугіллям. Книга розповідає це так, як запам’ятала громада, — з квітами, що падають з неба, і поховальним вогнищем, яке не займалося, доки не прийшов Махакассапа й не вклонився його стопам.",
+        "pl": "Byli to Mallowie z Kusinary. Najpierw odmówili: Błogosławiony umarł w ich włościach i nie oddadzą żadnej części jego szczątków. Wtedy bramin Dona wypowiedział swoje wiersze, a oni poprosili, by sam dokonał podziału. Podzielił kości na osiem równych części i poprosił tylko o naczynie; Moriowie z Pipphaliwany, którzy przybyli za późno, zabrali węgle. Tak nad tym, co zostało z człowieka, który uczył, że wszystko, co złożone, się rozpada, wyrosło dziesięć kopców: osiem nad relikwiami, jeden nad naczyniem, jeden nad węglami. Księga opowiada to tak, jak zapamiętała wspólnota — z kwiatami spadającymi z nieba i stosem pogrzebowym, który nie chciał się zająć, póki nie przybył Mahakassapa i nie pokłonił się jego stopom."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "The Buddha's last words, in the Book of the Great Decease (DN 16; VI.10 in Rhys Davids' sections)",
+            "ru": "Последние слова Будды, «Махапариниббана-сутта» (DN 16; VI.10 по разделам Рис-Дэвидса)",
+            "uk": "Останні слова Будди, «Махапарініббана-сутта» (DN 16; VI.10 за розділами Ріс-Девідса)",
+            "pl": "Ostatnie słowa Buddy, Mahaparinibbana Sutta (DN 16; VI.10 w podziale Rhysa Davidsa)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "parinibbana-change.en.rhysdavids",
+              "from": "6.10",
+              "to": "6.10",
+              "text": "Then the Blessed One addressed the brethren, and said: \"Behold now, brethren, I exhort you, saying, 'Decay is inherent in all component things! Work out your salvation with diligence!'\" This was the last word of the Tathagata!",
+              "kind": "Free",
+              "translator": "T. W. Rhys Davids",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Great_Events_by_Famous_Historians/Volume_1/The_Foundation_of_Buddhism",
+                "lang": "en",
+                "title": "The Buddha, Mahāparinibbāna Sutta"
+              }
+            },
+            "ru": {
+              "edition": "parinibbana-change.ru.ours",
+              "from": "6.10",
+              "to": "6.10",
+              "text": "Тогда Благословенный обратился к братьям и сказал: «Вот теперь, братья, я увещеваю вас, говоря: „Распад присущ всем составным вещам! Трудитесь над своим спасением усердно!“» Это было последнее слово Татхагаты!",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Great_Events_by_Famous_Historians/Volume_1/The_Foundation_of_Buddhism",
+                "lang": "en",
+                "title": "Будда, «Махапариниббана-сутта»"
+              }
+            },
+            "uk": {
+              "edition": "parinibbana-change.uk.ours",
+              "from": "6.10",
+              "to": "6.10",
+              "text": "Тоді Благословенний звернувся до братів і сказав: «Ось тепер, браття, я напучую вас, кажучи: „Розпад притаманний усім складеним речам! Працюйте над своїм спасінням ревно!“» Це було останнє слово Татхагати!",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Great_Events_by_Famous_Historians/Volume_1/The_Foundation_of_Buddhism",
+                "lang": "en",
+                "title": "Будда, «Махапарініббана-сутта»"
+              }
+            },
+            "pl": {
+              "edition": "parinibbana-change.pl.ours",
+              "from": "6.10",
+              "to": "6.10",
+              "text": "Wtedy Błogosławiony zwrócił się do braci i rzekł: „Oto teraz, bracia, napominam was, mówiąc: «Rozpad tkwi we wszystkich rzeczach złożonych! Z gorliwością pracujcie nad swoim zbawieniem!»” Było to ostatnie słowo Tathagaty!",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Great_Events_by_Famous_Historians/Volume_1/The_Foundation_of_Buddhism",
+                "lang": "en",
+                "title": "Budda, Mahaparinibbana Sutta"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Pali",
+              "ru": "оригинал на пали",
+              "uk": "оригінал мовою палі",
+              "pl": "oryginał w pali"
+            },
+            "url": "https://suttacentral.net/dn16/pli/ms"
+          }
+        },
+        {
+          "by": {
+            "en": "The verses of Dona the Brahman, ibid. (VI.59)",
+            "ru": "Стихи брахмана Доны, там же (VI.59)",
+            "uk": "Вірші брахмана Дони, там само (VI.59)",
+            "pl": "Wiersze bramina Dony, tamże (VI.59)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "parinibbana-change.en.rhysdavids",
+              "from": "6.59",
+              "to": "6.59",
+              "text": "\"Hear, reverend sir, one single word from me. Forbearance was our Buddha wont to teach. Unseemly is it that over the division Of the remains of him who was the best of beings Strife should arise, and wounds, and war! Let us all, sirs, with one accord unite In friendly harmony to make eight portions. Wide spread let Thupas rise in every land That in the Enlightened One mankind may trust!\"",
+              "kind": "Free",
+              "translator": "T. W. Rhys Davids",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Great_Events_by_Famous_Historians/Volume_1/The_Foundation_of_Buddhism",
+                "lang": "en",
+                "title": "The Buddha, Mahāparinibbāna Sutta"
+              }
+            },
+            "ru": {
+              "edition": "parinibbana-change.ru.ours",
+              "from": "6.59",
+              "to": "6.59",
+              "text": "«Выслушай, почтенный, одно лишь слово от меня. Терпению наш Будда всегда учил. Не подобает, чтобы из-за раздела останков того, кто был лучшим из существ, возникли распря, и раны, и война! Давайте же все, господа, единодушно сойдёмся в дружеском согласии и сделаем восемь долей. Пусть широко, в каждой земле, встанут ступы, чтобы люди верили в Просветлённого!»",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Great_Events_by_Famous_Historians/Volume_1/The_Foundation_of_Buddhism",
+                "lang": "en",
+                "title": "Будда, «Махапариниббана-сутта»"
+              }
+            },
+            "uk": {
+              "edition": "parinibbana-change.uk.ours",
+              "from": "6.59",
+              "to": "6.59",
+              "text": "«Вислухай, шановний, одне лише слово від мене. Терпіння завжди навчав наш Будда. Не личить, щоб через поділ останків того, хто був найкращим з істот, постали чвари, і рани, і війна! Тож усі ми, панове, однодушно з’єднаймося в дружній злагоді й зробімо вісім часток. Хай широко, в кожній землі, постануть ступи, щоб люди вірили в Просвітленого!»",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Great_Events_by_Famous_Historians/Volume_1/The_Foundation_of_Buddhism",
+                "lang": "en",
+                "title": "Будда, «Махапарініббана-сутта»"
+              }
+            },
+            "pl": {
+              "edition": "parinibbana-change.pl.ours",
+              "from": "6.59",
+              "to": "6.59",
+              "text": "„Posłuchaj, czcigodny panie, jednego mego słowa. Cierpliwości zwykł uczyć nasz Budda. Nie przystoi, by przy podziale szczątków tego, który był najlepszy z istot, powstały spór i rany, i wojna! Złączmy się wszyscy, panowie, jednomyślnie w przyjaznej zgodzie, by uczynić osiem części. Niech szeroko, w każdej krainie, wzniosą się stupy, by ludzie ufali Oświeconemu!”",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Great_Events_by_Famous_Historians/Volume_1/The_Foundation_of_Buddhism",
+                "lang": "en",
+                "title": "Budda, Mahaparinibbana Sutta"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Pali",
+              "ru": "оригинал на пали",
+              "uk": "оригінал мовою палі",
+              "pl": "oryginał w pali"
+            },
+            "url": "https://suttacentral.net/dn16/pli/ms"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "When this happened is uncertain: the tradition of Sri Lanka puts the Buddha's death in 544/543 BC, Western scholars long said about 483 BC, and many now place it nearer 400 BC.",
+            "ru": "Когда это случилось, неизвестно: шри-ланкийская традиция относит смерть Будды к 544/543 году до н. э., западные учёные долго называли около 483 года до н. э., а многие теперь — ближе к 400 году до н. э.",
+            "uk": "Коли це сталося, невідомо: шрі-ланкійська традиція відносить смерть Будди до 544/543 року до н. е., західні вчені довго називали близько 483 року до н. е., а багато хто тепер — ближче до 400 року до н. е.",
+            "pl": "Kiedy to się stało, nie wiadomo: tradycja Sri Lanki umieszcza śmierć Buddy w 544/543 roku p.n.e., uczeni zachodni długo mówili o około 483 roku p.n.e., a wielu dziś — o czasie bliższym 400 roku p.n.e."
+          },
+          "source": "Heinz Bechert (ed.), The Dating of the Historical Buddha (1991–1997)"
+        },
+        {
+          "fact": {
+            "en": "A week after the death, an old monk, Subhadda, told the weeping brethren they were well rid of the great ascetic — now they could do as they liked. Maha Kassapa answered with the teacher's words that we must part from all things near and dear; tradition says that this is why he called the monks to their first council, to fix the teaching.",
+            "ru": "Через неделю после смерти старый монах Субхадда сказал плачущим братьям, что они наконец избавились от великого отшельника — теперь можно делать что хочешь. Махакассапа ответил словами учителя: со всем близким и дорогим нам приходится расставаться; по преданию, поэтому он и созвал монахов на первый собор, чтобы закрепить учение.",
+            "uk": "Через тиждень після смерті старий чернець Субхадда сказав заплаканим братам, що вони нарешті позбулися великого самітника — тепер можна робити що завгодно. Махакассапа відповів словами вчителя: з усім близьким і дорогим нам доводиться розлучатися; за переказом, тому він і скликав ченців на перший собор, щоб закріпити вчення.",
+            "pl": "Tydzień po śmierci stary mnich Subhadda powiedział płaczącym braciom, że wreszcie pozbyli się wielkiego ascety — teraz mogą robić, co chcą. Mahakassapa odpowiedział słowami nauczyciela: ze wszystkim, co bliskie i drogie, musimy się rozstać; według tradycji właśnie dlatego zwołał mnichów na pierwszy sobór, by utrwalić naukę."
+          },
+          "source": "DN 16, 6.40–41 (Rhys Davids' sections); Vinaya, Cullavagga 11.1.1"
+        },
+        {
+          "fact": {
+            "en": "In 1898 William Peppé, digging into a mound on the Birdpur estate at Piprahwa, near the border of Nepal, found a great stone coffer holding vases with fragments of bone; the inscription on one of them is read as naming the relics of the Buddha, of the Sakyas.",
+            "ru": "В 1898 году Уильям Пеппе, раскапывая курган в поместье Бердпур у деревни Пипрахва, близ границы Непала, нашёл большой каменный ларь с сосудами, в которых лежали обломки костей; надпись на одном из них читают как посвящение мощам Будды из рода шакьев.",
+            "uk": "1898 року Вільям Пеппе, розкопуючи курган у маєтку Бердпур біля села Піпрахва, поблизу кордону Непалу, знайшов велику кам’яну скриню з посудинами, у яких лежали уламки кісток; напис на одній із них читають як присвяту мощам Будди з роду шак’їв.",
+            "pl": "W 1898 roku William Peppé, rozkopując kopiec w majątku Birdpur pod wsią Piprahwa, w pobliżu granicy Nepalu, znalazł wielką kamienną skrzynię z naczyniami, w których leżały szczątki kości; napis na jednym z nich odczytuje się jako mówiący o relikwiach Buddy z rodu Śakjów."
+          },
+          "source": "W. C. Peppé, “The Piprahwa Stupa, containing relics of Buddha”, Journal of the Royal Asiatic Society (1898)"
+        }
+      ]
+    },
+    {
+      "think": "change",
+      "question": {
+        "en": "Think of something you are sure has stayed the same — in yourself, or in the world. Has it really? If everything changes, what makes a thing still the same thing; and if something does not change, what is it?",
+        "ru": "Подумайте о чём-то, что, как вы уверены, осталось прежним, — в вас самих или в мире. Так ли это на самом деле? Если меняется всё, что делает вещь всё той же вещью; а если что-то не меняется, то что это?",
+        "uk": "Подумайте про щось, що, як ви певні, лишилося незмінним, — у вас самих чи у світі. Чи справді це так? Якщо змінюється все, що робить річ усе тією самою річчю; а якщо щось не змінюється, то що це?",
+        "pl": "Pomyśl o czymś, co — jak jesteś pewien — pozostało takie samo, w tobie albo w świecie. Czy naprawdę? Jeśli wszystko się zmienia, co sprawia, że rzecz jest wciąż tą samą rzeczą; a jeśli coś się nie zmienia — co to jest?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: does everything change?",
+        "ru": "А теперь: всё ли меняется?",
+        "uk": "А тепер: чи все змінюється?",
+        "pl": "A teraz: czy wszystko się zmienia?"
+      }
+    }
+  ]
+}
