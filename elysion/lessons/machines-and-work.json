@@ -405,10 +405,10 @@
         "pl": "Gandhi: maszyny — wielki grzech"
       },
       "intro": {
-        "en": "1909, a century after the Luddites, on a ship from London to South Africa. Mohandas Gandhi, an Indian lawyer who leads his countrymen's struggle for their rights in South Africa, writes a short book as a dialogue between a Reader and an Editor — himself. The Reader asks whether India must do without machinery too. The Editor answers:",
-        "ru": "1909 год, век спустя после луддитов, на корабле из Лондона в Южную Африку. Мохандас Ганди, индийский адвокат, возглавляющий борьбу своих соотечественников за их права в Южной Африке, пишет небольшую книгу — диалог Читателя и Редактора, то есть себя самого. Читатель спрашивает, неужели Индии придётся обойтись и без машин. Редактор отвечает:",
-        "uk": "1909 рік, через століття після луддитів, на кораблі з Лондона до Південної Африки. Мохандас Ганді, індійський адвокат, що очолює боротьбу своїх співвітчизників за їхні права в Південній Африці, пише невелику книжку — діалог Читача і Редактора, тобто себе самого. Читач питає, невже Індії доведеться обійтися і без машин. Редактор відповідає:",
-        "pl": "Rok 1909, sto lat po luddystach, na statku z Londynu do Afryki Południowej. Mohandas Gandhi, indyjski adwokat, który przewodzi walce swoich rodaków o ich prawa w Afryce Południowej, pisze niewielką książkę — dialog Czytelnika i Redaktora, czyli siebie samego. Czytelnik pyta, czy Indie mają się obejść także bez maszyn. Redaktor odpowiada:"
+        "en": "1909, a century after the Luddites. Mohandas Gandhi is an Indian lawyer who has lived for sixteen years not in India but in South Africa: he came there in 1893 for a lawsuit of an Indian trading firm and stayed, to lead the Indians there against the laws that humiliated them. In the summer of 1909 he sailed to London to have such laws of the Transvaal repealed, and achieved nothing. On the ship home he writes a short book, a dialogue between a Reader and an Editor — himself. The Reader asks whether India must do without machinery too. The Editor answers:",
+        "ru": "1909 год, век спустя после луддитов. Мохандас Ганди — индийский адвокат, который уже шестнадцать лет живёт не в Индии, а в Южной Африке: он приехал туда в 1893 году по делу индийской торговой фирмы и остался, возглавив борьбу тамошних индийцев против унижавших их законов. Летом 1909 года он плыл в Лондон добиваться отмены таких законов в Трансваале — и ничего не добился. На корабле, по дороге обратно в Африку, он пишет небольшую книгу — диалог Читателя и Редактора, то есть себя самого. Читатель спрашивает, неужели Индии придётся обойтись и без машин. Редактор отвечает:",
+        "uk": "1909 рік, через століття після луддитів. Мохандас Ганді — індійський адвокат, який уже шістнадцять років живе не в Індії, а в Південній Африці: він приїхав туди 1893 року у справі індійської торговельної фірми й залишився, очоливши боротьбу тамтешніх індійців проти законів, що їх принижували. Влітку 1909 року він плив до Лондона домагатися скасування таких законів у Трансваалі — і нічого не домігся. На кораблі, дорогою назад до Африки, він пише невелику книжку — діалог Читача і Редактора, тобто себе самого. Читач питає, невже Індії доведеться обійтися і без машин. Редактор відповідає:",
+        "pl": "Rok 1909, sto lat po luddystach. Mohandas Gandhi to indyjski adwokat, który od szesnastu lat mieszka nie w Indiach, lecz w Afryce Południowej: przyjechał tam w 1893 roku w sprawie indyjskiej firmy handlowej i został, by przewodzić tamtejszym Hindusom w walce z poniżającymi ich prawami. Latem 1909 roku popłynął do Londynu, by doprowadzić do zniesienia takich praw w Transwalu — i nic nie wskórał. Na statku, w drodze powrotnej do Afryki, pisze niewielką książkę — dialog Czytelnika i Redaktora, czyli siebie samego. Czytelnik pyta, czy Indie mają się obejść także bez maszyn. Redaktor odpowiada:"
       },
       "cited": [
         {
@@ -555,6 +555,15 @@
         }
       ],
       "context": [
+        {
+          "fact": {
+            "en": "He came to Durban in 1893, twenty-three years old, hired for a year by the Indian firm Dada Abdulla & Co. for a lawsuit. On his way to Pretoria he was put off the train at Pietermaritzburg for refusing to leave a first-class carriage kept for whites; he spent the night in the cold waiting room. He stayed in South Africa twenty-one years, until 1914.",
+            "ru": "Он приехал в Дурбан в 1893 году, двадцати трёх лет, нанятый на год индийской фирмой «Дада Абдулла и К°» для ведения тяжбы. По дороге в Преторию его высадили из поезда в Питермарицбурге за то, что он отказался уйти из вагона первого класса, предназначенного для белых; ночь он провёл в холодном зале ожидания. В Южной Африке он остался на двадцать один год — до 1914-го.",
+            "uk": "Він приїхав до Дурбана 1893 року, двадцяти трьох років, найнятий на рік індійською фірмою «Дада Абдулла і К°» для ведення позову. Дорогою до Преторії його висадили з потяга в Пітермаріцбурзі за те, що він відмовився піти з вагона першого класу, призначеного для білих; ніч він провів у холодній залі очікування. У Південній Африці він залишився на двадцять один рік — до 1914-го.",
+            "pl": "Przyjechał do Durbanu w 1893 roku, mając dwadzieścia trzy lata, zatrudniony na rok przez indyjską firmę Dada Abdulla & Co. do prowadzenia procesu. W drodze do Pretorii wysadzono go z pociągu w Pietermaritzburgu, bo nie chciał opuścić wagonu pierwszej klasy przeznaczonego dla białych; noc spędził w zimnej poczekalni. W Afryce Południowej został dwadzieścia jeden lat — do 1914 roku."
+          },
+          "source": "M. K. Gandhi, An Autobiography, or The Story of My Experiments with Truth (1927–1929), Part II, ch. 1–8; Judith M. Brown, Gandhi: Prisoner of Hope (1989)"
+        },
         {
           "fact": {
             "en": "He wrote it in Gujarati in ten days, on board the Kildonan Castle, in November 1909, and printed it in his weekly Indian Opinion. In March 1910 the government of Bombay banned it; that same month Gandhi published his own English translation.",
