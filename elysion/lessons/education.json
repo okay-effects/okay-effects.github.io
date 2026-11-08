@@ -1,0 +1,995 @@
+{
+  "id": "education",
+  "title": {
+    "en": "What is education for?",
+    "ru": "Для чего нужно образование?",
+    "uk": "Для чого потрібна освіта?",
+    "pl": "Czemu służy edukacja?"
+  },
+  "subtitle": {
+    "en": "Confucius, Plato, Montaigne, Locke and Frederick Douglass — and you",
+    "ru": "Конфуций, Платон, Монтень, Локк и Фредерик Дуглас — и вы",
+    "uk": "Конфуцій, Платон, Монтень, Локк і Фредерік Дуглас — і ви",
+    "pl": "Konfucjusz, Platon, Montaigne, Locke i Frederick Douglass — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: what is education for?",
+        "ru": "Прежде чем читать кого-либо: для чего нужно образование?",
+        "uk": "Перш ніж читати когось: для чого потрібна освіта?",
+        "pl": "Zanim kogokolwiek przeczytasz: czemu służy edukacja?"
+      },
+      "options": [
+        {
+          "en": "To pass on knowledge: each generation should learn what the last one found out",
+          "ru": "Передать знание: каждое поколение должно узнать то, что открыло предыдущее",
+          "uk": "Передати знання: кожне покоління має дізнатися те, що відкрило попереднє",
+          "pl": "Przekazać wiedzę: każde pokolenie powinno poznać to, co odkryło poprzednie"
+        },
+        {
+          "en": "To make good people: character first, learning after",
+          "ru": "Сделать людей хорошими: сначала характер, потом учёность",
+          "uk": "Зробити людей добрими: спершу характер, потім ученість",
+          "pl": "Uczynić ludzi dobrymi: najpierw charakter, potem wiedza"
+        },
+        {
+          "en": "To teach us to think for ourselves: judgment, not memory",
+          "ru": "Научить думать самостоятельно: суждение, а не память",
+          "uk": "Навчити думати самостійно: судження, а не пам’ять",
+          "pl": "Nauczyć samodzielnego myślenia: osąd, nie pamięć"
+        },
+        {
+          "en": "To set us free: no one who can read and think is easily kept down",
+          "ru": "Сделать нас свободными: того, кто умеет читать и думать, нелегко удержать в подчинении",
+          "uk": "Зробити нас вільними: того, хто вміє читати й думати, нелегко втримати в покорі",
+          "pl": "Uczynić nas wolnymi: kogoś, kto umie czytać i myśleć, niełatwo utrzymać w poddaństwie"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Confucius: one corner of the subject",
+        "ru": "Конфуций: один угол предмета",
+        "uk": "Конфуцій: один кут предмета",
+        "pl": "Konfucjusz: jeden róg przedmiotu"
+      },
+      "intro": {
+        "en": "The state of Lu, in eastern China, around 500 BC. A man of modest birth, who had once kept a lord's granaries and herds, has become the most sought-after teacher of his time. He means to make his pupils not clerks but gentlemen — men fit to govern because they are good — and he does not ask whose sons they are. But he is not an easy teacher:",
+        "ru": "Царство Лу, восток Китая, около 500 года до н. э. Человек скромного происхождения, когда-то ведавший амбарами и стадами знатного дома, стал самым желанным учителем своего времени. Он хочет сделать своих учеников не писцами, а благородными мужами — людьми, способными править, потому что они добры, — и не спрашивает, чьи они сыновья. Но он нелёгкий учитель:",
+        "uk": "Царство Лу, схід Китаю, близько 500 року до н. е. Чоловік скромного походження, що колись відав коморами й стадами знатного дому, став найбажанішим учителем свого часу. Він хоче зробити своїх учнів не писарями, а шляхетними мужами — людьми, здатними правити, бо вони добрі, — і не питає, чиї вони сини. Але він нелегкий учитель:",
+        "pl": "Państwo Lu, na wschodzie Chin, około 500 roku p.n.e. Człowiek skromnego pochodzenia, który niegdyś zarządzał spichrzami i stadami możnego rodu, stał się najbardziej poszukiwanym nauczycielem swoich czasów. Chce uczynić swoich uczniów nie pisarzami, lecz ludźmi szlachetnymi — zdolnymi rządzić, bo są dobrzy — i nie pyta, czyimi są synami. Ale nie jest łatwym nauczycielem:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Confucius, Analects 7.7 (dried flesh was the smallest of a pupil's customary presents)",
+            "ru": "Конфуций, «Лунь юй» 7.7 (сушёное мясо — самый скромный из обычных даров ученика)",
+            "uk": "Конфуцій, «Лунь юй» 7.7 (сушене м’ясо — найскромніший зі звичайних дарунків учня)",
+            "pl": "Konfucjusz, Dialogi konfucjańskie 7.7 (suszone mięso było najskromniejszym ze zwyczajowych darów ucznia)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "analects-education.en.legge",
+              "from": "7.7",
+              "to": "7.7",
+              "text": "The Master said, \"From the man bringing his bundle of dried flesh for my teaching upwards, I have never refused instruction to any one.\"",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Confucius, The Analects"
+              }
+            },
+            "ru": {
+              "edition": "analects-education.ru.ours",
+              "from": "7.7",
+              "to": "7.7",
+              "text": "Учитель сказал: «Начиная с того, кто приносил мне за учение связку сушёного мяса, и выше — я никому никогда не отказывал в наставлении».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуций, «Лунь юй»"
+              }
+            },
+            "uk": {
+              "edition": "analects-education.uk.ours",
+              "from": "7.7",
+              "to": "7.7",
+              "text": "Учитель сказав: «Починаючи з того, хто приносив мені за навчання в’язку сушеного м’яса, і вище — я нікому ніколи не відмовляв у науці».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуцій, «Лунь юй»"
+              }
+            },
+            "pl": {
+              "edition": "analects-education.pl.ours",
+              "from": "7.7",
+              "to": "7.7",
+              "text": "Mistrz powiedział: „Poczynając od człowieka, który przynosił mi za naukę wiązkę suszonego mięsa, i wyżej — nikomu nigdy nie odmówiłem pouczenia”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Konfucjusz, Dialogi konfucjańskie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/論語/述而第七"
+          }
+        },
+        {
+          "by": {
+            "en": "Confucius, Analects 7.8",
+            "ru": "Конфуций, «Лунь юй» 7.8",
+            "uk": "Конфуцій, «Лунь юй» 7.8",
+            "pl": "Konfucjusz, Dialogi konfucjańskie 7.8"
+          },
+          "quotes": {
+            "en": {
+              "edition": "analects-education.en.legge",
+              "from": "7.8",
+              "to": "7.8",
+              "text": "The Master said, \"I do not open up the truth to one who is not eager to get knowledge, nor help out any one who is not anxious to explain himself. When I have presented one corner of a subject to any one, and he cannot from it learn the other three, I do not repeat my lesson.\"",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Confucius, The Analects"
+              }
+            },
+            "ru": {
+              "edition": "analects-education.ru.ours",
+              "from": "7.8",
+              "to": "7.8",
+              "text": "Учитель сказал: «Я не открываю истину тому, кто не жаждет знания, и не помогаю тому, кто сам не силится высказаться. Если я показал кому-то один угол предмета, а он не может сам по нему узнать три других, я не повторяю урока».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуций, «Лунь юй»"
+              }
+            },
+            "uk": {
+              "edition": "analects-education.uk.ours",
+              "from": "7.8",
+              "to": "7.8",
+              "text": "Учитель сказав: «Я не відкриваю істини тому, хто не прагне знання, і не допомагаю тому, хто сам не силкується висловитися. Якщо я показав комусь один кут предмета, а він не може сам з нього пізнати три інші, я не повторюю уроку».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуцій, «Лунь юй»"
+              }
+            },
+            "pl": {
+              "edition": "analects-education.pl.ours",
+              "from": "7.8",
+              "to": "7.8",
+              "text": "Mistrz powiedział: „Nie odsłaniam prawdy temu, kto nie pragnie wiedzy, ani nie pomagam temu, kto sam nie stara się wypowiedzieć. Gdy pokażę komuś jeden róg przedmiotu, a on nie potrafi sam z niego poznać trzech pozostałych, nie powtarzam lekcji”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Konfucjusz, Dialogi konfucjańskie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/論語/述而第七"
+          }
+        },
+        {
+          "by": {
+            "en": "Confucius, Analects 2.15",
+            "ru": "Конфуций, «Лунь юй» 2.15",
+            "uk": "Конфуцій, «Лунь юй» 2.15",
+            "pl": "Konfucjusz, Dialogi konfucjańskie 2.15"
+          },
+          "quotes": {
+            "en": {
+              "edition": "analects-education.en.legge",
+              "from": "2.15",
+              "to": "2.15",
+              "text": "The Master said, \"Learning without thought is labour lost; thought without learning is perilous.\"",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Confucius, The Analects"
+              }
+            },
+            "ru": {
+              "edition": "analects-education.ru.ours",
+              "from": "2.15",
+              "to": "2.15",
+              "text": "Учитель сказал: «Учение без размышления — напрасный труд; размышление без учения — опасно».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуций, «Лунь юй»"
+              }
+            },
+            "uk": {
+              "edition": "analects-education.uk.ours",
+              "from": "2.15",
+              "to": "2.15",
+              "text": "Учитель сказав: «Навчання без роздумів — марна праця; роздуми без навчання — небезпечні».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуцій, «Лунь юй»"
+              }
+            },
+            "pl": {
+              "edition": "analects-education.pl.ours",
+              "from": "2.15",
+              "to": "2.15",
+              "text": "Mistrz powiedział: „Nauka bez myślenia to praca stracona; myślenie bez nauki jest niebezpieczne”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Konfucjusz, Dialogi konfucjańskie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/論語/為政第二"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Confucius summed up his own life as a course of learning: at fifteen he set his mind on it; at thirty he stood firm; at forty he had no doubts; at fifty he knew the decrees of Heaven; at seventy he could follow what his heart desired without transgressing what was right.",
+            "ru": "Конфуций подытожил собственную жизнь как путь учения: в пятнадцать лет он устремился к нему; в тридцать — утвердился; в сорок — избавился от сомнений; в пятьдесят — познал веления Неба; в семьдесят — мог следовать желаниям сердца, не нарушая должного.",
+            "uk": "Конфуцій підсумував власне життя як шлях навчання: у п’ятнадцять років він звернув до нього думку; у тридцять — утвердився; у сорок — позбувся сумнівів; у п’ятдесят — пізнав веління Неба; у сімдесят — міг іти за бажаннями серця, не порушуючи належного.",
+            "pl": "Konfucjusz podsumował własne życie jako drogę nauki: w wieku piętnastu lat zwrócił ku niej umysł; w wieku trzydziestu — stanął mocno; w wieku czterdziestu — wyzbył się wątpliwości; w wieku pięćdziesięciu — poznał wyroki Nieba; w wieku siedemdziesięciu — mógł iść za pragnieniami serca, nie przekraczając tego, co słuszne."
+          },
+          "source": "Analects 2.4"
+        },
+        {
+          "fact": {
+            "en": "By the tradition Sima Qian recorded around 100 BC, Confucius had some three thousand disciples, and seventy-two of them mastered the six arts. Mencius adds that as a young man Confucius kept a lord's stores, and said only that his accounts must be right, and his pastures, and said only that the cattle must be fat and strong.",
+            "ru": "По преданию, которое около 100 года до н. э. записал Сыма Цянь, у Конфуция было около трёх тысяч учеников, и семьдесят два из них овладели шестью искусствами. Мэн-цзы добавляет, что в молодости Конфуций ведал амбарами знатного дома и говорил лишь, что счета должны быть верны, а затем пастбищами — и говорил лишь, что скот должен быть тучен и крепок.",
+            "uk": "За переказом, який близько 100 року до н. е. записав Сима Цянь, Конфуцій мав близько трьох тисяч учнів, і сімдесят двоє з них опанували шість мистецтв. Мен-цзи додає, що замолоду Конфуцій відав коморами знатного дому й казав лише, що рахунки мають бути правильні, а потім пасовиськами — і казав лише, що худоба має бути вгодована й міцна.",
+            "pl": "Według tradycji, którą około 100 roku p.n.e. spisał Sima Qian, Konfucjusz miał około trzech tysięcy uczniów, a siedemdziesięciu dwóch z nich opanowało sześć sztuk. Mencjusz dodaje, że za młodu Konfucjusz zarządzał spichrzami możnego rodu i mówił tylko, że rachunki muszą się zgadzać, a potem pastwiskami — i mówił tylko, że bydło musi być tłuste i silne."
+          },
+          "source": "Sima Qian, Records of the Grand Historian (Shiji) 47, the Hereditary House of Confucius; Mencius 5B.5"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Plato: turning the eye of the soul",
+        "ru": "Платон: повернуть око души",
+        "uk": "Платон: повернути око душі",
+        "pl": "Platon: zwrócić oko duszy"
+      },
+      "intro": {
+        "en": "Athens, the fourth century BC. In Plato's Republic, Socrates has just told his young friend Glaucon the story of the cave: prisoners chained from childhood, facing a wall, take the shadows thrown on it for the things themselves; one is freed, dragged up into the sunlight, dazzled, and only slowly learns to see. Now Socrates draws the lesson — for those who claim to teach:",
+        "ru": "Афины, IV век до н. э. В «Государстве» Платона Сократ только что рассказал своему молодому другу Главкону притчу о пещере: узники, с детства скованные лицом к стене, принимают падающие на неё тени за сами вещи; одного освобождают, вытаскивают наверх, к солнцу, он ослеплён и лишь медленно учится видеть. Теперь Сократ делает вывод — для тех, кто берётся учить:",
+        "uk": "Афіни, IV століття до н. е. У «Державі» Платона Сократ щойно розповів своєму молодому другові Главконові притчу про печеру: в’язні, змалку прикуті обличчям до стіни, вважають тіні, що падають на неї, самими речами; одного звільняють, витягають нагору, до сонця, він засліплений і лише поволі вчиться бачити. Тепер Сократ робить висновок — для тих, хто береться навчати:",
+        "pl": "Ateny, IV wiek p.n.e. W Państwie Platona Sokrates właśnie opowiedział swemu młodemu przyjacielowi Glaukonowi przypowieść o jaskini: więźniowie, od dzieciństwa skuci twarzą do ściany, biorą padające na nią cienie za same rzeczy; jednego się uwalnia, wyciąga na górę, ku słońcu, jest oślepiony i dopiero powoli uczy się widzieć. Teraz Sokrates wyciąga wniosek — dla tych, którzy biorą się do nauczania:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Plato, Republic VII (518b–d), Socrates to Glaucon (Glaucon's short replies left out)",
+            "ru": "Платон, «Государство», VII (518b–d), Сократ — Главкону (краткие ответы Главкона опущены)",
+            "uk": "Платон, «Держава», VII (518b–d), Сократ — Главконові (короткі відповіді Главкона пропущено)",
+            "pl": "Platon, Państwo VII (518b–d), Sokrates do Glaukona (krótkie odpowiedzi Glaukona pominięto)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "republic-education.en.jowett",
+              "from": "7.518",
+              "to": "7.518",
+              "text": "But then, if I am right, certain professors of education must be wrong when they say that they can put a knowledge into the soul which was not there before, like sight into blind eyes. Whereas, our argument shows that the power and capacity of learning exists in the soul already; and that just as the eye was unable to turn from darkness to light without the whole body, so too the instrument of knowledge can only by the movement of the whole soul be turned from the world of becoming into that of being, and learn by degrees to endure the sight of being, and of the brightest and best of being, or, in other words, of the good. And must there not be some art which will effect conversion in the easiest and quickest manner; not implanting the faculty of sight, for that exists already, but has been turned in the wrong direction, and is looking away from the truth?",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Plato, The Republic"
+              }
+            },
+            "ru": {
+              "edition": "republic-education.ru.ours",
+              "from": "7.518",
+              "to": "7.518",
+              "text": "Но тогда, если я прав, иные наставники ошибаются, когда говорят, что могут вложить в душу знание, которого прежде в ней не было, — словно зрение в слепые глаза. Наше же рассуждение показывает, что сила и способность учиться уже есть в душе; и что, как глаз не мог повернуться от тьмы к свету иначе, как вместе со всем телом, так и орудие познания может быть обращено от мира становления к миру бытия лишь движением всей души — и мало-помалу научиться выносить зрелище бытия, и самого светлого и лучшего в бытии, иначе говоря — блага. И не должно ли быть некое искусство, которое совершит это обращение легче и быстрее всего; не вкладывая способность зрения, ибо она уже есть, но лишь повёрнута не туда и смотрит прочь от истины?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/Политика_или_государство._Книга_первая_(Платон;_Карпов)",
+                "lang": "ru",
+                "title": "Платон, «Государство»"
+              }
+            },
+            "uk": {
+              "edition": "republic-education.uk.ours",
+              "from": "7.518",
+              "to": "7.518",
+              "text": "Але тоді, якщо я маю рацію, деякі наставники помиляються, коли кажуть, що можуть вкласти в душу знання, якого раніше в ній не було, — наче зір у сліпі очі. Наше ж міркування показує, що сила і здатність навчатися вже є в душі; і що, як око не могло повернутися від темряви до світла інакше, як разом з усім тілом, так і знаряддя пізнання може бути звернене від світу становлення до світу буття лише рухом усієї душі — і помалу навчитися витримувати видовище буття, і найсвітлішого та найкращого в бутті, інакше кажучи — блага. І чи не мусить бути якесь мистецтво, що здійснить цей поворот найлегше і найшвидше; не вкладаючи здатності зору, бо вона вже є, але лише повернута не туди й дивиться геть від істини?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Платон, «Держава»"
+              }
+            },
+            "pl": {
+              "edition": "republic-education.pl.ours",
+              "from": "7.518",
+              "to": "7.518",
+              "text": "Ale w takim razie, jeśli mam rację, niektórzy wychowawcy się mylą, gdy mówią, że potrafią włożyć do duszy wiedzę, której wcześniej w niej nie było — jak wzrok do ślepych oczu. Nasz zaś wywód pokazuje, że moc i zdolność uczenia się jest już w duszy; i że jak oko nie mogło zwrócić się od ciemności ku światłu inaczej niż wraz z całym ciałem, tak i narzędzie poznania może zostać zwrócone od świata stawania się ku światu bytu jedynie ruchem całej duszy — i stopniowo nauczyć się znosić widok bytu, i tego, co w bycie najjaśniejsze i najlepsze, czyli, innymi słowy, dobra. I czyż nie musi istnieć jakaś sztuka, która dokona tego zwrotu najłatwiej i najszybciej; nie wszczepiając zdolności widzenia, bo ta już istnieje, lecz jest zwrócona w złą stronę i patrzy w bok od prawdy?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://wolnelektury.pl/katalog/lektura/platon-panstwo.html",
+                "lang": "pl",
+                "title": "Platon, Państwo"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0167:book=7:section=518b"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Plato taught in the Academy, a gymnasium outside the walls of Athens, in a grove named after the hero Hecademus — the place that gave every academy since its name.",
+            "ru": "Платон учил в Академии — гимнасии за стенами Афин, в роще, названной в честь героя Гекадема; от этого места получили имя все академии с тех пор.",
+            "uk": "Платон навчав в Академії — гімнасії за мурами Афін, у гаю, названому на честь героя Гекадема; від цього місця дістали назву всі академії відтоді.",
+            "pl": "Platon nauczał w Akademii — gimnazjonie za murami Aten, w gaju nazwanym na cześć herosa Hekademosa; od tego miejsca wzięły nazwę wszystkie późniejsze akademie."
+          },
+          "source": "Diogenes Laertius, Lives of Eminent Philosophers 3.7"
+        },
+        {
+          "fact": {
+            "en": "The Republic's own plan for its rulers: two or three years of gymnastics; at twenty, the chosen study the sciences together; at thirty, five years of dialectic; then fifteen years back in the cave, in military and other offices; and only at fifty do they raise the eye of the soul to the good itself. All of this, Socrates adds, is meant for women as well as men, as far as their natures can go.",
+            "ru": "Собственный план «Государства» для правителей: два-три года гимнастики; в двадцать лет избранные изучают науки в их связи; в тридцать — пять лет диалектики; затем пятнадцать лет снова в пещере, на военных и иных должностях; и лишь в пятьдесят они возводят око души к самому благу. Всё это, добавляет Сократ, относится не только к мужчинам, но и к женщинам — насколько позволяет их природа.",
+            "uk": "Власний план «Держави» для правителів: два-три роки гімнастики; у двадцять років обрані вивчають науки в їхньому зв’язку; у тридцять — п’ять років діалектики; потім п’ятнадцять років знову в печері, на військових та інших посадах; і лише в п’ятдесят вони зводять око душі до самого блага. Усе це, додає Сократ, стосується не лише чоловіків, а й жінок — наскільки дозволяє їхня природа.",
+            "pl": "Własny plan Państwa dla rządzących: dwa, trzy lata gimnastyki; w wieku dwudziestu lat wybrani poznają nauki w ich wzajemnym związku; w wieku trzydziestu — pięć lat dialektyki; potem piętnaście lat znów w jaskini, na urzędach wojskowych i innych; i dopiero w wieku pięćdziesięciu lat wznoszą oko duszy ku samemu dobru. Wszystko to, dodaje Sokrates, dotyczy nie tylko mężczyzn, ale i kobiet — na ile pozwala ich natura."
+          },
+          "source": "Plato, Republic VII, 537b–540c"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Montaigne: a well-made head",
+        "ru": "Монтень: хорошо устроенная голова",
+        "uk": "Монтень: добре влаштована голова",
+        "pl": "Montaigne: głowa dobrze urządzona"
+      },
+      "intro": {
+        "en": "Gascony, south-western France, the late 1570s. Michel de Montaigne, once a magistrate in Bordeaux, has withdrawn to the tower of his château to write what he calls essays — trials of his own judgment. A young noblewoman of the house of Foix, Diane, Countess of Gurson, whose marriage he had helped to arrange, is expecting a child, and he writes for her a long chapter on how to bring up the boy. Find him a tutor, he says, \"who has rather a well-made than a well-filled head\" — and let the tutor work by a new method:",
+        "ru": "Гасконь, юго-запад Франции, конец 1570-х годов. Мишель де Монтень, прежде советник парламента в Бордо, удалился в башню своего замка, чтобы писать то, что он называет опытами, — испытаниями собственного суждения. Молодая знатная дама из дома Фуа, Диана, графиня де Гюрсон, в устройстве брака которой он участвовал, ждёт ребёнка, и он пишет для неё длинную главу о том, как воспитать мальчика. Найдите ему наставника, говорит он, у которого голова скорее хорошо устроена, чем хорошо наполнена, — и пусть наставник работает по новому методу:",
+        "uk": "Гасконь, південний захід Франції, кінець 1570-х років. Мішель де Монтень, колись радник парламенту в Бордо, усамітнився у вежі свого замку, щоб писати те, що він називає пробами, — випробуваннями власного судження. Молода знатна пані з дому Фуа, Діана, графиня де Гюрсон, в улаштуванні шлюбу якої він брав участь, чекає дитини, і він пише для неї довгий розділ про те, як виховати хлопчика. Знайдіть йому наставника, каже він, у якого голова радше добре влаштована, ніж добре наповнена, — і нехай наставник працює за новим методом:",
+        "pl": "Gaskonia, południowo-zachodnia Francja, koniec lat siedemdziesiątych XVI wieku. Michel de Montaigne, niegdyś sędzia parlamentu w Bordeaux, zaszył się w wieży swego zamku, by pisać to, co nazywa próbami — doświadczeniami własnego osądu. Młoda szlachetna pani z domu Foix, Diana, hrabina de Gurson, której małżeństwo pomagał zaaranżować, spodziewa się dziecka, a on pisze dla niej długi rozdział o tym, jak wychować chłopca. Znajdźcie mu nauczyciela, mówi, który ma głowę raczej dobrze urządzoną niż dobrze wypełnioną — i niech nauczyciel pracuje nową metodą:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Montaigne, Essays I.26: “Of the Education of Children”",
+            "ru": "Монтень, «Опыты», I.26: «О воспитании детей»",
+            "uk": "Монтень, «Проби», I.26: «Про виховання дітей»",
+            "pl": "Montaigne, Próby I.26: „O wychowaniu dzieci”"
+          },
+          "quotes": {
+            "en": {
+              "edition": "essays-education.en.cotton",
+              "from": "1.26",
+              "to": "1.26",
+              "text": "'Tis the custom of pedagogues to be eternally thundering in their pupil's ears, as they were pouring into a funnel, whilst the business of the pupil is only to repeat what the others have said: now I would have a tutor to correct this error, and, that at the very first, he should according to the capacity he has to deal with, put it to the test, permitting his pupil himself to taste things, and of himself to discern and choose them, sometimes opening the way to him, and sometimes leaving him to open it for himself; that is, I would not have him alone to invent and speak, but that he should also hear his pupil speak in turn.",
+              "kind": "Free",
+              "translator": "Charles Cotton, revised by William Carew Hazlitt",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Montaigne, Essays"
+              }
+            },
+            "ru": {
+              "edition": "essays-education.ru.ours",
+              "from": "1.26",
+              "to": "1.26",
+              "text": "Обычай педагогов — вечно громыхать в уши ученику, словно вливая в воронку, тогда как дело ученика — лишь повторять сказанное ими; я же хотел бы, чтобы наставник исправил эту ошибку и с самого начала, сообразно со способностями того, с кем имеет дело, испытывал его, позволяя ученику самому пробовать вещи на вкус, самому их различать и выбирать, иногда открывая ему путь, а иногда предоставляя открыть его самому; то есть я не хотел бы, чтобы наставник один придумывал и говорил, но чтобы и он в свой черёд слушал, как говорит ученик.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Монтень, «Опыты»"
+              }
+            },
+            "uk": {
+              "edition": "essays-education.uk.ours",
+              "from": "1.26",
+              "to": "1.26",
+              "text": "Звичай педагогів — довіку гриміти учневі у вуха, наче ллючи в лійку, тоді як справа учня — лише повторювати сказане ними; я ж хотів би, щоб наставник виправив цю помилку і від самого початку, відповідно до здібностей того, з ким має справу, випробовував його, дозволяючи учневі самому куштувати речі, самому їх розрізняти й вибирати, часом відкриваючи йому шлях, а часом даючи відкрити його самому; тобто я не хотів би, щоб наставник сам-один вигадував і говорив, але щоб і він своєю чергою слухав, як говорить учень.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Монтень, «Проби»"
+              }
+            },
+            "pl": {
+              "edition": "essays-education.pl.ours",
+              "from": "1.26",
+              "to": "1.26",
+              "text": "Zwyczajem pedagogów jest wiecznie grzmieć uczniowi w uszy, jakby lali do lejka, a rzeczą ucznia jest tylko powtarzać to, co oni powiedzieli; ja zaś chciałbym, by nauczyciel naprawił ten błąd i od samego początku, stosownie do zdolności tego, z kim ma do czynienia, wystawiał go na próbę, pozwalając uczniowi samemu kosztować rzeczy, samemu je rozróżniać i wybierać, czasem otwierając mu drogę, a czasem pozwalając mu otworzyć ją samemu; to znaczy nie chciałbym, by nauczyciel sam jeden wymyślał i mówił, lecz by i on z kolei słuchał, jak mówi uczeń.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Montaigne, Próby"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Essais/Livre_I/Chapitre_26"
+          }
+        },
+        {
+          "by": {
+            "en": "The same chapter",
+            "ru": "Та же глава",
+            "uk": "Той самий розділ",
+            "pl": "Ten sam rozdział"
+          },
+          "quotes": {
+            "en": {
+              "edition": "essays-education.en.cotton",
+              "from": "1.26",
+              "to": "1.26",
+              "text": "Bees cull their several sweets from this flower and that blossom, here and there where they find them, but themselves afterwards make the honey, which is all and purely their own, and no more thyme and marjoram: so the several fragments he borrows from others, he will transform and shuffle together to compile a work that shall be absolutely his own; that is to say, his judgment: his instruction, labour and study, tend to nothing else but to form that.",
+              "kind": "Free",
+              "translator": "Charles Cotton, revised by William Carew Hazlitt",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Montaigne, Essays"
+              }
+            },
+            "ru": {
+              "edition": "essays-education.ru.ours",
+              "from": "1.26",
+              "to": "1.26",
+              "text": "Пчёлы собирают свою сладость то с одного цветка, то с другого, тут и там, где найдут, но мёд затем делают сами, и он целиком и только их, а уже не тимьян и не майоран: так и разрозненные куски, заимствованные у других, он преобразит и смешает, чтобы составить труд, который будет всецело его собственным, то есть своё суждение: его обучение, труд и занятия ни к чему иному не направлены, как только к тому, чтобы образовать его.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Монтень, «Опыты»"
+              }
+            },
+            "uk": {
+              "edition": "essays-education.uk.ours",
+              "from": "1.26",
+              "to": "1.26",
+              "text": "Бджоли збирають свої солодощі то з однієї квітки, то з іншої, тут і там, де знайдуть, але мед потім роблять самі, і він цілком і тільки їхній, а вже не чебрець і не майоран: так і розрізнені уривки, позичені в інших, він перетворить і перемішає, щоб скласти твір, цілком його власний, тобто своє судження: його навчання, праця й студії не мають іншої мети, як тільки сформувати його.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Монтень, «Проби»"
+              }
+            },
+            "pl": {
+              "edition": "essays-education.pl.ours",
+              "from": "1.26",
+              "to": "1.26",
+              "text": "Pszczoły zbierają swoje słodycze z tego kwiatu i z tamtego, tu i ówdzie, gdzie je znajdą, ale miód robią potem same i jest on cały i wyłącznie ich, a nie już tymianek i majeranek: tak i okruchy zapożyczone od innych przetworzy i przemiesza, by złożyć dzieło całkowicie własne, to jest swój sąd: jego nauka, trud i studia nie zmierzają do niczego innego, jak tylko do tego, by go ukształtować.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Montaigne, Próby"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Essais/Livre_I/Chapitre_26"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Montaigne's father had him brought up speaking Latin: before he could talk he was given to a German tutor who knew no French, and the whole household spoke Latin to him; he was over six, he says, before he understood French. Even his waking was arranged — by the sound of a musical instrument, never with a start.",
+            "ru": "Отец Монтеня велел растить его на латыни: ещё до того, как мальчик заговорил, его отдали наставнику-немцу, не знавшему французского, и весь дом говорил с ним по-латыни; французский, по его словам, он стал понимать, когда ему было уже больше шести лет. Даже его пробуждение было устроено особо — под звуки музыкального инструмента, никогда не внезапно.",
+            "uk": "Батько Монтеня звелів ростити його на латині: ще до того, як хлопчик заговорив, його віддали наставникові-німцеві, який не знав французької, і весь дім розмовляв із ним латиною; французьку, за його словами, він став розуміти, коли йому було вже понад шість років. Навіть його пробудження було влаштоване особливо — під звуки музичного інструмента, ніколи не раптово.",
+            "pl": "Ojciec Montaigne’a kazał go wychowywać po łacinie: zanim chłopiec zaczął mówić, oddano go nauczycielowi-Niemcowi, który nie znał francuskiego, a cały dom mówił do niego po łacinie; francuski, jak twierdzi, zaczął rozumieć, mając już ponad sześć lat. Nawet jego budzenie było urządzone osobno — przy dźwiękach instrumentu muzycznego, nigdy nagle."
+          },
+          "source": "Montaigne, Essays I.26"
+        },
+        {
+          "fact": {
+            "en": "At six he was sent to the Collège de Guyenne in Bordeaux, then, he says, the best in France, where he acted the chief parts in Latin tragedies; he left it at thirteen, having run through the whole course \"without any manner of advantage\" he could honestly boast of.",
+            "ru": "В шесть лет его отдали в Гиеньский коллеж в Бордо — тогда, по его словам, лучший во Франции, — где он играл главные роли в латинских трагедиях; он вышел оттуда в тринадцать, пройдя весь курс «без всякой пользы», которой мог бы честно похвалиться.",
+            "uk": "У шість років його віддали до Гієнського колежу в Бордо — тоді, за його словами, найкращого у Франції, — де він грав головні ролі в латинських трагедіях; він вийшов звідти в тринадцять, пройшовши весь курс «без жодної користі», якою міг би чесно похвалитися.",
+            "pl": "W wieku sześciu lat oddano go do Kolegium Gujeńskiego w Bordeaux — wówczas, jak twierdzi, najlepszego we Francji — gdzie grał główne role w łacińskich tragediach; opuścił je w wieku trzynastu lat, przeszedłszy cały kurs „bez żadnego pożytku”, którym mógłby się uczciwie chwalić."
+          },
+          "source": "Montaigne, Essays I.26"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Locke: virtue first, learning last",
+        "ru": "Локк: сначала добродетель, учёность — в последнюю очередь",
+        "uk": "Локк: спершу чеснота, ученість — наостанок",
+        "pl": "Locke: najpierw cnota, nauka na końcu"
+      },
+      "intro": {
+        "en": "Holland, the 1680s. John Locke, an English physician and philosopher, is living in exile, having fled the reign of Charles II under suspicion. His friend Edward Clarke, a Somerset gentleman, has asked his advice on raising a son, and Locke answers in letters; in 1693, back in England, he gathers them into a book. It opens with the body — feet washed in cold water, shoes thin enough to leak, plain food — and then turns to the mind:",
+        "ru": "Голландия, 1680-е годы. Джон Локк, английский врач и философ, живёт в изгнании, бежав под подозрением в царствование Карла II. Его друг Эдвард Кларк, джентльмен из Сомерсета, спросил у него совета, как растить сына, и Локк отвечает письмами; в 1693 году, уже вернувшись в Англию, он собирает их в книгу. Она начинается с тела — ноги мыть холодной водой, башмаки такие тонкие, чтобы протекали, простая пища, — а затем обращается к уму:",
+        "uk": "Голландія, 1680-ті роки. Джон Локк, англійський лікар і філософ, живе у вигнанні, утікши під підозрою за царювання Карла II. Його друг Едвард Кларк, джентльмен із Сомерсету, спитав у нього поради, як ростити сина, і Локк відповідає листами; 1693 року, вже повернувшись до Англії, він збирає їх у книжку. Вона починається з тіла — ноги мити холодною водою, черевики такі тонкі, щоб протікали, проста їжа, — а тоді звертається до розуму:",
+        "pl": "Holandia, lata osiemdziesiąte XVII wieku. John Locke, angielski lekarz i filozof, żyje na wygnaniu, uciekłszy pod zarzutem spisku za panowania Karola II. Jego przyjaciel Edward Clarke, ziemianin z Somerset, poprosił go o radę, jak wychować syna, a Locke odpowiada listami; w 1693 roku, już po powrocie do Anglii, zbiera je w książkę. Zaczyna się ona od ciała — nogi myte zimną wodą, buty tak cienkie, by przemakały, proste jedzenie — a potem zwraca się ku umysłowi:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "John Locke, Some Thoughts Concerning Education (1693), §1",
+            "ru": "Джон Локк, «Мысли о воспитании» (1693), § 1",
+            "uk": "Джон Локк, «Думки про виховання» (1693), § 1",
+            "pl": "John Locke, Myśli o wychowaniu (1693), § 1"
+          },
+          "quotes": {
+            "en": {
+              "edition": "thoughts-education.en",
+              "from": "1.1",
+              "to": "1.1",
+              "text": "But examples of this kind are but few; and I think I may say, that of all the men we meet with, nine parts of ten are what they are, good or evil, useful or not, by their education. 'Tis that which makes the great difference in mankind.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Some_Thoughts_Concerning_Education",
+                "lang": "en",
+                "title": "John Locke, Some Thoughts Concerning Education"
+              }
+            },
+            "ru": {
+              "edition": "thoughts-education.ru.ours",
+              "from": "1.1",
+              "to": "1.1",
+              "text": "Но таких примеров немного; и, думаю, я могу сказать, что из всех людей, которых мы встречаем, девять из десяти таковы, каковы они есть, — добры или злы, полезны или нет, — благодаря своему воспитанию. Именно оно создаёт великое различие между людьми.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Some_Thoughts_Concerning_Education",
+                "lang": "en",
+                "title": "Джон Локк, «Мысли о воспитании»"
+              }
+            },
+            "uk": {
+              "edition": "thoughts-education.uk.ours",
+              "from": "1.1",
+              "to": "1.1",
+              "text": "Але таких прикладів небагато; і, гадаю, я можу сказати, що з усіх людей, яких ми зустрічаємо, дев’ять із десяти є такими, якими вони є, — добрими чи злими, корисними чи ні, — завдяки своєму вихованню. Саме воно творить велику різницю між людьми.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Some_Thoughts_Concerning_Education",
+                "lang": "en",
+                "title": "Джон Локк, «Думки про виховання»"
+              }
+            },
+            "pl": {
+              "edition": "thoughts-education.pl.ours",
+              "from": "1.1",
+              "to": "1.1",
+              "text": "Lecz takich przykładów jest niewiele; i sądzę, że mogę powiedzieć, iż spośród wszystkich ludzi, jakich spotykamy, dziewięciu na dziesięciu jest takimi, jakimi są, dobrymi czy złymi, użytecznymi czy nie, dzięki swemu wychowaniu. To ono stanowi o wielkiej różnicy między ludźmi.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Some_Thoughts_Concerning_Education",
+                "lang": "en",
+                "title": "John Locke, Myśli o wychowaniu"
+              }
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "The same book, §147",
+            "ru": "Та же книга, § 147",
+            "uk": "Та сама книжка, § 147",
+            "pl": "Ta sama książka, § 147"
+          },
+          "quotes": {
+            "en": {
+              "edition": "thoughts-education.en",
+              "from": "1.147",
+              "to": "1.147",
+              "text": "Reading and writing and learning I allow to be necessary, but yet not the chief business. I imagine you would think him a very foolish fellow, that should not value a virtuous or a wise man infinitely before a great scholar. Not but that I think learning a great help to both in well-dispos'd minds; but yet it must be confess'd also, that in others not so dispos'd, it helps them only to be the more foolish, or worse men. I say this, that when you consider the breeding of your son, and are looking out for a school-master or a tutor, you would not have (as is usual) Latin and logick only in your thoughts. Learning must be had, but in the second place, as subservient only to greater qualities.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Some_Thoughts_Concerning_Education",
+                "lang": "en",
+                "title": "John Locke, Some Thoughts Concerning Education"
+              }
+            },
+            "ru": {
+              "edition": "thoughts-education.ru.ours",
+              "from": "1.147",
+              "to": "1.147",
+              "text": "Чтение, письмо и учёность я признаю необходимыми, но всё же не главным делом. Полагаю, вы сочли бы очень глупым того, кто не ставил бы человека добродетельного или мудрого бесконечно выше великого учёного. Не то чтобы я не считал учёность большим подспорьем для того и другого в умах, хорошо расположенных; но надо признать и то, что другим, не так расположенным, она помогает лишь стать ещё глупее или хуже. Я говорю это для того, чтобы, думая о воспитании своего сына и подыскивая ему школьного учителя или наставника, вы не держали в мыслях (как это обычно бывает) одну лишь латынь и логику. Учёность приобрести нужно, но на втором месте, лишь в подчинении у более важных качеств.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Some_Thoughts_Concerning_Education",
+                "lang": "en",
+                "title": "Джон Локк, «Мысли о воспитании»"
+              }
+            },
+            "uk": {
+              "edition": "thoughts-education.uk.ours",
+              "from": "1.147",
+              "to": "1.147",
+              "text": "Читання, письмо й ученість я визнаю необхідними, але все ж не головною справою. Гадаю, ви вважали б дуже нерозумним того, хто не ставив би доброчесну чи мудру людину незмірно вище за великого вченого. Не те щоб я не вважав ученість великою підмогою для того й другого в умах, добре налаштованих; але треба визнати й те, що іншим, не так налаштованим, вона допомагає лише стати ще дурнішими чи гіршими людьми. Кажу це для того, щоб, думаючи про виховання свого сина й шукаючи йому шкільного вчителя чи наставника, ви не мали на думці (як це зазвичай буває) самої лише латини й логіки. Ученість здобути треба, але на другому місці, лише в підпорядкуванні вагомішим якостям.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Some_Thoughts_Concerning_Education",
+                "lang": "en",
+                "title": "Джон Локк, «Думки про виховання»"
+              }
+            },
+            "pl": {
+              "edition": "thoughts-education.pl.ours",
+              "from": "1.147",
+              "to": "1.147",
+              "text": "Czytanie, pisanie i uczoność uznaję za konieczne, lecz jednak nie za rzecz najważniejszą. Sądzę, że uznałbyś za bardzo niemądrego tego, kto nie ceniłby człowieka cnotliwego lub mądrego nieskończenie wyżej od wielkiego uczonego. Nie żebym nie uważał uczoności za wielką pomoc dla jednego i drugiego w umysłach dobrze usposobionych; lecz trzeba też przyznać, że innym, nie tak usposobionym, pomaga ona jedynie stać się jeszcze głupszymi albo gorszymi ludźmi. Mówię to po to, abyś, myśląc o wychowaniu swego syna i szukając dla niego nauczyciela szkolnego lub guwernera, nie miał w myślach (jak to zwykle bywa) jedynie łaciny i logiki. Uczoność trzeba zdobyć, lecz na drugim miejscu, jedynie jako służebną wobec ważniejszych przymiotów.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Some_Thoughts_Concerning_Education",
+                "lang": "en",
+                "title": "John Locke, Myśli o wychowaniu"
+              }
+            }
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The book grew out of the letters Locke wrote from Holland to Edward Clarke of Chipley, in Somerset, about the upbringing of Clarke's son; revised and enlarged, they were published in 1693 as Some Thoughts Concerning Education, and Locke went on adding to it in later editions.",
+            "ru": "Книга выросла из писем, которые Локк писал из Голландии Эдварду Кларку из Чипли, в Сомерсете, о воспитании его сына; переработанные и дополненные, они вышли в 1693 году как «Мысли о воспитании», и в последующих изданиях Локк продолжал её дополнять.",
+            "uk": "Книжка виросла з листів, які Локк писав із Голландії Едвардові Кларку з Чиплі, у Сомерсеті, про виховання його сина; перероблені й доповнені, вони вийшли 1693 року як «Думки про виховання», і в наступних виданнях Локк і далі її доповнював.",
+            "pl": "Książka wyrosła z listów, które Locke pisał z Holandii do Edwarda Clarke’a z Chipley w Somerset o wychowaniu jego syna; przerobione i rozszerzone, ukazały się w 1693 roku jako Myśli o wychowaniu, a w kolejnych wydaniach Locke wciąż je uzupełniał."
+          },
+          "source": "John W. Yolton and Jean S. Yolton (eds.), John Locke, Some Thoughts Concerning Education (Clarendon Press, 1989), Introduction"
+        },
+        {
+          "fact": {
+            "en": "Locke had himself been schooled at Westminster under Richard Busby, a headmaster famous for his rod. In the book he would rather have a gentleman's son taught at home by a tutor than \"put into the herd\" of a school and \"driven with a whip and scourge\" through its classes.",
+            "ru": "Сам Локк учился в Вестминстерской школе у Ричарда Басби — директора, славившегося своей розгой. В книге он предпочитает, чтобы сына джентльмена учил дома наставник, а не чтобы его «загнали в стадо» школы и «гнали кнутом и плетью» из класса в класс.",
+            "uk": "Сам Локк навчався у Вестмінстерській школі в Річарда Басбі — директора, що славився своєю різкою. У книжці він воліє, щоб сина джентльмена навчав удома наставник, а не щоб його «загнали в стадо» школи й «гнали батогом і нагаєм» із класу в клас.",
+            "pl": "Sam Locke uczył się w szkole westminsterskiej u Richarda Busby’ego — dyrektora słynącego z rózgi. W książce woli, by syna dżentelmena uczył w domu guwerner, niż żeby go „wpędzono do stada” szkoły i „pędzono batem i biczem” z klasy do klasy."
+          },
+          "source": "Maurice Cranston, John Locke: A Biography (1957); Some Thoughts Concerning Education §§70, 147"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Baltimore, Maryland, around 1826",
+        "ru": "Балтимор, Мэриленд, около 1826 года",
+        "uk": "Балтимор, Меріленд, близько 1826 року",
+        "pl": "Baltimore, Maryland, około 1826 roku"
+      },
+      "scene": {
+        "en": "You are a boy of about eight, enslaved. You were born on a plantation on Maryland's Eastern Shore; you do not know your birthday or your father, and you saw your mother only a few times, at night. Then you were sent to Baltimore, to the house of Hugh and Sophia Auld, to look after their little son Thomas. Your new mistress is unlike anyone you have known: she lets you look her in the face, and she has begun to teach you the alphabet — you can already spell words of three or four letters. Then her husband finds out. He forbids her to go on: it is unlawful, he says, as well as unsafe, to teach a slave to read; it would forever unfit him to be a slave; it would make him unmanageable, discontented and unhappy. You heard every word. What do you do?",
+        "ru": "Вы — мальчик лет восьми, раб. Вы родились на плантации на Восточном берегу Мэриленда; вы не знаете ни дня своего рождения, ни своего отца, а мать видели лишь несколько раз, ночью. Потом вас отправили в Балтимор, в дом Хью и Софии Олд, присматривать за их маленьким сыном Томасом. Ваша новая хозяйка не похожа ни на кого из тех, кого вы знали: она позволяет вам смотреть ей в лицо, и она начала учить вас азбуке — вы уже умеете складывать слова из трёх-четырёх букв. И тут об этом узнаёт её муж. Он запрещает ей продолжать: учить раба читать, говорит он, противозаконно, да и небезопасно; это навсегда сделает его негодным для рабства; он станет неуправляемым, недовольным и несчастным. Вы слышали каждое слово. Что вы сделаете?",
+        "uk": "Ви — хлопчик років восьми, раб. Ви народилися на плантації на Східному березі Меріленду; ви не знаєте ні дня свого народження, ні свого батька, а матір бачили лише кілька разів, уночі. Потім вас відправили до Балтимора, в дім Г’ю та Софії Олд, доглядати їхнього маленького сина Томаса. Ваша нова господиня не схожа ні на кого з тих, кого ви знали: вона дозволяє вам дивитися їй в обличчя, і вона почала вчити вас абетки — ви вже вмієте складати слова з трьох-чотирьох літер. І тут про це дізнається її чоловік. Він забороняє їй продовжувати: учити раба читати, каже він, незаконно, та й небезпечно; це назавжди зробить його непридатним для рабства; він стане некерованим, невдоволеним і нещасним. Ви чули кожне слово. Що ви зробите?",
+        "pl": "Jesteś chłopcem, mniej więcej ośmioletnim, niewolnikiem. Urodziłeś się na plantacji na Wschodnim Wybrzeżu Marylandu; nie znasz ani dnia swoich urodzin, ani swego ojca, a matkę widziałeś tylko kilka razy, nocą. Potem wysłano cię do Baltimore, do domu Hugh i Sophii Auldów, byś doglądał ich małego syna Thomasa. Twoja nowa pani nie jest podobna do nikogo, kogo znałeś: pozwala ci patrzeć sobie w twarz i zaczęła uczyć cię alfabetu — umiesz już składać słowa z trzech, czterech liter. I wtedy dowiaduje się o tym jej mąż. Zabrania jej to kontynuować: uczenie niewolnika czytania, mówi, jest niezgodne z prawem, a do tego niebezpieczne; na zawsze uczyniłoby go niezdatnym do niewoli; stałby się nieposłuszny, niezadowolony i nieszczęśliwy. Słyszałeś każde słowo. Co zrobisz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Obey: put the spelling book away — your master says it can bring you only harm",
+            "ru": "Подчиниться: убрать букварь — хозяин говорит, что он принесёт вам лишь вред",
+            "uk": "Скоритися: сховати буквар — господар каже, що він принесе вам лише шкоду",
+            "pl": "Usłuchać: odłożyć elementarz — pan mówi, że przyniesie ci on tylko szkodę"
+          },
+          "reply": {
+            "en": "He did the opposite: the very force of the warning convinced him it was true — what his master most dreaded, he wrote, was what he most desired.",
+            "ru": "Он поступил наоборот: сама сила этого предостережения убедила его, что оно верно, — то, чего больше всего боялся хозяин, писал он, было тем, чего он сам желал больше всего.",
+            "uk": "Він учинив навпаки: сама сила цієї перестороги переконала його, що вона правдива, — те, чого найбільше боявся господар, писав він, було тим, чого він сам найбільше прагнув.",
+            "pl": "Zrobił odwrotnie: sama siła tej przestrogi przekonała go, że jest prawdziwa — to, czego pan najbardziej się lękał, pisał, było tym, czego on sam najbardziej pragnął."
+          }
+        },
+        {
+          "choice": {
+            "en": "Beg your mistress to go on teaching you in secret",
+            "ru": "Упросить хозяйку продолжать учить вас тайком",
+            "uk": "Ублагати господиню й далі вчити вас потай",
+            "pl": "Uprosić panią, by dalej uczyła cię potajemnie"
+          },
+          "reply": {
+            "en": "It would not have worked: before long she opposed his learning even more fiercely than her husband, and would rush at him to snatch a newspaper from his hands.",
+            "ru": "Из этого ничего бы не вышло: вскоре она противилась его учению даже яростнее, чем муж, и бросалась к нему, чтобы вырвать из его рук газету.",
+            "uk": "Нічого б із цього не вийшло: невдовзі вона опиралася його навчанню навіть запекліше, ніж чоловік, і кидалася до нього, щоб вихопити з його рук газету.",
+            "pl": "Nic by z tego nie wyszło: wkrótce sprzeciwiała się jego nauce jeszcze zacieklej niż mąż i rzucała się na niego, by wyrwać mu z rąk gazetę."
+          }
+        },
+        {
+          "choice": {
+            "en": "Find other teachers: the white boys you meet in the street",
+            "ru": "Найти других учителей: белых мальчишек, которых вы встречаете на улице",
+            "uk": "Знайти інших учителів: білих хлопчаків, яких ви зустрічаєте на вулиці",
+            "pl": "Znaleźć innych nauczycieli: białych chłopców, których spotykasz na ulicy"
+          },
+          "reply": {
+            "en": "That is what he did — he paid them in bread, and took his lessons on his errands.",
+            "ru": "Так он и поступил — платил им хлебом и брал уроки, пока бегал с поручениями.",
+            "uk": "Так він і вчинив — платив їм хлібом і брав уроки, поки бігав із дорученнями.",
+            "pl": "Tak właśnie zrobił — płacił im chlebem i brał lekcje, biegając z poleceniami."
+          }
+        },
+        {
+          "choice": {
+            "en": "Run away now, to the free states of the North",
+            "ru": "Бежать сейчас же, в свободные штаты Севера",
+            "uk": "Тікати негайно, до вільних штатів Півночі",
+            "pl": "Uciec od razu, do wolnych stanów Północy"
+          },
+          "reply": {
+            "en": "He thought of freedom from that day on, but a child alone could not have got far; he escaped only in 1838, at twenty — by then he could read and write.",
+            "ru": "С того дня он думал о свободе, но ребёнок в одиночку далеко бы не ушёл; он бежал лишь в 1838 году, в двадцать лет, — к тому времени он умел читать и писать.",
+            "uk": "Відтоді він думав про свободу, але дитина сама далеко б не втекла; він утік лише 1838 року, у двадцять років, — на той час він умів читати й писати.",
+            "pl": "Od tego dnia myślał o wolności, ale dziecko samo daleko by nie uciekło; zbiegł dopiero w 1838 roku, w wieku dwudziestu lat — umiał już wtedy czytać i pisać."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "Frederick Bailey, as he was then called, learned to read from the white boys of the Baltimore streets, paying them in bread. At about twelve he got hold of The Columbian Orator, a schoolbook of speeches, and read in it a dialogue in which a slave's arguments win him his freedom from his master; it gave him words, he wrote, for his own thoughts — and the very discontent Hugh Auld had foretold. He learned to write from the letters ship carpenters marked on timber in a shipyard, and by copying, in secret, his young master Thomas's old copy-books. Sent back to the country, in 1834 he kept a secret Sabbath school, where more than forty slaves learned their letters at the risk of thirty-nine lashes. On 3 September 1838 he escaped to New York, and soon took the name Frederick Douglass; in 1845 he published the Narrative of his life, and in 1846 friends in Britain bought his freedom from Hugh Auld. He became the most famous voice of the movement to abolish slavery — the boy whose master had taught him, by forbidding it, what reading was for.",
+        "ru": "Фредерик Бейли — так его тогда звали — научился читать у белых мальчишек балтиморских улиц, платя им хлебом. Лет в двенадцать ему попалась в руки книга «Колумбийский оратор», школьный сборник речей, и он прочёл в ней диалог, в котором доводы раба добывают ему свободу от хозяина; она дала, писал он, слова его собственным мыслям — и то самое недовольство, которое предсказывал Хью Олд. Писать он научился по буквам, которыми корабельные плотники метили брёвна на верфи, и тайком переписывая старые прописи своего юного хозяина Томаса. Отправленный обратно в деревню, в 1834 году он вёл тайную воскресную школу, где больше сорока рабов учились грамоте под угрозой тридцати девяти ударов плетью. 3 сентября 1838 года он бежал в Нью-Йорк, а вскоре взял имя Фредерик Дуглас; в 1845 году он издал «Повествование» о своей жизни, а в 1846-м друзья в Британии выкупили его свободу у Хью Олда. Он стал самым известным голосом движения за отмену рабства — мальчик, которого хозяин, запретив ему учиться, научил, для чего нужно чтение.",
+        "uk": "Фредерік Бейлі — так його тоді звали — навчився читати в білих хлопчаків балтиморських вулиць, платячи їм хлібом. Років у дванадцять йому потрапив до рук «Колумбійський оратор», шкільна книжка промов, і він прочитав у ній діалог, у якому аргументи раба здобувають йому свободу від господаря; вона дала, писав він, слова його власним думкам — і те саме невдоволення, яке передрікав Г’ю Олд. Писати він навчився з літер, якими корабельні теслі мітили колоди на верфі, і потай переписуючи старі прописи свого юного господаря Томаса. Відправлений назад на село, 1834 року він провадив таємну недільну школу, де понад сорок рабів училися грамоти під загрозою тридцяти дев’яти ударів батогом. 3 вересня 1838 року він утік до Нью-Йорка, а невдовзі взяв ім’я Фредерік Дуглас; 1845 року він видав «Оповідь» про своє життя, а 1846-го друзі в Британії викупили його свободу в Г’ю Олда. Він став найвідомішим голосом руху за скасування рабства — хлопчик, якого господар, заборонивши йому вчитися, навчив, для чого потрібне читання.",
+        "pl": "Frederick Bailey — tak się wtedy nazywał — nauczył się czytać od białych chłopców z ulic Baltimore, płacąc im chlebem. Mając około dwunastu lat, dostał w ręce Columbian Orator, szkolny zbiór mów, i przeczytał w nim dialog, w którym argumenty niewolnika wyjednują mu wolność u pana; dał on, pisał, słowa jego własnym myślom — i to samo niezadowolenie, które przepowiadał Hugh Auld. Pisać nauczył się z liter, którymi cieśle okrętowi znaczyli belki w stoczni, i przepisując potajemnie stare zeszyty kaligraficzne swego młodego pana Thomasa. Odesłany z powrotem na wieś, w 1834 roku prowadził potajemną szkółkę niedzielną, w której ponad czterdziestu niewolników uczyło się liter pod groźbą trzydziestu dziewięciu batów. 3 września 1838 roku zbiegł do Nowego Jorku, a wkrótce przyjął nazwisko Frederick Douglass; w 1845 roku wydał opowieść o swoim życiu, a w 1846 roku przyjaciele w Wielkiej Brytanii wykupili jego wolność od Hugh Aulda. Stał się najsłynniejszym głosem ruchu na rzecz zniesienia niewolnictwa — chłopiec, którego pan, zakazując mu nauki, nauczył, czemu służy czytanie."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Frederick Douglass, Narrative of the Life of Frederick Douglass (1845), chapter VI — on what his master said",
+            "ru": "Фредерик Дуглас, «Повествование о жизни Фредерика Дугласа» (1845), глава VI — о словах хозяина",
+            "uk": "Фредерік Дуглас, «Оповідь про життя Фредеріка Дугласа» (1845), розділ VI — про слова господаря",
+            "pl": "Frederick Douglass, Narrative of the Life of Frederick Douglass (1845), rozdział VI — o słowach pana"
+          },
+          "quotes": {
+            "en": {
+              "edition": "narrative-education.en",
+              "from": "6.3",
+              "to": "6.3",
+              "text": "These words sank deep into my heart, stirred up sentiments within that lay slumbering, and called into existence an entirely new train of thought. It was a new and special revelation, explaining dark and mysterious things, with which my youthful understanding had struggled, but struggled in vain. I now understood what had been to me a most perplexing difficulty—to wit, the white man's power to enslave the black man. It was a grand achievement, and I prized it highly. From that moment, I understood the pathway from slavery to freedom.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Narrative_of_the_Life_of_Frederick_Douglass,_an_American_Slave",
+                "lang": "en",
+                "title": "Frederick Douglass, Narrative of the Life of Frederick Douglass, an American Slave"
+              }
+            },
+            "ru": {
+              "edition": "narrative-education.ru.ours",
+              "from": "6.3",
+              "to": "6.3",
+              "text": "Эти слова глубоко запали мне в сердце, пробудили дремавшие во мне чувства и вызвали к жизни совершенно новый ход мыслей. Это было новое, особое откровение, объяснившее тёмные и таинственные вещи, с которыми мой юный ум боролся, но боролся напрасно. Теперь я понял то, что было для меня мучительнейшей загадкой, — а именно власть белого человека порабощать чёрного. Это было великое достижение, и я высоко его ценил. С той минуты я понял, какой путь ведёт из рабства к свободе.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Narrative_of_the_Life_of_Frederick_Douglass,_an_American_Slave",
+                "lang": "en",
+                "title": "Фредерик Дуглас, «Повествование о жизни Фредерика Дугласа, американского раба»"
+              }
+            },
+            "uk": {
+              "edition": "narrative-education.uk.ours",
+              "from": "6.3",
+              "to": "6.3",
+              "text": "Ці слова глибоко запали мені в серце, збудили почуття, що дрімали в мені, і викликали до життя зовсім новий хід думок. Це було нове, особливе одкровення, що пояснило темні й таємничі речі, з якими мій юний розум боровся, але боровся марно. Тепер я зрозумів те, що було для мене найтяжчою загадкою, — а саме владу білої людини поневолювати чорну. Це було велике досягнення, і я високо його цінував. З тієї хвилини я зрозумів, який шлях веде з рабства до свободи.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Narrative_of_the_Life_of_Frederick_Douglass,_an_American_Slave",
+                "lang": "en",
+                "title": "Фредерік Дуглас, «Оповідь про життя Фредеріка Дугласа, американського раба»"
+              }
+            },
+            "pl": {
+              "edition": "narrative-education.pl.ours",
+              "from": "6.3",
+              "to": "6.3",
+              "text": "Te słowa zapadły mi głęboko w serce, obudziły uśpione we mnie uczucia i powołały do życia zupełnie nowy tok myśli. Było to nowe, szczególne objawienie, które wyjaśniło ciemne i tajemnicze rzeczy, z którymi mój młody rozum się zmagał, lecz zmagał się na próżno. Teraz zrozumiałem to, co było dla mnie najbardziej dręczącą zagadką — mianowicie władzę białego człowieka, by zniewalać czarnego. Było to wielkie osiągnięcie i wysoko je ceniłem. Od tej chwili rozumiałem, jaka droga prowadzi z niewoli do wolności.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Narrative_of_the_Life_of_Frederick_Douglass,_an_American_Slave",
+                "lang": "en",
+                "title": "Frederick Douglass, Opowieść o życiu Fredericka Douglassa, amerykańskiego niewolnika"
+              }
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "The same book, chapter VII",
+            "ru": "Та же книга, глава VII",
+            "uk": "Та сама книжка, розділ VII",
+            "pl": "Ta sama książka, rozdział VII"
+          },
+          "quotes": {
+            "en": {
+              "edition": "narrative-education.en",
+              "from": "7.4",
+              "to": "7.4",
+              "text": "The plan which I adopted, and the one by which I was most successful, was that of making friends of all the little white boys whom I met in the street. As many of these as I could, I converted into teachers. With their kindly aid, obtained at different times and in different places, I finally succeeded in learning to read. When I was sent of errands, I always took my book with me, and by going one part of my errand quickly, I found time to get a lesson before my return. I used also to carry bread with me, enough of which was always in the house, and to which I was always welcome; for I was much better off in this regard than many of the poor white children in our neighborhood. This bread I used to bestow upon the hungry little urchins, who, in return, would give me that more valuable bread of knowledge.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Narrative_of_the_Life_of_Frederick_Douglass,_an_American_Slave",
+                "lang": "en",
+                "title": "Frederick Douglass, Narrative of the Life of Frederick Douglass, an American Slave"
+              }
+            },
+            "ru": {
+              "edition": "narrative-education.ru.ours",
+              "from": "7.4",
+              "to": "7.4",
+              "text": "Способ, который я избрал и который принёс мне наибольший успех, состоял в том, чтобы подружиться со всеми белыми мальчишками, каких я встречал на улице. Скольких мог, я обратил в учителей. С их доброй помощью, полученной в разное время и в разных местах, я наконец научился читать. Когда меня посылали с поручениями, я всегда брал с собой книгу и, быстро исполнив одну часть поручения, находил время взять урок до возвращения. Ещё я носил с собой хлеб — его в доме всегда было вдоволь, и мне его никогда не жалели; в этом я был обеспечен гораздо лучше многих бедных белых детей по соседству. Этот хлеб я отдавал голодным маленьким сорванцам, а они взамен давали мне тот, более драгоценный, хлеб знания.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Narrative_of_the_Life_of_Frederick_Douglass,_an_American_Slave",
+                "lang": "en",
+                "title": "Фредерик Дуглас, «Повествование о жизни Фредерика Дугласа, американского раба»"
+              }
+            },
+            "uk": {
+              "edition": "narrative-education.uk.ours",
+              "from": "7.4",
+              "to": "7.4",
+              "text": "Спосіб, який я обрав і який приніс мені найбільший успіх, полягав у тому, щоб заприятелювати з усіма білими хлопчаками, яких я зустрічав на вулиці. Скількох міг, я перетворив на вчителів. З їхньою доброю допомогою, отриманою в різний час і в різних місцях, я врешті навчився читати. Коли мене посилали з дорученнями, я завжди брав із собою книжку і, швидко виконавши одну частину доручення, знаходив час узяти урок до повернення. Ще я носив із собою хліб — його в домі завжди було вдосталь, і мені його ніколи не шкодували; у цьому мені велося набагато краще, ніж багатьом бідним білим дітям по сусідству. Цей хліб я віддавав голодним маленьким шибеникам, а вони натомість давали мені той, цінніший, хліб знання.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Narrative_of_the_Life_of_Frederick_Douglass,_an_American_Slave",
+                "lang": "en",
+                "title": "Фредерік Дуглас, «Оповідь про життя Фредеріка Дугласа, американського раба»"
+              }
+            },
+            "pl": {
+              "edition": "narrative-education.pl.ours",
+              "from": "7.4",
+              "to": "7.4",
+              "text": "Sposób, który przyjąłem i który przyniósł mi największe powodzenie, polegał na zaprzyjaźnianiu się ze wszystkimi małymi białymi chłopcami, których spotykałem na ulicy. Ilu tylko mogłem, tylu zamieniłem w nauczycieli. Dzięki ich życzliwej pomocy, uzyskiwanej w różnym czasie i w różnych miejscach, w końcu nauczyłem się czytać. Kiedy posyłano mnie z poleceniami, zawsze brałem ze sobą książkę i, szybko załatwiwszy jedną część sprawy, znajdowałem czas na lekcję przed powrotem. Nosiłem też ze sobą chleb, którego w domu zawsze było dość i którego nigdy mi nie żałowano; pod tym względem miałem się o wiele lepiej niż wiele biednych białych dzieci z sąsiedztwa. Ten chleb dawałem głodnym małym urwisom, a oni w zamian dawali mi ów cenniejszy chleb wiedzy.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Narrative_of_the_Life_of_Frederick_Douglass,_an_American_Slave",
+                "lang": "en",
+                "title": "Frederick Douglass, Opowieść o życiu Fredericka Douglassa, amerykańskiego niewolnika"
+              }
+            }
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Douglass never knew his birthday: \"I have no accurate knowledge of my age,\" his Narrative begins. The historian Dickson Preston found it in the ledger of his first owner, Aaron Anthony: \"Frederick Augustus son of Harriott, Feby 1818\".",
+            "ru": "Дуглас так и не узнал дня своего рождения: «У меня нет точных сведений о моём возрасте», — так начинается его «Повествование». Историк Диксон Престон нашёл его в приходно-расходной книге его первого владельца, Аарона Энтони: «Фредерик Огастес, сын Хэрриет, февраль 1818».",
+            "uk": "Дуглас так і не дізнався дня свого народження: «Я не маю точних відомостей про свій вік», — так починається його «Оповідь». Історик Діксон Престон знайшов його в господарській книзі його першого власника, Аарона Ентоні: «Фредерік Оґастес, син Гаррієт, лютий 1818».",
+            "pl": "Douglass nigdy nie poznał daty swoich urodzin: „Nie mam dokładnej wiedzy o swoim wieku” — tak zaczyna się jego opowieść. Historyk Dickson Preston znalazł ją w księdze rachunkowej jego pierwszego właściciela, Aarona Anthony’ego: „Frederick Augustus, syn Harriott, luty 1818”."
+          },
+          "source": "Narrative, chapter I; Dickson J. Preston, Young Frederick Douglass: The Maryland Years (1980)"
+        },
+        {
+          "fact": {
+            "en": "The Sabbath school of 1834 met in secret at the house of a free Black man whose name Douglass still would not print ten years later. \"Every moment they spent in that school,\" he wrote of his more than forty pupils, \"they were liable to be taken up, and given thirty-nine lashes. They came because they wished to learn.\"",
+            "ru": "Воскресная школа 1834 года собиралась тайком в доме свободного чернокожего, чьё имя Дуглас и десять лет спустя не решился напечатать. «Каждую минуту, проведённую в этой школе, — писал он о своих более чем сорока учениках, — их могли схватить и дать им тридцать девять плетей. Они приходили, потому что хотели учиться».",
+            "uk": "Недільна школа 1834 року збиралася потай у домі вільного чорношкірого, чиє ім’я Дуглас і через десять років не наважився надрукувати. «Кожної хвилини, проведеної в цій школі, — писав він про своїх понад сорок учнів, — їх могли схопити й дати їм тридцять дев’ять батогів. Вони приходили, бо хотіли вчитися».",
+            "pl": "Szkółka niedzielna z 1834 roku zbierała się potajemnie w domu wolnego czarnoskórego, którego nazwiska Douglass jeszcze dziesięć lat później nie odważył się wydrukować. „W każdej chwili spędzonej w tej szkole — pisał o swoich ponad czterdziestu uczniach — mogli zostać schwytani i dostać trzydzieści dziewięć batów. Przychodzili, bo chcieli się uczyć”."
+          },
+          "source": "Narrative, chapter X"
+        }
+      ]
+    },
+    {
+      "think": "education",
+      "question": {
+        "en": "Think of the most important thing you ever learned — at school or outside it — and of the person who taught it to you. Was it put into you, or did someone turn your eyes towards it? If you were to teach a child of your own, what would you most want them to come away with — and what would you leave out?",
+        "ru": "Вспомните самое важное, чему вы когда-либо научились, — в школе или вне её, — и человека, который вас этому научил. Это в вас вложили — или кто-то повернул ваш взгляд в ту сторону? Если бы вам пришлось учить собственного ребёнка, с чем вы больше всего хотели бы, чтобы он ушёл, — и что бы вы оставили за бортом?",
+        "uk": "Згадайте найважливіше, чого ви будь-коли навчилися, — у школі чи поза нею, — і людину, яка вас цього навчила. Це у вас вклали — чи хтось повернув ваш погляд у той бік? Якби вам довелося вчити власну дитину, з чим ви найбільше хотіли б, щоб вона пішла, — і що б ви залишили поза увагою?",
+        "pl": "Pomyśl o najważniejszej rzeczy, jakiej kiedykolwiek się nauczyłeś — w szkole czy poza nią — i o osobie, która cię jej nauczyła. Czy ktoś ci to włożył do głowy, czy raczej zwrócił twój wzrok w tę stronę? Gdybyś miał uczyć własne dziecko, z czym najbardziej chciałbyś, żeby odeszło — a co byś pominął?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: what is education for?",
+        "ru": "А теперь: для чего нужно образование?",
+        "uk": "А тепер: для чого потрібна освіта?",
+        "pl": "A teraz: czemu służy edukacja?"
+      }
+    }
+  ]
+}
