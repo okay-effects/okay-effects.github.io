@@ -1,0 +1,977 @@
+{
+  "id": "beauty",
+  "title": {
+    "en": "What is beauty?",
+    "ru": "Что такое красота?",
+    "uk": "Що таке краса?",
+    "pl": "Czym jest piękno?"
+  },
+  "subtitle": {
+    "en": "Plato, Plotinus, Hume, Okakura and Sen no Rikyū — and you",
+    "ru": "Платон, Плотин, Юм, Окакура и Сэн-но Рикю — и вы",
+    "uk": "Платон, Плотін, Юм, Окакура і Сен-но Рікю — і ви",
+    "pl": "Platon, Plotyn, Hume, Okakura i Sen no Rikyū — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: what is beauty?",
+        "ru": "Прежде чем читать кого-либо: что такое красота?",
+        "uk": "Перш ніж читати когось: що таке краса?",
+        "pl": "Zanim kogokolwiek przeczytasz: czym jest piękno?"
+      },
+      "options": [
+        {
+          "en": "A real quality of things: harmony and proportion",
+          "ru": "Настоящее свойство вещей: гармония и соразмерность",
+          "uk": "Справжня властивість речей: гармонія і співмірність",
+          "pl": "Prawdziwa właściwość rzeczy: harmonia i proporcja"
+        },
+        {
+          "en": "It is in the eye of the beholder",
+          "ru": "Она в глазах смотрящего",
+          "uk": "Вона в очах того, хто дивиться",
+          "pl": "Jest w oku patrzącego"
+        },
+        {
+          "en": "A glimpse of something higher than this world",
+          "ru": "Отблеск чего-то высшего, чем этот мир",
+          "uk": "Відблиск чогось вищого за цей світ",
+          "pl": "Przebłysk czegoś wyższego niż ten świat"
+        },
+        {
+          "en": "Found in the simple, the imperfect and the passing",
+          "ru": "Она — в простом, несовершенном и преходящем",
+          "uk": "Вона — у простому, недосконалому і минущому",
+          "pl": "Tkwi w tym, co proste, niedoskonałe i przemijające"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Plato: the ladder to beauty itself",
+        "ru": "Платон: лестница к самой красоте",
+        "uk": "Платон: драбина до самої краси",
+        "pl": "Platon: drabina ku samemu pięknu"
+      },
+      "intro": {
+        "en": "Athens, 416 BC: a banquet in the house of the poet Agathon. The guests take turns praising Love. When Socrates' turn comes, he repeats what a wise woman, Diotima of Mantinea, once taught him: the love of beauty is a ladder. It begins with one beautiful body and climbs — to all beautiful bodies, to beautiful souls, to laws and to knowledge — until it reaches beauty itself:",
+        "ru": "Афины, 416 год до н. э.: пир в доме поэта Агафона. Гости по очереди восхваляют Эрота. Когда очередь доходит до Сократа, он пересказывает то, чему его некогда научила мудрая женщина, Диотима из Мантинеи: любовь к прекрасному — это лестница. Она начинается с одного прекрасного тела и восходит — ко всем прекрасным телам, к прекрасным душам, к законам и к знаниям, — пока не достигает самой красоты:",
+        "uk": "Афіни, 416 рік до н. е.: бенкет у домі поета Агафона. Гості по черзі прославляють Ерота. Коли черга доходить до Сократа, він переказує те, чого його колись навчила мудра жінка, Діотима з Мантінеї: любов до прекрасного — це драбина. Вона починається з одного прекрасного тіла й підноситься — до всіх прекрасних тіл, до прекрасних душ, до законів і знань, — доки не сягає самої краси:",
+        "pl": "Ateny, 416 rok p.n.e.: uczta w domu poety Agatona. Goście kolejno wysławiają Erosa. Gdy przychodzi kolej na Sokratesa, powtarza to, czego nauczyła go niegdyś mądra kobieta, Diotyma z Mantinei: miłość piękna jest drabiną. Zaczyna się od jednego pięknego ciała i wznosi się — ku wszystkim pięknym ciałom, ku pięknym duszom, ku prawom i ku wiedzy — aż dosięga samego piękna:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Diotima, in Plato's Symposium 210a–b",
+            "ru": "Диотима в «Пире» Платона, 210a–b",
+            "uk": "Діотима в «Бенкеті» Платона, 210a–b",
+            "pl": "Diotyma w Uczcie Platona, 210a–b"
+          },
+          "quotes": {
+            "en": {
+              "edition": "symposium-beauty.en.jowett",
+              "from": "209e",
+              "to": "209e",
+              "text": "and soon he will of himself perceive that the beauty of one form is akin to the beauty of another; and then if beauty of form in general is his pursuit, how foolish would he be not to recognize that the beauty in every form is one and the same!",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Plato, Symposium"
+              }
+            },
+            "ru": {
+              "edition": "symposium-beauty.ru.ours",
+              "from": "209e",
+              "to": "209e",
+              "text": "и вскоре он сам заметит, что красота одного облика сродни красоте другого; а затем, если он ищет красоты облика вообще, как глупо было бы ему не признать, что красота во всяком облике одна и та же!",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Платон, «Пир»"
+              }
+            },
+            "uk": {
+              "edition": "symposium-beauty.uk.ours",
+              "from": "209e",
+              "to": "209e",
+              "text": "і незабаром він сам помітить, що краса однієї форми споріднена з красою іншої; а потім, якщо він шукає краси форми взагалі, як нерозумно було б йому не визнати, що краса в кожній формі одна й та сама!",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Платон, «Бенкет»"
+              }
+            },
+            "pl": {
+              "edition": "symposium-beauty.pl.ours",
+              "from": "209e",
+              "to": "209e",
+              "text": "a wkrótce sam dostrzeże, że piękno jednej postaci jest pokrewne pięknu drugiej; a potem, jeśli dąży do piękna postaci w ogóle, jakże niemądry byłby, gdyby nie uznał, że piękno w każdej postaci jest jedno i to samo!",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Platon, Uczta"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg011.perseus-grc2:210a/"
+          }
+        },
+        {
+          "by": {
+            "en": "Diotima, in Plato's Symposium 211a–b",
+            "ru": "Диотима в «Пире» Платона, 211a–b",
+            "uk": "Діотима в «Бенкеті» Платона, 211a–b",
+            "pl": "Diotyma w Uczcie Platona, 211a–b"
+          },
+          "quotes": {
+            "en": {
+              "edition": "symposium-beauty.en.jowett",
+              "from": "210e",
+              "to": "210e",
+              "text": "a nature which in the first place is everlasting, not growing and decaying, or waxing and waning; secondly, not fair in one point of view and foul in another, or at one time or in one relation or at one place fair, at another time or in another relation or at another place foul, as if fair to some and foul to others, or in the likeness of a face or hands or any other part of the bodily frame, or in any form of speech or knowledge, or existing in any other being, as for example, in an animal, or in heaven, or in earth, or in any other place; but beauty absolute, separate, simple, and everlasting, which without diminution and without increase, or any change, is imparted to the ever-growing and perishing beauties of all other things.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Plato, Symposium"
+              }
+            },
+            "ru": {
+              "edition": "symposium-beauty.ru.ours",
+              "from": "210e",
+              "to": "210e",
+              "text": "природу, которая, во-первых, вечна — не растёт и не увядает, не прибывает и не убывает; во-вторых, она не прекрасна в одном отношении и безобразна в другом, не прекрасна в одно время, в одной связи или в одном месте и безобразна в другое время, в другой связи или в другом месте, как если бы для одних она была прекрасна, а для других безобразна; она не явится ему ни в подобии лица, или рук, или иной части тела, ни в какой-либо речи или знании, ни как существующая в чём-то другом, например в животном, на небе, на земле или где-либо ещё, — но как красота сама по себе, отдельная, простая и вечная, которая без убыли, без прибыли и без всякой перемены сообщается вечно растущим и гибнущим красотам всех прочих вещей.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Платон, «Пир»"
+              }
+            },
+            "uk": {
+              "edition": "symposium-beauty.uk.ours",
+              "from": "210e",
+              "to": "210e",
+              "text": "природу, яка, по-перше, вічна — не росте і не в’яне, не прибуває і не убуває; по-друге, вона не прекрасна в одному відношенні й потворна в іншому, не прекрасна в один час, в одному зв’язку чи в одному місці й потворна в інший час, в іншому зв’язку чи в іншому місці, так ніби для одних вона прекрасна, а для інших потворна; вона не постане перед ним ні в подобі обличчя, чи рук, чи іншої частини тіла, ні в жодній мові чи знанні, ні як така, що існує в чомусь іншому, наприклад у тварині, на небі, на землі чи будь-де ще, — але як краса сама по собі, окрема, проста і вічна, яка без убутку, без прибутку і без жодної зміни уділяється вічно зростаючим і гинучим красам усіх інших речей.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Платон, «Бенкет»"
+              }
+            },
+            "pl": {
+              "edition": "symposium-beauty.pl.ours",
+              "from": "210e",
+              "to": "210e",
+              "text": "naturę, która po pierwsze jest wieczna — nie rośnie i nie więdnie, nie przybywa jej i nie ubywa; po drugie, nie jest piękna pod jednym względem, a szpetna pod innym, ani piękna w jednym czasie, w jednym odniesieniu czy w jednym miejscu, a szpetna w innym czasie, w innym odniesieniu czy w innym miejscu, jak gdyby dla jednych była piękna, a dla drugich szpetna; nie ukaże mu się ona ani w podobieństwie twarzy, rąk czy jakiejkolwiek innej części ciała, ani w żadnej mowie czy wiedzy, ani jako istniejąca w czymś innym, na przykład w zwierzęciu, na niebie, na ziemi czy gdziekolwiek indziej — lecz jako piękno samo w sobie, oddzielne, proste i wieczne, które bez umniejszenia, bez przyrostu i bez żadnej zmiany udziela się wiecznie rosnącym i ginącym pięknom wszystkich innych rzeczy.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Platon, Uczta"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg011.perseus-grc2:211a/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The banquet is set in 416 BC, the day after Agathon's first victory with a tragedy; Plato wrote the dialogue a generation later. Diotima is known only from Plato, and many scholars think he invented her.",
+            "ru": "Пир происходит в 416 году до н. э., на следующий день после первой победы Агафона с трагедией; Платон написал диалог поколение спустя. Диотима известна только из Платона, и многие учёные думают, что он её выдумал.",
+            "uk": "Бенкет відбувається 416 року до н. е., наступного дня після першої перемоги Агафона з трагедією; Платон написав діалог через покоління. Діотиму відомо лише з Платона, і багато вчених вважають, що він її вигадав.",
+            "pl": "Uczta toczy się w 416 roku p.n.e., nazajutrz po pierwszym zwycięstwie Agatona tragedią; Platon napisał dialog pokolenie później. Diotyma znana jest tylko z Platona i wielu uczonych sądzi, że ją wymyślił."
+          },
+          "source": "Plato, Symposium 173a, 174a, 201d; Athenaeus, Deipnosophists 5.217a–b; K. J. Dover, Plato: Symposium (1980), introduction"
+        },
+        {
+          "fact": {
+            "en": "As soon as Socrates has finished, Alcibiades bursts in drunk and praises him: ugly as a satyr outside, Socrates is, he says, like those statues of Silenus that open to show images of gods within.",
+            "ru": "Едва Сократ умолкает, врывается пьяный Алкивиад и восхваляет его: снаружи уродливый, как сатир, Сократ, по его словам, подобен тем статуэткам силенов, которые раскрываются и показывают внутри изображения богов.",
+            "uk": "Щойно Сократ замовкає, вривається п’яний Алківіад і прославляє його: ззовні потворний, як сатир, Сократ, за його словами, подібний до тих статуеток силенів, що розкриваються й показують усередині зображення богів.",
+            "pl": "Ledwie Sokrates skończył, wpada pijany Alkibiades i wysławia go: z zewnątrz brzydki jak satyr, Sokrates jest, mówi, jak owe figurki sylenów, które otwierają się i ukazują w środku wizerunki bogów."
+          },
+          "source": "Plato, Symposium 212c–e, 215a–b, 216d–217a"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Plotinus: more than symmetry",
+        "ru": "Плотин: больше, чем соразмерность",
+        "uk": "Плотін: більше, ніж співмірність",
+        "pl": "Plotyn: więcej niż symetria"
+      },
+      "intro": {
+        "en": "Rome, about AD 254. Plotinus, a Greek philosopher who had studied in Alexandria, takes up Plato's question in the first treatise he writes. Almost everyone, he says, takes beauty to be symmetry — parts in the right proportion, with a pleasing colour. But then nothing simple could be beautiful: not a single colour, not gold, not the light of the sun. And a face may keep its proportions and lose its beauty. Beauty, he answers, is something the soul greets as its own kin — and to see it, the soul must first make itself beautiful:",
+        "ru": "Рим, около 254 года. Плотин, греческий философ, учившийся в Александрии, в первом же своём трактате возвращается к вопросу Платона. Почти все, говорит он, считают красоту соразмерностью — правильным соотношением частей при приятном цвете. Но тогда ничто простое не могло бы быть прекрасным: ни отдельный цвет, ни золото, ни свет солнца. А лицо может сохранить свои пропорции и утратить красоту. Красота, отвечает он, — это то, что душа приветствует как родное себе, и чтобы её увидеть, душа должна сперва сама стать прекрасной:",
+        "uk": "Рим, близько 254 року. Плотін, грецький філософ, що навчався в Александрії, у першому ж своєму трактаті повертається до питання Платона. Майже всі, каже він, вважають красу співмірністю — правильним співвідношенням частин за приємного кольору. Але тоді ніщо просте не могло б бути прекрасним: ні окремий колір, ні золото, ні світло сонця. А обличчя може зберегти свої пропорції й утратити красу. Краса, відповідає він, — це те, що душа вітає як споріднене собі, і щоб її побачити, душа мусить спершу сама стати прекрасною:",
+        "pl": "Rzym, około 254 roku. Plotyn, grecki filozof, który studiował w Aleksandrii, w swym pierwszym traktacie podejmuje pytanie Platona. Niemal wszyscy, mówi, uważają piękno za symetrię — właściwą proporcję części przy miłej barwie. Ale wtedy nic prostego nie mogłoby być piękne: ani pojedyncza barwa, ani złoto, ani światło słońca. A twarz może zachować proporcje i utracić piękno. Piękno, odpowiada, to coś, co dusza wita jako sobie pokrewne — a by je ujrzeć, dusza musi najpierw sama stać się piękna:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Plotinus, Enneads I.6.1",
+            "ru": "Плотин, «Эннеады», I.6.1",
+            "uk": "Плотін, «Еннеади», I.6.1",
+            "pl": "Plotyn, Enneady I.6.1"
+          },
+          "quotes": {
+            "en": {
+              "edition": "enneads-beauty.en.mackenna",
+              "from": "1.6.1",
+              "to": "1.6.1",
+              "text": "Again since the one face, constant in symmetry, appears sometimes fair and sometimes not, can we doubt that beauty is something more than symmetry, that symmetry itself owes its beauty to a remoter principle?",
+              "kind": "Free",
+              "translator": "Stephen MacKenna",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Plotinus_(MacKenna)/Volume_1/Ennead_1.6",
+                "lang": "en",
+                "title": "Plotinus, Enneads"
+              }
+            },
+            "ru": {
+              "edition": "enneads-beauty.ru.ours",
+              "from": "1.6.1",
+              "to": "1.6.1",
+              "text": "И далее: если одно и то же лицо, неизменное в своей соразмерности, кажется то прекрасным, то нет, можно ли сомневаться, что красота есть нечто большее, чем соразмерность, и что сама соразмерность обязана своей красотой более далёкому началу?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Plotinus_(MacKenna)/Volume_1/Ennead_1.6",
+                "lang": "en",
+                "title": "Плотин, «Эннеады»"
+              }
+            },
+            "uk": {
+              "edition": "enneads-beauty.uk.ours",
+              "from": "1.6.1",
+              "to": "1.6.1",
+              "text": "І далі: якщо одне й те саме обличчя, незмінне у своїй співмірності, здається то прекрасним, то ні, чи можна сумніватися, що краса є чимось більшим, ніж співмірність, і що сама співмірність завдячує своєю красою віддаленішому началу?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Plotinus_(MacKenna)/Volume_1/Ennead_1.6",
+                "lang": "en",
+                "title": "Плотін, «Еннеади»"
+              }
+            },
+            "pl": {
+              "edition": "enneads-beauty.pl.ours",
+              "from": "1.6.1",
+              "to": "1.6.1",
+              "text": "I dalej: skoro jedna i ta sama twarz, niezmienna w swej symetrii, wydaje się raz piękna, a raz nie, czyż można wątpić, że piękno jest czymś więcej niż symetria, że sama symetria zawdzięcza swe piękno dalszej zasadzie?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Plotinus_(MacKenna)/Volume_1/Ennead_1.6",
+                "lang": "en",
+                "title": "Plotyn, Enneady"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://el.wikisource.org/wiki/Εννεάδες/Α/στ"
+          }
+        },
+        {
+          "by": {
+            "en": "Plotinus, Enneads I.6.9",
+            "ru": "Плотин, «Эннеады», I.6.9",
+            "uk": "Плотін, «Еннеади», I.6.9",
+            "pl": "Plotyn, Enneady I.6.9"
+          },
+          "quotes": {
+            "en": {
+              "edition": "enneads-beauty.en.mackenna",
+              "from": "1.6.9",
+              "to": "1.6.9",
+              "text": "Withdraw into yourself and look. And if you do not find yourself beautiful yet, act as does the creator of a statue that is to be made beautiful: he cuts away here, he smoothes there, he makes this line lighter, this other purer, until a lovely face has grown upon his work. So do you also: cut away all that is excessive, straighten all that is crooked, bring light to all that is overcast, labour to make all one glow of beauty and never cease chiselling your statue, until there shall shine out on you from it the godlike splendour of virtue, until you shall see the perfect goodness surely established in the stainless shrine.",
+              "kind": "Free",
+              "translator": "Stephen MacKenna",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Plotinus_(MacKenna)/Volume_1/Ennead_1.6",
+                "lang": "en",
+                "title": "Plotinus, Enneads"
+              }
+            },
+            "ru": {
+              "edition": "enneads-beauty.ru.ours",
+              "from": "1.6.9",
+              "to": "1.6.9",
+              "text": "Обратись внутрь себя и посмотри. И если ты ещё не находишь себя прекрасным, поступай как ваятель статуи, которая должна стать прекрасной: он здесь отсекает, там сглаживает, эту линию делает легче, ту — чище, пока на его творении не вырастет прекрасное лицо. Так и ты: отсекай всё лишнее, выпрямляй всё кривое, освещай всё омрачённое, трудись, чтобы всё стало одним сиянием красоты, и не переставай ваять свою статую, пока не воссияет тебе из неё богоподобный блеск добродетели, пока не увидишь совершенное благо, прочно утверждённое в незапятнанном святилище.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Plotinus_(MacKenna)/Volume_1/Ennead_1.6",
+                "lang": "en",
+                "title": "Плотин, «Эннеады»"
+              }
+            },
+            "uk": {
+              "edition": "enneads-beauty.uk.ours",
+              "from": "1.6.9",
+              "to": "1.6.9",
+              "text": "Звернися всередину себе й подивися. І якщо ти ще не бачиш себе прекрасним, чини як творець статуї, що має стати прекрасною: він тут відтинає, там вигладжує, цю лінію робить легшою, ту — чистішою, доки на його творі не виросте прекрасне обличчя. Так і ти: відтинай усе зайве, випрямляй усе криве, освітлюй усе затьмарене, трудись, щоб усе стало одним сяйвом краси, і не переставай різьбити свою статую, доки не засяє тобі з неї богоподібний блиск чесноти, доки не побачиш досконалого добра, твердо утвердженого в непорочному святилищі.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Plotinus_(MacKenna)/Volume_1/Ennead_1.6",
+                "lang": "en",
+                "title": "Плотін, «Еннеади»"
+              }
+            },
+            "pl": {
+              "edition": "enneads-beauty.pl.ours",
+              "from": "1.6.9",
+              "to": "1.6.9",
+              "text": "Wejdź w siebie i spójrz. A jeśli jeszcze nie widzisz siebie pięknym, czyń jak twórca posągu, który ma stać się piękny: tu ociosuje, tam wygładza, tę linię czyni lżejszą, tamtą czystszą, aż na jego dziele wyrośnie piękna twarz. Tak i ty: odcinaj wszystko, co zbędne, prostuj wszystko, co krzywe, rozjaśniaj wszystko, co zaćmione, trudź się, by wszystko stało się jednym blaskiem piękna, i nie przestawaj rzeźbić swego posągu, aż zajaśnieje ci z niego boski blask cnoty, aż ujrzysz doskonałe dobro, pewnie osadzone w nieskalanym przybytku.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Plotinus_(MacKenna)/Volume_1/Ennead_1.6",
+                "lang": "en",
+                "title": "Plotyn, Enneady"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://el.wikisource.org/wiki/Εννεάδες/Α/στ"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Plotinus seemed ashamed to be in a body, his pupil Porphyry writes, and would not sit for a painter: was it not enough to carry the image nature had wrapped him in, without leaving an image of that image? A friend brought a painter to his lectures, who painted him from memory.",
+            "ru": "Плотин, пишет его ученик Порфирий, словно стыдился того, что пребывает в теле, и не соглашался позировать художнику: разве мало носить образ, в который облекла нас природа, чтобы ещё оставлять образ этого образа? Один из друзей привёл художника на его занятия, и тот написал его портрет по памяти.",
+            "uk": "Плотін, пише його учень Порфирій, ніби соромився того, що перебуває в тілі, і не погоджувався позувати художникові: хіба мало носити образ, у який нас одягла природа, щоб іще залишати образ цього образу? Один із друзів привів художника на його заняття, і той написав його портрет з пам’яті.",
+            "pl": "Plotyn, pisze jego uczeń Porfiriusz, jakby wstydził się, że przebywa w ciele, i nie chciał pozować malarzowi: czyż nie dość nosić obraz, w który przyoblekła nas natura, by jeszcze zostawiać obraz tego obrazu? Pewien przyjaciel przyprowadził malarza na jego wykłady i ten namalował go z pamięci."
+          },
+          "source": "Porphyry, On the Life of Plotinus 1"
+        },
+        {
+          "fact": {
+            "en": "On Beauty was, by Porphyry's list, the first treatise Plotinus wrote. Porphyry later put his master's fifty-four treatises in order in six groups of nine — the Enneads, from the Greek for “nine” — and set it sixth in the first group: hence I.6.",
+            "ru": "Трактат «О прекрасном», по списку Порфирия, был первым, что написал Плотин. Позже Порфирий расположил пятьдесят четыре трактата учителя в шесть групп по девять — «Эннеады», от греческого «девять», — и поставил его шестым в первой группе: отсюда I.6.",
+            "uk": "Трактат «Про прекрасне», за списком Порфирія, був першим, що написав Плотін. Згодом Порфирій упорядкував п’ятдесят чотири трактати вчителя в шість груп по дев’ять — «Еннеади», від грецького «дев’ять», — і поставив його шостим у першій групі: звідси I.6.",
+            "pl": "Traktat O pięknie był według spisu Porfiriusza pierwszym, jaki napisał Plotyn. Później Porfiriusz ułożył pięćdziesiąt cztery traktaty mistrza w sześć grup po dziewięć — Enneady, od greckiego „dziewięć” — i umieścił go jako szósty w pierwszej grupie: stąd I.6."
+          },
+          "source": "Porphyry, On the Life of Plotinus 4, 24–26"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Hume: in the mind — and yet a standard",
+        "ru": "Юм: в уме — и всё же есть норма",
+        "uk": "Юм: у розумі — і все ж є норма",
+        "pl": "Hume: w umyśle — a jednak jest wzorzec"
+      },
+      "intro": {
+        "en": "Edinburgh, the 1750s. David Hume sees how widely tastes differ — between persons, nations and ages — and asks whether one taste can be better than another. First he states, at its strongest, the view of a philosophy that says no. Then he answers it: whoever ranked a forgotten versifier, Ogilby, with Milton would be laughed at; and Homer, who pleased at Athens two thousand years ago, still pleases at Paris and London. The standard, he concludes, is in the verdict of rare judges:",
+        "ru": "Эдинбург, 1750-е годы. Дэвид Юм видит, как сильно расходятся вкусы — у разных людей, народов и эпох, — и спрашивает, может ли один вкус быть лучше другого. Сначала он излагает в самом сильном виде взгляд философии, которая отвечает: нет. Затем он ей возражает: того, кто поставил бы забытого стихотворца Огилби рядом с Мильтоном, подняли бы на смех, а Гомер, нравившийся в Афинах две тысячи лет назад, и сейчас нравится в Париже и Лондоне. Норма, заключает он, — в приговоре немногих настоящих ценителей:",
+        "uk": "Единбург, 1750-ті роки. Девід Юм бачить, як сильно різняться смаки — у різних людей, народів і епох, — і питає, чи може один смак бути кращим за інший. Спершу він викладає в найсильнішому вигляді погляд філософії, яка відповідає: ні. Потім він їй заперечує: того, хто поставив би забутого віршувальника Оґілбі поряд із Мільтоном, підняли б на сміх, а Гомер, що подобався в Афінах дві тисячі років тому, і досі подобається в Парижі й Лондоні. Норма, підсумовує він, — у вироку нечисленних справжніх поціновувачів:",
+        "pl": "Edynburg, lata pięćdziesiąte XVIII wieku. David Hume widzi, jak bardzo różnią się gusta — u różnych ludzi, narodów i epok — i pyta, czy jeden gust może być lepszy od drugiego. Najpierw przedstawia w najmocniejszej postaci pogląd filozofii, która odpowiada: nie. Potem odpiera go: kto postawiłby zapomnianego wierszokletę Ogilby’ego obok Miltona, zostałby wyśmiany, a Homer, który podobał się w Atenach dwa tysiące lat temu, wciąż podoba się w Paryżu i Londynie. Wzorzec, konkluduje, tkwi w werdykcie nielicznych prawdziwych znawców:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Hume, Of the Standard of Taste (1757), ¶7: the sceptics' case, as he states it",
+            "ru": "Юм, «О норме вкуса» (1757), §7: довод скептиков, как он его излагает",
+            "uk": "Юм, «Про норму смаку» (1757), §7: аргумент скептиків, як він його викладає",
+            "pl": "Hume, O wzorcu smaku (1757), §7: racja sceptyków, tak jak ją przedstawia"
+          },
+          "quotes": {
+            "en": {
+              "edition": "dissertations-beauty.en",
+              "from": "4.7",
+              "to": "4.7",
+              "text": "Beauty is no quality in things themselves: It exists merely in the mind which contemplates them; and each mind perceives a different beauty. One person may even perceive deformity, where another is sensible of beauty; and every individual ought to acquiesce in his own sentiment, without pretending to regulate those of others.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Four_Dissertations/Of_the_Standard_of_Taste",
+                "lang": "en",
+                "title": "David Hume, Of the Standard of Taste"
+              }
+            },
+            "ru": {
+              "edition": "dissertations-beauty.ru.ours",
+              "from": "4.7",
+              "to": "4.7",
+              "text": "Красота не есть качество самих вещей: она существует лишь в уме, который их созерцает, и каждый ум воспринимает иную красоту. Один может даже видеть уродство там, где другой ощущает красоту; и каждый должен довольствоваться собственным чувством, не притязая на то, чтобы направлять чувства других.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Four_Dissertations/Of_the_Standard_of_Taste",
+                "lang": "en",
+                "title": "Дэвид Юм, «О норме вкуса»"
+              }
+            },
+            "uk": {
+              "edition": "dissertations-beauty.uk.ours",
+              "from": "4.7",
+              "to": "4.7",
+              "text": "Краса не є якістю самих речей: вона існує лише в розумі, який їх споглядає, і кожен розум сприймає іншу красу. Один може навіть бачити потворність там, де інший відчуває красу; і кожен має задовольнятися власним почуттям, не претендуючи на те, щоб керувати почуттями інших.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Four_Dissertations/Of_the_Standard_of_Taste",
+                "lang": "en",
+                "title": "Девід Юм, «Про норму смаку»"
+              }
+            },
+            "pl": {
+              "edition": "dissertations-beauty.pl.ours",
+              "from": "4.7",
+              "to": "4.7",
+              "text": "Piękno nie jest właściwością samych rzeczy: istnieje jedynie w umyśle, który je kontempluje, i każdy umysł postrzega inne piękno. Jeden może nawet dostrzegać brzydotę tam, gdzie drugi odczuwa piękno; i każdy powinien poprzestać na własnym odczuciu, nie roszcząc sobie prawa do kierowania odczuciami innych.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Four_Dissertations/Of_the_Standard_of_Taste",
+                "lang": "en",
+                "title": "David Hume, O normie smaku"
+              }
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "Hume, the same essay, ¶23: his answer",
+            "ru": "Юм, там же, §23: его ответ",
+            "uk": "Юм, там само, §23: його відповідь",
+            "pl": "Hume, tamże, §23: jego odpowiedź"
+          },
+          "quotes": {
+            "en": {
+              "edition": "dissertations-beauty.en",
+              "from": "4.23",
+              "to": "4.23",
+              "text": "Strong sense, united to delicate sentiment, improved by practice, perfected by comparison, and cleared of all prejudice, can alone entitle critics to this valuable character; and the joint verdict of such, where-ever they are to be found, is the true standard of taste and beauty.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Four_Dissertations/Of_the_Standard_of_Taste",
+                "lang": "en",
+                "title": "David Hume, Of the Standard of Taste"
+              }
+            },
+            "ru": {
+              "edition": "dissertations-beauty.ru.ours",
+              "from": "4.23",
+              "to": "4.23",
+              "text": "Лишь сильный ум, соединённый с тонким чувством, развитый упражнением, усовершенствованный сравнением и очищенный от всякого предубеждения, даёт критикам право на это ценное звание; и общий приговор таких критиков, где бы они ни нашлись, и есть истинная норма вкуса и красоты.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Four_Dissertations/Of_the_Standard_of_Taste",
+                "lang": "en",
+                "title": "Дэвид Юм, «О норме вкуса»"
+              }
+            },
+            "uk": {
+              "edition": "dissertations-beauty.uk.ours",
+              "from": "4.23",
+              "to": "4.23",
+              "text": "Лише сильний розум, поєднаний із тонким почуттям, розвинений вправою, удосконалений порівнянням і очищений від усякого упередження, дає критикам право на це цінне звання; і спільний вирок таких критиків, хоч би де вони знайшлися, і є справжньою нормою смаку й краси.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Four_Dissertations/Of_the_Standard_of_Taste",
+                "lang": "en",
+                "title": "Девід Юм, «Про норму смаку»"
+              }
+            },
+            "pl": {
+              "edition": "dissertations-beauty.pl.ours",
+              "from": "4.23",
+              "to": "4.23",
+              "text": "Jedynie silny rozum połączony z delikatnym odczuciem, rozwinięty ćwiczeniem, udoskonalony porównywaniem i oczyszczony z wszelkich uprzedzeń, może dać krytykom prawo do tego cennego miana; a wspólny werdykt takich krytyków, gdziekolwiek się znajdą, jest prawdziwym wzorcem smaku i piękna.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Four_Dissertations/Of_the_Standard_of_Taste",
+                "lang": "en",
+                "title": "David Hume, O normie smaku"
+              }
+            }
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Hume's publisher had already printed two other essays for the volume, on suicide and on the immortality of the soul; they were withdrawn before it came out, and Of the Standard of Taste went into Four Dissertations (1757) in their place.",
+            "ru": "Издатель Юма уже напечатал для этого тома два других эссе — о самоубийстве и о бессмертии души; перед выходом книги их изъяли, и на их место в «Четыре рассуждения» (1757) вошло эссе «О норме вкуса».",
+            "uk": "Видавець Юма вже надрукував для цього тому два інші есеї — про самогубство і про безсмертя душі; перед виходом книжки їх вилучили, і на їхнє місце до «Чотирьох розвідок» (1757) увійшов есей «Про норму смаку».",
+            "pl": "Wydawca Hume’a wydrukował już do tego tomu dwa inne eseje — o samobójstwie i o nieśmiertelności duszy; przed ukazaniem się książki zostały wycofane, a ich miejsce w Czterech rozprawach (1757) zajął esej O wzorcu smaku."
+          },
+          "source": "Ernest Campbell Mossner, The Life of David Hume (1954)"
+        },
+        {
+          "fact": {
+            "en": "To show what a delicate taste is, Hume borrows a story from Don Quixote: two of Sancho Panza's kinsmen, asked to judge a cask of wine, find in it a taste of leather and a taste of iron, and are laughed at — until the cask is emptied and an old key on a leather thong is found at the bottom.",
+            "ru": "Чтобы показать, что такое тонкий вкус, Юм заимствует историю из «Дон Кихота»: двое родственников Санчо Пансы, которых попросили оценить бочку вина, находят в нём привкус кожи и привкус железа, и их поднимают на смех — пока бочку не опорожняют и не находят на дне старый ключ на кожаном ремешке.",
+            "uk": "Щоб показати, що таке тонкий смак, Юм позичає історію з «Дон Кіхота»: двоє родичів Санчо Панси, яких попросили оцінити бочку вина, знаходять у ньому присмак шкіри й присмак заліза, і їх піднімають на сміх — доки бочку не спорожняють і не знаходять на дні старий ключ на шкіряному ремінці.",
+            "pl": "By pokazać, czym jest subtelny smak, Hume zapożycza historię z Don Kichota: dwaj krewni Sancho Pansy, poproszeni o ocenę beczki wina, wyczuwają w nim posmak skóry i posmak żelaza i zostają wyśmiani — dopóki beczki nie opróżniono i nie znaleziono na dnie starego klucza na skórzanym rzemyku."
+          },
+          "source": "Hume, Of the Standard of Taste (1757); Cervantes, Don Quixote, Part II, chapter 13"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Okakura: the worship of the imperfect",
+        "ru": "Окакура: поклонение несовершенному",
+        "uk": "Окакура: поклоніння недосконалому",
+        "pl": "Okakura: cześć dla niedoskonałego"
+      },
+      "intro": {
+        "en": "New York, 1906. Okakura Kakuzō, a Japanese scholar of art, writes for Western readers a small book about tea — and through tea about a sense of beauty that Zen and Taoism taught Japan: to find it in plain, everyday things, in the unfinished and the passing, rather than in perfect symmetry:",
+        "ru": "Нью-Йорк, 1906 год. Окакура Какудзо, японский знаток искусства, пишет для западных читателей небольшую книгу о чае — а через чай о чувстве красоты, которому Японию научили дзэн и даосизм: находить её в простых повседневных вещах, в незавершённом и преходящем, а не в совершенной симметрии:",
+        "uk": "Нью-Йорк, 1906 рік. Окакура Какудзо, японський знавець мистецтва, пише для західних читачів невелику книжку про чай — а через чай про чуття краси, якого Японію навчили дзен і даосизм: знаходити її в простих повсякденних речах, у незавершеному й минущому, а не в досконалій симетрії:",
+        "pl": "Nowy Jork, 1906. Okakura Kakuzō, japoński znawca sztuki, pisze dla zachodnich czytelników małą książkę o herbacie — a przez herbatę o poczuciu piękna, którego Japonię nauczyły zen i taoizm: odnajdywać je w prostych, codziennych rzeczach, w tym, co niedokończone i przemijające, a nie w doskonałej symetrii:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Okakura Kakuzō, The Book of Tea (1906), chapter I",
+            "ru": "Окакура Какудзо, «Книга чая» (1906), глава I",
+            "uk": "Окакура Какудзо, «Книга чаю» (1906), розділ I",
+            "pl": "Okakura Kakuzō, Księga herbaty (1906), rozdział I"
+          },
+          "quotes": {
+            "en": {
+              "edition": "tea-beauty.en",
+              "from": "1.1",
+              "to": "1.1",
+              "text": "Teaism is a cult founded on the adoration of the beautiful among the sordid facts of everyday existence. It inculcates purity and harmony, the mystery of mutual charity, the romanticism of the social order. It is essentially a worship of the Imperfect, as it is a tender attempt to accomplish something possible in this impossible thing we know as life.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Book_of_Tea",
+                "lang": "en",
+                "title": "Okakura Kakuzō, The Book of Tea"
+              }
+            },
+            "ru": {
+              "edition": "tea-beauty.ru.ours",
+              "from": "1.1",
+              "to": "1.1",
+              "text": "Чаизм — это культ, основанный на поклонении прекрасному среди неприглядных фактов повседневного существования. Он прививает чистоту и гармонию, таинство взаимного милосердия, романтику общественного порядка. По сути это поклонение Несовершенному, поскольку это нежная попытка совершить что-то возможное в той невозможной вещи, которую мы знаем как жизнь.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Book_of_Tea",
+                "lang": "en",
+                "title": "Окакура Какудзо, «Книга чая»"
+              }
+            },
+            "uk": {
+              "edition": "tea-beauty.uk.ours",
+              "from": "1.1",
+              "to": "1.1",
+              "text": "Чаїзм — це культ, заснований на поклонінні прекрасному серед неприглядних фактів повсякденного існування. Він прищеплює чистоту й гармонію, таїнство взаємного милосердя, романтику суспільного ладу. По суті це поклоніння Недосконалому, оскільки це ніжна спроба здійснити щось можливе в тій неможливій речі, яку ми знаємо як життя.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Book_of_Tea",
+                "lang": "en",
+                "title": "Окакура Какудзо, «Книга чаю»"
+              }
+            },
+            "pl": {
+              "edition": "tea-beauty.pl.ours",
+              "from": "1.1",
+              "to": "1.1",
+              "text": "Herbaizm to kult oparty na uwielbieniu tego, co piękne, pośród nędznych faktów codziennego istnienia. Wpaja czystość i harmonię, tajemnicę wzajemnej miłości bliźniego, romantyzm ładu społecznego. Jest w istocie czcią Niedoskonałego, jako że jest czułą próbą dokonania czegoś możliwego w tej niemożliwej rzeczy, którą znamy jako życie.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Book_of_Tea",
+                "lang": "en",
+                "title": "Okakura Kakuzō, Księga herbaty"
+              }
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "Okakura, The Book of Tea, chapter IV",
+            "ru": "Окакура, «Книга чая», глава IV",
+            "uk": "Окакура, «Книга чаю», розділ IV",
+            "pl": "Okakura, Księga herbaty, rozdział IV"
+          },
+          "quotes": {
+            "en": {
+              "edition": "tea-beauty.en",
+              "from": "4.18",
+              "to": "4.18",
+              "text": "The Taoist and Zen conception of perfection, however, was different. The dynamic nature of their philosophy laid more stress upon the process through which perfection was sought than upon perfection itself. True beauty could be discovered only by one who mentally completed the incomplete.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Book_of_Tea",
+                "lang": "en",
+                "title": "Okakura Kakuzō, The Book of Tea"
+              }
+            },
+            "ru": {
+              "edition": "tea-beauty.ru.ours",
+              "from": "4.18",
+              "to": "4.18",
+              "text": "Однако даосское и дзэнское понимание совершенства было иным. Динамичная природа их философии придавала больше значения процессу, в котором искали совершенства, чем самому совершенству. Истинную красоту мог открыть лишь тот, кто мысленно завершал незавершённое.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Book_of_Tea",
+                "lang": "en",
+                "title": "Окакура Какудзо, «Книга чая»"
+              }
+            },
+            "uk": {
+              "edition": "tea-beauty.uk.ours",
+              "from": "4.18",
+              "to": "4.18",
+              "text": "Однак даоське й дзенське розуміння досконалості було іншим. Динамічна природа їхньої філософії надавала більше ваги процесу, в якому шукали досконалості, ніж самій досконалості. Справжню красу міг відкрити лише той, хто подумки завершував незавершене.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Book_of_Tea",
+                "lang": "en",
+                "title": "Окакура Какудзо, «Книга чаю»"
+              }
+            },
+            "pl": {
+              "edition": "tea-beauty.pl.ours",
+              "from": "4.18",
+              "to": "4.18",
+              "text": "Taoistyczne i zenistyczne pojęcie doskonałości było jednak inne. Dynamiczna natura ich filozofii kładła większy nacisk na proces, w którym szukano doskonałości, niż na samą doskonałość. Prawdziwe piękno mógł odkryć tylko ten, kto w myśli dopełniał niedokończone.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Book_of_Tea",
+                "lang": "en",
+                "title": "Okakura Kakuzō, Księga herbaty"
+              }
+            }
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Okakura wrote The Book of Tea in English, for Western readers, and dedicated it to the American painter John La Farge; it came out in New York in 1906, a year after Japan's victory over Russia — the war he means when he writes of “wholesale slaughter on Manchurian battlefields”.",
+            "ru": "Окакура написал «Книгу чая» по-английски, для западных читателей, и посвятил её американскому художнику Джону Ла Фаржу; она вышла в Нью-Йорке в 1906 году, через год после победы Японии над Россией — той войны, которую он имеет в виду, когда пишет о «массовой резне на полях Маньчжурии».",
+            "uk": "Окакура написав «Книгу чаю» англійською, для західних читачів, і присвятив її американському художникові Джонові Ла Фаржу; вона вийшла в Нью-Йорку 1906 року, через рік після перемоги Японії над Росією — тієї війни, яку він має на увазі, коли пише про «масову різанину на полях Маньчжурії».",
+            "pl": "Okakura napisał Księgę herbaty po angielsku, dla zachodnich czytelników, i zadedykował ją amerykańskiemu malarzowi Johnowi La Farge’owi; ukazała się w Nowym Jorku w 1906 roku, rok po zwycięstwie Japonii nad Rosją — wojnie, o której myśli, pisząc o „hurtowej rzezi na polach Mandżurii”."
+          },
+          "source": "Okakura Kakuzō, The Book of Tea (1906), title page, dedication and chapter I"
+        },
+        {
+          "fact": {
+            "en": "Okakura tells a story of Rikyū: his son swept and washed the garden path until not a leaf was left on it; Rikyū said that was not how a path should be swept, shook a tree, and scattered gold and crimson leaves over it.",
+            "ru": "Окакура рассказывает историю о Рикю: его сын подметал и поливал садовую дорожку, пока на ней не осталось ни листка; Рикю сказал, что дорожку подметают не так, встряхнул дерево и рассыпал по ней золотые и багряные листья.",
+            "uk": "Окакура розповідає історію про Рікю: його син підмітав і поливав садову доріжку, доки на ній не лишилося жодного листка; Рікю сказав, що доріжку підмітають не так, струснув дерево й розсипав по ній золоте й багряне листя.",
+            "pl": "Okakura opowiada historię o Rikyū: jego syn zamiatał i polewał ogrodową ścieżkę, aż nie został na niej ani jeden liść; Rikyū powiedział, że nie tak zamiata się ścieżkę, potrząsnął drzewem i rozsypał na niej złote i purpurowe liście."
+          },
+          "source": "Okakura Kakuzō, The Book of Tea (1906), chapter IV (a story of tradition)"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Kyoto, 1591",
+        "ru": "Киото, 1591 год",
+        "uk": "Кіото, 1591 рік",
+        "pl": "Kioto, 1591"
+      },
+      "scene": {
+        "en": "Kyoto, spring 1591. You are nearly seventy, the most famous tea master in Japan. For nine years you have served tea to Toyotomi Hideyoshi, the soldier who has made himself master of the country, and you have taught his lords to prize a plain black bowl and a room of two mats above gold. Now he has turned against you — no one will say exactly why — and his order has come: you are to take your own life. What do you do?",
+        "ru": "Киото, весна 1591 года. Вам почти семьдесят, вы самый знаменитый мастер чая в Японии. Девять лет вы подаёте чай Тоётоми Хидэёси, воину, ставшему хозяином страны, и вы научили его вельмож ценить простую чёрную чашу и комнату в два татами выше золота. Теперь он обратился против вас — никто толком не скажет почему, — и пришёл его приказ: вы должны лишить себя жизни. Что вы сделаете?",
+        "uk": "Кіото, весна 1591 року. Вам майже сімдесят, ви найславетніший майстер чаю в Японії. Дев’ять років ви подаєте чай Тойотомі Хідейосі, воїнові, що став господарем країни, і ви навчили його вельмож цінувати просту чорну чашу й кімнату на два татамі вище за золото. Тепер він обернувся проти вас — ніхто напевно не скаже чому, — і надійшов його наказ: ви маєте позбавити себе життя. Що ви зробите?",
+        "pl": "Kioto, wiosna 1591 roku. Masz prawie siedemdziesiąt lat, jesteś najsłynniejszym mistrzem herbaty w Japonii. Od dziewięciu lat podajesz herbatę Toyotomiemu Hideyoshiemu, wojownikowi, który uczynił się panem kraju, i nauczyłeś jego możnych cenić prostą czarną czarkę i izbę na dwie maty wyżej niż złoto. Teraz zwrócił się przeciw tobie — nikt nie powie dokładnie dlaczego — i nadszedł jego rozkaz: masz odebrać sobie życie. Co zrobisz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Beg Hideyoshi's pardon: no bowl of tea is worth a life",
+            "ru": "Просить у Хидэёси прощения: никакая чаша чая не стоит жизни",
+            "uk": "Просити в Хідейосі прощення: жодна чаша чаю не варта життя",
+            "pl": "Błagać Hideyoshiego o przebaczenie: żadna czarka herbaty nie jest warta życia"
+          },
+          "reply": {
+            "en": "Perhaps he would have spared you — and the way of tea would have learned that it bows to the sword.",
+            "ru": "Возможно, он пощадил бы вас — и путь чая усвоил бы, что склоняется перед мечом.",
+            "uk": "Можливо, він помилував би вас — і шлях чаю засвоїв би, що схиляється перед мечем.",
+            "pl": "Może by cię oszczędził — a droga herbaty nauczyłaby się, że kłania się mieczowi."
+          }
+        },
+        {
+          "choice": {
+            "en": "Flee to Sakai, your native town, and wait for his anger to pass",
+            "ru": "Бежать в Сакаи, родной город, и переждать его гнев",
+            "uk": "Утекти до Сакаї, рідного міста, і перечекати його гнів",
+            "pl": "Uciec do Sakai, rodzinnego miasta, i przeczekać jego gniew"
+          },
+          "reply": {
+            "en": "Sakai was indeed his birthplace; but no town in Japan was out of Hideyoshi's reach.",
+            "ru": "Сакаи и правда был его родным городом; но ни один город Японии не был недосягаем для Хидэёси.",
+            "uk": "Сакаї справді було його рідним містом; але жодне місто Японії не було поза досяжністю Хідейосі.",
+            "pl": "Sakai rzeczywiście było jego rodzinnym miastem; ale żadne miasto w Japonii nie leżało poza zasięgiem Hideyoshiego."
+          }
+        },
+        {
+          "choice": {
+            "en": "Obey — but first serve tea to your friends one last time",
+            "ru": "Подчиниться — но прежде в последний раз напоить друзей чаем",
+            "uk": "Підкоритися — але спершу востаннє почастувати друзів чаєм",
+            "pl": "Usłuchać — ale najpierw ostatni raz podać herbatę przyjaciołom"
+          },
+          "reply": {
+            "en": "Tradition says that is what he did.",
+            "ru": "Предание говорит, что так он и поступил.",
+            "uk": "Переказ мовить, що саме так він і вчинив.",
+            "pl": "Tradycja mówi, że tak właśnie uczynił."
+          }
+        },
+        {
+          "choice": {
+            "en": "Obey at once, in silence: let the end be as plain as your tea",
+            "ru": "Подчиниться сразу и молча: пусть конец будет так же прост, как ваш чай",
+            "uk": "Підкоритися одразу й мовчки: хай кінець буде таким самим простим, як ваш чай",
+            "pl": "Usłuchać od razu, w milczeniu: niech koniec będzie tak prosty jak twoja herbata"
+          },
+          "reply": {
+            "en": "Plainness was his art; yet tradition remembers that he made of his end one last gathering.",
+            "ru": "Простота была его искусством; но предание помнит, что из своего конца он сделал последнюю встречу за чаем.",
+            "uk": "Простота була його мистецтвом; але переказ пам’ятає, що свій кінець він зробив останньою зустріччю за чаєм.",
+            "pl": "Prostota była jego sztuką; lecz tradycja pamięta, że ze swego końca uczynił ostatnie spotkanie przy herbacie."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "This was Sen no Rikyū, sixty-nine, tea master first to Oda Nobunaga and then to Hideyoshi. On the twenty-eighth day of the second month of 1591 — in April by our calendar — he took his own life in his house in Kyoto, as he had been ordered. How he spent his last hours tradition tells; three centuries later Okakura retold it as the “Last Tea of Rikiu”:",
+        "ru": "Это был Сэн-но Рикю, шестидесяти девяти лет, мастер чая сперва у Оды Нобунаги, затем у Хидэёси. В двадцать восьмой день второго месяца 1591 года — в апреле по нашему календарю — он, как ему было приказано, лишил себя жизни в своём доме в Киото. Как он провёл последние часы, рассказывает предание; три века спустя Окакура пересказал его как «Последний чай Рикю»:",
+        "uk": "Це був Сен-но Рікю, шістдесяти дев’яти років, майстер чаю спершу в Оди Нобунаґи, потім у Хідейосі. Двадцять восьмого дня другого місяця 1591 року — у квітні за нашим календарем — він, як йому було наказано, позбавив себе життя у своєму домі в Кіото. Як він провів останні години, розповідає переказ; через три століття Окакура переказав його як «Останній чай Рікю»:",
+        "pl": "To był Sen no Rikyū, sześćdziesięciodziewięcioletni mistrz herbaty najpierw u Ody Nobunagi, potem u Hideyoshiego. Dwudziestego ósmego dnia drugiego miesiąca 1591 roku — w kwietniu według naszego kalendarza — odebrał sobie życie w swoim domu w Kioto, jak mu rozkazano. Jak spędził ostatnie godziny, opowiada tradycja; trzy wieki później Okakura opowiedział to na nowo jako „Ostatnią herbatę Rikyū”:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Okakura, The Book of Tea, chapter VII: the tea masters",
+            "ru": "Окакура, «Книга чая», глава VII: мастера чая",
+            "uk": "Окакура, «Книга чаю», розділ VII: майстри чаю",
+            "pl": "Okakura, Księga herbaty, rozdział VII: mistrzowie herbaty"
+          },
+          "quotes": {
+            "en": {
+              "edition": "tea-beauty.en",
+              "from": "7.5",
+              "to": "7.5",
+              "text": "He only who has lived with the beautiful can die beautifully. The last moments of the great tea-masters were as full of exquisite refinement as had been their lives.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Book_of_Tea",
+                "lang": "en",
+                "title": "Okakura Kakuzō, The Book of Tea"
+              }
+            },
+            "ru": {
+              "edition": "tea-beauty.ru.ours",
+              "from": "7.5",
+              "to": "7.5",
+              "text": "Только тот, кто жил с прекрасным, может прекрасно умереть. Последние мгновения великих мастеров чая были так же полны изысканной утончённости, как и их жизнь.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Book_of_Tea",
+                "lang": "en",
+                "title": "Окакура Какудзо, «Книга чая»"
+              }
+            },
+            "uk": {
+              "edition": "tea-beauty.uk.ours",
+              "from": "7.5",
+              "to": "7.5",
+              "text": "Лише той, хто жив із прекрасним, може прекрасно померти. Останні миті великих майстрів чаю були так само сповнені вишуканої витонченості, як і їхнє життя.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Book_of_Tea",
+                "lang": "en",
+                "title": "Окакура Какудзо, «Книга чаю»"
+              }
+            },
+            "pl": {
+              "edition": "tea-beauty.pl.ours",
+              "from": "7.5",
+              "to": "7.5",
+              "text": "Tylko ten, kto żył z pięknem, może pięknie umrzeć. Ostatnie chwile wielkich mistrzów herbaty były równie pełne wykwintnego wyrafinowania jak ich życie.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Book_of_Tea",
+                "lang": "en",
+                "title": "Okakura Kakuzō, Księga herbaty"
+              }
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "Okakura, The Book of Tea, chapter VII: the Last Tea of Rikiu",
+            "ru": "Окакура, «Книга чая», глава VII: последний чай Рикю",
+            "uk": "Окакура, «Книга чаю», розділ VII: останній чай Рікю",
+            "pl": "Okakura, Księga herbaty, rozdział VII: ostatnia herbata Rikyū"
+          },
+          "quotes": {
+            "en": {
+              "edition": "tea-beauty.en",
+              "from": "7.7",
+              "to": "7.7",
+              "text": "Each in turn is served with tea, and each in turn silently drains his cup, the host last of all. According to established etiquette, the chief guest now asks permission to examine the tea-equipage. Rikiu places the various articles before them, with the kakemono. After all have expressed admiration of their beauty, Rikiu presents one of them to each of the assembled company as a souvenir. The bowl alone he keeps. \"Never again shall this cup, polluted by the lips of misfortune, be used by man.\" He speaks, and breaks the vessel into fragments.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Book_of_Tea",
+                "lang": "en",
+                "title": "Okakura Kakuzō, The Book of Tea"
+              }
+            },
+            "ru": {
+              "edition": "tea-beauty.ru.ours",
+              "from": "7.7",
+              "to": "7.7",
+              "text": "Каждому по очереди подают чай, и каждый по очереди молча осушает свою чашку, хозяин — последним. По установленному обычаю главный гость теперь просит позволения рассмотреть чайную утварь. Рикю ставит перед ними все предметы вместе со свитком. Когда все выразили восхищение их красотой, Рикю дарит по одному из них каждому из собравшихся на память. Лишь чашу он оставляет себе. «Никогда больше эта чаша, осквернённая устами несчастья, не послужит человеку». Он произносит это и разбивает сосуд на куски.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Book_of_Tea",
+                "lang": "en",
+                "title": "Окакура Какудзо, «Книга чая»"
+              }
+            },
+            "uk": {
+              "edition": "tea-beauty.uk.ours",
+              "from": "7.7",
+              "to": "7.7",
+              "text": "Кожному по черзі подають чай, і кожен по черзі мовчки випиває свою чашку, господар — останнім. За усталеним звичаєм головний гість тепер просить дозволу оглянути чайне начиння. Рікю ставить перед ними всі предмети разом зі сувоєм. Коли всі висловили захоплення їхньою красою, Рікю дарує по одному з них кожному з присутніх на пам’ять. Лише чашу він залишає собі. «Ніколи більше ця чаша, осквернена устами нещастя, не служитиме людині». Він промовляє це й розбиває посудину на друзки.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Book_of_Tea",
+                "lang": "en",
+                "title": "Окакура Какудзо, «Книга чаю»"
+              }
+            },
+            "pl": {
+              "edition": "tea-beauty.pl.ours",
+              "from": "7.7",
+              "to": "7.7",
+              "text": "Każdy po kolei dostaje herbatę i każdy po kolei w milczeniu wypija swoją czarkę, gospodarz ostatni. Zgodnie z ustalonym obyczajem główny gość prosi teraz o pozwolenie, by obejrzeć przybory do herbaty. Rikyū kładzie przed nimi wszystkie przedmioty wraz ze zwojem. Gdy wszyscy wyrazili podziw dla ich piękna, Rikyū daje każdemu z zebranych jeden z nich na pamiątkę. Tylko czarkę zatrzymuje. „Nigdy więcej ta czarka, skalana ustami nieszczęścia, nie posłuży człowiekowi”. Mówi to i rozbija naczynie w kawałki.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Book_of_Tea",
+                "lang": "en",
+                "title": "Okakura Kakuzō, Księga herbaty"
+              }
+            }
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Hideyoshi loved splendour: in 1586 he had a portable tea room, its walls and pillars covered in gold leaf, set up in the imperial palace to serve tea to the emperor. The one tea room still standing that is thought to be Rikyū's design, the Taian near Kyoto, is two mats wide, with walls of rough clay.",
+            "ru": "Хидэёси любил пышность: в 1586 году он велел установить в императорском дворце переносную чайную комнату, стены и столбы которой были покрыты сусальным золотом, чтобы угостить чаем императора. Единственная сохранившаяся чайная комната, которую считают творением Рикю, — Тайан близ Киото — размером в два татами, со стенами из грубой глины.",
+            "uk": "Хідейосі любив пишноту: 1586 року він звелів установити в імператорському палаці переносну чайну кімнату, стіни й стовпи якої були вкриті сусальним золотом, щоб почастувати чаєм імператора. Єдина збережена чайна кімната, яку вважають творінням Рікю, — Тайан поблизу Кіото — завбільшки два татамі, зі стінами з грубої глини.",
+            "pl": "Hideyoshi kochał przepych: w 1586 roku kazał ustawić w pałacu cesarskim przenośną izbę herbacianą o ścianach i filarach pokrytych płatkami złota, by podjąć herbatą cesarza. Jedyna zachowana izba herbaciana uważana za dzieło Rikyū, Taian pod Kioto, ma dwie maty i ściany z surowej gliny."
+          },
+          "source": "H. Paul Varley and Kumakura Isao, eds., Tea in Japan: Essays on the History of Chanoyu (1989); Herbert Plutschow, Rediscovering Rikyu and the Beginnings of the Japanese Tea Ceremony (2003)"
+        },
+        {
+          "fact": {
+            "en": "Why Hideyoshi condemned him is not known. Okakura repeats one story, of a plot to poison the ruler; the charge most often recorded is a wooden statue of Rikyū in sandals, set in the upper storey of the gate of the Daitoku-ji temple, which he had paid to complete — so that whoever passed through, Hideyoshi too, walked beneath his feet.",
+            "ru": "Почему Хидэёси осудил его, неизвестно. Окакура повторяет одну версию — о заговоре с целью отравить правителя; чаще же всего в записях называется деревянная статуя Рикю в сандалиях, поставленная на верхнем ярусе ворот храма Дайтокудзи, достройку которых он оплатил, — так что каждый, кто проходил через них, и Хидэёси тоже, проходил у него под ногами.",
+            "uk": "Чому Хідейосі засудив його, невідомо. Окакура повторює одну версію — про змову з метою отруїти правителя; найчастіше ж у записах згадують дерев’яну статую Рікю в сандаліях, поставлену на верхньому ярусі брами храму Дайтокудзі, добудову якої він оплатив, — так що кожен, хто проходив крізь неї, і Хідейосі теж, проходив у нього під ногами.",
+            "pl": "Dlaczego Hideyoshi go skazał, nie wiadomo. Okakura powtarza jedną opowieść — o spisku, by otruć władcę; najczęściej zaś w zapiskach pojawia się drewniany posąg Rikyū w sandałach, ustawiony na górnym piętrze bramy świątyni Daitoku-ji, której dokończenie opłacił — tak że każdy, kto przez nią przechodził, także Hideyoshi, przechodził pod jego stopami."
+          },
+          "source": "H. Paul Varley and Kumakura Isao, eds., Tea in Japan: Essays on the History of Chanoyu (1989); Herbert Plutschow, Rediscovering Rikyu and the Beginnings of the Japanese Tea Ceremony (2003)"
+        }
+      ]
+    },
+    {
+      "think": "beauty",
+      "question": {
+        "en": "Think of something you find beautiful — a face, a piece of music, a place, a deed. Where is its beauty: in the thing, in you, or in something beyond both? And if someone whose judgment you respect found it ugly, would one of you be wrong?",
+        "ru": "Вспомните что-то, что вы находите прекрасным, — лицо, музыку, место, поступок. Где его красота — в самой вещи, в вас или в чём-то, что выше и того и другого? И если бы человек, чьё суждение вы уважаете, нашёл это уродливым, был бы кто-то из вас неправ?",
+        "uk": "Згадайте щось, що ви вважаєте прекрасним, — обличчя, музику, місце, вчинок. Де його краса — в самій речі, у вас чи в чомусь, що вище за те й інше? І якби людина, чиє судження ви поважаєте, вважала це потворним, чи був би хтось із вас неправий?",
+        "pl": "Pomyśl o czymś, co uważasz za piękne — o twarzy, muzyce, miejscu, czynie. Gdzie jest jego piękno — w samej rzeczy, w tobie czy w czymś, co przewyższa jedno i drugie? A gdyby ktoś, czyj osąd szanujesz, uznał to za brzydkie, czy któreś z was by się myliło?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: what is beauty?",
+        "ru": "А теперь: что такое красота?",
+        "uk": "А тепер: що таке краса?",
+        "pl": "A teraz: czym jest piękno?"
+      }
+    }
+  ]
+}
