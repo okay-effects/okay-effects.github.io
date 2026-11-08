@@ -825,5 +825,91 @@
         "pl": "A teraz: czy maszyny zabiorą nam pracę?"
       }
     }
+  ],
+  "further": [
+    {
+      "by": "David Ricardo",
+      "title": "On the Principles of Political Economy and Taxation, ch. 31: On Machinery",
+      "url": "https://www.econlib.org/library/Ricardo/ricP7.html",
+      "lang": "en",
+      "about": {
+        "en": "In the third edition (1821) the leading economist of the day added this chapter to admit he had been wrong: machines can indeed harm the workers they replace — the first serious economic case for the weavers' fear.",
+        "ru": "В третьем издании (1821) крупнейший экономист своего времени добавил эту главу, чтобы признать свою ошибку: машины действительно могут вредить рабочим, которых заменяют, — первое серьёзное экономическое обоснование страха ткачей.",
+        "uk": "У третьому виданні (1821) найвидатніший економіст свого часу додав цей розділ, щоб визнати свою помилку: машини справді можуть шкодити робітникам, яких заміняють, — перше серйозне економічне обґрунтування страху ткачів.",
+        "pl": "W trzecim wydaniu (1821) najwybitniejszy ekonomista swoich czasów dodał ten rozdział, by przyznać się do błędu: maszyny rzeczywiście mogą szkodzić robotnikom, których zastępują — pierwsze poważne ekonomiczne uzasadnienie obaw tkaczy."
+      }
+    },
+    {
+      "by": "Wikipedia",
+      "title": "Technological unemployment",
+      "url": "https://en.wikipedia.org/wiki/Technological_unemployment",
+      "lang": "en",
+      "about": {
+        "en": "The whole history of this question, from antiquity through the Luddites to automation and artificial intelligence, with the arguments of those who expected machines to end work and of those who expected new work to appear.",
+        "ru": "Вся история этого вопроса — от древности через луддитов к автоматизации и искусственному интеллекту — с доводами тех, кто ждал, что машины покончат с трудом, и тех, кто ждал появления новой работы.",
+        "uk": "Уся історія цього питання — від давнини через луддитів до автоматизації та штучного інтелекту — з аргументами тих, хто чекав, що машини покінчать із працею, і тих, хто чекав появи нової роботи.",
+        "pl": "Cała historia tego pytania — od starożytności przez luddystów po automatyzację i sztuczną inteligencję — z argumentami tych, którzy oczekiwali, że maszyny położą kres pracy, i tych, którzy oczekiwali nowej pracy."
+      }
+    },
+    {
+      "by": "Karol Marks",
+      "title": "Kapitał. Księga pierwsza, rozdział trzynasty: Maszyna i wielki przemysł",
+      "url": "https://pl.wikisource.org/wiki/Kapitał._Księga_pierwsza_(1926-33)/Dział_czwarty._Wytwarzanie_wartości_dodatkowej_względnej/Rozdział_trzynasty",
+      "lang": "pl",
+      "about": {
+        "en": "Marx's chapter on machinery and large-scale industry: why, in his account, the machine that could shorten labour lengthens the working day — with a section on the struggle between worker and machine, the Luddites included.",
+        "ru": "Глава Маркса о машинах и крупной промышленности: почему, по его мнению, машина, которая могла бы сократить труд, удлиняет рабочий день, — с разделом о борьбе рабочего с машиной, где речь идёт и о луддитах.",
+        "uk": "Розділ Маркса про машини й велику промисловість: чому, на його думку, машина, яка могла б скоротити працю, подовжує робочий день, — з частиною про боротьбу робітника з машиною, де йдеться і про луддитів.",
+        "pl": "Rozdział Marksa o maszynach i wielkim przemyśle: dlaczego jego zdaniem maszyna, która mogłaby skrócić pracę, wydłuża dzień roboczy — z częścią o walce robotnika z maszyną, w której mowa także o luddystach."
+      }
+    },
+    {
+      "by": "Samuel Butler",
+      "title": "Erewhon (1872), ch. 23: The Book of the Machines",
+      "url": "https://en.wikisource.org/wiki/Erewhon;_or_Over_the_Range_(1872)/Chapter_23",
+      "lang": "en",
+      "about": {
+        "en": "A Victorian satire written a few years after Darwin: a nation destroys its machines for fear that they will evolve consciousness and make people their servants — an early and still startling picture of machines outgrowing us (chapters 23–25).",
+        "ru": "Викторианская сатира, написанная через несколько лет после Дарвина: народ уничтожает свои машины из страха, что они разовьют сознание и сделают людей своими слугами, — ранняя и до сих пор поразительная картина машин, которые нас перерастают (главы 23–25).",
+        "uk": "Вікторіанська сатира, написана за кілька років після Дарвіна: народ знищує свої машини зі страху, що вони розвинуть свідомість і зроблять людей своїми слугами, — рання й досі вражаюча картина машин, які нас переростають (розділи 23–25).",
+        "pl": "Wiktoriańska satyra napisana kilka lat po Darwinie: naród niszczy swoje maszyny w obawie, że rozwiną świadomość i uczynią ludzi swoimi sługami — wczesny i wciąż zdumiewający obraz maszyn, które nas przerastają (rozdziały 23–25)."
+      }
+    },
+    {
+      "by": "Karel Čapek",
+      "title": "R. U. R.",
+      "url": "https://wolnelektury.pl/katalog/lektura/capek-rur.html",
+      "lang": "pl",
+      "about": {
+        "en": "The play of 1920 that gave the world the word «robot» (from the Czech robota, forced labour): a factory makes artificial workers so that people need never work again — and the play asks what then becomes of people.",
+        "ru": "Пьеса 1920 года, давшая миру слово «робот» (от чешского robota — подневольный труд): фабрика делает искусственных рабочих, чтобы людям больше никогда не пришлось трудиться, — и пьеса спрашивает, что тогда станет с людьми.",
+        "uk": "П'єса 1920 року, що дала світові слово «робот» (від чеського robota — підневільна праця): фабрика робить штучних робітників, щоб людям більше ніколи не доводилося працювати, — і п'єса питає, що тоді станеться з людьми.",
+        "pl": "Dramat z 1920 roku, który dał światu słowo «robot» (od czeskiego robota — praca przymusowa, pańszczyzna): fabryka wytwarza sztucznych robotników, by ludzie nie musieli już nigdy pracować — i sztuka pyta, co wtedy stanie się z ludźmi."
+      }
+    },
+    {
+      "by": "Википедия",
+      "title": "Луддиты",
+      "url": "https://ru.wikipedia.org/wiki/Луддиты",
+      "lang": "ru",
+      "about": {
+        "en": "Who the Luddites were, how their movement spread in 1811–1816 and how the government answered it — the wider story behind the choice in this lesson.",
+        "ru": "Кто такие луддиты, как их движение распространялось в 1811–1816 годах и чем ответило правительство, — вся история, стоящая за выбором в этом уроке.",
+        "uk": "Хто такі луддити, як їхній рух поширювався у 1811–1816 роках і чим відповів уряд, — уся історія, що стоїть за вибором у цьому уроці.",
+        "pl": "Kim byli luddyści, jak ich ruch szerzył się w latach 1811–1816 i jak odpowiedział rząd — cała historia stojąca za wyborem w tej lekcji."
+      }
+    },
+    {
+      "by": "Вікіпедія",
+      "title": "Луддизм",
+      "url": "https://uk.wikipedia.org/wiki/Луддизм",
+      "lang": "uk",
+      "about": {
+        "en": "A short article on the Luddite movement and on neo-Luddism — how the frame-breakers' name came to stand for anyone who resists new technology.",
+        "ru": "Короткая статья о движении луддитов и о неолуддизме — о том, как имя разрушителей станков стало означать всякого, кто противится новой технике.",
+        "uk": "Коротка стаття про рух луддитів і про неолуддизм — про те, як ім'я руйнівників верстатів стало означати кожного, хто опирається новій техніці.",
+        "pl": "Krótki artykuł o ruchu luddystów i o neoluddyzmie — o tym, jak imię niszczycieli maszyn zaczęło oznaczać każdego, kto opiera się nowej technice."
+      }
+    }
   ]
 }

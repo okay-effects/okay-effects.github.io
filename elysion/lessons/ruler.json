@@ -1303,5 +1303,91 @@
         "pl": "A teraz: co czyni władcę dobrym?"
       }
     }
+  ],
+  "further": [
+    {
+      "by": "Cary Nederman",
+      "title": "Niccolò Machiavelli (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/machiavelli/",
+      "lang": "en",
+      "about": {
+        "en": "Machiavelli read whole: what he meant by a prince's virtù against fortune, why he separated the art of ruling from the moral virtues, and how The Prince sits beside his republican Discourses.",
+        "ru": "Макиавелли целиком: что он понимал под virtù государя в борьбе с фортуной, почему отделил искусство правления от нравственных добродетелей и как «Государь» соотносится с его республиканскими «Рассуждениями».",
+        "uk": "Макіавеллі цілком: що він розумів під virtù володаря в боротьбі з фортуною, чому відділив мистецтво правління від моральних чеснот і як «Володар» співвідноситься з його республіканськими «Міркуваннями».",
+        "pl": "Machiavelli w całości: co rozumiał przez virtù władcy w zmaganiu z fortuną, dlaczego oddzielił sztukę rządzenia od cnót moralnych i jak Książę ma się do jego republikańskich Rozważań."
+      }
+    },
+    {
+      "by": "Niccolò Machiavelli",
+      "title": "Discourses on the First Decade of Titus Livius",
+      "url": "https://www.gutenberg.org/ebooks/10827",
+      "lang": "en",
+      "about": {
+        "en": "The book on republics he began before he had done with The Prince: here “a people is wiser and more constant than a prince”, and the dissensions between the Senate and the commons made Rome free and powerful.",
+        "ru": "Книга о республиках, которую он начал, ещё не закончив «Государя»: здесь «народ мудрее и постояннее государя», а раздоры сената и плебса сделали Рим свободным и могущественным.",
+        "uk": "Книжка про республіки, яку він почав, ще не закінчивши «Володаря»: тут «народ мудріший і сталіший за володаря», а чвари сенату й плебсу зробили Рим вільним і могутнім.",
+        "pl": "Księga o republikach, którą zaczął, zanim skończył Księcia: tu „lud jest mądrzejszy i stalszy niż książę”, a spory senatu z plebsem uczyniły Rzym wolnym i potężnym."
+      }
+    },
+    {
+      "by": "Plato",
+      "title": "Statesman",
+      "url": "https://www.gutenberg.org/ebooks/1738",
+      "lang": "en",
+      "about": {
+        "en": "Plato's later answer: the true king's art is a weaving together of bold and gentle characters, and where no such king is found, rule by fixed laws is only the second best — but the best there is.",
+        "ru": "Позднейший ответ Платона: искусство истинного царя — сплетать воедино смелые и кроткие нравы, а где такого царя нет, правление по твёрдым законам — лишь второе по достоинству, но лучшее из возможного.",
+        "uk": "Пізніша відповідь Платона: мистецтво справжнього царя — сплітати докупи сміливі й лагідні вдачі, а де такого царя немає, правління за сталими законами — лише друге за гідністю, але найкраще з можливого.",
+        "pl": "Późniejsza odpowiedź Platona: sztuka prawdziwego króla to splatanie śmiałych i łagodnych charakterów, a gdzie takiego króla brak, rządy według stałych praw są tylko drugie co do wartości — ale najlepsze z możliwych."
+      }
+    },
+    {
+      "by": "Yuri Pines",
+      "title": "Legalism in Chinese Philosophy (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/chinese-legalism/",
+      "lang": "en",
+      "about": {
+        "en": "China's answer against Confucius: Shang Yang and Han Fei would rule not by the ruler's virtue but by impersonal laws, rewards and punishments — the doctrine of the state that unified China in 221 BC.",
+        "ru": "Китайский ответ Конфуцию: Шан Ян и Хань Фэй хотели править не добродетелью государя, а безличными законами, наградами и наказаниями, — учение того государства, что объединило Китай в 221 году до н. э.",
+        "uk": "Китайська відповідь Конфуцієві: Шан Ян і Хань Фей хотіли правити не чеснотою володаря, а безособовими законами, нагородами й покараннями, — учення тієї держави, що об’єднала Китай у 221 році до н. е.",
+        "pl": "Chińska odpowiedź Konfucjuszowi: Shang Yang i Han Fei chcieli rządzić nie cnotą władcy, lecz bezosobowymi prawami, nagrodami i karami — nauka państwa, które zjednoczyło Chiny w 221 roku p.n.e."
+      }
+    },
+    {
+      "by": "Piotr Skarga",
+      "title": "Kazania sejmowe",
+      "url": "https://wolnelektury.pl/katalog/lektura/skarga-kazania-sejmowe/",
+      "lang": "pl",
+      "about": {
+        "en": "The court preacher's sermons of 1597 on the diseases of the Commonwealth; the sixth, “On monarchy and kingdom”, names the weakening of royal dignity and power as one of its diseases and pleads for a strong king over a free people.",
+        "ru": "Проповеди придворного проповедника 1597 года о болезнях Речи Посполитой; шестая, «О монархии и королевстве», называет одной из этих болезней ослабление королевского достоинства и власти и ратует за сильного короля над свободным народом.",
+        "uk": "Проповіді придворного проповідника 1597 року про хвороби Речі Посполитої; шоста, «Про монархію і королівство», називає однією з цих хвороб ослаблення королівської гідності й влади та обстоює сильного короля над вільним народом.",
+        "pl": "Kazania nadwornego kaznodziei z 1597 roku o chorobach Rzeczypospolitej; szóste, „O monarchiej i królestwie”, nazywa jedną z tych chorób osłabienie królewskiej dostojności i władzy i broni silnego króla nad wolnym narodem."
+      }
+    },
+    {
+      "by": "Энциклопедический словарь Брокгауза и Ефрона",
+      "title": "Макиавелли, Никколо",
+      "url": "https://ru.wikisource.org/wiki/ЭСБЕ/Макиавелли,_Никколо",
+      "lang": "ru",
+      "about": {
+        "en": "The long Brockhaus and Efron article on Machiavelli: his Florentine career, the ideas of The Prince and the Discourses, and how Europe and Russia read and translated him.",
+        "ru": "Большая статья словаря Брокгауза и Ефрона о Макиавелли: его флорентийская служба, идеи «Государя» и «Рассуждений» и то, как его читали и переводили в Европе и в России.",
+        "uk": "Велика стаття словника Брокгауза і Ефрона про Макіавеллі: його флорентійська служба, ідеї «Володаря» й «Міркувань» і те, як його читали й перекладали в Європі та в Росії.",
+        "pl": "Obszerne hasło słownika Brockhausa i Efrona o Machiavellim: jego florencka służba, idee Księcia i Rozważań oraz to, jak czytano go i tłumaczono w Europie i w Rosji."
+      }
+    },
+    {
+      "by": "Вікіпедія",
+      "title": "Конституція Пилипа Орлика",
+      "url": "https://uk.wikipedia.org/wiki/Конституція_Пилипа_Орлика",
+      "lang": "uk",
+      "about": {
+        "en": "The Ukrainian Wikipedia on the pact of 1710 at Bendery between the new hetman and the Cossack officers: it bound the hetman's power by law and gave the laws to a General Council meeting three times a year.",
+        "ru": "Статья украинской Википедии о договоре 1710 года в Бендерах между новым гетманом и казацкой старшиной: он связал власть гетмана законом и отдал законодательство Генеральной раде, собиравшейся трижды в год.",
+        "uk": "Стаття української Вікіпедії про договір 1710 року в Бендерах між новим гетьманом і козацькою старшиною: він зв’язав владу гетьмана законом і віддав законодавство Генеральній раді, що збиралася тричі на рік.",
+        "pl": "Artykuł ukraińskiej Wikipedii o umowie z 1710 roku w Benderach między nowym hetmanem a starszyzną kozacką: związała ona władzę hetmana prawem i oddała stanowienie praw Radzie Generalnej zbierającej się trzy razy w roku."
+      }
+    }
   ]
 }

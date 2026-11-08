@@ -231,7 +231,7 @@
             "uk": "На питання, що таке друг, Аристотель, за словами Діогена Лаертського, відповів: «одна душа, що живе у двох тілах»; інший приписуваний йому вислів — «О друзі мої, немає друзів!» — Монтень наводить у своєму есеї про дружбу.",
             "pl": "Zapytany, czym jest przyjaciel, Arystoteles odpowiedział — jak podaje Diogenes Laertios — „jedną duszą mieszkającą w dwóch ciałach”; inne przypisywane mu powiedzenie — „O przyjaciele, nie ma przyjaciół!” — Montaigne przytacza w swoim eseju o przyjaźni."
           },
-          "source": "Diogenes Laertius, Lives of the Eminent Philosophers 5.20–21; Montaigne, Essays I.27 (Of Friendship)"
+          "source": "Diogenes Laertius, Lives of the Eminent Philosophers 5.20–21; Montaigne, Essays I.28 (Of Friendship)"
         }
       ]
     },
@@ -1018,7 +1018,7 @@
         },
         {
           "by": {
-            "en": "Montaigne, Essays I.27, Of Friendship (I.28 in French editions)",
+            "en": "Montaigne, Essays I.28, Of Friendship (I.27 in Cotton's English)",
             "ru": "Монтень, «Опыты», I.27, «О дружбе» (во французских изданиях I.28)",
             "uk": "Монтень, «Проби», I.27, «Про дружбу» (у французьких виданнях I.28)",
             "pl": "Montaigne, Próby I.27, O przyjaźni (w wydaniach francuskich I.28)"
@@ -1026,8 +1026,8 @@
           "quotes": {
             "en": {
               "edition": "essays-friendship.en.cotton",
-              "from": "1.27",
-              "to": "1.27",
+              "from": "1.28",
+              "to": "1.28",
               "text": "For the rest, what we commonly call friends and friendships, are nothing but acquaintance and familiarities, either occasionally contracted, or upon some design, by means of which there happens some little intercourse betwixt our souls. But in the friendship I speak of, they mix and work themselves into one piece, with so universal a mixture, that there is no more sign of the seam by which they were first conjoined. If a man should importune me to give a reason why I loved him, I find it could no otherwise be expressed, than by making answer: because it was he, because it was I.",
               "kind": "Free",
               "translator": "Charles Cotton, revised by William Carew Hazlitt",
@@ -1039,8 +1039,8 @@
             },
             "ru": {
               "edition": "essays-friendship.ru.ours",
-              "from": "1.27",
-              "to": "1.27",
+              "from": "1.28",
+              "to": "1.28",
               "text": "Впрочем, то, что мы обычно называем друзьями и дружбой, — не более чем знакомства и приятельства, завязавшиеся по случаю или с какой-нибудь целью, благодаря которым между нашими душами возникает некоторое общение. В той же дружбе, о которой я говорю, они смешиваются и сливаются в одно целое, смешением столь полным, что не остаётся и следа шва, которым они были вначале соединены. Если бы меня настойчиво спрашивали, почему я его любил, я чувствую, что не мог бы выразить этого иначе, чем ответив: потому что это был он, потому что это был я.",
               "kind": "Ours",
               "translator": "Elysion (draft)",
@@ -1052,8 +1052,8 @@
             },
             "uk": {
               "edition": "essays-friendship.uk.ours",
-              "from": "1.27",
-              "to": "1.27",
+              "from": "1.28",
+              "to": "1.28",
               "text": "Утім, те, що ми зазвичай називаємо друзями і дружбою, — це лише знайомства й приятелювання, що зав’язалися з нагоди або з якоюсь метою і завдяки яким між нашими душами виникає деяке спілкування. У тій же дружбі, про яку я кажу, вони змішуються і зливаються в одне ціле, змішанням таким повним, що не лишається й сліду шва, яким вони були спершу з’єднані. Якби мене настійливо питали, чому я його любив, я відчуваю, що не міг би висловити цього інакше, ніж відповівши: бо це був він, бо це був я.",
               "kind": "Ours",
               "translator": "Elysion (draft)",
@@ -1065,8 +1065,8 @@
             },
             "pl": {
               "edition": "essays-friendship.pl.ours",
-              "from": "1.27",
-              "to": "1.27",
+              "from": "1.28",
+              "to": "1.28",
               "text": "Zresztą to, co zwykle nazywamy przyjaciółmi i przyjaźnią, to tylko znajomości i zażyłości, zawarte przy jakiejś okazji albo w jakimś celu, dzięki którym między naszymi duszami powstaje jakieś obcowanie. W przyjaźni zaś, o której mówię, mieszają się one i stapiają w jedno, tak całkowicie, że nie ma już śladu szwu, którym je na początku połączono. Gdyby ktoś nalegał, bym powiedział, dlaczego go kochałem, czuję, że nie umiałbym tego wyrazić inaczej niż odpowiadając: bo to był on, bo to byłem ja.",
               "kind": "Ours",
               "translator": "Elysion (draft)",
@@ -1096,7 +1096,7 @@
             "uk": "Вони зустрілися випадково, на великому міському святі, і одразу, пише Монтень, стали одне одному найближчими на світі; їхня дружба тривала чотири роки.",
             "pl": "Spotkali się przypadkiem, na wielkiej uczcie w mieście, i od razu, pisze Montaigne, byli sobie bliżsi niż cokolwiek innego; ich przyjaźń trwała cztery lata."
           },
-          "source": "Montaigne, Essays I.27 (Of Friendship)"
+          "source": "Montaigne, Essays I.28 (Of Friendship)"
         },
         {
           "fact": {
@@ -1105,7 +1105,7 @@
             "uk": "Замолоду Ла Боесі написав «Міркування про добровільне рабство», спрямоване проти тиранії. Монтень хотів умістити його в самій середині першої книги «Проб», але коли в 1570-х роках гугенотські памфлетисти надрукували його як зброю проти корони, він від цього відмовився.",
             "pl": "W młodości La Boétie napisał Rozprawę o dobrowolnej niewoli, wymierzoną w tyranię. Montaigne chciał umieścić ją w samym środku pierwszej księgi Prób; gdy w latach siedemdziesiątych XVI wieku hugenoccy pamfleciści wydrukowali ją jako broń przeciw koronie, zrezygnował z tego."
           },
-          "source": "Montaigne, Essays I.27 (Of Friendship); Donald M. Frame, Montaigne: A Biography (1965)"
+          "source": "Montaigne, Essays I.28 (Of Friendship); Donald M. Frame, Montaigne: A Biography (1965)"
         },
         {
           "fact": {

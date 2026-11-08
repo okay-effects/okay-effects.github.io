@@ -1136,5 +1136,79 @@
         "pl": "A teraz: czy natura człowieka jest dobra?"
       }
     }
+  ],
+  "further": [
+    {
+      "by": "Paul R. Goldin",
+      "title": "Xunzi (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/xunzi/",
+      "lang": "en",
+      "about": {
+        "en": "Xunzi's whole case that human nature is bad and goodness is made by effort, ritual and teachers — and how far his quarrel with Mencius really goes.",
+        "ru": "Все доводы Сюнь-цзы о том, что природа человека дурна, а добро создаётся усилием, ритуалом и учителями, — и насколько глубок на самом деле его спор с Мэн-цзы.",
+        "uk": "Усі аргументи Сюнь-цзи про те, що природа людини лиха, а добро творять зусилля, ритуал і вчителі, — і наскільки глибока насправді його суперечка з Мен-цзи.",
+        "pl": "Cały wywód Xunzi, że natura ludzka jest zła, a dobro powstaje dzięki wysiłkowi, rytuałowi i nauczycielom — oraz jak daleko naprawdę sięga jego spór z Mencjuszem."
+      }
+    },
+    {
+      "by": "Jean-Jacques Rousseau",
+      "title": "A Discourse Upon the Origin and the Foundation of the Inequality Among Mankind",
+      "url": "https://www.gutenberg.org/ebooks/11136",
+      "lang": "en",
+      "about": {
+        "en": "Rousseau's answer to Hobbes (1755): in the state of nature man is not at war but solitary and moved by pity, and it is society and property that corrupt him — the case for the first answer in this lesson.",
+        "ru": "Ответ Руссо Гоббсу (1755): в естественном состоянии человек не воюет, а живёт один и движим жалостью, а портят его общество и собственность, — довод в пользу первого ответа этого урока.",
+        "uk": "Відповідь Руссо Гоббсові (1755): у природному стані людина не воює, а живе сама й керується жалем, а псують її суспільство і власність, — аргумент на користь першої відповіді цього уроку.",
+        "pl": "Odpowiedź Rousseau na Hobbesa (1755): w stanie natury człowiek nie toczy wojny, lecz żyje samotnie i kieruje się litością, a psują go społeczeństwo i własność — argument za pierwszą odpowiedzią tej lekcji."
+      }
+    },
+    {
+      "by": "Augustine",
+      "title": "On Nature and Grace (Nicene and Post-Nicene Fathers, Series I, vol. 5)",
+      "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_V/On_Nature_and_Grace",
+      "lang": "en",
+      "about": {
+        "en": "Augustine's reply (415) to a book by the monk Pelagius, who held that human nature can do good without help: Augustine argues that it is wounded and is healed only by grace — the quarrel behind the Western idea of original sin.",
+        "ru": "Ответ Августина (415) на книгу монаха Пелагия, считавшего, что природа человека способна творить добро без помощи: Августин доказывает, что она ранена и исцеляется только благодатью, — спор, стоящий за западным учением о первородном грехе.",
+        "uk": "Відповідь Августина (415) на книгу монаха Пелагія, який вважав, що природа людини здатна чинити добро без допомоги: Августин доводить, що вона поранена й зцілюється тільки благодаттю, — суперечка, що стоїть за західним ученням про первородний гріх.",
+        "pl": "Odpowiedź Augustyna (415) na księgę mnicha Pelagiusza, który uważał, że natura ludzka może czynić dobro bez pomocy: Augustyn dowodzi, że jest zraniona i leczy ją tylko łaska — spór, który stoi za zachodnią nauką o grzechu pierworodnym."
+      }
+    },
+    {
+      "by": "Blaise Pascal",
+      "title": "Myśli",
+      "url": "https://wolnelektury.pl/katalog/lektura/pascal-mysli.html",
+      "lang": "pl",
+      "about": {
+        "en": "Pascal on the greatness and the wretchedness of man — a thinking reed, neither angel nor beast — the case for the last answer: good and bad at war in us (tr. Tadeusz Boy-Żeleński).",
+        "ru": "Паскаль о величии и ничтожестве человека — мыслящий тростник, ни ангел, ни зверь, — довод в пользу последнего ответа: добро и зло воюют в нас (пер. Тадеуша Бой-Желеньского).",
+        "uk": "Паскаль про велич і нікчемність людини — очерет, що мислить, ні ангел, ні звір, — аргумент на користь останньої відповіді: добро і зло воюють у нас (пер. Тадеуша Бой-Желенського).",
+        "pl": "Pascal o wielkości i nędzy człowieka — trzcinie myślącej, ani aniele, ani bydlęciu — argument za ostatnią odpowiedzią: dobro i zło walczą w nas (w przekładzie Tadeusza Boya-Żeleńskiego)."
+      }
+    },
+    {
+      "by": "Википедия",
+      "title": "Сюнь-цзы",
+      "url": "https://ru.wikipedia.org/wiki/Сюнь-цзы",
+      "lang": "ru",
+      "about": {
+        "en": "The life of Xunzi, his teaching that human nature is evil set against Mencius, and his students who became the masters of Legalism.",
+        "ru": "Жизнь Сюнь-цзы, его учение о дурной природе человека в споре с Мэн-цзы и его ученики, ставшие мастерами легизма.",
+        "uk": "Життя Сюнь-цзи, його вчення про лиху природу людини в суперечці з Мен-цзи та його учні, що стали майстрами легізму.",
+        "pl": "Życie Xunzi, jego nauka o złej naturze człowieka w sporze z Mencjuszem i jego uczniowie, którzy zostali mistrzami legizmu."
+      }
+    },
+    {
+      "by": "Вікіпедія",
+      "title": "Мен-цзи",
+      "url": "https://uk.wikipedia.org/wiki/Мен-цзи",
+      "lang": "uk",
+      "about": {
+        "en": "Mencius' teaching on the «good nature» of man and its four inborn qualities, and his opposition to Xunzi's teaching of an «evil nature».",
+        "ru": "Учение Мэн-цзы о «доброй природе» человека и четырёх её врождённых качествах и его противостояние учению Сюнь-цзы о «злой природе».",
+        "uk": "Учення Мен-цзи про «добру природу» людини та чотири її природжені якості і його протистояння вченню Сюнь-цзи про «злу природу».",
+        "pl": "Nauka Mencjusza o «dobrej naturze» człowieka i jej czterech wrodzonych przymiotach oraz jego spór z nauką Xunzi o «złej naturze»."
+      }
+    }
   ]
 }

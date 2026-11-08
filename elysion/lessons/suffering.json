@@ -912,5 +912,79 @@
         "pl": "A teraz: po co cierpienie?"
       }
     }
+  ],
+  "further": [
+    {
+      "by": "Michael Tooley",
+      "title": "The Problem of Evil (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/evil/",
+      "lang": "en",
+      "about": {
+        "en": "Whether the suffering in the world shows that there is no good and all-powerful God: the arguments from evil, and the theodicies offered in reply.",
+        "ru": "Доказывают ли страдания в мире, что благого и всемогущего Бога нет: аргументы от зла и теодицеи, которые предлагают в ответ.",
+        "uk": "Чи доводять страждання у світі, що доброго й всемогутнього Бога немає: аргументи від зла і теодицеї, які пропонують у відповідь.",
+        "pl": "Czy cierpienie na świecie dowodzi, że nie ma dobrego i wszechmocnego Boga: argumenty ze zła i teodycee proponowane w odpowiedzi."
+      }
+    },
+    {
+      "by": "Gottfried Wilhelm Leibniz",
+      "title": "Theodicy (tr. E. M. Huggard)",
+      "url": "https://www.gutenberg.org/ebooks/17147",
+      "lang": "en",
+      "about": {
+        "en": "The book (1710) behind «the best of all possible worlds» that Voltaire attacked after Lisbon: why a good God would permit evil, argued at length.",
+        "ru": "Книга (1710), из которой вышел «лучший из возможных миров», осмеянный Вольтером после Лиссабона: почему благой Бог допускает зло — подробно и с доводами.",
+        "uk": "Книжка (1710), з якої вийшов «найкращий з можливих світів», висміяний Вольтером після Лісабона: чому добрий Бог допускає зло — докладно й з аргументами.",
+        "pl": "Księga (1710), z której wziął się «najlepszy z możliwych światów», wyśmiany przez Woltera po Lizbonie: dlaczego dobry Bóg dopuszcza zło — obszernie i z argumentami."
+      }
+    },
+    {
+      "by": "The Buddha",
+      "title": "Rolling Forth the Wheel of Dhamma (SN 56.11, tr. Bhikkhu Sujato)",
+      "url": "https://suttacentral.net/sn56.11/en/sujato",
+      "lang": "en",
+      "about": {
+        "en": "The Buddha's first sermon, the four noble truths — an answer unlike Job's or Leibniz's: suffering is not sent for a purpose; it has a cause, craving, and so it can end.",
+        "ru": "Первая проповедь Будды, четыре благородные истины, — ответ, непохожий ни на ответ Иова, ни на ответ Лейбница: страдание не послано с какой-то целью, у него есть причина — жажда, — и потому оно может прекратиться.",
+        "uk": "Перша проповідь Будди, чотири шляхетні істини, — відповідь, не схожа ні на відповідь Йова, ні на відповідь Лейбніца: страждання не послане з якоюсь метою, воно має причину — жагу, — і тому може припинитися.",
+        "pl": "Pierwsze kazanie Buddy, cztery szlachetne prawdy — odpowiedź niepodobna ani do odpowiedzi Hioba, ani Leibniza: cierpienie nie jest zesłane w jakimś celu, ma przyczynę — pragnienie — i dlatego może ustać."
+      }
+    },
+    {
+      "by": "Фёдор Достоевский",
+      "title": "Братья Карамазовы. Книга пятая, глава IV: Бунт",
+      "url": "https://ru.wikisource.org/wiki/Братья_Карамазовы_(Достоевский)/Книга_пятая/IV",
+      "lang": "ru",
+      "about": {
+        "en": "Ivan Karamazov «returns his ticket»: no future harmony is worth the tears of one tortured child — the strongest charge in literature against every theodicy.",
+        "ru": "Иван Карамазов «возвращает билет»: никакая будущая гармония не стоит слезинки одного замученного ребёнка — самое сильное в литературе обвинение против всякой теодицеи.",
+        "uk": "Іван Карамазов «повертає квиток»: жодна майбутня гармонія не варта сльозинки однієї замученої дитини — найсильніше в літературі звинувачення проти будь-якої теодицеї.",
+        "pl": "Iwan Karamazow «zwraca bilet»: żadna przyszła harmonia nie jest warta łzy jednego zamęczonego dziecka — najmocniejsze w literaturze oskarżenie każdej teodycei."
+      }
+    },
+    {
+      "by": "Wolter (Voltaire)",
+      "title": "Kandyd",
+      "url": "https://wolnelektury.pl/katalog/lektura/kandyd.html",
+      "lang": "pl",
+      "about": {
+        "en": "Voltaire's laughing answer to optimism (1759, tr. Tadeusz Boy-Żeleński): Dr Pangloss finds all for the best through war, the Lisbon earthquake and the Inquisition, and Candide ends by tending his garden.",
+        "ru": "Насмешливый ответ Вольтера оптимизму (1759, пер. Тадеуша Бой-Желеньского): доктор Панглос находит, что всё к лучшему, среди войны, лиссабонского землетрясения и инквизиции, а Кандид в конце возделывает свой сад.",
+        "uk": "Глузлива відповідь Вольтера оптимізмові (1759, пер. Тадеуша Бой-Желенського): доктор Панґлос вважає, що все на краще, серед війни, лісабонського землетрусу й інквізиції, а Кандид наприкінці обробляє свій сад.",
+        "pl": "Prześmiewcza odpowiedź Woltera na optymizm (1759, w przekładzie Tadeusza Boya-Żeleńskiego): doktor Pangloss uważa, że wszystko jest ku najlepszemu, pośród wojny, trzęsienia ziemi w Lizbonie i inkwizycji, a Kandyd kończy na uprawianiu swojego ogródka."
+      }
+    },
+    {
+      "by": "Леся Українка",
+      "title": "Contra spem spero!",
+      "url": "https://uk.wikisource.org/wiki/На_крилах_пісень/Contra_spem_spero!",
+      "lang": "uk",
+      "about": {
+        "en": "A poem (1890) by a poet ill since childhood with tuberculosis of the bones: she refuses to give up hope — she will laugh through tears and sing amid sorrow — an answer of the will, not of theory.",
+        "ru": "Стихотворение (1890) поэтессы, с детства больной туберкулёзом костей: она отказывается оставить надежду — будет смеяться сквозь слёзы и петь среди горя, — ответ воли, а не теории.",
+        "uk": "Вірш (1890) поетеси, яка з дитинства хворіла на туберкульоз кісток: вона відмовляється покинути надію — сміятиметься крізь сльози й співатиме серед лиха, — відповідь волі, а не теорії.",
+        "pl": "Wiersz (1890) poetki chorej od dzieciństwa na gruźlicę kości: odmawia porzucenia nadziei — będzie śmiać się przez łzy i śpiewać pośród niedoli — odpowiedź woli, nie teorii."
+      }
+    }
   ]
 }

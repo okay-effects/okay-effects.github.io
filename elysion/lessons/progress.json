@@ -1054,5 +1054,91 @@
         "pl": "A teraz: czy postęp czyni nas lepszymi?"
       }
     }
+  ],
+  "further": [
+    {
+      "by": "Jean-Jacques Rousseau",
+      "title": "The Social Contract & Discourses (translated by G. D. H. Cole)",
+      "url": "https://www.gutenberg.org/ebooks/46333",
+      "lang": "en",
+      "about": {
+        "en": "With the Social Contract, Cole’s volume gives the Discourse on the Arts and Sciences, the essay that came of the road to Vincennes: as our sciences and arts advanced towards perfection, our souls were corrupted.",
+        "ru": "Вместе с «Общественным договором» том Коула содержит «Рассуждение о науках и искусствах» — то самое сочинение, что родилось на дороге в Венсен: по мере того как наши науки и искусства шли к совершенству, наши души развращались.",
+        "uk": "Разом із «Суспільною угодою» том Коула містить «Міркування про науки й мистецтва» — той самий твір, що народився на дорозі до Венсена: що ближче наші науки й мистецтва йшли до досконалості, то більше псувалися наші душі.",
+        "pl": "Obok Umowy społecznej tom Cole’a zawiera Rozprawę o naukach i sztukach — ten sam utwór, który narodził się na drodze do Vincennes: w miarę jak nasze nauki i sztuki zmierzały ku doskonałości, nasze dusze ulegały zepsuciu."
+      }
+    },
+    {
+      "by": "Marquis de Condorcet",
+      "title": "Outlines of an Historical View of the Progress of the Human Mind (1795)",
+      "url": "https://archive.org/details/outlinesofhistor00cond",
+      "lang": "en",
+      "about": {
+        "en": "The great yes to the lesson's question, written in hiding under the Terror by a man who died in prison in 1794: ten epochs of history, ending in the indefinite perfectibility of mankind — in knowledge and in virtue alike.",
+        "ru": "Великое «да» на вопрос урока, написанное в укрытии во время Террора человеком, который умер в тюрьме в 1794 году: десять эпох истории, ведущих к безграничной способности человечества к совершенствованию — и в знании, и в добродетели.",
+        "uk": "Велике «так» на питання уроку, написане в схованці під час Терору людиною, що померла у в’язниці 1794 року: десять епох історії, які ведуть до безмежної здатності людства вдосконалюватися — і в знанні, і в чесноті.",
+        "pl": "Wielkie „tak” na pytanie lekcji, napisane w ukryciu w czasie terroru przez człowieka, który zmarł w więzieniu w 1794 roku: dziesięć epok historii zmierzających ku nieograniczonej doskonałości rodzaju ludzkiego — zarówno w wiedzy, jak i w cnocie."
+      }
+    },
+    {
+      "by": "J. B. Bury",
+      "title": "The Idea of Progress: An Inquiry into Its Origin and Growth",
+      "url": "https://www.gutenberg.org/ebooks/4557",
+      "lang": "en",
+      "about": {
+        "en": "A historian's book of 1920 on how a new idea — that mankind moves slowly forward towards a better state — arose in modern Europe, from the quarrel of ancients and moderns to Condorcet and the nineteenth century.",
+        "ru": "Книга историка 1920 года о том, как в Европе Нового времени возникла новая идея — что человечество медленно движется вперёд, к лучшему состоянию, — от спора древних и новых до Кондорсе и XIX века.",
+        "uk": "Книжка історика 1920 року про те, як у Європі Нового часу постала нова ідея — що людство повільно рухається вперед, до кращого стану, — від суперечки давніх і нових до Кондорсе та XIX століття.",
+        "pl": "Książka historyka z 1920 roku o tym, jak w nowożytnej Europie zrodziła się nowa idea — że ludzkość powoli zmierza naprzód, ku lepszemu stanowi — od sporu starożytników z nowożytnikami po Condorceta i wiek XIX."
+      }
+    },
+    {
+      "by": "Christopher Bertram",
+      "title": "Jean Jacques Rousseau (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/rousseau/",
+      "lang": "en",
+      "about": {
+        "en": "How Rousseau's answer hangs together: perfectibility, amour propre — the need for others' esteem that society inflames — and the natural goodness of man that society, he held, corrupts.",
+        "ru": "Как складывается ответ Руссо: способность к совершенствованию, amour propre — жажда чужого уважения, которую разжигает общество, — и природная доброта человека, которую, по его мысли, портит общество.",
+        "uk": "Як складається відповідь Руссо: здатність до вдосконалення, amour propre — жага чужої шани, яку розпалює суспільство, — і природна доброта людини, яку, на його думку, псує суспільство.",
+        "pl": "Jak spójna jest odpowiedź Rousseau: zdolność do doskonalenia się, amour propre — potrzeba cudzego szacunku, którą rozpala społeczeństwo — i przyrodzona dobroć człowieka, którą, jak sądził, psuje społeczeństwo."
+      }
+    },
+    {
+      "by": "Лев Толстой",
+      "title": "Прогресс и определение образования",
+      "url": "https://ru.wikisource.org/wiki/Прогресс_и_определение_образования_(Толстой)",
+      "lang": "ru",
+      "about": {
+        "en": "Tolstoy in 1862 against the “religion of progress”: a law for all mankind is drawn from a small part of it, Europe, and progress is a good for the educated few and an evil for the peasants and workers who do not believe in it.",
+        "ru": "Толстой в 1862 году против «религии прогресса»: общий закон для всего человечества выводят из малой его части, Европы, а прогресс — благо для образованного меньшинства и зло для крестьян и мастеровых, которые в него не верят.",
+        "uk": "Толстой 1862 року проти «релігії прогресу»: загальний закон для всього людства виводять із малої його частини, Європи, а прогрес — благо для освіченої меншості й зло для селян і ремісників, які в нього не вірять.",
+        "pl": "Tołstoj w 1862 roku przeciw „religii postępu”: ogólne prawo dla całej ludzkości wywodzi się z jej małej części, Europy, a postęp jest dobrem dla wykształconej mniejszości i złem dla chłopów i rzemieślników, którzy w niego nie wierzą."
+      }
+    },
+    {
+      "by": "Іван Франко",
+      "title": "Що таке поступ?",
+      "url": "https://uk.wikisource.org/wiki/Що_таке_поступ%3F",
+      "lang": "uk",
+      "about": {
+        "en": "Franko's essay of 1903 weighs the cures offered for the ills that progress brings — back to nature, to the peasant life, to life without a state — and finds no panacea: humanity's progress is a vast machine no single man or group can steer.",
+        "ru": "Очерк Франко 1903 года взвешивает лекарства от бед, которые приносит прогресс, — назад к природе, к крестьянской жизни, к жизни без государства — и не находит панацеи: прогресс человечества — огромная машина, которой не может править ни один человек и ни одна община.",
+        "uk": "Нарис Франка 1903 року зважує ліки від лиха, яке приносить поступ, — назад до природи, до селянського стану, до бездержавства — і не знаходить панацеї: поступ людськості — величезна машина, якою не може кермувати ні одна людина, ні одна громада.",
+        "pl": "Szkic Franki z 1903 roku waży lekarstwa na bolączki, które niesie postęp — powrót do natury, do chłopskiego życia, do życia bez państwa — i nie znajduje panaceum: postęp ludzkości to ogromna maszyna, której nie może kierować żaden człowiek ani żadna wspólnota."
+      }
+    },
+    {
+      "by": "Joseph Conrad",
+      "title": "Placówka postępu",
+      "url": "https://wolnelektury.pl/katalog/lektura/conrad-placowka-postepu/",
+      "lang": "pl",
+      "about": {
+        "en": "Conrad's story of 1897, in Aniela Zagórska's Polish: two white traders left at a remote station in Africa to carry “progress” and civilisation, and what becomes of them once nothing outside holds them up.",
+        "ru": "Рассказ Конрада 1897 года в польском переводе Анели Загурской: двое белых торговцев, оставленных на далёкой фактории в Африке нести «прогресс» и цивилизацию, и что с ними делается, когда их больше ничто не держит извне.",
+        "uk": "Оповідання Конрада 1897 року в польському перекладі Анелі Загурської: двоє білих торговців, залишених на далекій факторії в Африці нести «поступ» і цивілізацію, і що з ними стається, коли їх більше ніщо не тримає ззовні.",
+        "pl": "Opowiadanie Conrada z 1897 roku w przekładzie Anieli Zagórskiej: dwaj biali handlarze pozostawieni na odległej placówce w Afryce, by nieść „postęp” i cywilizację, i co się z nimi dzieje, gdy nic ich już nie podtrzymuje z zewnątrz."
+      }
+    }
   ]
 }

@@ -921,5 +921,91 @@
         "pl": "A teraz: jak stawić czoło śmierci?"
       }
     }
+  ],
+  "further": [
+    {
+      "by": "Steven Luper",
+      "title": "Death (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/death/",
+      "lang": "en",
+      "about": {
+        "en": "Whether death is bad for the one who dies, and when: the arguments of Epicurus and Lucretius that it is nothing to us, and the modern replies.",
+        "ru": "Плоха ли смерть для того, кто умирает, и когда: доводы Эпикура и Лукреция, что она для нас ничто, и ответы на них нашего времени.",
+        "uk": "Чи погана смерть для того, хто помирає, і коли: аргументи Епікура й Лукреція, що вона для нас ніщо, і відповіді на них нашого часу.",
+        "pl": "Czy śmierć jest zła dla tego, kto umiera, i kiedy: argumenty Epikura i Lukrecjusza, że jest dla nas niczym, oraz współczesne odpowiedzi."
+      }
+    },
+    {
+      "by": "Lucretius",
+      "title": "On the Nature of Things, Book III (tr. H. A. J. Munro)",
+      "url": "https://en.wikisource.org/wiki/On_the_Nature_of_Things_(Munro)/Book_3",
+      "lang": "en",
+      "about": {
+        "en": "The poem's book on death: the soul dies with the body, and as the time before our birth was nothing to us, so will be the time after our death — the Epicurean answer in full.",
+        "ru": "Книга поэмы о смерти: душа умирает вместе с телом, и как время до нашего рождения было для нас ничем, так будет и время после нашей смерти, — эпикурейский ответ целиком.",
+        "uk": "Книга поеми про смерть: душа помирає разом із тілом, і як час до нашого народження був для нас нічим, так буде й час після нашої смерті, — епікурейська відповідь повністю.",
+        "pl": "Księga poematu o śmierci: dusza umiera razem z ciałem, a jak czas przed naszymi narodzinami był dla nas niczym, tak będzie i czas po naszej śmierci — epikurejska odpowiedź w całości."
+      }
+    },
+    {
+      "by": "Plato",
+      "title": "Apology (tr. Benjamin Jowett)",
+      "url": "https://en.wikisource.org/wiki/Apology_(Jowett)",
+      "lang": "en",
+      "about": {
+        "en": "Socrates' speech at his trial ends with his reasons not to fear death: either it is a sleep undisturbed even by dreams, or a journey to where he can question the heroes of old — the beginning of the story told in this lesson.",
+        "ru": "Речь Сократа на суде кончается его доводами не бояться смерти: либо это сон без сновидений, либо переселение туда, где можно расспрашивать древних героев, — начало истории, рассказанной в этом уроке.",
+        "uk": "Промова Сократа на суді закінчується його аргументами не боятися смерті: або це сон без сновидінь, або мандрівка туди, де можна розпитувати давніх героїв, — початок історії, розказаної в цьому уроці.",
+        "pl": "Mowa Sokratesa na procesie kończy się jego racjami, by nie bać się śmierci: albo jest snem bez marzeń, albo wędrówką tam, gdzie można wypytywać dawnych bohaterów — początek historii opowiedzianej w tej lekcji."
+      }
+    },
+    {
+      "by": "Seneca",
+      "title": "On the Shortness of Life (tr. John W. Basore)",
+      "url": "https://en.wikisource.org/wiki/On_the_shortness_of_life",
+      "lang": "en",
+      "about": {
+        "en": "Life is not short, says Seneca, we make it so by wasting it — and only those who give their time to wisdom truly live: the lesson's last question turned towards life.",
+        "ru": "Жизнь не коротка, говорит Сенека, мы делаем её такой, растрачивая её, — и по-настоящему живут лишь те, кто отдаёт время мудрости: последний вопрос урока, обращённый к жизни.",
+        "uk": "Життя не коротке, каже Сенека, ми робимо його таким, марнуючи його, — і по-справжньому живуть лише ті, хто віддає час мудрості: останнє питання уроку, звернене до життя.",
+        "pl": "Życie nie jest krótkie, mówi Seneka, to my czynimy je takim, trwoniąc je — a naprawdę żyją tylko ci, którzy poświęcają czas mądrości: ostatnie pytanie lekcji zwrócone ku życiu."
+      }
+    },
+    {
+      "by": "Лев Толстой",
+      "title": "Смерть Ивана Ильича",
+      "url": "https://ru.wikisource.org/wiki/Смерть_Ивана_Ильича_(Толстой)",
+      "lang": "ru",
+      "about": {
+        "en": "A judge who has lived as everyone lives learns that he is dying, and sees that his whole correct life was «not the right thing» — the story that asks this lesson's last question for itself.",
+        "ru": "Судья, проживший жизнь, как все, узнаёт, что умирает, и видит, что вся его правильная жизнь была «не то», — повесть, которая сама задаёт последний вопрос этого урока.",
+        "uk": "Суддя, що прожив життя, як усі, дізнається, що помирає, і бачить, що все його правильне життя було «не те», — повість, яка сама ставить останнє питання цього уроку.",
+        "pl": "Sędzia, który przeżył życie jak wszyscy, dowiaduje się, że umiera, i widzi, że całe jego poprawne życie było «nie tym» — opowieść, która sama stawia ostatnie pytanie tej lekcji."
+      }
+    },
+    {
+      "by": "Jan Kochanowski",
+      "title": "Treny",
+      "url": "https://wolnelektury.pl/katalog/lektura/treny/",
+      "lang": "pl",
+      "about": {
+        "en": "Nineteen laments (1580) for the poet's daughter Urszula, who died at two and a half: he tests the consolations of philosophy against grief, and in the last one his dead mother comes to him in a dream to console him.",
+        "ru": "Девятнадцать плачей (1580) по дочери поэта Уршуле, умершей двух с половиной лет: он испытывает утешения философии горем, а в последнем к нему во сне приходит умершая мать, чтобы его утешить.",
+        "uk": "Дев'ятнадцять плачів (1580) за донькою поета Уршулею, що померла двох із половиною років: він випробовує розради філософії горем, а в останньому до нього вві сні приходить померла мати, щоб його втішити.",
+        "pl": "Dziewiętnaście trenów (1580) po córce poety, Urszulce, zmarłej w wieku dwóch i pół roku: poeta wystawia pociechy filozofii na próbę żalu, a w ostatnim we śnie przychodzi do niego zmarła matka, by go pocieszyć."
+      }
+    },
+    {
+      "by": "Григорій Сковорода",
+      "title": "Пісня десята («Всякому городу нрав і права»), у вільній передачі Гната Хоткевича",
+      "url": "https://uk.wikisource.org/wiki/Григорій_Савич_Сковорода_(український_фільософ)/Вільна_передача_віршів_Сковороди/Пісня_десята",
+      "lang": "uk",
+      "about": {
+        "en": "The wandering philosopher lists what everyone chases — rank, trade, land, lawsuits — and has only one thought: how not to die without wisdom; the song ends with death's scythe, which holds no fear for one whose conscience is clear as crystal.",
+        "ru": "Странствующий философ перечисляет, за чем гонится каждый, — чины, торговля, земли, тяжбы, — а у него одна дума: как бы умереть не без ума; песня кончается косой смерти, которая не страшна тому, чья совесть чиста, как хрусталь.",
+        "uk": "Мандрівний філософ перелічує, за чим женеться кожен, — чини, торгівля, земля, позови, — а в нього одна дума: як би вмерти не без ума; пісня кінчається косою смерті, яка не страшна тому, чия совість чиста, як кришталь.",
+        "pl": "Wędrowny filozof wylicza, za czym każdy goni — urzędy, handel, ziemia, procesy — a on ma jedną myśl: jak nie umrzeć bez rozumu; pieśń kończy się kosą śmierci, której nie boi się ten, czyje sumienie jest czyste jak kryształ."
+      }
+    }
   ]
 }
