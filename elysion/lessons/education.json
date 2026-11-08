@@ -991,5 +991,91 @@
         "pl": "A teraz: czemu służy edukacja?"
       }
     }
+  ],
+  "further": [
+    {
+      "by": "Randall Curren",
+      "title": "Philosophy of Education (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/education-philosophy/",
+      "lang": "en",
+      "about": {
+        "en": "The lesson's question as philosophers argue it now: what education aims at — knowledge, character, autonomy, citizenship — whether it is for the pupil or for the society, and who has the right to decide.",
+        "ru": "Вопрос урока, как о нём спорят философы сегодня: к чему стремится образование — к знанию, характеру, самостоятельности, гражданственности, — для ученика оно или для общества и кто вправе это решать.",
+        "uk": "Питання уроку, як про нього сперечаються філософи сьогодні: до чого прагне освіта — до знання, характеру, самостійності, громадянськості, — для учня вона чи для суспільства і хто має право це вирішувати.",
+        "pl": "Pytanie lekcji, tak jak spierają się o nie dziś filozofowie: do czego zmierza edukacja — do wiedzy, charakteru, samodzielności, obywatelskości — czy służy uczniowi, czy społeczeństwu, i kto ma prawo o tym decydować."
+      }
+    },
+    {
+      "by": "Frederick Douglass",
+      "title": "My Bondage and My Freedom",
+      "url": "https://www.gutenberg.org/ebooks/202",
+      "lang": "en",
+      "about": {
+        "en": "Douglass's second autobiography, of 1855: the Baltimore years, the spelling book, the street boys paid in bread and the secret Sabbath school told again, at greater length and with ten more years of thought.",
+        "ru": "Вторая автобиография Дугласа, 1855 года: годы в Балтиморе, азбука, уличные мальчишки, которым он платил хлебом, и тайная воскресная школа — рассказанные заново, подробнее и после ещё десяти лет раздумий.",
+        "uk": "Друга автобіографія Дугласа, 1855 року: роки в Балтиморі, абетка, вуличні хлопчаки, яким він платив хлібом, і таємна недільна школа — розказані знову, докладніше й після ще десяти років роздумів.",
+        "pl": "Druga autobiografia Douglassa, z 1855 roku: lata w Baltimore, elementarz, chłopcy z ulicy opłacani chlebem i tajna szkółka niedzielna — opowiedziane na nowo, obszerniej i po kolejnych dziesięciu latach namysłu."
+      }
+    },
+    {
+      "by": "Jean-Jacques Rousseau",
+      "title": "Emile",
+      "url": "https://www.gutenberg.org/ebooks/5427",
+      "lang": "en",
+      "about": {
+        "en": "The book of 1762 that took Montaigne's and Locke's advice further than either dared: a child taught by things and by his own experience, not by books, who at twelve will hardly know what a book is — the founding text of an education that follows the pupil.",
+        "ru": "Книга 1762 года, которая пошла дальше советов Монтеня и Локка: ребёнка учат вещи и собственный опыт, а не книги, и в двенадцать лет он едва знает, что такое книга, — основополагающий текст воспитания, идущего за учеником.",
+        "uk": "Книжка 1762 року, що пішла далі за поради Монтеня й Локка: дитину вчать речі й власний досвід, а не книжки, і в дванадцять років вона ледве знає, що таке книжка, — засадничий текст виховання, яке йде за учнем.",
+        "pl": "Książka z 1762 roku, która poszła dalej niż rady Montaigne'a i Locke'a: dziecko uczą rzeczy i własne doświadczenie, nie książki, i w wieku dwunastu lat ledwie wie, czym jest książka — tekst założycielski wychowania, które idzie za uczniem."
+      }
+    },
+    {
+      "by": "John Dewey",
+      "title": "Democracy and Education: An Introduction to the Philosophy of Education",
+      "url": "https://www.gutenberg.org/ebooks/852",
+      "lang": "en",
+      "about": {
+        "en": "Dewey's book of 1916: education not as a preparation for life later but as growth itself, and the school as the place where a democracy makes its citizens — the strongest modern case for 'to teach us to think for ourselves'.",
+        "ru": "Книга Дьюи 1916 года: образование не подготовка к будущей жизни, а сам рост, и школа — место, где демократия создаёт своих граждан, — самый сильный современный довод за ответ «научить думать самостоятельно».",
+        "uk": "Книжка Дьюї 1916 року: освіта не підготовка до майбутнього життя, а саме зростання, і школа — місце, де демократія творить своїх громадян, — найсильніший сучасний аргумент на користь відповіді «навчити думати самостійно».",
+        "pl": "Książka Deweya z 1916 roku: edukacja nie jako przygotowanie do późniejszego życia, lecz jako sam wzrost, a szkoła jako miejsce, w którym demokracja tworzy swoich obywateli — najmocniejszy współczesny argument za odpowiedzią „nauczyć myśleć samodzielnie”."
+      }
+    },
+    {
+      "by": "Николай Иванович Пирогов",
+      "title": "Вопросы жизни",
+      "url": "https://ru.wikisource.org/wiki/Вопросы_жизни_(Пирогов)",
+      "lang": "ru",
+      "about": {
+        "en": "The surgeon Nikolai Pirogov's essay of 1856, which stirred all Russia: asked what he was preparing his son for, he answers 'to be a human being' — against a society that wants from its schools 'merchants, soldiers, mechanics, sailors, doctors, lawyers, and not human beings'.",
+        "ru": "Статья хирурга Николая Пирогова 1856 года, взволновавшая всю Россию: на вопрос, к чему он готовит сына, он отвечает «быть человеком» — против общества, которому от школы нужны «негоцианты, солдаты, механики, моряки, врачи, юристы, а не люди».",
+        "uk": "Стаття хірурга Миколи Пирогова 1856 року, що схвилювала всю Росію: на питання, до чого він готує сина, він відповідає «бути людиною» — проти суспільства, якому від школи потрібні купці, солдати, механіки, моряки, лікарі, юристи, «а не люди».",
+        "pl": "Artykuł chirurga Nikołaja Pirogowa z 1856 roku, który poruszył całą Rosję: zapytany, do czego przygotowuje syna, odpowiada „by był człowiekiem” — wbrew społeczeństwu, które od szkoły chce kupców, żołnierzy, mechaników, marynarzy, lekarzy i prawników, „a nie ludzi”."
+      }
+    },
+    {
+      "by": "Тарас Шевченко",
+      "title": "Букварь южнорусскій",
+      "url": "https://uk.wikisource.org/wiki/Букварь_южнорусскій",
+      "lang": "uk",
+      "about": {
+        "en": "The primer that Shevchenko, born a serf, compiled and printed in 1861, the last year of his life, for the Sunday schools where peasants learned to read — Douglass's faith that letters are the first step out of bondage, put into a book.",
+        "ru": "Букварь, который Шевченко, родившийся крепостным, составил и напечатал в 1861 году, последнем году своей жизни, для воскресных школ, где грамоте учились крестьяне, — вера Дугласа в то, что грамота — первый шаг из неволи, ставшая книгой.",
+        "uk": "Буквар, який Шевченко, народжений кріпаком, уклав і надрукував 1861 року, останнього року свого життя, для недільних шкіл, де грамоти вчилися селяни, — віра Дугласа в те, що грамота — перший крок із неволі, що стала книжкою.",
+        "pl": "Elementarz, który Szewczenko, urodzony jako chłop pańszczyźniany, ułożył i wydał w 1861 roku, ostatnim roku swego życia, dla szkółek niedzielnych, w których chłopi uczyli się czytać — wiara Douglassa, że litery są pierwszym krokiem z niewoli, która stała się książką."
+      }
+    },
+    {
+      "by": "Stefan Żeromski",
+      "title": "Syzyfowe prace",
+      "url": "https://wolnelektury.pl/katalog/lektura/syzyfowe-prace/",
+      "lang": "pl",
+      "about": {
+        "en": "Żeromski's novel of 1897 about a Russian gymnasium in partitioned Poland, built to make Russians of Polish boys — and about the boys for whom, as for Douglass, the ban on Mickiewicz only doubled the hunger to read him.",
+        "ru": "Роман Жеромского 1897 года о русской гимназии в разделённой Польше, устроенной, чтобы сделать из польских мальчиков русских, — и о мальчиках, у которых, как у Дугласа, запрет на Мицкевича лишь удвоил жажду его читать.",
+        "uk": "Роман Жеромського 1897 року про російську гімназію в поділеній Польщі, влаштовану, щоб зробити з польських хлопців росіян, — і про хлопців, у яких, як у Дугласа, заборона на Міцкевича лише подвоїла жагу його читати.",
+        "pl": "Powieść Żeromskiego z 1897 roku o rosyjskim gimnazjum w zaborze, zbudowanym po to, by z polskich chłopców zrobić Rosjan — i o chłopcach, w których, jak w Douglassie, zakaz czytania Mickiewicza tylko wzmógł głód lektury."
+      }
+    }
   ]
 }
