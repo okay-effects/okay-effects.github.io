@@ -1,0 +1,1218 @@
+{
+  "id": "lying",
+  "title": {
+    "en": "Is it ever right to lie?",
+    "ru": "Можно ли когда-нибудь лгать?",
+    "uk": "Чи можна коли-небудь брехати?",
+    "pl": "Czy kiedykolwiek wolno kłamać?"
+  },
+  "subtitle": {
+    "en": "Plato, Augustine, Confucius, Mencius and Kant — and you",
+    "ru": "Платон, Августин, Конфуций, Мэн-цзы и Кант — и вы",
+    "uk": "Платон, Августин, Конфуцій, Мен-цзи і Кант — і ви",
+    "pl": "Platon, Augustyn, Konfucjusz, Mencjusz i Kant — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: is it ever right to lie?",
+        "ru": "Прежде чем читать кого-либо: можно ли когда-нибудь лгать?",
+        "uk": "Перш ніж читати когось: чи можна коли-небудь брехати?",
+        "pl": "Zanim kogokolwiek przeczytasz: czy kiedykolwiek wolno kłamać?"
+      },
+      "options": [
+        {
+          "en": "Never: a lie is wrong even when it helps",
+          "ru": "Никогда: ложь дурна, даже когда помогает",
+          "uk": "Ніколи: брехня погана, навіть коли допомагає",
+          "pl": "Nigdy: kłamstwo jest złe, nawet gdy pomaga"
+        },
+        {
+          "en": "Yes, to save a life or to keep someone from harm",
+          "ru": "Да, чтобы спасти жизнь или уберечь кого-то от беды",
+          "uk": "Так, щоб урятувати життя або вберегти когось від біди",
+          "pl": "Tak, by ocalić życie albo uchronić kogoś przed krzywdą"
+        },
+        {
+          "en": "Yes, for the common good — if those who rule do it wisely",
+          "ru": "Да, ради общего блага — если это мудро делают те, кто правит",
+          "uk": "Так, задля спільного блага — якщо це мудро роблять ті, хто править",
+          "pl": "Tak, dla wspólnego dobra — jeśli mądrze czynią to rządzący"
+        },
+        {
+          "en": "Small kind lies are fine: it depends on whom and why",
+          "ru": "Маленькая добрая ложь допустима: всё зависит от того, кому и зачем",
+          "uk": "Маленька добра брехня припустима: усе залежить від того, кому й навіщо",
+          "pl": "Drobne, życzliwe kłamstwa są w porządku: wszystko zależy od tego, komu i po co"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Plato: one noble lie for the city",
+        "ru": "Платон: одна благородная ложь ради города",
+        "uk": "Платон: одна шляхетна брехня заради міста",
+        "pl": "Platon: jedno szlachetne kłamstwo dla dobra miasta"
+      },
+      "intro": {
+        "en": "Athens, the fourth century BC. In the Republic Plato has Socrates found a just city in words, together with Plato's own brothers, Glaucon and Adeimantus. Its guardians must love the truth, and the poets may tell no lies about the gods. And yet a lie, Socrates says, can be useful to men as a medicine — so long as only physicians handle it:",
+        "ru": "Афины, IV век до н. э. В «Государстве» Платон заставляет Сократа основать в словах справедливый город вместе с родными братьями Платона — Главконом и Адимантом. Стражи этого города должны любить истину, а поэтам нельзя лгать о богах. И всё же ложь, говорит Сократ, может быть полезна людям как лекарство — лишь бы обращались с ним одни врачи:",
+        "uk": "Афіни, IV століття до н. е. У «Державі» Платон змушує Сократа заснувати в словах справедливе місто разом із рідними братами Платона — Главконом і Адимантом. Сторожі цього міста мають любити істину, а поетам не можна брехати про богів. І все ж брехня, каже Сократ, може бути корисна людям як ліки — аби тільки поводилися з ними самі лікарі:",
+        "pl": "Ateny, IV wiek p.n.e. W Państwie Platon każe Sokratesowi założyć w słowach sprawiedliwe miasto razem z rodzonymi braćmi Platona, Glaukonem i Adejmantem. Strażnicy tego miasta mają kochać prawdę, a poetom nie wolno kłamać o bogach. A jednak kłamstwo, mówi Sokrates, może być ludziom pożyteczne jak lekarstwo — byle posługiwali się nim tylko lekarze:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Plato, Republic III (389b)",
+            "ru": "Платон, «Государство», III (389b)",
+            "uk": "Платон, «Держава», III (389b)",
+            "pl": "Platon, Państwo III (389b)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "republic-lying.en.jowett",
+              "from": "3.389",
+              "to": "3.389",
+              "text": "Then if anyone at all is to have the privilege of lying, the rulers of the State should be the persons; and they, in their dealings either with enemies or with their own citizens, may be allowed to lie for the public good. But nobody else should meddle with anything of the kind",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Plato, The Republic"
+              }
+            },
+            "ru": {
+              "edition": "republic-lying.ru.ours",
+              "from": "3.389",
+              "to": "3.389",
+              "text": "Итак, если уж кому-то и подобает право лгать, то правителям государства; и им, в делах с врагами или с собственными гражданами, может быть позволено лгать ради общего блага. Но никто другой не должен касаться ничего подобного",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/Политика_или_государство._Книга_первая_(Платон;_Карпов)",
+                "lang": "ru",
+                "title": "Платон, «Государство»"
+              }
+            },
+            "uk": {
+              "edition": "republic-lying.uk.ours",
+              "from": "3.389",
+              "to": "3.389",
+              "text": "Отже, якщо вже комусь і належить право брехати, то правителям держави; і їм, у справах із ворогами чи з власними громадянами, може бути дозволено брехати задля загального блага. Але ніхто інший не повинен торкатися нічого подібного",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Платон, «Держава»"
+              }
+            },
+            "pl": {
+              "edition": "republic-lying.pl.ours",
+              "from": "3.389",
+              "to": "3.389",
+              "text": "Jeśli więc ktokolwiek ma mieć przywilej kłamania, to powinni nim być rządzący państwem; im, w sprawach czy to z wrogami, czy z własnymi obywatelami, można pozwolić kłamać dla dobra publicznego. Lecz nikt inny nie powinien się do niczego takiego mieszać",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://wolnelektury.pl/katalog/lektura/platon-panstwo.html",
+                "lang": "pl",
+                "title": "Platon, Państwo"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg030.perseus-grc2:3.389/"
+          }
+        },
+        {
+          "by": {
+            "en": "The same book: one royal lie (414b–c)",
+            "ru": "Та же книга: одна царственная ложь (414b–c)",
+            "uk": "Та сама книга: одна царствена брехня (414b–c)",
+            "pl": "Ta sama księga: jedno królewskie kłamstwo (414b–c)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "republic-lying.en.jowett",
+              "from": "3.414",
+              "to": "3.414",
+              "text": "How then may we devise one of those needful falsehoods of which we lately spoke—just one royal lie which may deceive, the rulers, if that be possible, and at any rate the rest of the city?",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Plato, The Republic"
+              }
+            },
+            "ru": {
+              "edition": "republic-lying.ru.ours",
+              "from": "3.414",
+              "to": "3.414",
+              "text": "Как же нам придумать одну из тех нужных выдумок, о которых мы недавно говорили, — одну-единственную царственную ложь, которая обманула бы, если возможно, самих правителей, а уж во всяком случае остальной город?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/Политика_или_государство._Книга_первая_(Платон;_Карпов)",
+                "lang": "ru",
+                "title": "Платон, «Государство»"
+              }
+            },
+            "uk": {
+              "edition": "republic-lying.uk.ours",
+              "from": "3.414",
+              "to": "3.414",
+              "text": "Як же нам вигадати одну з тих потрібних неправд, про які ми недавно говорили, — одну-єдину царствену брехню, яка ошукала б, якщо можливо, самих правителів, а вже в кожному разі решту міста?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Платон, «Держава»"
+              }
+            },
+            "pl": {
+              "edition": "republic-lying.pl.ours",
+              "from": "3.414",
+              "to": "3.414",
+              "text": "Jakże więc wymyślić jedno z tych potrzebnych zmyśleń, o których niedawno mówiliśmy — jedno jedyne królewskie kłamstwo, które by zwiodło, jeśli to możliwe, samych rządzących, a w każdym razie resztę miasta?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://wolnelektury.pl/katalog/lektura/platon-panstwo.html",
+                "lang": "pl",
+                "title": "Platon, Państwo"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg030.perseus-grc2:3.414/"
+          }
+        },
+        {
+          "by": {
+            "en": "The tale Socrates is ashamed to tell (415a)",
+            "ru": "Сказание, которое Сократу стыдно рассказывать (415a)",
+            "uk": "Переказ, який Сократові соромно розповідати (415a)",
+            "pl": "Opowieść, którą Sokrates wstydzi się opowiedzieć (415a)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "republic-lying.en.jowett",
+              "from": "3.415",
+              "to": "3.415",
+              "text": "Citizens, we shall say to them in our tale, you are brothers, yet God has framed you differently. Some of you have the power of command, and in the composition of these he has mingled gold, wherefore also they have the greatest honor; others he has made of silver, to be auxiliaries; others again who are to be husbandmen and craftsmen he has composed of brass and iron; and the species will generally be preserved in the children.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Plato, The Republic"
+              }
+            },
+            "ru": {
+              "edition": "republic-lying.ru.ours",
+              "from": "3.415",
+              "to": "3.415",
+              "text": "Граждане, скажем мы им в нашем сказании, все вы братья, но бог создал вас по-разному. Одни из вас способны повелевать, и в их состав он примешал золото, потому они и в наибольшей чести; других он сделал из серебра, чтобы они были помощниками; а тех, кому быть земледельцами и ремесленниками, он составил из меди и железа; и порода эта по большей части будет сохраняться в детях.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/Политика_или_государство._Книга_первая_(Платон;_Карпов)",
+                "lang": "ru",
+                "title": "Платон, «Государство»"
+              }
+            },
+            "uk": {
+              "edition": "republic-lying.uk.ours",
+              "from": "3.415",
+              "to": "3.415",
+              "text": "Громадяни, скажемо ми їм у нашому переказі, всі ви брати, але бог створив вас по-різному. Одні з вас здатні владарювати, і до їхнього складу він домішав золото, тому вони й мають найбільшу шану; інших він зробив зі срібла, щоб вони були помічниками; а тих, кому бути хліборобами й ремісниками, він склав із міді й заліза; і порода ця здебільшого зберігатиметься в дітях.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Платон, «Держава»"
+              }
+            },
+            "pl": {
+              "edition": "republic-lying.pl.ours",
+              "from": "3.415",
+              "to": "3.415",
+              "text": "Obywatele, powiemy im w naszej opowieści, wszyscy jesteście braćmi, lecz bóg ukształtował was różnie. Niektórzy z was mają zdolność rozkazywania i w ich skład domieszał złota, dlatego też doznają największej czci; innych uczynił ze srebra, by byli pomocnikami; tych zaś, którzy mają być rolnikami i rzemieślnikami, złożył ze spiżu i żelaza; a rodzaj ten będzie się na ogół zachowywał w dzieciach.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://wolnelektury.pl/katalog/lektura/platon-panstwo.html",
+                "lang": "pl",
+                "title": "Platon, Państwo"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg030.perseus-grc2:3.415/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Earlier, in Book II, Socrates separates the “true lie” — ignorance in the soul about the greatest things, hated by gods and men — from a lie in words, which may be useful: against enemies, or to turn back a friend who in madness is about to do some harm.",
+            "ru": "Ещё во II книге Сократ отделяет «истинную ложь» — незнание в душе о самом важном, ненавистное богам и людям, — от лжи на словах, которая бывает полезна: против врагов или чтобы удержать друга, который в безумии собирается сделать что-то дурное.",
+            "uk": "Ще в II книзі Сократ відокремлює «справжню брехню» — незнання в душі про найважливіше, ненависне богам і людям, — від брехні на словах, яка буває корисна: проти ворогів або щоб утримати друга, який у безумстві збирається вчинити щось лихе.",
+            "pl": "Już w księdze II Sokrates oddziela „prawdziwe kłamstwo” — niewiedzę w duszy o rzeczach najważniejszych, znienawidzoną przez bogów i ludzi — od kłamstwa w słowach, które bywa pożyteczne: wobec wrogów albo by powstrzymać przyjaciela, który w szaleństwie zamierza uczynić coś złego."
+          },
+          "source": "Plato, Republic II 382a–d"
+        },
+        {
+          "fact": {
+            "en": "Plato's Greek is gennaion ti hen pseudomenous, “telling one noble falsehood” — whence “the noble lie”; gennaios first meant “well-born”. Jowett renders it “one royal lie”.",
+            "ru": "По-гречески у Платона gennaion ti hen pseudomenous — «сказав одну благородную неправду», отсюда «благородная ложь»; gennaios сначала значило «благородного рождения». Джоуэтт передаёт это как «одна царственная ложь».",
+            "uk": "Грецькою в Платона gennaion ti hen pseudomenous — «сказавши одну шляхетну неправду», звідси «шляхетна брехня»; gennaios спершу означало «шляхетного походження». Джоуетт передає це як «одна царствена брехня».",
+            "pl": "Po grecku Platon pisze gennaion ti hen pseudomenous — „mówiąc jedną szlachetną nieprawdę”, stąd „szlachetne kłamstwo”; gennaios znaczyło najpierw „dobrze urodzony”. Jowett oddaje to jako „jedno królewskie kłamstwo”."
+          },
+          "source": "Plato, Republic III 414b–c; Liddell and Scott, A Greek–English Lexicon, s.v. γενναῖος"
+        },
+        {
+          "fact": {
+            "en": "In the Laws Plato comes back to the idea: the “Sidonian tale” of Cadmus — teeth sown in the ground, from which armed men sprang up — was believed, though it is incredible; proof, he says, that a lawgiver can persuade young souls of anything he tries.",
+            "ru": "В «Законах» Платон возвращается к этой мысли: «сидонскому сказанию» о Кадме — о зубах, посеянных в землю, из которых выросли вооружённые люди, — поверили, хотя оно невероятно; это доказывает, говорит он, что законодатель может убедить юные души в чём угодно.",
+            "uk": "У «Законах» Платон повертається до цієї думки: «сидонському переказу» про Кадма — про зуби, посіяні в землю, з яких виросли озброєні люди, — повірили, хоч він і неймовірний; це доводить, каже він, що законодавець може переконати юні душі в чому завгодно.",
+            "pl": "W Prawach Platon wraca do tej myśli: „sydońskiej opowieści” o Kadmosie — o zębach zasianych w ziemi, z których wyrośli zbrojni mężowie — uwierzono, choć jest nieprawdopodobna; to dowód, mówi, że prawodawca może przekonać młode dusze, do czego tylko zechce."
+          },
+          "source": "Plato, Laws II 663e–664a"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Augustine: there is no lie that is not a sin",
+        "ru": "Августин: нет лжи, которая не была бы грехом",
+        "uk": "Августин: немає брехні, яка не була б гріхом",
+        "pl": "Augustyn: nie ma kłamstwa, które nie byłoby grzechem"
+      },
+      "intro": {
+        "en": "North Africa, about AD 395. Augustine, a priest at Hippo and not yet its bishop, writes a book that opens: “Magna quaestio est de mendacio” — “there is a great question about lying.” Some Christians held that certain lies were good: to save a life, or even to lead a soul to the faith. Augustine argues every case, for and against. He begins with what a lie is — and ends, after sorting lies into eight kinds, with his answer:",
+        "ru": "Северная Африка, около 395 года. Августин, священник в Гиппоне, ещё не ставший его епископом, пишет книгу, которая начинается словами: «Magna quaestio est de mendacio» — «велик вопрос о лжи». Некоторые христиане считали, что иная ложь хороша: чтобы спасти жизнь или даже привести душу к вере. Августин разбирает каждый случай — за и против. Он начинает с того, что такое ложь, а в конце, разделив её на восемь родов, даёт свой ответ:",
+        "uk": "Північна Африка, близько 395 року. Августин, священник у Гіппоні, ще не його єпископ, пише книгу, що починається словами: «Magna quaestio est de mendacio» — «велике питання про брехню». Дехто з християн вважав, що деяка брехня добра: щоб урятувати життя або навіть привести душу до віри. Августин розбирає кожен випадок — за і проти. Він починає з того, що таке брехня, а наприкінці, поділивши її на вісім родів, дає свою відповідь:",
+        "pl": "Afryka Północna, około 395 roku. Augustyn, kapłan w Hipponie, jeszcze nie jej biskup, pisze księgę, która zaczyna się od słów: „Magna quaestio est de mendacio” — „wielkie jest pytanie o kłamstwo”. Niektórzy chrześcijanie uważali, że pewne kłamstwa są dobre: by ocalić życie, a nawet by przywieść duszę do wiary. Augustyn rozważa każdy przypadek — za i przeciw. Zaczyna od tego, czym jest kłamstwo, a na końcu, podzieliwszy kłamstwa na osiem rodzajów, daje swoją odpowiedź:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Augustine, On Lying 3: what a lie is",
+            "ru": "Августин, «О лжи», 3: что такое ложь",
+            "uk": "Августин, «Про брехню», 3: що таке брехня",
+            "pl": "Augustyn, O kłamstwie 3: czym jest kłamstwo"
+          },
+          "quotes": {
+            "en": {
+              "edition": "mendacio-lying.en.browne",
+              "from": "1.3",
+              "to": "1.3",
+              "text": "Wherefore, that man lies, who has one thing in his mind and utters another in words, or by signs of whatever kind. Whence also the heart of him who lies is said to be double",
+              "kind": "Free",
+              "translator": "H. Browne",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_III/Moral_Treatises_of_St._Augustin/On_Lying",
+                "lang": "en",
+                "title": "Augustine, On Lying"
+              }
+            },
+            "ru": {
+              "edition": "mendacio-lying.ru.ours",
+              "from": "1.3",
+              "to": "1.3",
+              "text": "Поэтому лжёт тот, кто имеет в уме одно, а выражает другое — словами или какими бы то ни было знаками. Оттого и говорится, что сердце лгущего двойственно",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_III/Moral_Treatises_of_St._Augustin/On_Lying",
+                "lang": "en",
+                "title": "Августин, «О лжи»"
+              }
+            },
+            "uk": {
+              "edition": "mendacio-lying.uk.ours",
+              "from": "1.3",
+              "to": "1.3",
+              "text": "Тому бреше той, хто має в розумі одне, а висловлює інше — словами чи будь-якими знаками. Через те й кажуть, що серце того, хто бреше, подвійне",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_III/Moral_Treatises_of_St._Augustin/On_Lying",
+                "lang": "en",
+                "title": "Августин, «Про брехню»"
+              }
+            },
+            "pl": {
+              "edition": "mendacio-lying.pl.ours",
+              "from": "1.3",
+              "to": "1.3",
+              "text": "Dlatego kłamie ten, kto ma w umyśle co innego, a co innego wypowiada słowami lub jakimikolwiek znakami. Stąd też mówi się, że serce kłamcy jest podwójne",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_III/Moral_Treatises_of_St._Augustin/On_Lying",
+                "lang": "en",
+                "title": "Augustyn, O kłamstwie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/De_mendacio"
+          }
+        },
+        {
+          "by": {
+            "en": "The same book, 42: his conclusion",
+            "ru": "Та же книга, 42: его вывод",
+            "uk": "Та сама книга, 42: його висновок",
+            "pl": "Ta sama księga, 42: jego wniosek"
+          },
+          "quotes": {
+            "en": {
+              "edition": "mendacio-lying.en.browne",
+              "from": "1.42",
+              "to": "1.42",
+              "text": "In these eight kinds, however, a man sins less when he tells a lie, in proportion as he emerges to the eighth: more, in proportion as he diverges to the first. But whoso shall think there is any sort of lie that is not sin, will deceive himself foully, while he deems himself honest as a deceiver of other men.",
+              "kind": "Free",
+              "translator": "H. Browne",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_III/Moral_Treatises_of_St._Augustin/On_Lying",
+                "lang": "en",
+                "title": "Augustine, On Lying"
+              }
+            },
+            "ru": {
+              "edition": "mendacio-lying.ru.ours",
+              "from": "1.42",
+              "to": "1.42",
+              "text": "В этих восьми родах человек, говорящий ложь, грешит тем меньше, чем ближе он поднимается к восьмому, и тем больше, чем дальше отклоняется к первому. Но кто подумает, что есть какой-либо род лжи, который не есть грех, тот гнусно обманет самого себя, почитая себя честным обманщиком других.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_III/Moral_Treatises_of_St._Augustin/On_Lying",
+                "lang": "en",
+                "title": "Августин, «О лжи»"
+              }
+            },
+            "uk": {
+              "edition": "mendacio-lying.uk.ours",
+              "from": "1.42",
+              "to": "1.42",
+              "text": "У цих восьми родах людина, яка каже неправду, грішить тим менше, чим ближче вона підіймається до восьмого, і тим більше, чим далі відхиляється до першого. Але хто подумає, що є якийсь рід брехні, який не є гріхом, той ганебно ошукає самого себе, вважаючи себе чесним ошуканцем інших.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_III/Moral_Treatises_of_St._Augustin/On_Lying",
+                "lang": "en",
+                "title": "Августин, «Про брехню»"
+              }
+            },
+            "pl": {
+              "edition": "mendacio-lying.pl.ours",
+              "from": "1.42",
+              "to": "1.42",
+              "text": "W tych ośmiu rodzajach człowiek, który kłamie, grzeszy tym mniej, im bardziej wznosi się ku ósmemu, a tym więcej, im bardziej zbacza ku pierwszemu. Lecz kto pomyśli, że istnieje jakiś rodzaj kłamstwa, który nie jest grzechem, ten haniebnie oszuka samego siebie, uważając się za uczciwego oszusta innych.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_III/Moral_Treatises_of_St._Augustin/On_Lying",
+                "lang": "en",
+                "title": "Augustyn, O kłamstwie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/De_mendacio"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Augustine never sent the book out: he later wanted it destroyed as “obscure, and intricate, and altogether troublesome”; when, reviewing his works near the end of his life, he found it still in being, he let it stand, because it held things his later book on lying did not.",
+            "ru": "Августин так и не выпустил книгу в свет: позже он хотел её уничтожить как «тёмную, запутанную и вообще тягостную»; а когда в конце жизни, пересматривая свои труды, нашёл её уцелевшей, оставил её, потому что в ней было то, чего нет в его поздней книге о лжи.",
+            "uk": "Августин так і не випустив книгу у світ: пізніше він хотів її знищити як «темну, заплутану й узагалі обтяжливу»; а коли наприкінці життя, переглядаючи свої праці, знайшов її вцілілою, залишив її, бо в ній було те, чого немає в його пізнішій книзі про брехню.",
+            "pl": "Augustyn nigdy nie puścił tej księgi w świat: później chciał ją zniszczyć jako „niejasną, zawiłą i w ogóle uciążliwą”; a gdy pod koniec życia, przeglądając swoje dzieła, znalazł ją ocalałą, pozostawił ją, bo było w niej to, czego nie ma w jego późniejszej księdze o kłamstwie."
+          },
+          "source": "Augustine, Retractations I, last chapter (quoted in the preface to On Lying, Nicene and Post-Nicene Fathers, Series I, vol. 3)"
+        },
+        {
+          "fact": {
+            "en": "Many years later he wrote a second book, Against Lying, for Consentius, who had asked whether Catholics might pose as Priscillianist heretics in order to unmask them. Augustine's answer was no.",
+            "ru": "Много лет спустя он написал вторую книгу, «Против лжи», для Консенция, который спрашивал, можно ли католикам выдавать себя за еретиков-присциллианистов, чтобы их разоблачить. Августин ответил: нельзя.",
+            "uk": "Багато років по тому він написав другу книгу, «Проти брехні», для Консенція, який питав, чи можна католикам видавати себе за єретиків-присциліан, щоб їх викрити. Августин відповів: не можна.",
+            "pl": "Wiele lat później napisał drugą księgę, Przeciw kłamstwu, dla Konsencjusza, który pytał, czy katolikom wolno udawać heretyków pryscylian, aby ich zdemaskować. Augustyn odpowiedział: nie wolno."
+          },
+          "source": "Augustine, Against Lying 1–3; the preface to On Lying (Nicene and Post-Nicene Fathers, Series I, vol. 3)"
+        },
+        {
+          "fact": {
+            "en": "His eight kinds of lie run from the worst, a lie in the teaching of religion, to the least, the eighth: a lie told to keep someone from bodily defilement. Not one of them, he concludes, may be told.",
+            "ru": "Восемь родов лжи у него идут от худшего — лжи в учении о вере — до наименьшего, восьмого: лжи, сказанной, чтобы уберечь кого-то от телесного осквернения. Ни одной из них, заключает он, говорить нельзя.",
+            "uk": "Вісім родів брехні в нього йдуть від найгіршого — брехні в науці про віру — до найменшого, восьмого: брехні, сказаної, щоб уберегти когось від тілесного осквернення. Жодної з них, підсумовує він, казати не можна.",
+            "pl": "Jego osiem rodzajów kłamstwa biegnie od najgorszego — kłamstwa w nauce wiary — do najmniejszego, ósmego: kłamstwa wypowiedzianego, by uchronić kogoś przed cielesnym splugawieniem. Żadnego z nich, konkluduje, nie wolno wypowiedzieć."
+          },
+          "source": "Augustine, On Lying 42"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Confucius and Mencius: uprightness is not telling everything",
+        "ru": "Конфуций и Мэн-цзы: прямота — не значит говорить всё",
+        "uk": "Конфуцій і Мен-цзи: прямота — не означає казати все",
+        "pl": "Konfucjusz i Mencjusz: prawość to nie mówienie wszystkiego"
+      },
+      "intro": {
+        "en": "China, the early fifth century BC. Confucius, wandering from state to state in search of a ruler who would take his advice, comes to the southern state of Chu. There the Duke of She, a lord of Chu, boasts of how honest his people are. More than a century later, Mencius puts the principle in a single sentence:",
+        "ru": "Китай, начало V века до н. э. Конфуций, странствуя из царства в царство в поисках правителя, который последовал бы его советам, приходит в южное царство Чу. Там Шэ-гун, владетель из Чу, хвалится честностью своих людей. Больше века спустя Мэн-цзы выразит этот принцип одной фразой:",
+        "uk": "Китай, початок V століття до н. е. Конфуцій, мандруючи з царства до царства в пошуках правителя, який дослухався б до його порад, приходить до південного царства Чу. Там Ше-гун, володар із Чу, хвалиться чесністю своїх людей. Понад століття по тому Мен-цзи висловить цей принцип одним реченням:",
+        "pl": "Chiny, początek V wieku p.n.e. Konfucjusz, wędrując od państwa do państwa w poszukiwaniu władcy, który posłuchałby jego rad, przybywa do południowego państwa Chu. Tam książę She, możny z Chu, chełpi się uczciwością swoich ludzi. Ponad sto lat później Mencjusz wyrazi tę zasadę jednym zdaniem:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Confucius, Analects 13.18: the Duke of She",
+            "ru": "Конфуций, «Лунь юй», 13.18: Шэ-гун",
+            "uk": "Конфуцій, «Лунь юй», 13.18: Ше-гун",
+            "pl": "Konfucjusz, Dialogi konfucjańskie 13.18: książę She"
+          },
+          "quotes": {
+            "en": {
+              "edition": "analects-lying.en.legge",
+              "from": "13.18",
+              "to": "13.18",
+              "text": "The Duke of Sheh informed Confucius, saying, \"Among us here there are those who may be styled upright in their conduct. If their father have stolen a sheep, they will bear witness to the fact.\"",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Confucius, The Analects"
+              }
+            },
+            "ru": {
+              "edition": "analects-lying.ru.ours",
+              "from": "13.18",
+              "to": "13.18",
+              "text": "Шэ-гун сказал Конфуцию: «У нас есть люди, которых можно назвать прямыми в поведении. Если их отец украдёт овцу, они засвидетельствуют это».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуций, «Лунь юй»"
+              }
+            },
+            "uk": {
+              "edition": "analects-lying.uk.ours",
+              "from": "13.18",
+              "to": "13.18",
+              "text": "Ше-гун сказав Конфуцію: «У нас є люди, яких можна назвати прямими в поведінці. Якщо їхній батько вкраде вівцю, вони про це засвідчать».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуцій, «Лунь юй»"
+              }
+            },
+            "pl": {
+              "edition": "analects-lying.pl.ours",
+              "from": "13.18",
+              "to": "13.18",
+              "text": "Książę She rzekł do Konfucjusza: „U nas są tacy, których można nazwać prawymi w postępowaniu. Jeśli ich ojciec ukradnie owcę, zaświadczą o tym”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Konfucjusz, Dialogi konfucjańskie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/論語/子路第十三"
+          }
+        },
+        {
+          "by": {
+            "en": "The same chapter: Confucius' answer",
+            "ru": "Та же глава: ответ Конфуция",
+            "uk": "Той самий розділ: відповідь Конфуція",
+            "pl": "Ten sam rozdział: odpowiedź Konfucjusza"
+          },
+          "quotes": {
+            "en": {
+              "edition": "analects-lying.en.legge",
+              "from": "13.18",
+              "to": "13.18",
+              "text": "Confucius said, \"Among us, in our part of the country, those who are upright are different from this. The father conceals the misconduct of the son, and the son conceals the misconduct of the father. Uprightness is to be found in this.\"",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Confucius, The Analects"
+              }
+            },
+            "ru": {
+              "edition": "analects-lying.ru.ours",
+              "from": "13.18",
+              "to": "13.18",
+              "text": "Конфуций сказал: «У нас, в наших краях, прямые люди не таковы. Отец укрывает проступок сына, а сын укрывает проступок отца. В этом и заключается прямота».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуций, «Лунь юй»"
+              }
+            },
+            "uk": {
+              "edition": "analects-lying.uk.ours",
+              "from": "13.18",
+              "to": "13.18",
+              "text": "Конфуцій сказав: «У нас, у наших краях, прямі люди не такі. Батько приховує провину сина, а син приховує провину батька. У цьому й полягає прямота».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуцій, «Лунь юй»"
+              }
+            },
+            "pl": {
+              "edition": "analects-lying.pl.ours",
+              "from": "13.18",
+              "to": "13.18",
+              "text": "Konfucjusz rzekł: „U nas, w naszych stronach, prawi są inni. Ojciec ukrywa przewinienie syna, a syn ukrywa przewinienie ojca. W tym właśnie jest prawość”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Konfucjusz, Dialogi konfucjańskie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/論語/子路第十三"
+          }
+        },
+        {
+          "by": {
+            "en": "Mencius, Book IV, Part II, 11 (4B11)",
+            "ru": "Мэн-цзы, кн. IV, ч. II, 11 (4B11)",
+            "uk": "Мен-цзи, кн. IV, ч. II, 11 (4B11)",
+            "pl": "Mencjusz, ks. IV, cz. II, 11 (4B11)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "mencius-lying.en.legge",
+              "from": "4.2.11",
+              "to": "4.2.11",
+              "text": "Mencius said,'The great man does not think beforehand of his words that they may be sincere, nor of his actions that they may be resolute - he simply speaks and does what is right.'",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencius"
+              }
+            },
+            "ru": {
+              "edition": "mencius-lying.ru.ours",
+              "from": "4.2.11",
+              "to": "4.2.11",
+              "text": "Мэн-цзы сказал: «Великий человек не думает заранее о своих словах, чтобы они были искренни, ни о своих поступках, чтобы они были решительны, — он просто говорит и делает то, что справедливо».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мэн-цзы»"
+              }
+            },
+            "uk": {
+              "edition": "mencius-lying.uk.ours",
+              "from": "4.2.11",
+              "to": "4.2.11",
+              "text": "Мен-цзи сказав: «Велика людина не думає заздалегідь про свої слова, щоб вони були щирими, ні про свої вчинки, щоб вони були рішучими, — вона просто говорить і робить те, що справедливо».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мен-цзи»"
+              }
+            },
+            "pl": {
+              "edition": "mencius-lying.pl.ours",
+              "from": "4.2.11",
+              "to": "4.2.11",
+              "text": "Mencjusz rzekł: „Wielki człowiek nie myśli z góry o swoich słowach, by były szczere, ani o swoich czynach, by były stanowcze — po prostu mówi i czyni to, co słuszne”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencjusz"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/孟子/離婁下"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Confucius himself once turned away an unwanted visitor, Ru Bei, on the plea that he was ill — and as soon as the messenger was out of the door, took up his zither and sang, so that the visitor would hear him.",
+            "ru": "Сам Конфуций однажды отказал нежеланному гостю, Жу Бэю, сославшись на болезнь, — и, едва посланец вышел за дверь, взял цитру и запел, чтобы гость его услышал.",
+            "uk": "Сам Конфуцій якось відмовив небажаному гостеві, Жу Бею, пославшись на хворобу, — і, щойно посланець вийшов за двері, узяв цитру й заспівав, щоб гість його почув.",
+            "pl": "Sam Konfucjusz odprawił kiedyś niechcianego gościa, Ru Beia, wymawiając się chorobą — a gdy tylko posłaniec wyszedł za drzwi, wziął cytrę i zaśpiewał, by gość go usłyszał."
+          },
+          "source": "Analects 17.20"
+        },
+        {
+          "fact": {
+            "en": "Mencius echoes the Master: men “determined to be sincere in what they say, and to carry out what they do” Confucius had called “obstinate little men”.",
+            "ru": "Мэн-цзы вторит Учителю: людей, которые «непременно держат своё слово и доводят до конца свои дела», Конфуций называл «упрямыми маленькими людьми».",
+            "uk": "Мен-цзи вторить Учителеві: людей, які «неодмінно дотримуються свого слова й доводять до кінця свої справи», Конфуцій називав «упертими маленькими людьми».",
+            "pl": "Mencjusz powtarza za Mistrzem: ludzi, którzy „koniecznie dotrzymują słowa i doprowadzają do końca swe czyny”, Konfucjusz nazwał „upartymi małymi ludźmi”."
+          },
+          "source": "Analects 13.20"
+        },
+        {
+          "fact": {
+            "en": "Asked what the sage-king Shun would have done if his father had killed a man, Mencius answered: he would not have stopped the judge from arresting him; then he would have given up the empire “as a worn-out sandal”, carried his father off in secret on his back, and lived with him in hiding by the sea.",
+            "ru": "На вопрос, как поступил бы мудрый государь Шунь, если бы его отец убил человека, Мэн-цзы ответил: он не помешал бы судье схватить его, а затем бросил бы державу, «как стоптанную сандалию», тайно унёс бы отца на спине и жил бы с ним в укрытии у моря.",
+            "uk": "На запитання, як учинив би мудрий володар Шунь, якби його батько вбив людину, Мен-цзи відповів: він не завадив би судді схопити його, а потім покинув би державу, «як стоптану сандалію», таємно виніс би батька на спині й жив би з ним у схованці біля моря.",
+            "pl": "Zapytany, co zrobiłby mędrzec-król Shun, gdyby jego ojciec zabił człowieka, Mencjusz odpowiedział: nie przeszkodziłby sędziemu go pojmać, a potem porzuciłby cesarstwo „jak zdarty sandał”, potajemnie wyniósł ojca na plecach i żył z nim w ukryciu nad morzem."
+          },
+          "source": "Mencius 7A35 (7.1.35)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Kant: could you will that everyone lied?",
+        "ru": "Кант: можешь ли ты хотеть, чтобы лгали все?",
+        "uk": "Кант: чи можеш ти хотіти, щоб брехали всі?",
+        "pl": "Kant: czy możesz chcieć, by wszyscy kłamali?"
+      },
+      "intro": {
+        "en": "Königsberg, 1785. Immanuel Kant, professor of logic and metaphysics, publishes a short book to establish “the supreme principle of morality”. He tries it on a man in trouble who could get out of it by a promise he means not to keep — a lie about his own intentions:",
+        "ru": "Кёнигсберг, 1785 год. Иммануил Кант, профессор логики и метафизики, издаёт небольшую книгу, чтобы установить «высший принцип нравственности». Он испытывает его на человеке в беде, который мог бы выпутаться, дав обещание, которое не собирается сдержать, — то есть солгав о собственных намерениях:",
+        "uk": "Кенігсберг, 1785 рік. Іммануїл Кант, професор логіки й метафізики, видає невелику книжку, щоб установити «найвищий принцип моральності». Він випробовує його на людині в біді, яка могла б виплутатися, давши обіцянку, якої не збирається дотримати, — тобто збрехавши про власні наміри:",
+        "pl": "Królewiec, 1785 rok. Immanuel Kant, profesor logiki i metafizyki, wydaje niewielką książkę, by ustalić „najwyższą zasadę moralności”. Sprawdza ją na człowieku w opałach, który mógłby się wyplątać obietnicą, której nie zamierza dotrzymać — kłamstwem o własnych zamiarach:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Immanuel Kant, Groundwork of the Metaphysics of Morals (1785), Academy edition 4:402",
+            "ru": "Иммануил Кант, «Основоположение метафизики нравов» (1785), Академическое издание, 4:402",
+            "uk": "Іммануїл Кант, «Основоположення метафізики звичаїв» (1785), Академічне видання, 4:402",
+            "pl": "Immanuel Kant, Uzasadnienie metafizyki moralności (1785), wydanie akademickie, 4:402"
+          },
+          "quotes": {
+            "en": {
+              "edition": "groundwork-lying.en.abbott",
+              "from": "4.402",
+              "to": "4.402",
+              "text": "Let the question be, for example: May I when in distress make a promise with the intention not to keep it? I readily distinguish here between the two significations which the question may have: Whether it is prudent, or whether it is right, to make a false promise?",
+              "kind": "Free",
+              "translator": "Thomas Kingsmill Abbott",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Groundwork_of_the_Metaphysics_of_Morals",
+                "lang": "en",
+                "title": "Immanuel Kant, Groundwork of the Metaphysics of Morals"
+              }
+            },
+            "ru": {
+              "edition": "groundwork-lying.ru.ours",
+              "from": "4.402",
+              "to": "4.402",
+              "text": "Пусть вопрос будет, например, таков: могу ли я, оказавшись в затруднении, дать обещание с намерением его не сдержать? Я легко различаю здесь два значения, которые может иметь этот вопрос: благоразумно ли — или правильно ли давать ложное обещание?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Groundwork_of_the_Metaphysics_of_Morals",
+                "lang": "en",
+                "title": "Кант, «Основоположение метафизики нравов»"
+              }
+            },
+            "uk": {
+              "edition": "groundwork-lying.uk.ours",
+              "from": "4.402",
+              "to": "4.402",
+              "text": "Нехай питання буде, наприклад, таке: чи можу я, опинившись у скруті, дати обіцянку з наміром її не дотримати? Я легко розрізняю тут два значення, які може мати це питання: чи розважливо — чи правильно давати неправдиву обіцянку?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Groundwork_of_the_Metaphysics_of_Morals",
+                "lang": "en",
+                "title": "Кант, «Основоположення метафізики звичаїв»"
+              }
+            },
+            "pl": {
+              "edition": "groundwork-lying.pl.ours",
+              "from": "4.402",
+              "to": "4.402",
+              "text": "Niech pytanie brzmi na przykład tak: czy mogę, będąc w opałach, złożyć obietnicę z zamiarem jej niedotrzymania? Łatwo rozróżniam tu dwa znaczenia, jakie może mieć to pytanie: czy roztropnie jest — czy też słusznie — złożyć fałszywą obietnicę?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Groundwork_of_the_Metaphysics_of_Morals",
+                "lang": "en",
+                "title": "Kant, Uzasadnienie metafizyki moralności"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in German",
+              "ru": "оригинал на немецком",
+              "uk": "оригінал німецькою",
+              "pl": "oryginał po niemiecku"
+            },
+            "url": "https://korpora.org/Kant/aa04/402.html"
+          }
+        },
+        {
+          "by": {
+            "en": "The same page: the test",
+            "ru": "Та же страница: проверка",
+            "uk": "Та сама сторінка: перевірка",
+            "pl": "Ta sama strona: próba"
+          },
+          "quotes": {
+            "en": {
+              "edition": "groundwork-lying.en.abbott",
+              "from": "4.402",
+              "to": "4.402",
+              "text": "Then I presently become aware that while I can will the lie, I can by no means will that lying should be a universal law. For with such a law there would be no promises at all, since it would be in vain to allege my intention in regard to my future actions to those who would not believe this allegation, or if they over hastily did so would pay me back in my own coin.",
+              "kind": "Free",
+              "translator": "Thomas Kingsmill Abbott",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Groundwork_of_the_Metaphysics_of_Morals",
+                "lang": "en",
+                "title": "Immanuel Kant, Groundwork of the Metaphysics of Morals"
+              }
+            },
+            "ru": {
+              "edition": "groundwork-lying.ru.ours",
+              "from": "4.402",
+              "to": "4.402",
+              "text": "И тогда я тотчас замечаю, что хотя я и могу хотеть лжи, но никак не могу хотеть, чтобы лгать стало всеобщим законом. Ведь при таком законе не было бы вообще никаких обещаний, так как напрасно было бы заявлять о своём намерении относительно будущих поступков тем, кто этому заявлению не поверил бы, а если бы и поверил опрометчиво, то отплатил бы мне той же монетой.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Groundwork_of_the_Metaphysics_of_Morals",
+                "lang": "en",
+                "title": "Кант, «Основоположение метафизики нравов»"
+              }
+            },
+            "uk": {
+              "edition": "groundwork-lying.uk.ours",
+              "from": "4.402",
+              "to": "4.402",
+              "text": "І тоді я відразу помічаю, що хоч я й можу хотіти брехні, але ніяк не можу хотіти, щоб брехати стало загальним законом. Адже за такого закону не було б узагалі жодних обіцянок, бо марно було б заявляти про свій намір щодо майбутніх учинків тим, хто цій заяві не повірив би, а якби й повірив необачно, то відплатив би мені тією самою монетою.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Groundwork_of_the_Metaphysics_of_Morals",
+                "lang": "en",
+                "title": "Кант, «Основоположення метафізики звичаїв»"
+              }
+            },
+            "pl": {
+              "edition": "groundwork-lying.pl.ours",
+              "from": "4.402",
+              "to": "4.402",
+              "text": "Wtedy od razu spostrzegam, że choć mogę chcieć kłamstwa, to żadną miarą nie mogę chcieć, by kłamanie stało się prawem powszechnym. Przy takim prawie nie byłoby bowiem w ogóle żadnych obietnic, gdyż na próżno byłoby oznajmiać swój zamiar co do przyszłych czynów tym, którzy by temu oznajmieniu nie uwierzyli, albo, gdyby zbyt pochopnie uwierzyli, odpłaciliby mi pięknym za nadobne.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Groundwork_of_the_Metaphysics_of_Morals",
+                "lang": "en",
+                "title": "Kant, Uzasadnienie metafizyki moralności"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in German",
+              "ru": "оригинал на немецком",
+              "uk": "оригінал німецькою",
+              "pl": "oryginał po niemiecku"
+            },
+            "url": "https://korpora.org/Kant/aa04/402.html"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "In 1797 the Swiss-born French writer Benjamin Constant objected that the duty to tell the truth, taken unconditionally, would make any society impossible — as a “German philosopher” showed, who went so far as to say that it would be a crime to lie to a murderer who asks whether our friend, whom he is pursuing, has taken refuge in our house.",
+            "ru": "В 1797 году французский писатель швейцарского происхождения Бенжамен Констан возразил, что долг говорить правду, взятый безусловно, сделал бы невозможным всякое общество, — как показал «один немецкий философ», дошедший до утверждения, что солгать убийце, который спрашивает, не укрылся ли в нашем доме преследуемый им наш друг, было бы преступлением.",
+            "uk": "1797 року французький письменник швейцарського походження Бенжамен Констан заперечив, що обов’язок казати правду, узятий безумовно, зробив би неможливим будь-яке суспільство, — як показав «один німецький філософ», що дійшов до твердження, ніби збрехати вбивці, який питає, чи не сховався в нашому домі переслідуваний ним наш друг, було б злочином.",
+            "pl": "W 1797 roku urodzony w Szwajcarii francuski pisarz Benjamin Constant zarzucił, że obowiązek mówienia prawdy, wzięty bezwarunkowo, uczyniłby niemożliwym wszelkie społeczeństwo — jak pokazał „pewien niemiecki filozof”, który posunął się do twierdzenia, że okłamanie mordercy, pytającego, czy ścigany przez niego nasz przyjaciel nie schronił się w naszym domu, byłoby przestępstwem."
+          },
+          "source": "Immanuel Kant, On a Supposed Right to Lie from Philanthropy (1797), Academy edition 8:425, quoting Constant from “Frankreich im Jahr 1797”"
+        },
+        {
+          "fact": {
+            "en": "Kant answered the same year, at seventy-three, in a short essay: truthfulness in statements one cannot avoid is a duty to everyone, however great the harm to oneself or to another. In a note he owned to the charge: he had said it, somewhere he could no longer remember.",
+            "ru": "Кант ответил в том же году, в семьдесят три года, небольшой статьёй: правдивость в высказываниях, которых нельзя избежать, есть долг перед каждым, как бы велик ни был вред для себя или для другого. В примечании он признал упрёк: да, он это говорил — где-то, чего уже не может вспомнить.",
+            "uk": "Кант відповів того ж року, у сімдесят три роки, невеликою статтею: правдивість у висловлюваннях, яких не можна уникнути, є обов’язком перед кожним, хоч би якою великою була шкода для себе чи для іншого. У примітці він визнав закид: так, він це казав — десь, чого вже не може пригадати.",
+            "pl": "Kant odpowiedział jeszcze w tym samym roku, mając siedemdziesiąt trzy lata, krótkim pismem: prawdomówność w wypowiedziach, których nie można uniknąć, jest obowiązkiem wobec każdego, jakkolwiek wielka byłaby szkoda dla siebie czy dla innego. W przypisie przyznał się do zarzutu: owszem, powiedział to — gdzieś, czego już nie pamięta."
+          },
+          "source": "Immanuel Kant, On a Supposed Right to Lie from Philanthropy (1797), Academy edition 8:425–426"
+        },
+        {
+          "fact": {
+            "en": "Constant did not name his “German philosopher”; a footnote signed K. Fr. Cramer says that Constant told him himself he meant Kant — and that J. D. Michaelis of Göttingen had put forward the “strange opinion” even earlier.",
+            "ru": "Констан не назвал своего «немецкого философа»; в примечании за подписью К. Фр. Крамера сказано, что Констан сам говорил ему, что имел в виду Канта, — и что И. Д. Михаэлис из Гёттингена высказал это «странное мнение» ещё раньше.",
+            "uk": "Констан не назвав свого «німецького філософа»; у примітці за підписом К. Фр. Крамера сказано, що Констан сам казав йому, що мав на увазі Канта, — і що Й. Д. Міхаеліс із Геттінгена висловив цю «дивну думку» ще раніше.",
+            "pl": "Constant nie wymienił swojego „niemieckiego filozofa”; przypis podpisany K. Fr. Cramer mówi, że Constant sam mu powiedział, iż chodziło o Kanta — i że J. D. Michaelis z Getyngi wygłosił to „dziwne mniemanie” jeszcze wcześniej."
+          },
+          "source": "Immanuel Kant, On a Supposed Right to Lie from Philanthropy (1797), Academy edition 8:425, note"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Thagaste, before the emperors were Christian",
+        "ru": "Тагаст, когда императоры ещё не были христианами",
+        "uk": "Тагаст, коли імператори ще не були християнами",
+        "pl": "Tagaste, gdy cesarze nie byli jeszcze chrześcijanami"
+      },
+      "scene": {
+        "en": "You are Firmus, bishop of the church of Thagaste, a town of Numidia in Roman Africa. The emperors are not yet Christians. A man sought by the emperor's command has fled to you for refuge, and you have hidden him as carefully as you can. Now the emperor's officers stand before you and ask where he is. A lie would save him; the truth would hand him over. What do you answer?",
+        "ru": "Вы — Фирм, епископ церкви в Тагасте, городе Нумидии в римской Африке. Императоры ещё не христиане. Человек, которого ищут по приказу императора, нашёл у вас убежище, и вы укрыли его так тщательно, как только могли. И вот перед вами стоят императорские служители и спрашивают, где он. Ложь спасла бы его; правда выдала бы его. Что вы ответите?",
+        "uk": "Ви — Фірм, єпископ церкви в Тагасті, місті Нумідії в римській Африці. Імператори ще не християни. Чоловік, якого шукають з наказу імператора, знайшов у вас притулок, і ви сховали його так дбайливо, як тільки могли. І ось перед вами стоять імператорські служники й питають, де він. Брехня врятувала б його; правда видала б його. Що ви відповісте?",
+        "pl": "Jesteś Firmusem, biskupem Kościoła w Tagaste, mieście Numidii w rzymskiej Afryce. Cesarze nie są jeszcze chrześcijanami. Człowiek poszukiwany z rozkazu cesarza schronił się u ciebie, a ty ukryłeś go tak starannie, jak tylko mogłeś. A teraz stoją przed tobą cesarscy urzędnicy i pytają, gdzie on jest. Kłamstwo by go ocaliło; prawda by go wydała. Co odpowiesz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Say he is not here: a lie that harms no one and saves him",
+            "ru": "Сказать, что его здесь нет: ложь, которая никому не вредит и спасает его",
+            "uk": "Сказати, що його тут немає: брехня, яка нікому не шкодить і рятує його",
+            "pl": "Powiedzieć, że go tu nie ma: kłamstwo, które nikomu nie szkodzi, a jego ocala"
+          },
+          "reply": {
+            "en": "Firmus would not: in Augustine's telling he is the answer to those who call such a lie no sin.",
+            "ru": "Фирм так не сказал: у Августина он — ответ тем, кто не считает такую ложь грехом.",
+            "uk": "Фірм так не сказав: в Августина він — відповідь тим, хто не вважає таку брехню гріхом.",
+            "pl": "Firmus tak nie powiedział: u Augustyna jest on odpowiedzią dla tych, którzy takiego kłamstwa nie uważają za grzech."
+          }
+        },
+        {
+          "choice": {
+            "en": "Tell them where he is: you may not lie, whatever follows",
+            "ru": "Сказать, где он: лгать нельзя, что бы ни последовало",
+            "uk": "Сказати, де він: брехати не можна, хоч би що сталося",
+            "pl": "Powiedzieć, gdzie jest: kłamać nie wolno, cokolwiek z tego wyniknie"
+          },
+          "reply": {
+            "en": "Firmus refused this as well: he would not betray a man who had come to him for refuge.",
+            "ru": "Фирм отказался и от этого: он не стал выдавать человека, искавшего у него убежища.",
+            "uk": "Фірм відмовився й від цього: він не став видавати людину, яка шукала в нього притулку.",
+            "pl": "Firmus odmówił i tego: nie wydał człowieka, który szukał u niego schronienia."
+          }
+        },
+        {
+          "choice": {
+            "en": "Say that you can neither lie nor betray him — and bear what comes",
+            "ru": "Сказать, что вы не можете ни солгать, ни выдать его, — и вынести то, что последует",
+            "uk": "Сказати, що ви не можете ні збрехати, ні видати його, — і витерпіти те, що буде",
+            "pl": "Powiedzieć, że nie możesz ani skłamać, ani go wydać — i znieść, co przyjdzie"
+          },
+          "reply": {
+            "en": "This is what Firmus answered — and it cost him torture.",
+            "ru": "Именно так ответил Фирм — и это стоило ему пыток.",
+            "uk": "Саме так відповів Фірм — і це коштувало йому катувань.",
+            "pl": "Tak właśnie odpowiedział Firmus — i kosztowało go to tortury."
+          }
+        },
+        {
+          "choice": {
+            "en": "Give a true answer that sends them the wrong way",
+            "ru": "Дать правдивый ответ, который направит их по ложному следу",
+            "uk": "Дати правдиву відповідь, яка спрямує їх хибним слідом",
+            "pl": "Udzielić prawdziwej odpowiedzi, która skieruje ich na fałszywy trop"
+          },
+          "reply": {
+            "en": "Firmus did not try it, and Augustine would hardly allow it: the fault of the liar, he says, is the wish to deceive.",
+            "ru": "Фирм к этому не прибегнул, да и Августин вряд ли бы это позволил: вина лжеца, говорит он, — в желании обмануть.",
+            "uk": "Фірм до цього не вдався, та й Августин навряд чи дозволив би це: провина брехуна, каже він, — у бажанні ошукати.",
+            "pl": "Firmus po to nie sięgnął, a Augustyn raczej by na to nie pozwolił: wina kłamcy, mówi, leży w chęci oszukania."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "This was Firmus, bishop of Thagaste — the town where Augustine was born. Asked by the emperor's officers for the man who had taken refuge with him, he answered that he could neither tell a lie nor betray a man. He was tortured, and stood firm. Brought before the emperor, he seemed so admirable that he obtained, without any difficulty, a pardon for the man he had hidden. Augustine tells the story in On Lying, about AD 395, against those who say that a lie which saves someone is no sin — and he does not hide their objection: why suffer torment for nothing, when a harmless lie would do? Fourteen centuries later Benjamin Constant put the same case to Kant: a murderer at the door, asking where your friend is hiding.",
+        "ru": "Это был Фирм, епископ Тагаста — города, где родился Августин. Когда императорские служители потребовали у него человека, укрывшегося у него, он ответил, что не может ни солгать, ни выдать человека. Его пытали, и он устоял. Когда его привели к императору, он показался столь достойным восхищения, что без всякого труда добился помилования для того, кого укрывал. Августин рассказывает эту историю в книге «О лжи», около 395 года, против тех, кто говорит, что ложь, которая кого-то спасает, — не грех, — и не скрывает их возражения: зачем терпеть муки понапрасну, если хватило бы безвредной лжи? Четырнадцать веков спустя Бенжамен Констан предложил Канту тот же случай: убийца у двери спрашивает, где прячется ваш друг.",
+        "uk": "Це був Фірм, єпископ Тагаста — міста, де народився Августин. Коли імператорські служники зажадали від нього людину, яка сховалася в нього, він відповів, що не може ні збрехати, ні видати людину. Його катували, і він вистояв. Коли його привели до імператора, він видався таким гідним захоплення, що без жодних труднощів домігся помилування для того, кого переховував. Августин розповідає цю історію в книзі «Про брехню», близько 395 року, проти тих, хто каже, що брехня, яка когось рятує, — не гріх, — і не приховує їхнього заперечення: навіщо марно терпіти муки, якщо вистачило б нешкідливої брехні? Чотирнадцять століть по тому Бенжамен Констан запропонував Кантові той самий випадок: убивця біля дверей питає, де ховається ваш друг.",
+        "pl": "To był Firmus, biskup Tagaste — miasta, w którym urodził się Augustyn. Gdy cesarscy urzędnicy zażądali od niego człowieka, który się u niego schronił, odpowiedział, że nie może ani skłamać, ani wydać człowieka. Torturowano go, a on wytrwał. Przyprowadzony przed cesarza, wydał mu się tak godny podziwu, że bez żadnego trudu uzyskał ułaskawienie dla tego, kogo ukrywał. Augustyn opowiada tę historię w księdze O kłamstwie, około 395 roku, przeciw tym, którzy mówią, że kłamstwo, które kogoś ocala, nie jest grzechem — i nie ukrywa ich zarzutu: po co znosić męki na próżno, skoro wystarczyłoby nieszkodliwe kłamstwo? Czternaście wieków później Benjamin Constant postawił Kantowi ten sam przypadek: morderca u drzwi pyta, gdzie ukrywa się twój przyjaciel."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Augustine, On Lying 23: Firmus",
+            "ru": "Августин, «О лжи», 23: Фирм",
+            "uk": "Августин, «Про брехню», 23: Фірм",
+            "pl": "Augustyn, O kłamstwie 23: Firmus"
+          },
+          "quotes": {
+            "en": {
+              "edition": "mendacio-lying.en.browne",
+              "from": "1.23",
+              "to": "1.23",
+              "text": "This did a former Bishop of the Church of Thagasta, Firmus by name, and even more firm in will. For, when he was asked by command of the emperor, through officers sent by him, for a man who was taking refuge with him, and whom he kept in hiding with all possible care, he made answer to their questions, that he could neither tell a lie, nor betray a man; and when he had suffered so many torments of body, (for as yet emperors were not Christian,) he stood firm in his purpose. Thereupon being brought before the emperor, his conduct appeared so admirable, that he without any difficulty obtained a pardon for the man whom he was trying to save.",
+              "kind": "Free",
+              "translator": "H. Browne",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_III/Moral_Treatises_of_St._Augustin/On_Lying",
+                "lang": "en",
+                "title": "Augustine, On Lying"
+              }
+            },
+            "ru": {
+              "edition": "mendacio-lying.ru.ours",
+              "from": "1.23",
+              "to": "1.23",
+              "text": "Так поступил некогда епископ Тагастской церкви по имени Фирм, а волей ещё твёрже. Ибо когда по приказу императора через посланных им служителей у него требовали человека, нашедшего у него убежище, которого он со всем возможным старанием укрывал, он ответил на их вопросы, что не может ни солгать, ни выдать человека; и, претерпев столько телесных мучений (ведь императоры тогда ещё не были христианами), он остался твёрд в своём намерении. Затем, когда его привели к императору, его поведение показалось столь достойным удивления, что он без всякого труда добился помилования для человека, которого старался спасти.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_III/Moral_Treatises_of_St._Augustin/On_Lying",
+                "lang": "en",
+                "title": "Августин, «О лжи»"
+              }
+            },
+            "uk": {
+              "edition": "mendacio-lying.uk.ours",
+              "from": "1.23",
+              "to": "1.23",
+              "text": "Так учинив колись єпископ Тагастської церкви на ім’я Фірм, а волею ще твердіший. Бо коли з наказу імператора через посланих ним служників у нього вимагали людину, що знайшла в нього притулок і яку він з усією можливою дбайливістю переховував, він відповів на їхні запитання, що не може ні збрехати, ні видати людину; і, зазнавши стількох тілесних мук (адже імператори тоді ще не були християнами), він лишився твердим у своєму намірі. Потім, коли його привели до імператора, його поведінка видалася такою гідною подиву, що він без жодних труднощів домігся помилування для людини, яку намагався врятувати.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_III/Moral_Treatises_of_St._Augustin/On_Lying",
+                "lang": "en",
+                "title": "Августин, «Про брехню»"
+              }
+            },
+            "pl": {
+              "edition": "mendacio-lying.pl.ours",
+              "from": "1.23",
+              "to": "1.23",
+              "text": "Tak postąpił niegdyś biskup Kościoła w Tagaste, imieniem Firmus, a wolą jeszcze mocniejszy. Kiedy bowiem z rozkazu cesarza, przez wysłanych przez niego urzędników, żądano od niego człowieka, który się u niego schronił i którego ukrywał z wszelką możliwą starannością, odpowiedział na ich pytania, że nie może ani skłamać, ani wydać człowieka; a zniósłszy tyle mąk cielesnych (cesarze bowiem nie byli jeszcze chrześcijanami), wytrwał w swoim postanowieniu. Następnie, gdy przyprowadzono go przed cesarza, jego postawa wydała się tak godna podziwu, że bez żadnego trudu uzyskał ułaskawienie dla człowieka, którego starał się ocalić.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_III/Moral_Treatises_of_St._Augustin/On_Lying",
+                "lang": "en",
+                "title": "Augustyn, O kłamstwie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/De_mendacio"
+          }
+        },
+        {
+          "by": {
+            "en": "The same section: the objection",
+            "ru": "Тот же раздел: возражение",
+            "uk": "Той самий розділ: заперечення",
+            "pl": "Ten sam rozdział: zarzut"
+          },
+          "quotes": {
+            "en": {
+              "edition": "mendacio-lying.en.browne",
+              "from": "1.23",
+              "to": "1.23",
+              "text": "But peradventure some more timid person may say, “I can be prepared to bear any torments, or even to submit to death, that I may not sin; but, since it is no sin to tell a lie such that you neither hurt any man, nor bear false witness, and benefit some man, it is foolish and a great sin, voluntarily and to no purpose to submit to torments, and, when one’s health and life may haply be useful, to fling them away for nothing to people in a rage.”",
+              "kind": "Free",
+              "translator": "H. Browne",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_III/Moral_Treatises_of_St._Augustin/On_Lying",
+                "lang": "en",
+                "title": "Augustine, On Lying"
+              }
+            },
+            "ru": {
+              "edition": "mendacio-lying.ru.ours",
+              "from": "1.23",
+              "to": "1.23",
+              "text": "Но, может быть, кто-нибудь более робкий скажет: «Я могу быть готов вынести любые мучения или даже принять смерть, лишь бы не согрешить; но так как не грех солгать так, чтобы и никому не повредить, и не лжесвидетельствовать, и кому-то принести пользу, то глупо и великий грех — добровольно и понапрасну подвергать себя мучениям и, когда здоровье и жизнь, быть может, ещё пригодятся, бросать их ни за что людям в ярости».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_III/Moral_Treatises_of_St._Augustin/On_Lying",
+                "lang": "en",
+                "title": "Августин, «О лжи»"
+              }
+            },
+            "uk": {
+              "edition": "mendacio-lying.uk.ours",
+              "from": "1.23",
+              "to": "1.23",
+              "text": "Але, можливо, хтось боязкіший скаже: «Я можу бути готовий витерпіти будь-які муки чи навіть прийняти смерть, аби не згрішити; але оскільки не гріх збрехати так, щоб і нікому не зашкодити, і не свідчити неправдиво, і комусь принести користь, то нерозумно і великий гріх — добровільно й марно піддавати себе мукам і, коли здоров’я та життя, може, ще стануть у пригоді, кидати їх задарма людям у люті».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_III/Moral_Treatises_of_St._Augustin/On_Lying",
+                "lang": "en",
+                "title": "Августин, «Про брехню»"
+              }
+            },
+            "pl": {
+              "edition": "mendacio-lying.pl.ours",
+              "from": "1.23",
+              "to": "1.23",
+              "text": "Lecz może ktoś bardziej lękliwy powie: „Mogę być gotów znieść wszelkie męki, a nawet ponieść śmierć, byle nie zgrzeszyć; ale skoro nie jest grzechem skłamać tak, by nikomu nie zaszkodzić, nie dać fałszywego świadectwa, a komuś przynieść korzyść, to głupota i wielki grzech dobrowolnie i na próżno wystawiać się na męki i, gdy zdrowie i życie mogą się jeszcze przydać, rzucać je za nic ludziom ogarniętym wściekłością”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_I/Volume_III/Moral_Treatises_of_St._Augustin/On_Lying",
+                "lang": "en",
+                "title": "Augustyn, O kłamstwie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/De_mendacio"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Augustine's advice for such a case: if you know where the man is, do not answer “I will not say whether he is here” — that points to the place as surely as a finger; say instead, “I know where he is, but I will never show him.”",
+            "ru": "Совет Августина на такой случай: если вы знаете, где человек, не отвечайте «не скажу, здесь ли он» — это указывает на место так же верно, как палец; скажите лучше: «Я знаю, где он, но никогда его не покажу».",
+            "uk": "Порада Августина на такий випадок: якщо ви знаєте, де цей чоловік, не відповідайте «не скажу, чи він тут» — це вказує на місце так само певно, як палець; скажіть краще: «Я знаю, де він, але ніколи його не покажу».",
+            "pl": "Rada Augustyna na taki wypadek: jeśli wiesz, gdzie jest ten człowiek, nie odpowiadaj „nie powiem, czy tu jest” — to wskazuje miejsce tak pewnie jak palec; powiedz raczej: „Wiem, gdzie jest, ale nigdy go nie wskażę”."
+          },
+          "source": "Augustine, On Lying 24"
+        },
+        {
+          "fact": {
+            "en": "Thagaste, in Numidia, was Augustine's birthplace; after his conversion he came home there and for about three years lived with his friends in fasting, prayer and good works.",
+            "ru": "Тагаст в Нумидии был родиной Августина; после обращения он вернулся туда и около трёх лет жил с друзьями в посте, молитве и добрых делах.",
+            "uk": "Тагаст у Нумідії був батьківщиною Августина; після навернення він повернувся туди й близько трьох років жив із друзями в пості, молитві й добрих справах.",
+            "pl": "Tagaste w Numidii było miejscem urodzenia Augustyna; po nawróceniu wrócił tam i przez około trzy lata żył z przyjaciółmi w poście, modlitwie i dobrych uczynkach."
+          },
+          "source": "Possidius, Life of Augustine 1, 3"
+        },
+        {
+          "fact": {
+            "en": "To the timid objector Augustine answers from Scripture: “Thou shalt not bear false witness” might forbid only lies in court, but the Psalm says to God, “Thou wilt destroy all them that speak leasing” — that is, lies.",
+            "ru": "Робкому возражателю Августин отвечает Писанием: «Не лжесвидетельствуй» могло бы запрещать лишь ложь на суде, но псалом говорит Богу: «Ты погубишь всех, говорящих ложь».",
+            "uk": "Боязкому опонентові Августин відповідає Письмом: «Не свідчи неправдиво» могло б забороняти лише брехню на суді, але псалом каже Богові: «Ти вигубиш усіх, хто говорить неправду».",
+            "pl": "Lękliwemu oponentowi Augustyn odpowiada Pismem: „Nie mów fałszywego świadectwa” mogłoby zakazywać tylko kłamstwa w sądzie, lecz psalm mówi do Boga: „Wygubisz wszystkich, którzy mówią kłamstwo”."
+          },
+          "source": "Augustine, On Lying 23 (Exodus 20:16; Psalm 5:6)"
+        }
+      ]
+    },
+    {
+      "think": "lying",
+      "question": {
+        "en": "Think of a time when the truth would hurt someone, or put someone in danger — a friend's question, a doctor's news, a stranger at the door. Would you lie? Is keeping silent, or choosing your words, any different from lying — and if a lie is ever right, who should decide when?",
+        "ru": "Вспомните случай, когда правда ранила бы кого-то или подвергла бы опасности, — вопрос друга, известие врача, незнакомец у двери. Солгали бы вы? Отличается ли от лжи молчание или осторожный выбор слов — и если ложь бывает правильной, кому решать, когда?",
+        "uk": "Пригадайте випадок, коли правда поранила б когось чи наразила б на небезпеку, — питання друга, звістка лікаря, незнайомець біля дверей. Чи збрехали б ви? Чи відрізняється від брехні мовчання або обережний добір слів — і якщо брехня буває правильною, кому вирішувати, коли?",
+        "pl": "Pomyśl o sytuacji, w której prawda by kogoś zraniła albo naraziła na niebezpieczeństwo — pytanie przyjaciela, wiadomość od lekarza, obcy u drzwi. Skłamałbyś? Czy milczenie albo staranny dobór słów różni się od kłamstwa — i jeśli kłamstwo bywa słuszne, kto ma decydować, kiedy?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: is it ever right to lie?",
+        "ru": "А теперь: можно ли когда-нибудь лгать?",
+        "uk": "А тепер: чи можна коли-небудь брехати?",
+        "pl": "A teraz: czy kiedykolwiek wolno kłamać?"
+      }
+    }
+  ]
+}

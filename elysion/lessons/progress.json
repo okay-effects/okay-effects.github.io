@@ -1,0 +1,1058 @@
+{
+  "id": "progress",
+  "title": {
+    "en": "Does progress make us better?",
+    "ru": "Делает ли нас прогресс лучше?",
+    "uk": "Чи робить нас прогрес кращими?",
+    "pl": "Czy postęp czyni nas lepszymi?"
+  },
+  "subtitle": {
+    "en": "Laozi, Zhuangzi, Bacon, Rousseau and Kant — and you",
+    "ru": "Лао-цзы, Чжуан-цзы, Бэкон, Руссо и Кант — и вы",
+    "uk": "Лао-цзи, Чжуан-цзи, Бекон, Руссо і Кант — і ви",
+    "pl": "Laozi, Zhuangzi, Bacon, Rousseau i Kant — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: does progress make us better?",
+        "ru": "Прежде чем читать кого-либо: делает ли нас прогресс лучше?",
+        "uk": "Перш ніж читати когось: чи робить нас прогрес кращими?",
+        "pl": "Zanim kogokolwiek przeczytasz: czy postęp czyni nas lepszymi?"
+      },
+      "options": [
+        {
+          "en": "Yes: knowledge and freedom make people, over time, wiser and kinder",
+          "ru": "Да: знание и свобода со временем делают людей мудрее и добрее",
+          "uk": "Так: знання і свобода з часом роблять людей мудрішими й добрішими",
+          "pl": "Tak: wiedza i wolność z czasem czynią ludzi mądrzejszymi i życzliwszymi"
+        },
+        {
+          "en": "It makes our lives better — longer, easier, safer — but not ourselves",
+          "ru": "Он делает лучше нашу жизнь — дольше, легче, безопаснее, — но не нас самих",
+          "uk": "Він робить кращим наше життя — довшим, легшим, безпечнішим, — але не нас самих",
+          "pl": "Czyni lepszym nasze życie — dłuższym, łatwiejszym, bezpieczniejszym — ale nie nas samych"
+        },
+        {
+          "en": "No: every new comfort and cleverness costs us some of our simplicity and honesty",
+          "ru": "Нет: каждое новое удобство и ухищрение отнимает у нас часть простоты и честности",
+          "uk": "Ні: кожна нова вигода й хитромудрість забирає в нас частку простоти й чесності",
+          "pl": "Nie: każda nowa wygoda i każdy nowy spryt odbiera nam trochę prostoty i uczciwości"
+        },
+        {
+          "en": "Progress gives us power; whether we become better depends on what we do with it",
+          "ru": "Прогресс даёт нам силу; станем ли мы лучше, зависит от того, что мы с ней сделаем",
+          "uk": "Прогрес дає нам силу; чи станемо ми кращими, залежить від того, що ми з нею зробимо",
+          "pl": "Postęp daje nam moc; czy staniemy się lepsi, zależy od tego, co z nią zrobimy"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Zhuangzi and Laozi: cunning machines make cunning hearts",
+        "ru": "Чжуан-цзы и Лао-цзы: хитрые орудия рождают хитрые сердца",
+        "uk": "Чжуан-цзи і Лао-цзи: хитрі знаряддя народжують хитрі серця",
+        "pl": "Zhuangzi i Laozi: przemyślne narzędzia rodzą przebiegłe serca"
+      },
+      "intro": {
+        "en": "China, the fourth century BC: the age of the Warring States. Kingdoms dig canals, build walls, forge iron weapons and raise ever larger armies; scholars travel from court to court selling plans for order and wealth. A short book of verses, later called the Dao De Jing and ascribed to Laozi, an archivist of old, answers by praising what is small, simple and still. Its spirit runs through the book of Zhuangzi, full of stories — in one of them a disciple of Confucius, Zigong (Giles writes Tzŭ Kung), offers an old gardener a machine:",
+        "ru": "Китай, IV век до н. э., эпоха Сражающихся царств. Царства роют каналы, возводят стены, куют железное оружие и собирают всё бо́льшие армии; учёные странствуют от двора к двору, предлагая планы порядка и богатства. Небольшая книга стихов, позже названная «Дао дэ цзин» и приписанная Лао-цзы, древнему хранителю архивов, отвечает на это хвалой малому, простому и спокойному. Её дух пронизывает книгу «Чжуан-цзы», полную притч, — в одной из них ученик Конфуция Цзы-гун (у Джайлза — Tzŭ Kung) предлагает старому садовнику машину:",
+        "uk": "Китай, IV століття до н. е., доба Царств, що воюють. Царства копають канали, зводять мури, кують залізну зброю й збирають дедалі більші армії; учені мандрують від двору до двору, пропонуючи плани порядку й багатства. Невелика книга віршів, пізніше названа «Дао де цзін» і приписана Лао-цзи, давньому хранителеві архівів, відповідає на це хвалою малому, простому й спокійному. Її дух пронизує книгу «Чжуан-цзи», повну притч, — в одній із них учень Конфуція Цзи-гун (у Джайлза — Tzŭ Kung) пропонує старому садівникові машину:",
+        "pl": "Chiny, IV wiek p.n.e., epoka Walczących Królestw. Królestwa kopią kanały, wznoszą mury, kują żelazną broń i wystawiają coraz większe armie; uczeni wędrują od dworu do dworu, oferując plany ładu i bogactwa. Niewielka księga wierszy, później nazwana Daodejing i przypisana Laozi, dawnemu strażnikowi archiwów, odpowiada na to pochwałą tego, co małe, proste i ciche. Jej duch przenika księgę Zhuangzi, pełną przypowieści — w jednej z nich uczeń Konfucjusza Zigong (u Gilesa: Tzŭ Kung) proponuje staremu ogrodnikowi maszynę:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Zhuangzi, chapter 12, “Heaven and Earth”",
+            "ru": "«Чжуан-цзы», глава 12, «Небо и земля»",
+            "uk": "«Чжуан-цзи», розділ 12, «Небо і земля»",
+            "pl": "Zhuangzi, rozdział 12, „Niebo i ziemia”"
+          },
+          "quotes": {
+            "en": {
+              "edition": "zhuangzi-progress.en.giles",
+              "from": "12.11.1",
+              "to": "12.11.6",
+              "text": "When Tzŭ Kung went south to the Ch'u State on his way back to the Chin State, he passed through Han-yin. There he saw an old man engaged in making a ditch to connect his vegetable garden with a well. He had a pitcher in his hand, with which he was bringing up water and pouring it into the ditch,—great labour with very little result. \"If you had a machine here,\" cried Tzŭ Kung, \"in a day you could irrigate a hundred times your present area. The labour required is trifling as compared with the work done. Would you not like to have one?\" \"What is it?\" asked the gardener. \"It is a contrivance made of wood,\" replied Tzŭ Kung, \"heavy behind and light in front. It draws up water as you do with your hands, but in a constantly overflowing stream. It is called a well-sweep.\" Thereupon the gardener flushed up and said, \"I have heard from my teacher that those who have cunning implements are cunning in their dealings, and that those who are cunning in their dealings have cunning in their hearts, and that those who have cunning in their hearts cannot be pure and incorrupt, and that those who are not pure and incorrupt are restless in spirit, and that those who are restless in spirit are not fit vehicles for Tao. It is not that I do not know of these things. I should be ashamed to use them.\"",
+              "kind": "Free",
+              "translator": "Herbert A. Giles",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "Zhuangzi"
+              }
+            },
+            "ru": {
+              "edition": "zhuangzi-progress.ru.ours",
+              "from": "12.11.1",
+              "to": "12.11.6",
+              "text": "Когда Цзы-гун отправился на юг, в царство Чу, то на обратном пути в царство Цзинь проезжал через Ханьинь. Там он увидел старика, который рыл канаву, чтобы соединить свой огород с колодцем. В руке у него был кувшин, которым он черпал воду и выливал её в канаву, — большой труд при очень малом результате. «Будь у тебя здесь машина, — воскликнул Цзы-гун, — ты за день орошал бы во сто раз больше, чем теперь. Труд, которого она требует, ничтожен по сравнению с выполняемой работой. Не хочешь ли ты её завести?» «Что это такое?» — спросил садовник. «Это приспособление из дерева, — ответил Цзы-гун, — тяжёлое сзади и лёгкое спереди. Оно поднимает воду, как ты руками, но постоянным, бьющим через край потоком. Называется оно колодезный журавль». Тут садовник вспыхнул и сказал: «Я слышал от своего учителя, что у кого хитрые орудия, тот хитёр в делах, а кто хитёр в делах, у того хитрость в сердце, а у кого хитрость в сердце, тот не может сохранить чистоту и непорочность, а кто не сохранил чистоты и непорочности, тот беспокоен духом, а кто беспокоен духом, тот не годится быть вместилищем Дао. Не то чтобы я не знал об этих вещах. Мне было бы стыдно ими пользоваться».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "«Чжуан-цзы»"
+              }
+            },
+            "uk": {
+              "edition": "zhuangzi-progress.uk.ours",
+              "from": "12.11.1",
+              "to": "12.11.6",
+              "text": "Коли Цзи-гун вирушив на південь, до царства Чу, то на зворотному шляху до царства Цзінь проїздив через Ханьїнь. Там він побачив старого, який копав рівчак, щоб з’єднати свій город із криницею. У руці він мав глек, яким черпав воду й виливав її в рівчак, — великий труд і дуже малий наслідок. «Якби ти мав тут машину, — вигукнув Цзи-гун, — то за день зрошував би в сто разів більше, ніж тепер. Праця, якої вона потребує, мізерна порівняно з виконаною роботою. Чи не хотів би ти її мати?» «Що це таке?» — спитав садівник. «Це пристрій із дерева, — відповів Цзи-гун, — важкий ззаду й легкий спереду. Він піднімає воду, як ти руками, але постійним потоком, що б’є через край. Називається він криничний журавель». Тоді садівник спалахнув і сказав: «Я чув від свого вчителя, що в кого хитрі знаряддя, той хитрий у справах, а хто хитрий у справах, у того хитрість у серці, а в кого хитрість у серці, той не може зберегти чистоти й непорочності, а хто не зберіг чистоти й непорочності, той неспокійний духом, а хто неспокійний духом, той не годиться бути вмістилищем Дао. Не те щоб я не знав про ці речі. Мені було б соромно ними користуватися».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "«Чжуан-цзи»"
+              }
+            },
+            "pl": {
+              "edition": "zhuangzi-progress.pl.ours",
+              "from": "12.11.1",
+              "to": "12.11.6",
+              "text": "Gdy Zigong udał się na południe, do państwa Chu, w drodze powrotnej do państwa Jin przejeżdżał przez Hanyin. Zobaczył tam starca, który kopał rów, by połączyć swój ogród warzywny ze studnią. W ręku miał dzban, którym czerpał wodę i wylewał ją do rowu — wielki trud przy bardzo małym skutku. „Gdybyś miał tu maszynę — zawołał Zigong — w ciągu dnia nawadniałbyś sto razy większy obszar niż teraz. Trud, jakiego wymaga, jest znikomy w porównaniu z wykonaną pracą. Czy nie chciałbyś jej mieć?” „Co to takiego?” — spytał ogrodnik. „To urządzenie z drewna — odparł Zigong — ciężkie z tyłu, a lekkie z przodu. Czerpie wodę tak jak ty rękami, ale nieustannym, przelewającym się strumieniem. Nazywa się żuraw studzienny”. Wtedy ogrodnik poczerwieniał i rzekł: „Słyszałem od mego nauczyciela, że kto ma przemyślne narzędzia, ten jest przebiegły w swoich sprawach, a kto jest przebiegły w swoich sprawach, ten ma przebiegłość w sercu, a kto ma przebiegłość w sercu, ten nie może być czysty i nieskażony, a kto nie jest czysty i nieskażony, ten ma niespokojnego ducha, a kto ma niespokojnego ducha, ten nie nadaje się na naczynie Tao. Nie jest tak, żebym nie wiedział o tych rzeczach. Wstydziłbym się ich używać”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Chuang_Tzŭ_(Giles)/Chapter_18",
+                "lang": "en",
+                "title": "Zhuangzi"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/莊子/天地"
+          }
+        },
+        {
+          "by": {
+            "en": "Laozi, Dao De Jing 80",
+            "ru": "Лао-цзы, «Дао дэ цзин», глава 80",
+            "uk": "Лао-цзи, «Дао де цзін», розділ 80",
+            "pl": "Laozi, Daodejing, rozdział 80"
+          },
+          "quotes": {
+            "en": {
+              "edition": "daodejing-progress.en.legge",
+              "from": "80",
+              "to": "80",
+              "text": "In a little state with a small population, I would so order it, that, though there were individuals with the abilities of ten or a hundred men, there should be no employment of them; I would make the people, while looking on death as a grievous thing, yet not remove elsewhere (to avoid it). Though they had boats and carriages, they should have no occasion to ride in them; though they had buff coats and sharp weapons, they should have no occasion to don or use them. I would make the people return to the use of knotted cords (instead of the written characters). They should think their (coarse) food sweet; their (plain) clothes beautiful; their (poor) dwellings places of rest; and their common (simple) ways sources of enjoyment. There should be a neighbouring state within sight, and the voices of the fowls and dogs should be heard all the way from it to us, but I would make the people to old age, even to death, not have any intercourse with it.",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tâo_Teh_King",
+                "lang": "en",
+                "title": "Laozi, Dao De Jing"
+              }
+            },
+            "ru": {
+              "edition": "daodejing-progress.ru.ours",
+              "from": "80",
+              "to": "80",
+              "text": "В маленьком государстве с немногочисленным народом я устроил бы так, чтобы, хотя бы и были люди со способностями десяти или ста человек, им не находилось применения; я сделал бы так, чтобы народ, считая смерть тяжким делом, всё же не переселялся бы (чтобы её избежать). Хотя бы у них были лодки и колесницы, у них не было бы нужды на них ездить; хотя бы у них были кожаные латы и острое оружие, у них не было бы нужды их надевать или пускать в ход. Я заставил бы народ вернуться к употреблению узелковых шнуров (вместо письменных знаков). Они находили бы свою (грубую) пищу сладкой, свою (простую) одежду красивой, свои (бедные) жилища местами покоя, а свой обычный (простой) уклад — источником радости. Соседнее государство было бы в пределах видимости, и голоса кур и собак доносились бы от него до нас, но я сделал бы так, чтобы люди до старости, до самой смерти не имели с ним никаких сношений.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/Тао-Те-Кинг_(Лао-цзы;_Конисси)/Тао-Те-Кинг",
+                "lang": "ru",
+                "title": "Лао-цзы, «Дао дэ цзин»"
+              }
+            },
+            "uk": {
+              "edition": "daodejing-progress.uk.ours",
+              "from": "80",
+              "to": "80",
+              "text": "У маленькій державі з нечисленним народом я влаштував би так, щоб, хоч би й були люди зі здібностями десяти чи ста людей, їм не знаходилося застосування; я зробив би так, щоб народ, вважаючи смерть тяжкою справою, усе ж не переселявся б (щоб її уникнути). Хоч би вони мали човни й колісниці, їм не було б потреби ними їздити; хоч би вони мали шкіряні обладунки й гостру зброю, їм не було б потреби їх одягати чи пускати в хід. Я змусив би народ повернутися до вжитку вузликових шнурів (замість писемних знаків). Вони вважали б свою (грубу) їжу солодкою, свій (простий) одяг гарним, свої (убогі) оселі місцями спочинку, а свій звичайний (простий) уклад — джерелом утіхи. Сусідня держава була б перед очима, і голоси курей і собак долинали б від неї аж до нас, але я зробив би так, щоб люди до старості, аж до смерті, не мали з нею жодних стосунків.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tâo_Teh_King",
+                "lang": "en",
+                "title": "Лао-цзи, «Дао де цзін»"
+              }
+            },
+            "pl": {
+              "edition": "daodejing-progress.pl.ours",
+              "from": "80",
+              "to": "80",
+              "text": "W małym państwie o nielicznej ludności urządziłbym wszystko tak, by choć byli tam ludzie ze zdolnościami dziesięciu czy stu ludzi, nie było dla nich zajęcia; sprawiłbym, by lud, choć uważa śmierć za rzecz ciężką, nie przenosił się jednak gdzie indziej (by jej uniknąć). Choćby mieli łodzie i wozy, nie mieliby potrzeby nimi jeździć; choćby mieli skórzane kaftany i ostrą broń, nie mieliby potrzeby ich wkładać ani używać. Sprawiłbym, by lud wrócił do używania węzełkowych sznurów (zamiast znaków pisma). Ich (prosta) strawa wydawałaby się im słodka, ich (skromne) odzienie piękne, ich (ubogie) domostwa miejscami spoczynku, a ich zwykłe (proste) obyczaje źródłem radości. Sąsiednie państwo byłoby w zasięgu wzroku, a głosy kur i psów słychać by było stamtąd aż u nas, lecz sprawiłbym, by ludzie aż do starości, aż do śmierci nie mieli z nim żadnych stosunków.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Tâo_Teh_King",
+                "lang": "en",
+                "title": "Laozi, Daodejing"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/道德經_(王弼本)#八十章"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Zhuangzi, says the historian Sima Qian, was once a minor official in charge of a lacquer-tree garden at Meng. When King Wei of Chu sent envoys to make him his chief minister, he laughed: the ox fattened for the sacrifice is dressed in embroidery and led into the temple — and then, though it wished to be a lone piglet, it could not. He would rather amuse himself in a muddy ditch.",
+            "ru": "Чжуан-цзы, сообщает историк Сыма Цянь, был когда-то мелким чиновником, ведавшим рощей лаковых деревьев в Мэн. Когда чуский царь Вэй прислал послов, чтобы сделать его первым министром, он рассмеялся: быка, откормленного для жертвоприношения, наряжают в узорные ткани и ведут в храм, — и тогда, захоти он стать одиноким поросёнком, он уже не сможет. Лучше уж он будет забавляться в грязной канаве.",
+            "uk": "Чжуан-цзи, повідомляє історик Сима Цянь, був колись дрібним урядовцем, що відав гаєм лакових дерев у Мен. Коли чуський цар Вей прислав послів, щоб зробити його першим міністром, він засміявся: бика, відгодованого для жертвоприношення, вбирають у візерункові тканини й ведуть до храму, — і тоді, хай би він і захотів стати самотнім поросям, уже не зможе. Краще вже він бавитиметься в брудній канаві.",
+            "pl": "Zhuangzi, jak podaje historyk Sima Qian, był niegdyś drobnym urzędnikiem zarządzającym ogrodem drzew lakowych w Meng. Gdy król Wei z Chu przysłał posłów, by uczynić go pierwszym ministrem, roześmiał się: wołu tuczonego na ofiarę przystraja się w haftowane tkaniny i prowadzi do świątyni — i wtedy, choćby chciał być samotnym prosiątkiem, już nie może. On wolał zabawiać się w błotnistym rowie."
+          },
+          "source": "Sima Qian, Records of the Grand Historian (Shiji), chapter 63"
+        },
+        {
+          "fact": {
+            "en": "Chapter 12 belongs to the book's “outer chapters”, which most scholars think were written by Zhuangzi's later followers rather than by Zhuangzi himself; the first seven, the “inner chapters”, are taken to be nearest to him.",
+            "ru": "Глава 12 относится к «внешним главам» книги, которые большинство учёных считает написанными поздними последователями Чжуан-цзы, а не им самим; ближе всего к нему считаются первые семь, «внутренние главы».",
+            "uk": "Розділ 12 належить до «зовнішніх розділів» книги, які більшість учених вважає написаними пізнішими послідовниками Чжуан-цзи, а не ним самим; найближчими до нього вважають перші сім, «внутрішні розділи».",
+            "pl": "Rozdział 12 należy do „rozdziałów zewnętrznych” księgi, które większość uczonych uważa za dzieło późniejszych uczniów Zhuangzi, a nie jego samego; za najbliższe mu uchodzi pierwsze siedem, „rozdziały wewnętrzne”."
+          },
+          "source": "A. C. Graham, Chuang-tzŭ: The Inner Chapters (1981)"
+        },
+        {
+          "fact": {
+            "en": "Of Laozi himself almost nothing is known. Sima Qian tells, as a story he had heard, that he kept the archives of the Zhou court and, seeing Zhou decline, went away; at the frontier pass its keeper, Yin Xi, begged him for a book, and he wrote one in two parts, of a little over five thousand words, and left — no one knows where.",
+            "ru": "О самом Лао-цзы почти ничего не известно. Сыма Цянь рассказывает — как предание, которое он слышал, — что тот хранил архивы чжоуского двора и, видя упадок Чжоу, ушёл; на пограничной заставе её начальник Инь Си упросил его написать книгу, и он написал её в двух частях, немногим более пяти тысяч слов, и ушёл — никто не знает куда.",
+            "uk": "Про самого Лао-цзи майже нічого не відомо. Сима Цянь розповідає — як переказ, який він чув, — що той зберігав архіви чжоуського двору і, бачачи занепад Чжоу, пішов; на прикордонній заставі її начальник Інь Сі впросив його написати книгу, і він написав її у двох частинах, трохи більше ніж п’ять тисяч слів, і пішов — ніхто не знає куди.",
+            "pl": "O samym Laozi nie wiadomo prawie nic. Sima Qian opowiada — jako podanie, które słyszał — że był strażnikiem archiwów na dworze Zhou i widząc upadek Zhou, odszedł; na granicznej przełęczy jej strażnik Yin Xi uprosił go o księgę, a on napisał ją w dwóch częściach, liczącą nieco ponad pięć tysięcy słów, i odszedł — nikt nie wie dokąd."
+          },
+          "source": "Sima Qian, Records of the Grand Historian (Shiji), chapter 63"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Francis Bacon: these mechanical discoveries have changed the face of the world",
+        "ru": "Фрэнсис Бэкон: эти механические открытия изменили облик мира",
+        "uk": "Френсіс Бекон: ці механічні відкриття змінили обличчя світу",
+        "pl": "Francis Bacon: te mechaniczne wynalazki zmieniły oblicze świata"
+      },
+      "intro": {
+        "en": "London, 1620. Francis Bacon is Lord Chancellor of England, the highest judge of the realm, and in his spare hours the herald of a new learning. For two thousand years, he complains, scholars have argued over Aristotle's words and added almost nothing to man's power; craftsmen, printers and navigators have done more. Let knowledge be built instead on experiment, and put to work to ease human life. His book, the Novum Organum — the “new instrument”, set against Aristotle's Organon — closes its first book by asking what such knowledge is worth:",
+        "ru": "Лондон, 1620 год. Фрэнсис Бэкон — лорд-канцлер Англии, высший судья королевства, а в свободные часы — глашатай новой учёности. Две тысячи лет, сетует он, учёные спорили о словах Аристотеля и почти ничего не прибавили к могуществу человека; ремесленники, печатники и мореплаватели сделали больше. Пусть знание строится на опыте и служит облегчению человеческой жизни. Его книга «Новый органон» — «новое орудие» в противовес «Органону» Аристотеля — завершает свою первую книгу вопросом, чего стоит такое знание:",
+        "uk": "Лондон, 1620 рік. Френсіс Бекон — лорд-канцлер Англії, найвищий суддя королівства, а у вільні години — провісник нової вченості. Дві тисячі років, нарікає він, учені сперечалися про слова Аристотеля й майже нічого не додали до могутності людини; ремісники, друкарі й мореплавці зробили більше. Нехай знання будується на досліді й служить полегшенню людського життя. Його книга «Новий органон» — «нове знаряддя» на противагу «Органонові» Аристотеля — завершує свою першу книгу питанням, чого варте таке знання:",
+        "pl": "Londyn, rok 1620. Francis Bacon jest lordem kanclerzem Anglii, najwyższym sędzią królestwa, a w wolnych godzinach — heroldem nowej nauki. Przez dwa tysiące lat, skarży się, uczeni spierali się o słowa Arystotelesa i prawie nic nie dodali do potęgi człowieka; rzemieślnicy, drukarze i żeglarze zrobili więcej. Niech wiedza opiera się na doświadczeniu i służy ulżeniu ludzkiemu życiu. Jego dzieło Novum Organum — „nowe narzędzie”, przeciwstawione Organonowi Arystotelesa — zamyka swą pierwszą księgę pytaniem, ile warta jest taka wiedza:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Francis Bacon, Novum Organum (1620), Book I, aphorism 129",
+            "ru": "Фрэнсис Бэкон, «Новый органон» (1620), книга I, афоризм 129",
+            "uk": "Френсіс Бекон, «Новий органон» (1620), книга I, афоризм 129",
+            "pl": "Francis Bacon, Novum Organum (1620), księga I, aforyzm 129"
+          },
+          "quotes": {
+            "en": {
+              "edition": "organum-progress.en.spedding",
+              "from": "1.129",
+              "to": "1.129",
+              "text": "Again, it is well to observe the force and virtue and consequences of discoveries; and these are to be seen nowhere more conspicuously than in those three which were unknown to the ancients, and of which the origin, though recent, is obscure and inglorious; namely, printing, gunpowder, and the magnet. For these three have changed the whole face and state of things throughout the world; the first in literature, the second in warfare, the third in navigation; whence have followed innumerable changes; insomuch that no empire, no sect, no star seems to have exerted greater power and influence in human affairs than these mechanical discoveries.",
+              "kind": "Free",
+              "translator": "James Spedding et al.",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Novum_Organum",
+                "lang": "en",
+                "title": "Francis Bacon, Novum Organum"
+              }
+            },
+            "ru": {
+              "edition": "organum-progress.ru.ours",
+              "from": "1.129",
+              "to": "1.129",
+              "text": "Далее, полезно присмотреться к силе, действенности и последствиям открытий; а нигде они не видны так явственно, как в тех трёх, которые были неизвестны древним и происхождение которых, хотя и недавнее, темно и бесславно, — а именно в книгопечатании, порохе и магните. Ибо эти три изменили весь облик и состояние вещей во всём мире: первое — в словесности, второе — в военном деле, третье — в мореплавании; отсюда последовали бесчисленные перемены, так что, кажется, никакая империя, никакая секта, никакая звезда не оказала большей силы и влияния на дела человеческие, чем эти механические открытия.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Novum_Organum",
+                "lang": "en",
+                "title": "Фрэнсис Бэкон, «Новый органон»"
+              }
+            },
+            "uk": {
+              "edition": "organum-progress.uk.ours",
+              "from": "1.129",
+              "to": "1.129",
+              "text": "Далі, варто придивитися до сили, дієвості й наслідків відкриттів; а ніде вони не видні так виразно, як у тих трьох, що були невідомі давнім і походження яких, хоч і недавнє, темне й безславне, — а саме в друкарстві, поросі й магніті. Бо ці три змінили весь вигляд і стан речей у всьому світі: перше — у письменстві, друге — у військовій справі, третє — у мореплавстві; звідси постали незліченні зміни, так що, здається, жодна імперія, жодна секта, жодна зоря не мала більшої сили й впливу на людські справи, ніж ці механічні відкриття.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Novum_Organum",
+                "lang": "en",
+                "title": "Френсіс Бекон, «Новий органон»"
+              }
+            },
+            "pl": {
+              "edition": "organum-progress.pl.ours",
+              "from": "1.129",
+              "to": "1.129",
+              "text": "Dalej, warto przyjrzeć się sile, skuteczności i następstwom wynalazków; a nigdzie nie widać ich wyraźniej niż w owych trzech, których starożytni nie znali i których pochodzenie, choć niedawne, jest ciemne i bez chwały — mianowicie w druku, prochu strzelniczym i magnesie. Te trzy bowiem zmieniły całe oblicze i stan rzeczy na świecie: pierwszy w piśmiennictwie, drugi w sztuce wojennej, trzeci w żegludze; stąd wyniknęły niezliczone zmiany, tak że żadne imperium, żadna sekta, żadna gwiazda nie wywarły, jak się zdaje, większej władzy i wpływu na sprawy ludzkie niż te mechaniczne wynalazki.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Novum_Organum",
+                "lang": "en",
+                "title": "Francis Bacon, Novum Organum"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/Novum_Organum/Liber_Primus"
+          }
+        },
+        {
+          "by": {
+            "en": "Francis Bacon, Novum Organum, Book I, aphorism 129 (its end)",
+            "ru": "Фрэнсис Бэкон, «Новый органон», книга I, афоризм 129 (окончание)",
+            "uk": "Френсіс Бекон, «Новий органон», книга I, афоризм 129 (закінчення)",
+            "pl": "Francis Bacon, Novum Organum, księga I, aforyzm 129 (zakończenie)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "organum-progress.en.spedding",
+              "from": "1.129",
+              "to": "1.129",
+              "text": "Lastly, if the debasement of arts and sciences to purposes of wickedness, luxury, and the like, be made a ground of objection, let no one be moved thereby. For the same may be said of all earthly goods; of wit, courage, strength, beauty, wealth, light itself, and the rest. Only let the human race recover that right over nature which belongs to it by divine bequest, and let power be given it; the exercise thereof will be governed by sound reason and true religion.",
+              "kind": "Free",
+              "translator": "James Spedding et al.",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Novum_Organum",
+                "lang": "en",
+                "title": "Francis Bacon, Novum Organum"
+              }
+            },
+            "ru": {
+              "edition": "organum-progress.ru.ours",
+              "from": "1.129",
+              "to": "1.129",
+              "text": "Наконец, если кто-нибудь поставит в упрёк, что науки и искусства низводятся до служения злодейству, роскоши и тому подобному, пусть это никого не смущает. Ибо то же можно сказать обо всех земных благах: об уме, мужестве, силе, красоте, богатстве, о самом свете и о прочем. Пусть только род человеческий вернёт себе то право на природу, которое принадлежит ему по божественному завещанию, и пусть ему будет дана сила; а пользоваться ею будут направлять здравый разум и истинная религия.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Novum_Organum",
+                "lang": "en",
+                "title": "Фрэнсис Бэкон, «Новый органон»"
+              }
+            },
+            "uk": {
+              "edition": "organum-progress.uk.ours",
+              "from": "1.129",
+              "to": "1.129",
+              "text": "Нарешті, якщо хтось закине, що науки й мистецтва принижуються до служіння злочинству, розкошам і тому подібному, нехай це нікого не бентежить. Бо те саме можна сказати про всі земні блага: про розум, мужність, силу, красу, багатство, про саме світло й про решту. Нехай лише рід людський поверне собі те право на природу, яке належить йому за божественним заповітом, і нехай йому буде дано силу; а користуватися нею спрямовуватимуть здоровий розум та істинна релігія.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Novum_Organum",
+                "lang": "en",
+                "title": "Френсіс Бекон, «Новий органон»"
+              }
+            },
+            "pl": {
+              "edition": "organum-progress.pl.ours",
+              "from": "1.129",
+              "to": "1.129",
+              "text": "Wreszcie, jeśli ktoś zarzuci, że nauki i sztuki poniża się do służby występkowi, zbytkowi i tym podobnym, niech nikogo to nie porusza. To samo bowiem można powiedzieć o wszystkich dobrach ziemskich: o rozumie, odwadze, sile, pięknie, bogactwie, o samym świetle i o reszcie. Niech tylko rodzaj ludzki odzyska tę władzę nad naturą, która należy mu się z boskiego nadania, i niech zostanie mu dana moc; jej użyciem pokierują zdrowy rozum i prawdziwa religia.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Novum_Organum",
+                "lang": "en",
+                "title": "Francis Bacon, Novum Organum"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/Novum_Organum/Liber_Primus"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Bacon wrote of power, and fell from it. In 1621, a year after the Novum Organum, Parliament accused him of taking gifts from people whose cases he was judging; he confessed, was fined £40,000, spent a few days in the Tower and never held office again.",
+            "ru": "Бэкон писал о могуществе — и сам пал с высоты. В 1621 году, через год после «Нового органона», парламент обвинил его в том, что он принимал подарки от тяжущихся, чьи дела он судил; он признал вину, был приговорён к штрафу в 40 000 фунтов, провёл несколько дней в Тауэре и больше никогда не занимал должностей.",
+            "uk": "Бекон писав про могутність — і сам упав з висоти. 1621 року, через рік після «Нового органона», парламент звинуватив його в тому, що він брав подарунки від позивачів, чиї справи судив; він визнав провину, був засуджений до штрафу в 40 000 фунтів, провів кілька днів у Тауері й більше ніколи не обіймав посад.",
+            "pl": "Bacon pisał o potędze — i sam z niej spadł. W 1621 roku, rok po Novum Organum, parlament oskarżył go o przyjmowanie podarunków od stron, których sprawy sądził; przyznał się, został skazany na 40 000 funtów grzywny, spędził kilka dni w Tower i nigdy więcej nie piastował urzędu."
+          },
+          "source": "Lisa Jardine and Alan Stewart, Hostage to Fortune: The Troubled Life of Francis Bacon (1998)"
+        },
+        {
+          "fact": {
+            "en": "All three of his world-changing inventions — printing, gunpowder and the magnetic compass — had been invented first in China, centuries before Europe had them; Bacon did not know it.",
+            "ru": "Все три изобретения, изменившие мир, — книгопечатание, порох и магнитный компас — были впервые изобретены в Китае, за века до того, как появились в Европе; Бэкон этого не знал.",
+            "uk": "Усі три винаходи, що змінили світ, — друкарство, порох і магнітний компас — уперше було винайдено в Китаї, за століття до того, як вони з’явилися в Європі; Бекон цього не знав.",
+            "pl": "Wszystkie trzy wynalazki, które zmieniły świat — druk, proch i kompas magnetyczny — wynaleziono najpierw w Chinach, wieki przed tym, nim pojawiły się w Europie; Bacon o tym nie wiedział."
+          },
+          "source": "Joseph Needham, Science and Civilisation in China (1954 onwards)"
+        },
+        {
+          "fact": {
+            "en": "He died as an experimenter. On a snowy day in 1626, John Aubrey tells, it came into his mind near Highgate that flesh might be kept in snow as in salt; he bought a hen, helped stuff it with snow himself, took a chill, and died a few days later.",
+            "ru": "Он и умер как экспериментатор. В снежный день 1626 года, рассказывает Джон Обри, близ Хайгейта ему пришло в голову, что мясо можно сохранять в снегу, как в соли; он купил курицу, сам помог набить её снегом, простудился и через несколько дней умер.",
+            "uk": "Він і помер як експериментатор. Сніжного дня 1626 року, розповідає Джон Обрі, біля Гайґейта йому спало на думку, що м’ясо можна зберігати в снігу, як у солі; він купив курку, сам допоміг напхати її снігом, застудився й за кілька днів помер.",
+            "pl": "Umarł też jako eksperymentator. W śnieżny dzień 1626 roku, opowiada John Aubrey, pod Highgate przyszło mu do głowy, że mięso można by przechowywać w śniegu jak w soli; kupił kurę, sam pomógł napchać ją śniegiem, przeziębił się i po kilku dniach zmarł."
+          },
+          "source": "John Aubrey, Brief Lives, “Sir Francis Bacon”"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Rousseau: iron and corn have civilized men and ruined mankind",
+        "ru": "Руссо: железо и хлеб цивилизовали людей и погубили род человеческий",
+        "uk": "Руссо: залізо й хліб цивілізували людей і занапастили людський рід",
+        "pl": "Rousseau: żelazo i zboże ucywilizowały ludzi i zgubiły rodzaj ludzki"
+      },
+      "intro": {
+        "en": "Paris, 1753. Jean-Jacques Rousseau, a Genevan watchmaker's son who taught himself, has become famous for one prize essay arguing that the sciences and arts did not purify our morals. Now the same Academy of Dijon asks what the origin of inequality among men is, and he goes further back: to man before society, who needs little and pities others without reasoning. What lifts man above the animals, he says, is not first of all reason but a faculty of improving himself — perfectibility. And there the trouble begins:",
+        "ru": "Париж, 1753 год. Жан-Жак Руссо, сын женевского часовщика и самоучка, прославился одним конкурсным сочинением, где доказывал, что науки и искусства не очистили наших нравов. Теперь та же Дижонская академия спрашивает, каково происхождение неравенства между людьми, и он уходит ещё дальше в прошлое: к человеку до общества, которому нужно немногое и который сострадает другим, не рассуждая. Человека над животными, говорит он, возвышает не прежде всего разум, а способность к самосовершенствованию — совершенствуемость. С неё-то и начинается беда:",
+        "uk": "Париж, 1753 рік. Жан-Жак Руссо, син женевського годинникаря й самоук, прославився одним конкурсним твором, де доводив, що науки й мистецтва не очистили наших звичаїв. Тепер та сама Діжонська академія питає, яке походження нерівності між людьми, і він сягає ще далі в минуле: до людини до суспільства, якій потрібно небагато і яка співчуває іншим, не міркуючи. Людину над тваринами, каже він, підносить не насамперед розум, а здатність до самовдосконалення — вдосконалюваність. З неї й починається біда:",
+        "pl": "Paryż, rok 1753. Jean-Jacques Rousseau, syn genewskiego zegarmistrza i samouk, zasłynął jedną rozprawą konkursową, w której dowodził, że nauki i sztuki nie oczyściły naszych obyczajów. Teraz ta sama Akademia w Dijon pyta, jakie jest pochodzenie nierówności między ludźmi, a on sięga jeszcze dalej wstecz: do człowieka przed społeczeństwem, który potrzebuje niewiele i współczuje innym bez rozumowania. Człowieka ponad zwierzęta wynosi, powiada, nie przede wszystkim rozum, lecz zdolność doskonalenia się — perfektybilność. I od niej zaczyna się kłopot:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Jean-Jacques Rousseau, Discourse on the Origin of Inequality (1755), part I",
+            "ru": "Жан-Жак Руссо, «Рассуждение о происхождении и основаниях неравенства между людьми» (1755), часть I",
+            "uk": "Жан-Жак Руссо, «Міркування про походження та основи нерівності між людьми» (1755), частина I",
+            "pl": "Jean-Jacques Rousseau, Rozprawa o pochodzeniu i podstawach nierówności między ludźmi (1755), część I"
+          },
+          "quotes": {
+            "en": {
+              "edition": "inequality-progress.en.1761",
+              "from": "1.16",
+              "to": "1.16",
+              "text": "It would be a melancholy Necessity for us to be obliged to allow, that this distinctive and almost unlimited Faculty is the Source of all Man's Misfortunes; that it is this Faculty, which, tho' by slow Degrees, draws them out of their original Condition, in which his Days would slide away insensibly in Peace and Innocence; that it is this Faculty, which, in a Succession of Ages, produces his Discoveries and Mistakes, his Virtues and his Vices, and, at long run, renders him both his own and Nature's Tyrant.",
+              "kind": "Free",
+              "translator": "an anonymous translator",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_discourse_upon_the_origin_and_foundation_of_the_inequality_among_mankind",
+                "lang": "en",
+                "title": "Jean-Jacques Rousseau, Discourse on the Origin of Inequality"
+              }
+            },
+            "ru": {
+              "edition": "inequality-progress.ru.ours",
+              "from": "1.16",
+              "to": "1.16",
+              "text": "Было бы печальной необходимостью признать, что эта отличительная и почти безграничная способность есть источник всех несчастий человека; что именно эта способность, хотя и медленно, выводит людей из их первоначального состояния, в котором дни его протекали бы незаметно в мире и невинности; что именно эта способность в череде веков порождает его открытия и заблуждения, его добродетели и пороки и в конце концов делает его тираном и самого себя, и природы.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_discourse_upon_the_origin_and_foundation_of_the_inequality_among_mankind",
+                "lang": "en",
+                "title": "Жан-Жак Руссо, «Рассуждение о происхождении и основаниях неравенства между людьми»"
+              }
+            },
+            "uk": {
+              "edition": "inequality-progress.uk.ours",
+              "from": "1.16",
+              "to": "1.16",
+              "text": "Було б сумною необхідністю визнати, що ця відмінна й майже безмежна здатність є джерелом усіх нещасть людини; що саме ця здатність, хоч і повільно, виводить людей з їхнього первісного стану, в якому дні її спливали б непомітно в мирі й невинності; що саме ця здатність у плині віків породжує її відкриття й помилки, її чесноти й вади і зрештою робить її тираном і самої себе, і природи.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_discourse_upon_the_origin_and_foundation_of_the_inequality_among_mankind",
+                "lang": "en",
+                "title": "Жан-Жак Руссо, «Міркування про походження та основи нерівності між людьми»"
+              }
+            },
+            "pl": {
+              "edition": "inequality-progress.pl.ours",
+              "from": "1.16",
+              "to": "1.16",
+              "text": "Smutną koniecznością byłoby przyznać, że ta wyróżniająca i niemal nieograniczona zdolność jest źródłem wszystkich nieszczęść człowieka; że to ona, choć powoli, wyprowadza ludzi z ich pierwotnego stanu, w którym jego dni płynęłyby niepostrzeżenie w pokoju i niewinności; że to ona w ciągu wieków rodzi jego odkrycia i błędy, jego cnoty i występki, i w końcu czyni go tyranem zarówno samego siebie, jak i natury.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_discourse_upon_the_origin_and_foundation_of_the_inequality_among_mankind",
+                "lang": "en",
+                "title": "Jean-Jacques Rousseau, Rozprawa o pochodzeniu i podstawach nierówności między ludźmi"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Discours_sur_l’origine_et_les_fondements_de_l’inégalité_parmi_les_hommes/Première_partie"
+          }
+        },
+        {
+          "by": {
+            "en": "Jean-Jacques Rousseau, Discourse on the Origin of Inequality, part II",
+            "ru": "Жан-Жак Руссо, «Рассуждение о происхождении и основаниях неравенства между людьми», часть II",
+            "uk": "Жан-Жак Руссо, «Міркування про походження та основи нерівності між людьми», частина II",
+            "pl": "Jean-Jacques Rousseau, Rozprawa o pochodzeniu i podstawach nierówności między ludźmi, część II"
+          },
+          "quotes": {
+            "en": {
+              "edition": "inequality-progress.en.1761",
+              "from": "2.20",
+              "to": "2.20",
+              "text": "Metallurgy and Agriculture were the two Arts whose Invention produced this great Revolution. With the Poet, it is Gold and Silver, but with the Philosopher, it is Iron and Corn, which have civilized Men, and ruined Mankind.",
+              "kind": "Free",
+              "translator": "an anonymous translator",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_discourse_upon_the_origin_and_foundation_of_the_inequality_among_mankind",
+                "lang": "en",
+                "title": "Jean-Jacques Rousseau, Discourse on the Origin of Inequality"
+              }
+            },
+            "ru": {
+              "edition": "inequality-progress.ru.ours",
+              "from": "2.20",
+              "to": "2.20",
+              "text": "Металлургия и земледелие были теми двумя искусствами, изобретение которых произвело этот великий переворот. Для поэта это золото и серебро, но для философа — железо и хлеб, которые цивилизовали людей и погубили род человеческий.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_discourse_upon_the_origin_and_foundation_of_the_inequality_among_mankind",
+                "lang": "en",
+                "title": "Жан-Жак Руссо, «Рассуждение о происхождении и основаниях неравенства между людьми»"
+              }
+            },
+            "uk": {
+              "edition": "inequality-progress.uk.ours",
+              "from": "2.20",
+              "to": "2.20",
+              "text": "Металургія і хліборобство були тими двома мистецтвами, винайдення яких спричинило цей великий переворот. Для поета це золото й срібло, але для філософа — залізо й хліб, які цивілізували людей і занапастили людський рід.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_discourse_upon_the_origin_and_foundation_of_the_inequality_among_mankind",
+                "lang": "en",
+                "title": "Жан-Жак Руссо, «Міркування про походження та основи нерівності між людьми»"
+              }
+            },
+            "pl": {
+              "edition": "inequality-progress.pl.ours",
+              "from": "2.20",
+              "to": "2.20",
+              "text": "Metalurgia i rolnictwo były tymi dwiema sztukami, których wynalezienie sprawiło ten wielki przewrót. Dla poety są to złoto i srebro, lecz dla filozofa — żelazo i zboże, które ucywilizowały ludzi i zgubiły rodzaj ludzki.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_discourse_upon_the_origin_and_foundation_of_the_inequality_among_mankind",
+                "lang": "en",
+                "title": "Jean-Jacques Rousseau, Rozprawa o pochodzeniu i podstawach nierówności między ludźmi"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Discours_sur_l’origine_et_les_fondements_de_l’inégalité_parmi_les_hommes/Seconde_partie"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "He thought it out, he says, on a week of walks in the forest of Saint-Germain, “comparing the man of art with the natural man”, to show men that their pretended improvement was the real source of all their misery; and he cried out to them, in a voice they could not hear: “Madmen! know that all your evils proceed from yourselves!”",
+            "ru": "Он обдумал его, рассказывает он, за неделю прогулок в Сен-Жерменском лесу, «сравнивая человека искусственного с человеком природным», чтобы показать людям, что в их мнимом совершенствовании — истинный источник всех их бед; и он взывал к ним голосом, которого они не могли услышать: «Безумцы! знайте, что все ваши беды — от вас самих!»",
+            "uk": "Він обміркував його, розповідає він, за тиждень прогулянок у Сен-Жерменському лісі, «порівнюючи людину штучну з людиною природною», щоб показати людям, що в їхньому удаваному вдосконаленні — справжнє джерело всіх їхніх лих; і він гукав до них голосом, якого вони не могли почути: «Божевільні! знайте, що всі ваші лиха — від вас самих!»",
+            "pl": "Przemyślał ją, jak opowiada, podczas tygodnia przechadzek po lesie Saint-Germain, „porównując człowieka sztuki z człowiekiem natury”, by pokazać ludziom, że w ich rzekomym doskonaleniu się tkwi prawdziwe źródło wszystkich ich nieszczęść; i wołał do nich głosem, którego nie mogli usłyszeć: „Szaleńcy! wiedzcie, że wszystkie wasze nieszczęścia pochodzą od was samych!”"
+          },
+          "source": "Rousseau, Confessions, book VIII"
+        },
+        {
+          "fact": {
+            "en": "Voltaire thanked him for “your new book against the human race”: no one, he wrote, had ever used so much wit to make us beasts; reading it, one longs to walk on all fours — but he had lost the habit more than sixty years ago.",
+            "ru": "Вольтер поблагодарил его за «вашу новую книгу против рода человеческого»: никто ещё, писал он, не тратил столько ума, чтобы сделать нас животными; читая её, хочется ходить на четвереньках, — но он отвык от этого больше шестидесяти лет назад.",
+            "uk": "Вольтер подякував йому за «вашу нову книгу проти людського роду»: ніхто ще, писав він, не витрачав стільки розуму, щоб зробити нас тваринами; читаючи її, хочеться ходити рачки, — але він відвик від цього понад шістдесят років тому.",
+            "pl": "Wolter podziękował mu za „pańską nową książkę przeciw rodzajowi ludzkiemu”: nikt jeszcze, pisał, nie użył tyle dowcipu, by uczynić nas bydlętami; czytając ją, ma się ochotę chodzić na czworakach — lecz on odzwyczaił się od tego ponad sześćdziesiąt lat temu."
+          },
+          "source": "Voltaire, letter to Rousseau, 30 August 1755"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Kant: civilized to excess, but not yet moralized",
+        "ru": "Кант: цивилизованы до избытка, но ещё не нравственны",
+        "uk": "Кант: цивілізовані до надміру, але ще не моральні",
+        "pl": "Kant: ucywilizowani aż do przesady, lecz jeszcze nie umoralnieni"
+      },
+      "intro": {
+        "en": "Königsberg, on the Baltic, 1784. Immanuel Kant, sixty, professor of logic and metaphysics, who has hardly ever left his city, published his Critique of Pure Reason three years before. He has read Rousseau closely. In a short essay for a Berlin monthly he asks whether human history, so full of folly and destruction, has a direction. His answer: nature drives us forward through our own quarrels — our “unsocial sociability” — towards a just constitution and peace among states. But he does not pretend that we are there:",
+        "ru": "Кёнигсберг, на Балтике, 1784 год. Иммануил Кант, шестидесяти лет, профессор логики и метафизики, почти никогда не покидавший своего города, за три года до того издал «Критику чистого разума». Руссо он читал внимательно. В коротком очерке для берлинского ежемесячника он спрашивает, есть ли направление у человеческой истории, столь полной глупости и разрушения. Его ответ: природа гонит нас вперёд через наши же раздоры — нашу «необщительную общительность» — к справедливому устройству и миру между государствами. Но он не делает вид, будто мы уже пришли:",
+        "uk": "Кенігсберг, на Балтиці, 1784 рік. Іммануїл Кант, шістдесяти років, професор логіки й метафізики, який майже ніколи не покидав свого міста, за три роки до того видав «Критику чистого розуму». Руссо він читав уважно. У короткому нарисі для берлінського щомісячника він питає, чи має напрям людська історія, така повна глупоти й руйнування. Його відповідь: природа жене нас уперед через наші ж чвари — нашу «нетовариську товариськість» — до справедливого устрою і миру між державами. Але він не вдає, ніби ми вже дійшли:",
+        "pl": "Królewiec, nad Bałtykiem, rok 1784. Immanuel Kant, sześćdziesięcioletni profesor logiki i metafizyki, który prawie nigdy nie opuszczał swego miasta, trzy lata wcześniej wydał Krytykę czystego rozumu. Rousseau czytał uważnie. W krótkim szkicu dla berlińskiego miesięcznika pyta, czy dzieje ludzkie, tak pełne głupoty i zniszczenia, mają jakiś kierunek. Odpowiada: natura pcha nas naprzód przez nasze własne waśnie — naszą „nietowarzyską towarzyskość” — ku sprawiedliwemu ustrojowi i pokojowi między państwami. Nie udaje jednak, że już tam jesteśmy:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Immanuel Kant, Idea for a Universal History with a Cosmopolitan Purpose (1784), seventh proposition (Academy edition 8:26)",
+            "ru": "Иммануил Кант, «Идея всеобщей истории во всемирно-гражданском плане» (1784), положение седьмое (Академическое издание, 8:26)",
+            "uk": "Іммануїл Кант, «Ідея загальної історії у всесвітньо-громадянському плані» (1784), положення сьоме (Академічне видання, 8:26)",
+            "pl": "Immanuel Kant, Idea powszechnej historii w aspekcie kosmopolitycznym (1784), twierdzenie siódme (wydanie akademijne, 8:26)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "idea-progress.en.dequincey",
+              "from": "8.26",
+              "to": "8.26",
+              "text": "Rousseau was not so much in the wrong when he preferred the condition of the savage to that of the civilized man at the point where he has reached, but is hesitating to take, the final step of his ascent. We are at this time in a high degree of culture as to arts and sciences. We are civilized to superfluity in what regards the graces and decorums of life. But to entitle us to consider ourselves moralized much is still wanting.",
+              "kind": "Free",
+              "translator": "Thomas De Quincey",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Idea_of_a_Universal_History_on_a_Cosmopolitical_Plan",
+                "lang": "en",
+                "title": "Immanuel Kant, Idea for a Universal History with a Cosmopolitan Purpose"
+              }
+            },
+            "ru": {
+              "edition": "idea-progress.ru.ours",
+              "from": "8.26",
+              "to": "8.26",
+              "text": "Руссо был не так уж неправ, когда предпочитал состояние дикаря состоянию цивилизованного человека в той точке, до которой тот дошёл, но где медлит сделать последний шаг своего восхождения. Мы в настоящее время стоим на высокой ступени культуры в том, что касается искусств и наук. Мы цивилизованы до избытка в том, что касается изящества и благопристойности жизни. Но чтобы мы могли считать себя нравственными, недостаёт ещё очень многого.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Idea_of_a_Universal_History_on_a_Cosmopolitical_Plan",
+                "lang": "en",
+                "title": "Иммануил Кант, «Идея всеобщей истории во всемирно-гражданском плане»"
+              }
+            },
+            "uk": {
+              "edition": "idea-progress.uk.ours",
+              "from": "8.26",
+              "to": "8.26",
+              "text": "Руссо був не такий уже й неправий, коли віддавав перевагу станові дикуна перед станом цивілізованої людини в тій точці, до якої та дійшла, але де вагається зробити останній крок свого сходження. Ми нині стоїмо на високому ступені культури щодо мистецтв і наук. Ми цивілізовані до надміру в тому, що стосується вишуканості й пристойності життя. Але щоб ми могли вважати себе моральними, бракує ще дуже багато.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Idea_of_a_Universal_History_on_a_Cosmopolitical_Plan",
+                "lang": "en",
+                "title": "Іммануїл Кант, «Ідея загальної історії у всесвітньо-громадянському плані»"
+              }
+            },
+            "pl": {
+              "edition": "idea-progress.pl.ours",
+              "from": "8.26",
+              "to": "8.26",
+              "text": "Rousseau nie mylił się tak bardzo, gdy przekładał stan dzikiego nad stan człowieka ucywilizowanego w tym punkcie, do którego ten doszedł, lecz w którym waha się uczynić ostatni krok swego wznoszenia się. Jesteśmy obecnie na wysokim stopniu kultury, jeśli chodzi o sztuki i nauki. Jesteśmy ucywilizowani aż do przesady w tym, co dotyczy wdzięku i ogłady życia. Ale byśmy mogli uważać się za umoralnionych, wiele jeszcze brakuje.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Idea_of_a_Universal_History_on_a_Cosmopolitical_Plan",
+                "lang": "en",
+                "title": "Immanuel Kant, Idea powszechnej historii w aspekcie kosmopolitycznym"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in German",
+              "ru": "оригинал на немецком",
+              "uk": "оригінал німецькою",
+              "pl": "oryginał po niemiecku"
+            },
+            "url": "https://www.korpora.org/Kant/aa08/026.html"
+          }
+        },
+        {
+          "by": {
+            "en": "Immanuel Kant, Idea for a Universal History, seventh proposition (Academy edition 8:26)",
+            "ru": "Иммануил Кант, «Идея всеобщей истории во всемирно-гражданском плане», положение седьмое (Академическое издание, 8:26)",
+            "uk": "Іммануїл Кант, «Ідея загальної історії у всесвітньо-громадянському плані», положення сьоме (Академічне видання, 8:26)",
+            "pl": "Immanuel Kant, Idea powszechnej historii w aspekcie kosmopolitycznym, twierdzenie siódme (wydanie akademijne, 8:26)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "idea-progress.en.dequincey",
+              "from": "8.26",
+              "to": "8.26",
+              "text": "But all good that is not engrafted upon moral good is mere show and hollow speciousness—the dust and ashes of mortality.",
+              "kind": "Free",
+              "translator": "Thomas De Quincey",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Idea_of_a_Universal_History_on_a_Cosmopolitical_Plan",
+                "lang": "en",
+                "title": "Immanuel Kant, Idea for a Universal History with a Cosmopolitan Purpose"
+              }
+            },
+            "ru": {
+              "edition": "idea-progress.ru.ours",
+              "from": "8.26",
+              "to": "8.26",
+              "text": "Но всякое благо, не привитое к нравственному благу, — лишь видимость и пустой блеск, прах и пепел бренности.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Idea_of_a_Universal_History_on_a_Cosmopolitical_Plan",
+                "lang": "en",
+                "title": "Иммануил Кант, «Идея всеобщей истории во всемирно-гражданском плане»"
+              }
+            },
+            "uk": {
+              "edition": "idea-progress.uk.ours",
+              "from": "8.26",
+              "to": "8.26",
+              "text": "Але всяке благо, не прищеплене до морального блага, — лише видимість і порожній блиск, порох і попіл минущості.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Idea_of_a_Universal_History_on_a_Cosmopolitical_Plan",
+                "lang": "en",
+                "title": "Іммануїл Кант, «Ідея загальної історії у всесвітньо-громадянському плані»"
+              }
+            },
+            "pl": {
+              "edition": "idea-progress.pl.ours",
+              "from": "8.26",
+              "to": "8.26",
+              "text": "Lecz wszelkie dobro, które nie jest zaszczepione na dobru moralnym, jest tylko pozorem i pustą okazałością — prochem i popiołem doczesności.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Idea_of_a_Universal_History_on_a_Cosmopolitical_Plan",
+                "lang": "en",
+                "title": "Immanuel Kant, Idea powszechnej historii w aspekcie kosmopolitycznym"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in German",
+              "ru": "оригинал на немецком",
+              "uk": "оригінал німецькою",
+              "pl": "oryginał po niemiecku"
+            },
+            "url": "https://www.korpora.org/Kant/aa08/026.html"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "In notes in his own copy of one of his early books, about 1764, Kant confessed that he had once thought knowledge alone could make the honour of mankind, and despised the common people who know nothing. “Rousseau set me right,” he wrote; he learned to honour human beings.",
+            "ru": "В заметках в собственном экземпляре одной из своих ранних книг, около 1764 года, Кант признавался, что когда-то думал, будто одно лишь знание может составить честь человечества, и презирал простой народ, который ничего не знает. «Руссо меня исправил», — записал он; он научился уважать людей.",
+            "uk": "У нотатках у власному примірнику однієї зі своїх ранніх книг, близько 1764 року, Кант зізнавався, що колись думав, ніби лише знання може становити честь людства, і зневажав простий народ, який нічого не знає. «Руссо мене виправив», — записав він; він навчився шанувати людей.",
+            "pl": "W notatkach we własnym egzemplarzu jednej ze swych wczesnych książek, około 1764 roku, Kant wyznał, że niegdyś sądził, iż sama tylko wiedza może stanowić chlubę ludzkości, i gardził pospólstwem, które nic nie wie. „Rousseau mnie sprostował” — zapisał; nauczył się szanować ludzi."
+          },
+          "source": "Kant, notes in his copy of the Observations on the Feeling of the Beautiful and Sublime (1764–65), Academy edition 20:44"
+        },
+        {
+          "fact": {
+            "en": "He wrote the essay, he explains in a note to its title, because a Gotha journal had printed a short notice taken from his conversation with a travelling scholar, which made no sense without an explanation. It appeared in the Berlinische Monatsschrift in November 1784, a month before his “What is Enlightenment?”.",
+            "ru": "Он написал этот очерк, объясняет он в примечании к заглавию, потому что готская газета напечатала короткую заметку, взятую из его беседы с проезжим учёным, — без пояснения она была бы непонятна. Очерк вышел в «Берлинском ежемесячнике» в ноябре 1784 года, за месяц до его статьи «Что такое Просвещение?».",
+            "uk": "Він написав цей нарис, пояснює він у примітці до заголовка, бо ґотська газета надрукувала коротку замітку, взяту з його розмови з проїжджим ученим, — без пояснення вона була б незрозуміла. Нарис вийшов у «Берлінському щомісячнику» в листопаді 1784 року, за місяць до його статті «Що таке Просвітництво?».",
+            "pl": "Napisał ten szkic, jak wyjaśnia w przypisie do tytułu, ponieważ pewne pismo z Gothy wydrukowało krótką notkę, zaczerpniętą z jego rozmowy z przejezdnym uczonym, która bez wyjaśnienia byłaby niezrozumiała. Szkic ukazał się w „Berlinische Monatsschrift” w listopadzie 1784 roku, miesiąc przed jego artykułem „Czym jest oświecenie?”."
+          },
+          "source": "Kant, note to the title of the Idea (Academy edition 8:15); Berlinische Monatsschrift, November and December 1784"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "The road to Vincennes, 1749",
+        "ru": "Дорога в Венсен, 1749 год",
+        "uk": "Дорога до Венсена, 1749 рік",
+        "pl": "Droga do Vincennes, 1749"
+      },
+      "scene": {
+        "en": "Paris, 1749, and the summer is fiercely hot. You are thirty-seven, a Genevan, a watchmaker's son with no fortune: you came to Paris with a new way of writing down music, and you earn your living as secretary to Madame Dupin and by writing the articles on music for a great encyclopedia. Its editor, your closest friend Denis Diderot, has been locked up in the castle of Vincennes for his Letter on the Blind, a book that smells of atheism. Now he may see his friends, and in the afternoons you walk the two leagues to him, because you cannot pay for a carriage; to slow your pace, you read as you go. Today it is the Mercure de France, and in it the Academy of Dijon sets the question for next year's prize: has the restoration of the sciences and arts helped to purify morals? Everyone you know in Paris believes in the light of knowledge. What do you do?",
+        "ru": "Париж, 1749 год, лето невыносимо жаркое. Вам тридцать семь, вы женевец, сын часовщика, без состояния: вы приехали в Париж с новым способом записи музыки и зарабатываете на жизнь как секретарь госпожи Дюпен и статьями о музыке для большой энциклопедии. Её редактор, ваш ближайший друг Дени Дидро, заключён в Венсенский замок за «Письмо о слепых», книгу, отдающую безбожием. Теперь ему разрешено видеться с друзьями, и после полудня вы ходите к нему пешком за два льё, потому что не можете заплатить за экипаж; чтобы не так спешить, вы читаете на ходу. Сегодня это «Меркюр де Франс», и в нём Дижонская академия объявляет вопрос на премию следующего года: способствовало ли возрождение наук и искусств очищению нравов? Все, кого вы знаете в Париже, верят в свет знания. Что вы сделаете?",
+        "uk": "Париж, 1749 рік, літо нестерпно спекотне. Вам тридцять сім, ви женевець, син годинникаря, без статків: ви приїхали до Парижа з новим способом запису музики й заробляєте на життя як секретар пані Дюпен і статтями про музику для великої енциклопедії. Її редактор, ваш найближчий друг Дені Дідро, ув’язнений у Венсенському замку за «Лист про сліпих», книгу, що відгонить безбожжям. Тепер йому дозволено бачитися з друзями, і по обіді ви ходите до нього пішки за два льє, бо не можете заплатити за екіпаж; щоб не так поспішати, ви читаєте на ходу. Сьогодні це «Меркюр де Франс», і в ньому Діжонська академія оголошує питання на премію наступного року: чи сприяло відродження наук і мистецтв очищенню звичаїв? Усі, кого ви знаєте в Парижі, вірять у світло знання. Що ви зробите?",
+        "pl": "Paryż, rok 1749, lato jest straszliwie upalne. Masz trzydzieści siedem lat, jesteś genewczykiem, synem zegarmistrza, bez majątku: przybyłeś do Paryża z nowym sposobem zapisu muzyki, a zarabiasz na życie jako sekretarz pani Dupin i pisząc artykuły o muzyce do wielkiej encyklopedii. Jej redaktor, twój najbliższy przyjaciel Denis Diderot, siedzi zamknięty w zamku Vincennes za „List o ślepcach”, książkę trącącą ateizmem. Teraz wolno mu widywać przyjaciół, więc popołudniami chodzisz do niego pieszo dwie mile francuskie, bo nie stać cię na powóz; by zwolnić kroku, czytasz w drodze. Dziś to „Mercure de France”, a w nim Akademia w Dijon ogłasza pytanie konkursowe na przyszły rok: czy odrodzenie nauk i sztuk przyczyniło się do oczyszczenia obyczajów? Wszyscy, których znasz w Paryżu, wierzą w światło wiedzy. Co robisz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Answer yes: the sciences and arts have made us gentler and wiser",
+            "ru": "Ответить «да»: науки и искусства сделали нас мягче и мудрее",
+            "uk": "Відповісти «так»: науки й мистецтва зробили нас лагіднішими й мудрішими",
+            "pl": "Odpowiedzieć „tak”: nauki i sztuki uczyniły nas łagodniejszymi i mądrzejszymi"
+          },
+          "reply": {
+            "en": "That was the answer his friends lived by — Diderot was gathering the whole of human knowledge into his encyclopedia. It was not the answer he gave.",
+            "ru": "Этим ответом жили его друзья — Дидро собирал всё человеческое знание в свою энциклопедию. Но не этот ответ дал он.",
+            "uk": "Цією відповіддю жили його друзі — Дідро збирав усе людське знання у свою енциклопедію. Але не цю відповідь дав він.",
+            "pl": "Taką odpowiedzią żyli jego przyjaciele — Diderot zbierał całą ludzką wiedzę w swojej encyklopedii. Ale nie taką odpowiedź dał on."
+          }
+        },
+        {
+          "choice": {
+            "en": "Answer no: they have made us more polished, not more virtuous",
+            "ru": "Ответить «нет»: они сделали нас утончённее, но не добродетельнее",
+            "uk": "Відповісти «ні»: вони зробили нас витонченішими, але не доброчеснішими",
+            "pl": "Odpowiedzieć „nie”: uczyniły nas bardziej ogładzonymi, ale nie bardziej cnotliwymi"
+          },
+          "reply": {
+            "en": "That is what he did: as our sciences and arts advanced towards perfection, he wrote, our souls were corrupted — nature had tried to keep knowledge from us as a mother snatches a dangerous weapon from her child's hands.",
+            "ru": "Так он и поступил: по мере того как наши науки и искусства продвигались к совершенству, писал он, наши души развращались, — природа пыталась уберечь нас от знания, как мать вырывает опасное оружие из рук ребёнка.",
+            "uk": "Так він і вчинив: у міру того як наші науки й мистецтва просувалися до досконалості, писав він, наші душі розбещувалися, — природа намагалася вберегти нас від знання, як мати вириває небезпечну зброю з рук дитини.",
+            "pl": "Tak właśnie zrobił: w miarę jak nasze nauki i sztuki posuwały się ku doskonałości, pisał, nasze dusze ulegały zepsuciu — natura chciała ustrzec nas przed wiedzą, jak matka wyrywa niebezpieczną broń z rąk dziecka."
+          }
+        },
+        {
+          "choice": {
+            "en": "Leave it: a prize essay is vanity, and you have no time",
+            "ru": "Оставить это: конкурсное сочинение — суета, да и времени нет",
+            "uk": "Облишити це: конкурсний твір — марнота, та й часу немає",
+            "pl": "Dać spokój: rozprawa konkursowa to próżność, a i czasu brak"
+          },
+          "reply": {
+            "en": "So it might have been; but Diderot, he says, encouraged him to pursue his ideas and to compete for the prize.",
+            "ru": "Так могло бы случиться; но Дидро, по его словам, ободрил его развивать свои мысли и вступить в борьбу за премию.",
+            "uk": "Так могло б статися; але Дідро, за його словами, підбадьорив його розвивати свої думки й позмагатися за премію.",
+            "pl": "Tak mogło się stać; lecz Diderot, jak mówi, zachęcił go, by rozwijał swoje myśli i stanął do konkursu o nagrodę."
+          }
+        },
+        {
+          "choice": {
+            "en": "Answer both: knowledge is good for the few born for it, and bad for the rest",
+            "ru": "Ответить и так и так: знание — благо для немногих, рождённых для него, и зло для остальных",
+            "uk": "Відповісти і так, і так: знання — благо для небагатьох, народжених для нього, і зло для решти",
+            "pl": "Odpowiedzieć jednym i drugim: wiedza jest dobra dla nielicznych, do niej zrodzonych, a zła dla reszty"
+          },
+          "reply": {
+            "en": "In part he did: the Discourse leaves learning to the rare geniuses who need no teachers — Bacon, Descartes and Newton, “these preceptors of the human race” — and would turn the rest of us back to useful trades.",
+            "ru": "Отчасти так он и сделал: «Рассуждение» оставляет учёность редким гениям, которым не нужны учителя, — Бэкону, Декарту и Ньютону, «этим наставникам рода человеческого», — а остальных хотело бы вернуть к полезным ремёслам.",
+            "uk": "Почасти так він і зробив: «Міркування» лишає вченість рідкісним геніям, яким не потрібні вчителі, — Беконові, Декартові й Ньютонові, «цим наставникам людського роду», — а решту воліло б повернути до корисних ремесел.",
+            "pl": "Po części tak zrobił: Rozprawa zostawia naukę rzadkim geniuszom, którym nie trzeba nauczycieli — Baconowi, Kartezjuszowi i Newtonowi, „tym nauczycielom rodzaju ludzkiego” — a resztę wolałaby skierować z powrotem do pożytecznych rzemiosł."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "This was Jean-Jacques Rousseau. He reached Vincennes, he says, in an agitation that approached delirium, and read Diderot what he had pencilled under a tree: Fabricius, the old Roman consul, called back to life, crying out against a Rome of statues, paintings and orators and telling the Romans to smash their marbles and burn their pictures. Diderot encouraged him, and he competed. His answer was No. In 1750 the Academy of Dijon gave his Discourse the prize; printed, it drew answers from many critics — among them a king, Stanisław Leszczyński, the dethroned King of Poland — and made its author famous. All that he wrote afterwards — the Discourse on Inequality, Emile, the Social Contract — grew from that afternoon. Writing his Confessions some twenty years later, he said that from that moment he was ruined.",
+        "ru": "Это был Жан-Жак Руссо. До Венсена он дошёл, по его словам, в волнении, близком к бреду, и прочёл Дидро то, что набросал карандашом под деревом: Фабриций, старый римский консул, возвращённый к жизни, гневно обличает Рим статуй, картин и риторов и велит римлянам разбить мраморы и сжечь картины. Дидро ободрил его, и он вступил в состязание. Его ответом было «нет». В 1750 году Дижонская академия присудила его «Рассуждению» премию; напечатанное, оно вызвало возражения многих критиков — среди них был даже король, Станислав Лещинский, низложенный король Польши, — и прославило автора. Всё, что он написал потом, — «Рассуждение о неравенстве», «Эмиль», «Общественный договор», — выросло из того дня. Работая над «Исповедью» лет двадцать спустя, он сказал, что с той минуты он погиб.",
+        "uk": "Це був Жан-Жак Руссо. До Венсена він дійшов, за його словами, у хвилюванні, близькому до марення, і прочитав Дідро те, що накидав олівцем під деревом: Фабрицій, старий римський консул, повернений до життя, гнівно викриває Рим статуй, картин і риторів і велить римлянам розбити мармури й спалити картини. Дідро підбадьорив його, і він став до змагання. Його відповіддю було «ні». 1750 року Діжонська академія присудила його «Міркуванню» премію; надруковане, воно викликало заперечення багатьох критиків — серед них був навіть король, Станіслав Лещинський, скинутий король Польщі, — і прославило автора. Усе, що він написав потім, — «Міркування про нерівність», «Еміль», «Суспільна угода», — виросло з того дня. Працюючи над «Сповіддю» років двадцять по тому, він сказав, що від тієї хвилини загинув.",
+        "pl": "Był to Jean-Jacques Rousseau. Do Vincennes dotarł, jak mówi, we wzburzeniu bliskim obłędu i przeczytał Diderotowi to, co naszkicował ołówkiem pod drzewem: Fabrycjusz, stary rzymski konsul, przywrócony do życia, gromi Rzym posągów, obrazów i retorów i każe Rzymianom potłuc marmury i spalić obrazy. Diderot go zachęcił, a on stanął do konkursu. Jego odpowiedzią było „nie”. W 1750 roku Akademia w Dijon przyznała jego Rozprawie nagrodę; wydrukowana, wywołała polemiki wielu krytyków — wśród nich był nawet król, Stanisław Leszczyński, zdetronizowany król Polski — i przyniosła autorowi sławę. Wszystko, co napisał potem — Rozprawa o nierówności, Emil, Umowa społeczna — wyrosło z tamtego popołudnia. Pisząc Wyznania jakieś dwadzieścia lat później, powiedział, że od tej chwili był zgubiony."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Jean-Jacques Rousseau, Confessions, book VIII",
+            "ru": "Жан-Жак Руссо, «Исповедь», книга VIII",
+            "uk": "Жан-Жак Руссо, «Сповідь», книга VIII",
+            "pl": "Jean-Jacques Rousseau, Wyznania, księga VIII"
+          },
+          "quotes": {
+            "en": {
+              "edition": "confessions-progress.en.orson",
+              "from": "8.4",
+              "to": "8.5",
+              "text": "One day I took the Mercure de France, and as I walked and read, I came to the following question proposed by the academy of Dijon, for the premium of the ensuing year, Has the progress of sciences and arts contributed to corrupt or purify morals? The moment I had read this, I seemed to behold another world, and became a different man.",
+              "kind": "Free",
+              "translator": "S. W. Orson",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Confessions_of_Jean_Jacques_Rousseau_(Aldus)",
+                "lang": "en",
+                "title": "Jean-Jacques Rousseau, Confessions"
+              }
+            },
+            "ru": {
+              "edition": "confessions-progress.ru.ours",
+              "from": "8.4",
+              "to": "8.5",
+              "text": "Однажды я взял с собой «Меркюр де Франс» и, идя и читая, наткнулся на следующий вопрос, предложенный Дижонской академией на премию следующего года: способствовал ли прогресс наук и искусств порче или очищению нравов? В тот миг, когда я это прочёл, мне показалось, что я вижу другой мир, и я стал другим человеком.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Confessions_of_Jean_Jacques_Rousseau_(Aldus)",
+                "lang": "en",
+                "title": "Жан-Жак Руссо, «Исповедь»"
+              }
+            },
+            "uk": {
+              "edition": "confessions-progress.uk.ours",
+              "from": "8.4",
+              "to": "8.5",
+              "text": "Одного дня я взяв із собою «Меркюр де Франс» і, ідучи й читаючи, натрапив на таке питання, запропоноване Діжонською академією на премію наступного року: чи сприяв поступ наук і мистецтв зіпсуттю чи очищенню звичаїв? Тієї миті, коли я це прочитав, мені здалося, що я бачу інший світ, і я став іншою людиною.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Confessions_of_Jean_Jacques_Rousseau_(Aldus)",
+                "lang": "en",
+                "title": "Жан-Жак Руссо, «Сповідь»"
+              }
+            },
+            "pl": {
+              "edition": "confessions-progress.pl.ours",
+              "from": "8.4",
+              "to": "8.5",
+              "text": "Pewnego dnia wziąłem „Mercure de France” i idąc i czytając, natrafiłem na następujące pytanie, zadane przez akademię w Dijon jako temat nagrody na rok następny: czy postęp nauk i sztuk przyczynił się do zepsucia, czy do oczyszczenia obyczajów? W chwili, gdy to przeczytałem, zdało mi się, że widzę inny świat, i stałem się innym człowiekiem.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Confessions_of_Jean_Jacques_Rousseau_(Aldus)",
+                "lang": "en",
+                "title": "Jean-Jacques Rousseau, Wyznania"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Les_Confessions_(Rousseau)/Livre_VIII"
+          }
+        },
+        {
+          "by": {
+            "en": "Jean-Jacques Rousseau, Confessions, book VIII",
+            "ru": "Жан-Жак Руссо, «Исповедь», книга VIII",
+            "uk": "Жан-Жак Руссо, «Сповідь», книга VIII",
+            "pl": "Jean-Jacques Rousseau, Wyznania, księga VIII"
+          },
+          "quotes": {
+            "en": {
+              "edition": "confessions-progress.en.orson",
+              "from": "8.5",
+              "to": "8.5",
+              "text": "All I distinctly recollect upon this occasion is, that on my arrival at Vincennes, I was in an agitation which approached a delirium. Diderot perceived it; I told him the cause, and read to him the prosopopoeia of Fabricius, written with a pencil under a tree. He encouraged me to pursue my ideas, and to become a competitor for the premium. I did so, and from that moment I was ruined.",
+              "kind": "Free",
+              "translator": "S. W. Orson",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Confessions_of_Jean_Jacques_Rousseau_(Aldus)",
+                "lang": "en",
+                "title": "Jean-Jacques Rousseau, Confessions"
+              }
+            },
+            "ru": {
+              "edition": "confessions-progress.ru.ours",
+              "from": "8.5",
+              "to": "8.5",
+              "text": "Отчётливо я помню из этого случая лишь то, что, придя в Венсен, я был в волнении, близком к бреду. Дидро это заметил; я сказал ему причину и прочёл ему просопопею Фабриция, написанную карандашом под деревом. Он ободрил меня развивать мои мысли и вступить в соревнование за премию. Я так и сделал, и с той минуты я погиб.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Confessions_of_Jean_Jacques_Rousseau_(Aldus)",
+                "lang": "en",
+                "title": "Жан-Жак Руссо, «Исповедь»"
+              }
+            },
+            "uk": {
+              "edition": "confessions-progress.uk.ours",
+              "from": "8.5",
+              "to": "8.5",
+              "text": "Виразно я пам’ятаю з цього випадку лише те, що, прийшовши до Венсена, я був у хвилюванні, близькому до марення. Дідро це помітив; я сказав йому причину й прочитав йому просопопею Фабриція, написану олівцем під деревом. Він підбадьорив мене розвивати мої думки й стати до змагання за премію. Я так і зробив, і від тієї хвилини я загинув.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Confessions_of_Jean_Jacques_Rousseau_(Aldus)",
+                "lang": "en",
+                "title": "Жан-Жак Руссо, «Сповідь»"
+              }
+            },
+            "pl": {
+              "edition": "confessions-progress.pl.ours",
+              "from": "8.5",
+              "to": "8.5",
+              "text": "Wyraźnie pamiętam z tego zdarzenia tylko to, że po przybyciu do Vincennes byłem we wzburzeniu bliskim obłędu. Diderot to spostrzegł; powiedziałem mu, co jest przyczyną, i przeczytałem mu prozopopeję Fabrycjusza, napisaną ołówkiem pod drzewem. Zachęcił mnie, bym rozwijał swoje myśli i stanął do konkursu o nagrodę. Tak zrobiłem i od tej chwili byłem zgubiony.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Confessions_of_Jean_Jacques_Rousseau_(Aldus)",
+                "lang": "en",
+                "title": "Jean-Jacques Rousseau, Wyznania"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Les_Confessions_(Rousseau)/Livre_VIII"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Diderot had been arrested on 24 July 1749 for his Letter on the Blind and shut in the keep of Vincennes; after about a month he was allowed the castle and its park on his word of honour, and in November he was set free.",
+            "ru": "Дидро арестовали 24 июля 1749 года за «Письмо о слепых» и заключили в башню Венсенского замка; примерно через месяц ему разрешили под честное слово находиться в замке и парке, а в ноябре отпустили на свободу.",
+            "uk": "Дідро заарештували 24 липня 1749 року за «Лист про сліпих» і замкнули у вежі Венсенського замку; приблизно через місяць йому дозволили під чесне слово перебувати в замку й парку, а в листопаді випустили на волю.",
+            "pl": "Diderota aresztowano 24 lipca 1749 roku za „List o ślepcach” i zamknięto w wieży zamku Vincennes; po mniej więcej miesiącu pozwolono mu, na słowo honoru, przebywać w zamku i parku, a w listopadzie wypuszczono go na wolność."
+          },
+          "source": "Arthur M. Wilson, Diderot (1972); Rousseau, Confessions, book VIII"
+        },
+        {
+          "fact": {
+            "en": "Rousseau's memory changed the question. The Academy had asked only whether the restoration of the sciences and arts had helped to purify morals; the Confessions add “to corrupt”, and the Discourse itself opens by asking “to purify or corrupt”.",
+            "ru": "Память Руссо изменила вопрос. Академия спрашивала только, способствовало ли возрождение наук и искусств очищению нравов; «Исповедь» добавляет «порче», а само «Рассуждение» начинается с вопроса: «очищению или порче».",
+            "uk": "Пам’ять Руссо змінила питання. Академія питала лише, чи сприяло відродження наук і мистецтв очищенню звичаїв; «Сповідь» додає «зіпсуттю», а саме «Міркування» починається з питання: «очищенню чи зіпсуттю».",
+            "pl": "Pamięć Rousseau zmieniła pytanie. Akademia pytała tylko, czy odrodzenie nauk i sztuk przyczyniło się do oczyszczenia obyczajów; Wyznania dodają „do zepsucia”, a sama Rozprawa zaczyna się od pytania: „do oczyszczenia czy do zepsucia”."
+          },
+          "source": "Rousseau, Discourse on the Sciences and Arts (1750), its title and first sentence; Confessions, book VIII"
+        },
+        {
+          "fact": {
+            "en": "Thirteen years later he told it more vividly to Malesherbes: as he read, his mind was dazzled by a thousand lights; unable to breathe as he walked, he let himself fall under a tree by the road and spent half an hour there, and when he rose he found the whole front of his waistcoat wet with tears he had not felt himself shed.",
+            "ru": "Тринадцать лет спустя он рассказал об этом ярче в письме к Мальзербу: когда он читал, его ум ослепили тысячи огней; не в силах дышать на ходу, он опустился под одно из деревьев у дороги и провёл там полчаса, а поднявшись, увидел, что весь перед его камзола мокр от слёз, которых он не чувствовал.",
+            "uk": "Тринадцять років по тому він розповів про це яскравіше в листі до Мальзерба: коли він читав, його розум засліпили тисячі вогнів; не маючи сил дихати на ходу, він опустився під одне з дерев біля дороги й пробув там пів години, а підвівшись, побачив, що вся передня частина його камзола мокра від сліз, яких він не відчував.",
+            "pl": "Trzynaście lat później opowiedział o tym żywiej w liście do Malesherbesa: gdy czytał, jego umysł olśniło tysiąc świateł; nie mogąc złapać tchu w marszu, osunął się pod jedno z drzew przy drodze i spędził tam pół godziny, a gdy wstał, ujrzał, że cały przód jego kamizelki jest mokry od łez, których wylewania nie czuł."
+          },
+          "source": "Rousseau, second letter to Malesherbes, 12 January 1762"
+        }
+      ]
+    },
+    {
+      "think": "progress",
+      "question": {
+        "en": "Think of one invention of your own lifetime — a phone, a vaccine, a search engine, a machine that writes. Has it made the people you know better, or only their lives easier? And if more knowledge and power do not by themselves make us better, what would?",
+        "ru": "Подумайте об одном изобретении вашего времени — телефоне, вакцине, поисковике, машине, которая пишет. Сделало ли оно лучше людей, которых вы знаете, или только облегчило им жизнь? И если больше знания и силы сами по себе не делают нас лучше, то что сделало бы?",
+        "uk": "Подумайте про один винахід вашого часу — телефон, вакцину, пошуковик, машину, що пише. Чи зробив він кращими людей, яких ви знаєте, чи тільки полегшив їм життя? І якщо більше знання й сили самі собою не роблять нас кращими, то що зробило б?",
+        "pl": "Pomyśl o jednym wynalazku twoich czasów — telefonie, szczepionce, wyszukiwarce, maszynie, która pisze. Czy uczynił lepszymi ludzi, których znasz, czy tylko ułatwił im życie? A jeśli więcej wiedzy i mocy samo z siebie nie czyni nas lepszymi, to co by uczyniło?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: does progress make us better?",
+        "ru": "А теперь: делает ли нас прогресс лучше?",
+        "uk": "А тепер: чи робить нас прогрес кращими?",
+        "pl": "A teraz: czy postęp czyni nas lepszymi?"
+      }
+    }
+  ]
+}
