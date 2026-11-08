@@ -1,0 +1,1555 @@
+{
+  "id": "parents",
+  "title": {
+    "en": "What do we owe our parents?",
+    "ru": "Что мы должны своим родителям?",
+    "uk": "Що ми винні своїм батькам?",
+    "pl": "Co jesteśmy winni naszym rodzicom?"
+  },
+  "subtitle": {
+    "en": "Confucius, Mencius, the Bible, Aristotle, Seneca and Euthyphro — and you",
+    "ru": "Конфуций, Мэн-цзы, Библия, Аристотель, Сенека и Евтифрон — и вы",
+    "uk": "Конфуцій, Мен-цзи, Біблія, Арістотель, Сенека і Євтифрон — і ви",
+    "pl": "Konfucjusz, Mencjusz, Biblia, Arystoteles, Seneka i Eutyfron — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: what do we owe our parents?",
+        "ru": "Прежде чем читать кого-либо: что мы должны своим родителям?",
+        "uk": "Перш ніж читати когось: що ми винні своїм батькам?",
+        "pl": "Zanim kogokolwiek przeczytasz: co jesteśmy winni naszym rodzicom?"
+      },
+      "options": [
+        {
+          "en": "Everything: they gave us life, and that debt can never be paid off",
+          "ru": "Всё: они дали нам жизнь, и этот долг никогда не выплатить",
+          "uk": "Усе: вони дали нам життя, і цього боргу ніколи не сплатити",
+          "pl": "Wszystko: dali nam życie, a tego długu nigdy nie da się spłacić"
+        },
+        {
+          "en": "Care and respect — but not obedience in everything",
+          "ru": "Заботу и уважение — но не послушание во всём",
+          "uk": "Турботу й повагу — але не послух у всьому",
+          "pl": "Troskę i szacunek — ale nie posłuszeństwo we wszystkim"
+        },
+        {
+          "en": "Only what they earned: a parent who was cruel is owed nothing",
+          "ru": "Лишь то, что они заслужили: жестокому родителю мы ничего не должны",
+          "uk": "Лише те, що вони заслужили: жорстокому батькові чи матері ми нічого не винні",
+          "pl": "Tylko to, na co zasłużyli: okrutnemu rodzicowi nie jesteśmy winni niczego"
+        },
+        {
+          "en": "Love, freely given — \"owe\" is the wrong word for it",
+          "ru": "Любовь, отданную свободно, — слово «должны» тут не подходит",
+          "uk": "Любов, віддану вільно, — слово «винні» тут не пасує",
+          "pl": "Miłość, dawaną dobrowolnie — słowo „winni” tu nie pasuje"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Confucius and Mencius: the son conceals the father",
+        "ru": "Конфуций и Мэн-цзы: сын скрывает отца",
+        "uk": "Конфуцій і Мен-цзи: син приховує батька",
+        "pl": "Konfucjusz i Mencjusz: syn ukrywa ojca"
+      },
+      "intro": {
+        "en": "The state of Lu, in eastern China, around 500 BC. For Confucius the first of the virtues is learned at home: xiao, filial piety — \"the root\", a disciple says at the opening of the Analects, of all benevolent actions. His pupils kept asking him what it was, and he gave each a different answer. And when the Duke of She boasted that in his state a son would bear witness against a father who had stolen a sheep, Confucius did not admire it. A century and a half later Mencius took the question to its hardest case — a sage-king whose father has killed a man:",
+        "ru": "Царство Лу, восток Китая, около 500 года до н. э. Для Конфуция первая из добродетелей усваивается дома: сяо, сыновняя почтительность — «корень», как говорит в начале «Лунь юя» один из учеников, всякой человечности. Ученики то и дело спрашивали его, что это такое, и каждому он отвечал по-своему. А когда Шэ-гун похвалился, что в его царстве сын засвидетельствует против отца, укравшего овцу, Конфуций этим не восхитился. Полтора века спустя Мэн-цзы довёл вопрос до самого трудного случая — мудрого государя, чей отец убил человека:",
+        "uk": "Царство Лу, схід Китаю, близько 500 року до н. е. Для Конфуція перша з чеснот засвоюється вдома: сяо, синівська шанобливість — «корінь», як каже на початку «Лунь юя» один з учнів, усякої людяності. Учні раз у раз питали його, що це таке, і кожному він відповідав по-своєму. А коли Ше-гун похвалився, що в його царстві син засвідчить проти батька, який украв вівцю, Конфуцій цим не захопився. Півтора століття по тому Мен-цзи довів питання до найтяжчого випадку — мудрого государя, чий батько вбив людину:",
+        "pl": "Państwo Lu, na wschodzie Chin, około 500 roku p.n.e. Dla Konfucjusza pierwszej z cnót uczymy się w domu: xiao, nabożność synowska — „korzeń”, jak mówi na początku Dialogów jeden z uczniów, wszelkiego człowieczeństwa. Uczniowie wciąż pytali go, czym ona jest, a on każdemu odpowiadał inaczej. A gdy książę She chełpił się, że w jego państwie syn zaświadczy przeciw ojcu, który ukradł owcę, Konfucjusza to nie zachwyciło. Półtora wieku później Mencjusz doprowadził pytanie do najtrudniejszego przypadku — mędrca-władcy, którego ojciec zabił człowieka:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Confucius, Analects 2.7",
+            "ru": "Конфуций, «Лунь юй» 2.7",
+            "uk": "Конфуцій, «Лунь юй» 2.7",
+            "pl": "Konfucjusz, Dialogi konfucjańskie 2.7"
+          },
+          "quotes": {
+            "en": {
+              "edition": "analects-parents.en.legge",
+              "from": "2.7",
+              "to": "2.7",
+              "text": "Tsze-yu asked what filial piety was. The Master said, \"The filial piety of now-a-days means the support of one's parents. But dogs and horses likewise are able to do something in the way of support;—without reverence, what is there to distinguish the one support given from the other?\"",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Confucius, The Analects"
+              }
+            },
+            "ru": {
+              "edition": "analects-parents.ru.ours",
+              "from": "2.7",
+              "to": "2.7",
+              "text": "Цзы-ю спросил, что такое сыновняя почтительность. Учитель сказал: «Нынче сыновней почтительностью зовут содержание родителей. Но ведь и собаки, и лошади тоже способны в каком-то смысле содержать; без почтения — чем отличить одно содержание от другого?»",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуций, «Лунь юй»"
+              }
+            },
+            "uk": {
+              "edition": "analects-parents.uk.ours",
+              "from": "2.7",
+              "to": "2.7",
+              "text": "Цзи-ю спитав, що таке синівська шанобливість. Учитель сказав: «Нині синівською шанобливістю звуть утримання батьків. Але ж і собаки, і коні теж здатні певною мірою утримувати; без пошани — чим відрізнити одне утримання від іншого?»",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуцій, «Лунь юй»"
+              }
+            },
+            "pl": {
+              "edition": "analects-parents.pl.ours",
+              "from": "2.7",
+              "to": "2.7",
+              "text": "Ziyou zapytał, czym jest nabożność synowska. Mistrz powiedział: „Dziś nabożnością synowską nazywa się utrzymywanie rodziców. Ale i psy, i konie potrafią w pewien sposób utrzymywać; bez czci — czym odróżnić jedno utrzymanie od drugiego?”",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Konfucjusz, Dialogi konfucjańskie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/論語/為政第二"
+          }
+        },
+        {
+          "by": {
+            "en": "Confucius, Analects 4.18",
+            "ru": "Конфуций, «Лунь юй» 4.18",
+            "uk": "Конфуцій, «Лунь юй» 4.18",
+            "pl": "Konfucjusz, Dialogi konfucjańskie 4.18"
+          },
+          "quotes": {
+            "en": {
+              "edition": "analects-parents.en.legge",
+              "from": "4.18",
+              "to": "4.18",
+              "text": "The Master said, \"In serving his parents, a son may remonstrate with them, but gently; when he sees that they do not incline to follow his advice, he shows an increased degree of reverence, but does not abandon his purpose; and should they punish him, he does not allow himself to murmur.\"",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Confucius, The Analects"
+              }
+            },
+            "ru": {
+              "edition": "analects-parents.ru.ours",
+              "from": "4.18",
+              "to": "4.18",
+              "text": "Учитель сказал: «Служа родителям, сын может их увещевать, но мягко; видя, что они не склонны последовать его совету, он выказывает им ещё больше почтения, но не оставляет своего намерения; а если они его накажут, он не позволяет себе роптать».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуций, «Лунь юй»"
+              }
+            },
+            "uk": {
+              "edition": "analects-parents.uk.ours",
+              "from": "4.18",
+              "to": "4.18",
+              "text": "Учитель сказав: «Служачи батькам, син може їх умовляти, але лагідно; бачачи, що вони не схильні прислухатися до його поради, він виявляє їм ще більше пошани, але не полишає свого наміру; а якщо вони його покарають, він не дозволяє собі нарікати».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуцій, «Лунь юй»"
+              }
+            },
+            "pl": {
+              "edition": "analects-parents.pl.ours",
+              "from": "4.18",
+              "to": "4.18",
+              "text": "Mistrz powiedział: „Służąc rodzicom, syn może ich upominać, ale łagodnie; gdy widzi, że nie są skłonni pójść za jego radą, okazuje im jeszcze więcej czci, lecz nie porzuca swego zamiaru; a jeśli go ukarzą, nie pozwala sobie na szemranie”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Konfucjusz, Dialogi konfucjańskie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/論語/里仁第四"
+          }
+        },
+        {
+          "by": {
+            "en": "Confucius, Analects 13.18 — his answer to the Duke of She, whose upright men would bear witness against a father who stole a sheep",
+            "ru": "Конфуций, «Лунь юй» 13.18 — ответ Шэ-гуну, у которого прямые люди свидетельствуют против отца, укравшего овцу",
+            "uk": "Конфуцій, «Лунь юй» 13.18 — відповідь Ше-гунові, у якого прямі люди свідчать проти батька, що вкрав вівцю",
+            "pl": "Konfucjusz, Dialogi konfucjańskie 13.18 — odpowiedź księciu She, u którego prawi ludzie świadczą przeciw ojcu, który ukradł owcę"
+          },
+          "quotes": {
+            "en": {
+              "edition": "analects-parents.en.legge",
+              "from": "13.18",
+              "to": "13.18",
+              "text": "Confucius said, \"Among us, in our part of the country, those who are upright are different from this. The father conceals the misconduct of the son, and the son conceals the misconduct of the father. Uprightness is to be found in this.\"",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Confucius, The Analects"
+              }
+            },
+            "ru": {
+              "edition": "analects-parents.ru.ours",
+              "from": "13.18",
+              "to": "13.18",
+              "text": "Конфуций сказал: «У нас, в наших краях, прямые люди не таковы. Отец скрывает проступок сына, а сын скрывает проступок отца. Вот в этом и есть прямота».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуций, «Лунь юй»"
+              }
+            },
+            "uk": {
+              "edition": "analects-parents.uk.ours",
+              "from": "13.18",
+              "to": "13.18",
+              "text": "Конфуцій сказав: «У нас, у нашому краї, прямі люди не такі. Батько приховує провину сина, а син приховує провину батька. Ось у цьому й полягає прямота».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Конфуцій, «Лунь юй»"
+              }
+            },
+            "pl": {
+              "edition": "analects-parents.pl.ours",
+              "from": "13.18",
+              "to": "13.18",
+              "text": "Konfucjusz powiedział: „U nas, w naszych stronach, prawi ludzie są inni. Ojciec ukrywa występek syna, a syn ukrywa występek ojca. Właśnie w tym jest prawość”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+                "lang": "en",
+                "title": "Konfucjusz, Dialogi konfucjańskie"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/論語/子路第十三"
+          }
+        },
+        {
+          "by": {
+            "en": "Mencius 7A35 (Shun: the sage-king of legend; Gao Yao: his minister of justice; Gu Sou: Shun's father)",
+            "ru": "Мэн-цзы 7A35 (Шунь — легендарный мудрый государь; Гао Яо — его судья; Гу Соу — отец Шуня)",
+            "uk": "Мен-цзи 7A35 (Шунь — легендарний мудрий государ; Гао Яо — його суддя; Гу Соу — батько Шуня)",
+            "pl": "Mencjusz 7A35 (Shun — legendarny mędrzec-władca; Gao Yao — jego najwyższy sędzia; Gu Sou — ojciec Shuna)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "mencius-parents.en.legge",
+              "from": "7.1.35",
+              "to": "7.1.35",
+              "text": "Tao Ying asked, saying, 'Shun being sovereign, and Gao Yao chief minister of justice, if Gu Sou had murdered a man, what would have been done in the case?' Mencius said, 'Gao Yao would simply have apprehended him.' 'But would not Shun have forbidden such a thing?' 'Indeed, how could Shun have forbidden it? Gao Yao had received the law from a proper source.' 'In that case what would Shun have done?' 'Shun would have regarded abandoning the kingdom as throwing away a worn-out sandal. He would privately have taken his father on his back, and retired into concealment, living some where along the sea-coast. There he would have been all his life, cheerful and happy, forgetting the kingdom.'",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencius"
+              }
+            },
+            "ru": {
+              "edition": "mencius-parents.ru.ours",
+              "from": "7.1.35",
+              "to": "7.1.35",
+              "text": "Тао Ин спросил: «Если бы Шунь был государем, а Гао Яо — его главным судьёй и Гу Соу убил бы человека, что тогда было бы сделано?» Мэн-цзы сказал: «Гао Яо просто взял бы его под стражу». — «Но разве Шунь не запретил бы этого?» — «Да как бы Шунь мог это запретить? Гао Яо получил закон из надлежащего источника». — «Что же тогда сделал бы Шунь?» — «Шунь отказался бы от Поднебесной, как выбрасывают стоптанную сандалию. Он тайком взвалил бы отца на спину и скрылся, поселившись где-нибудь на морском берегу. Там он и прожил бы всю жизнь, довольный и счастливый, забыв о Поднебесной».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мэн-цзы»"
+              }
+            },
+            "uk": {
+              "edition": "mencius-parents.uk.ours",
+              "from": "7.1.35",
+              "to": "7.1.35",
+              "text": "Тао Ін спитав: «Якби Шунь був государем, а Гао Яо — його головним суддею і Гу Соу вбив би людину, що тоді було б зроблено?» Мен-цзи сказав: «Гао Яо просто взяв би його під варту». — «Але хіба Шунь не заборонив би цього?» — «Та як би Шунь міг це заборонити? Гао Яо отримав закон із належного джерела». — «Що ж тоді зробив би Шунь?» — «Шунь зрікся б Піднебесної, як викидають зношену сандалю. Він потай узяв би батька на спину й сховався, оселившись десь на морському узбережжі. Там він і прожив би все життя, вдоволений і щасливий, забувши про Піднебесну».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мен-цзи»"
+              }
+            },
+            "pl": {
+              "edition": "mencius-parents.pl.ours",
+              "from": "7.1.35",
+              "to": "7.1.35",
+              "text": "Tao Ying zapytał: „Gdyby Shun był władcą, a Gao Yao jego najwyższym sędzią, i gdyby Gu Sou zabił człowieka, co by wtedy uczyniono?” Mencjusz powiedział: „Gao Yao po prostu by go pojmał”. — „Ale czyż Shun by tego nie zabronił?” — „Jakżeby Shun mógł tego zabronić? Gao Yao otrzymał prawo z należytego źródła”. — „Co zatem uczyniłby Shun?” — „Shun porzuciłby królestwo, jak wyrzuca się zdarty sandał. Potajemnie wziąłby ojca na plecy i ukrył się, zamieszkawszy gdzieś nad brzegiem morza. Tam przeżyłby całe życie, rad i szczęśliwy, zapomniawszy o królestwie”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencjusz"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/孟子/盡心上"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "When his disciple Zai Wo asked whether three years of mourning for a parent were not too long — one year, he thought, was enough — Confucius let him go and then said: a child is not freed from its parents' arms until it is three years old.",
+            "ru": "Когда ученик Цзай Во спросил, не слишком ли долог трёхлетний траур по родителям — по его мнению, хватило бы и года, — Конфуций отпустил его, а потом сказал: ребёнок выходит из родительских объятий лишь на третьем году жизни.",
+            "uk": "Коли учень Цзай Во спитав, чи не задовга трирічна жалоба за батьками — на його думку, вистачило б і року, — Конфуцій відпустив його, а потім сказав: дитина виходить із батьківських обіймів лише на третьому році життя.",
+            "pl": "Gdy uczeń Zai Wo zapytał, czy trzyletnia żałoba po rodzicach nie jest zbyt długa — jego zdaniem wystarczyłby rok — Konfucjusz pozwolił mu odejść, a potem powiedział: dziecko opuszcza ramiona rodziców dopiero w trzecim roku życia."
+          },
+          "source": "Analects 17.21"
+        },
+        {
+          "fact": {
+            "en": "The Classic of Filial Piety (Xiaojing), by tradition Confucius's words to his disciple Zengzi, opens: our bodies, to every hair and bit of skin, we receive from our parents, and not to dare to injure them is the beginning of filial piety; its end is to make our name famous in later ages, and so to bring glory to our parents.",
+            "ru": "«Канон сыновней почтительности» («Сяо цзин»), по преданию — слова Конфуция его ученику Цзэн-цзы, начинается так: тело наше, до последнего волоса и клочка кожи, мы получили от родителей, и не сметь повредить его — начало сыновней почтительности; а её завершение — прославить своё имя в грядущих веках и тем прославить родителей.",
+            "uk": "«Канон синівської шанобливості» («Сяо цзін»), за переказом — слова Конфуція до його учня Цзен-цзи, починається так: тіло наше, до останньої волосини й клаптика шкіри, ми отримали від батьків, і не сміти його пошкодити — початок синівської шанобливості; а її завершення — прославити своє ім’я в прийдешніх віках і тим прославити батьків.",
+            "pl": "Księga synowskiej nabożności (Xiaojing), według tradycji słowa Konfucjusza do ucznia Zengzi, zaczyna się tak: nasze ciało, aż po każdy włos i skrawek skóry, otrzymaliśmy od rodziców, a nie śmieć go uszkodzić — to początek nabożności synowskiej; jej końcem jest rozsławić swe imię w przyszłych wiekach i tym przynieść chwałę rodzicom."
+          },
+          "source": "The Classic of Filial Piety (Xiaojing), chapter 1, tr. James Legge, The Sacred Books of the East, vol. III (1879)"
+        },
+        {
+          "fact": {
+            "en": "Shun, Mencius's model son, is a figure of legend, and so is his family: his father and his half-brother, the story went, tried to kill him — they sent him up to mend a granary, took away the ladder and set it on fire; they sent him to dig a well and filled it in over him. He escaped, and went on serving his father until even Gu Sou was won over.",
+            "ru": "Шунь, образцовый сын Мэн-цзы, — фигура легенды, как и его семья: по преданию, отец и сводный брат пытались его убить — послали чинить амбар, убрали лестницу и подожгли его; послали копать колодец и засыпали его сверху. Он спасся и продолжал служить отцу, пока даже Гу Соу не смягчился.",
+            "uk": "Шунь, зразковий син Мен-цзи, — постать легенди, як і його родина: за переказом, батько й зведений брат намагалися його вбити — послали лагодити комору, прибрали драбину й підпалили її; послали копати криницю й засипали її згори. Він урятувався і далі служив батькові, аж поки навіть Гу Соу не пом’якшав.",
+            "pl": "Shun, wzorowy syn Mencjusza, jest postacią legendy, podobnie jak jego rodzina: według opowieści ojciec i przyrodni brat próbowali go zabić — posłali go, by naprawił spichrz, zabrali drabinę i podpalili go; posłali go, by kopał studnię, i zasypali ją nad nim. Ocalał i dalej służył ojcu, aż nawet Gu Sou dał się przekonać."
+          },
+          "source": "Mencius 5A2 and 4A28 (a legend)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "The Bible: honour your father — and a sword",
+        "ru": "Библия: почитай отца — и меч",
+        "uk": "Біблія: шануй батька — і меч",
+        "pl": "Biblia: czcij ojca — i miecz"
+      },
+      "intro": {
+        "en": "Mount Sinai, in the Book of Exodus. Among the Ten Commandments, the first that turns from God to people is about parents, and it comes with a promise. Centuries later, in Galilee, Pharisees from Jerusalem accuse Jesus' disciples of breaking the traditions of the elders. It is you, he answers, who break the commandment of God — a man who declares what should have kept his parents to be a gift (an offering to God, Mark adds) is by your tradition free of them. Yet the same Gospel has him say something much harder:",
+        "ru": "Гора Синай, Книга Исхода. Среди десяти заповедей первая, что обращается от Бога к людям, — о родителях, и к ней приложено обещание. Века спустя, в Галилее, фарисеи из Иерусалима обвиняют учеников Иисуса в том, что те нарушают предание старцев. Это вы, отвечает он, нарушаете заповедь Божию: тот, кто объявит даром (приношением Богу, добавляет Марк) то, на что должны были жить его родители, по вашему преданию свободен от них. И всё же в том же Евангелии он говорит и куда более трудное:",
+        "uk": "Гора Синай, Книга Виходу. Серед десяти заповідей перша, що звертається від Бога до людей, — про батьків, і до неї додано обіцянку. Століття по тому, в Галилеї, фарисеї з Єрусалима звинувачують учнів Ісуса в тому, що ті порушують передання старших. Це ви, відповідає він, порушуєте заповідь Божу: той, хто оголосить даром (приношенням Богові, додає Марко) те, на що мали жити його батьки, за вашим переданням вільний від них. І все ж у тому самому Євангелії він каже й набагато тяжче:",
+        "pl": "Góra Synaj, Księga Wyjścia. Spośród dziesięciu przykazań pierwsze, które odwraca się od Boga ku ludziom, dotyczy rodziców, i dołączona jest do niego obietnica. Wieki później, w Galilei, faryzeusze z Jerozolimy zarzucają uczniom Jezusa, że łamią tradycję starszych. To wy, odpowiada, łamiecie przykazanie Boże: kto ogłosi darem (ofiarą dla Boga, dodaje Marek) to, z czego mieli żyć jego rodzice, ten według waszej tradycji jest od nich wolny. A jednak w tej samej Ewangelii mówi on rzecz o wiele trudniejszą:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Exodus 20:12, among the Ten Commandments",
+            "ru": "Исход 20:12, среди десяти заповедей",
+            "uk": "Вихід 20:12, серед десяти заповідей",
+            "pl": "Księga Wyjścia 20,12, wśród dziesięciu przykazań"
+          },
+          "quotes": {
+            "en": {
+              "edition": "exodus-parents.en.kingjames",
+              "from": "20.12",
+              "to": "20.12",
+              "text": "Honour thy father and thy mother: that thy days may be long upon the land which the LORD thy God giveth thee.",
+              "kind": "Free",
+              "translator": "King James Version",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Exodus",
+                "lang": "en",
+                "title": "The Book of Exodus"
+              }
+            },
+            "ru": {
+              "edition": "exodus-parents.ru.ours",
+              "from": "20.12",
+              "to": "20.12",
+              "text": "Почитай отца твоего и мать твою, чтобы продлились дни твои на земле, которую Господь, Бог твой, даёт тебе.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Exodus",
+                "lang": "en",
+                "title": "Книга Исхода"
+              }
+            },
+            "uk": {
+              "edition": "exodus-parents.uk.ours",
+              "from": "20.12",
+              "to": "20.12",
+              "text": "Шануй свого батька та свою матір, щоб довгі були дні твої на землі, яку Господь, Бог твій, дає тобі.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Exodus",
+                "lang": "en",
+                "title": "Книга Виходу"
+              }
+            },
+            "pl": {
+              "edition": "exodus-parents.pl.ours",
+              "from": "20.12",
+              "to": "20.12",
+              "text": "Czcij ojca twego i matkę twoją, aby długie były dni twoje na ziemi, którą Pan, Bóg twój, daje tobie.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Exodus",
+                "lang": "en",
+                "title": "Księga Wyjścia"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Hebrew",
+              "ru": "оригинал на иврите",
+              "uk": "оригінал мовою іврит",
+              "pl": "oryginał, w języku hebrajskim"
+            },
+            "url": "https://he.wikisource.org/wiki/שמות_כ"
+          }
+        },
+        {
+          "by": {
+            "en": "Jesus to the Pharisees, Matthew 15:4–6",
+            "ru": "Иисус — фарисеям, Матфей 15:4–6",
+            "uk": "Ісус — фарисеям, Матвій 15:4–6",
+            "pl": "Jezus do faryzeuszy, Mateusz 15,4–6"
+          },
+          "quotes": {
+            "en": {
+              "edition": "matthew-parents.en.kingjames",
+              "from": "15.4",
+              "to": "15.6",
+              "text": "For God commanded, saying, Honour thy father and mother: and, He that curseth father or mother, let him die the death. But ye say, Whosoever shall say to his father or his mother, It is a gift, by whatsoever thou mightest be profited by me; And honour not his father or his mother, he shall be free. Thus have ye made the commandment of God of none effect by your tradition.",
+              "kind": "Free",
+              "translator": "King James Version",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "The Gospel of Matthew"
+              }
+            },
+            "ru": {
+              "edition": "matthew-parents.ru.ours",
+              "from": "15.4",
+              "to": "15.6",
+              "text": "Ибо Бог заповедал, говоря: почитай отца и мать; и: злословящий отца или мать смертью да умрёт. А вы говорите: кто скажет отцу или матери: «Это дар — то, чем бы ты от меня пользовался», и не почтит отца своего или мать свою, тот свободен. Так вы упразднили заповедь Божию вашим преданием.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "Евангелие от Матфея"
+              }
+            },
+            "uk": {
+              "edition": "matthew-parents.uk.ours",
+              "from": "15.4",
+              "to": "15.6",
+              "text": "Бо Бог заповідав, кажучи: шануй батька й матір; і: хто лихословить батька чи матір, хай смертю помре. А ви кажете: хто скаже батькові чи матері: «Це дар — те, чим ти міг би від мене користатися», і не вшанує свого батька чи своєї матері, той вільний. Так ви скасували заповідь Божу своїм переданням.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "Євангеліє від Матвія"
+              }
+            },
+            "pl": {
+              "edition": "matthew-parents.pl.ours",
+              "from": "15.4",
+              "to": "15.6",
+              "text": "Bóg bowiem przykazał, mówiąc: Czcij ojca i matkę; oraz: Kto złorzeczy ojcu lub matce, niech poniesie śmierć. A wy mówicie: kto powie ojcu lub matce: „To dar — to, czym mógłbyś mieć ze mnie pożytek”, i nie uczci swego ojca ani swojej matki, ten jest wolny. Tak unieważniliście przykazanie Boże waszą tradycją.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "Ewangelia według św. Mateusza"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://el.wikisource.org/wiki/%CE%9A%CE%B1%CF%84%CE%AC_%CE%9C%CE%B1%CF%84%CE%B8%CE%B1%CE%AF%CE%BF%CE%BD#15:4"
+          }
+        },
+        {
+          "by": {
+            "en": "Jesus to the twelve, as he sends them out, Matthew 10:34–37",
+            "ru": "Иисус — двенадцати, посылая их на проповедь, Матфей 10:34–37",
+            "uk": "Ісус — дванадцятьом, посилаючи їх на проповідь, Матвій 10:34–37",
+            "pl": "Jezus do Dwunastu, gdy ich rozsyła, Mateusz 10,34–37"
+          },
+          "quotes": {
+            "en": {
+              "edition": "matthew-parents.en.kingjames",
+              "from": "10.34",
+              "to": "10.37",
+              "text": "Think not that I am come to send peace on earth: I came not to send peace, but a sword. For I am come to set a man at variance against his father, and the daughter against her mother, and the daughter in law against her mother in law. And a man's foes shall be they of his own household. He that loveth father or mother more than me is not worthy of me: and he that loveth son or daughter more than me is not worthy of me.",
+              "kind": "Free",
+              "translator": "King James Version",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "The Gospel of Matthew"
+              }
+            },
+            "ru": {
+              "edition": "matthew-parents.ru.ours",
+              "from": "10.34",
+              "to": "10.37",
+              "text": "Не думайте, что Я пришёл принести мир на землю: не мир пришёл Я принести, но меч. Ибо Я пришёл разделить человека с отцом его, и дочь с матерью её, и невестку со свекровью её. И враги человеку — домашние его. Кто любит отца или мать более, нежели Меня, не достоин Меня; и кто любит сына или дочь более, нежели Меня, не достоин Меня.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "Евангелие от Матфея"
+              }
+            },
+            "uk": {
+              "edition": "matthew-parents.uk.ours",
+              "from": "10.34",
+              "to": "10.37",
+              "text": "Не думайте, що Я прийшов принести мир на землю: не мир Я прийшов принести, а меч. Бо Я прийшов розлучити людину з її батьком, і дочку з її матір’ю, і невістку з її свекрухою. І вороги людині — її домашні. Хто любить батька чи матір більше, ніж Мене, той Мене не достойний; і хто любить сина чи дочку більше, ніж Мене, той Мене не достойний.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "Євангеліє від Матвія"
+              }
+            },
+            "pl": {
+              "edition": "matthew-parents.pl.ours",
+              "from": "10.34",
+              "to": "10.37",
+              "text": "Nie sądźcie, że przyszedłem przynieść pokój na ziemię: nie przyszedłem przynieść pokoju, lecz miecz. Przyszedłem bowiem poróżnić człowieka z jego ojcem, i córkę z jej matką, i synową z jej teściową. I wrogami człowieka będą jego domownicy. Kto miłuje ojca lub matkę bardziej niż mnie, nie jest mnie godzien; i kto miłuje syna lub córkę bardziej niż mnie, nie jest mnie godzien.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "Ewangelia według św. Mateusza"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://el.wikisource.org/wiki/%CE%9A%CE%B1%CF%84%CE%AC_%CE%9C%CE%B1%CF%84%CE%B8%CE%B1%CE%AF%CE%BF%CE%BD#10:34"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The law that follows the commandments is severe: \"he that smiteth his father, or his mother, shall be surely put to death\", and so is he who curses them.",
+            "ru": "Закон, следующий за заповедями, суров: «кто ударит отца своего или мать свою, того должно предать смерти», как и того, кто их проклянёт.",
+            "uk": "Закон, що йде за заповідями, суворий: «хто вдарить свого батька чи свою матір, того конче треба скарати на смерть», як і того, хто їх проклене.",
+            "pl": "Prawo, które następuje po przykazaniach, jest surowe: „kto uderzy ojca swego albo matkę swoją, będzie ukarany śmiercią”, podobnie jak ten, kto im złorzeczy."
+          },
+          "source": "Exodus 21:15, 17"
+        },
+        {
+          "fact": {
+            "en": "The Letter to the Ephesians, under Paul's name, calls it \"the first commandment with promise\", and sets beside it a duty the other way: \"ye fathers, provoke not your children to wrath\".",
+            "ru": "Послание к Ефесянам, написанное от имени Павла, называет её «первой заповедью с обетованием» и ставит рядом долг в обратную сторону: «и вы, отцы, не раздражайте детей ваших».",
+            "uk": "Послання до ефесян, написане від імені Павла, називає її «першою заповіддю з обітницею» і ставить поруч обов’язок у зворотний бік: «і ви, батьки, не дратуйте дітей своїх».",
+            "pl": "List do Efezjan, napisany w imieniu Pawła, nazywa je „pierwszym przykazaniem z obietnicą” i stawia obok obowiązek w drugą stronę: „a wy, ojcowie, nie pobudzajcie do gniewu dzieci waszych”."
+          },
+          "source": "Ephesians 6:1–4"
+        },
+        {
+          "fact": {
+            "en": "When a disciple asked to go first and bury his father, Jesus answered: \"Follow me; and let the dead bury their dead.\" In Jewish custom of the time burying one's father was among the gravest of duties.",
+            "ru": "Когда один из учеников попросил позволения сперва пойти и похоронить отца, Иисус ответил: «Иди за Мною и предоставь мёртвым погребать своих мертвецов». В иудейском обычае того времени похоронить отца было одним из самых священных долгов.",
+            "uk": "Коли один з учнів попросив дозволу спершу піти й поховати батька, Ісус відповів: «Іди за Мною і залиш мертвим ховати своїх мерців». В юдейському звичаї того часу поховати батька було одним із найсвятіших обов’язків.",
+            "pl": "Gdy jeden z uczniów poprosił, by mógł najpierw pójść i pogrzebać ojca, Jezus odpowiedział: „Pójdź za mną, a pozwól umarłym grzebać ich umarłych”. W żydowskim obyczaju tamtych czasów pogrzebanie ojca należało do najświętszych obowiązków."
+          },
+          "source": "Matthew 8:21–22; Martin Hengel, The Charismatic Leader and His Followers (1968; English 1981)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Aristotle: a debt that cannot be repaid",
+        "ru": "Аристотель: долг, который нельзя вернуть",
+        "uk": "Арістотель: борг, якого не можна повернути",
+        "pl": "Arystoteles: dług, którego nie można spłacić"
+      },
+      "intro": {
+        "en": "Athens, the 330s and 320s BC. Aristotle, a doctor's son from Stagira in the north, teaches at the Lyceum, a gymnasium outside the city walls. Two of the ten books of his Ethics are about philia — friendship, but also every bond of affection, the family's first among them. Between unequals, he says, friendship cannot be paid back in kind; and of all such debts, the one to parents is the one no one can ever pay off:",
+        "ru": "Афины, 330-е и 320-е годы до н. э. Аристотель, сын врача из Стагиры на севере, учит в Ликее, гимнасии за городскими стенами. Две из десяти книг его «Этики» посвящены филии — дружбе, но также всякой связи любви, и прежде всего семейной. Между неравными, говорит он, дружбу нельзя оплатить той же монетой; а из всех таких долгов долг родителям — тот, который никому никогда не выплатить:",
+        "uk": "Афіни, 330-ті й 320-ті роки до н. е. Арістотель, син лікаря зі Стагіри на півночі, навчає в Лікеї, гімнасії за міськими мурами. Дві з десяти книг його «Етики» присвячено філії — дружбі, але також усякому зв’язку прихильності, і насамперед родинному. Між нерівними, каже він, дружбу не можна оплатити тією ж монетою; а з усіх таких боргів борг батькам — той, якого ніхто ніколи не сплатить:",
+        "pl": "Ateny, lata 330. i 320. p.n.e. Arystoteles, syn lekarza ze Stagiry na północy, naucza w Likejonie, gimnazjonie za murami miasta. Dwie z dziesięciu ksiąg jego Etyki mówią o philii — przyjaźni, ale też o każdej więzi życzliwości, a przede wszystkim rodzinnej. Między nierównymi, mówi, przyjaźni nie da się odpłacić tym samym; a ze wszystkich takich długów dług wobec rodziców jest tym, którego nikt nigdy nie spłaci:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Aristotle, Nicomachean Ethics VIII.12 (1162a)",
+            "ru": "Аристотель, «Никомахова этика», VIII.12 (1162a)",
+            "uk": "Арістотель, «Нікомахова етика», VIII.12 (1162a)",
+            "pl": "Arystoteles, Etyka nikomachejska VIII.12 (1162a)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ethics-parents.en.chase",
+              "from": "8.12",
+              "to": "8.12",
+              "text": "Further: the Friendship felt by children towards parents, and by men towards the gods, is as towards something good and above them; because these have conferred the greatest possible benefits, in that they are the causes of their being and being nourished, and of their having been educated after they were brought into being.",
+              "kind": "Free",
+              "translator": "D. P. Chase",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Aristotle, Nicomachean Ethics"
+              }
+            },
+            "ru": {
+              "edition": "ethics-parents.ru.ours",
+              "from": "8.12",
+              "to": "8.12",
+              "text": "Далее: дружба, которую дети питают к родителям, а люди к богам, — это дружба как к чему-то благому и высшему; ибо те оказали величайшие благодеяния: они — причина того, что мы существуем и вскормлены и что, появившись на свет, получили воспитание.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Никомахова этика»"
+              }
+            },
+            "uk": {
+              "edition": "ethics-parents.uk.ours",
+              "from": "8.12",
+              "to": "8.12",
+              "text": "Далі: дружба, яку діти мають до батьків, а люди до богів, — це дружба як до чогось доброго й вищого; бо ті зробили найбільші добродійства: вони — причина того, що ми існуємо й вигодувані і що, з’явившись на світ, здобули виховання.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Нікомахова етика»"
+              }
+            },
+            "pl": {
+              "edition": "ethics-parents.pl.ours",
+              "from": "8.12",
+              "to": "8.12",
+              "text": "Dalej: przyjaźń, jaką dzieci żywią do rodziców, a ludzie do bogów, jest przyjaźnią jak do czegoś dobrego i wyższego; ci bowiem wyświadczyli największe dobrodziejstwa: są przyczyną tego, że istniejemy i zostaliśmy wykarmieni, i tego, że przyszedłszy na świat, zostaliśmy wychowani.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Arystoteles, Etyka nikomachejska"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg010.perseus-grc2:8.12/"
+          }
+        },
+        {
+          "by": {
+            "en": "Aristotle, Nicomachean Ethics VIII.14 (1163b)",
+            "ru": "Аристотель, «Никомахова этика», VIII.14 (1163b)",
+            "uk": "Арістотель, «Нікомахова етика», VIII.14 (1163b)",
+            "pl": "Arystoteles, Etyka nikomachejska VIII.14 (1163b)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ethics-parents.en.chase",
+              "from": "8.14",
+              "to": "8.14",
+              "text": "For this reason it may be judged never to be allowable for a son to disown his father, whereas a father may his son: because he that owes is bound to pay; now a son can never, by anything he has done, fully requite the benefits first conferred on him by his father, and so is always a debtor. But they to whom anything is owed may cast off their debtors: therefore the father may his son. But at the same time it must perhaps be admitted, that it seems no father ever would sever himself utterly from a son, except in a case of exceeding depravity: because, independently of the natural Friendship, it is like human nature not to put away from one's self the assistance which a son might render.",
+              "kind": "Free",
+              "translator": "D. P. Chase",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Aristotle, Nicomachean Ethics"
+              }
+            },
+            "ru": {
+              "edition": "ethics-parents.ru.ours",
+              "from": "8.14",
+              "to": "8.14",
+              "text": "Поэтому, можно полагать, сыну никогда не позволено отречься от отца, тогда как отцу отречься от сына позволено: ибо кто должен, обязан отдать; а сын ничем из того, что он сделал, никогда не сможет вполне воздать за благодеяния, которые первым оказал ему отец, и потому он всегда в долгу. Те же, кому что-либо должны, могут отказаться от своих должников; значит, и отец — от сына. Но вместе с тем следует, пожалуй, признать, что, кажется, ни один отец никогда не отрёкся бы от сына совсем, разве только в случае крайней испорченности: ибо, не говоря уже о естественной дружбе, человеческой природе свойственно не отталкивать от себя помощь, которую мог бы оказать сын.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Никомахова этика»"
+              }
+            },
+            "uk": {
+              "edition": "ethics-parents.uk.ours",
+              "from": "8.14",
+              "to": "8.14",
+              "text": "Тому, можна гадати, синові ніколи не дозволено зректися батька, тоді як батькові зректися сина дозволено: бо хто винен, мусить віддати; а син нічим із того, що зробив, ніколи не зможе сповна віддячити за добродійства, які першим зробив йому батько, і тому він завжди боржник. Ті ж, кому щось винні, можуть відмовитися від своїх боржників; отже, і батько — від сина. Але водночас слід, мабуть, визнати, що, здається, жоден батько ніколи не зрікся б сина цілком, хіба що в разі крайньої зіпсованості: бо, не кажучи вже про природну дружбу, людській природі властиво не відштовхувати від себе допомоги, яку міг би надати син.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Нікомахова етика»"
+              }
+            },
+            "pl": {
+              "edition": "ethics-parents.pl.ours",
+              "from": "8.14",
+              "to": "8.14",
+              "text": "Dlatego można sądzić, że synowi nigdy nie wolno wyrzec się ojca, ojcu zaś wolno wyrzec się syna: kto bowiem jest dłużny, musi spłacić; a syn niczym, co uczynił, nigdy nie zdoła w pełni odpłacić za dobrodziejstwa, które ojciec pierwszy mu wyświadczył, i dlatego zawsze jest dłużnikiem. Ci zaś, którym coś się należy, mogą wyrzec się swoich dłużników; zatem i ojciec — syna. Zarazem jednak trzeba chyba przyznać, że, jak się zdaje, żaden ojciec nigdy nie odciąłby się od syna całkowicie, chyba że w razie skrajnego zepsucia: niezależnie bowiem od naturalnej przyjaźni, leży w ludzkiej naturze nie odpychać od siebie pomocy, jakiej mógłby udzielić syn.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Arystoteles, Etyka nikomachejska"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg010.perseus-grc2:8.14/"
+          }
+        },
+        {
+          "by": {
+            "en": "Aristotle, Nicomachean Ethics IX.2 (1165a) — he has just asked whether a father has an unlimited claim on his son's obedience",
+            "ru": "Аристотель, «Никомахова этика», IX.2 (1165a) — он только что спросил, безгранично ли право отца на послушание сына",
+            "uk": "Арістотель, «Нікомахова етика», IX.2 (1165a) — він щойно спитав, чи безмежне право батька на послух сина",
+            "pl": "Arystoteles, Etyka nikomachejska IX.2 (1165a) — właśnie zapytał, czy prawo ojca do posłuszeństwa syna jest nieograniczone"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ethics-parents.en.chase",
+              "from": "9.2",
+              "to": "9.2",
+              "text": "And it would seem that in respect of maintenance it is our duty to assist our parents in preference to all others, as being their debtors, and because it is more honourable to succour in these respects the authors of our existence than ourselves. Honour likewise we ought to pay to our parents just as to the gods, but then, not all kinds of honour: not the same, for instance, to a father as to a mother: nor again to a father the honour due to a scientific man or to a general but that which is a father's due, and in like manner to a mother that which is a mother's.",
+              "kind": "Free",
+              "translator": "D. P. Chase",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Aristotle, Nicomachean Ethics"
+              }
+            },
+            "ru": {
+              "edition": "ethics-parents.ru.ours",
+              "from": "9.2",
+              "to": "9.2",
+              "text": "И, по-видимому, в том, что касается пропитания, наш долг — помогать родителям прежде всех других, ибо мы их должники и ибо почётнее поддерживать в этом виновников нашего существования, нежели самих себя. Честь мы также должны воздавать родителям, как богам, — но не всякую честь: не одну и ту же, например, отцу и матери; и не отцу ту честь, что подобает учёному или полководцу, а ту, что подобает отцу, и так же матери — ту, что подобает матери.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Никомахова этика»"
+              }
+            },
+            "uk": {
+              "edition": "ethics-parents.uk.ours",
+              "from": "9.2",
+              "to": "9.2",
+              "text": "І, здається, щодо прохарчування наш обов’язок — допомагати батькам перед усіма іншими, бо ми їхні боржники і бо почесніше підтримувати в цьому творців нашого існування, ніж самих себе. Шану ми так само повинні віддавати батькам, як богам, — але не будь-яку шану: не однакову, наприклад, батькові й матері; і не батькові ту шану, що належить ученому чи полководцеві, а ту, що належить батькові, і так само матері — ту, що належить матері.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Аристотель, «Нікомахова етика»"
+              }
+            },
+            "pl": {
+              "edition": "ethics-parents.pl.ours",
+              "from": "9.2",
+              "to": "9.2",
+              "text": "I zdaje się, że jeśli chodzi o utrzymanie, naszym obowiązkiem jest wspierać rodziców przed wszystkimi innymi, jako że jesteśmy ich dłużnikami i że piękniej jest wspomagać w tym sprawców naszego istnienia niż samych siebie. Cześć także powinniśmy oddawać rodzicom tak jak bogom — ale nie każdą cześć: nie tę samą na przykład ojcu co matce; ani ojcu tej czci, która należy się uczonemu albo wodzowi, lecz tę, która należy się ojcu, i tak samo matce tę, która należy się matce.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicomachean_Ethics_(Chase)/Book_One",
+                "lang": "en",
+                "title": "Arystoteles, Etyka nikomachejska"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg010.perseus-grc2:9.2/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "In Aristotle's Athens it was the law's business too. A man chosen as archon was asked at his scrutiny who his parents were, where his family's tombs were, and whether he treated his parents well; and a charge of ill-treating one's parents could be brought without the risk of a penalty that other accusers ran.",
+            "ru": "В Афинах времён Аристотеля этим занимался и закон. Избранного архонтом на проверке спрашивали, кто его родители, где семейные гробницы и хорошо ли он обращается с родителями; а обвинение в дурном обращении с родителями можно было подать, не рискуя наказанием, которым рисковали другие обвинители.",
+            "uk": "В Афінах часів Арістотеля цим опікувався й закон. Обраного архонтом на перевірці питали, хто його батьки, де родинні гробниці і чи добре він поводиться з батьками; а обвинувачення в лихому поводженні з батьками можна було подати, не ризикуючи покаранням, яким ризикували інші обвинувачі.",
+            "pl": "W Atenach Arystotelesa zajmowało się tym także prawo. Wybranego na archonta pytano podczas badania, kim są jego rodzice, gdzie są groby jego rodu i czy dobrze traktuje rodziców; a oskarżenie o złe traktowanie rodziców można było wnieść bez ryzyka kary, które ponosili inni oskarżyciele."
+          },
+          "source": "The Constitution of the Athenians (Aristotle's school) 55.3, 56.6"
+        },
+        {
+          "fact": {
+            "en": "Aristotle's father, Nicomachus, was physician to King Amyntas of Macedon. In his will Aristotle asked his executors to dedicate a statue of his mother to Demeter at Nemea, \"or wherever they think best\".",
+            "ru": "Отец Аристотеля, Никомах, был врачом македонского царя Аминты. В завещании Аристотель просил душеприказчиков посвятить статую его матери Деметре в Немее — «или где они сочтут лучшим».",
+            "uk": "Батько Арістотеля, Нікомах, був лікарем македонського царя Амінти. У заповіті Арістотель просив виконавців присвятити статую його матері Деметрі в Немеї — «або де вони вважатимуть за краще».",
+            "pl": "Ojciec Arystotelesa, Nikomach, był lekarzem macedońskiego króla Amyntasa. W testamencie Arystoteles prosił wykonawców, by poświęcili posąg jego matki Demeter w Nemei — „albo tam, gdzie uznają za najlepsze”."
+          },
+          "source": "Diogenes Laertius, Lives of Eminent Philosophers 5.1, 5.16"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Seneca: can a son outdo his father?",
+        "ru": "Сенека: может ли сын превзойти отца?",
+        "uk": "Сенека: чи може син перевершити батька?",
+        "pl": "Seneka: czy syn może prześcignąć ojca?"
+      },
+      "intro": {
+        "en": "Rome, in the reign of Nero. Seneca — a Stoic philosopher, once Nero's tutor and now his adviser, one of the richest men in Rome — writes seven books On Benefits for his friend Aebutius Liberalis: what it is to give, to receive and to be grateful. In the third he takes up a question the schools liked to argue: can a son ever give his father more than he received? No, everyone says — whatever he gives, he owes to the life his father gave him. Seneca says yes:",
+        "ru": "Рим, правление Нерона. Сенека — философ-стоик, когда-то воспитатель Нерона, теперь его советник, один из богатейших людей Рима — пишет для своего друга Эбуция Либерала семь книг «О благодеяниях»: что значит давать, принимать и быть благодарным. В третьей он берётся за вопрос, который любили обсуждать в школах: может ли сын дать отцу больше, чем получил от него? Нет, говорят все: что бы он ни дал, он обязан этим жизни, которую дал ему отец. Сенека отвечает — да:",
+        "uk": "Рим, правління Нерона. Сенека — філософ-стоїк, колись вихователь Нерона, тепер його радник, один із найбагатших людей Рима — пише для свого друга Ебуція Ліберала сім книг «Про благодіяння»: що означає давати, приймати й бути вдячним. У третій він береться за питання, яке любили обговорювати в школах: чи може син дати батькові більше, ніж отримав від нього? Ні, кажуть усі: хоч би що він дав, він завдячує цим життю, яке дав йому батько. Сенека відповідає — так:",
+        "pl": "Rzym, panowanie Nerona. Seneka — filozof stoik, niegdyś wychowawca Nerona, teraz jego doradca, jeden z najbogatszych ludzi w Rzymie — pisze dla przyjaciela, Ebucjusza Liberalisa, siedem ksiąg O dobrodziejstwach: co znaczy dawać, przyjmować i być wdzięcznym. W trzeciej podejmuje pytanie, o które lubiły spierać się szkoły: czy syn może kiedykolwiek dać ojcu więcej, niż od niego otrzymał? Nie, mówią wszyscy — cokolwiek da, zawdzięcza to życiu, które dał mu ojciec. Seneka odpowiada: tak:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Seneca, On Benefits III.29 — against those who say a son can never repay his father",
+            "ru": "Сенека, «О благодеяниях», III.29 — против тех, кто говорит, что сын никогда не воздаст отцу",
+            "uk": "Сенека, «Про благодіяння», III.29 — проти тих, хто каже, що син ніколи не віддячить батькові",
+            "pl": "Seneka, O dobrodziejstwach III.29 — przeciw tym, którzy mówią, że syn nigdy nie odpłaci ojcu"
+          },
+          "quotes": {
+            "en": {
+              "edition": "benefits-parents.en.stewart",
+              "from": "3.29",
+              "to": "3.29",
+              "text": "I answer, that some things derive their first origin from others, yet are greater than those others; and a thing may be greater than that from which it took its rise, although without that thing to start from it never could have grown so great. All things greatly outgrow their beginnings. Seeds are the causes of all things, and yet are the smallest part of the things which they produce.",
+              "kind": "Free",
+              "translator": "Aubrey Stewart",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_Benefits",
+                "lang": "en",
+                "title": "Seneca, On Benefits"
+              }
+            },
+            "ru": {
+              "edition": "benefits-parents.ru.ours",
+              "from": "3.29",
+              "to": "3.29",
+              "text": "Отвечаю: иные вещи берут своё первое начало от других и всё же больше их; и вещь может быть больше того, от чего она пошла, хотя без этого начала она никогда не выросла бы такой великой. Все вещи далеко перерастают свои начала. Семена — причины всего, и всё же они — малейшая часть того, что из них рождается.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_Benefits",
+                "lang": "en",
+                "title": "Сенека, «О благодеяниях»"
+              }
+            },
+            "uk": {
+              "edition": "benefits-parents.uk.ours",
+              "from": "3.29",
+              "to": "3.29",
+              "text": "Відповідаю: деякі речі беруть свій перший початок від інших і все ж більші за них; і річ може бути більшою за те, від чого вона пішла, хоча без цього початку вона ніколи не виросла б такою великою. Усі речі далеко переростають свої початки. Насіння — причина всього, і все ж воно — найменша частина того, що з нього народжується.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_Benefits",
+                "lang": "en",
+                "title": "Сенека, «Про благодіяння»"
+              }
+            },
+            "pl": {
+              "edition": "benefits-parents.pl.ours",
+              "from": "3.29",
+              "to": "3.29",
+              "text": "Odpowiadam, że niektóre rzeczy biorą swój pierwszy początek od innych, a jednak są od nich większe; i rzecz może być większa od tego, od czego wzięła początek, choć bez tego początku nigdy by tak nie urosła. Wszystkie rzeczy daleko przerastają swoje początki. Nasiona są przyczynami wszystkich rzeczy, a przecież są najmniejszą częścią tego, co z nich powstaje.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_Benefits",
+                "lang": "en",
+                "title": "Seneka, O dobrodziejstwach"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/De_beneficiis/Liber_III"
+          }
+        },
+        {
+          "by": {
+            "en": "On Benefits III.31 — a son speaks to his father",
+            "ru": "«О благодеяниях», III.31 — сын говорит отцу",
+            "uk": "«Про благодіяння», III.31 — син говорить до батька",
+            "pl": "O dobrodziejstwach III.31 — syn mówi do ojca"
+          },
+          "quotes": {
+            "en": {
+              "edition": "benefits-parents.en.stewart",
+              "from": "3.31",
+              "to": "3.31",
+              "text": "What do I gather from this? That the cohabitation of a father and mother is the very least of benefits to their child, unless in addition this beginning of kindnesses be followed up by others, and confirmed by other services. It is not a good thing to live, but to live well.",
+              "kind": "Free",
+              "translator": "Aubrey Stewart",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_Benefits",
+                "lang": "en",
+                "title": "Seneca, On Benefits"
+              }
+            },
+            "ru": {
+              "edition": "benefits-parents.ru.ours",
+              "from": "3.31",
+              "to": "3.31",
+              "text": "Что я из этого вывожу? Что соединение отца и матери — наименьшее из благодеяний их ребёнку, если только за этим началом милостей не последуют другие и не подтвердят его иные услуги. Благо — не жить, а жить хорошо.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_Benefits",
+                "lang": "en",
+                "title": "Сенека, «О благодеяниях»"
+              }
+            },
+            "uk": {
+              "edition": "benefits-parents.uk.ours",
+              "from": "3.31",
+              "to": "3.31",
+              "text": "Що я з цього виводжу? Що єднання батька й матері — найменше з добродійств їхній дитині, якщо тільки за цим початком ласки не підуть інші й не підтвердять його інші послуги. Благо — не жити, а жити добре.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_Benefits",
+                "lang": "en",
+                "title": "Сенека, «Про благодіяння»"
+              }
+            },
+            "pl": {
+              "edition": "benefits-parents.pl.ours",
+              "from": "3.31",
+              "to": "3.31",
+              "text": "Co z tego wnoszę? Że obcowanie ojca i matki jest najmniejszym z dobrodziejstw dla ich dziecka, chyba że za tym początkiem życzliwości pójdą inne i potwierdzą go inne przysługi. Dobrem nie jest żyć, lecz dobrze żyć.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_Benefits",
+                "lang": "en",
+                "title": "Seneka, O dobrodziejstwach"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/De_beneficiis/Liber_III"
+          }
+        },
+        {
+          "by": {
+            "en": "On Benefits III.38, the book's last chapter",
+            "ru": "«О благодеяниях», III.38, последняя глава книги",
+            "uk": "«Про благодіяння», III.38, останній розділ книги",
+            "pl": "O dobrodziejstwach III.38, ostatni rozdział księgi"
+          },
+          "quotes": {
+            "en": {
+              "edition": "benefits-parents.en.stewart",
+              "from": "3.38",
+              "to": "3.38",
+              "text": "By no force of words, by no power of genius, can one rightly express how desirable, how admirable, how never to be erased from human memory it is to be able to say, \"I obeyed my parents, I gave way to them, I was submissive to their authority whether it was just, or unjust and harsh; the only point in which I resisted them was, not to be conquered by them in benefits.\"",
+              "kind": "Free",
+              "translator": "Aubrey Stewart",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_Benefits",
+                "lang": "en",
+                "title": "Seneca, On Benefits"
+              }
+            },
+            "ru": {
+              "edition": "benefits-parents.ru.ours",
+              "from": "3.38",
+              "to": "3.38",
+              "text": "Никакой силой слов, никаким даром ума не выразить как должно, сколь желанно, сколь достойно восхищения, сколь никогда не изгладится из памяти людей — иметь право сказать: «Я повиновался родителям, я уступал им, я покорялся их власти, была ли она справедлива или несправедлива и сурова; лишь в одном я им противился — чтобы они не победили меня в благодеяниях».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_Benefits",
+                "lang": "en",
+                "title": "Сенека, «О благодеяниях»"
+              }
+            },
+            "uk": {
+              "edition": "benefits-parents.uk.ours",
+              "from": "3.38",
+              "to": "3.38",
+              "text": "Жодною силою слів, жодним даром розуму не висловити як слід, наскільки бажано, наскільки гідно подиву, наскільки ніколи не зітреться з людської пам’яті — мати змогу сказати: «Я корився батькам, я поступався їм, я скорявся їхній владі, чи була вона справедлива, чи несправедлива й сувора; лише в одному я їм опирався — щоб вони не перемогли мене в добродійствах».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_Benefits",
+                "lang": "en",
+                "title": "Сенека, «Про благодіяння»"
+              }
+            },
+            "pl": {
+              "edition": "benefits-parents.pl.ours",
+              "from": "3.38",
+              "to": "3.38",
+              "text": "Żadną siłą słów, żadną mocą talentu nie da się należycie wyrazić, jak godne pożądania, jak godne podziwu, jak nigdy niezatarte w ludzkiej pamięci jest móc powiedzieć: „Byłem posłuszny rodzicom, ustępowałem im, poddawałem się ich władzy, czy była sprawiedliwa, czy niesprawiedliwa i surowa; w jednym tylko się im opierałem — by nie zwyciężyli mnie w dobrodziejstwach”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_Benefits",
+                "lang": "en",
+                "title": "Seneka, O dobrodziejstwach"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/De_beneficiis/Liber_III"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Among Seneca's examples of sons who outdid their fathers: Aeneas, who carried old Anchises out of burning Troy; and young Titus Manlius, whom his harsh father had banished to the country as a dullard, and who went to the tribune prosecuting his father and made him swear, at the point of a sword, to drop the case.",
+            "ru": "Среди примеров Сенеки — сыновья, превзошедшие отцов: Эней, вынесший старого Анхиза из горящей Трои; и юный Тит Манлий, которого суровый отец сослал в деревню как тупицу, — он пришёл к трибуну, обвинявшему его отца, и, приставив меч, заставил его поклясться, что тот откажется от обвинения.",
+            "uk": "Серед прикладів Сенеки — сини, що перевершили батьків: Еней, який виніс старого Анхіза з палаючої Трої; і юний Тит Манлій, якого суворий батько вислав на село як тупака, — він прийшов до трибуна, що звинувачував його батька, і, приставивши меч, змусив його поклястися, що той відмовиться від обвинувачення.",
+            "pl": "Wśród przykładów Seneki są synowie, którzy prześcignęli ojców: Eneasz, który wyniósł starego Anchizesa z płonącej Troi; i młody Tytus Manliusz, którego surowy ojciec zesłał na wieś jako tępaka — poszedł on do trybuna oskarżającego jego ojca i z mieczem w ręku zmusił go do przysięgi, że porzuci oskarżenie."
+          },
+          "source": "Seneca, On Benefits III.37; Livy, History of Rome 7.4–5; Virgil, Aeneid 2.707–725"
+        },
+        {
+          "fact": {
+            "en": "Exiled to Corsica by the emperor Claudius in AD 41, Seneca wrote a consolation — for his mother, Helvia, grieving for her exiled son. He was recalled in 49 to teach the young Nero.",
+            "ru": "Сосланный императором Клавдием на Корсику в 41 году, Сенека написал утешение — своей матери Гельвии, горевавшей о сыне-изгнаннике. В 49 году его вернули, чтобы он воспитывал юного Нерона.",
+            "uk": "Засланий імператором Клавдієм на Корсику в 41 році, Сенека написав утіху — своїй матері Гельвії, що побивалася за сином-вигнанцем. У 49 році його повернули, щоб він виховував юного Нерона.",
+            "pl": "Zesłany przez cesarza Klaudiusza na Korsykę w 41 roku, Seneka napisał pocieszenie — dla swojej matki Helwii, opłakującej syna wygnańca. W 49 roku odwołano go z wygnania, by wychowywał młodego Nerona."
+          },
+          "source": "Seneca, Consolation to Helvia; Tacitus, Annals 12.8"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Athens, the porch of the King Archon, 399 BC",
+        "ru": "Афины, портик царя-архонта, 399 год до н. э.",
+        "uk": "Афіни, портик архонта-басилевса, 399 рік до н. е.",
+        "pl": "Ateny, portyk archonta-króla, 399 rok p.n.e."
+      },
+      "scene": {
+        "en": "You are Euthyphro, a seer of Athens: when you speak in the Assembly about divine things and foretell the future, people laugh at you. Your family had a farm on the island of Naxos. A labourer there, a poor man who depended on you, killed one of your household slaves in a drunken quarrel. Your father had him bound hand and foot, threw him into a ditch, and sent to Athens to ask an interpreter of sacred law what to do with him; before the messenger came back, the man had died of cold, hunger and his chains. Now you have come to the porch of the King Archon, the magistrate for murder and impiety, to charge your father with murder. Your father and the rest of your family are furious: he did not kill him, they say; if he did, the dead man was a murderer himself; and a son who prosecutes his father is impious. At the porch you meet Socrates, an old man of seventy: a young man named Meletus has charged him with impiety. What do you do?",
+        "ru": "Вы — Евтифрон, афинский прорицатель: когда вы говорите в Народном собрании о божественном и предсказываете будущее, над вами смеются. У вашей семьи было имение на острове Наксос. Тамошний подёнщик, бедняк, зависевший от вас, в пьяной ссоре убил одного из ваших домашних рабов. Ваш отец велел связать его по рукам и ногам, бросил в ров и послал в Афины спросить у толкователя священного закона, что с ним делать; прежде чем посланный вернулся, человек умер от холода, голода и оков. И вот вы пришли к портику царя-архонта — магистрата, ведающего убийствами и нечестием, — чтобы обвинить отца в убийстве. Отец и вся родня в ярости: он его не убивал, говорят они; а если и убил, то убитый сам был убийцей; и сын, преследующий по суду отца, нечестив. У портика вы встречаете Сократа, семидесятилетнего старика: молодой человек по имени Мелет обвинил его в нечестии. Что вы сделаете?",
+        "uk": "Ви — Євтифрон, афінський віщун: коли ви говорите в Народних зборах про божественне й передрікаєте майбутнє, з вас сміються. Ваша родина мала маєток на острові Наксос. Тамтешній наймит, бідняк, що залежав від вас, у п’яній сварці вбив одного з ваших домашніх рабів. Ваш батько звелів зв’язати його по руках і ногах, кинув у рів і послав до Афін спитати в тлумача священного закону, що з ним робити; перш ніж посланець повернувся, чоловік помер від холоду, голоду й кайданів. І ось ви прийшли до портика архонта-басилевса — магістрата, що відає вбивствами й нечестям, — щоб звинуватити батька у вбивстві. Батько й уся рідня розлючені: він його не вбивав, кажуть вони; а якщо й убив, то вбитий сам був убивцею; і син, що переслідує судом батька, нечестивий. Біля портика ви зустрічаєте Сократа, сімдесятилітнього старого: молодий чоловік на ім’я Мелет звинуватив його в нечесті. Що ви зробите?",
+        "pl": "Jesteś Eutyfronem, ateńskim wieszczem: gdy mówisz na Zgromadzeniu o sprawach boskich i przepowiadasz przyszłość, ludzie się z ciebie śmieją. Twoja rodzina miała gospodarstwo na wyspie Naksos. Tamtejszy najemnik, ubogi człowiek zależny od ciebie, w pijackiej kłótni zabił jednego z waszych domowych niewolników. Twój ojciec kazał go związać za ręce i nogi, wrzucił do rowu i posłał do Aten, by zapytać objaśniacza świętego prawa, co z nim zrobić; zanim posłaniec wrócił, człowiek umarł z zimna, głodu i od kajdan. I oto przyszedłeś do portyku archonta-króla — urzędnika od zabójstw i bezbożności — by oskarżyć ojca o zabójstwo. Ojciec i cała rodzina są wściekli: nie zabił go, mówią; a jeśli nawet zabił, to zmarły sam był zabójcą; a syn, który ściga ojca przed sądem, jest bezbożny. Przy portyku spotykasz Sokratesa, siedemdziesięcioletniego starca: młody człowiek imieniem Meletos oskarżył go o bezbożność. Co zrobisz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Drop the case: a son must not accuse his father — your family is right",
+            "ru": "Отказаться от дела: сын не должен обвинять отца — родня права",
+            "uk": "Відмовитися від справи: син не повинен звинувачувати батька — рідня має рацію",
+            "pl": "Porzucić sprawę: syn nie powinien oskarżać ojca — rodzina ma rację"
+          },
+          "reply": {
+            "en": "Euthyphro would not hear of it: his family, he said, knew little of what the gods think about piety and impiety.",
+            "ru": "Евтифрон и слышать об этом не хотел: его родня, говорил он, мало знает о том, что думают боги о благочестии и нечестии.",
+            "uk": "Євтифрон і чути про це не хотів: його рідня, казав він, мало знає про те, що думають боги про благочестя й нечестя.",
+            "pl": "Eutyfron nie chciał o tym słyszeć: jego rodzina, mówił, niewiele wie o tym, co bogowie myślą o pobożności i bezbożności."
+          }
+        },
+        {
+          "choice": {
+            "en": "Go on with it: the guilty must be punished, father or not — even Zeus bound his own father",
+            "ru": "Довести дело до конца: виновный должен быть наказан, отец он или нет, — ведь и Зевс связал собственного отца",
+            "uk": "Довести справу до кінця: винного треба покарати, батько він чи ні, — адже й Зевс зв’язав власного батька",
+            "pl": "Doprowadzić sprawę do końca: winny musi zostać ukarany, ojciec czy nie — przecież i Zeus spętał własnego ojca"
+          },
+          "reply": {
+            "en": "That was Euthyphro's own answer — piety, he said, is doing as I am doing; but when Socrates asked him what piety is, he could not say.",
+            "ru": "Таков и был ответ Евтифрона: благочестие, сказал он, — это поступать так, как поступаю я; но когда Сократ спросил его, что такое благочестие, он не смог ответить.",
+            "uk": "Такою й була відповідь Євтифрона: благочестя, сказав він, — це чинити так, як чиню я; але коли Сократ спитав його, що таке благочестя, він не зміг відповісти.",
+            "pl": "Taka właśnie była odpowiedź Eutyfrona: pobożność, powiedział, to postępować tak, jak ja postępuję; lecz gdy Sokrates zapytał go, czym jest pobożność, nie umiał odpowiedzieć."
+          }
+        },
+        {
+          "choice": {
+            "en": "Cover for your father, as Confucius would: a son conceals the misconduct of his father",
+            "ru": "Покрыть отца, как сказал бы Конфуций: сын скрывает проступок отца",
+            "uk": "Покрити батька, як сказав би Конфуцій: син приховує провину батька",
+            "pl": "Osłonić ojca, jak powiedziałby Konfucjusz: syn ukrywa występek ojca"
+          },
+          "reply": {
+            "en": "No one at the porch says so; and Euthyphro's answer would have been that to live knowingly with an unpunished killer is a pollution — on the son as much as on the father.",
+            "ru": "Никто у портика так не говорит; а Евтифрон ответил бы, что сознательно жить рядом с ненаказанным убийцей — скверна, и на сыне не меньше, чем на отце.",
+            "uk": "Ніхто біля портика так не каже; а Євтифрон відповів би, що свідомо жити поруч із непокараним убивцею — скверна, і на синові не менше, ніж на батькові.",
+            "pl": "Nikt przy portyku tak nie mówi; a Eutyfron odpowiedziałby, że świadomie żyć obok nieukaranego zabójcy to zmaza — na synu nie mniejsza niż na ojcu."
+          }
+        },
+        {
+          "choice": {
+            "en": "Before you go in, ask Socrates what piety really is",
+            "ru": "Прежде чем войти, спросить Сократа, что же такое благочестие",
+            "uk": "Перш ніж увійти, спитати Сократа, що ж таке благочестя",
+            "pl": "Zanim wejdziesz, zapytać Sokratesa, czym naprawdę jest pobożność"
+          },
+          "reply": {
+            "en": "It was Socrates who asked — and that is the dialogue Plato wrote: one definition after another, each refuted, until Euthyphro remembered he was in a hurry.",
+            "ru": "Спрашивал как раз Сократ — и это и есть диалог, который написал Платон: одно определение за другим, и каждое опровергнуто, пока Евтифрон не вспомнил, что спешит.",
+            "uk": "Питав якраз Сократ — і це і є діалог, який написав Платон: одне визначення за іншим, і кожне спростовано, аж поки Євтифрон не згадав, що поспішає.",
+            "pl": "To Sokrates pytał — i to jest właśnie dialog, który napisał Platon: jedna definicja po drugiej, każda obalona, aż Eutyfron przypomniał sobie, że się spieszy."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "Plato tells only the conversation. Asked what piety is, Euthyphro answers: doing as I am doing — prosecuting the wrongdoer, be he your father or your mother; Zeus himself, the best and most righteous of the gods, bound his own father. Socrates presses him: is the pious loved by the gods because it is pious, or is it pious because the gods love it? Each of Euthyphro's answers comes round to where it began, and when Socrates begs him to start again, he says: another time, Socrates, I am in a hurry. Plato does not say whether he went on with the charge, and we do not know how the case ended. Some six centuries later Diogenes Laertius wrote that Socrates turned him from his purpose — which may be no more than his own reading of the dialogue. Socrates went in to answer Meletus; that same year, 399 BC, he was tried for impiety, condemned and put to death.",
+        "ru": "Платон передаёт лишь разговор. На вопрос, что такое благочестие, Евтифрон отвечает: поступать так, как поступаю я, — преследовать преступника, будь то твой отец или мать; ведь сам Зевс, лучший и справедливейший из богов, связал собственного отца. Сократ наседает: благочестивое любимо богами потому, что оно благочестиво, или оно благочестиво потому, что его любят боги? Каждый ответ Евтифрона возвращается туда, откуда начался, и когда Сократ умоляет его начать сначала, тот говорит: в другой раз, Сократ, я спешу. Платон не говорит, довёл ли он обвинение до суда, и мы не знаем, чем кончилось дело. Примерно шесть веков спустя Диоген Лаэртский написал, что Сократ отвратил его от этого намерения, — возможно, это лишь его собственное прочтение диалога. Сократ вошёл в портик, чтобы ответить Мелету; в том же 399 году до н. э. его судили за нечестие, осудили и казнили.",
+        "uk": "Платон переказує лише розмову. На запитання, що таке благочестя, Євтифрон відповідає: чинити так, як чиню я, — переслідувати злочинця, хай то буде твій батько чи мати; адже сам Зевс, найкращий і найсправедливіший з богів, зв’язав власного батька. Сократ наполягає: благочестиве люблять боги тому, що воно благочестиве, чи воно благочестиве тому, що його люблять боги? Кожна відповідь Євтифрона повертається туди, звідки почалася, і коли Сократ благає його почати спочатку, той каже: іншим разом, Сократе, я поспішаю. Платон не каже, чи довів він обвинувачення до суду, і ми не знаємо, чим скінчилася справа. Приблизно через шість століть Діоген Лаертський написав, що Сократ відвернув його від цього наміру, — можливо, це лише його власне прочитання діалогу. Сократ увійшов до портика, щоб відповісти Мелетові; того ж 399 року до н. е. його судили за нечестя, засудили й стратили.",
+        "pl": "Platon przekazuje tylko rozmowę. Zapytany, czym jest pobożność, Eutyfron odpowiada: postępować tak, jak ja postępuję — ścigać złoczyńcę, czy to ojca, czy matkę; przecież sam Zeus, najlepszy i najsprawiedliwszy z bogów, spętał własnego ojca. Sokrates naciska: czy to, co pobożne, bogowie kochają dlatego, że jest pobożne, czy jest ono pobożne dlatego, że bogowie je kochają? Każda odpowiedź Eutyfrona wraca tam, skąd wyszła, a gdy Sokrates błaga go, by zaczęli od nowa, ten mówi: innym razem, Sokratesie, spieszę się. Platon nie mówi, czy Eutyfron podtrzymał oskarżenie, i nie wiemy, jak sprawa się skończyła. Jakieś sześć wieków później Diogenes Laertios napisał, że Sokrates odwiódł go od tego zamiaru — być może to tylko jego własne odczytanie dialogu. Sokrates wszedł do portyku, by odpowiedzieć Meletosowi; tego samego roku, 399 p.n.e., sądzono go za bezbożność, skazano i stracono."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Euthyphro to Socrates, in Plato's Euthyphro (4b–e)",
+            "ru": "Евтифрон — Сократу, в «Евтифроне» Платона (4b–e)",
+            "uk": "Євтифрон — Сократові, в «Євтифроні» Платона (4b–e)",
+            "pl": "Eutyfron do Sokratesa, w Eutyfronie Platona (4b–e)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "euthyphro-parents.en.jowett",
+              "from": "4b",
+              "to": "4e",
+              "text": "I am amused, Socrates, at your making a distinction between one who is a relation and one who is not a relation; for surely the pollution is the same in either case, if you knowingly associate with the murderer when you ought to clear yourself and him by proceeding against him. The real question is whether the murdered man has been justly slain. If justly, then your duty is to let the matter alone; but if unjustly, then even if the murderer lives under the same roof with you and eats at the same table, proceed against him. Now the man who is dead was a poor dependant of mine who worked for us as a field labourer on our farm in Naxos, and one day in a fit of drunken passion he got into a quarrel with one of our domestic servants and slew him. My father bound him hand and foot and threw him into a ditch, and then sent to Athens to ask of a diviner what he should do with him. Meanwhile he never attended to him and took no care about him, for he regarded him as a murderer; and thought that no great harm would be done even if he did die. Now this was just what happened. For such was the effect of cold and hunger and chains upon him, that before the messenger returned from the diviner, he was dead. And my father and family are angry with me for taking the part of the murderer and prosecuting my father. They say that he did not kill him, and that if he did, the dead man was but a murderer, and I ought not to take any notice, for that a son is impious who prosecutes a father. Which shows, Socrates, how little they know what the gods think about piety and impiety.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Euthyphro",
+                "lang": "en",
+                "title": "Plato, Euthyphro"
+              }
+            },
+            "ru": {
+              "edition": "euthyphro-parents.ru.ours",
+              "from": "4b",
+              "to": "4e",
+              "text": "Смешно мне, Сократ, что ты различаешь, родственник убитый или нет; ведь скверна одинакова в обоих случаях, если ты сознательно водишься с убийцей, вместо того чтобы очистить и себя, и его, преследуя его по суду. Вопрос же на деле в том, справедливо ли убит убитый. Если справедливо, твой долг — оставить дело в покое; если же несправедливо, то, даже если убийца живёт с тобой под одной крышей и ест за одним столом, преследуй его. А умерший был бедным человеком, зависевшим от меня, он работал у нас подёнщиком в поле, в нашем имении на Наксосе; и однажды в пьяном гневе он поссорился с одним из наших домашних рабов и убил его. Отец связал его по рукам и ногам, бросил в ров, а потом послал в Афины спросить у толкователя, что с ним делать. Тем временем он о нём совсем не заботился и не смотрел за ним, считая его убийцей и думая, что не будет большой беды, даже если тот умрёт. Так и случилось. От холода, голода и оков он умер прежде, чем посланный вернулся от толкователя. И вот отец и родные сердятся на меня за то, что я встал на сторону убийцы и преследую по суду отца. Они говорят, что он его не убивал, а если и убил, то убитый был всего лишь убийцей и мне не следует об этом беспокоиться, ибо нечестив сын, преследующий по суду отца. Вот как мало, Сократ, они знают о том, что думают боги о благочестивом и нечестивом.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Euthyphro",
+                "lang": "en",
+                "title": "Платон, «Евтифрон»"
+              }
+            },
+            "uk": {
+              "edition": "euthyphro-parents.uk.ours",
+              "from": "4b",
+              "to": "4e",
+              "text": "Смішно мені, Сократе, що ти розрізняєш, родич убитий чи ні; адже скверна однакова в обох випадках, якщо ти свідомо знаєшся з убивцею, замість того щоб очистити і себе, і його, переслідуючи його судом. Питання ж насправді в тому, чи справедливо вбито вбитого. Якщо справедливо, твій обов’язок — облишити справу; якщо ж несправедливо, то, навіть якщо вбивця живе з тобою під одним дахом і їсть за одним столом, переслідуй його. А померлий був бідною людиною, що залежала від мене, він працював у нас наймитом у полі, у нашому маєтку на Наксосі; і одного дня в п’яному гніві він посварився з одним із наших домашніх рабів і вбив його. Батько зв’язав його по руках і ногах, кинув у рів, а потім послав до Афін спитати в тлумача, що з ним робити. Тим часом він зовсім про нього не дбав і не наглядав за ним, вважаючи його вбивцею і гадаючи, що не буде великої біди, навіть якщо той помре. Так і сталося. Від холоду, голоду й кайданів він помер раніше, ніж посланець повернувся від тлумача. І ось батько й родичі гніваються на мене за те, що я став на бік убивці й переслідую судом батька. Вони кажуть, що він його не вбивав, а якщо й убив, то вбитий був лише вбивцею і мені не слід на це зважати, бо нечестивий той син, що переслідує судом батька. Ось як мало, Сократе, вони знають про те, що думають боги про благочестиве й нечестиве.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Euthyphro",
+                "lang": "en",
+                "title": "Платон, «Євтифрон»"
+              }
+            },
+            "pl": {
+              "edition": "euthyphro-parents.pl.ours",
+              "from": "4b",
+              "to": "4e",
+              "text": "Śmieszy mnie, Sokratesie, że rozróżniasz, czy zabity był krewnym, czy nie; przecież zmaza jest taka sama w obu przypadkach, jeśli świadomie obcujesz z zabójcą, zamiast oczyścić i siebie, i jego, ścigając go przed sądem. Prawdziwe pytanie brzmi, czy zabity zginął słusznie. Jeśli słusznie, twoim obowiązkiem jest zostawić sprawę w spokoju; jeśli zaś niesłusznie, to choćby zabójca mieszkał z tobą pod jednym dachem i jadał przy jednym stole, ścigaj go. Otóż zmarły był ubogim człowiekiem zależnym ode mnie, pracował u nas jako najemnik w polu, w naszym gospodarstwie na Naksos; i pewnego dnia w pijanym gniewie pokłócił się z jednym z naszych domowych niewolników i zabił go. Mój ojciec związał go za ręce i nogi, wrzucił do rowu, a potem posłał do Aten, by zapytać objaśniacza, co z nim zrobić. Tymczasem wcale się nim nie zajmował ani o niego nie dbał, uważając go za zabójcę i sądząc, że nie stanie się wielkie nieszczęście, nawet jeśli umrze. I tak właśnie się stało. Od zimna, głodu i kajdan umarł, zanim posłaniec wrócił od objaśniacza. I oto ojciec i krewni gniewają się na mnie, że stanąłem po stronie zabójcy i ścigam ojca przed sądem. Mówią, że go nie zabił, a jeśli nawet zabił, to zmarły był tylko zabójcą i nie powinienem się tym przejmować, bo bezbożny jest syn, który ściga ojca przed sądem. Oto jak mało, Sokratesie, wiedzą o tym, co bogowie myślą o pobożności i bezbożności.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Euthyphro",
+                "lang": "en",
+                "title": "Platon, Eutyfron"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg001.perseus-grc1:4/"
+          }
+        },
+        {
+          "by": {
+            "en": "Socrates' answer (4e)",
+            "ru": "Ответ Сократа (4e)",
+            "uk": "Відповідь Сократа (4e)",
+            "pl": "Odpowiedź Sokratesa (4e)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "euthyphro-parents.en.jowett",
+              "from": "4e",
+              "to": "4e",
+              "text": "Good heavens, Euthyphro! and is your knowledge of religion and of things pious and impious so very exact, that, supposing the circumstances to be as you state them, you are not afraid lest you too may be doing an impious thing in bringing an action against your father?",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Euthyphro",
+                "lang": "en",
+                "title": "Plato, Euthyphro"
+              }
+            },
+            "ru": {
+              "edition": "euthyphro-parents.ru.ours",
+              "from": "4e",
+              "to": "4e",
+              "text": "Боги мои, Евтифрон! Неужели ты так точно знаешь божественное и что благочестиво, а что нечестиво, что, если всё было так, как ты говоришь, не боишься, как бы и самому не совершить нечестия, привлекая к суду отца?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Euthyphro",
+                "lang": "en",
+                "title": "Платон, «Евтифрон»"
+              }
+            },
+            "uk": {
+              "edition": "euthyphro-parents.uk.ours",
+              "from": "4e",
+              "to": "4e",
+              "text": "Боги мої, Євтифроне! Невже ти так точно знаєш божественне і що благочестиве, а що нечестиве, що, коли все було так, як ти кажеш, не боїшся, щоб і самому не вчинити нечестя, позиваючи до суду батька?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Euthyphro",
+                "lang": "en",
+                "title": "Платон, «Євтифрон»"
+              }
+            },
+            "pl": {
+              "edition": "euthyphro-parents.pl.ours",
+              "from": "4e",
+              "to": "4e",
+              "text": "Na bogów, Eutyfronie! Czyżbyś tak dokładnie znał rzeczy boskie i to, co pobożne, a co bezbożne, że — jeśli wszystko było tak, jak mówisz — nie boisz się, że i ty sam popełniasz bezbożność, pozywając do sądu ojca?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Euthyphro",
+                "lang": "en",
+                "title": "Platon, Eutyfron"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg001.perseus-grc1:4/"
+          }
+        },
+        {
+          "by": {
+            "en": "The end of the dialogue: Socrates, then Euthyphro (15d–e)",
+            "ru": "Конец диалога: Сократ, затем Евтифрон (15d–e)",
+            "uk": "Кінець діалогу: Сократ, потім Євтифрон (15d–e)",
+            "pl": "Koniec dialogu: Sokrates, potem Eutyfron (15d–e)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "euthyphro-parents.en.jowett",
+              "from": "15d",
+              "to": "15e",
+              "text": "If you had not certainly known the nature of piety and impiety, I am confident that you would never, on behalf of a serf, have charged your aged father with murder. You would not have run such a risk of doing wrong in the sight of the gods, and you would have had too much respect for the opinions of men. I am sure, therefore, that you know the nature of piety and impiety. Speak out then, my dear Euthyphro, and do not hide your knowledge. Euth. Another time, Socrates; for I am in a hurry, and must go now.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Euthyphro",
+                "lang": "en",
+                "title": "Plato, Euthyphro"
+              }
+            },
+            "ru": {
+              "edition": "euthyphro-parents.ru.ours",
+              "from": "15d",
+              "to": "15e",
+              "text": "Если бы ты не знал наверняка, что такое благочестие и нечестие, ты, я уверен, никогда не стал бы ради подёнщика обвинять в убийстве престарелого отца. Ты не пошёл бы на такой риск — поступить дурно перед богами — и слишком считался бы с мнением людей. Поэтому я уверен, что ты знаешь, что такое благочестие и нечестие. Так говори же, дорогой Евтифрон, и не скрывай своего знания. Евтифрон. В другой раз, Сократ; сейчас я спешу, и мне пора идти.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Euthyphro",
+                "lang": "en",
+                "title": "Платон, «Евтифрон»"
+              }
+            },
+            "uk": {
+              "edition": "euthyphro-parents.uk.ours",
+              "from": "15d",
+              "to": "15e",
+              "text": "Якби ти не знав напевно, що таке благочестя й нечестя, ти, я певен, ніколи не став би заради наймита звинувачувати в убивстві старого батька. Ти не пішов би на такий ризик — учинити зле перед богами — і надто зважав би на думку людей. Тож я певен, що ти знаєш, що таке благочестя й нечестя. Тому говори, любий Євтифроне, і не приховуй свого знання. Євтифрон. Іншим разом, Сократе; зараз я поспішаю, і мені час іти.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Euthyphro",
+                "lang": "en",
+                "title": "Платон, «Євтифрон»"
+              }
+            },
+            "pl": {
+              "edition": "euthyphro-parents.pl.ours",
+              "from": "15d",
+              "to": "15e",
+              "text": "Gdybyś nie wiedział na pewno, czym jest pobożność i bezbożność, nigdy, jestem pewien, nie oskarżyłbyś o zabójstwo sędziwego ojca z powodu najemnika. Nie ważyłbyś się na takie ryzyko, że postąpisz źle w oczach bogów, i zbyt liczyłbyś się ze zdaniem ludzi. Jestem więc pewien, że wiesz, czym jest pobożność i bezbożność. Mów zatem, drogi Eutyfronie, i nie ukrywaj swojej wiedzy. Eutyfron. Innym razem, Sokratesie; teraz się spieszę i muszę już iść.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Euthyphro",
+                "lang": "en",
+                "title": "Platon, Eutyfron"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg001.perseus-grc1:15/"
+          }
+        },
+        {
+          "by": {
+            "en": "Diogenes Laertius, Lives of the Eminent Philosophers 2.29 (3rd century AD), on Socrates",
+            "ru": "Диоген Лаэртский, «О жизни, учениях и изречениях знаменитых философов», 2.29 (III век н. э.), о Сократе",
+            "uk": "Діоген Лаертський, «Про життя, вчення і вислови славетних філософів», 2.29 (III століття н. е.), про Сократа",
+            "pl": "Diogenes Laertios, Żywoty i poglądy słynnych filozofów 2.29 (III wiek n.e.), o Sokratesie"
+          },
+          "quotes": {
+            "en": {
+              "edition": "lives-parents.en.hicks",
+              "from": "2.29",
+              "to": "2.29",
+              "text": "He showed equal ability in both directions, in persuading and dissuading men; thus, after conversing with Theaetetus about knowledge, he sent him away, as Plato says, fired with a divine impulse; but when Euthyphro had indicted his father for manslaughter, Socrates, after some conversation with him upon piety, diverted him from his purpose.",
+              "kind": "Free",
+              "translator": "R. D. Hicks",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X",
+                "lang": "en",
+                "title": "Diogenes Laertius, Lives of the Eminent Philosophers"
+              }
+            },
+            "ru": {
+              "edition": "lives-parents.ru.ours",
+              "from": "2.29",
+              "to": "2.29",
+              "text": "Он был одинаково искусен в том и другом — и убеждать людей, и разубеждать: так, побеседовав с Теэтетом о знании, он отпустил его, как говорит Платон, исполненным божественного порыва; а когда Евтифрон привлёк своего отца к суду за непредумышленное убийство, Сократ, поговорив с ним о благочестии, отвратил его от этого намерения.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X",
+                "lang": "en",
+                "title": "Диоген Лаэртский, «О жизни, учениях и изречениях знаменитых философов»"
+              }
+            },
+            "uk": {
+              "edition": "lives-parents.uk.ours",
+              "from": "2.29",
+              "to": "2.29",
+              "text": "Він був однаково вправний у тому й іншому — і переконувати людей, і відраджувати: так, порозмовлявши з Теететом про знання, він відпустив його, як каже Платон, сповненим божественного пориву; а коли Євтифрон позвав свого батька до суду за ненавмисне вбивство, Сократ, поговоривши з ним про благочестя, відвернув його від цього наміру.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X",
+                "lang": "en",
+                "title": "Діоген Лаертський, «Життя, вчення і вислови знаменитих філософів»"
+              }
+            },
+            "pl": {
+              "edition": "lives-parents.pl.ours",
+              "from": "2.29",
+              "to": "2.29",
+              "text": "Był równie biegły w jednym i drugim — w przekonywaniu ludzi i w odwodzeniu ich: tak oto, porozmawiawszy z Teajtetem o wiedzy, odprawił go, jak mówi Platon, natchnionego boskim zapałem; a gdy Eutyfron oskarżył swego ojca o nieumyślne zabójstwo, Sokrates, porozmawiawszy z nim o pobożności, odwiódł go od tego zamiaru.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X",
+                "lang": "en",
+                "title": "Diogenes Laertios, Żywoty i poglądy słynnych filozofów"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0257:book=2:chapter=5"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The King Archon was the magistrate for religion: indictments for impiety and all actions for homicide came before him — which is why Socrates and Euthyphro, the accused and the accuser, met at his door.",
+            "ru": "Царь-архонт ведал делами веры: к нему поступали обвинения в нечестии и все иски об убийстве, — вот почему Сократ и Евтифрон, обвиняемый и обвинитель, встретились у его дверей.",
+            "uk": "Архонт-басилевс відав справами віри: до нього надходили обвинувачення в нечесті й усі позови про вбивство, — ось чому Сократ і Євтифрон, обвинувачений і обвинувач, зустрілися біля його дверей.",
+            "pl": "Archont-król był urzędnikiem od spraw religii: trafiały do niego oskarżenia o bezbożność i wszystkie skargi o zabójstwo — dlatego Sokrates i Eutyfron, oskarżony i oskarżyciel, spotkali się u jego drzwi."
+          },
+          "source": "The Constitution of the Athenians (Aristotle's school) 57.2; Plato, Euthyphro 2a"
+        },
+        {
+          "fact": {
+            "en": "In Athens a killing was prosecuted by the dead man's kin, or by the master of a slave — not by the state. That is why Socrates at once supposes the dead man must have been Euthyphro's relative: for a stranger, he says, no one would have thought of prosecuting.",
+            "ru": "В Афинах убийство преследовали родственники убитого или хозяин раба — а не государство. Поэтому Сократ сразу предполагает, что убитый был родственником Евтифрона: ради чужого, говорит он, никто и не подумал бы подавать в суд.",
+            "uk": "В Афінах убивство переслідували родичі вбитого або господар раба — а не держава. Тому Сократ одразу припускає, що вбитий був родичем Євтифрона: заради чужого, каже він, ніхто й не подумав би позиватися.",
+            "pl": "W Atenach zabójstwo ścigali krewni zabitego albo pan niewolnika — nie państwo. Dlatego Sokrates od razu przypuszcza, że zabity musiał być krewnym Eutyfrona: z powodu obcego, mówi, nikt nawet nie pomyślałby o oskarżeniu."
+          },
+          "source": "Plato, Euthyphro 4b; Douglas M. MacDowell, The Law in Classical Athens (1978)"
+        },
+        {
+          "fact": {
+            "en": "The Royal Stoa, the King Archon's porch on the edge of the Agora, was found by the American excavators of the Athenian Agora in 1970, at the north-west corner of the square.",
+            "ru": "Царский портик — портик царя-архонта на краю Агоры — нашли американские археологи, раскапывающие афинскую Агору, в 1970 году, в северо-западном углу площади.",
+            "uk": "Царський портик — портик архонта-басилевса на краю Агори — знайшли американські археологи, що розкопують афінську Агору, 1970 року, у північно-західному куті площі.",
+            "pl": "Portyk Królewski — portyk archonta-króla na skraju Agory — odnaleźli w 1970 roku amerykańscy archeolodzy prowadzący wykopaliska na ateńskiej Agorze, w północno-zachodnim narożniku placu."
+          },
+          "source": "John M. Camp, The Athenian Agora: Excavations in the Heart of Classical Athens (1986)"
+        }
+      ]
+    },
+    {
+      "think": "parents",
+      "question": {
+        "en": "Think of your own parents, or whoever brought you up. Is what you owe them a debt — something they could rightly ask back — or something else? Is there anything they could ask of you that you would refuse? And if one of them had done a grave wrong, would you speak, or keep silent?",
+        "ru": "Подумайте о своих родителях — или о тех, кто вас вырастил. То, что вы им должны, — это долг, который они вправе потребовать назад, или что-то иное? Есть ли что-то, о чём они могли бы вас попросить и в чём вы бы отказали? И если бы один из них совершил тяжкое зло — вы бы заговорили или промолчали?",
+        "uk": "Подумайте про своїх батьків — або про тих, хто вас виростив. Те, що ви їм винні, — це борг, який вони мають право вимагати назад, чи щось інше? Чи є щось, про що вони могли б вас попросити і в чому ви б відмовили? І якби хтось із них учинив тяжке зло — ви б заговорили чи промовчали?",
+        "pl": "Pomyśl o swoich rodzicach — albo o tych, którzy cię wychowali. To, co jesteś im winien, to dług, którego mają prawo się domagać, czy coś innego? Czy jest coś, o co mogliby cię poprosić, a czego byś odmówił? A gdyby któreś z nich wyrządziło ciężkie zło — przemówiłbyś czy zamilkł?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: what do we owe our parents?",
+        "ru": "А теперь: что мы должны своим родителям?",
+        "uk": "А тепер: що ми винні своїм батькам?",
+        "pl": "A teraz: co jesteśmy winni naszym rodzicom?"
+      }
+    }
+  ]
+}
