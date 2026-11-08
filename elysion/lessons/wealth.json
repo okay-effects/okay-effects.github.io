@@ -1,0 +1,1164 @@
+{
+  "id": "wealth",
+  "title": {
+    "en": "What is wealth for?",
+    "ru": "Для чего богатство?",
+    "uk": "Для чого багатство?",
+    "pl": "Do czego służy bogactwo?"
+  },
+  "subtitle": {
+    "en": "Aristotle, the Gospel, Mencius, Adam Smith, Thoreau, Francis of Assisi — and you",
+    "ru": "Аристотель, Евангелие, Мэн-цзы, Адам Смит, Торо, Франциск Ассизский — и вы",
+    "uk": "Аристотель, Євангеліє, Мен-цзи, Адам Сміт, Торо, Франциск Ассизький — і ви",
+    "pl": "Arystoteles, Ewangelia, Mencjusz, Adam Smith, Thoreau, Franciszek z Asyżu — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: what is wealth for?",
+        "ru": "Прежде чем читать кого-либо: для чего богатство?",
+        "uk": "Перш ніж читати когось: для чого багатство?",
+        "pl": "Zanim kogokolwiek przeczytasz: do czego służy bogactwo?"
+      },
+      "options": [
+        {
+          "en": "To live well: wealth is a tool, and a tool has its measure",
+          "ru": "Чтобы жить хорошо: богатство — орудие, а у орудия есть своя мера",
+          "uk": "Щоб жити добре: багатство — знаряддя, а знаряддя має свою міру",
+          "pl": "By dobrze żyć: bogactwo to narzędzie, a narzędzie ma swoją miarę"
+        },
+        {
+          "en": "To give: what we keep only for ourselves ends up owning us",
+          "ru": "Чтобы отдавать: то, что мы храним лишь для себя, в конце концов владеет нами",
+          "uk": "Щоб віддавати: те, що ми бережемо лише для себе, зрештою володіє нами",
+          "pl": "By dawać: to, co trzymamy tylko dla siebie, w końcu zaczyna nami władać"
+        },
+        {
+          "en": "For freedom and comfort: the more you have, the more you can choose and do",
+          "ru": "Для свободы и удобства: чем больше у тебя есть, тем больше ты можешь выбирать и делать",
+          "uk": "Для свободи й вигоди: що більше маєш, то більше можеш обирати й робити",
+          "pl": "Dla wolności i wygody: im więcej masz, tym więcej możesz wybierać i robić"
+        },
+        {
+          "en": "It matters less than we think: the richest is the one who needs least",
+          "ru": "Оно значит меньше, чем мы думаем: богаче всех тот, кому меньше всего нужно",
+          "uk": "Воно важить менше, ніж ми думаємо: найбагатший той, кому найменше потрібно",
+          "pl": "Znaczy mniej, niż myślimy: najbogatszy jest ten, kto najmniej potrzebuje"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Aristotle: wealth has a limit",
+        "ru": "Аристотель: у богатства есть предел",
+        "uk": "Аристотель: багатство має межу",
+        "pl": "Arystoteles: bogactwo ma granicę"
+      },
+      "intro": {
+        "en": "Athens, the 330s BC. Aristotle teaches at the Lyceum. His Politics begins with the household — a family, its land, its slaves, its stores — and asks what it needs to live. Getting that, he says, is an art with a measure, like every art: true wealth is a store of things useful for life, and the amount a good life needs is not unlimited. But since coined money came into use, a second art has grown up beside the first — trade for gain — and with it the belief that wealth has no end:",
+        "ru": "Афины, 330-е годы до н. э. Аристотель преподаёт в Ликее. Его «Политика» начинается с дома — семьи с её землёй, рабами и запасами — и спрашивает, что нужно дому для жизни. Добывать это, говорит он, — искусство, у которого, как у всякого искусства, есть мера: истинное богатство — запас вещей, полезных для жизни, и хорошей жизни их нужно не беспредельно много. Но с тех пор как в ходу появилась монета, рядом с первым искусством выросло второе — торговля ради наживы, — а с ним и убеждение, что богатству нет конца:",
+        "uk": "Афіни, 330-ті роки до н. е. Аристотель викладає в Лікеї. Його «Політика» починається з дому — родини з її землею, рабами й запасами — і питає, чого дому треба для життя. Здобувати це, каже він, — мистецтво, що, як і кожне мистецтво, має міру: справжнє багатство — запас речей, корисних для життя, і доброму життю їх треба не безмежно багато. Але відколи в обіг увійшла монета, поряд із першим мистецтвом виросло друге — торгівля задля наживи, — а з ним і переконання, що багатству немає кінця:",
+        "pl": "Ateny, lata 30. IV wieku p.n.e. Arystoteles naucza w Likejonie. Jego Polityka zaczyna od domu — rodziny z jej ziemią, niewolnikami i zapasami — i pyta, czego dom potrzebuje do życia. Zdobywanie tego, mówi, jest sztuką, która jak każda sztuka ma swoją miarę: prawdziwe bogactwo to zapas rzeczy użytecznych do życia, a dobre życie nie potrzebuje ich bez końca. Odkąd jednak w użyciu pojawiła się moneta, obok pierwszej sztuki wyrosła druga — handel dla zysku — a z nią przekonanie, że bogactwo nie ma kresu:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Aristotle, Politics I.9 (1257b14–17)",
+            "ru": "Аристотель, «Политика», I.9 (1257b14–17)",
+            "uk": "Аристотель, «Політика», I.9 (1257b14–17)",
+            "pl": "Arystoteles, Polityka I.9 (1257b14–17)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "politics-wealth.en.jowett",
+              "from": "1257b14",
+              "to": "1257b17",
+              "text": "And, indeed, he who is rich in coin may often be in want of necessary food. But how can that be wealth of which a man may have a great abundance and yet perish with hunger, like Midas in the fable, whose insatiable prayer turned everything that was set before him into gold?",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058",
+                "lang": "en",
+                "title": "Aristotle, Politics"
+              }
+            },
+            "ru": {
+              "edition": "politics-wealth.ru.ours",
+              "from": "1257b14",
+              "to": "1257b17",
+              "text": "И в самом деле, тот, кто богат монетой, нередко может нуждаться в необходимой пище. Но как может быть богатством то, чего у человека может быть в великом изобилии, а он всё же погибнет от голода, подобно Мидасу из басни, чья ненасытная мольба обратила в золото всё, что перед ним ставили?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/Политика_(Аристотель)/О_домохозяйстве_и_рабстве",
+                "lang": "ru",
+                "title": "Аристотель, «Политика»"
+              }
+            },
+            "uk": {
+              "edition": "politics-wealth.uk.ours",
+              "from": "1257b14",
+              "to": "1257b17",
+              "text": "І справді, той, хто багатий на монету, нерідко може потерпати від нестачі необхідної їжі. Але як може бути багатством те, чого людина може мати у великому достатку і все ж загинути від голоду, мов Мідас із байки, чия ненаситна молитва обернула на золото все, що перед ним ставили?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058",
+                "lang": "en",
+                "title": "Аристотель, «Політика»"
+              }
+            },
+            "pl": {
+              "edition": "politics-wealth.pl.ours",
+              "from": "1257b14",
+              "to": "1257b17",
+              "text": "I rzeczywiście, ten, kto jest bogaty w monetę, może często cierpieć brak koniecznego pożywienia. Lecz jakże może być bogactwem coś, czego człowiek może mieć w wielkiej obfitości, a mimo to zginąć z głodu, jak Midas z baśni, którego nienasycona prośba zamieniła w złoto wszystko, co przed nim stawiano?",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058",
+                "lang": "en",
+                "title": "Arystoteles, Polityka"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg035.perseus-grc2:1.1257b/"
+          }
+        },
+        {
+          "by": {
+            "en": "The same, I.9 (1257b38–1258a2)",
+            "ru": "Там же, I.9 (1257b38–1258a2)",
+            "uk": "Там само, I.9 (1257b38–1258a2)",
+            "pl": "Tamże, I.9 (1257b38–1258a2)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "politics-wealth.en.jowett",
+              "from": "1257b38",
+              "to": "1258a2",
+              "text": "Hence some persons are led to believe that making money is the object of household management, and the whole idea of their lives is that they ought either to increase their money without limit, or at any rate not to lose it. The origin of this disposition in men is that they are intent upon living only, and not upon living well; and, as their desires are unlimited, they also desire that the means of gratifying them should be without limit.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058",
+                "lang": "en",
+                "title": "Aristotle, Politics"
+              }
+            },
+            "ru": {
+              "edition": "politics-wealth.ru.ours",
+              "from": "1257b38",
+              "to": "1258a2",
+              "text": "Поэтому некоторые приходят к мысли, что добывание денег и есть цель домохозяйства, и весь смысл их жизни в том, что они должны либо без предела умножать свои деньги, либо по крайней мере не терять их. Причина такого расположения в людях в том, что они заботятся лишь о том, чтобы жить, а не о том, чтобы жить хорошо; и поскольку их желания беспредельны, они желают, чтобы и средства их удовлетворения были без предела.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/Политика_(Аристотель)/О_домохозяйстве_и_рабстве",
+                "lang": "ru",
+                "title": "Аристотель, «Политика»"
+              }
+            },
+            "uk": {
+              "edition": "politics-wealth.uk.ours",
+              "from": "1257b38",
+              "to": "1258a2",
+              "text": "Тому декотрі доходять думки, що здобування грошей і є метою господарювання в домі, і весь сенс їхнього життя в тому, що вони мусять або без меж примножувати свої гроші, або принаймні не втрачати їх. Причина такої вдачі в людях у тому, що вони дбають лише про те, щоб жити, а не про те, щоб жити добре; і оскільки їхні бажання безмежні, вони бажають, щоб і засоби їх задоволення були без меж.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058",
+                "lang": "en",
+                "title": "Аристотель, «Політика»"
+              }
+            },
+            "pl": {
+              "edition": "politics-wealth.pl.ours",
+              "from": "1257b38",
+              "to": "1258a2",
+              "text": "Dlatego niektórzy dochodzą do przekonania, że zarabianie pieniędzy jest celem zarządzania domem, a cała myśl ich życia sprowadza się do tego, że powinni albo bez granic pomnażać swoje pieniądze, albo przynajmniej ich nie tracić. Źródłem tego usposobienia w ludziach jest to, że zabiegają tylko o to, by żyć, a nie o to, by żyć dobrze; a ponieważ ich pragnienia są nieograniczone, pragną też, by środki ich zaspokajania były bez granic.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058",
+                "lang": "en",
+                "title": "Arystoteles, Polityka"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg035.perseus-grc2:1.1257b/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "In the same book Aristotle tells a story of Thales of Miletus, counted the first of the philosophers, who was mocked for his poverty as proof that philosophy is useless. Reading in the stars that the olive harvest would be great, he hired all the olive presses of Miletus and Chios cheaply while it was still winter, and let them out at his own price when the harvest came — showing, Aristotle says, that philosophers can easily be rich if they like, but that their ambition is of another sort.",
+            "ru": "В той же книге Аристотель рассказывает историю о Фалесе Милетском, которого считают первым из философов: его бедность высмеивали как доказательство того, что философия бесполезна. Узнав по звёздам, что урожай олив будет большим, он ещё зимой задёшево нанял все маслодавильни Милета и Хиоса, а когда пришёл урожай, сдавал их по своей цене — и тем показал, говорит Аристотель, что философы легко могут разбогатеть, если захотят, но стремятся они к другому.",
+            "uk": "У тій самій книзі Аристотель розповідає історію про Фалеса Мілетського, якого вважають першим із філософів: його бідність висміювали як доказ того, що філософія марна. Дізнавшись із зірок, що врожай олив буде великий, він ще взимку задешево найняв усі олійні преси Мілета й Хіосу, а коли настав урожай, здавав їх за власною ціною — і цим показав, каже Аристотель, що філософи легко можуть розбагатіти, якщо захочуть, але прагнуть вони іншого.",
+            "pl": "W tej samej księdze Arystoteles opowiada historię o Talesie z Miletu, uważanym za pierwszego z filozofów, z którego ubóstwa drwiono jako z dowodu, że filozofia jest bezużyteczna. Wyczytawszy z gwiazd, że zbiór oliwek będzie wielki, jeszcze zimą tanio wynajął wszystkie tłocznie oliwy w Milecie i na Chios, a gdy nadszedł zbiór, odnajmował je po własnej cenie — i tak pokazał, mówi Arystoteles, że filozofowie łatwo mogą się wzbogacić, jeśli zechcą, ale ich ambicja jest innego rodzaju."
+          },
+          "source": "Aristotle, Politics I.11, 1259a6–18"
+        },
+        {
+          "fact": {
+            "en": "Medieval arguments against lending at interest drew on this book. Aristotle calls usury the most hated way of making money, since it makes a gain out of money itself; Thomas Aquinas, arguing that interest on a loan is unjust, cites “the Philosopher”: money was invented chiefly for exchange.",
+            "ru": "Средневековые доводы против ссуды под проценты опирались и на эту книгу. Аристотель называет ростовщичество самым ненавистным способом наживы, ибо оно извлекает прибыль из самих денег; Фома Аквинский, доказывая, что брать проценты за ссуду несправедливо, ссылается на «Философа»: деньги изобретены главным образом для обмена.",
+            "uk": "Середньовічні доводи проти позики під відсотки спиралися й на цю книгу. Аристотель називає лихварство найненависнішим способом наживи, бо воно добуває прибуток із самих грошей; Тома Аквінський, доводячи, що брати відсотки за позику несправедливо, посилається на «Філософа»: гроші винайдено передусім для обміну.",
+            "pl": "Średniowieczne argumenty przeciw pożyczaniu na procent czerpały także z tej księgi. Arystoteles nazywa lichwę najbardziej znienawidzonym sposobem zarabiania, bo czerpie ona zysk z samych pieniędzy; Tomasz z Akwinu, dowodząc, że branie odsetek od pożyczki jest niesprawiedliwe, powołuje się na „Filozofa”: pieniądz wynaleziono przede wszystkim dla wymiany."
+          },
+          "source": "Aristotle, Politics I.10, 1258b2–8; Thomas Aquinas, Summa Theologiae II-II q.78 a.1"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "The Gospel: the camel and the needle",
+        "ru": "Евангелие: верблюд и игольное ушко",
+        "uk": "Євангеліє: верблюд і вушко голки",
+        "pl": "Ewangelia: wielbłąd i ucho igielne"
+      },
+      "intro": {
+        "en": "Beyond the Jordan, about the year 30. Jesus has left Galilee for Judaea, on the road that will end in Jerusalem — so the Gospel of Matthew tells it, written down some decades later. A man comes to him and asks: what good thing must I do to have eternal life? Keep the commandments, Jesus answers, and names them: do not kill, do not commit adultery, do not steal, do not bear false witness, honour your father and mother, love your neighbour as yourself. The young man says he has kept them all:",
+        "ru": "За Иорданом, около 30 года. Иисус покинул Галилею и идёт в Иудею — путём, который закончится в Иерусалиме; так рассказывает Евангелие от Матфея, записанное несколько десятилетий спустя. К нему подходит человек и спрашивает: что доброго мне сделать, чтобы иметь жизнь вечную? Соблюдай заповеди, отвечает Иисус, и называет их: не убивай, не прелюбодействуй, не кради, не лжесвидетельствуй, почитай отца и мать, люби ближнего твоего, как самого себя. Юноша говорит, что соблюдал их все:",
+        "uk": "За Йорданом, близько 30 року. Ісус покинув Галилею й іде до Юдеї — дорогою, що скінчиться в Єрусалимі; так розповідає Євангеліє від Матвія, записане кілька десятиліть по тому. До нього підходить чоловік і питає: що доброго мені зробити, щоб мати життя вічне? Додержуй заповідей, відповідає Ісус, і називає їх: не вбивай, не чини перелюбу, не кради, не свідчи неправдиво, шануй батька й матір, люби ближнього свого, як самого себе. Юнак каже, що додержував їх усіх:",
+        "pl": "Za Jordanem, około roku 30. Jezus opuścił Galileę i idzie do Judei — drogą, która skończy się w Jerozolimie; tak opowiada Ewangelia według Mateusza, spisana kilkadziesiąt lat później. Podchodzi do niego człowiek i pyta: co dobrego mam czynić, aby mieć życie wieczne? Zachowuj przykazania, odpowiada Jezus, i wymienia je: nie zabijaj, nie cudzołóż, nie kradnij, nie mów fałszywego świadectwa, czcij ojca i matkę, kochaj bliźniego swego jak siebie samego. Młodzieniec mówi, że zachowywał je wszystkie:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "The Gospel of Matthew 19:20–22",
+            "ru": "Евангелие от Матфея 19:20–22",
+            "uk": "Євангеліє від Матвія 19:20–22",
+            "pl": "Ewangelia według św. Mateusza 19,20–22"
+          },
+          "quotes": {
+            "en": {
+              "edition": "matthew-wealth.en.kjv",
+              "from": "19.20",
+              "to": "19.22",
+              "text": "The young man saith unto him, All these things have I kept from my youth up: what lack I yet? Jesus said unto him, If thou wilt be perfect, go and sell that thou hast, and give to the poor, and thou shalt have treasure in heaven: and come and follow me. But when the young man heard that saying, he went away sorrowful: for he had great possessions.",
+              "kind": "Free",
+              "translator": "King James Version",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "The Gospel of Matthew"
+              }
+            },
+            "ru": {
+              "edition": "matthew-wealth.ru.ours",
+              "from": "19.20",
+              "to": "19.22",
+              "text": "Юноша говорит Ему: всё это я сохранил от юности моей; чего ещё недостаёт мне? Иисус сказал ему: если хочешь быть совершенным, пойди, продай то, что имеешь, и раздай нищим, и будешь иметь сокровище на небесах; и приходи и следуй за Мною. Но когда юноша услышал это слово, он отошёл с печалью: ибо у него было большое имение.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "Евангелие от Матфея"
+              }
+            },
+            "uk": {
+              "edition": "matthew-wealth.uk.ours",
+              "from": "19.20",
+              "to": "19.22",
+              "text": "Юнак каже Йому: усе це я зберіг від юності моєї; чого ще мені бракує? Ісус сказав йому: якщо хочеш бути досконалим, піди, продай те, що маєш, і роздай убогим, і матимеш скарб на небесах; і приходь та йди за Мною. Але коли юнак почув це слово, він відійшов засмучений: бо мав великі маєтки.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "Євангеліє від Матвія"
+              }
+            },
+            "pl": {
+              "edition": "matthew-wealth.pl.ours",
+              "from": "19.20",
+              "to": "19.22",
+              "text": "Młodzieniec mówi do Niego: Wszystkiego tego przestrzegałem od młodości mojej; czego mi jeszcze brakuje? Jezus rzekł do niego: Jeśli chcesz być doskonały, idź, sprzedaj to, co masz, i rozdaj ubogim, a będziesz miał skarb w niebie; i przyjdź, i pójdź za Mną. Lecz gdy młodzieniec usłyszał to słowo, odszedł zasmucony, miał bowiem wielkie posiadłości.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "Ewangelia według św. Mateusza"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://el.wikisource.org/wiki/%CE%9A%CE%B1%CF%84%CE%AC_%CE%9C%CE%B1%CF%84%CE%B8%CE%B1%CE%AF%CE%BF%CE%BD#19:20"
+          }
+        },
+        {
+          "by": {
+            "en": "The same, 19:23–24",
+            "ru": "Там же, 19:23–24",
+            "uk": "Там само, 19:23–24",
+            "pl": "Tamże, 19,23–24"
+          },
+          "quotes": {
+            "en": {
+              "edition": "matthew-wealth.en.kjv",
+              "from": "19.23",
+              "to": "19.24",
+              "text": "Then said Jesus unto his disciples, Verily I say unto you, That a rich man shall hardly enter into the kingdom of heaven. And again I say unto you, It is easier for a camel to go through the eye of a needle, than for a rich man to enter into the kingdom of God.",
+              "kind": "Free",
+              "translator": "King James Version",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "The Gospel of Matthew"
+              }
+            },
+            "ru": {
+              "edition": "matthew-wealth.ru.ours",
+              "from": "19.23",
+              "to": "19.24",
+              "text": "Тогда Иисус сказал ученикам Своим: истинно говорю вам, что трудно богатому войти в Царство Небесное. И ещё говорю вам: легче верблюду пройти сквозь игольное ушко, нежели богатому войти в Царство Божие.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "Евангелие от Матфея"
+              }
+            },
+            "uk": {
+              "edition": "matthew-wealth.uk.ours",
+              "from": "19.23",
+              "to": "19.24",
+              "text": "Тоді Ісус сказав учням Своїм: істинно кажу вам, що важко багатому ввійти в Царство Небесне. І ще кажу вам: легше верблюдові пройти крізь вушко голки, ніж багатому ввійти в Царство Боже.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "Євангеліє від Матвія"
+              }
+            },
+            "pl": {
+              "edition": "matthew-wealth.pl.ours",
+              "from": "19.23",
+              "to": "19.24",
+              "text": "Wtedy Jezus rzekł do swoich uczniów: Zaprawdę powiadam wam, że bogaty z trudnością wejdzie do królestwa niebieskiego. I znowu powiadam wam: Łatwiej jest wielbłądowi przejść przez ucho igielne, niż bogatemu wejść do królestwa Bożego.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew",
+                "lang": "en",
+                "title": "Ewangelia według św. Mateusza"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://el.wikisource.org/wiki/%CE%9A%CE%B1%CF%84%CE%AC_%CE%9C%CE%B1%CF%84%CE%B8%CE%B1%CE%AF%CE%BF%CE%BD#19:23"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "About the year 270, as Athanasius tells it, a young Egyptian named Antony, whose parents had died and left him land, heard these words read in church. He went out, gave his fields to the people of his village, sold the rest of what he had for the poor — keeping a little for his sister — and later went into the desert: one of the first monks of the desert, and the most famous of them.",
+            "ru": "Около 270 года, как рассказывает Афанасий, молодой египтянин Антоний, которому умершие родители оставили землю, услышал эти слова в церкви. Он вышел, отдал свои поля жителям своего селения, продал остальное имущество ради бедных — оставив немного для сестры — и позднее ушёл в пустыню: один из первых пустынных монахов и самый прославленный из них.",
+            "uk": "Близько 270 року, як розповідає Атанасій, молодий єгиптянин Антоній, якому померлі батьки залишили землю, почув ці слова в церкві. Він вийшов, віддав свої поля мешканцям свого села, продав решту майна задля бідних — залишивши трохи для сестри — і згодом пішов у пустелю: один із перших пустельних ченців і найславетніший з них.",
+            "pl": "Około roku 270, jak opowiada Atanazy, młody Egipcjanin Antoni, któremu zmarli rodzice zostawili ziemię, usłyszał te słowa w kościele. Wyszedł, oddał swoje pola mieszkańcom wioski, sprzedał resztę majątku dla ubogich — zostawiwszy trochę dla siostry — i później odszedł na pustynię: jeden z pierwszych mnichów pustyni i najsławniejszy z nich."
+          },
+          "source": "Athanasius, Life of Antony 2–3"
+        },
+        {
+          "fact": {
+            "en": "About the year 200, Clement of Alexandria wrote a whole sermon on this passage, Who Is the Rich Man That Shall Be Saved? Jesus, he argues, does not bid the young man throw away his property, but banish from his soul its passion for wealth: riches are a tool, good or bad as they are used.",
+            "ru": "Около 200 года Климент Александрийский написал об этом месте целую проповедь — «Какой богатый спасётся?». Иисус, доказывает он, велит юноше не выбросить своё имущество, а изгнать из души страсть к богатству: богатство — орудие, доброе или дурное смотря по тому, как им пользуются.",
+            "uk": "Близько 200 року Климент Александрійський написав про це місце цілу проповідь — «Який багатий спасеться?». Ісус, доводить він, велить юнакові не викинути своє майно, а вигнати з душі пристрасть до багатства: багатство — знаряддя, добре чи лихе залежно від того, як ним користуються.",
+            "pl": "Około roku 200 Klemens Aleksandryjski napisał o tym fragmencie całe kazanie — Który bogacz może być zbawiony? Jezus, dowodzi, nie każe młodzieńcowi wyrzucić majątku, lecz wygnać z duszy namiętność do bogactwa: bogactwo jest narzędziem, dobrym lub złym zależnie od tego, jak się go używa."
+          },
+          "source": "Clement of Alexandria, Who Is the Rich Man That Shall Be Saved? (Quis dives salvetur) 11–14"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Mencius: why say “profit”?",
+        "ru": "Мэн-цзы: зачем говорить «выгода»?",
+        "uk": "Мен-цзи: навіщо казати «вигода»?",
+        "pl": "Mencjusz: po co mówić „korzyść”?"
+      },
+      "intro": {
+        "en": "China, about 320 BC: the Warring States, seven kingdoms fighting for all under Heaven. Mencius, a follower of Confucius, now old, travels from court to court with his counsel. King Hui of Liang has lost battles and land to his neighbours — to Qi in the east, to Qin in the west, to Chu in the south. He welcomes the old man with a question: has he come a thousand li to bring counsels that will profit his kingdom? Mencius answers:",
+        "ru": "Китай, около 320 года до н. э.: эпоха Сражающихся царств, семь царств борются за всю Поднебесную. Мэн-цзы, последователь Конфуция, уже старик, ходит от двора к двору со своими советами. Царь Хуэй из Лян потерял в битвах войска и земли, уступив соседям — Ци на востоке, Цинь на западе, Чу на юге. Он встречает старца вопросом: не затем ли тот прошёл тысячу ли, чтобы дать советы, которые принесут выгоду его царству? Мэн-цзы отвечает:",
+        "uk": "Китай, близько 320 року до н. е.: доба Царств, що воюють, — сім царств борються за всю Піднебесну. Мен-цзи, послідовник Конфуція, уже старий, ходить від двору до двору зі своїми порадами. Цар Хуей з Ляну втратив у битвах війська й землі, поступившись сусідам — Ці на сході, Цінь на заході, Чу на півдні. Він зустрічає старого запитанням: чи не для того той пройшов тисячу лі, щоб дати поради, які принесуть вигоду його царству? Мен-цзи відповідає:",
+        "pl": "Chiny, około 320 roku p.n.e.: epoka Walczących Królestw, siedem państw walczy o całe Państwo pod Niebem. Mencjusz, wyznawca nauki Konfucjusza, już stary, chodzi od dworu do dworu ze swoimi radami. Król Hui z Liang przegrał bitwy i stracił ziemie na rzecz sąsiadów — Qi na wschodzie, Qin na zachodzie, Chu na południu. Wita starca pytaniem: czy przeszedł tysiąc li, by przynieść rady, które przysporzą korzyści jego królestwu? Mencjusz odpowiada:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Mencius 1A1, to King Hui of Liang",
+            "ru": "Мэн-цзы, 1A1, царю Хуэю из Лян",
+            "uk": "Мен-цзи, 1A1, цареві Хуею з Ляну",
+            "pl": "Mencjusz 1A1, do króla Hui z Liang"
+          },
+          "quotes": {
+            "en": {
+              "edition": "mencius-wealth.en.legge",
+              "from": "1.1.1",
+              "to": "1.1.1",
+              "text": "Why must your Majesty use that word \"profit?\" What I am provided with, are counsels to benevolence and righteousness, and these are my only topics. 'If your Majesty say, \"What is to be done to profit my kingdom?\" the great officers will say, \"What is to be done to profit our families?\" and the inferior officers and the common people will say, \"What is to be done to profit our persons?\" Superiors and inferiors will try to snatch this profit the one from the other, and the kingdom will be endangered.",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencius"
+              }
+            },
+            "ru": {
+              "edition": "mencius-wealth.ru.ours",
+              "from": "1.1.1",
+              "to": "1.1.1",
+              "text": "Зачем вашему величеству непременно говорить это слово — «выгода»? У меня есть лишь советы о человеколюбии и справедливости, и только о них я говорю. Если ваше величество скажет: «Что сделать, чтобы принести выгоду моему царству?» — высшие сановники скажут: «Что сделать, чтобы принести выгоду нашим семьям?» — а низшие чиновники и простой народ скажут: «Что сделать, чтобы принести выгоду нам самим?» Высшие и низшие станут вырывать эту выгоду друг у друга, и царство окажется в опасности.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мэн-цзы»"
+              }
+            },
+            "uk": {
+              "edition": "mencius-wealth.uk.ours",
+              "from": "1.1.1",
+              "to": "1.1.1",
+              "text": "Навіщо вашій величності неодмінно вживати це слово — «вигода»? Я маю лише поради про людяність і справедливість, і тільки про них я говорю. Якщо ваша величність скаже: «Що зробити, щоб принести вигоду моєму царству?» — великі сановники скажуть: «Що зробити, щоб принести вигоду нашим родинам?» — а нижчі урядовці й простий люд скажуть: «Що зробити, щоб принести вигоду нам самим?» Вищі й нижчі почнуть виривати цю вигоду одне в одного, і царство опиниться в небезпеці.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мен-цзи»"
+              }
+            },
+            "pl": {
+              "edition": "mencius-wealth.pl.ours",
+              "from": "1.1.1",
+              "to": "1.1.1",
+              "text": "Dlaczego Wasza Królewska Mość musi używać tego słowa — „korzyść”? Mam do zaofiarowania jedynie rady o człowieczeństwie i prawości i tylko o nich mówię. Jeśli Wasza Królewska Mość powie: „Co uczynić, by przysporzyć korzyści memu królestwu?”, wielcy dostojnicy powiedzą: „Co uczynić, by przysporzyć korzyści naszym rodom?”, a niżsi urzędnicy i prosty lud powiedzą: „Co uczynić, by przysporzyć korzyści nam samym?”. Wyżsi i niżsi będą sobie nawzajem wydzierać tę korzyść i królestwo znajdzie się w niebezpieczeństwie.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencjusz"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/孟子/梁惠王上"
+          }
+        },
+        {
+          "by": {
+            "en": "Mencius 1A7, to King Xuan of Qi: the people's livelihood",
+            "ru": "Мэн-цзы, 1A7, царю Сюаню из Ци: о средствах к жизни народа",
+            "uk": "Мен-цзи, 1A7, цареві Сюаню з Ці: про засоби до життя народу",
+            "pl": "Mencjusz 1A7, do króla Xuana z Qi: o utrzymaniu ludu"
+          },
+          "quotes": {
+            "en": {
+              "edition": "mencius-wealth.en.legge",
+              "from": "1.1.7",
+              "to": "1.1.7",
+              "text": "They are only men of education, who, without a certain livelihood, are able to maintain a fixed heart. As to the people, if they have not a certain livelihood, it follows that they will not have a fixed heart. And if they have not a fixed heart, there is nothing which they will not do, in the way of self-abandonment, of moral deflection, of depravity, and of wild license.",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencius"
+              }
+            },
+            "ru": {
+              "edition": "mencius-wealth.ru.ours",
+              "from": "1.1.7",
+              "to": "1.1.7",
+              "text": "Лишь люди образованные способны и без надёжных средств к жизни сохранять постоянное сердце. Что же до народа, то, если у него нет надёжных средств к жизни, у него не будет и постоянного сердца. А если у него нет постоянного сердца, то нет ничего, чего бы он не сделал, — в распущенности, в отступлении от должного, в порочности и в диком своеволии.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мэн-цзы»"
+              }
+            },
+            "uk": {
+              "edition": "mencius-wealth.uk.ours",
+              "from": "1.1.7",
+              "to": "1.1.7",
+              "text": "Лише люди освічені здатні й без певних засобів до життя зберігати незмінне серце. Що ж до народу, то коли він не має певних засобів до життя, у нього не буде й незмінного серця. А коли він не має незмінного серця, то немає нічого, чого б він не вчинив, — у розбещеності, у відступі від належного, у зіпсутості й у дикій сваволі.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мен-цзи»"
+              }
+            },
+            "pl": {
+              "edition": "mencius-wealth.pl.ours",
+              "from": "1.1.7",
+              "to": "1.1.7",
+              "text": "Tylko ludzie wykształceni potrafią bez pewnego utrzymania zachować stałe serce. Co zaś do ludu, jeśli nie ma pewnego utrzymania, nie będzie miał też stałego serca. A jeśli nie ma stałego serca, nie ma niczego, czego by nie uczynił — w rozwiązłości, w odstępstwie od tego, co słuszne, w zepsuciu i w dzikiej swawoli.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencjusz"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/孟子/梁惠王上"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Sima Qian, writing his life some two centuries later, says that King Hui did not act on Mencius' words, finding them far-fetched and out of touch with affairs: the states of the time prized alliances and conquest, and Qin had grown rich and strong under Lord Shang's reforms.",
+            "ru": "Сыма Цянь, писавший его жизнеописание примерно два столетия спустя, сообщает, что царь Хуэй не последовал словам Мэн-цзы, сочтя их далёкими от жизни и оторванными от дел: царства того времени ценили союзы и завоевания, а Цинь разбогатело и усилилось благодаря реформам Шан Яна.",
+            "uk": "Сима Цянь, який писав його життєпис приблизно два століття по тому, повідомляє, що цар Хуей не послухав слів Мен-цзи, вважаючи їх далекими від життя й відірваними від справ: царства тієї доби цінували союзи й завоювання, а Цінь розбагатіло й посилилося завдяки реформам Шан Яна.",
+            "pl": "Sima Qian, który spisał jego żywot mniej więcej dwa stulecia później, podaje, że król Hui nie poszedł za słowami Mencjusza, uznając je za oderwane od życia i dalekie od spraw: ówczesne państwa ceniły sojusze i podboje, a Qin wzbogaciło się i wzmocniło dzięki reformom Shang Yanga."
+          },
+          "source": "Sima Qian, Records of the Grand Historian (Shiji), chapter 74, the lives of Mencius and Xunzi"
+        },
+        {
+          "fact": {
+            "en": "A tradition told by Liu Xiang in the first century BC says that Mencius' mother moved house three times for her son: away from a graveyard, where the boy played at funerals, and from a market, where he played at buying and selling, until they lived beside a school — and there he played at the rites.",
+            "ru": "Предание, которое в I веке до н. э. записал Лю Сян, говорит, что мать Мэн-цзы трижды переезжала ради сына: прочь от кладбища, где мальчик играл в похороны, и от рынка, где он играл в куплю и продажу, — пока они не поселились возле школы; там он стал играть в обряды.",
+            "uk": "Переказ, який у I столітті до н. е. записав Лю Сян, мовить, що мати Мен-цзи тричі переїздила задля сина: геть від цвинтаря, де хлопчик грався в похорон, і від ринку, де він грався в купівлю й продаж, — аж поки вони не оселилися біля школи; там він почав гратися в обряди.",
+            "pl": "Przekaz, który w I wieku p.n.e. spisał Liu Xiang, mówi, że matka Mencjusza trzy razy przeprowadzała się dla syna: z dala od cmentarza, gdzie chłopiec bawił się w pogrzeby, i od targu, gdzie bawił się w kupowanie i sprzedawanie — aż zamieszkali przy szkole; tam zaczął bawić się w obrzędy."
+          },
+          "source": "Liu Xiang, Biographies of Exemplary Women (Lienü zhuan), book 1, “The Mother of Meng Ke of Zou” — a tradition"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Adam Smith: the butcher, the brewer and the baker",
+        "ru": "Адам Смит: мясник, пивовар и булочник",
+        "uk": "Адам Сміт: м’ясник, пивовар і пекар",
+        "pl": "Adam Smith: rzeźnik, piwowar i piekarz"
+      },
+      "intro": {
+        "en": "Scotland, 1776. Adam Smith, once professor of moral philosophy at Glasgow, publishes after more than ten years' work An Inquiry into the Nature and Causes of the Wealth of Nations. Why are some nations rich and others poor? Not by the gold and silver they hoard, he answers, but by the labour of their people — and labour grows more productive when it is divided, each person doing one thing well and exchanging it for the rest. What makes us exchange is not kindness:",
+        "ru": "Шотландия, 1776 год. Адам Смит, некогда профессор нравственной философии в Глазго, после более чем десяти лет работы издаёт «Исследование о природе и причинах богатства народов». Почему одни народы богаты, а другие бедны? Не от золота и серебра, которое они копят, отвечает он, а от труда их людей, — а труд становится производительнее, когда он разделён: каждый хорошо делает что-то одно и обменивает это на остальное. Обмениваться же нас побуждает не доброта:",
+        "uk": "Шотландія, 1776 рік. Адам Сміт, колись професор моральної філософії в Глазго, після понад десяти років праці видає «Дослідження про природу та причини добробуту націй». Чому одні народи багаті, а інші бідні? Не від золота й срібла, яке вони збирають, відповідає він, а від праці їхніх людей, — а праця стає продуктивнішою, коли вона поділена: кожен добре робить щось одне й обмінює це на решту. Обмінюватися ж нас спонукає не доброта:",
+        "pl": "Szkocja, rok 1776. Adam Smith, niegdyś profesor filozofii moralnej w Glasgow, po ponad dziesięciu latach pracy wydaje Badania nad naturą i przyczynami bogactwa narodów. Dlaczego jedne narody są bogate, a inne biedne? Nie dzięki złotu i srebru, które gromadzą, odpowiada, lecz dzięki pracy ich ludzi — a praca staje się wydajniejsza, gdy jest podzielona: każdy dobrze robi jedną rzecz i wymienia ją na resztę. Do wymiany zaś skłania nas nie dobroć:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Adam Smith, The Wealth of Nations I.ii.2 (1776)",
+            "ru": "Адам Смит, «Богатство народов», I.ii.2 (1776)",
+            "uk": "Адам Сміт, «Добробут націй», I.ii.2 (1776)",
+            "pl": "Adam Smith, Bogactwo narodów I.ii.2 (1776)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "smith-wealth.en",
+              "from": "1.2.2",
+              "to": "1.2.2",
+              "text": "It is not from the benevolence of the butcher, the brewer, or the baker, that we expect our dinner, but from their regard to their own interest. We address ourselves, not to their humanity, but to their self-love, and never talk to them of our own necessities, but of their advantages. Nobody but a beggar chooses to depend chiefly upon the benevolence of his fellow-citizens.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Wealth_of_Nations",
+                "lang": "en",
+                "title": "Adam Smith, The Wealth of Nations"
+              }
+            },
+            "ru": {
+              "edition": "smith-wealth.ru.ours",
+              "from": "1.2.2",
+              "to": "1.2.2",
+              "text": "Не от благожелательности мясника, пивовара или булочника ожидаем мы своего обеда, а от их заботы о собственной выгоде. Мы обращаемся не к их человечности, а к их себялюбию и никогда не говорим им о наших нуждах, а говорим об их выгодах. Никто, кроме нищего, не предпочитает зависеть главным образом от благожелательности своих сограждан.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Wealth_of_Nations",
+                "lang": "en",
+                "title": "Адам Смит, «Исследование о природе и причинах богатства народов»"
+              }
+            },
+            "uk": {
+              "edition": "smith-wealth.uk.ours",
+              "from": "1.2.2",
+              "to": "1.2.2",
+              "text": "Не від доброзичливості м’ясника, пивовара чи пекаря чекаємо ми свого обіду, а від їхньої турботи про власний інтерес. Ми звертаємося не до їхньої людяності, а до їхнього себелюбства і ніколи не говоримо їм про наші потреби, а говоримо про їхні вигоди. Ніхто, крім жебрака, не воліє залежати головно від доброзичливості своїх співгромадян.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Wealth_of_Nations",
+                "lang": "en",
+                "title": "Адам Сміт, «Добробут націй»"
+              }
+            },
+            "pl": {
+              "edition": "smith-wealth.pl.ours",
+              "from": "1.2.2",
+              "to": "1.2.2",
+              "text": "Nie od życzliwości rzeźnika, piwowara czy piekarza oczekujemy naszego obiadu, lecz od ich dbałości o własny interes. Zwracamy się nie do ich ludzkich uczuć, lecz do ich miłości własnej i nigdy nie mówimy im o naszych potrzebach, lecz o ich korzyściach. Nikt prócz żebraka nie woli zależeć głównie od życzliwości swoich współobywateli.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Wealth_of_Nations",
+                "lang": "en",
+                "title": "Adam Smith, Badania nad naturą i przyczynami bogactwa narodów"
+              }
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "The same, I.v.1: who is rich",
+            "ru": "Там же, I.v.1: кто богат",
+            "uk": "Там само, I.v.1: хто багатий",
+            "pl": "Tamże, I.v.1: kto jest bogaty"
+          },
+          "quotes": {
+            "en": {
+              "edition": "smith-wealth.en",
+              "from": "1.5.1",
+              "to": "1.5.1",
+              "text": "Every man is rich or poor according to the degree in which he can afford to enjoy the necessaries, conveniences, and amusements of human life. But after the division of labor has once thoroughly taken place, it is but a very small part of these with which a man's own labor can supply him. The far greater part of them he must derive from the labor of other people, and he must be rich or poor according to the quantity of that labor which he can command, or which he can afford to purchase.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Wealth_of_Nations",
+                "lang": "en",
+                "title": "Adam Smith, The Wealth of Nations"
+              }
+            },
+            "ru": {
+              "edition": "smith-wealth.ru.ours",
+              "from": "1.5.1",
+              "to": "1.5.1",
+              "text": "Каждый человек богат или беден в зависимости от того, в какой мере он может позволить себе пользоваться предметами необходимости, удобствами и удовольствиями человеческой жизни. Но после того как разделение труда вполне утвердилось, лишь очень малую часть всего этого человек может доставить себе собственным трудом. Гораздо большую часть он должен получать от труда других людей, и он должен быть богат или беден в зависимости от количества того труда, которым он может распоряжаться или который он может позволить себе купить.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Wealth_of_Nations",
+                "lang": "en",
+                "title": "Адам Смит, «Исследование о природе и причинах богатства народов»"
+              }
+            },
+            "uk": {
+              "edition": "smith-wealth.uk.ours",
+              "from": "1.5.1",
+              "to": "1.5.1",
+              "text": "Кожна людина багата чи бідна залежно від того, якою мірою вона може дозволити собі користуватися предметами необхідності, вигодами й розвагами людського життя. Але після того як поділ праці цілком утвердився, лише дуже малу частку всього цього людина може дати собі власною працею. Значно більшу частку вона мусить діставати з праці інших людей, і вона мусить бути багатою чи бідною залежно від кількості тієї праці, якою вона може розпоряджатися або яку вона може дозволити собі купити.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Wealth_of_Nations",
+                "lang": "en",
+                "title": "Адам Сміт, «Добробут націй»"
+              }
+            },
+            "pl": {
+              "edition": "smith-wealth.pl.ours",
+              "from": "1.5.1",
+              "to": "1.5.1",
+              "text": "Każdy człowiek jest bogaty albo biedny w tej mierze, w jakiej może sobie pozwolić na korzystanie z rzeczy niezbędnych, wygód i rozrywek ludzkiego życia. Lecz gdy podział pracy już się w pełni dokonał, tylko bardzo małej części tych rzeczy może człowiekowi dostarczyć jego własna praca. Znacznie większą część musi czerpać z pracy innych ludzi i musi być bogaty albo biedny stosownie do ilości tej pracy, którą może rozporządzać albo którą może sobie pozwolić kupić.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Wealth_of_Nations",
+                "lang": "en",
+                "title": "Adam Smith, Badania nad naturą i przyczynami bogactwa narodów"
+              }
+            }
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Seventeen years earlier Smith had made his name with The Theory of Moral Sentiments (1759), which begins: “How selfish soever man may be supposed, there are evidently some principles in his nature, which interest him in the fortune of others, and render their happiness necessary to him, though he derives nothing from it except the pleasure of seeing it.”",
+            "ru": "За семнадцать лет до того Смит прославился «Теорией нравственных чувств» (1759), которая начинается так: «Каким бы эгоистичным ни считать человека, в его природе явно есть некоторые начала, которые заставляют его интересоваться судьбой других и делают их счастье необходимым для него, хотя он не получает от этого ничего, кроме удовольствия его видеть».",
+            "uk": "За сімнадцять років до того Сміт уславився «Теорією моральних почуттів» (1759), яка починається так: «Хоч якою егоїстичною вважати людину, в її природі явно є деякі засади, що змушують її цікавитися долею інших і роблять їхнє щастя потрібним для неї, хоча вона не має з того нічого, крім утіхи його бачити».",
+            "pl": "Siedemnaście lat wcześniej Smith zasłynął Teorią uczuć moralnych (1759), która zaczyna się tak: „Jakkolwiek samolubnym można by uważać człowieka, są w jego naturze oczywiście pewne zasady, które każą mu interesować się losem innych i czynią ich szczęście koniecznym dla niego, choć nie ma z niego nic prócz przyjemności oglądania go”."
+          },
+          "source": "Adam Smith, The Theory of Moral Sentiments (1759), I.i.1.1"
+        },
+        {
+          "fact": {
+            "en": "The book is aimed at what Smith calls the mercantile system, which counted a nation's wealth in its gold and silver. For him a nation's wealth is what its people's labour produces each year: “all the necessaries and conveniencies of life which it annually consumes”.",
+            "ru": "Книга направлена против того, что Смит называет меркантильной системой, которая исчисляла богатство народа его золотом и серебром. Для него богатство народа — то, что ежегодно производит труд его людей: «все предметы необходимости и удобства жизни, которые он ежегодно потребляет».",
+            "uk": "Книжку спрямовано проти того, що Сміт називає меркантильною системою, яка лічила багатство народу його золотом і сріблом. Для нього багатство народу — те, що щороку виробляє праця його людей: «усі предмети необхідності та вигоди життя, які він щороку споживає».",
+            "pl": "Książka wymierzona jest w to, co Smith nazywa systemem merkantylnym, który liczył bogactwo narodu jego złotem i srebrem. Dla niego bogactwem narodu jest to, co co roku wytwarza praca jego ludzi: „wszystkie rzeczy niezbędne i wygody życia, które co roku spożywa”."
+          },
+          "source": "Adam Smith, The Wealth of Nations (1776), Introduction and Plan of the Work, paragraph 1; Book IV, chapter 1"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Thoreau: what a thing costs",
+        "ru": "Торо: чего стоит вещь",
+        "uk": "Торо: чого варта річ",
+        "pl": "Thoreau: ile kosztuje rzecz"
+      },
+      "intro": {
+        "en": "Concord, Massachusetts, 1845. Henry David Thoreau, twenty-seven, a Harvard graduate who has taught school and worked in his family's pencil business, builds himself a cabin by Walden Pond and lives there two years by the work of his hands. Walden (1854), the book he made of it, opens with a long chapter called “Economy”, his accounts kept to the half-cent. His neighbours, he sees, spend half their lives earning their houses:",
+        "ru": "Конкорд, Массачусетс, 1845 год. Генри Дэвид Торо, двадцати семи лет, выпускник Гарварда, который учительствовал и работал в семейном карандашном деле, строит себе хижину у Уолденского пруда и живёт там два года трудом своих рук. «Уолден» (1854), книга, которую он об этом написал, открывается длинной главой под названием «Хозяйство» — с его счетами до полцента. Его соседи, видит он, тратят полжизни, чтобы заработать на свои дома:",
+        "uk": "Конкорд, Массачусетс, 1845 рік. Генрі Девід Торо, двадцяти семи років, випускник Гарварду, який учителював і працював у родинній олівцевій справі, будує собі хатину біля ставу Волден і живе там два роки працею своїх рук. «Волден» (1854), книжка, яку він про це написав, відкривається довгим розділом під назвою «Господарство» — з його рахунками до півцента. Його сусіди, бачить він, витрачають півжиття, щоб заробити на свої доми:",
+        "pl": "Concord w Massachusetts, rok 1845. Henry David Thoreau, dwudziestosiedmioletni absolwent Harvardu, który uczył w szkole i pracował w rodzinnym interesie ołówkarskim, buduje sobie chatę nad stawem Walden i mieszka tam dwa lata z pracy własnych rąk. Walden (1854), książka, którą o tym napisał, otwiera się długim rozdziałem zatytułowanym „Ekonomia” — z jego rachunkami co do pół centa. Jego sąsiedzi, widzi, spędzają pół życia, by zarobić na swoje domy:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Henry David Thoreau, Walden (1854), “Economy”",
+            "ru": "Генри Дэвид Торо, «Уолден» (1854), глава «Хозяйство»",
+            "uk": "Генрі Девід Торо, «Волден» (1854), розділ «Господарство»",
+            "pl": "Henry David Thoreau, Walden (1854), rozdział „Ekonomia”"
+          },
+          "quotes": {
+            "en": {
+              "edition": "walden-wealth.en",
+              "from": "1.49",
+              "to": "1.49",
+              "text": "If it is asserted that civilization is a real advance in the condition of man,—and I think that it is, though only the wise improve their advantages,—it must be shown that it has produced better dwellings without making them more costly; and the cost of a thing is the amount of what I will call life which is required to be exchanged for it, immediately or in the long run.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Walden_(1854)_Thoreau",
+                "lang": "en",
+                "title": "Henry David Thoreau, Walden, or Life in the Woods"
+              }
+            },
+            "ru": {
+              "edition": "walden-wealth.ru.ours",
+              "from": "1.49",
+              "to": "1.49",
+              "text": "Если утверждают, что цивилизация — подлинный шаг вперёд в положении человека, — а я думаю, что так оно и есть, хотя лишь мудрые умеют воспользоваться своими преимуществами, — то надо показать, что она создала лучшие жилища, не сделав их дороже; а цена вещи — это то количество того, что я назову жизнью, которое требуется отдать в обмен на неё, сразу или в конце концов.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Walden_(1854)_Thoreau",
+                "lang": "en",
+                "title": "Генри Дэвид Торо, «Уолден, или Жизнь в лесу»"
+              }
+            },
+            "uk": {
+              "edition": "walden-wealth.uk.ours",
+              "from": "1.49",
+              "to": "1.49",
+              "text": "Якщо стверджують, що цивілізація — справжній поступ у становищі людини, — а я думаю, що так воно і є, хоча лише мудрі вміють скористатися своїми перевагами, — то треба показати, що вона створила кращі житла, не зробивши їх дорожчими; а ціна речі — це та кількість того, що я назву життям, яку треба віддати в обмін на неї, одразу чи зрештою.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Walden_(1854)_Thoreau",
+                "lang": "en",
+                "title": "Генрі Девід Торо, «Волден, або Життя в лісі»"
+              }
+            },
+            "pl": {
+              "edition": "walden-wealth.pl.ours",
+              "from": "1.49",
+              "to": "1.49",
+              "text": "Jeśli się twierdzi, że cywilizacja jest prawdziwym postępem w położeniu człowieka — a ja myślę, że jest, choć tylko mądrzy potrafią korzystać ze swoich przewag — trzeba wykazać, że dała lepsze domostwa, nie czyniąc ich droższymi; a ceną rzeczy jest ta ilość tego, co nazwę życiem, którą trzeba za nią oddać w zamian, od razu albo na dłuższą metę.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Walden_(1854)_Thoreau",
+                "lang": "en",
+                "title": "Henry David Thoreau, Walden, czyli życie w lesie"
+              }
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "The same, “Where I Lived, and What I Lived For”",
+            "ru": "Там же, глава «Где я жил и для чего»",
+            "uk": "Там само, розділ «Де я жив і для чого»",
+            "pl": "Tamże, rozdział „Gdzie żyłem i po co żyłem”"
+          },
+          "quotes": {
+            "en": {
+              "edition": "walden-wealth.en",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "An afternoon sufficed to lay out the land into orchard, woodlot, and pasture, and to decide what fine oaks or pines should be left to stand before the door, and whence each blasted tree could be seen to the best advantage; and then I let it lie, fallow perchance, for a man is rich in proportion to the number of things which he can afford to let alone.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Walden_(1854)_Thoreau",
+                "lang": "en",
+                "title": "Henry David Thoreau, Walden, or Life in the Woods"
+              }
+            },
+            "ru": {
+              "edition": "walden-wealth.ru.ours",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "Мне хватало одних послеполуденных часов, чтобы разбить землю на сад, лесной участок и пастбище и решить, каким прекрасным дубам или соснам оставаться стоять перед дверью и откуда лучше всего будет видно каждое иссохшее дерево; а потом я оставлял её лежать — под паром, быть может, — ибо человек богат соразмерно числу вещей, которые он может позволить себе оставить в покое.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Walden_(1854)_Thoreau",
+                "lang": "en",
+                "title": "Генри Дэвид Торо, «Уолден, или Жизнь в лесу»"
+              }
+            },
+            "uk": {
+              "edition": "walden-wealth.uk.ours",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "Мені вистачало одних пообідніх годин, щоб розбити землю на сад, лісову ділянку й пасовисько і вирішити, яким гарним дубам чи соснам лишатися стояти перед дверима і звідки найкраще буде видно кожне всохле дерево; а тоді я лишав її лежати — облогом, можливо, — бо людина багата пропорційно до кількості речей, які вона може дозволити собі лишити в спокої.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Walden_(1854)_Thoreau",
+                "lang": "en",
+                "title": "Генрі Девід Торо, «Волден, або Життя в лісі»"
+              }
+            },
+            "pl": {
+              "edition": "walden-wealth.pl.ours",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "Wystarczało mi jedno popołudnie, by rozplanować ziemię na sad, zagajnik i pastwisko i postanowić, które piękne dęby czy sosny mają zostać przed drzwiami i skąd każde uschłe drzewo będzie widać najkorzystniej; a potem zostawiałem ją, by leżała — odłogiem, być może — bo człowiek jest bogaty w miarę liczby rzeczy, które może sobie pozwolić zostawić w spokoju.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Walden_(1854)_Thoreau",
+                "lang": "en",
+                "title": "Henry David Thoreau, Walden, czyli życie w lesie"
+              }
+            }
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "He moved in, he writes, “on Independence day, or the fourth of July, 1845”, on land that belonged to his friend Ralph Waldo Emerson, and left in September 1847. In the same years he spent a night in Concord's jail for refusing to pay his poll tax.",
+            "ru": "Он поселился там, пишет он, «в День независимости, четвёртого июля 1845 года», на земле, принадлежавшей его другу Ральфу Уолдо Эмерсону, и ушёл в сентябре 1847 года. В те же годы он провёл ночь в тюрьме Конкорда за отказ платить подушный налог.",
+            "uk": "Він оселився там, пише він, «у День незалежності, четвертого липня 1845 року», на землі, що належала його другові Ральфові Волдо Емерсону, і пішов звідти у вересні 1847 року. У ті самі роки він провів ніч у в’язниці Конкорда за відмову сплатити подушний податок.",
+            "pl": "Zamieszkał tam, jak pisze, „w Dzień Niepodległości, czwartego lipca 1845 roku”, na ziemi należącej do jego przyjaciela Ralpha Waldo Emersona, a odszedł we wrześniu 1847 roku. W tych samych latach spędził noc w więzieniu w Concord za odmowę zapłacenia podatku pogłównego."
+          },
+          "source": "Henry David Thoreau, Walden (1854), “Where I Lived, and What I Lived For” and “The Village”; Walter Harding, The Days of Henry Thoreau (1965)"
+        },
+        {
+          "fact": {
+            "en": "He gives the cost of his house to the half-cent — boards, old bricks, lime, nails, two second-hand windows and the rest: $28.12½ in all, less, he notes, than a student at Harvard paid each year in rent for a room.",
+            "ru": "Стоимость своего дома он приводит до полцента — доски, старый кирпич, известь, гвозди, два подержанных окна и прочее: всего 28 долларов 12½ цента, меньше, замечает он, чем студент Гарварда платил каждый год за наём комнаты.",
+            "uk": "Вартість свого дому він подає до півцента — дошки, стара цегла, вапно, цвяхи, два вживані вікна та інше: усього 28 доларів 12½ цента, менше, зауважує він, ніж студент Гарварду платив щороку за найм кімнати.",
+            "pl": "Koszt swego domu podaje co do pół centa — deski, stara cegła, wapno, gwoździe, dwa używane okna i reszta: razem 28 dolarów i 12½ centa, mniej, jak zauważa, niż student Harvardu płacił co roku za wynajem pokoju."
+          },
+          "source": "Henry David Thoreau, Walden (1854), “Economy”"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Assisi, 1206",
+        "ru": "Ассизи, 1206 год",
+        "uk": "Ассізі, 1206 рік",
+        "pl": "Asyż, rok 1206"
+      },
+      "scene": {
+        "en": "You are Guido, bishop of Assisi. Before you stand Pietro di Bernardone, one of the richest cloth merchants of the town, and his son Francis, about twenty-four, not long ago the leader of its young men's feasts. Francis has taken cloth from his father's shop, sold it with his horse at Foligno, and tried to give the money to the poor priest of San Damiano, a church falling into ruin outside the walls. His father dragged him home and locked him up; now he wants his money back — and his son. The town's consuls would not judge the young man, who says he serves God now, so the case has come to you. A crowd waits in the square. What do you counsel?",
+        "ru": "Вы — Гвидо, епископ Ассизи. Перед вами стоят Пьетро ди Бернардоне, один из богатейших торговцев сукном в городе, и его сын Франциск, лет двадцати четырёх, ещё недавно заводила пирушек местной молодёжи. Франциск взял сукно из лавки отца, продал его вместе со своим конём в Фолиньо и пытался отдать деньги бедному священнику Сан-Дамиано — церкви, разрушающейся за городскими стенами. Отец силой притащил его домой и запер; теперь он требует назад свои деньги — и сына. Городские консулы не стали судить юношу, который говорит, что теперь служит Богу, и дело перешло к вам. На площади ждёт толпа. Что вы посоветуете?",
+        "uk": "Ви — Ґвідо, єпископ Ассізі. Перед вами стоять П’єтро ді Бернардоне, один із найбагатших торговців сукном у місті, і його син Франциск, років двадцяти чотирьох, ще недавно заводій бенкетів місцевої молоді. Франциск узяв сукно з батькової крамниці, продав його разом зі своїм конем у Фоліньйо і намагався віддати гроші бідному священникові Сан-Даміано — церкви, що руйнується за міськими мурами. Батько силоміць притягнув його додому й замкнув; тепер він вимагає назад свої гроші — і сина. Міські консули не стали судити юнака, який каже, що тепер служить Богові, і справа перейшла до вас. На площі чекає натовп. Що ви порадите?",
+        "pl": "Jesteś Gwidonem, biskupem Asyżu. Stoją przed tobą Pietro di Bernardone, jeden z najbogatszych kupców sukiennych w mieście, i jego syn Franciszek, mniej więcej dwudziestoczteroletni, niedawno jeszcze przywódca uczt tutejszej młodzieży. Franciszek wziął sukno ze sklepu ojca, sprzedał je wraz ze swoim koniem w Foligno i próbował oddać pieniądze ubogiemu kapłanowi San Damiano, kościoła popadającego w ruinę za murami miasta. Ojciec siłą zawlókł go do domu i zamknął; teraz żąda zwrotu pieniędzy — i syna. Konsulowie miasta nie chcieli sądzić młodzieńca, który mówi, że służy teraz Bogu, więc sprawa trafiła do ciebie. Na placu czeka tłum. Co doradzisz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Tell Francis to give his father back the money: God will not have his church mended with it",
+            "ru": "Велеть Франциску вернуть отцу деньги: Бог не хочет, чтобы на них чинили Его церковь",
+            "uk": "Звеліти Франциску повернути батькові гроші: Бог не хоче, щоб за них лагодили Його церкву",
+            "pl": "Polecić Franciszkowi oddać ojcu pieniądze: Bóg nie chce, by za nie naprawiano Jego kościół"
+          },
+          "reply": {
+            "en": "That was Guido's counsel, as the Three Companions tell it: the money might have been ill-gotten, and God would not want it spent on his church. And Francis gave back more than he was asked.",
+            "ru": "Так и посоветовал Гвидо, как рассказывают «Три спутника»: деньги могли быть нажиты неправедно, и Бог не захочет, чтобы их тратили на Его церковь. А Франциск вернул больше, чем его просили.",
+            "uk": "Так і порадив Ґвідо, як розповідають «Три товариші»: гроші могли бути нажиті неправедно, і Бог не захоче, щоб їх витрачали на Його церкву. А Франциск повернув більше, ніж його просили.",
+            "pl": "Tak właśnie doradził Gwidon, jak opowiadają Trzej Towarzysze: pieniądze mogły być źle nabyte, a Bóg nie zechce, by wydawano je na Jego kościół. A Franciszek oddał więcej, niż go proszono."
+          }
+        },
+        {
+          "choice": {
+            "en": "Let the money stay with San Damiano: what was given to God belongs to God",
+            "ru": "Оставить деньги Сан-Дамиано: что отдано Богу, то принадлежит Богу",
+            "uk": "Залишити гроші Сан-Даміано: що віддано Богові, те належить Богові",
+            "pl": "Zostawić pieniądze San Damiano: co oddano Bogu, należy do Boga"
+          },
+          "reply": {
+            "en": "The priest of San Damiano himself had refused the money, Thomas of Celano tells, for fear of Francis's parents; Francis had thrown it onto a window ledge.",
+            "ru": "Сам священник Сан-Дамиано, рассказывает Фома Челанский, отказался от этих денег, боясь родителей Франциска; и Франциск бросил их на подоконник.",
+            "uk": "Сам священник Сан-Даміано, розповідає Тома з Челано, відмовився від цих грошей, боячись батьків Франциска; і Франциск кинув їх на підвіконня.",
+            "pl": "Sam kapłan San Damiano, jak opowiada Tomasz z Celano, odmówił przyjęcia tych pieniędzy w obawie przed rodzicami Franciszka; a Franciszek rzucił je na okienny parapet."
+          }
+        },
+        {
+          "choice": {
+            "en": "Send Francis home to his father: a son owes obedience, and an heir has duties to his house",
+            "ru": "Отправить Франциска домой к отцу: сын обязан повиноваться, а у наследника есть долг перед своим домом",
+            "uk": "Відіслати Франциска додому до батька: син мусить коритися, а спадкоємець має обов’язки перед своїм домом",
+            "pl": "Odesłać Franciszka do domu, do ojca: syn winien jest posłuszeństwo, a dziedzic ma obowiązki wobec swego domu"
+          },
+          "reply": {
+            "en": "That was what Pietro wanted — and what Francis had already refused twice: under lock and key in his father's house, and before the consuls.",
+            "ru": "Этого и хотел Пьетро — и от этого Франциск уже дважды отказался: взаперти в отцовском доме и перед консулами.",
+            "uk": "Цього й хотів П’єтро — і від цього Франциск уже двічі відмовився: під замком у батьковому домі й перед консулами.",
+            "pl": "Tego właśnie chciał Pietro — a Franciszek już dwa razy tego odmówił: pod kluczem w domu ojca i przed konsulami."
+          }
+        },
+        {
+          "choice": {
+            "en": "Seek a middle way: let Francis return the money, and Pietro give his son his share to spend on the poor",
+            "ru": "Искать середину: пусть Франциск вернёт деньги, а Пьетро выделит сыну его долю, чтобы тот раздал её бедным",
+            "uk": "Шукати середини: хай Франциск поверне гроші, а П’єтро виділить синові його частку, щоб той роздав її бідним",
+            "pl": "Szukać złotego środka: niech Franciszek zwróci pieniądze, a Pietro wydzieli synowi jego część, by rozdał ją ubogim"
+          },
+          "reply": {
+            "en": "A sensible bargain, but neither man wanted it: Pietro, Celano says, brought his son before the bishop to make him renounce his share of the family's goods, and Francis wanted nothing of his father's at all.",
+            "ru": "Разумная сделка, но её не хотел ни один из двоих: Пьетро, по словам Челано, привёл сына к епископу, чтобы заставить его отречься от своей доли семейного имущества, а Франциск не хотел ничего отцовского вовсе.",
+            "uk": "Розумна угода, але її не хотів жоден із двох: П’єтро, за словами Челано, привів сина до єпископа, щоб змусити його зректися своєї частки родинного майна, а Франциск не хотів нічого батькового взагалі.",
+            "pl": "Rozsądna ugoda, ale nie chciał jej żaden z nich: Pietro, jak mówi Tomasz z Celano, przyprowadził syna do biskupa, by zmusić go do zrzeczenia się swojej części rodzinnego majątku, a Franciszek nie chciał w ogóle niczego, co ojcowskie."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "Francis gave back the money — and his clothes with it, standing naked before the crowd; the bishop covered him with his own cloak. He went out of the town singing; on the road, Celano tells, robbers beat him and threw him into the snow. In the next years he rebuilt San Damiano and other ruined churches with stones he begged. In 1209 or 1210 Pope Innocent III approved the way of life of Francis and his first brothers: to follow the Gospel, owning nothing. When he died, on 3 October 1226, the Friars Minor had spread across Italy and beyond; two years later he was declared a saint. A century after the scene in the square the friars were still quarrelling over what poverty meant, and in 1323 Pope John XXII declared it heresy to say that Christ and the apostles had owned nothing.",
+        "ru": "Франциск вернул деньги — а с ними и свою одежду, встав нагим перед толпой; епископ укрыл его собственным плащом. Он ушёл из города с пением; по дороге, рассказывает Челано, разбойники избили его и бросили в снег. В следующие годы он восстанавливал Сан-Дамиано и другие разрушенные церкви камнями, которые выпрашивал. В 1209 или 1210 году папа Иннокентий III одобрил образ жизни Франциска и его первых братьев: следовать Евангелию, ничем не владея. Когда он умер, 3 октября 1226 года, братья-минориты уже распространились по Италии и за её пределами; через два года он был причислен к святым. Спустя столетие после сцены на площади братья всё ещё спорили о том, что значит бедность, и в 1323 году папа Иоанн XXII объявил ересью утверждение, будто Христос и апостолы ничем не владели.",
+        "uk": "Франциск повернув гроші — а з ними й свій одяг, ставши нагим перед натовпом; єпископ укрив його власним плащем. Він вийшов із міста співаючи; дорогою, розповідає Челано, розбійники побили його й кинули в сніг. У наступні роки він відбудовував Сан-Даміано та інші зруйновані церкви камінням, яке випрошував. 1209 чи 1210 року папа Інокентій III схвалив спосіб життя Франциска та його перших братів: іти за Євангелієм, нічим не володіючи. Коли він помер, 3 жовтня 1226 року, брати-мінорити вже поширилися Італією і поза нею; за два роки його проголосили святим. Через століття після сцени на площі брати все ще сперечалися про те, що означає убогість, і 1323 року папа Іван XXII оголосив єрессю твердження, ніби Христос і апостоли нічим не володіли.",
+        "pl": "Franciszek oddał pieniądze — a wraz z nimi swoje szaty, stając nagi przed tłumem; biskup okrył go własnym płaszczem. Wyszedł z miasta śpiewając; po drodze, jak opowiada Tomasz z Celano, zbójcy pobili go i wrzucili w śnieg. W następnych latach odbudowywał San Damiano i inne zrujnowane kościoły z kamieni, o które prosił. W 1209 lub 1210 roku papież Innocenty III zatwierdził sposób życia Franciszka i jego pierwszych braci: iść za Ewangelią, niczego nie posiadając. Gdy umarł, 3 października 1226 roku, bracia mniejsi rozeszli się już po Italii i poza nią; dwa lata później ogłoszono go świętym. Sto lat po scenie na placu bracia wciąż spierali się o to, czym jest ubóstwo, i w 1323 roku papież Jan XXII ogłosił herezją twierdzenie, że Chrystus i apostołowie niczego nie posiadali."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "The Legend of the Three Companions VI.20 (13th century), in Henry Osborn Taylor's English, The Mediaeval Mind (1911)",
+            "ru": "«Легенда трёх спутников», VI.20 (XIII век), по английскому переводу Генри Осборна Тейлора в книге «Средневековый ум» (1911)",
+            "uk": "«Легенда трьох товаришів», VI.20 (XIII століття), за англійським перекладом Генрі Осборна Тейлора в книжці «Середньовічний розум» (1911)",
+            "pl": "Legenda trzech towarzyszy VI.20 (XIII wiek), według angielskiego przekładu Henry'ego Osborna Taylora w książce The Mediaeval Mind (1911)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "legend-wealth.en.taylor",
+              "from": "6.20",
+              "to": "6.20",
+              "text": "Then arose the man of God glad and comforted by the bishop's words, and fetching the money said, 'My lord, not only the money which is his I wish to return to him, but my clothes as well, and gladly.' Then entering the bishop's chamber, he took off his clothes, and placing the money upon them, went out again naked before them, and said: 'Hear ye all and know. Until now I have called Pietro Bernardone my father; but because I have determined to serve God, I return him the money about which he was disturbed, and these clothes which I had from him, wishing only to say, \"Our Father who art in heaven\" and not \"Father Pietro Bernardone.\"'",
+              "kind": "Free",
+              "translator": "Henry Osborn Taylor",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Mediaeval_Mind/Chapter_18",
+                "lang": "en",
+                "title": "The Legend of the Three Companions"
+              }
+            },
+            "ru": {
+              "edition": "legend-wealth.ru.ours",
+              "from": "6.20",
+              "to": "6.20",
+              "text": "Тогда человек Божий поднялся, радостный и ободрённый словами епископа, и, принеся деньги, сказал: «Господин мой, не только деньги, которые принадлежат ему, хочу я вернуть ему, но и мою одежду, и с радостью». Затем, войдя в покои епископа, он снял с себя одежду и, положив на неё деньги, снова вышел к ним нагим и сказал: «Слушайте все и знайте. До сих пор я называл Пьетро Бернардоне своим отцом; но так как я решил служить Богу, я возвращаю ему деньги, из-за которых он тревожился, и эту одежду, которую получил от него, желая говорить лишь: „Отче наш, сущий на небесах“, а не „отец Пьетро Бернардоне“».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Mediaeval_Mind/Chapter_18",
+                "lang": "en",
+                "title": "«Легенда трёх спутников»"
+              }
+            },
+            "uk": {
+              "edition": "legend-wealth.uk.ours",
+              "from": "6.20",
+              "to": "6.20",
+              "text": "Тоді чоловік Божий підвівся, радісний і втішений словами єпископа, і, принісши гроші, сказав: «Мій пане, не лише гроші, які належать йому, хочу я повернути йому, а й мій одяг, і то з радістю». Потім, увійшовши до покою єпископа, він зняв із себе одяг і, поклавши на нього гроші, знову вийшов до них нагий і сказав: «Слухайте всі й знайте. Досі я називав П’єтро Бернардоне своїм батьком; але оскільки я вирішив служити Богові, я повертаю йому гроші, через які він непокоївся, і цей одяг, який мав від нього, бажаючи казати лише: „Отче наш, що єси на небесах“, а не „батьку П’єтро Бернардоне“».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Mediaeval_Mind/Chapter_18",
+                "lang": "en",
+                "title": "«Легенда трьох товаришів»"
+              }
+            },
+            "pl": {
+              "edition": "legend-wealth.pl.ours",
+              "from": "6.20",
+              "to": "6.20",
+              "text": "Wtedy mąż Boży powstał, radosny i pokrzepiony słowami biskupa, i przyniósłszy pieniądze, rzekł: „Panie mój, nie tylko pieniądze, które są jego, chcę mu zwrócić, ale i moje szaty, i to z radością”. Potem, wszedłszy do komnaty biskupa, zdjął z siebie szaty i położywszy na nich pieniądze, wyszedł znów nagi przed nich i rzekł: „Słuchajcie wszyscy i wiedzcie. Dotąd nazywałem Pietra Bernardone swoim ojcem; lecz ponieważ postanowiłem służyć Bogu, zwracam mu pieniądze, o które się niepokoił, i te szaty, które od niego miałem, pragnąc mówić tylko: »Ojcze nasz, który jesteś w niebie«, a nie »ojcze Pietro Bernardone«”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Mediaeval_Mind/Chapter_18",
+                "lang": "en",
+                "title": "Legenda trzech towarzyszy"
+              }
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "The same",
+            "ru": "Там же",
+            "uk": "Там само",
+            "pl": "Tamże"
+          },
+          "quotes": {
+            "en": {
+              "edition": "legend-wealth.en.taylor",
+              "from": "6.20",
+              "to": "6.20",
+              "text": "The man of God was found even then to have worn haircloth beneath his gay garments. His father rising, incensed, took the money and the clothes. As he carried them away to his house, those who had seen the sight were indignant that he had left not a single garment for his son, and they shed tears of pity over Francis. The bishop was moved to admiration at the constancy of the man of God, and embraced him and covered him with his cloak.",
+              "kind": "Free",
+              "translator": "Henry Osborn Taylor",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Mediaeval_Mind/Chapter_18",
+                "lang": "en",
+                "title": "The Legend of the Three Companions"
+              }
+            },
+            "ru": {
+              "edition": "legend-wealth.ru.ours",
+              "from": "6.20",
+              "to": "6.20",
+              "text": "Оказалось, что человек Божий уже тогда носил под нарядной одеждой власяницу. Отец его, поднявшись в гневе, забрал деньги и одежду. Когда он уносил их к себе домой, те, кто видел это зрелище, негодовали, что он не оставил сыну ни одной одежды, и плакали от жалости над Франциском. Епископ, восхищённый стойкостью человека Божия, обнял его и укрыл своим плащом.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Mediaeval_Mind/Chapter_18",
+                "lang": "en",
+                "title": "«Легенда трёх спутников»"
+              }
+            },
+            "uk": {
+              "edition": "legend-wealth.uk.ours",
+              "from": "6.20",
+              "to": "6.20",
+              "text": "Виявилося, що чоловік Божий уже тоді носив під ошатним одягом волосяницю. Його батько, підвівшись розгніваний, забрав гроші й одяг. Коли він ніс їх до себе додому, ті, хто бачив це видовище, обурювалися, що він не лишив синові жодної одежини, і плакали з жалю над Франциском. Єпископ, сповнений подиву перед стійкістю чоловіка Божого, обійняв його і вкрив своїм плащем.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Mediaeval_Mind/Chapter_18",
+                "lang": "en",
+                "title": "«Легенда трьох товаришів»"
+              }
+            },
+            "pl": {
+              "edition": "legend-wealth.pl.ours",
+              "from": "6.20",
+              "to": "6.20",
+              "text": "Okazało się, że mąż Boży już wtedy nosił pod strojnymi szatami włosiennicę. Jego ojciec, powstawszy rozgniewany, zabrał pieniądze i szaty. Gdy niósł je do swego domu, ci, którzy widzieli to widowisko, oburzali się, że nie zostawił synowi ani jednej szaty, i płakali z litości nad Franciszkiem. Biskup, pełen podziwu dla stałości męża Bożego, objął go i okrył swoim płaszczem.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Mediaeval_Mind/Chapter_18",
+                "lang": "en",
+                "title": "Legenda trzech towarzyszy"
+              }
+            }
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Francis's turning had begun in the ruined church of San Damiano, where, his biographers say, the crucifix spoke to him and told him to go and repair his house, which was falling into ruin. He took it to mean the walls.",
+            "ru": "Обращение Франциска началось в ветхой церкви Сан-Дамиано, где, как рассказывают его жизнеописатели, распятие заговорило с ним и велело ему пойти и восстановить Его дом, который рушится. Он понял это как слова о стенах.",
+            "uk": "Навернення Франциска почалося в зруйнованій церкві Сан-Даміано, де, як розповідають його життєписці, розп’яття заговорило до нього й звеліло йому піти й відбудувати Його дім, що руйнується. Він зрозумів це як слова про мури.",
+            "pl": "Nawrócenie Franciszka zaczęło się w zrujnowanym kościele San Damiano, gdzie, jak opowiadają jego żywotopisarze, krucyfiks przemówił do niego i polecił mu iść i odbudować Jego dom, który popada w ruinę. Zrozumiał to jako słowa o murach."
+          },
+          "source": "Thomas of Celano, Second Life of St Francis 10; The Legend of the Three Companions 13; Bonaventure, Major Legend of St Francis 2.1"
+        },
+        {
+          "fact": {
+            "en": "Bonaventure, writing in the 1260s, adds that the cloak brought at the bishop's word was the poor mantle of one of his farm labourers, and that Francis marked a cross on it before he put it on.",
+            "ru": "Бонавентура, писавший в 1260-х годах, добавляет, что плащ, принесённый по слову епископа, был бедной накидкой одного из его батраков и что Франциск начертил на нём крест, прежде чем надеть его.",
+            "uk": "Бонавентура, який писав у 1260-х роках, додає, що плащ, принесений на слово єпископа, був убогою накидкою одного з його наймитів і що Франциск накреслив на ньому хрест, перш ніж його вдягти.",
+            "pl": "Bonawentura, piszący w latach 60. XIII wieku, dodaje, że płaszcz przyniesiony na słowo biskupa był nędznym okryciem jednego z jego parobków i że Franciszek nakreślił na nim krzyż, zanim go włożył."
+          },
+          "source": "Bonaventure, Major Legend of St Francis (Legenda maior, 1260–1263) 2.4"
+        },
+        {
+          "fact": {
+            "en": "Dante, a century later, tells it as a wedding: before the bishop's court and “et coram patre” — in his father's presence — the young Francis took as his bride Lady Poverty, who had been widowed since Christ.",
+            "ru": "Данте столетие спустя рассказывает это как свадьбу: перед епископским двором и «et coram patre» — в присутствии отца — юный Франциск взял в жёны Госпожу Бедность, вдовевшую со времён Христа.",
+            "uk": "Данте століттям пізніше розповідає це як весілля: перед єпископським двором і «et coram patre» — у присутності батька — юний Франциск узяв за дружину Пані Убогість, що вдовувала від часів Христа.",
+            "pl": "Dante sto lat później opowiada to jako zaślubiny: przed dworem biskupim i „et coram patre” — w obecności ojca — młody Franciszek pojął za żonę Panią Biedę, wdowę od czasów Chrystusa."
+          },
+          "source": "Dante, Paradiso XI.58–66"
+        }
+      ]
+    },
+    {
+      "think": "wealth",
+      "question": {
+        "en": "Suppose that tomorrow you had ten times what you have now. What would you do with it — and how would you know when you had enough? Is there a point past which more wealth stops doing good to the one who has it?",
+        "ru": "Представьте, что завтра у вас стало в десять раз больше, чем сейчас. Что вы с этим сделаете — и как вы поймёте, что вам достаточно? Есть ли предел, за которым больше богатства уже не приносит добра тому, у кого оно есть?",
+        "uk": "Уявіть, що завтра ви маєте вдесятеро більше, ніж тепер. Що ви з цим зробите — і як ви зрозумієте, що вам досить? Чи є межа, за якою більше багатства вже не приносить добра тому, хто його має?",
+        "pl": "Wyobraź sobie, że jutro masz dziesięć razy więcej niż teraz. Co z tym zrobisz — i skąd będziesz wiedzieć, że masz dosyć? Czy jest granica, za którą więcej bogactwa przestaje służyć temu, kto je ma?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: what is wealth for?",
+        "ru": "А теперь: для чего богатство?",
+        "uk": "А тепер: для чого багатство?",
+        "pl": "A teraz: do czego służy bogactwo?"
+      }
+    }
+  ]
+}
