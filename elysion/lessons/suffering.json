@@ -72,8 +72,8 @@
           "quotes": {
             "en": {
               "edition": "job.en.kingjamesversion",
-              "from": "1.20",
-              "to": "1.20",
+              "from": "1.21",
+              "to": "1.21",
               "text": "And said, Naked came I out of my mother's womb, and naked shall I return thither: the LORD gave, and the LORD hath taken away; blessed be the name of the LORD.",
               "kind": "Free",
               "translator": "King James Version",
@@ -85,8 +85,8 @@
             },
             "ru": {
               "edition": "job.ru.ours",
-              "from": "1.20",
-              "to": "1.20",
+              "from": "1.21",
+              "to": "1.21",
               "text": "И сказал: наг я вышел из чрева матери моей, наг возвращусь туда. Господь дал, Господь и взял; да будет имя Господне благословенно.",
               "kind": "Ours",
               "translator": "Elysion (draft)",
@@ -98,8 +98,8 @@
             },
             "uk": {
               "edition": "job.uk.ours",
-              "from": "1.20",
-              "to": "1.20",
+              "from": "1.21",
+              "to": "1.21",
               "text": "І сказав: голим вийшов я з утроби матері своєї, голим і повернуся туди. Господь дав, Господь і взяв; нехай буде ім’я Господнє благословенне.",
               "kind": "Ours",
               "translator": "Elysion (draft)",
@@ -111,8 +111,8 @@
             },
             "pl": {
               "edition": "job.pl.ours",
-              "from": "1.20",
-              "to": "1.20",
+              "from": "1.21",
+              "to": "1.21",
               "text": "I rzekł: Goły wyszedłem z łona matki mojej, goły wrócę tamże. Pan dał, Pan wziął; niech będzie imię Pańskie błogosławione.",
               "kind": "Ours",
               "translator": "Elysion (draft)",

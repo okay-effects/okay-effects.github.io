@@ -1,0 +1,1013 @@
+{
+  "id": "equality",
+  "title": {
+    "en": "Are all people equal?",
+    "ru": "Равны ли все люди?",
+    "uk": "Чи всі люди рівні?",
+    "pl": "Czy wszyscy ludzie są równi?"
+  },
+  "subtitle": {
+    "en": "Aristotle, the Dhammapada, Paul, Jefferson and Douglass, Las Casas — and you",
+    "ru": "Аристотель, «Дхаммапада», апостол Павел, Джефферсон и Дуглас, Лас Касас — и вы",
+    "uk": "Аристотель, «Дгаммапада», апостол Павло, Джефферсон і Дуглас, Лас Касас — і ви",
+    "pl": "Arystoteles, Dhammapada, święty Paweł, Jefferson i Douglass, Las Casas — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: are all people equal?",
+        "ru": "Прежде чем читать кого-либо: равны ли все люди?",
+        "uk": "Перш ніж читати когось: чи всі люди рівні?",
+        "pl": "Zanim kogokolwiek przeczytasz: czy wszyscy ludzie są równi?"
+      },
+      "options": [
+        {
+          "en": "Yes: every person has the same worth, whatever their gifts",
+          "ru": "Да: ценность каждого человека одинакова, каковы бы ни были его способности",
+          "uk": "Так: цінність кожної людини однакова, хоч би якими були її здібності",
+          "pl": "Tak: każdy człowiek ma taką samą wartość, bez względu na swoje zdolności"
+        },
+        {
+          "en": "Equal before the law and in rights — not in nature",
+          "ru": "Равны перед законом и в правах — но не по природе",
+          "uk": "Рівні перед законом і в правах — але не за природою",
+          "pl": "Równi wobec prawa i w prawach — ale nie z natury"
+        },
+        {
+          "en": "Equal in what matters most — the soul, or the chance to become good",
+          "ru": "Равны в самом главном — в душе или в возможности стать хорошим человеком",
+          "uk": "Рівні в найголовнішому — у душі чи в можливості стати доброю людиною",
+          "pl": "Równi w tym, co najważniejsze — w duszy albo w możliwości stania się dobrym człowiekiem"
+        },
+        {
+          "en": "No: people differ by nature, and some are fit to lead others",
+          "ru": "Нет: люди различны от природы, и одни способны вести за собой других",
+          "uk": "Ні: люди різні від природи, і одні здатні вести за собою інших",
+          "pl": "Nie: ludzie różnią się z natury i jedni nadają się do tego, by prowadzić innych"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Aristotle: slaves by nature",
+        "ru": "Аристотель: рабы по природе",
+        "uk": "Аристотель: раби за природою",
+        "pl": "Arystoteles: niewolnicy z natury"
+      },
+      "intro": {
+        "en": "Athens, the 330s BC. Aristotle, born in Stagira in the north, teaches at the Lyceum — a foreigner living in Athens, not a citizen of it. Slaves work in the city's houses, its workshops and its silver mines. Some people, he reports, already say that slavery is against nature, a thing of law and force alone. He answers them: a slave by nature is one who shares in reason enough to apprehend it, but does not have it himself. Then he notices a difficulty — and goes on all the same:",
+        "ru": "Афины, 330-е годы до н. э. Аристотель, уроженец Стагиры на севере, преподаёт в Ликее — он чужеземец, живущий в Афинах, а не их гражданин. Рабы трудятся в домах города, в его мастерских и серебряных рудниках. Некоторые, как сообщает он сам, уже говорят, что рабство противно природе и держится лишь на законе и силе. Он отвечает им: раб по природе — тот, кто причастен разуму настолько, чтобы его воспринимать, но сам им не обладает. Затем он замечает трудность — и всё же продолжает:",
+        "uk": "Афіни, 330-ті роки до н. е. Аристотель, уродженець Стагіри на півночі, викладає в Лікеї — він чужинець, що живе в Афінах, а не їхній громадянин. Раби працюють у домах міста, у його майстернях і срібних копальнях. Дехто, як повідомляє він сам, уже каже, що рабство суперечить природі й тримається лише на законі та силі. Він відповідає їм: раб за природою — той, хто причетний до розуму настільки, щоб його сприймати, але сам ним не володіє. Потім він помічає труднощі — і все ж провадить далі:",
+        "pl": "Ateny, lata 30. IV wieku p.n.e. Arystoteles, urodzony w Stagirze na północy, naucza w Likejonie — jest cudzoziemcem osiadłym w Atenach, a nie ich obywatelem. Niewolnicy pracują w domach miasta, w jego warsztatach i kopalniach srebra. Niektórzy, jak sam podaje, mówią już, że niewola jest sprzeczna z naturą i opiera się tylko na prawie i przemocy. On im odpowiada: niewolnik z natury to ten, kto ma udział w rozumie na tyle, by go pojmować, ale sam go nie posiada. Potem dostrzega trudność — i mimo to idzie dalej:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Aristotle, Politics I.5 (1254a21–24)",
+            "ru": "Аристотель, «Политика», I.5 (1254a21–24)",
+            "uk": "Аристотель, «Політика», I.5 (1254a21–24)",
+            "pl": "Arystoteles, Polityka I.5 (1254a21–24)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "politics-equality.en.jowett",
+              "from": "1254a21",
+              "to": "1254a24",
+              "text": "For that some should rule and others be ruled is a thing, not only necessary, but expedient; from the hour of their birth, some are marked out for subjection, others for rule.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058",
+                "lang": "en",
+                "title": "Aristotle, Politics"
+              }
+            },
+            "ru": {
+              "edition": "politics-equality.ru.ours",
+              "from": "1254a21",
+              "to": "1254a24",
+              "text": "Ибо то, что одни должны властвовать, а другие подчиняться, не только необходимо, но и полезно; с самого часа рождения одни предназначены к подчинению, другие — к власти.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/Политика_(Аристотель)/О_домохозяйстве_и_рабстве",
+                "lang": "ru",
+                "title": "Аристотель, «Политика»"
+              }
+            },
+            "uk": {
+              "edition": "politics-equality.uk.ours",
+              "from": "1254a21",
+              "to": "1254a24",
+              "text": "Бо те, що одні мають владарювати, а інші коритися, не лише необхідне, а й корисне; від самої години народження одні призначені до підкорення, інші — до влади.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058",
+                "lang": "en",
+                "title": "Аристотель, «Політика»"
+              }
+            },
+            "pl": {
+              "edition": "politics-equality.pl.ours",
+              "from": "1254a21",
+              "to": "1254a24",
+              "text": "Albowiem to, że jedni mają rządzić, a inni być rządzeni, jest nie tylko konieczne, ale i pożyteczne; od samej godziny narodzin jedni są przeznaczeni do podległości, drudzy do władzy.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058",
+                "lang": "en",
+                "title": "Arystoteles, Polityka"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg035.perseus-grc2:1.1254a/"
+          }
+        },
+        {
+          "by": {
+            "en": "The same, I.5 (1254b32–1255a3)",
+            "ru": "Там же, I.5 (1254b32–1255a3)",
+            "uk": "Там само, I.5 (1254b32–1255a3)",
+            "pl": "Tamże, I.5 (1254b32–1255a3)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "politics-equality.en.jowett",
+              "from": "1254b32",
+              "to": "1255a3",
+              "text": "But this does not hold universally: for some slaves have the souls and others have the bodies of freemen. And doubtless if men differed from one another in the mere forms of their bodies as much as the statues of the Gods do from men, all would acknowledge that the inferior class should be slaves of the superior. And if there is a difference in the body, how much more in the soul! But the beauty of the body is seen, whereas the beauty of the soul is not seen. It is clear, then, that some men are by nature free, and others slaves, and that for these latter slavery is both expedient and right.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058",
+                "lang": "en",
+                "title": "Aristotle, Politics"
+              }
+            },
+            "ru": {
+              "edition": "politics-equality.ru.ours",
+              "from": "1254b32",
+              "to": "1255a3",
+              "text": "Но так бывает не всегда: у одних рабов души свободных людей, у других — тела свободных. И несомненно, если бы люди отличались друг от друга одним лишь обликом тела настолько же, насколько статуи богов отличаются от людей, все признали бы, что низшие должны быть рабами высших. А если есть различие в теле, то насколько больше в душе! Но красота тела видна, красота же души не видна. Итак, ясно, что одни люди по природе свободны, другие — рабы, и что для последних рабство и полезно, и справедливо.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/Политика_(Аристотель)/О_домохозяйстве_и_рабстве",
+                "lang": "ru",
+                "title": "Аристотель, «Политика»"
+              }
+            },
+            "uk": {
+              "edition": "politics-equality.uk.ours",
+              "from": "1254b32",
+              "to": "1255a3",
+              "text": "Але так буває не завжди: в одних рабів душі вільних людей, в інших — тіла вільних. І безперечно, якби люди відрізнялися одне від одного самим лише виглядом тіла настільки, наскільки статуї богів відрізняються від людей, усі визнали б, що нижчі мають бути рабами вищих. А якщо є різниця в тілі, то наскільки більша в душі! Але красу тіла видно, а краси душі не видно. Отже, ясно, що одні люди за природою вільні, а інші — раби, і що для останніх рабство і корисне, і справедливе.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058",
+                "lang": "en",
+                "title": "Аристотель, «Політика»"
+              }
+            },
+            "pl": {
+              "edition": "politics-equality.pl.ours",
+              "from": "1254b32",
+              "to": "1255a3",
+              "text": "Ale nie zawsze tak jest: jedni niewolnicy mają dusze ludzi wolnych, inni — ich ciała. I niewątpliwie, gdyby ludzie różnili się od siebie samym tylko kształtem ciała tak bardzo, jak posągi bogów różnią się od ludzi, wszyscy przyznaliby, że niżsi powinni być niewolnikami wyższych. A jeśli jest różnica w ciele, o ileż większa w duszy! Lecz piękno ciała widać, a piękna duszy nie widać. Jasne jest więc, że jedni ludzie są z natury wolni, a inni są niewolnikami, i że dla tych ostatnich niewola jest zarówno pożyteczna, jak i słuszna.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058",
+                "lang": "en",
+                "title": "Arystoteles, Polityka"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg035.perseus-grc2:1.1254b/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "In his will, as Diogenes Laertius preserves it, Aristotle ordered several of his slaves to be set free, and that none of those who had waited on him be sold: they were to be freed when they came of age, “if they deserve it”.",
+            "ru": "В своём завещании, которое сохранил Диоген Лаэртский, Аристотель велел отпустить на волю нескольких своих рабов и не продавать никого из тех, кто ему прислуживал: их следовало освободить, когда они достигнут должного возраста, «если они того заслужат».",
+            "uk": "У своєму заповіті, який зберіг Діоген Лаертський, Аристотель звелів відпустити на волю кількох своїх рабів і не продавати нікого з тих, хто йому прислуговував: їх належало звільнити, коли вони досягнуть належного віку, «якщо вони на те заслужать».",
+            "pl": "W swoim testamencie, zachowanym przez Diogenesa Laertiosa, Arystoteles polecił wyzwolić kilku swoich niewolników i nie sprzedawać nikogo z tych, którzy mu usługiwali: mieli zostać wyzwoleni, gdy dojdą do właściwego wieku, „jeśli na to zasłużą”."
+          },
+          "source": "Diogenes Laertius, Lives of the Eminent Philosophers 5.14–15 (Aristotle's will)"
+        },
+        {
+          "fact": {
+            "en": "The view Aristotle answers had been put plainly before him: the orator Alcidamas, a pupil of Gorgias, said that “God has set all men free; nature has made no one a slave” — words known only because an ancient commentator on Aristotle's Rhetoric quoted them.",
+            "ru": "Взгляд, на который отвечает Аристотель, ясно высказывали и до него: оратор Алкидамант, ученик Горгия, говорил: «Бог даровал свободу всем; природа никого не сделала рабом», — эти слова известны лишь потому, что их привёл античный комментатор «Риторики» Аристотеля.",
+            "uk": "Погляд, на який відповідає Аристотель, ясно висловлювали й до нього: оратор Алкідамант, учень Горгія, казав: «Бог дарував свободу всім; природа нікого не зробила рабом», — ці слова відомі лише тому, що їх навів античний коментатор «Риторики» Аристотеля.",
+            "pl": "Pogląd, na który odpowiada Arystoteles, głoszono jasno już przed nim: mówca Alkidamas, uczeń Gorgiasza, mówił: „Bóg dał wolność wszystkim; natura nikogo nie uczyniła niewolnikiem” — słowa te znamy tylko dlatego, że przytoczył je starożytny komentator Retoryki Arystotelesa."
+          },
+          "source": "Aristotle, Rhetoric 1.13, 1373b18, and the ancient scholia on that passage"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "The Dhammapada: not by birth",
+        "ru": "«Дхаммапада»: не по рождению",
+        "uk": "«Дгаммапада»: не за народженням",
+        "pl": "Dhammapada: nie z urodzenia"
+      },
+      "intro": {
+        "en": "Northern India in the Buddha's time — the fifth century BC, as most scholars date him. Society is divided into four estates — priests, warriors, merchants and farmers, servants — and one is born into one's place; at the top stand the brahmins, the priests who keep the sacred hymns. The Buddha took into his order men and women of every birth, and gave the brahmins' proudest name a new meaning. The Dhammapada, verses of his teaching kept in Pali, ends with a chapter on who deserves to be called a brahmin:",
+        "ru": "Северная Индия во времена Будды — в V веке до н. э., как датирует его большинство учёных. Общество разделено на четыре сословия — жрецов, воинов, торговцев и земледельцев, слуг, — и место человека определено рождением; наверху стоят брахманы, жрецы, хранители священных гимнов. Будда принимал в свою общину мужчин и женщин любого рождения и дал гордому имени брахманов новый смысл. «Дхаммапада», стихи его учения, сохранённые на пали, завершается главой о том, кто достоин зваться брахманом:",
+        "uk": "Північна Індія за часів Будди — у V столітті до н. е., як датує його більшість учених. Суспільство поділене на чотири стани — жерців, воїнів, торговців і хліборобів, слуг, — і місце людини визначене народженням; нагорі стоять брахмани, жерці, хоронителі священних гімнів. Будда приймав до своєї громади чоловіків і жінок будь-якого походження і дав гордому імені брахманів новий зміст. «Дгаммапада», вірші його вчення, збережені мовою палі, завершується розділом про те, хто гідний зватися брахманом:",
+        "pl": "Północne Indie w czasach Buddy — w V wieku p.n.e., jak datuje go większość uczonych. Społeczeństwo dzieli się na cztery stany — kapłanów, wojowników, kupców i rolników, sługi — a miejsce człowieka wyznacza urodzenie; na szczycie stoją bramini, kapłani strzegący świętych hymnów. Budda przyjmował do swej wspólnoty mężczyzn i kobiety każdego urodzenia i nadał dumnemu imieniu braminów nowy sens. Dhammapada, wersety jego nauki zachowane w języku pali, kończy się rozdziałem o tym, kto zasługuje na miano bramina:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "The Dhammapada, 393",
+            "ru": "«Дхаммапада», 393",
+            "uk": "«Дгаммапада», 393",
+            "pl": "Dhammapada, 393"
+          },
+          "quotes": {
+            "en": {
+              "edition": "dhammapada-equality.en.muller",
+              "from": "26.393",
+              "to": "26.393",
+              "text": "A man does not become a Brahmana by his platted hair, by his family, or by birth; in whom there is truth and righteousness, he is blessed, he is a Brahmana.",
+              "kind": "Free",
+              "translator": "F. Max Müller",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "The Dhammapada"
+              }
+            },
+            "ru": {
+              "edition": "dhammapada-equality.ru.ours",
+              "from": "26.393",
+              "to": "26.393",
+              "text": "Не заплетёнными волосами, не родом и не рождением становится человек брахманом; в ком истина и праведность, тот блажен, тот брахман.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "«Дхаммапада»"
+              }
+            },
+            "uk": {
+              "edition": "dhammapada-equality.uk.ours",
+              "from": "26.393",
+              "to": "26.393",
+              "text": "Не заплетеним волоссям, не родом і не народженням стає людина брахманом; у кому істина й праведність, той блаженний, той брахман.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "«Дгаммапада»"
+              }
+            },
+            "pl": {
+              "edition": "dhammapada-equality.pl.ours",
+              "from": "26.393",
+              "to": "26.393",
+              "text": "Nie przez splecione włosy, nie przez ród ani nie przez urodzenie staje się człowiek braminem; w kim jest prawda i prawość, ten jest błogosławiony, ten jest braminem.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "Dhammapada"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Pali",
+              "ru": "оригинал на пали",
+              "uk": "оригінал мовою палі",
+              "pl": "oryginał w języku pali"
+            },
+            "url": "https://suttacentral.net/dhp383-423/pli/ms"
+          }
+        },
+        {
+          "by": {
+            "en": "The Dhammapada, 396",
+            "ru": "«Дхаммапада», 396",
+            "uk": "«Дгаммапада», 396",
+            "pl": "Dhammapada, 396"
+          },
+          "quotes": {
+            "en": {
+              "edition": "dhammapada-equality.en.muller",
+              "from": "26.396",
+              "to": "26.396",
+              "text": "I do not call a man a Brahmana because of his origin or of his mother. He is indeed arrogant, and he is wealthy: but the poor, who is free from all attachments, him I call indeed a Brahmana.",
+              "kind": "Free",
+              "translator": "F. Max Müller",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "The Dhammapada"
+              }
+            },
+            "ru": {
+              "edition": "dhammapada-equality.ru.ours",
+              "from": "26.396",
+              "to": "26.396",
+              "text": "Я не называю человека брахманом за его происхождение или за его мать. Он и вправду надменен, и он богат; но бедного, свободного от всех привязанностей, — его я поистине называю брахманом.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "«Дхаммапада»"
+              }
+            },
+            "uk": {
+              "edition": "dhammapada-equality.uk.ours",
+              "from": "26.396",
+              "to": "26.396",
+              "text": "Я не називаю людину брахманом за її походження чи за її матір. Він і справді пихатий, і він багатий; але бідного, вільного від усіх прив’язаностей, — його я справді називаю брахманом.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "«Дгаммапада»"
+              }
+            },
+            "pl": {
+              "edition": "dhammapada-equality.pl.ours",
+              "from": "26.396",
+              "to": "26.396",
+              "text": "Nie nazywam człowieka braminem z powodu jego pochodzenia ani jego matki. On jest wprawdzie wyniosły i jest bogaty; lecz ubogiego, wolnego od wszelkich przywiązań, tego zaprawdę nazywam braminem.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "Dhammapada"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Pali",
+              "ru": "оригинал на пали",
+              "uk": "оригінал мовою палі",
+              "pl": "oryginał w języku pali"
+            },
+            "url": "https://suttacentral.net/dhp383-423/pli/ms"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The Vinaya tells that when six Sakyan princes came to be ordained, they asked the Buddha to ordain their barber, Upāli, first — so that, bowing to one born beneath them, they might humble their pride. Upāli became the order's master of its rules.",
+            "ru": "Виная рассказывает, что, когда шестеро царевичей из рода Шакья пришли принять посвящение, они попросили Будду первым посвятить их цирюльника Упали — чтобы, кланяясь тому, кто ниже их по рождению, смирить свою гордость. Упали стал в общине знатоком и хранителем её правил.",
+            "uk": "Віная розповідає, що, коли шестеро царевичів із роду Шак’я прийшли прийняти посвяту, вони попросили Будду першим посвятити їхнього цирульника Упалі — щоб, вклоняючись тому, хто нижчий за них народженням, упокорити свою гордість. Упалі став у громаді знавцем і хоронителем її правил.",
+            "pl": "Winaja opowiada, że gdy sześciu książąt z rodu Śakjów przyszło przyjąć święcenia, poprosili Buddę, by najpierw wyświęcił ich golibrodę Upalego — aby kłaniając się komuś niższemu od siebie urodzeniem, upokorzyć własną pychę. Upali został we wspólnocie znawcą i strażnikiem jej reguł."
+          },
+          "source": "Vinaya Piṭaka, Cullavagga 7.1.4; and 11.1.7, where Upāli recites the rules at the first council"
+        },
+        {
+          "fact": {
+            "en": "On 14 October 1956, in Nagpur, B. R. Ambedkar — born an “untouchable”, and the chief author of India's constitution — became a Buddhist together with several hundred thousand of his followers, to leave the caste order behind.",
+            "ru": "14 октября 1956 года в Нагпуре Б. Р. Амбедкар — рождённый «неприкасаемым» и главный автор конституции Индии — принял буддизм вместе с несколькими сотнями тысяч своих сторонников, чтобы оставить кастовый порядок позади.",
+            "uk": "14 жовтня 1956 року в Нагпурі Б. Р. Амбедкар — народжений «недоторканним» і головний автор конституції Індії — прийняв буддизм разом із кількома сотнями тисяч своїх прихильників, щоб залишити кастовий лад позаду.",
+            "pl": "14 października 1956 roku w Nagpurze B. R. Ambedkar — urodzony jako „nietykalny” i główny autor konstytucji Indii — przyjął buddyzm wraz z kilkuset tysiącami swoich zwolenników, by zostawić porządek kastowy za sobą."
+          },
+          "source": "Eleanor Zelliot, From Untouchable to Dalit: Essays on the Ambedkar Movement (1992)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Paul: neither bond nor free",
+        "ru": "Апостол Павел: нет ни раба, ни свободного",
+        "uk": "Апостол Павло: немає ні раба, ні вільного",
+        "pl": "Święty Paweł: nie ma niewolnika ani wolnego"
+      },
+      "intro": {
+        "en": "About the year 50 AD. Paul of Tarsus, a Jew and, as Acts tells, a Roman citizen, writes to the communities he founded in Galatia, in the heart of Asia Minor. They are divided over whether those who are not Jews must first become Jews — be circumcised — to belong. In the Roman world a slave was his master's property. Paul's answer goes further than the question:",
+        "ru": "Около 50 года н. э. Павел из Тарса, иудей и, как сообщают Деяния апостолов, римский гражданин, пишет общинам, которые основал в Галатии, в самом сердце Малой Азии. Они спорят, должны ли те, кто не иудеи, сначала стать иудеями — принять обрезание, — чтобы принадлежать к общине. В римском мире раб был собственностью господина. Ответ Павла идёт дальше вопроса:",
+        "uk": "Близько 50 року н. е. Павло з Тарса, юдей і, як повідомляють Дії апостолів, римський громадянин, пише громадам, які заснував у Галатії, у самому серці Малої Азії. Вони сперечаються, чи мусять ті, хто не юдеї, спершу стати юдеями — прийняти обрізання, — щоб належати до громади. У римському світі раб був власністю пана. Відповідь Павла сягає далі за питання:",
+        "pl": "Około 50 roku n.e. Paweł z Tarsu, Żyd i — jak podają Dzieje Apostolskie — obywatel rzymski, pisze do wspólnot, które założył w Galacji, w samym sercu Azji Mniejszej. Spierają się one, czy ci, którzy nie są Żydami, muszą najpierw stać się Żydami — przyjąć obrzezanie — by należeć do wspólnoty. W świecie rzymskim niewolnik był własnością pana. Odpowiedź Pawła sięga dalej niż pytanie:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Paul, Letter to the Galatians 3:26–28",
+            "ru": "Апостол Павел, Послание к Галатам 3:26–28",
+            "uk": "Апостол Павло, Послання до галатів 3:26–28",
+            "pl": "Święty Paweł, List do Galatów 3,26–28"
+          },
+          "quotes": {
+            "en": {
+              "edition": "galatians-equality.en.kjv",
+              "from": "3.26",
+              "to": "3.28",
+              "text": "For ye are all the children of God by faith in Christ Jesus. For as many of you as have been baptized into Christ have put on Christ. There is neither Jew nor Greek, there is neither bond nor free, there is neither male nor female: for ye are all one in Christ Jesus.",
+              "kind": "Free",
+              "translator": "King James Version",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Galatians",
+                "lang": "en",
+                "title": "Paul, Letter to the Galatians"
+              }
+            },
+            "ru": {
+              "edition": "galatians-equality.ru.ours",
+              "from": "3.26",
+              "to": "3.28",
+              "text": "Ибо все вы — дети Божии по вере во Христа Иисуса. Ибо все вы, кто во Христа крестился, во Христа облеклись. Нет ни иудея, ни эллина, нет ни раба, ни свободного, нет ни мужчины, ни женщины: ибо все вы одно во Христе Иисусе.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Galatians",
+                "lang": "en",
+                "title": "Апостол Павел, «Послание к Галатам»"
+              }
+            },
+            "uk": {
+              "edition": "galatians-equality.uk.ours",
+              "from": "3.26",
+              "to": "3.28",
+              "text": "Бо всі ви — діти Божі через віру в Христа Ісуса. Бо всі ви, хто в Христа охрестився, у Христа зодяглися. Немає ні юдея, ні грека, немає ні раба, ні вільного, немає ні чоловіка, ні жінки: бо всі ви одне в Христі Ісусі.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Galatians",
+                "lang": "en",
+                "title": "Апостол Павло, «Послання до галатів»"
+              }
+            },
+            "pl": {
+              "edition": "galatians-equality.pl.ours",
+              "from": "3.26",
+              "to": "3.28",
+              "text": "Wszyscy bowiem jesteście dziećmi Bożymi przez wiarę w Chrystusa Jezusa. Bo wszyscy, którzy zostaliście ochrzczeni w Chrystusie, przyoblekliście się w Chrystusa. Nie ma Żyda ani Greka, nie ma niewolnika ani wolnego, nie ma mężczyzny ani kobiety: wszyscy bowiem jesteście jednym w Chrystusie Jezusie.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Galatians",
+                "lang": "en",
+                "title": "Święty Paweł, List do Galatów"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://el.wikisource.org/wiki/%CE%A0%CF%81%CE%BF%CF%82_%CE%93%CE%B1%CE%BB%CE%AC%CF%84%CE%B1%CF%82"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Paul sent the slave Onesimus, who had become a Christian with him, back to his master Philemon — asking him to receive Onesimus “not now as a servant, but above a servant, a brother beloved”.",
+            "ru": "Павел отослал раба Онисима, ставшего при нём христианином, обратно к его господину Филимону — с просьбой принять Онисима «уже не как раба, но выше раба, как брата возлюбленного».",
+            "uk": "Павло відіслав раба Онисима, який став при ньому християнином, назад до його пана Филимона — з проханням прийняти Онисима «вже не як раба, але вище від раба, як брата улюбленого».",
+            "pl": "Paweł odesłał niewolnika Onezyma, który przy nim został chrześcijaninem, z powrotem do jego pana Filemona — prosząc, by przyjął Onezyma „już nie jako niewolnika, lecz więcej niż niewolnika, jako brata umiłowanego”."
+          },
+          "source": "Paul, Letter to Philemon 10–16 (verse 16 in the King James Version)"
+        },
+        {
+          "fact": {
+            "en": "Letters under Paul's name also tell slaves to obey their masters (Ephesians 6:5, Colossians 3:22) — and in the American quarrel over slavery, both its defenders and its enemies quoted Paul.",
+            "ru": "Послания, носящие имя Павла, велят также рабам повиноваться господам (Еф. 6:5, Кол. 3:22), — и в американском споре о рабстве Павла цитировали и защитники рабства, и его противники.",
+            "uk": "Послання, що носять ім’я Павла, наказують також рабам коритися панам (Еф. 6:5, Кол. 3:22), — і в американській суперечці про рабство Павла цитували і захисники рабства, і його противники.",
+            "pl": "Listy noszące imię Pawła nakazują też niewolnikom posłuszeństwo wobec panów (Ef 6,5; Kol 3,22) — i w amerykańskim sporze o niewolnictwo Pawła cytowali zarówno obrońcy niewolnictwa, jak i jego przeciwnicy."
+          },
+          "source": "Ephesians 6:5; Colossians 3:22; Mark A. Noll, The Civil War as a Theological Crisis (2006)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Jefferson and Douglass: self-evident truths",
+        "ru": "Джефферсон и Дуглас: самоочевидные истины",
+        "uk": "Джефферсон і Дуглас: самоочевидні істини",
+        "pl": "Jefferson i Douglass: prawdy oczywiste"
+      },
+      "intro": {
+        "en": "Philadelphia, July 1776. The Continental Congress adopts the declaration that thirteen colonies are free of Britain; it was drafted by Thomas Jefferson, thirty-three, a Virginia planter who held people in slavery. It opens with a claim about all mankind. Seventy-six years later, on 5 July 1852, Frederick Douglass, who had escaped from slavery in Maryland, was asked to speak in Rochester, New York, for the anniversary. He began with praise for the founders — and then spoke otherwise. Must he prove, he asked, that the slave is a man?",
+        "ru": "Филадельфия, июль 1776 года. Континентальный конгресс принимает декларацию о том, что тринадцать колоний свободны от Британии; её составил тридцатитрёхлетний Томас Джефферсон, виргинский плантатор, владевший рабами. Она открывается утверждением обо всём человечестве. Семьдесят шесть лет спустя, 5 июля 1852 года, Фредерика Дугласа, бежавшего из рабства в Мэриленде, попросили выступить в Рочестере, штат Нью-Йорк, по случаю годовщины. Он начал с похвалы основателям — а затем заговорил иначе. Неужели, спросил он, ему нужно доказывать, что раб — человек?",
+        "uk": "Філадельфія, липень 1776 року. Континентальний конгрес ухвалює декларацію про те, що тринадцять колоній вільні від Британії; її склав тридцятитрирічний Томас Джефферсон, віргінський плантатор, що володів рабами. Вона відкривається твердженням про все людство. Сімдесят шість років потому, 5 липня 1852 року, Фредеріка Дугласа, який утік із рабства в Меріленді, попросили виступити в Рочестері, штат Нью-Йорк, з нагоди річниці. Він почав із похвали засновникам — а тоді заговорив інакше. Невже, спитав він, йому треба доводити, що раб — людина?",
+        "pl": "Filadelfia, lipiec 1776. Kongres Kontynentalny przyjmuje deklarację, że trzynaście kolonii jest wolnych od Wielkiej Brytanii; zredagował ją trzydziestotrzyletni Thomas Jefferson, plantator z Wirginii, który posiadał niewolników. Otwiera ją twierdzenie o całej ludzkości. Siedemdziesiąt sześć lat później, 5 lipca 1852 roku, Fredericka Douglassa, zbiegłego z niewoli w Maryland, poproszono o przemówienie w Rochester w stanie Nowy Jork z okazji rocznicy. Zaczął od pochwały założycieli — a potem przemówił inaczej. Czy musi, zapytał, dowodzić, że niewolnik jest człowiekiem?"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "The Declaration of Independence (4 July 1776)",
+            "ru": "Декларация независимости (4 июля 1776 года)",
+            "uk": "Декларація незалежності (4 липня 1776 року)",
+            "pl": "Deklaracja niepodległości (4 lipca 1776)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "declaration-equality.en",
+              "from": "1.2",
+              "to": "1.2",
+              "text": "We hold these Truths to be self-evident, that all Men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty, and the pursuit of Happiness",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/United_States_Declaration_of_Independence_(Dunlap_Broadside)",
+                "lang": "en",
+                "title": "The Declaration of Independence"
+              }
+            },
+            "ru": {
+              "edition": "declaration-equality.ru.ours",
+              "from": "1.2",
+              "to": "1.2",
+              "text": "Мы считаем самоочевидными истины: что все люди сотворены равными, что они наделены своим Творцом некоторыми неотчуждаемыми правами, что к ним относятся жизнь, свобода и стремление к счастью",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/United_States_Declaration_of_Independence_(Dunlap_Broadside)",
+                "lang": "en",
+                "title": "«Декларация независимости»"
+              }
+            },
+            "uk": {
+              "edition": "declaration-equality.uk.ours",
+              "from": "1.2",
+              "to": "1.2",
+              "text": "Ми вважаємо самоочевидними істини: що всі люди створені рівними, що їх наділив їхній Творець певними невідчужуваними правами, що до них належать життя, свобода і прагнення щастя",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/United_States_Declaration_of_Independence_(Dunlap_Broadside)",
+                "lang": "en",
+                "title": "«Декларація незалежності»"
+              }
+            },
+            "pl": {
+              "edition": "declaration-equality.pl.ours",
+              "from": "1.2",
+              "to": "1.2",
+              "text": "Uważamy za oczywiste prawdy, że wszyscy ludzie zostali stworzeni równymi, że Stwórca obdarzył ich pewnymi niezbywalnymi prawami, że należą do nich życie, wolność i dążenie do szczęścia",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/United_States_Declaration_of_Independence_(Dunlap_Broadside)",
+                "lang": "en",
+                "title": "Deklaracja niepodległości"
+              }
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "Frederick Douglass, What to the Slave Is the Fourth of July? (Rochester, 5 July 1852)",
+            "ru": "Фредерик Дуглас, «Что для раба Четвёртое июля?» (Рочестер, 5 июля 1852 года)",
+            "uk": "Фредерік Дуглас, «Що для раба Четверте липня?» (Рочестер, 5 липня 1852 року)",
+            "pl": "Frederick Douglass, Czym dla niewolnika jest Czwarty Lipca? (Rochester, 5 lipca 1852)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "fourth-equality.en",
+              "from": "1.41",
+              "to": "1.41",
+              "text": "The slave-holders themselves acknowledge it in the enactment of laws for their government. They acknowledge it when they punish disobedience on the part of the slave. There are seventy-two crimes in the State of Virginia, which, if committed by a black man, (no matter how ignorant he be,) subject him to the punishment of death; while only two of the same crimes will subject a white man to the like punishment.—What is this but the acknowledgement that the slave is a moral, intellectual and responsible being. The manhood of the slave is conceded.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Oration,_delivered_in_Corinthian_Hall,_Rochester",
+                "lang": "en",
+                "title": "Frederick Douglass, What to the Slave Is the Fourth of July?"
+              }
+            },
+            "ru": {
+              "edition": "fourth-equality.ru.ours",
+              "from": "1.41",
+              "to": "1.41",
+              "text": "Сами рабовладельцы признают это, принимая законы, по которым управляют рабами. Они признают это, когда наказывают раба за неповиновение. В штате Виргиния есть семьдесят два преступления, за которые чернокожего (как бы невежествен он ни был) карают смертью, тогда как белого той же каре подвергают лишь за два из них. — Что это, как не признание того, что раб — существо нравственное, разумное и ответственное? То, что раб — человек, признано.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Oration,_delivered_in_Corinthian_Hall,_Rochester",
+                "lang": "en",
+                "title": "Фредерик Дуглас, «Что для раба Четвёртое июля?»"
+              }
+            },
+            "uk": {
+              "edition": "fourth-equality.uk.ours",
+              "from": "1.41",
+              "to": "1.41",
+              "text": "Самі рабовласники визнають це, ухвалюючи закони, за якими правлять рабами. Вони визнають це, коли карають раба за непослух. У штаті Віргінія є сімдесят два злочини, за які чорношкірого (хоч би яким неосвіченим він був) карають смертю, тоді як білого такій самій карі піддають лише за два з них. — Що це, як не визнання того, що раб — істота моральна, розумна й відповідальна? Те, що раб — людина, визнано.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Oration,_delivered_in_Corinthian_Hall,_Rochester",
+                "lang": "en",
+                "title": "Фредерік Дуглас, «Що для раба Четверте липня?»"
+              }
+            },
+            "pl": {
+              "edition": "fourth-equality.pl.ours",
+              "from": "1.41",
+              "to": "1.41",
+              "text": "Sami właściciele niewolników to przyznają, uchwalając prawa, według których rządzą niewolnikami. Przyznają to, gdy karzą niewolnika za nieposłuszeństwo. W stanie Wirginia są siedemdziesiąt dwa przestępstwa, za które czarnego człowieka (bez względu na to, jak bardzo jest nieuczony) karze się śmiercią, podczas gdy białego tą samą karą karze się tylko za dwa z nich. — Czymże to jest, jeśli nie przyznaniem, że niewolnik jest istotą moralną, rozumną i odpowiedzialną? Człowieczeństwo niewolnika zostało przyznane.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Oration,_delivered_in_Corinthian_Hall,_Rochester",
+                "lang": "en",
+                "title": "Frederick Douglass, Czym dla niewolnika jest Czwarty Lipca?"
+              }
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "The same speech",
+            "ru": "Там же",
+            "uk": "Там само",
+            "pl": "Tamże"
+          },
+          "quotes": {
+            "en": {
+              "edition": "fourth-equality.en",
+              "from": "1.46",
+              "to": "1.46",
+              "text": "What, to the American slave, is your 4th of July? I answer; a day that reveals to him, more than all other days in the year, the gross injustice and cruelty to which he is the constant victim. To him, your celebration is a sham; your boasted liberty, an unholy license; your national greatness, swelling vanity; your sounds of rejoicing are empty and heartless; your denunciations of tyrants, brass fronted impudence; your shouts of liberty and equality, hollow mockery",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Oration,_delivered_in_Corinthian_Hall,_Rochester",
+                "lang": "en",
+                "title": "Frederick Douglass, What to the Slave Is the Fourth of July?"
+              }
+            },
+            "ru": {
+              "edition": "fourth-equality.ru.ours",
+              "from": "1.46",
+              "to": "1.46",
+              "text": "Что для американского раба ваше Четвёртое июля? Отвечаю: день, который больше всех других дней в году открывает ему вопиющую несправедливость и жестокость, жертвой которых он постоянно становится. Для него ваш праздник — обман; ваша хвалёная свобода — нечестивая распущенность; ваше национальное величие — раздутое тщеславие; ваши звуки ликования пусты и бессердечны; ваши обличения тиранов — бесстыдство медного лба; ваши крики о свободе и равенстве — пустая насмешка",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Oration,_delivered_in_Corinthian_Hall,_Rochester",
+                "lang": "en",
+                "title": "Фредерик Дуглас, «Что для раба Четвёртое июля?»"
+              }
+            },
+            "uk": {
+              "edition": "fourth-equality.uk.ours",
+              "from": "1.46",
+              "to": "1.46",
+              "text": "Що для американського раба ваше Четверте липня? Відповідаю: день, який більше за всі інші дні в році відкриває йому кричущу несправедливість і жорстокість, жертвою яких він постійно стає. Для нього ваше свято — облуда; ваша хвалена свобода — нечестива сваволя; ваша національна велич — пихате марнославство; ваші звуки радощів порожні й бездушні; ваші викриття тиранів — мідночоле нахабство; ваші вигуки про свободу й рівність — порожня насмішка",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Oration,_delivered_in_Corinthian_Hall,_Rochester",
+                "lang": "en",
+                "title": "Фредерік Дуглас, «Що для раба Четверте липня?»"
+              }
+            },
+            "pl": {
+              "edition": "fourth-equality.pl.ours",
+              "from": "1.46",
+              "to": "1.46",
+              "text": "Czym dla amerykańskiego niewolnika jest wasz Czwarty Lipca? Odpowiadam: dniem, który bardziej niż wszystkie inne dni w roku odsłania przed nim rażącą niesprawiedliwość i okrucieństwo, których jest stałą ofiarą. Dla niego wasze święto to fałsz; wasza chełpliwa wolność — bezbożna swawola; wasza narodowa wielkość — nadęta próżność; wasze odgłosy radości są puste i bez serca; wasze potępienia tyranów — bezczelność miedzianego czoła; wasze okrzyki o wolności i równości — pusta drwina",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Oration,_delivered_in_Corinthian_Hall,_Rochester",
+                "lang": "en",
+                "title": "Frederick Douglass, Czym dla niewolnika jest Czwarty Lipca?"
+              }
+            }
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Jefferson's draft had blamed the King for the slave trade — “cruel war against human nature itself”. Congress struck the passage out, Jefferson wrote later, “in complaisance to South Carolina and Georgia”, which wished to go on importing slaves.",
+            "ru": "В черновике Джефферсон обвинял короля в работорговле — «жестокой войне против самой человеческой природы». Конгресс вычеркнул это место, как писал потом Джефферсон, «в угоду Южной Каролине и Джорджии», которые хотели и дальше ввозить рабов.",
+            "uk": "У чернетці Джефферсон звинувачував короля в работоргівлі — «жорстокій війні проти самої людської природи». Конгрес викреслив це місце, як писав згодом Джефферсон, «догоджаючи Південній Кароліні та Джорджії», які хотіли й далі ввозити рабів.",
+            "pl": "W projekcie Jefferson obwiniał króla o handel niewolnikami — „okrutną wojnę przeciw samej ludzkiej naturze”. Kongres skreślił ten ustęp, jak pisał później Jefferson, „przez wzgląd na Karolinę Południową i Georgię”, które chciały nadal sprowadzać niewolników."
+          },
+          "source": "Thomas Jefferson, Autobiography (written 1821), with the draft of the Declaration as he copied it there"
+        },
+        {
+          "fact": {
+            "en": "Douglass had escaped from slavery in Baltimore in 1838, travelling north by train and steamboat with a free Black sailor's papers. For years he would not tell how, so as not to close the road to others.",
+            "ru": "Дуглас бежал из рабства в Балтиморе в 1838 году: на поезде и пароходе он добрался на север с бумагами свободного чернокожего моряка. Много лет он не рассказывал, как именно, чтобы не закрыть этот путь другим.",
+            "uk": "Дуглас утік із рабства в Балтиморі 1838 року: поїздом і пароплавом він дістався на північ із паперами вільного чорношкірого моряка. Багато років він не розповідав, як саме, щоб не закрити цього шляху іншим.",
+            "pl": "Douglass uciekł z niewoli w Baltimore w 1838 roku: pociągiem i parowcem dotarł na północ z dokumentami wolnego czarnoskórego marynarza. Przez lata nie mówił, jak to zrobił, by nie zamknąć tej drogi innym."
+          },
+          "source": "Frederick Douglass, Narrative of the Life of Frederick Douglass (1845), chapter 11; Life and Times of Frederick Douglass (1881)"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Valladolid, August 1550",
+        "ru": "Вальядолид, август 1550 года",
+        "uk": "Вальядолід, серпень 1550 року",
+        "pl": "Valladolid, sierpień 1550"
+      },
+      "scene": {
+        "en": "You are one of the theologians and jurists whom the Emperor Charles V has called to the college of San Gregorio in Valladolid. He has ordered that no new conquests be made in the Indies until you say whether they can be just. First Juan Ginés de Sepúlveda speaks, the scholar who put Aristotle's Politics into Latin: the Indians, he says, are slaves by nature, as Aristotle taught — barbarous, without reason enough to govern themselves, given to idolatry and human sacrifice — and a war to rule them and open the way for the faith is just. Then the Dominican friar Bartolomé de las Casas, who once had Indians working his own land on Cuba, rises to read his answer. You must advise the Emperor. What do you say?",
+        "ru": "Вы — один из богословов и правоведов, которых император Карл V созвал в коллегию Сан-Грегорио в Вальядолиде. Он повелел не начинать в Индиях новых завоеваний, пока вы не скажете, могут ли они быть справедливыми. Первым говорит Хуан Хинес де Сепульведа, учёный, переложивший «Политику» Аристотеля на латынь: индейцы, говорит он, — рабы по природе, как учил Аристотель, — варвары, которым недостаёт разума, чтобы управлять собой, преданные идолопоклонству и человеческим жертвоприношениям, — и война, чтобы властвовать над ними и открыть дорогу вере, справедлива. Затем встаёт доминиканский монах Бартоломе де Лас Касас, у которого когда-то на Кубе на его собственной земле работали индейцы, и читает свой ответ. Вы должны дать совет императору. Что вы скажете?",
+        "uk": "Ви — один із богословів і правознавців, яких імператор Карл V скликав до колегії Сан-Грегоріо у Вальядоліді. Він наказав не починати в Індіях нових завоювань, доки ви не скажете, чи можуть вони бути справедливими. Першим говорить Хуан Хінес де Сепульведа, учений, що переклав «Політику» Аристотеля латиною: індіанці, каже він, — раби за природою, як навчав Аристотель, — варвари, яким бракує розуму, щоб правити собою, віддані ідолопоклонству й людським жертвоприношенням, — і війна, щоб владарювати над ними й відкрити дорогу вірі, справедлива. Потім підводиться домініканський чернець Бартоломе де Лас Касас, на чиїй власній землі на Кубі колись працювали індіанці, і читає свою відповідь. Ви маєте дати пораду імператорові. Що ви скажете?",
+        "pl": "Jesteś jednym z teologów i prawników, których cesarz Karol V wezwał do kolegium San Gregorio w Valladolid. Nakazał, by nie podejmować w Indiach nowych podbojów, dopóki nie orzekniecie, czy mogą one być sprawiedliwe. Najpierw przemawia Juan Ginés de Sepúlveda, uczony, który przełożył Politykę Arystotelesa na łacinę: Indianie, mówi, są niewolnikami z natury, jak nauczał Arystoteles — barbarzyńcami, którym brak rozumu, by sami sobą rządzić, oddanymi bałwochwalstwu i ofiarom z ludzi — a wojna, by nad nimi panować i otworzyć drogę wierze, jest sprawiedliwa. Potem wstaje dominikanin Bartolomé de Las Casas, na którego własnej ziemi na Kubie pracowali kiedyś Indianie, i odczytuje swoją odpowiedź. Musisz doradzić cesarzowi. Co powiesz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Sepúlveda is right: they are slaves by nature, and war on them is just",
+            "ru": "Сепульведа прав: они рабы по природе, и война против них справедлива",
+            "uk": "Сепульведа має рацію: вони раби за природою, і війна проти них справедлива",
+            "pl": "Sepúlveda ma rację: są niewolnikami z natury, a wojna z nimi jest sprawiedliwa"
+          },
+          "reply": {
+            "en": "That was Sepúlveda's case, with Aristotle in his hands; the judges never put their names to it, and the book in which he argued it stayed unprinted for more than three centuries.",
+            "ru": "Так доказывал Сепульведа, держа в руках Аристотеля; судьи так и не подписались под этим, а книга, в которой он это отстаивал, оставалась ненапечатанной больше трёх столетий.",
+            "uk": "Так доводив Сепульведа, тримаючи в руках Аристотеля; судді так і не підписалися під цим, а книжка, де він це обстоював, лишалася ненадрукованою понад три століття.",
+            "pl": "Tak dowodził Sepúlveda, z Arystotelesem w ręku; sędziowie nigdy się pod tym nie podpisali, a księga, w której tego bronił, pozostała niewydana przez ponad trzy stulecia."
+          }
+        },
+        {
+          "choice": {
+            "en": "They are free men — but war is just to stop human sacrifice and to protect the preachers",
+            "ru": "Они свободные люди — но война справедлива, чтобы прекратить человеческие жертвоприношения и защитить проповедников",
+            "uk": "Вони вільні люди — але війна справедлива, щоб припинити людські жертвоприношення і захистити проповідників",
+            "pl": "Są wolnymi ludźmi — ale wojna jest sprawiedliwa, by położyć kres ofiarom z ludzi i chronić kaznodziejów"
+          },
+          "reply": {
+            "en": "Many theologians held that middle view, after Francisco de Vitoria at Salamanca: the Indians are the true owners of their lands, yet a war may be just to defend the innocent.",
+            "ru": "Этого среднего пути держались многие богословы вслед за Франсиско де Виторией из Саламанки: индейцы — подлинные хозяева своих земель, и всё же война может быть справедливой, чтобы защитить невинных.",
+            "uk": "Цього середнього шляху трималося багато богословів услід за Франсиско де Віторією із Саламанки: індіанці — справжні господарі своїх земель, і все ж війна може бути справедливою, щоб захистити невинних.",
+            "pl": "Tej pośredniej drogi trzymało się wielu teologów w ślad za Franciszkiem de Vitorią z Salamanki: Indianie są prawdziwymi właścicielami swych ziem, a jednak wojna może być sprawiedliwa, by bronić niewinnych."
+          }
+        },
+        {
+          "choice": {
+            "en": "They are men as we are: the faith may be brought by persuasion alone, never by war",
+            "ru": "Они такие же люди, как мы: веру можно нести лишь убеждением, но никогда войной",
+            "uk": "Вони такі самі люди, як ми: віру можна нести лише переконанням, але ніколи війною",
+            "pl": "Są ludźmi tak jak my: wiarę można nieść tylko przez przekonywanie, nigdy przez wojnę"
+          },
+          "reply": {
+            "en": "That was Las Casas' plea: all the peoples of the world, he argued, have reason, and only peaceful preaching can win them.",
+            "ru": "Такова была речь Лас Касаса: все народы мира, утверждал он, наделены разумом, и привлечь их может лишь мирная проповедь.",
+            "uk": "Такою була промова Лас Касаса: усі народи світу, доводив він, наділені розумом, і привернути їх може лише мирна проповідь.",
+            "pl": "Taka była mowa Las Casasa: wszystkie ludy świata, dowodził, mają rozum i pozyskać je może tylko pokojowe głoszenie wiary."
+          }
+        },
+        {
+          "choice": {
+            "en": "Spain has no right to be there at all: let them be",
+            "ru": "У Испании вообще нет права там быть: оставьте их в покое",
+            "uk": "Іспанія взагалі не має права там бути: залиште їх у спокої",
+            "pl": "Hiszpania w ogóle nie ma prawa tam być: zostawcie ich w spokoju"
+          },
+          "reply": {
+            "en": "Almost no one at Valladolid went so far: even Las Casas held that the Pope had given the Indies to the Crown — to preach the faith, not to plunder.",
+            "ru": "Почти никто в Вальядолиде не заходил так далеко: даже Лас Касас считал, что папа отдал Индии короне — чтобы проповедовать веру, а не грабить.",
+            "uk": "Майже ніхто у Вальядоліді не заходив так далеко: навіть Лас Касас вважав, що папа віддав Індії короні — щоб проповідувати віру, а не грабувати.",
+            "pl": "Prawie nikt w Valladolid nie posunął się tak daleko: nawet Las Casas uważał, że papież oddał Indie koronie — by głosić wiarę, nie by grabić."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "The judges heard both men again in the spring of 1551, and never gave a common verdict; each claimed he had won. Sepúlveda's treatise stayed unprinted until 1892. Las Casas went on writing for the Indians until he died in Madrid in 1566, past eighty. The conquests went on too — though Philip II's ordinances of 1573 forbade calling them “conquests”: they were to be called “pacifications”.",
+        "ru": "Судьи снова выслушали обоих весной 1551 года и так и не вынесли общего решения; каждый из двоих утверждал, что победил. Трактат Сепульведы оставался ненапечатанным до 1892 года. Лас Касас продолжал писать в защиту индейцев до своей смерти в Мадриде в 1566 году, когда ему было за восемьдесят. Продолжились и завоевания — хотя указы Филиппа II 1573 года запретили называть их «завоеваниями»: их следовало называть «умиротворениями».",
+        "uk": "Судді знову вислухали обох навесні 1551 року і так і не ухвалили спільного рішення; кожен із двох запевняв, що переміг. Трактат Сепульведи лишався ненадрукованим до 1892 року. Лас Касас і далі писав на захист індіанців до своєї смерті в Мадриді 1566 року, коли йому було понад вісімдесят. Тривали й завоювання — хоча укази Філіпа II 1573 року заборонили називати їх «завоюваннями»: їх належало називати «умиротвореннями».",
+        "pl": "Sędziowie wysłuchali obu ponownie wiosną 1551 roku i nigdy nie wydali wspólnego orzeczenia; każdy z dwóch twierdził, że zwyciężył. Traktat Sepúlvedy pozostał niewydany aż do 1892 roku. Las Casas pisał w obronie Indian aż do śmierci w Madrycie w 1566 roku, mając ponad osiemdziesiąt lat. Trwały też podboje — choć ordonanse Filipa II z 1573 roku zakazały nazywać je „podbojami”: miały się nazywać „pacyfikacjami”."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Las Casas, A Short Account of the Destruction of the Indies (written 1542, printed 1552), chapter 1, in the English of 1689",
+            "ru": "Лас Касас, «Кратчайшее сообщение о разрушении Индий» (написано в 1542, напечатано в 1552 году), глава 1, по английскому переводу 1689 года",
+            "uk": "Лас Касас, «Найкоротше повідомлення про знищення Індій» (написане 1542, надруковане 1552 року), розділ 1, за англійським перекладом 1689 року",
+            "pl": "Las Casas, Krótka relacja o wyniszczeniu Indian (napisana w 1542, wydana w 1552 roku), rozdział 1, według angielskiego przekładu z 1689 roku"
+          },
+          "quotes": {
+            "en": {
+              "edition": "destruction-equality.en",
+              "from": "1.3",
+              "to": "1.3",
+              "text": "The natives tractable, and capable of Morality or Goodness, very apt to receive the instill'd principles of Catholick Religion; nor are they averse to Civility and good Manners",
+              "kind": "Free",
+              "translator": "an anonymous translator (London, 1689)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_Short_Account_of_the_Destruction_of_the_Indies",
+                "lang": "en",
+                "title": "Bartolomé de las Casas, A Short Account of the Destruction of the Indies"
+              }
+            },
+            "ru": {
+              "edition": "destruction-equality.ru.ours",
+              "from": "1.3",
+              "to": "1.3",
+              "text": "Туземцы понятливы и способны к нравственности и добру, весьма склонны воспринимать внушаемые им начала католической веры; и не чужды они учтивости и добрых нравов",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_Short_Account_of_the_Destruction_of_the_Indies",
+                "lang": "en",
+                "title": "Бартоломе де Лас Касас, «Кратчайшее сообщение о разрушении Индий»"
+              }
+            },
+            "uk": {
+              "edition": "destruction-equality.uk.ours",
+              "from": "1.3",
+              "to": "1.3",
+              "text": "Тубільці понятливі й здатні до моральності та доброчесності, вельми схильні сприймати прищеплювані їм засади католицької віри; і не чужі вони чемності й добрих звичаїв",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_Short_Account_of_the_Destruction_of_the_Indies",
+                "lang": "en",
+                "title": "Бартоломе де Лас Касас, «Найкоротше повідомлення про знищення Індій»"
+              }
+            },
+            "pl": {
+              "edition": "destruction-equality.pl.ours",
+              "from": "1.3",
+              "to": "1.3",
+              "text": "Krajowcy są pojętni i zdolni do moralności i dobroci, bardzo skłonni przyjmować wpajane im zasady wiary katolickiej; i nie są im obce grzeczność i dobre obyczaje",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_Short_Account_of_the_Destruction_of_the_Indies",
+                "lang": "en",
+                "title": "Bartolomé de Las Casas, Krótka relacja o wyniszczeniu Indian"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Spanish",
+              "ru": "оригинал на испанском",
+              "uk": "оригінал іспанською",
+              "pl": "oryginał po hiszpańsku"
+            },
+            "url": "https://es.wikisource.org/wiki/Brev%C3%ADsima_relaci%C3%B3n_de_la_destrucci%C3%B3n_de_las_Indias"
+          }
+        },
+        {
+          "by": {
+            "en": "The same, chapter 1",
+            "ru": "Там же, глава 1",
+            "uk": "Там само, розділ 1",
+            "pl": "Tamże, rozdział 1"
+          },
+          "quotes": {
+            "en": {
+              "edition": "destruction-equality.en",
+              "from": "1.4",
+              "to": "1.4",
+              "text": "The Spaniards first assaulted the innocent Sheep, so qualified by the Almighty, as is premention'd, like most cruel Tygers, Wolves and Lions hunger-starv'd, studying nothing, for the space of Forty Years, after their first landing, but the Massacre of these Wretches",
+              "kind": "Free",
+              "translator": "an anonymous translator (London, 1689)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_Short_Account_of_the_Destruction_of_the_Indies",
+                "lang": "en",
+                "title": "Bartolomé de las Casas, A Short Account of the Destruction of the Indies"
+              }
+            },
+            "ru": {
+              "edition": "destruction-equality.ru.ours",
+              "from": "1.4",
+              "to": "1.4",
+              "text": "Испанцы с самого начала набросились на этих невинных овец, которых Всевышний наделил такими качествами, как сказано выше, словно свирепейшие тигры, волки и изголодавшиеся львы, и все сорок лет со времени своей первой высадки ни о чём ином не помышляли, как только об избиении этих несчастных",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_Short_Account_of_the_Destruction_of_the_Indies",
+                "lang": "en",
+                "title": "Бартоломе де Лас Касас, «Кратчайшее сообщение о разрушении Индий»"
+              }
+            },
+            "uk": {
+              "edition": "destruction-equality.uk.ours",
+              "from": "1.4",
+              "to": "1.4",
+              "text": "Іспанці від самого початку накинулися на цих невинних овець, яких Всевишній наділив такими якостями, як сказано вище, наче найлютіші тигри, вовки й зголоднілі леви, і всі сорок років від своєї першої висадки ні про що інше не дбали, як тільки про різанину цих нещасних",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_Short_Account_of_the_Destruction_of_the_Indies",
+                "lang": "en",
+                "title": "Бартоломе де Лас Касас, «Найкоротше повідомлення про знищення Індій»"
+              }
+            },
+            "pl": {
+              "edition": "destruction-equality.pl.ours",
+              "from": "1.4",
+              "to": "1.4",
+              "text": "Hiszpanie od pierwszej chwili napadli na te niewinne owce, tak przez Wszechmocnego obdarzone, jak wyżej powiedziano, niczym najokrutniejsze tygrysy, wilki i wygłodniałe lwy, i przez czterdzieści lat od swego pierwszego lądowania nie zajmowali się niczym innym, jak tylko rzezią tych nieszczęśników",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_Short_Account_of_the_Destruction_of_the_Indies",
+                "lang": "en",
+                "title": "Bartolomé de Las Casas, Krótka relacja o wyniszczeniu Indian"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Spanish",
+              "ru": "оригинал на испанском",
+              "uk": "оригінал іспанською",
+              "pl": "oryginał po hiszpańsku"
+            },
+            "url": "https://es.wikisource.org/wiki/Brev%C3%ADsima_relaci%C3%B3n_de_la_destrucci%C3%B3n_de_las_Indias"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "In April 1550 Charles V ordered all new conquests in the Indies stopped until a council of theologians and jurists had decided how they might justly be made.",
+            "ru": "В апреле 1550 года Карл V повелел остановить все новые завоевания в Индиях, пока совет богословов и правоведов не решит, как их можно вести справедливо.",
+            "uk": "У квітні 1550 року Карл V наказав зупинити всі нові завоювання в Індіях, доки рада богословів і правознавців не вирішить, як їх можна провадити справедливо.",
+            "pl": "W kwietniu 1550 roku Karol V nakazał wstrzymać wszystkie nowe podboje w Indiach, dopóki rada teologów i prawników nie rozstrzygnie, jak można je prowadzić sprawiedliwie."
+          },
+          "source": "Lewis Hanke, All Mankind Is One: A Study of the Disputation Between Bartolomé de Las Casas and Juan Ginés de Sepúlveda in 1550 (1974)"
+        },
+        {
+          "fact": {
+            "en": "Sepúlveda spoke for three hours; Las Casas then read his Latin Defence aloud for five days. The theologian Domingo de Soto was asked to sum up both cases for the judges.",
+            "ru": "Сепульведа говорил три часа; затем Лас Касас пять дней читал вслух свою латинскую «Апологию». Богослова Доминго де Сото попросили изложить для судей доводы обеих сторон.",
+            "uk": "Сепульведа говорив три години; потім Лас Касас п’ять днів читав уголос свою латинську «Апологію». Богослова Домінго де Сото попросили викласти для суддів доводи обох сторін.",
+            "pl": "Sepúlveda mówił trzy godziny; potem Las Casas przez pięć dni odczytywał na głos swoją łacińską Apologię. Teologa Domingo de Soto poproszono, by streścił sędziom racje obu stron."
+          },
+          "source": "Lewis Hanke, Aristotle and the American Indians: A Study in Race Prejudice in the Modern World (1959)"
+        },
+        {
+          "fact": {
+            "en": "Years before, to spare the Indians, Las Casas had proposed that settlers be allowed to bring enslaved Africans. In his History of the Indies he wrote that he came to repent it, seeing that their enslavement was just as unjust as the Indians'.",
+            "ru": "За много лет до того, желая уберечь индейцев, Лас Касас предлагал позволить поселенцам ввозить порабощённых африканцев. В «Истории Индий» он написал, что потом раскаялся в этом, поняв, что их порабощение столь же несправедливо, как порабощение индейцев.",
+            "uk": "За багато років до того, бажаючи вберегти індіанців, Лас Касас пропонував дозволити поселенцям ввозити поневолених африканців. В «Історії Індій» він написав, що згодом розкаявся в цьому, зрозумівши, що їхнє поневолення так само несправедливе, як поневолення індіанців.",
+            "pl": "Wiele lat wcześniej, chcąc oszczędzić Indian, Las Casas proponował, by pozwolić osadnikom sprowadzać zniewolonych Afrykanów. W Historii Indii napisał, że potem tego żałował, zrozumiawszy, że ich zniewolenie jest równie niesprawiedliwe jak zniewolenie Indian."
+          },
+          "source": "Bartolomé de las Casas, History of the Indies (Historia de las Indias), book III, chapters 102 and 129"
+        }
+      ]
+    },
+    {
+      "think": "equality",
+      "question": {
+        "en": "Think of two people very unlike each other — in talent, in strength, in goodness. In what, if anything, are they equal? And should that equality decide how the law — and you — treat them?",
+        "ru": "Представьте двух людей, совсем непохожих друг на друга, — по таланту, по силе, по доброте. В чём они равны, если равны вообще? И должно ли это равенство определять, как с ними обходятся закон — и вы сами?",
+        "uk": "Уявіть двох людей, зовсім несхожих одне на одного, — талантом, силою, добротою. У чому вони рівні, якщо рівні взагалі? І чи має ця рівність визначати, як із ними поводяться закон — і ви самі?",
+        "pl": "Pomyśl o dwóch ludziach zupełnie do siebie niepodobnych — pod względem talentu, siły, dobroci. W czym są równi, jeśli w ogóle? I czy ta równość powinna rozstrzygać o tym, jak traktuje ich prawo — i ty sam?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: are all people equal?",
+        "ru": "А теперь: равны ли все люди?",
+        "uk": "А тепер: чи всі люди рівні?",
+        "pl": "A teraz: czy wszyscy ludzie są równi?"
+      }
+    }
+  ]
+}

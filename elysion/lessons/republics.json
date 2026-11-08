@@ -1,0 +1,1040 @@
+{
+  "id": "republics",
+  "title": {
+    "en": "Why do republics fall?",
+    "ru": "Почему гибнут республики?",
+    "uk": "Чому гинуть республіки?",
+    "pl": "Dlaczego upadają republiki?"
+  },
+  "subtitle": {
+    "en": "Plato, Polybius, Mencius, Caesar and Montesquieu — and you",
+    "ru": "Платон, Полибий, Мэн-цзы, Цезарь и Монтескьё — и вы",
+    "uk": "Платон, Полібій, Мен-цзи, Цезар і Монтеск’є — і ви",
+    "pl": "Platon, Polibiusz, Mencjusz, Cezar i Monteskiusz — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: why do republics fall?",
+        "ru": "Прежде чем читать кого-либо: почему гибнут республики?",
+        "uk": "Перш ніж читати когось: чому гинуть республіки?",
+        "pl": "Zanim kogokolwiek przeczytasz: dlaczego upadają republiki?"
+      },
+      "options": [
+        {
+          "en": "Their citizens stop caring for the common good",
+          "ru": "Граждане перестают заботиться об общем благе",
+          "uk": "Громадяни перестають дбати про спільне благо",
+          "pl": "Obywatele przestają dbać o dobro wspólne"
+        },
+        {
+          "en": "Too much freedom: the people follow whoever flatters them",
+          "ru": "Слишком много свободы: народ идёт за тем, кто ему льстит",
+          "uk": "Забагато свободи: народ іде за тим, хто йому лестить",
+          "pl": "Za dużo wolności: lud idzie za tym, kto mu schlebia"
+        },
+        {
+          "en": "The rich and powerful take the state for themselves",
+          "ru": "Богатые и сильные забирают государство себе",
+          "uk": "Багаті й сильні забирають державу собі",
+          "pl": "Bogaci i możni zagarniają państwo dla siebie"
+        },
+        {
+          "en": "An ambitious man with an army behind him",
+          "ru": "Честолюбец, за которым стоит армия",
+          "uk": "Честолюбець, за яким стоїть армія",
+          "pl": "Ambitny człowiek z armią za plecami"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Plato: too much freedom",
+        "ru": "Платон: слишком много свободы",
+        "uk": "Платон: забагато свободи",
+        "pl": "Platon: za dużo wolności"
+      },
+      "intro": {
+        "en": "Athens, the fourth century BC. In the Republic Socrates builds a just city in words — and then shows how it would decay, step by step: into the rule of honour, then of the rich, then of the people, and at last of one man. Democracy, he says, dies of what it loves most, freedom; and out of it grows a tyrant, who first appears as the people's champion:",
+        "ru": "Афины, IV век до н. э. В «Государстве» Сократ строит в словах справедливый город — а затем показывает, как он будет вырождаться шаг за шагом: во власть чести, затем богатых, затем народа и, наконец, одного человека. Демократия, говорит он, гибнет от того, что любит больше всего, — от свободы; а из неё вырастает тиран, который сперва является как заступник народа:",
+        "uk": "Афіни, IV століття до н. е. У «Державі» Сократ будує в словах справедливе місто — а тоді показує, як воно вироджуватиметься крок за кроком: у владу честі, далі багатих, далі народу і, нарешті, однієї людини. Демократія, каже він, гине від того, що любить найбільше, — від свободи; а з неї виростає тиран, який спершу з’являється як заступник народу:",
+        "pl": "Ateny, IV wiek p.n.e. W Państwie Sokrates buduje w słowach sprawiedliwe miasto — a potem pokazuje, jak będzie się ono krok po kroku wyradzać: we władzę honoru, potem bogatych, potem ludu, a w końcu jednego człowieka. Demokracja, mówi, ginie od tego, co kocha najbardziej — od wolności; a z niej wyrasta tyran, który najpierw pojawia się jako obrońca ludu:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Plato, Republic VIII, 563e",
+            "ru": "Платон, «Государство», VIII, 563e",
+            "uk": "Платон, «Держава», VIII, 563e",
+            "pl": "Platon, Państwo VIII, 563e"
+          },
+          "quotes": {
+            "en": {
+              "edition": "republic-republics.en.jowett",
+              "from": "8.563",
+              "to": "8.563",
+              "text": "The ruin of oligarchy is the ruin of democracy; the same disease magnified and intensified by liberty overmasters democracy—the truth being that the excessive increase of anything often causes a reaction in the opposite direction; and this is the case not only in the seasons and in vegetable and animal life, but above all in forms of government.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Plato, The Republic"
+              }
+            },
+            "ru": {
+              "edition": "republic-republics.ru.ours",
+              "from": "8.563",
+              "to": "8.563",
+              "text": "Гибель олигархии — это и гибель демократии: та же болезнь, разросшаяся и усиленная свободой, одолевает демократию; ведь истина в том, что чрезмерное возрастание чего бы то ни было часто вызывает поворот в противоположную сторону, и так бывает не только с временами года, с растениями и животными, но более всего с государственным устройством.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/Политика_или_государство._Книга_первая_(Платон;_Карпов)",
+                "lang": "ru",
+                "title": "Платон, «Государство»"
+              }
+            },
+            "uk": {
+              "edition": "republic-republics.uk.ours",
+              "from": "8.563",
+              "to": "8.563",
+              "text": "Загибель олігархії — це й загибель демократії: та сама хвороба, що розрослася й посилилася через свободу, долає демократію; адже правда в тому, що надмірне зростання будь-чого часто викликає поворот у протилежний бік, і так буває не лише з порами року, з рослинами й тваринами, а найбільше — з державним устроєм.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Платон, «Держава»"
+              }
+            },
+            "pl": {
+              "edition": "republic-republics.pl.ours",
+              "from": "8.563",
+              "to": "8.563",
+              "text": "Zguba oligarchii jest zgubą demokracji: ta sama choroba, powiększona i wzmożona przez wolność, przemaga demokrację — prawda bowiem jest taka, że nadmierny wzrost czegokolwiek często wywołuje zwrot w przeciwną stronę; i tak jest nie tylko z porami roku, z roślinami i zwierzętami, lecz przede wszystkim z ustrojami państw.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://wolnelektury.pl/katalog/lektura/platon-panstwo.html",
+                "lang": "pl",
+                "title": "Platon, Państwo"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg030.perseus-grc2:8.563/"
+          }
+        },
+        {
+          "by": {
+            "en": "Plato, Republic VIII, 565d",
+            "ru": "Платон, «Государство», VIII, 565d",
+            "uk": "Платон, «Держава», VIII, 565d",
+            "pl": "Platon, Państwo VIII, 565d"
+          },
+          "quotes": {
+            "en": {
+              "edition": "republic-republics.en.jowett",
+              "from": "8.565",
+              "to": "8.565",
+              "text": "This, and no other, is the root from which a tyrant springs; when he first appears above ground he is a protector.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Plato, The Republic"
+              }
+            },
+            "ru": {
+              "edition": "republic-republics.ru.ours",
+              "from": "8.565",
+              "to": "8.565",
+              "text": "Вот он, и никакой другой, — корень, из которого вырастает тиран: когда он впервые показывается над землёй, он — защитник.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/Политика_или_государство._Книга_первая_(Платон;_Карпов)",
+                "lang": "ru",
+                "title": "Платон, «Государство»"
+              }
+            },
+            "uk": {
+              "edition": "republic-republics.uk.ours",
+              "from": "8.565",
+              "to": "8.565",
+              "text": "Ось він, і жоден інший, — корінь, з якого виростає тиран: коли він уперше з’являється над землею, він — захисник.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+                "lang": "en",
+                "title": "Платон, «Держава»"
+              }
+            },
+            "pl": {
+              "edition": "republic-republics.pl.ours",
+              "from": "8.565",
+              "to": "8.565",
+              "text": "To jest, i żaden inny, korzeń, z którego wyrasta tyran: gdy po raz pierwszy wychodzi nad ziemię, jest obrońcą.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://wolnelektury.pl/katalog/lektura/platon-panstwo.html",
+                "lang": "pl",
+                "title": "Platon, Państwo"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg030.perseus-grc2:8.565/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "In the Seventh Letter — whether Plato wrote it is disputed — he tells how as a young man he meant to enter public life, but recoiled first from the Thirty, among whom were his own kinsmen, and then from the restored democracy that put Socrates to death.",
+            "ru": "В Седьмом письме — принадлежит ли оно Платону, спорят — рассказано, как в юности он собирался заняться государственными делами, но отшатнулся сначала от Тридцати, среди которых были его родственники, а затем от восстановленной демократии, казнившей Сократа.",
+            "uk": "У Сьомому листі — чи належить він Платонові, сперечаються — розповідається, як замолоду він збирався взятися до державних справ, але відсахнувся спершу від Тридцяти, серед яких були його родичі, а потім від відновленої демократії, що стратила Сократа.",
+            "pl": "W Liście siódmym — czy napisał go Platon, jest sporne — opowiedziano, jak za młodu zamierzał zająć się sprawami państwa, lecz odwrócił się najpierw od Trzydziestu, wśród których byli jego krewni, a potem od przywróconej demokracji, która skazała Sokratesa na śmierć."
+          },
+          "source": "Plato, Seventh Letter 324b–326b (its authorship is disputed)"
+        },
+        {
+          "fact": {
+            "en": "Aristotle found the account too neat: Socrates, he objects, does not say why tyranny itself should change, and constitutions in fact pass into one another in many ways — an oligarchy, for instance, can turn straight into a tyranny.",
+            "ru": "Аристотелю это изложение показалось слишком стройным: Сократ, возражает он, не говорит, почему должна меняться сама тирания, а государственные устройства на деле переходят друг в друга многими путями — олигархия, например, может прямо превратиться в тиранию.",
+            "uk": "Аристотелеві цей виклад здався надто гладким: Сократ, заперечує він, не каже, чому має змінюватися сама тиранія, а державні устрої насправді переходять один в інший багатьма шляхами — олігархія, наприклад, може просто перетворитися на тиранію.",
+            "pl": "Arystotelesowi wykład ten wydał się zbyt gładki: Sokrates, zarzuca mu, nie mówi, dlaczego miałaby się zmieniać sama tyrania, a ustroje w istocie przechodzą jedne w drugie na wiele sposobów — oligarchia na przykład może przejść wprost w tyranię."
+          },
+          "source": "Aristotle, Politics V.12, 1316a–b"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Polybius: the cycle of constitutions",
+        "ru": "Полибий: круговорот государственных устройств",
+        "uk": "Полібій: коловорот державних устроїв",
+        "pl": "Polibiusz: krąg ustrojów"
+      },
+      "intro": {
+        "en": "Rome, the middle of the second century BC. Polybius, a Greek statesman brought to Italy as a hostage, sets out to explain how Rome came to rule nearly the whole known world in less than fifty-three years. His answer is its constitution, which mixes kingship (the consuls), aristocracy (the Senate) and democracy (the people), so that each checks the others. Every simple constitution, he says, decays into its corrupt twin — kingship into tyranny, aristocracy into oligarchy, democracy into mob-rule — and the wheel turns:",
+        "ru": "Рим, середина II века до н. э. Полибий, греческий государственный деятель, привезённый в Италию заложником, берётся объяснить, как Рим менее чем за пятьдесят три года подчинил себе почти весь известный мир. Его ответ — римское государственное устройство, где смешаны царская власть (консулы), аристократия (сенат) и демократия (народ), так что каждая сдерживает остальные. Всякое простое устройство, говорит он, вырождается в своего порочного двойника — царство в тиранию, аристократия в олигархию, демократия во власть толпы, — и колесо поворачивается:",
+        "uk": "Рим, середина II століття до н. е. Полібій, грецький державний діяч, привезений до Італії як заручник, береться пояснити, як Рим менш ніж за п’ятдесят три роки підкорив собі майже весь відомий світ. Його відповідь — римський державний устрій, де змішано царську владу (консули), аристократію (сенат) і демократію (народ), так що кожна стримує інші. Кожен простий устрій, каже він, вироджується у свого порочного двійника — царство в тиранію, аристократія в олігархію, демократія у владу натовпу, — і колесо обертається:",
+        "pl": "Rzym, połowa II wieku p.n.e. Polibiusz, grecki mąż stanu przywieziony do Italii jako zakładnik, chce wyjaśnić, jak Rzym w niespełna pięćdziesiąt trzy lata podporządkował sobie niemal cały znany świat. Jego odpowiedzią jest rzymski ustrój, w którym zmieszano władzę królewską (konsulów), arystokrację (senat) i demokrację (lud), tak że każda hamuje pozostałe. Każdy prosty ustrój, mówi, wyradza się w swego zepsutego bliźniaka — królestwo w tyranię, arystokracja w oligarchię, demokracja w rządy tłumu — i koło się obraca:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Polybius, Histories VI.9",
+            "ru": "Полибий, «Всеобщая история», VI.9",
+            "uk": "Полібій, «Загальна історія», VI.9",
+            "pl": "Polibiusz, Dzieje VI.9"
+          },
+          "quotes": {
+            "en": {
+              "edition": "histories-republics.en.paton",
+              "from": "6.9",
+              "to": "6.9",
+              "text": "Such is the cycle of political revolution, the course appointed by nature in which constitutions change, disappear, and finally return to the point from which they started.",
+              "kind": "Free",
+              "translator": "W. R. Paton",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Histories_(Paton_translation)",
+                "lang": "en",
+                "title": "Polybius, The Histories"
+              }
+            },
+            "ru": {
+              "edition": "histories-republics.ru.ours",
+              "from": "6.9",
+              "to": "6.9",
+              "text": "Таков круговорот государственных переворотов, порядок, назначенный природой, по которому государственные устройства меняются, исчезают и наконец возвращаются к тому, с чего начались.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Histories_(Paton_translation)",
+                "lang": "en",
+                "title": "Полибий, «Всеобщая история»"
+              }
+            },
+            "uk": {
+              "edition": "histories-republics.uk.ours",
+              "from": "6.9",
+              "to": "6.9",
+              "text": "Такий коловорот державних переворотів, порядок, призначений природою, за яким державні устрої змінюються, зникають і зрештою повертаються до того, з чого почалися.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Histories_(Paton_translation)",
+                "lang": "en",
+                "title": "Полібій, «Загальна історія»"
+              }
+            },
+            "pl": {
+              "edition": "histories-republics.pl.ours",
+              "from": "6.9",
+              "to": "6.9",
+              "text": "Taki jest krąg przewrotów politycznych, bieg wyznaczony przez naturę, w którym ustroje się zmieniają, znikają i w końcu wracają do punktu, z którego wyszły.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Histories_(Paton_translation)",
+                "lang": "en",
+                "title": "Polibiusz, Dzieje"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0543.tlg001.perseus-grc2:6.9/"
+          }
+        },
+        {
+          "by": {
+            "en": "Polybius, Histories VI.57",
+            "ru": "Полибий, «Всеобщая история», VI.57",
+            "uk": "Полібій, «Загальна історія», VI.57",
+            "pl": "Polibiusz, Dzieje VI.57"
+          },
+          "quotes": {
+            "en": {
+              "edition": "histories-republics.en.paton",
+              "from": "6.57",
+              "to": "6.57",
+              "text": "When a state has weathered many great perils and subsequently attains to supremacy and uncontested sovereignty, it is evident that under the influence of long established prosperity, life will become more extravagant and the citizens more fierce in their rivalry regarding office and other objects than they ought to be. As these defects go on increasing, the beginning of the change for the worse will be due to love of office and the disgrace entailed by obscurity, as well as to extravagance and purse-proud display; and for this change the populace will be responsible when on the one hand they think they have a grievance against certain people who have shown themselves grasping, and when, on the other hand, they are puffed up by the flattery of others who aspire to office. For now, stirred to fury and swayed by passion in all their counsels, they will no longer consent to obey or even to be the equals of the ruling caste, but will demand the lion’s share for themselves. When this happens, the state will change its name to the finest sounding of all, freedom and democracy, but will change its nature to the worst thing of all, mob-rule.",
+              "kind": "Free",
+              "translator": "W. R. Paton",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Histories_(Paton_translation)",
+                "lang": "en",
+                "title": "Polybius, The Histories"
+              }
+            },
+            "ru": {
+              "edition": "histories-republics.ru.ours",
+              "from": "6.57",
+              "to": "6.57",
+              "text": "Когда государство, выдержав много великих опасностей, достигает затем первенства и неоспоримого владычества, очевидно, что под влиянием давнего благополучия жизнь станет расточительнее, а граждане — ожесточённее, чем следует, в соперничестве из-за должностей и прочего. Когда эти пороки будут возрастать, начало перемены к худшему положат властолюбие и стыд безвестности, а также расточительность и чванство богатством; и виновником этой перемены станет народ — когда, с одной стороны, он сочтёт себя обиженным теми, кто показал свою алчность, а с другой — возгордится от лести тех, кто домогается должностей. Ибо тогда, разъярённый и во всех своих решениях движимый страстью, он уже не захочет ни повиноваться правящим, ни даже быть им равным, но потребует себе львиную долю. Когда это случится, государство переменит своё имя на самое благозвучное из всех — свобода и демократия, — но переменит и свою природу на худшую из всех — власть толпы.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Histories_(Paton_translation)",
+                "lang": "en",
+                "title": "Полибий, «Всеобщая история»"
+              }
+            },
+            "uk": {
+              "edition": "histories-republics.uk.ours",
+              "from": "6.57",
+              "to": "6.57",
+              "text": "Коли держава, витримавши багато великих небезпек, досягає потім першості й незаперечного панування, очевидно, що під впливом давнього добробуту життя стане марнотратнішим, а громадяни — запеклішими, ніж належить, у суперництві за посади та інше. Коли ці вади зростатимуть, початок зміни на гірше покладуть владолюбство й сором безвісності, а також марнотратство й чванство багатством; і винуватцем цієї зміни стане народ — коли, з одного боку, він вважатиме себе скривдженим тими, хто виявив свою зажерливість, а з другого — запишається від лестощів тих, хто домагається посад. Бо тоді, розлючений і в усіх своїх рішеннях керований пристрастю, він уже не захоче ні коритися правлячим, ні навіть бути їм рівним, а вимагатиме собі левову частку. Коли це станеться, держава змінить своє ім’я на найблагозвучніше з усіх — свобода й демократія, — але змінить і свою природу на найгіршу з усіх — владу натовпу.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Histories_(Paton_translation)",
+                "lang": "en",
+                "title": "Полібій, «Загальна історія»"
+              }
+            },
+            "pl": {
+              "edition": "histories-republics.pl.ours",
+              "from": "6.57",
+              "to": "6.57",
+              "text": "Gdy państwo, przetrwawszy wiele wielkich niebezpieczeństw, osiąga następnie przewagę i niekwestionowane panowanie, jasne jest, że pod wpływem długotrwałej pomyślności życie stanie się bardziej rozrzutne, a obywatele bardziej zażarci, niż powinni, w rywalizacji o urzędy i inne rzeczy. Gdy te wady będą narastać, początek zmiany na gorsze dadzą żądza urzędów i wstyd zapomnienia, a także rozrzutność i chełpliwe popisywanie się bogactwem; a sprawcą tej zmiany będzie lud — gdy z jednej strony uzna, że krzywdzą go ci, którzy okazali się chciwi, a z drugiej uniesie się pychą pod wpływem pochlebstw tych, którzy ubiegają się o urzędy. Wtedy bowiem, rozjuszony i we wszystkich naradach powodowany namiętnością, nie zechce już ani słuchać rządzących, ani nawet być im równym, lecz zażąda dla siebie lwiej części. Gdy to nastąpi, państwo zmieni swoje imię na najpiękniej brzmiące ze wszystkich — wolność i demokracja — lecz zmieni też swą naturę na najgorszą ze wszystkich: rządy tłumu.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Histories_(Paton_translation)",
+                "lang": "en",
+                "title": "Polibiusz, Dzieje"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0543.tlg001.perseus-grc2:6.57/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "In 167 BC, after Rome's victory over Macedon, more than a thousand leading Achaeans were taken to Italy as hostages, without trial; Polybius was one of them, and in Rome he became the friend and mentor of the young Scipio Aemilianus.",
+            "ru": "В 167 году до н. э., после победы Рима над Македонией, более тысячи знатных ахейцев без суда увезли в Италию заложниками; среди них был Полибий, и в Риме он стал другом и наставником юного Сципиона Эмилиана.",
+            "uk": "167 року до н. е., після перемоги Риму над Македонією, понад тисячу знатних ахейців без суду вивезли до Італії як заручників; серед них був Полібій, і в Римі він став другом і наставником юного Сципіона Еміліана.",
+            "pl": "W 167 roku p.n.e., po zwycięstwie Rzymu nad Macedonią, ponad tysiąc znakomitych Achajów wywieziono bez sądu do Italii jako zakładników; był wśród nich Polibiusz, który w Rzymie został przyjacielem i mentorem młodego Scypiona Emiliana."
+          },
+          "source": "Pausanias, Description of Greece 7.10.11; Polybius, Histories 31.23–25"
+        },
+        {
+          "fact": {
+            "en": "In 146 BC Polybius stood beside Scipio as Carthage burned. Scipio wept, recited Homer's lines on the fall of Troy, and told him that he feared the same fate would one day come to his own country.",
+            "ru": "В 146 году до н. э. Полибий стоял рядом со Сципионом, когда горел Карфаген. Сципион плакал, произнёс строки Гомера о падении Трои и сказал ему, что боится: однажды та же участь постигнет и его отечество.",
+            "uk": "146 року до н. е. Полібій стояв поруч зі Сципіоном, коли горів Карфаген. Сципіон плакав, промовив рядки Гомера про падіння Трої і сказав йому, що боїться: колись та сама доля спіткає і його батьківщину.",
+            "pl": "W 146 roku p.n.e. Polibiusz stał obok Scypiona, gdy płonęła Kartagina. Scypion płakał, wyrecytował wersy Homera o upadku Troi i powiedział mu, że boi się, iż kiedyś ten sam los spotka jego ojczyznę."
+          },
+          "source": "Appian, The Punic Wars 132 (from Polybius); Polybius, Histories 38.21–22"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Mencius: a state falls when it loses the people's hearts",
+        "ru": "Мэн-цзы: государство гибнет, потеряв сердца народа",
+        "uk": "Мен-цзи: держава гине, втративши серця народу",
+        "pl": "Mencjusz: państwo upada, gdy traci serca ludu"
+      },
+      "intro": {
+        "en": "China, the fourth century BC, the age of the Warring States. Mencius goes from court to court telling kings that a throne is kept neither by walls nor by armies. Jie and Zhou, the last kings of the Xia and the Shang as tradition tells it, were overthrown by Tang and by King Wu — and Mencius says why:",
+        "ru": "Китай, IV век до н. э., эпоха Сражающихся царств. Мэн-цзы ходит от двора ко двору и говорит государям, что престол держится не стенами и не войсками. Цзе и Чжоу, последних царей Ся и Шан, как гласит предание, свергли Тан и У-ван, — и Мэн-цзы говорит почему:",
+        "uk": "Китай, IV століття до н. е., доба Царств, що воюють. Мен-цзи ходить від двору до двору і каже володарям, що престол тримається не мурами й не військами. Цзє і Чжоу, останніх царів Ся і Шан, як переказує традиція, скинули Тан і У-ван, — і Мен-цзи каже чому:",
+        "pl": "Chiny, IV wiek p.n.e., epoka Walczących Królestw. Mencjusz chodzi od dworu do dworu i mówi władcom, że tronu nie utrzymują ani mury, ani wojska. Jie i Zhou, ostatnich królów Xia i Shang, jak głosi tradycja, obalili Tang i król Wu — a Mencjusz mówi dlaczego:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Mencius, Book IV, Part I, 9 (4A9)",
+            "ru": "Мэн-цзы, кн. IV, ч. I, 9 (4A9)",
+            "uk": "Мен-цзи, кн. IV, ч. I, 9 (4A9)",
+            "pl": "Mencjusz, ks. IV, cz. I, 9 (4A9)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "mencius-republics.en.legge",
+              "from": "4.1.9",
+              "to": "4.1.9",
+              "text": "Jie and Zhou's losing the throne, arose from their losing the people, and to lose the people means to lose their hearts. There is a way to get the kingdom: get the people, and the kingdom is got. There is a way to get the people: get their hearts, and the people are got. There is a way to get their hearts: it is simply to collect for them what they like, and not to lay on them what they dislike.",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencius"
+              }
+            },
+            "ru": {
+              "edition": "mencius-republics.ru.ours",
+              "from": "4.1.9",
+              "to": "4.1.9",
+              "text": "Цзе и Чжоу потеряли престол оттого, что потеряли народ, а потерять народ — значит потерять его сердца. Есть путь, чтобы обрести Поднебесную: обрести народ — и Поднебесная обретена. Есть путь, чтобы обрести народ: обрести его сердца — и народ обретён. Есть путь, чтобы обрести его сердца: это просто собирать для людей то, чего они хотят, и не возлагать на них того, чего они не любят.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мэн-цзы»"
+              }
+            },
+            "uk": {
+              "edition": "mencius-republics.uk.ours",
+              "from": "4.1.9",
+              "to": "4.1.9",
+              "text": "Цзє і Чжоу втратили престол через те, що втратили народ, а втратити народ — означає втратити його серця. Є шлях, щоб здобути Піднебесну: здобути народ — і Піднебесну здобуто. Є шлях, щоб здобути народ: здобути його серця — і народ здобуто. Є шлях, щоб здобути його серця: це просто збирати для людей те, чого вони бажають, і не накладати на них того, чого вони не люблять.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мен-цзи»"
+              }
+            },
+            "pl": {
+              "edition": "mencius-republics.pl.ours",
+              "from": "4.1.9",
+              "to": "4.1.9",
+              "text": "Jie i Zhou utracili tron, ponieważ utracili lud, a utracić lud znaczy utracić jego serca. Jest droga, by zdobyć królestwo: zdobyć lud — a królestwo jest zdobyte. Jest droga, by zdobyć lud: zdobyć jego serca — a lud jest zdobyty. Jest droga, by zdobyć jego serca: po prostu gromadzić dla ludzi to, czego pragną, i nie nakładać na nich tego, czego nie lubią.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencjusz"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/孟子/離婁上"
+          }
+        },
+        {
+          "by": {
+            "en": "Mencius, Book IV, Part I, 8 (4A8)",
+            "ru": "Мэн-цзы, кн. IV, ч. I, 8 (4A8)",
+            "uk": "Мен-цзи, кн. IV, ч. I, 8 (4A8)",
+            "pl": "Mencjusz, ks. IV, cz. I, 8 (4A8)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "mencius-republics.en.legge",
+              "from": "4.1.8",
+              "to": "4.1.8",
+              "text": "A man must first despise himself, and then others will despise him. A family must first destroy itself, and then others will destroy it. A State must first smite itself, and then others will smite it.",
+              "kind": "Free",
+              "translator": "James Legge",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencius"
+              }
+            },
+            "ru": {
+              "edition": "mencius-republics.ru.ours",
+              "from": "4.1.8",
+              "to": "4.1.8",
+              "text": "Человек должен сперва сам себя презреть — и тогда другие станут презирать его. Семья должна сперва сама себя разрушить — и тогда другие разрушат её. Государство должно сперва само себя поразить — и тогда другие поразят его.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мэн-цзы»"
+              }
+            },
+            "uk": {
+              "edition": "mencius-republics.uk.ours",
+              "from": "4.1.8",
+              "to": "4.1.8",
+              "text": "Людина мусить спершу сама себе зневажити — і тоді інші зневажатимуть її. Родина мусить спершу сама себе зруйнувати — і тоді інші зруйнують її. Держава мусить спершу сама себе вразити — і тоді інші вразять її.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "«Мен-цзи»"
+              }
+            },
+            "pl": {
+              "edition": "mencius-republics.pl.ours",
+              "from": "4.1.8",
+              "to": "4.1.8",
+              "text": "Człowiek musi najpierw sam sobą wzgardzić, a wtedy inni nim wzgardzą. Rodzina musi najpierw sama siebie zniszczyć, a wtedy inni ją zniszczą. Państwo musi najpierw samo siebie ugodzić, a wtedy inni je ugodzą.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius",
+                "lang": "en",
+                "title": "Mencjusz"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Chinese",
+              "ru": "оригинал на китайском",
+              "uk": "оригінал китайською",
+              "pl": "oryginał po chińsku"
+            },
+            "url": "https://zh.wikisource.org/wiki/孟子/離婁上"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "When Mencius came to King Hui of Liang, the king asked what profit he would bring to his kingdom. Why must the king speak of profit, Mencius answered: what he brought was benevolence and righteousness, and nothing else.",
+            "ru": "Когда Мэн-цзы пришёл к лянскому царю Хуэю, тот спросил, какую выгоду он принесёт его царству. Зачем царю говорить о выгоде, ответил Мэн-цзы: он принёс человеколюбие и справедливость, и ничего больше.",
+            "uk": "Коли Мен-цзи прийшов до ляньського царя Хуея, той спитав, яку вигоду він принесе його царству. Навіщо цареві говорити про вигоду, відповів Мен-цзи: він приніс людяність і справедливість, і нічого більше.",
+            "pl": "Gdy Mencjusz przybył do króla Hui z Liang, król zapytał, jaki zysk przyniesie jego królestwu. Dlaczego król musi mówić o zysku, odparł Mencjusz: przyniósł człowieczeństwo i prawość, i nic więcej."
+          },
+          "source": "Mencius 1A1"
+        },
+        {
+          "fact": {
+            "en": "The Zhou kings justified their conquest of the Shang by the mandate of Heaven, which leaves a ruler who loses his virtue. Mencius reads the mandate through the people, quoting the Book of Documents: “Heaven sees according as my people see; Heaven hears according as my people hear.”",
+            "ru": "Цари Чжоу оправдывали своё завоевание Шан небесным мандатом, который покидает правителя, утратившего добродетель. Мэн-цзы читает этот мандат через народ, приводя слова «Книги документов»: «Небо видит так, как видит мой народ; Небо слышит так, как слышит мой народ».",
+            "uk": "Царі Чжоу виправдовували своє завоювання Шан небесним мандатом, який полишає правителя, що втратив чесноту. Мен-цзи читає цей мандат через народ, наводячи слова «Книги документів»: «Небо бачить так, як бачить мій народ; Небо чує так, як чує мій народ».",
+            "pl": "Królowie Zhou usprawiedliwiali podbój Shang mandatem Niebios, który opuszcza władcę tracącego cnotę. Mencjusz odczytuje ten mandat przez lud, przytaczając Księgę dokumentów: „Niebo widzi tak, jak widzi mój lud; Niebo słyszy tak, jak słyszy mój lud”."
+          },
+          "source": "Book of Documents, the Announcement of the Duke of Shao; Mencius 5A5 (quoting the Great Declaration)"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "The Rubicon, January 49 BC",
+        "ru": "Рубикон, январь 49 года до н. э.",
+        "uk": "Рубікон, січень 49 року до н. е.",
+        "pl": "Rubikon, styczeń 49 roku p.n.e."
+      },
+      "scene": {
+        "en": "January 49 BC, Ravenna. You are Gaius Julius Caesar, fifty years old, proconsul of Gaul. For nine years you have fought there, and your soldiers would follow you anywhere. Now the Senate has decreed that you must disband your army by a fixed day, or be held to be acting against the Republic; the two tribunes who vetoed the decree, Mark Antony and Quintus Cassius, have fled Rome to you. If you lay down your command you return a private man, and Cato has sworn to put you on trial. You have one legion with you; the rest are beyond the Alps. Ahead lies the Rubicon, the little river that marks the edge of your province: to cross it under arms is to make war on Rome. What do you do?",
+        "ru": "Январь 49 года до н. э., Равенна. Вы — Гай Юлий Цезарь, пятидесяти лет, проконсул Галлии. Девять лет вы воевали там, и ваши солдаты пойдут за вами куда угодно. Теперь сенат постановил: вы должны распустить армию к назначенному дню, иначе будет сочтено, что вы действуете против республики; двое трибунов, наложивших на это постановление запрет, Марк Антоний и Квинт Кассий, бежали из Рима к вам. Если вы сложите командование, вы вернётесь частным человеком, а Катон поклялся привлечь вас к суду. С вами один легион; остальные — за Альпами. Впереди Рубикон, речка, отмечающая границу вашей провинции: перейти её с войском — значит начать войну с Римом. Что вы сделаете?",
+        "uk": "Січень 49 року до н. е., Равенна. Ви — Гай Юлій Цезар, п’ятдесяти років, проконсул Галлії. Дев’ять років ви воювали там, і ваші солдати підуть за вами будь-куди. Тепер сенат ухвалив: ви маєте розпустити армію до призначеного дня, інакше вважатиметься, що ви дієте проти республіки; двоє трибунів, що наклали на цю ухвалу заборону, Марк Антоній і Квінт Кассій, утекли з Риму до вас. Якщо ви складете командування, ви повернетеся приватною особою, а Катон присягнув притягти вас до суду. З вами один легіон; решта — за Альпами. Попереду Рубікон, річечка, що позначає межу вашої провінції: перейти її з військом — означає почати війну з Римом. Що ви зробите?",
+        "pl": "Styczeń 49 roku p.n.e., Rawenna. Jesteś Gajuszem Juliuszem Cezarem, masz pięćdziesiąt lat, jesteś prokonsulem Galii. Dziewięć lat tam walczyłeś, a twoi żołnierze pójdą za tobą wszędzie. Teraz senat postanowił, że masz rozpuścić armię do wyznaczonego dnia, w przeciwnym razie zostaniesz uznany za działającego przeciw republice; dwaj trybunowie, którzy sprzeciwili się tej uchwale, Marek Antoniusz i Kwintus Kasjusz, uciekli z Rzymu do ciebie. Jeśli złożysz dowództwo, wrócisz jako osoba prywatna, a Katon przysiągł postawić cię przed sądem. Masz przy sobie jeden legion; reszta jest za Alpami. Przed tobą Rubikon, rzeczka wyznaczająca granicę twojej prowincji: przekroczyć ją z wojskiem to wypowiedzieć wojnę Rzymowi. Co zrobisz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Cross: the Senate has trampled the tribunes' veto, and my honour",
+            "ru": "Перейти: сенат попрал запрет трибунов и мою честь",
+            "uk": "Перейти: сенат зневажив заборону трибунів і мою честь",
+            "pl": "Przekroczyć: senat podeptał sprzeciw trybunów i moją godność"
+          },
+          "reply": {
+            "en": "That is what he told his soldiers — the tribunes' sacred veto, and his own dignity. Suetonius doubted it was the only reason.",
+            "ru": "Именно это он и сказал солдатам — священный запрет трибунов и собственное достоинство. Светоний сомневался, что причина была только в этом.",
+            "uk": "Саме це він і сказав воякам — священна заборона трибунів і власна гідність. Светоній сумнівався, що причина була лише в цьому.",
+            "pl": "Właśnie to powiedział żołnierzom — święty sprzeciw trybunów i własna godność. Swetoniusz wątpił, by była to jedyna przyczyna."
+          }
+        },
+        {
+          "choice": {
+            "en": "Disband, go home a private man, and trust the courts",
+            "ru": "Распустить армию, вернуться частным человеком и довериться суду",
+            "uk": "Розпустити армію, повернутися приватною особою і довіритися суду",
+            "pl": "Rozpuścić armię, wrócić jako osoba prywatna i zaufać sądom"
+          },
+          "reply": {
+            "en": "The law was on that side. But Caesar believed he would be condemned — and said so, later, on the field of Pharsalus.",
+            "ru": "Закон был на этой стороне. Но Цезарь верил, что его осудят, — и позже сказал это на поле Фарсала.",
+            "uk": "Закон був на цьому боці. Але Цезар вірив, що його засудять, — і пізніше сказав це на полі Фарсалу.",
+            "pl": "Prawo było po tej stronie. Lecz Cezar wierzył, że zostanie skazany — i powiedział to później na polu pod Farsalos."
+          }
+        },
+        {
+          "choice": {
+            "en": "Stay at Ravenna and offer peace once more: both generals lay down their armies",
+            "ru": "Остаться в Равенне и ещё раз предложить мир: пусть оба полководца распустят армии",
+            "uk": "Залишитися в Равенні й ще раз запропонувати мир: хай обидва полководці розпустять армії",
+            "pl": "Zostać w Rawennie i jeszcze raz zaproponować pokój: niech obaj wodzowie rozpuszczą armie"
+          },
+          "reply": {
+            "en": "He had offered it already — that Pompey and he should both give up their commands. His enemies would not hear of it.",
+            "ru": "Он уже предлагал это — чтобы и Помпей, и он сложили командование. Враги и слышать об этом не хотели.",
+            "uk": "Він уже пропонував це — щоб і Помпей, і він склали командування. Вороги й чути про це не хотіли.",
+            "pl": "Już to proponował — by i Pompejusz, i on złożyli dowództwo. Wrogowie nie chcieli o tym słyszeć."
+          }
+        },
+        {
+          "choice": {
+            "en": "Wait for your veteran legions from Gaul before you move",
+            "ru": "Дождаться ветеранских легионов из Галлии, прежде чем двигаться",
+            "uk": "Дочекатися ветеранських легіонів із Галлії, перш ніж рушати",
+            "pl": "Zaczekać na legiony weteranów z Galii, zanim ruszysz"
+          },
+          "reply": {
+            "en": "Prudent — but speed was his weapon: Pompey's new levies were not yet ready, and Caesar would not give them time.",
+            "ru": "Благоразумно — но его оружием была быстрота: новые наборы Помпея ещё не были готовы, и Цезарь не собирался давать им время.",
+            "uk": "Розсудливо — але його зброєю була швидкість: нові набори Помпея ще не були готові, і Цезар не збирався давати їм час.",
+            "pl": "Rozsądne — lecz jego bronią była szybkość: nowe zaciągi Pompejusza nie były jeszcze gotowe, a Cezar nie zamierzał dawać im czasu."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "This was Gaius Julius Caesar. He crossed with his one legion. By the middle of March Pompey and the consuls had fled Rome and then Italy; in 48 BC Caesar beat Pompey at Pharsalus, early in 44 he was named dictator for life, and on the Ides of March senators stabbed him to death. The Republic did not come back: his heir Octavian became Augustus, the first emperor. Suetonius, writing more than a century and a half later, tells how it happened at the river:",
+        "ru": "Это был Гай Юлий Цезарь. Он перешёл реку со своим единственным легионом. К середине марта Помпей и консулы бежали из Рима, а затем из Италии; в 48 году до н. э. Цезарь разбил Помпея при Фарсале, в начале 44-го стал пожизненным диктатором, а в мартовские иды сенаторы закололи его кинжалами. Республика не вернулась: его наследник Октавиан стал Августом, первым императором. Светоний, писавший более полутора веков спустя, рассказывает, как это было у реки:",
+        "uk": "Це був Гай Юлій Цезар. Він перейшов річку зі своїм єдиним легіоном. До середини березня Помпей і консули втекли з Риму, а потім з Італії; 48 року до н. е. Цезар розбив Помпея під Фарсалом, на початку 44-го став довічним диктатором, а в березневі іди сенатори закололи його кинджалами. Республіка не повернулася: його спадкоємець Октавіан став Августом, першим імператором. Светоній, який писав понад півтора століття по тому, розповідає, як це було біля річки:",
+        "pl": "To był Gajusz Juliusz Cezar. Przekroczył rzekę ze swoim jedynym legionem. Do połowy marca Pompejusz i konsulowie uciekli z Rzymu, a potem z Italii; w 48 roku p.n.e. Cezar pokonał Pompejusza pod Farsalos, na początku 44 roku został dyktatorem dożywotnim, a w idy marcowe senatorowie go zasztyletowali. Republika nie powróciła: jego dziedzic Oktawian został Augustem, pierwszym cesarzem. Swetoniusz, piszący ponad półtora wieku później, opowiada, jak to było nad rzeką:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Suetonius, The Deified Julius 31",
+            "ru": "Светоний, «Божественный Юлий», 31",
+            "uk": "Светоній, «Божественний Юлій», 31",
+            "pl": "Swetoniusz, Boski Juliusz 31"
+          },
+          "quotes": {
+            "en": {
+              "edition": "caesars-republics.en.thomson",
+              "from": "1.31",
+              "to": "1.31",
+              "text": "Coming up with his troops on the banks of the Rubicon, which was the boundary of his province, he halted for a while, and, revolving in his mind the importance of the step he was on the point of taking, he turned to those about him, and said: \"We may still retreat; but if we pass this little bridge, nothing is left for us but to fight it out in arms.\"",
+              "kind": "Free",
+              "translator": "Alexander Thomson, revised by Thomas Forester",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Lives_of_the_Twelve_Caesars",
+                "lang": "en",
+                "title": "Suetonius, The Lives of the Twelve Caesars"
+              }
+            },
+            "ru": {
+              "edition": "caesars-republics.ru.ours",
+              "from": "1.31",
+              "to": "1.31",
+              "text": "Настигнув свои войска на берегу Рубикона, который был границей его провинции, он ненадолго остановился и, обдумывая важность шага, который собирался сделать, обернулся к окружающим и сказал: «Ещё можно отступить; но если мы перейдём этот мостик, нам не останется ничего, кроме как решать всё оружием».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Lives_of_the_Twelve_Caesars",
+                "lang": "en",
+                "title": "Светоний, «Жизнь двенадцати цезарей»"
+              }
+            },
+            "uk": {
+              "edition": "caesars-republics.uk.ours",
+              "from": "1.31",
+              "to": "1.31",
+              "text": "Наздогнавши свої війська на березі Рубікону, що був межею його провінції, він ненадовго зупинився і, зважуючи важливість кроку, який збирався зробити, обернувся до тих, хто був поруч, і сказав: «Ще можна відступити; але якщо ми перейдемо цей місток, нам не залишиться нічого, крім як вирішувати все зброєю».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Lives_of_the_Twelve_Caesars",
+                "lang": "en",
+                "title": "Светоній, «Життя дванадцяти цезарів»"
+              }
+            },
+            "pl": {
+              "edition": "caesars-republics.pl.ours",
+              "from": "1.31",
+              "to": "1.31",
+              "text": "Dogoniwszy swoje wojska nad brzegiem Rubikonu, który był granicą jego prowincji, zatrzymał się na chwilę i, rozważając wagę kroku, który miał uczynić, zwrócił się do otaczających go i rzekł: „Jeszcze możemy się cofnąć; lecz jeśli przejdziemy ten mostek, nie pozostanie nam nic innego, jak rozstrzygnąć wszystko orężem”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Lives_of_the_Twelve_Caesars",
+                "lang": "en",
+                "title": "Swetoniusz, Żywoty cezarów"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0061:life=jul.:chapter=31"
+          }
+        },
+        {
+          "by": {
+            "en": "Suetonius, The Deified Julius 32",
+            "ru": "Светоний, «Божественный Юлий», 32",
+            "uk": "Светоній, «Божественний Юлій», 32",
+            "pl": "Swetoniusz, Boski Juliusz 32"
+          },
+          "quotes": {
+            "en": {
+              "edition": "caesars-republics.en.thomson",
+              "from": "1.32",
+              "to": "1.32",
+              "text": "Upon this, Cæsar exclaimed, \"Let us go whither the omens of the Gods and the iniquity of our enemies call us. The die is now cast.\"",
+              "kind": "Free",
+              "translator": "Alexander Thomson, revised by Thomas Forester",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Lives_of_the_Twelve_Caesars",
+                "lang": "en",
+                "title": "Suetonius, The Lives of the Twelve Caesars"
+              }
+            },
+            "ru": {
+              "edition": "caesars-republics.ru.ours",
+              "from": "1.32",
+              "to": "1.32",
+              "text": "Тогда Цезарь воскликнул: «Идём туда, куда зовут нас знамения богов и беззаконие наших врагов. Жребий брошен».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Lives_of_the_Twelve_Caesars",
+                "lang": "en",
+                "title": "Светоний, «Жизнь двенадцати цезарей»"
+              }
+            },
+            "uk": {
+              "edition": "caesars-republics.uk.ours",
+              "from": "1.32",
+              "to": "1.32",
+              "text": "Тоді Цезар вигукнув: «Ходімо туди, куди кличуть нас знамення богів і беззаконня наших ворогів. Жереб кинуто».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Lives_of_the_Twelve_Caesars",
+                "lang": "en",
+                "title": "Светоній, «Життя дванадцяти цезарів»"
+              }
+            },
+            "pl": {
+              "edition": "caesars-republics.pl.ours",
+              "from": "1.32",
+              "to": "1.32",
+              "text": "Wtedy Cezar zawołał: „Idźmy tam, dokąd wzywają nas znaki bogów i nieprawość naszych wrogów. Kości zostały rzucone”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Lives_of_the_Twelve_Caesars",
+                "lang": "en",
+                "title": "Swetoniusz, Żywoty cezarów"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0061:life=jul.:chapter=32"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "On 7 January the Senate passed its last decree, bidding the magistrates see to it that the Republic came to no harm; the tribunes Antony and Cassius, whose veto had been overridden, fled the city at once and went to Caesar.",
+            "ru": "7 января сенат принял своё «крайнее постановление», поручив магистратам позаботиться, чтобы республика не потерпела ущерба; трибуны Антоний и Кассий, чей запрет был отвергнут, тотчас бежали из города к Цезарю.",
+            "uk": "7 січня сенат ухвалив свою «крайню постанову», доручивши магістратам подбати, щоб республіка не зазнала шкоди; трибуни Антоній і Кассій, чию заборону відкинули, негайно втекли з міста до Цезаря.",
+            "pl": "7 stycznia senat uchwalił swoją „ostateczną uchwałę”, polecając urzędnikom dopilnować, by republika nie poniosła szkody; trybunowie Antoniusz i Kasjusz, których sprzeciw odrzucono, natychmiast uciekli z miasta do Cezara."
+          },
+          "source": "Caesar, The Civil War 1.5"
+        },
+        {
+          "fact": {
+            "en": "Caesar's own account of the war does not name the Rubicon at all: it takes him from Ravenna, where he speaks to his legion, straight to Ariminum.",
+            "ru": "В собственном рассказе Цезаря о войне Рубикон не назван вовсе: рассказ ведёт его из Равенны, где он говорит с легионом, прямо в Аримин.",
+            "uk": "У власній розповіді Цезаря про війну Рубікон не названо зовсім: розповідь веде його з Равенни, де він звертається до легіону, просто до Арімінума.",
+            "pl": "We własnej relacji Cezara z wojny Rubikon w ogóle nie pada: relacja prowadzi go z Rawenny, gdzie przemawia do legionu, wprost do Ariminum."
+          },
+          "source": "Caesar, The Civil War 1.7–8"
+        },
+        {
+          "fact": {
+            "en": "Asinius Pollio, who fought for Caesar, reported what he said at Pharsalus, looking over the enemy dead: they had wanted it so — he, Gaius Caesar, after all his deeds, would have been condemned had he not turned to his army for help.",
+            "ru": "Азиний Поллион, воевавший на стороне Цезаря, передал, что тот сказал при Фарсале, глядя на павших врагов: они сами этого хотели — его, Гая Цезаря, после всех его деяний осудили бы, не обратись он за помощью к войску.",
+            "uk": "Азіній Полліон, який воював на боці Цезаря, переказав, що той сказав під Фарсалом, дивлячись на полеглих ворогів: вони самі цього хотіли — його, Гая Цезаря, після всіх його звершень засудили б, якби він не звернувся по допомогу до війська.",
+            "pl": "Azyniusz Pollion, który walczył po stronie Cezara, przekazał, co ten powiedział pod Farsalos, patrząc na poległych wrogów: sami tego chcieli — jego, Gajusza Cezara, po wszystkich jego czynach skazano by, gdyby nie zwrócił się o pomoc do wojska."
+          },
+          "source": "Suetonius, The Deified Julius 30 (from Asinius Pollio); Plutarch, Caesar 46"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Montesquieu: a republic lives on virtue",
+        "ru": "Монтескьё: республика живёт добродетелью",
+        "uk": "Монтеск’є: республіка живе чеснотою",
+        "pl": "Monteskiusz: republika żyje cnotą"
+      },
+      "intro": {
+        "en": "Geneva, 1748. A former judge of the Parlement of Bordeaux publishes, without his name, The Spirit of the Laws. Each kind of government, Montesquieu says, has a spring that moves it: a monarchy honour, a despotism fear — and a republic virtue, the love of the laws and of one's country. Without it, laws are not enough. Nor, he adds, can a large republic last long:",
+        "ru": "Женева, 1748 год. Бывший судья Бордоского парламента издаёт без своего имени «О духе законов». У каждого рода правления, говорит Монтескьё, есть пружина, которая приводит его в движение: у монархии — честь, у деспотии — страх, а у республики — добродетель, любовь к законам и к отечеству. Без неё законов недостаточно. И большая республика, добавляет он, не может долго существовать:",
+        "uk": "Женева, 1748 рік. Колишній суддя Бордоського парламенту видає без свого імені «Про дух законів». Кожен рід правління, каже Монтеск’є, має пружину, яка рухає його: монархія — честь, деспотія — страх, а республіка — чесноту, любов до законів і до батьківщини. Без неї законів недостатньо. І велика республіка, додає він, не може довго існувати:",
+        "pl": "Genewa, 1748. Były sędzia parlamentu w Bordeaux wydaje bez swego nazwiska O duchu praw. Każdy rodzaj rządu, mówi Monteskiusz, ma sprężynę, która go porusza: monarchia — honor, despotia — strach, a republika — cnotę, miłość praw i ojczyzny. Bez niej prawa nie wystarczą. A wielka republika, dodaje, nie może długo przetrwać:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Montesquieu, The Spirit of the Laws III.3",
+            "ru": "Монтескьё, «О духе законов», III.3",
+            "uk": "Монтеск’є, «Про дух законів», III.3",
+            "pl": "Monteskiusz, O duchu praw III.3"
+          },
+          "quotes": {
+            "en": {
+              "edition": "spirit-republics.en.nugent",
+              "from": "3.3",
+              "to": "3.3",
+              "text": "When virtue is banished, ambition invades the hearts of those who are disposed to receive it, and avarice possesses the whole community. The desires now change their objects; what they were fond of before, becomes indifferent; they were free, while under the restraint of laws, they will now be free to act against law; and as every citizen is like a slave escaped from his master's house, what was a maxim of equity, they call rigour; what was a rule of action, they call constraint; and to precaution they give the name of fear. Frugality, and not the thirst of gain, now passes for avarice. Formerly the wealth of individuals constituted the public treasure; but now the public treasure is become the patrimony of private persons. The members of the commonwealth riot on the public spoils, and its strength is only the power of some citizens, and the licentiousness of the whole community.",
+              "kind": "Free",
+              "translator": "Thomas Nugent",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Spirit_of_Laws_(1758)",
+                "lang": "en",
+                "title": "Montesquieu, The Spirit of the Laws"
+              }
+            },
+            "ru": {
+              "edition": "spirit-republics.ru.ours",
+              "from": "3.3",
+              "to": "3.3",
+              "text": "Когда добродетель изгнана, честолюбие овладевает сердцами тех, кто способен его воспринять, а алчность — всем обществом. Желания меняют свои предметы: что прежде любили, становится безразличным; люди были свободны, подчиняясь законам, — теперь они будут свободны поступать вопреки закону; и так как каждый гражданин подобен рабу, бежавшему из дома своего господина, то, что было правилом справедливости, они называют суровостью, то, что было правилом поведения, — стеснением, а осмотрительность называют страхом. Скупостью теперь слывёт бережливость, а не жажда наживы. Прежде богатство частных лиц составляло общественную казну, а теперь общественная казна стала достоянием частных лиц. Члены государства пируют на общественной добыче, и его сила — лишь власть нескольких граждан и распущенность всего общества.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Spirit_of_Laws_(1758)",
+                "lang": "en",
+                "title": "Монтескьё, «О духе законов»"
+              }
+            },
+            "uk": {
+              "edition": "spirit-republics.uk.ours",
+              "from": "3.3",
+              "to": "3.3",
+              "text": "Коли чесноту вигнано, честолюбство опановує серця тих, хто здатен його прийняти, а жадібність — усю спільноту. Бажання змінюють свої предмети: те, що любили раніше, стає байдужим; люди були вільні, підкоряючись законам, — тепер вони будуть вільні чинити всупереч законові; і оскільки кожен громадянин подібний до раба, що втік із дому свого пана, те, що було правилом справедливості, вони називають суворістю, те, що було правилом поведінки, — утиском, а обачність називають страхом. Скупістю тепер вважають ощадливість, а не жагу наживи. Колись багатство приватних осіб становило державну скарбницю, а тепер державна скарбниця стала надбанням приватних осіб. Члени держави бенкетують на громадській здобичі, і її сила — лише влада кількох громадян і розбещеність усієї спільноти.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Spirit_of_Laws_(1758)",
+                "lang": "en",
+                "title": "Монтеск’є, «Про дух законів»"
+              }
+            },
+            "pl": {
+              "edition": "spirit-republics.pl.ours",
+              "from": "3.3",
+              "to": "3.3",
+              "text": "Gdy cnota zostaje wygnana, ambicja wkrada się do serc tych, którzy są gotowi ją przyjąć, a chciwość ogarnia całą wspólnotę. Pragnienia zmieniają swe przedmioty: to, co dawniej kochano, staje się obojętne; byli wolni, póki krępowały ich prawa — teraz będą wolni, by działać wbrew prawu; a ponieważ każdy obywatel jest jak niewolnik zbiegły z domu swego pana, to, co było zasadą słuszności, nazywają surowością, to, co było regułą postępowania, nazywają przymusem, a ostrożności dają imię strachu. Za skąpstwo uchodzi teraz oszczędność, a nie żądza zysku. Dawniej majątek osób prywatnych stanowił skarb publiczny, teraz zaś skarb publiczny stał się dziedzictwem osób prywatnych. Członkowie rzeczypospolitej hulają na publicznym łupie, a jej siła to już tylko władza kilku obywateli i swawola całej wspólnoty.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Spirit_of_Laws_(1758)",
+                "lang": "en",
+                "title": "Monteskiusz, O duchu praw"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/De_l’esprit_des_lois_(éd._Nourse)/Livre_3"
+          }
+        },
+        {
+          "by": {
+            "en": "Montesquieu, The Spirit of the Laws VIII.16",
+            "ru": "Монтескьё, «О духе законов», VIII.16",
+            "uk": "Монтеск’є, «Про дух законів», VIII.16",
+            "pl": "Monteskiusz, O duchu praw VIII.16"
+          },
+          "quotes": {
+            "en": {
+              "edition": "spirit-republics.en.nugent",
+              "from": "8.16",
+              "to": "8.16",
+              "text": "In a large republic there are men of large fortunes, and consequently of less moderation; there are trusts too great to be placed in any single subject; he has interests of his own; he soon begins to think that he may be happy, great, and glorious, by oppressing his fellow citizens; and that he may raise himself to grandeur on the ruins of his country.",
+              "kind": "Free",
+              "translator": "Thomas Nugent",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Spirit_of_Laws_(1758)",
+                "lang": "en",
+                "title": "Montesquieu, The Spirit of the Laws"
+              }
+            },
+            "ru": {
+              "edition": "spirit-republics.ru.ours",
+              "from": "8.16",
+              "to": "8.16",
+              "text": "В большой республике есть люди с большими состояниями, а следовательно, менее умеренные; есть поручения слишком важные, чтобы доверять их одному гражданину; у него появляются свои интересы; вскоре он начинает думать, что может быть счастлив, велик и славен, угнетая своих сограждан, и что может возвыситься до величия на развалинах своего отечества.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Spirit_of_Laws_(1758)",
+                "lang": "en",
+                "title": "Монтескьё, «О духе законов»"
+              }
+            },
+            "uk": {
+              "edition": "spirit-republics.uk.ours",
+              "from": "8.16",
+              "to": "8.16",
+              "text": "У великій республіці є люди з великими статками, а отже, менш помірковані; є доручення надто важливі, щоб довіряти їх одному громадянинові; у нього з’являються власні інтереси; незабаром він починає думати, що може бути щасливим, великим і славним, гноблячи своїх співгромадян, і що може піднестися до величі на руїнах своєї вітчизни.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Spirit_of_Laws_(1758)",
+                "lang": "en",
+                "title": "Монтеск’є, «Про дух законів»"
+              }
+            },
+            "pl": {
+              "edition": "spirit-republics.pl.ours",
+              "from": "8.16",
+              "to": "8.16",
+              "text": "W wielkiej republice są ludzie wielkich fortun, a więc mniej umiarkowani; są sprawy zbyt wielkie, by powierzać je jednemu obywatelowi; ten ma własne interesy; wkrótce zaczyna myśleć, że może być szczęśliwy, wielki i sławny, uciskając współobywateli, i że może wznieść się do wielkości na ruinach swej ojczyzny.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Spirit_of_Laws_(1758)",
+                "lang": "en",
+                "title": "Monteskiusz, O duchu praw"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/De_l’esprit_des_lois_(éd._Nourse)/Livre_8"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Fourteen years earlier, in his Considerations on the Causes of the Greatness of the Romans and their Decline, Montesquieu had found one cause of Rome's fall in its very size: when the legions served far beyond the Alps and the sea, the soldiers came to know only their general, and no longer the Republic.",
+            "ru": "За четырнадцать лет до того, в «Размышлениях о причинах величия и падения римлян», Монтескьё нашёл одну из причин гибели Рима в самих его размерах: когда легионы служили далеко за Альпами и за морем, солдаты стали знать только своего полководца, а не республику.",
+            "uk": "За чотирнадцять років до того, у «Роздумах про причини величі й занепаду римлян», Монтеск’є знайшов одну з причин загибелі Риму в самих його розмірах: коли легіони служили далеко за Альпами й за морем, вояки стали знати тільки свого полководця, а не республіку.",
+            "pl": "Czternaście lat wcześniej, w Rozważaniach o przyczynach wielkości i upadku Rzymian, Monteskiusz znalazł jedną z przyczyn upadku Rzymu w samej jego wielkości: gdy legiony służyły daleko za Alpami i za morzem, żołnierze zaczęli znać tylko swego wodza, a nie republikę."
+          },
+          "source": "Montesquieu, Considerations on the Causes of the Greatness of the Romans and their Decline (1734), chapter 9"
+        },
+        {
+          "fact": {
+            "en": "Forty years later, defending the new Constitution of the United States, James Madison called Montesquieu “the oracle who is always consulted and cited” on the separation of powers.",
+            "ru": "Сорок лет спустя, защищая новую конституцию Соединённых Штатов, Джеймс Мэдисон назвал Монтескьё «оракулом, к которому всегда обращаются и на которого всегда ссылаются» в вопросе о разделении властей.",
+            "uk": "Через сорок років, захищаючи нову конституцію Сполучених Штатів, Джеймс Медісон назвав Монтеск’є «оракулом, до якого завжди звертаються і на якого завжди посилаються» в питанні поділу влади.",
+            "pl": "Czterdzieści lat później, broniąc nowej konstytucji Stanów Zjednoczonych, James Madison nazwał Monteskiusza „wyrocznią, której zawsze się radzi i którą zawsze się przytacza” w sprawie podziału władz."
+          },
+          "source": "James Madison, The Federalist No. 47 (1788)"
+        }
+      ]
+    },
+    {
+      "think": "republics",
+      "question": {
+        "en": "Think of a free country you know — your own, or one from history. What could bring its freedom down: its leaders, its citizens, its size, or something else? And what, if anything, could keep it standing?",
+        "ru": "Подумайте о свободной стране, которую вы знаете, — о своей или о стране из истории. Что могло бы погубить её свободу: её правители, её граждане, её размеры или что-то ещё? И что, если вообще что-нибудь, могло бы её удержать?",
+        "uk": "Подумайте про вільну країну, яку ви знаєте, — свою чи країну з історії. Що могло б згубити її свободу: її правителі, її громадяни, її розміри чи щось інше? І що, якщо взагалі щось, могло б її втримати?",
+        "pl": "Pomyśl o wolnym kraju, który znasz — swoim albo jakimś z historii. Co mogłoby zniszczyć jego wolność: jego przywódcy, jego obywatele, jego rozmiar czy coś innego? I co, jeśli cokolwiek, mogłoby go ocalić?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: why do republics fall?",
+        "ru": "А теперь: почему гибнут республики?",
+        "uk": "А тепер: чому гинуть республіки?",
+        "pl": "A teraz: dlaczego upadają republiki?"
+      }
+    }
+  ]
+}

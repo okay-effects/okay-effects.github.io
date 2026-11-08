@@ -1,0 +1,1031 @@
+{
+  "id": "love",
+  "title": {
+    "en": "What is love?",
+    "ru": "Что такое любовь?",
+    "uk": "Що таке любов?",
+    "pl": "Czym jest miłość?"
+  },
+  "subtitle": {
+    "en": "Plato, Paul, Heloise and Ibn Arabi — and you",
+    "ru": "Платон, Павел, Элоиза и Ибн Араби — и вы",
+    "uk": "Платон, Павло, Елоїза та Ібн Арабі — і ви",
+    "pl": "Platon, Paweł, Heloiza i Ibn Arabi — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: what is love?",
+        "ru": "Прежде чем читать кого-либо: что такое любовь?",
+        "uk": "Перш ніж читати когось: що таке любов?",
+        "pl": "Zanim kogokolwiek przeczytasz: czym jest miłość?"
+      },
+      "options": [
+        {
+          "en": "A longing for the one person who completes us",
+          "ru": "Тоска по единственному человеку, который нас дополняет",
+          "uk": "Туга за єдиною людиною, яка нас доповнює",
+          "pl": "Tęsknota za jedną osobą, która nas dopełnia"
+        },
+        {
+          "en": "A desire for beauty and goodness, which can grow beyond one person",
+          "ru": "Стремление к красоте и добру, которое может перерасти одного человека",
+          "uk": "Прагнення краси й добра, яке може перерости одну людину",
+          "pl": "Pragnienie piękna i dobra, które może przerosnąć jedną osobę"
+        },
+        {
+          "en": "Patient goodwill: something we do, not only feel",
+          "ru": "Терпеливая доброта: то, что мы делаем, а не только чувствуем",
+          "uk": "Терпляча доброта: те, що ми робимо, а не лише відчуваємо",
+          "pl": "Cierpliwa życzliwość: coś, co robimy, a nie tylko czujemy"
+        },
+        {
+          "en": "A passion that answers to no rule, no contract and no reason",
+          "ru": "Страсть, которая не подчиняется ни правилам, ни договорам, ни рассудку",
+          "uk": "Пристрасть, що не кориться ні правилам, ні угодам, ні розуму",
+          "pl": "Namiętność, która nie słucha ani reguł, ani umów, ani rozsądku"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Aristophanes: love is the search for our other half",
+        "ru": "Аристофан: любовь — поиск своей второй половины",
+        "uk": "Аристофан: любов — пошук своєї другої половини",
+        "pl": "Arystofanes: miłość to szukanie swojej drugiej połowy"
+      },
+      "intro": {
+        "en": "Athens, 416 BC. The poet Agathon has won his first prize for tragedy, and the next evening his friends dine at his house. Still suffering from the day before's drinking, they agree that no one shall be pressed to drink, and instead to take turns making speeches in praise of Love, the god Eros. When his turn comes, the comic poet Aristophanes tells a myth: humans were once round, double creatures — two faces, four hands, four feet — until Zeus, to humble them, cut each of them in two:",
+        "ru": "Афины, 416 год до н. э. Поэт Агафон получил свою первую награду за трагедию, и на следующий вечер друзья собираются у него на обед. После вчерашней попойки им не до вина, и они уговариваются никого не принуждать пить, а вместо этого по очереди произносить речи во славу Эрота, бога любви. Когда очередь доходит до комедиографа Аристофана, он рассказывает миф: когда-то люди были круглыми, двойными существами — два лица, четыре руки, четыре ноги, — пока Зевс, чтобы смирить их, не рассёк каждого надвое:",
+        "uk": "Афіни, 416 рік до н. е. Поет Агатон здобув свою першу нагороду за трагедію, і наступного вечора друзі збираються в нього на обід. Після вчорашньої пиятики їм не до вина, тож вони домовляються нікого не силувати пити, а натомість по черзі виголошувати промови на славу Ерота, бога любові. Коли черга доходить до комедіографа Аристофана, він розповідає міф: колись люди були круглими, подвійними істотами — два обличчя, чотири руки, чотири ноги, — аж поки Зевс, щоб їх упокорити, не розтяв кожного навпіл:",
+        "pl": "Ateny, 416 rok p.n.e. Poeta Agaton zdobył pierwszą nagrodę za tragedię i następnego wieczoru przyjaciele zbierają się u niego na uczcie. Po wczorajszym pijaństwie nie mają ochoty na wino, umawiają się więc, że nikt nie będzie zmuszany do picia, a zamiast tego kolejno wygłaszać mowy na cześć Erosa, boga miłości. Gdy przychodzi kolej na komediopisarza Arystofanesa, opowiada on mit: niegdyś ludzie byli okrągłymi, podwójnymi istotami — dwie twarze, cztery ręce, cztery nogi — dopóki Zeus, by ich upokorzyć, nie przeciął każdego na pół:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Aristophanes, in Plato's Symposium (191d)",
+            "ru": "Аристофан в «Пире» Платона (191d)",
+            "uk": "Аристофан у «Бенкеті» Платона (191d)",
+            "pl": "Arystofanes w Uczcie Platona (191d)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "symposium-love.en.jowett",
+              "from": "189c",
+              "to": "191d",
+              "text": "Each of us when separated, having one side only, like a flat fish, is but the indenture of a man, and he is always looking for his other half.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Plato, Symposium"
+              }
+            },
+            "ru": {
+              "edition": "symposium-love.ru.ours",
+              "from": "189c",
+              "to": "191d",
+              "text": "Каждый из нас, будучи разделён и имея лишь одну сторону, как камбала, — всего лишь половинка человека, словно половина разрезанной бирки, и он всегда ищет свою другую половину.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Платон, «Пир»"
+              }
+            },
+            "uk": {
+              "edition": "symposium-love.uk.ours",
+              "from": "189c",
+              "to": "191d",
+              "text": "Кожен із нас, коли його розділено і він має лише один бік, як камбала, — лише половинка людини, наче половина розрізаної бирки, і він завжди шукає свою другу половину.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Платон, «Бенкет»"
+              }
+            },
+            "pl": {
+              "edition": "symposium-love.pl.ours",
+              "from": "189c",
+              "to": "191d",
+              "text": "Każdy z nas, rozdzielony i mający tylko jedną stronę, jak flądra, jest zaledwie połówką człowieka, jak połowa przeciętego karbu, i zawsze szuka swojej drugiej połowy.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Platon, Uczta"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg011.perseus-grc2:191d/"
+          }
+        },
+        {
+          "by": {
+            "en": "The same speech (192e–193a)",
+            "ru": "Та же речь (192e–193a)",
+            "uk": "Та сама промова (192e–193a)",
+            "pl": "Ta sama mowa (192e–193a)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "symposium-love.en.jowett",
+              "from": "189c",
+              "to": "193a",
+              "text": "And the reason is that human nature was originally one and we were a whole, and the desire and pursuit of the whole is called love.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Plato, Symposium"
+              }
+            },
+            "ru": {
+              "edition": "symposium-love.ru.ours",
+              "from": "189c",
+              "to": "193a",
+              "text": "А причина в том, что изначально человеческая природа была единой и мы были целыми, а желание целого и стремление к нему зовётся любовью.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Платон, «Пир»"
+              }
+            },
+            "uk": {
+              "edition": "symposium-love.uk.ours",
+              "from": "189c",
+              "to": "193a",
+              "text": "А причина в тому, що спершу людська природа була єдиною і ми були цілими, а бажання цілого й прагнення до нього зветься любов'ю.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Платон, «Бенкет»"
+              }
+            },
+            "pl": {
+              "edition": "symposium-love.pl.ours",
+              "from": "189c",
+              "to": "193a",
+              "text": "A przyczyna jest ta, że natura ludzka była pierwotnie jedna i byliśmy całością, a pragnienie całości i dążenie do niej nazywa się miłością.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Platon, Uczta"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg011.perseus-grc2:192e/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Aristophanes was to have spoken before the physician Eryximachus, but he had the hiccups. Eryximachus spoke in his place and prescribed the cure: hold your breath; if that fails, gargle with water; if it still goes on, tickle your nose and sneeze.",
+            "ru": "Аристофан должен был говорить раньше врача Эриксимаха, но на него напала икота. Эриксимах выступил вместо него и прописал лечение: задержи дыхание; не поможет — прополощи горло водой; если и это не поможет — пощекочи в носу и чихни.",
+            "uk": "Аристофан мав говорити перед лікарем Ериксимахом, але на нього напала гикавка. Ериксимах виступив замість нього і приписав лікування: затримай подих; не допоможе — прополощи горло водою; якщо й це не допоможе — полоскочи в носі й чхни.",
+            "pl": "Arystofanes miał przemawiać przed lekarzem Eryksymachem, ale dostał czkawki. Eryksymach przemówił zamiast niego i przepisał lekarstwo: wstrzymaj oddech; jeśli nie pomoże — przepłucz gardło wodą; a jeśli i to nie pomoże — połaskocz się w nos i kichnij."
+          },
+          "source": "Plato, Symposium 185c–e"
+        },
+        {
+          "fact": {
+            "en": "Years before, Aristophanes had put Socrates on stage in his comedy the Clouds, as a man who speculates about the heavens and makes the weaker argument the stronger. At his trial in 399 BC Socrates named that comedy among the old slanders against him.",
+            "ru": "За годы до этого Аристофан вывел Сократа на сцену в комедии «Облака» — человеком, который умствует о небесных делах и делает слабый довод сильным. На суде в 399 году до н. э. Сократ назвал эту комедию среди давних клевет на себя.",
+            "uk": "Задовго до того Аристофан вивів Сократа на сцену в комедії «Хмари» — людиною, що мудрує про небесне і робить слабший довід сильнішим. На суді 399 року до н. е. Сократ назвав цю комедію серед давніх наклепів на себе.",
+            "pl": "Lata wcześniej Arystofanes wprowadził Sokratesa na scenę w komedii Chmury — jako człowieka, który docieka spraw niebieskich i słabszy argument czyni mocniejszym. Na procesie w 399 roku p.n.e. Sokrates wymienił tę komedię wśród dawnych oszczerstw przeciw sobie."
+          },
+          "source": "Plato, Apology 19b–c"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Diotima: love climbs from one body to beauty itself",
+        "ru": "Диотима: любовь восходит от одного тела к самой красоте",
+        "uk": "Діотима: любов підноситься від одного тіла до самої краси",
+        "pl": "Diotyma: miłość wspina się od jednego ciała ku samemu pięknu"
+      },
+      "intro": {
+        "en": "The same night. When Socrates' turn comes, he speaks not in his own name: he retells what a wise woman, Diotima of Mantineia, once taught him. Love, she told him, is not a god but a great spirit between gods and mortals — the desire to possess the good forever, and to beget in beauty. And it can be led, step by step:",
+        "ru": "Та же ночь. Когда очередь доходит до Сократа, он говорит не от себя: он пересказывает то, чему когда-то научила его мудрая женщина, Диотима из Мантинеи. Эрот, сказала она, не бог, а великий гений, посредник между богами и смертными, — это желание вечно обладать благом и рождать в прекрасном. И его можно вести, ступень за ступенью:",
+        "uk": "Та сама ніч. Коли черга доходить до Сократа, він говорить не від себе: він переказує те, чого колись навчила його мудра жінка, Діотима з Мантинеї. Ерот, сказала вона, не бог, а великий дух, посередник між богами й смертними, — це бажання вічно володіти благом і народжувати в прекрасному. І його можна вести, щабель за щаблем:",
+        "pl": "Ta sama noc. Gdy przychodzi kolej na Sokratesa, nie mówi on od siebie: powtarza to, czego niegdyś nauczyła go mądra kobieta, Diotyma z Mantinei. Eros, powiedziała mu, nie jest bogiem, lecz wielkim duchem, pośrednikiem między bogami a śmiertelnymi — pragnieniem, by posiadać dobro na zawsze, i by rodzić w pięknie. I można go prowadzić, stopień po stopniu:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Diotima, as Socrates retells her, in Plato's Symposium (210b)",
+            "ru": "Диотима в пересказе Сократа, «Пир» Платона (210b)",
+            "uk": "Діотима в переказі Сократа, «Бенкет» Платона (210b)",
+            "pl": "Diotyma w relacji Sokratesa, Uczta Platona (210b)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "symposium-love.en.jowett",
+              "from": "209e",
+              "to": "210b",
+              "text": "And when he perceives this he will abate his violent love of the one, which he will despise and deem a small thing, and will become a lover of all beautiful forms; in the next stage he will consider that the beauty of the mind is more honourable than the beauty of the outward form.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Plato, Symposium"
+              }
+            },
+            "ru": {
+              "edition": "symposium-love.ru.ours",
+              "from": "209e",
+              "to": "210b",
+              "text": "И, поняв это, он умерит свою неистовую любовь к одному, которую станет презирать и сочтёт пустяком, и сделается любящим все прекрасные облики; на следующей ступени он сочтёт, что красота ума достойнее красоты внешнего облика.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Платон, «Пир»"
+              }
+            },
+            "uk": {
+              "edition": "symposium-love.uk.ours",
+              "from": "209e",
+              "to": "210b",
+              "text": "І, збагнувши це, він угамує свою шалену любов до одного, яку зневажатиме й вважатиме дрібницею, і стане закоханим в усі прекрасні постаті; на наступному щаблі він вважатиме, що краса розуму достойніша за красу зовнішньої постаті.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Платон, «Бенкет»"
+              }
+            },
+            "pl": {
+              "edition": "symposium-love.pl.ours",
+              "from": "209e",
+              "to": "210b",
+              "text": "A gdy to dostrzeże, pohamuje swą gwałtowną miłość do jednego, którą wzgardzi i uzna za rzecz małą, i stanie się miłośnikiem wszystkich pięknych postaci; na następnym stopniu uzna, że piękno umysłu jest czcigodniejsze niż piękno zewnętrznej postaci.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Platon, Uczta"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg011.perseus-grc2:210b/"
+          }
+        },
+        {
+          "by": {
+            "en": "The same speech (211b–c)",
+            "ru": "Та же речь (211b–c)",
+            "uk": "Та сама промова (211b–c)",
+            "pl": "Ta sama mowa (211b–c)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "symposium-love.en.jowett",
+              "from": "210e",
+              "to": "211c",
+              "text": "And the true order of going, or being led by another, to the things of love, is to begin from the beauties of earth and mount upwards for the sake of that other beauty, using these as steps only, and from one going on to two, and from two to all fair forms, and from fair forms to fair practices, and from fair practices to fair notions, until from fair notions he arrives at the notion of absolute beauty, and at last knows what the essence of beauty is.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Plato, Symposium"
+              }
+            },
+            "ru": {
+              "edition": "symposium-love.ru.ours",
+              "from": "210e",
+              "to": "211c",
+              "text": "И истинный порядок, в каком идут — сами или ведомые другим — к делам любви, таков: начать с красот земных и восходить ради той, иной красоты, пользуясь ими лишь как ступенями, — от одного к двум, от двух ко всем прекрасным обликам, от прекрасных обликов к прекрасным занятиям, от прекрасных занятий к прекрасным понятиям, пока от прекрасных понятий он не придёт к понятию абсолютной красоты и не узнает наконец, в чём сущность красоты.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Платон, «Пир»"
+              }
+            },
+            "uk": {
+              "edition": "symposium-love.uk.ours",
+              "from": "210e",
+              "to": "211c",
+              "text": "І справжній порядок, у якому йдуть — самі чи ведені іншим — до справ любові, такий: почати з красот землі й підноситися заради тієї, іншої краси, користуючись ними лише як щаблями, — від одного до двох, від двох до всіх прекрасних постатей, від прекрасних постатей до прекрасних занять, від прекрасних занять до прекрасних понять, доки від прекрасних понять він не дійде до поняття абсолютної краси і не пізнає нарешті, у чому сутність краси.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Платон, «Бенкет»"
+              }
+            },
+            "pl": {
+              "edition": "symposium-love.pl.ours",
+              "from": "210e",
+              "to": "211c",
+              "text": "A prawdziwy porządek, w jakim się idzie — samemu albo prowadzonym przez innego — ku sprawom miłości, jest taki: zacząć od piękności ziemi i wznosić się ku górze dla tamtego innego piękna, używając ich tylko jako stopni, od jednego przechodząc do dwóch, od dwóch do wszystkich pięknych postaci, od pięknych postaci do pięknych zajęć, od pięknych zajęć do pięknych pojęć, aż od pięknych pojęć dojdzie do pojęcia piękna absolutnego i pozna wreszcie, czym jest istota piękna.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Dialogues_of_Plato_(Jowett)/Symposium",
+                "lang": "en",
+                "title": "Platon, Uczta"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0059.tlg011.perseus-grc2:211c/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Socrates calls Diotima a woman wise in this and in many other kinds of knowledge, who once, when the Athenians offered sacrifice, put off the plague for ten years.",
+            "ru": "Сократ называет Диотиму женщиной, сведущей и в этом, и во многом другом, — той, что некогда, когда афиняне принесли жертвы, на десять лет отсрочила чуму.",
+            "uk": "Сократ називає Діотиму жінкою, обізнаною і в цьому, і в багато чому іншому, — тією, що колись, коли афіняни принесли жертви, на десять років відсунула чуму.",
+            "pl": "Sokrates nazywa Diotymę kobietą biegłą w tym i w wielu innych dziedzinach wiedzy — tą, która niegdyś, gdy Ateńczycy złożyli ofiary, odsunęła zarazę o dziesięć lat."
+          },
+          "source": "Plato, Symposium 201d"
+        },
+        {
+          "fact": {
+            "en": "The moment Socrates finishes there is a loud knocking at the door: Alcibiades bursts in, drunk, crowned with ivy and violets — and makes a speech in praise not of Love, but of Socrates.",
+            "ru": "Едва Сократ умолкает, в дверь громко стучат: вваливается пьяный Алкивиад в венке из плюща и фиалок — и произносит похвалу не Эроту, а Сократу.",
+            "uk": "Щойно Сократ замовкає, у двері гучно стукають: вривається п'яний Алківіад у вінку з плюща й фіалок — і виголошує похвалу не Еротові, а Сократові.",
+            "pl": "Ledwie Sokrates kończy, rozlega się głośne pukanie do drzwi: wpada pijany Alkibiades w wieńcu z bluszczu i fiołków — i wygłasza pochwałę nie Erosa, lecz Sokratesa."
+          },
+          "source": "Plato, Symposium 212c–e, 214e–215a"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Paul: love is patient, and greater than faith and hope",
+        "ru": "Павел: любовь долготерпит, и она больше веры и надежды",
+        "uk": "Павло: любов довготерпить, і вона більша за віру й надію",
+        "pl": "Paweł: miłość jest cierpliwa i większa niż wiara i nadzieja"
+      },
+      "intro": {
+        "en": "Ephesus, in the 50s AD. The apostle Paul writes to the church he founded at Corinth: a young community split into factions and proud of its spiritual gifts — prophecy, knowledge, speaking in tongues. Without love, he tells them, even one who speaks “with the tongues of men and of angels” is only “sounding brass, or a tinkling cymbal”. Then he says what love does:",
+        "ru": "Эфес, 50-е годы н. э. Апостол Павел пишет основанной им церкви в Коринфе — молодой общине, расколотой на партии и гордой своими духовными дарами: пророчеством, знанием, говорением на языках. Без любви, говорит он им, даже тот, кто говорит «языками человеческими и ангельскими», — лишь «медь звенящая или кимвал звучащий». А затем говорит, что делает любовь:",
+        "uk": "Ефес, 50-ті роки н. е. Апостол Павло пише до заснованої ним церкви в Коринті — молодої громади, розколотої на партії й гордої своїми духовними дарами: пророцтвом, знанням, говорінням мовами. Без любові, каже він їм, навіть той, хто говорить «мовами людськими й ангельськими», — лише «мідь дзвінка або кимвал гучний». А тоді каже, що робить любов:",
+        "pl": "Efez, lata 50. n.e. Apostoł Paweł pisze do założonego przez siebie Kościoła w Koryncie — młodej wspólnoty podzielonej na stronnictwa i dumnej ze swych darów duchowych: proroctwa, poznania, mówienia językami. Bez miłości, mówi im, nawet ten, kto mówi „językami ludzi i aniołów”, jest tylko „miedzią dźwięczącą albo cymbałem brzmiącym”. A potem mówi, co czyni miłość:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Paul, First Epistle to the Corinthians 13:4–7 (King James Version)",
+            "ru": "Павел, Первое послание к Коринфянам 13:4–7",
+            "uk": "Павло, Перше послання до коринтян 13:4–7",
+            "pl": "Paweł, Pierwszy List do Koryntian 13,4–7"
+          },
+          "quotes": {
+            "en": {
+              "edition": "corinthians-love.en.kjv",
+              "from": "13.4",
+              "to": "13.7",
+              "text": "Charity suffereth long, and is kind; charity envieth not; charity vaunteth not itself, is not puffed up, Doth not behave itself unseemly, seeketh not her own, is not easily provoked, thinketh no evil; Rejoiceth not in iniquity, but rejoiceth in the truth; Beareth all things, believeth all things, hopeth all things, endureth all things.",
+              "kind": "Free",
+              "translator": "King James Version",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/1_Corinthians",
+                "lang": "en",
+                "title": "Paul the Apostle, First Epistle to the Corinthians"
+              }
+            },
+            "ru": {
+              "edition": "corinthians-love.ru.ours",
+              "from": "13.4",
+              "to": "13.7",
+              "text": "Любовь долготерпит и милосердствует; любовь не завидует; любовь не превозносится, не гордится, не бесчинствует, не ищет своего, нелегко раздражается, не мыслит зла; не радуется неправде, а радуется истине; всё переносит, всему верит, на всё надеется, всё терпит.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/1_Corinthians",
+                "lang": "en",
+                "title": "Апостол Павел, «Первое послание к Коринфянам»"
+              }
+            },
+            "uk": {
+              "edition": "corinthians-love.uk.ours",
+              "from": "13.4",
+              "to": "13.7",
+              "text": "Любов довготерпить і милосердна; любов не заздрить; любов не величається, не надимається, не поводиться непристойно, не шукає свого, нелегко дратується, не думає лихого; не радіє з неправди, а радіє з правди; усе переносить, усьому вірить, на все надіється, усе терпить.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/1_Corinthians",
+                "lang": "en",
+                "title": "Апостол Павло, «Перше послання до коринтян»"
+              }
+            },
+            "pl": {
+              "edition": "corinthians-love.pl.ours",
+              "from": "13.4",
+              "to": "13.7",
+              "text": "Miłość cierpliwa jest i dobrotliwa; miłość nie zazdrości; miłość się nie wynosi, nie nadyma się, nie postępuje nieprzystojnie, nie szuka swego, nie unosi się łatwo gniewem, nie myśli nic złego; nie raduje się z nieprawości, ale raduje się z prawdy; wszystko znosi, wszystkiemu wierzy, wszystkiego się spodziewa, wszystko wytrzymuje.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/1_Corinthians",
+                "lang": "en",
+                "title": "Apostoł Paweł, Pierwszy List do Koryntian"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://el.wikisource.org/wiki/%CE%A0%CF%81%CE%BF%CF%82_%CE%9A%CE%BF%CF%81%CE%B9%CE%BD%CE%B8%CE%AF%CE%BF%CF%85%CF%82_%CE%91%27"
+          }
+        },
+        {
+          "by": {
+            "en": "The same chapter (13:13)",
+            "ru": "Та же глава (13:13)",
+            "uk": "Той самий розділ (13:13)",
+            "pl": "Ten sam rozdział (13,13)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "corinthians-love.en.kjv",
+              "from": "13.13",
+              "to": "13.13",
+              "text": "And now abideth faith, hope, charity, these three; but the greatest of these is charity.",
+              "kind": "Free",
+              "translator": "King James Version",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/1_Corinthians",
+                "lang": "en",
+                "title": "Paul the Apostle, First Epistle to the Corinthians"
+              }
+            },
+            "ru": {
+              "edition": "corinthians-love.ru.ours",
+              "from": "13.13",
+              "to": "13.13",
+              "text": "А теперь пребывают вера, надежда, любовь — эти три; но любовь из них больше.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/1_Corinthians",
+                "lang": "en",
+                "title": "Апостол Павел, «Первое послание к Коринфянам»"
+              }
+            },
+            "uk": {
+              "edition": "corinthians-love.uk.ours",
+              "from": "13.13",
+              "to": "13.13",
+              "text": "А тепер зостаються віра, надія, любов — ці три; але найбільша з них — любов.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/1_Corinthians",
+                "lang": "en",
+                "title": "Апостол Павло, «Перше послання до коринтян»"
+              }
+            },
+            "pl": {
+              "edition": "corinthians-love.pl.ours",
+              "from": "13.13",
+              "to": "13.13",
+              "text": "A teraz trwają wiara, nadzieja, miłość — te trzy; ale największa z nich jest miłość.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/1_Corinthians",
+                "lang": "en",
+                "title": "Apostoł Paweł, Pierwszy List do Koryntian"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://el.wikisource.org/wiki/%CE%A0%CF%81%CE%BF%CF%82_%CE%9A%CE%BF%CF%81%CE%B9%CE%BD%CE%B8%CE%AF%CE%BF%CF%85%CF%82_%CE%91%27"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The church was divided: “every one of you saith, I am of Paul; and I of Apollos; and I of Cephas; and I of Christ.” Paul had heard of it from the people of Chloe's household.",
+            "ru": "Церковь была расколота: «каждый из вас говорит: я Павлов; я Аполлосов; я Кифин; а я Христов». Павел узнал об этом от домашних Хлои.",
+            "uk": "Церква була розколота: «кожен із вас каже: я Павлів, а я Аполлосів, а я Кифин, а я Христів». Павло дізнався про це від домашніх Хлої.",
+            "pl": "Kościół był podzielony: „każdy z was mówi: Ja jestem Pawłowy, a ja Apollosowy, a ja Kefasowy, a ja Chrystusowy”. Paweł dowiedział się o tym od domowników Chloe."
+          },
+          "source": "1 Corinthians 1:11–12"
+        },
+        {
+          "fact": {
+            "en": "Paul's word is the Greek agapē. The Latin Vulgate renders it caritas, and the King James Version of 1611 “charity”; William Tyndale's English New Testament of 1526 had said “love”.",
+            "ru": "Слово Павла — греческое «агапе». Латинская Вульгата передаёт его как caritas, а Библия короля Якова 1611 года — как charity («милосердие»); в английском Новом Завете Уильяма Тиндейла 1526 года стояло love — «любовь».",
+            "uk": "Слово Павла — грецьке «агапе». Латинська Вульгата передає його як caritas, а Біблія короля Якова 1611 року — як charity («милосердя»); в англійському Новому Завіті Вільяма Тиндейла 1526 року стояло love — «любов».",
+            "pl": "Słowo Pawła to greckie agape. Łacińska Wulgata oddaje je jako caritas, a Biblia króla Jakuba z 1611 roku jako charity („miłosierdzie”); w angielskim Nowym Testamencie Williama Tyndale'a z 1526 roku stało love — „miłość”."
+          },
+          "source": "1 Corinthians 13:4 in the Greek, the Latin Vulgate, the King James Version (1611) and William Tyndale's New Testament (1526)"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Brittany, about 1117–1118",
+        "ru": "Бретань, около 1117–1118 годов",
+        "uk": "Бретань, близько 1117–1118 років",
+        "pl": "Bretania, ok. 1117–1118"
+      },
+      "scene": {
+        "en": "You are Heloise, the niece of Fulbert, a canon in Paris, and famous in the city for your learning. The most celebrated teacher in Paris, Peter Abelard, took lodgings in your uncle's house as your tutor — and became your lover. When you found you were pregnant, he stole you away by night to his family in Brittany; here, in his sister's house, you have given birth to a son, Astrolabe. Now Abelard is back from Paris. To quiet your uncle's grief and fury he has promised to marry you — on condition that the marriage be kept secret, so that his reputation does not suffer; Fulbert agreed and sealed it with kisses. Abelard has come to take you to Paris and make you his wife. What do you say?",
+        "ru": "Вы — Элоиза, племянница Фульбера, каноника в Париже, известная всему городу своей учёностью. Самый знаменитый учитель Парижа, Пьер Абеляр, поселился в доме вашего дяди как ваш наставник — и стал вашим возлюбленным. Когда вы поняли, что беременны, он ночью тайно увёз вас к своей родне в Бретань; здесь, в доме его сестры, вы родили сына, Астролябия. Теперь Абеляр вернулся из Парижа. Чтобы унять горе и ярость вашего дяди, он пообещал жениться на вас — при условии, что брак останется тайным и не повредит его репутации; Фульбер согласился и скрепил договор поцелуями. Абеляр приехал, чтобы увезти вас в Париж и сделать своей женой. Что вы ответите?",
+        "uk": "Ви — Елоїза, небога Фульбера, каноніка в Парижі, відома всьому місту своєю вченістю. Найславетніший учитель Парижа, П'єр Абеляр, оселився в домі вашого дядька як ваш наставник — і став вашим коханим. Коли ви зрозуміли, що вагітні, він уночі потай вивіз вас до своєї рідні в Бретань; тут, у домі його сестри, ви народили сина, Астролябія. Тепер Абеляр повернувся з Парижа. Щоб угамувати горе й лють вашого дядька, він пообіцяв одружитися з вами — за умови, що шлюб лишиться таємним і не зашкодить його репутації; Фульбер погодився і скріпив угоду поцілунками. Абеляр приїхав, щоб забрати вас до Парижа й зробити своєю дружиною. Що ви відповісте?",
+        "pl": "Jesteś Heloizą, siostrzenicą Fulberta, kanonika w Paryżu, słynną w całym mieście ze swej uczoności. Najsławniejszy nauczyciel Paryża, Piotr Abelard, zamieszkał w domu twego wuja jako twój nauczyciel — i został twoim kochankiem. Gdy odkryłaś, że jesteś w ciąży, wykradł cię nocą do swojej rodziny w Bretanii; tu, w domu jego siostry, urodziłaś syna, Astrolabiusza. Teraz Abelard wrócił z Paryża. By ukoić żal i gniew twego wuja, obiecał się z tobą ożenić — pod warunkiem, że małżeństwo pozostanie tajne i nie zaszkodzi jego dobremu imieniu; Fulbert się zgodził i przypieczętował układ pocałunkami. Abelard przyjechał, by zabrać cię do Paryża i uczynić swoją żoną. Co odpowiesz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Marry him: we have a child, and the marriage will make peace with my uncle",
+            "ru": "Выйти за него: у нас ребёнок, и брак примирит меня с дядей",
+            "uk": "Вийти за нього: у нас дитина, і шлюб примирить мене з дядьком",
+            "pl": "Wyjść za niego: mamy dziecko, a małżeństwo pogodzi mnie z wujem"
+          },
+          "reply": {
+            "en": "That was Abelard's hope, but Heloise warned him that her uncle would never be appeased by it — and she was right.",
+            "ru": "На это и надеялся Абеляр, но Элоиза предупредила его, что дядю это никогда не умиротворит, — и оказалась права.",
+            "uk": "На це й сподівався Абеляр, але Елоїза застерегла його, що дядька це ніколи не вгамує, — і мала рацію.",
+            "pl": "Na to liczył Abelard, ale Heloiza ostrzegła go, że wuja to nigdy nie udobrucha — i miała rację."
+          }
+        },
+        {
+          "choice": {
+            "en": "Refuse: I would rather be loved freely than held by a chain",
+            "ru": "Отказаться: пусть лучше меня любят свободно, чем держат цепью",
+            "uk": "Відмовитися: хай краще мене кохають вільно, ніж тримають ланцюгом",
+            "pl": "Odmówić: wolę być kochana w wolności niż trzymana na łańcuchu"
+          },
+          "reply": {
+            "en": "That was her last argument: love alone, not the marriage chain, should hold him to her.",
+            "ru": "Это был её последний довод: пусть его привязывает к ней одна любовь, а не брачная цепь.",
+            "uk": "Це був її останній довід: хай його прив'язує до неї сама любов, а не шлюбний ланцюг.",
+            "pl": "To był jej ostatni argument: niech wiąże go z nią sama miłość, a nie małżeński łańcuch."
+          }
+        },
+        {
+          "choice": {
+            "en": "Refuse: a philosopher cannot live among cradles and spindles",
+            "ru": "Отказаться: философ не может жить среди колыбелей и прялок",
+            "uk": "Відмовитися: філософ не може жити серед колисок і прядок",
+            "pl": "Odmówić: filozof nie może żyć wśród kołysek i kądzieli"
+          },
+          "reply": {
+            "en": "She argued that too, with Theophrastus, Cicero and Seneca — and with Socrates, drenched with slops by Xanthippe.",
+            "ru": "Она приводила и этот довод — с Теофрастом, Цицероном и Сенекой и с Сократом, которого Ксантиппа облила помоями.",
+            "uk": "Вона наводила й цей довід — з Теофрастом, Цицероном і Сенекою та із Сократом, якого Ксантиппа облила помиями.",
+            "pl": "Tego też dowodziła — powołując się na Teofrasta, Cycerona i Senekę oraz na Sokratesa, którego Ksantypa oblała pomyjami."
+          }
+        },
+        {
+          "choice": {
+            "en": "Marry him, but openly: a secret marriage shames us both",
+            "ru": "Выйти за него, но открыто: тайный брак позорит нас обоих",
+            "uk": "Вийти за нього, але відкрито: таємний шлюб ганьбить нас обох",
+            "pl": "Wyjść za niego, ale jawnie: tajny ślub hańbi nas oboje"
+          },
+          "reply": {
+            "en": "That was never on offer: Abelard had promised marriage only on condition that it be kept secret, so that his reputation would not suffer.",
+            "ru": "Этого никто не предлагал: Абеляр обещал брак лишь при условии, что он останется тайным, чтобы не пострадала его репутация.",
+            "uk": "Цього ніхто не пропонував: Абеляр обіцяв шлюб лише за умови, що він лишиться таємним, аби не постраждала його репутація.",
+            "pl": "Tego nikt nie proponował: Abelard obiecał małżeństwo tylko pod warunkiem, że pozostanie tajne, by nie ucierpiało jego dobre imię."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "Heloise refused, argued, and lost. She told him her uncle would never be appeased, that a wife would disgrace him and chain a philosopher to cradles, and, last, that she would rather be called his mistress than his wife. When she could not move him and would not offend him, she gave way in tears, foretelling that their sorrow would be as great as their love. They left the child with his sister, were married at dawn in a Paris church before Fulbert and a few friends, and parted at once. Fulbert's household spread the news; Heloise swore it was a lie, and her uncle punished her again and again. Abelard hid her in the convent of Argenteuil; believing he meant to be rid of her, Fulbert and his kinsmen bribed Abelard's servant, broke into his room at night and castrated him. He became a monk at Saint-Denis; she, at his bidding, took the veil.",
+        "ru": "Элоиза отказывалась, спорила — и проиграла. Она говорила ему, что дядю ничем не умиротворить, что жена опозорит его и прикуёт философа к колыбелям и, наконец, что ей слаще называться его любовницей, чем женой. Не сумев его переубедить и не желая его обидеть, она со слезами уступила, предсказав, что их скорбь будет так же велика, как их любовь. Ребёнка оставили у его сестры; на рассвете их обвенчали в одной из парижских церквей при Фульбере и нескольких друзьях, и они тотчас расстались. Домашние Фульбера разгласили тайну; Элоиза клялась, что это ложь, и дядя раз за разом наказывал её. Абеляр укрыл её в монастыре в Аржантёе; решив, что он хочет от неё избавиться, Фульбер и его родичи подкупили слугу Абеляра, ночью ворвались к нему и оскопили его. Он стал монахом в Сен-Дени; она по его воле приняла постриг.",
+        "uk": "Елоїза відмовлялася, сперечалася — і програла. Вона казала йому, що дядька нічим не вгамувати, що дружина зганьбить його і прикує філософа до колисок і, нарешті, що їй солодше зватися його коханкою, ніж дружиною. Не змігши його переконати й не бажаючи його образити, вона зі сльозами поступилася, передрікши, що їхня скорбота буде такою ж великою, як їхня любов. Дитину залишили в його сестри; на світанку їх обвінчали в одній із паризьких церков у присутності Фульбера й кількох друзів, і вони одразу розлучилися. Домашні Фульбера розголосили таємницю; Елоїза присягалася, що це брехня, і дядько раз у раз карав її. Абеляр сховав її в монастирі в Аржантеї; вирішивши, що він хоче її позбутися, Фульбер і його родичі підкупили слугу Абеляра, уночі вдерлися до нього й оскопили його. Він став ченцем у Сен-Дені; вона з його волі прийняла постриг.",
+        "pl": "Heloiza odmawiała, spierała się — i przegrała. Mówiła mu, że wuja nic nie udobrucha, że żona go zhańbi i przykuje filozofa do kołysek, a w końcu, że słodziej jej nazywać się jego kochanką niż żoną. Nie mogąc go przekonać i nie chcąc go urazić, ze łzami ustąpiła, przepowiadając, że ich cierpienie będzie równie wielkie jak ich miłość. Dziecko zostawili u jego siostry; o świcie wzięli ślub w jednym z paryskich kościołów w obecności Fulberta i kilku przyjaciół, i natychmiast się rozstali. Domownicy Fulberta rozgłosili tajemnicę; Heloiza przysięgała, że to kłamstwo, a wuj raz po raz ją karał. Abelard ukrył ją w klasztorze w Argenteuil; uznawszy, że chce się jej pozbyć, Fulbert i jego krewni przekupili sługę Abelarda, nocą wdarli się do niego i go wykastrowali. On został mnichem w Saint-Denis; ona na jego życzenie przywdziała welon."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Abelard, Historia calamitatum, ch. VII",
+            "ru": "Абеляр, «История моих бедствий», гл. VII",
+            "uk": "Абеляр, «Історія моїх лих», розд. VII",
+            "pl": "Abelard, Historia moich nieszczęść, rozdz. VII"
+          },
+          "quotes": {
+            "en": {
+              "edition": "historia-love.en.bellows",
+              "from": "7.9",
+              "to": "7.9",
+              "text": "Her final argument was that it would be dangerous for me to take her back to Paris, and that it would be far sweeter for her to be called my mistress than to be known as my wife; nay, too, that this would be more honourable for me as well. In such case, she said, love alone would hold me to her, and the strength of the marriage chain would not constrain us. Even if we should by chance be parted from time to time, the joy of our meetings would be all the sweeter by reason of its rarity.",
+              "kind": "Free",
+              "translator": "Henry Adams Bellows",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Historia_Calamitatum",
+                "lang": "en",
+                "title": "Peter Abelard, Historia calamitatum"
+              }
+            },
+            "ru": {
+              "edition": "historia-love.ru.ours",
+              "from": "7.9",
+              "to": "7.9",
+              "text": "Последний её довод был тот, что везти её обратно в Париж для меня опасно и что ей было бы куда слаще называться моей любовницей, чем слыть моей женой; более того, что и для меня это было бы почётнее. В таком случае, говорила она, меня привязывала бы к ней одна лишь любовь и нас не сковывала бы сила брачной цепи. И даже если бы нам волею случая приходилось порой разлучаться, радость наших встреч была бы тем слаще, чем они реже.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Historia_Calamitatum",
+                "lang": "en",
+                "title": "Абеляр, «История моих бедствий»"
+              }
+            },
+            "uk": {
+              "edition": "historia-love.uk.ours",
+              "from": "7.9",
+              "to": "7.9",
+              "text": "Останній її довід був той, що везти її назад до Парижа для мене небезпечно і що їй було б куди солодше зватися моєю коханкою, ніж бути відомою як моя дружина; ба більше, що й для мене це було б почесніше. Тоді, казала вона, мене тримала б біля неї сама лише любов і нас не сковувала б сила шлюбного ланцюга. І навіть якби нам волею випадку часом доводилося розлучатися, радість наших зустрічей була б тим солодша, що вони рідкісні.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Historia_Calamitatum",
+                "lang": "en",
+                "title": "Абеляр, «Історія моїх лих»"
+              }
+            },
+            "pl": {
+              "edition": "historia-love.pl.ours",
+              "from": "7.9",
+              "to": "7.9",
+              "text": "Jej ostatnim argumentem było to, że niebezpiecznie byłoby dla mnie zabierać ją z powrotem do Paryża i że o wiele słodziej byłoby jej nazywać się moją kochanką niż uchodzić za moją żonę; co więcej, że i dla mnie byłoby to zaszczytniejsze. W takim razie, mówiła, przy niej trzymałaby mnie jedynie miłość i nie krępowałaby nas siła małżeńskiego łańcucha. A nawet gdybyśmy przypadkiem musieli się czasem rozstawać, radość naszych spotkań byłaby tym słodsza, że rzadka.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Historia_Calamitatum",
+                "lang": "en",
+                "title": "Abelard, Historia moich nieszczęść"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/Historia_calamitatum"
+          }
+        },
+        {
+          "by": {
+            "en": "Heloise's last words before she gave way, as Abelard remembered them (the same chapter)",
+            "ru": "Последние слова Элоизы, прежде чем она уступила, как их запомнил Абеляр (та же глава)",
+            "uk": "Останні слова Елоїзи, перш ніж вона поступилася, як їх запам'ятав Абеляр (той самий розділ)",
+            "pl": "Ostatnie słowa Heloizy, zanim ustąpiła, jak je zapamiętał Abelard (ten sam rozdział)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "historia-love.en.bellows",
+              "from": "7.9",
+              "to": "7.9",
+              "text": "Then there is no more left but this, that in our doom the sorrow yet to come shall be no less than the love we two have already known.",
+              "kind": "Free",
+              "translator": "Henry Adams Bellows",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Historia_Calamitatum",
+                "lang": "en",
+                "title": "Peter Abelard, Historia calamitatum"
+              }
+            },
+            "ru": {
+              "edition": "historia-love.ru.ours",
+              "from": "7.9",
+              "to": "7.9",
+              "text": "Тогда не остаётся ничего, кроме одного: в нашей гибели грядущая скорбь будет не меньше любви, которую мы двое уже познали.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Historia_Calamitatum",
+                "lang": "en",
+                "title": "Абеляр, «История моих бедствий»"
+              }
+            },
+            "uk": {
+              "edition": "historia-love.uk.ours",
+              "from": "7.9",
+              "to": "7.9",
+              "text": "Тоді не лишається нічого, крім одного: у нашій загибелі прийдешня скорбота буде не меншою за любов, яку ми двоє вже пізнали.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Historia_Calamitatum",
+                "lang": "en",
+                "title": "Абеляр, «Історія моїх лих»"
+              }
+            },
+            "pl": {
+              "edition": "historia-love.pl.ours",
+              "from": "7.9",
+              "to": "7.9",
+              "text": "Nie pozostaje więc nic prócz tego, że w naszej zgubie przyszły smutek nie będzie mniejszy niż miłość, którą my dwoje już poznaliśmy.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Historia_Calamitatum",
+                "lang": "en",
+                "title": "Abelard, Historia moich nieszczęść"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Latin",
+              "ru": "оригинал на латыни",
+              "uk": "оригінал латиною",
+              "pl": "oryginał po łacinie"
+            },
+            "url": "https://la.wikisource.org/wiki/Historia_calamitatum"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "By his own account Abelard set out to seduce her: having weighed “all those qualities which are wont to attract lovers”, he got her uncle to take him in as a lodger and tutor, and Fulbert entrusted her to him “no matter whether by day or by night”.",
+            "ru": "По собственному признанию Абеляра, он задумал соблазнить её: взвесив «все качества, что обычно привлекают любовников», он добился, чтобы дядя взял его в дом постояльцем и учителем, и Фульбер доверил её ему «днём ли, ночью ли».",
+            "uk": "За власним визнанням Абеляра, він задумав спокусити її: зваживши «всі ті якості, що зазвичай вабять коханців», він домігся, щоб дядько взяв його в дім пожильцем і вчителем, і Фульбер довірив її йому «чи вдень, чи вночі».",
+            "pl": "Jak sam przyznaje, Abelard postanowił ją uwieść: rozważywszy „wszystkie przymioty, które zwykle przyciągają kochanków”, nakłonił jej wuja, by przyjął go do domu jako lokatora i nauczyciela, a Fulbert powierzył mu ją „czy to za dnia, czy w nocy”."
+          },
+          "source": "Abelard, Historia calamitatum, ch. VI (H. A. Bellows' translation, 1922)"
+        },
+        {
+          "fact": {
+            "en": "Some fifteen years later, by then an abbess, Heloise read Abelard's account and wrote to him: if Augustus, ruler of the whole world, had offered her marriage, it would have been dearer to her to be called Abelard's whore than the emperor's empress.",
+            "ru": "Лет пятнадцать спустя, уже аббатиса, Элоиза прочла рассказ Абеляра и написала ему: если бы Август, властитель всего мира, удостоил её брака, ей было бы дороже называться блудницей Абеляра, чем императрицей Августа.",
+            "uk": "Років п'ятнадцять потому, вже ігуменя, Елоїза прочитала розповідь Абеляра і написала йому: якби Август, володар усього світу, удостоїв її шлюбу, їй було б дорожче зватися блудницею Абеляра, ніж імператрицею Августа.",
+            "pl": "Jakieś piętnaście lat później, już jako ksieni, Heloiza przeczytała opowieść Abelarda i napisała do niego: gdyby August, władca całego świata, zaszczycił ją małżeństwem, droższe byłoby jej imię nierządnicy Abelarda niż cesarzowej Augusta."
+          },
+          "source": "Heloise, first letter to Abelard (Letter 2 of their correspondence)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Ibn Arabi: the religion of Love",
+        "ru": "Ибн Араби: религия Любви",
+        "uk": "Ібн Арабі: релігія Любові",
+        "pl": "Ibn Arabi: religia Miłości"
+      },
+      "intro": {
+        "en": "Mecca, 1214–1215. Ibn Arabi, a Sufi master from al-Andalus, writes a cycle of love poems in the old Arabic manner — gazelles and camels, deserted campsites, lost beloveds. In one of them he says that his heart “has become capable of every form”, and: “I follow the religion of Love: whatever way Love's camels take, that is my religion and my faith.” Later, when critics called them mere love songs, he explained them line by line:",
+        "ru": "Мекка, 1214–1215 годы. Ибн Араби, суфийский наставник родом из аль-Андалуса, пишет цикл любовных стихов в старой арабской манере — газели и верблюды, покинутые стоянки, утраченные возлюбленные. В одном из них он говорит, что его сердце «стало способно принять любую форму», и: «Я исповедую религию Любви: каким бы путём ни шли верблюды Любви, это моя религия и моя вера». Позже, когда критики назвали их просто любовными песнями, он растолковал их строка за строкой:",
+        "uk": "Мекка, 1214–1215 роки. Ібн Арабі, суфійський наставник родом з аль-Андалусу, пише цикл любовних віршів у давній арабській манері — газелі й верблюди, покинуті стоянки, втрачені кохані. В одному з них він каже, що його серце «стало здатне прийняти будь-яку форму», і: «Я сповідую релігію Любові: хоч якою дорогою йшли б верблюди Любові, це моя релігія і моя віра». Згодом, коли критики назвали їх просто любовними піснями, він розтлумачив їх рядок за рядком:",
+        "pl": "Mekka, lata 1214–1215. Ibn Arabi, mistrz sufi z al-Andalus, pisze cykl wierszy miłosnych w dawnym arabskim stylu — gazele i wielbłądy, opuszczone obozowiska, utracone ukochane. W jednym z nich mówi, że jego serce „stało się zdolne przyjąć każdą postać”, i: „Wyznaję religię Miłości: jakąkolwiek drogą pójdą wielbłądy Miłości, to jest moja religia i moja wiara”. Później, gdy krytycy nazwali je zwykłymi pieśniami miłosnymi, objaśnił je wers po wersie:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Ibn Arabi, Tarjumán al-Ashwáq, his commentary on poem XI, verse 6",
+            "ru": "Ибн Араби, «Толкователь страстей», его комментарий к стихотворению XI, стих 6",
+            "uk": "Ібн Арабі, «Тлумач пристрастей», його коментар до вірша XI, рядок 6",
+            "pl": "Ibn Arabi, Tłumacz pragnień, jego komentarz do wiersza XI, wers 6"
+          },
+          "quotes": {
+            "en": {
+              "edition": "tarjuman-love.en.nicholson",
+              "from": "11.6",
+              "to": "11.6",
+              "text": "it is the principle in love that thou shouldst be the very essence of thy Beloved and shouldst disappear in Him from thyself.",
+              "kind": "Free",
+              "translator": "Reynold A. Nicholson",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Tarjumán_al-Ashwáq",
+                "lang": "en",
+                "title": "Ibn Arabi, Tarjumán al-Ashwáq"
+              }
+            },
+            "ru": {
+              "edition": "tarjuman-love.ru.ours",
+              "from": "11.6",
+              "to": "11.6",
+              "text": "основа любви в том, чтобы ты был самой сущностью твоего Возлюбленного и исчез в Нём для самого себя.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Tarjumán_al-Ashwáq",
+                "lang": "en",
+                "title": "Ибн Араби, «Толкователь страстей»"
+              }
+            },
+            "uk": {
+              "edition": "tarjuman-love.uk.ours",
+              "from": "11.6",
+              "to": "11.6",
+              "text": "основа любові в тому, щоб ти був самою сутністю свого Коханого і зник у Ньому для самого себе.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Tarjumán_al-Ashwáq",
+                "lang": "en",
+                "title": "Ібн Арабі, «Тлумач пристрастей»"
+              }
+            },
+            "pl": {
+              "edition": "tarjuman-love.pl.ours",
+              "from": "11.6",
+              "to": "11.6",
+              "text": "zasadą w miłości jest, byś był samą istotą swego Umiłowanego i zniknął w Nim dla samego siebie.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Tarjumán_al-Ashwáq",
+                "lang": "en",
+                "title": "Ibn Arabi, Tłumacz pragnień"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Arabic",
+              "ru": "оригинал на арабском",
+              "uk": "оригінал арабською",
+              "pl": "oryginał po arabsku"
+            },
+            "url": "https://archive.org/details/tarjumanalashwaq00ibnaiala"
+          }
+        },
+        {
+          "by": {
+            "en": "The same commentary, on verse 16, which names the famous Arab lovers Qays and Lubná, Mayya and Ghaylán",
+            "ru": "Тот же комментарий, к стиху 16, где названы знаменитые арабские влюблённые — Кайс и Лубна, Майя и Гайлян",
+            "uk": "Той самий коментар, до рядка 16, де названо славетних арабських закоханих — Кайса й Лубну, Маю й Гайляна",
+            "pl": "Ten sam komentarz, do wersu 16, w którym wymienieni są słynni arabscy kochankowie — Kajs i Lubna, Majja i Ghajlan"
+          },
+          "quotes": {
+            "en": {
+              "edition": "tarjuman-love.en.nicholson",
+              "from": "11.16",
+              "to": "11.16",
+              "text": "Love, quâ love, is one and the same reality to those Arab lovers and to me, but the objects of our love are different, for they loved a phenomenon, whereas I love the Essential.",
+              "kind": "Free",
+              "translator": "Reynold A. Nicholson",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Tarjumán_al-Ashwáq",
+                "lang": "en",
+                "title": "Ibn Arabi, Tarjumán al-Ashwáq"
+              }
+            },
+            "ru": {
+              "edition": "tarjuman-love.ru.ours",
+              "from": "11.16",
+              "to": "11.16",
+              "text": "Любовь как любовь — одна и та же реальность для тех арабских влюблённых и для меня, но предметы нашей любви различны, ибо они любили явление, а я люблю Сущность.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Tarjumán_al-Ashwáq",
+                "lang": "en",
+                "title": "Ибн Араби, «Толкователь страстей»"
+              }
+            },
+            "uk": {
+              "edition": "tarjuman-love.uk.ours",
+              "from": "11.16",
+              "to": "11.16",
+              "text": "Любов як любов — та сама реальність для тих арабських закоханих і для мене, але предмети нашої любові різні, бо вони любили явище, а я люблю Сутність.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Tarjumán_al-Ashwáq",
+                "lang": "en",
+                "title": "Ібн Арабі, «Тлумач пристрастей»"
+              }
+            },
+            "pl": {
+              "edition": "tarjuman-love.pl.ours",
+              "from": "11.16",
+              "to": "11.16",
+              "text": "Miłość jako miłość jest jedną i tą samą rzeczywistością dla tamtych arabskich kochanków i dla mnie, lecz przedmioty naszej miłości są różne, bo oni kochali zjawisko, ja zaś kocham Istotę.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Tarjumán_al-Ashwáq",
+                "lang": "en",
+                "title": "Ibn Arabi, Tłumacz pragnień"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Arabic",
+              "ru": "оригинал на арабском",
+              "uk": "оригінал арабською",
+              "pl": "oryginał po arabsku"
+            },
+            "url": "https://archive.org/details/tarjumanalashwaq00ibnaiala"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "He says the poems were inspired by Niẓām, the young daughter of a scholar of Persian descent whom he met at Mecca — very beautiful, and renowned for her asceticism and her eloquent preaching. Whenever he names anyone in the book, he writes, he means her; and in these poems he always signifies divine things.",
+            "ru": "По его словам, стихи вдохновлены Низам, юной дочерью учёного персидского происхождения, с которым он познакомился в Мекке, — очень красивой и славившейся аскетизмом и красноречивыми проповедями. Какое бы имя ни называлось в книге, пишет он, он имеет в виду её; а в этих стихах всегда подразумевает божественное.",
+            "uk": "За його словами, вірші натхненні Нізам, юною донькою вченого перського походження, з яким він познайомився в Мецці, — дуже вродливою і славетною своїм аскетизмом і красномовними проповідями. Хоч яке ім'я згадано в книзі, пише він, він має на увазі її; а в цих віршах завжди має на увазі божественне.",
+            "pl": "Jak mówi, wiersze natchnęła Nizam, młoda córka uczonego perskiego pochodzenia, którego poznał w Mekce — bardzo piękna i słynąca z ascezy oraz wymownych kazań. Jakiekolwiek imię pada w księdze, pisze, ma na myśli ją; a w tych wierszach zawsze oznacza rzeczy boskie."
+          },
+          "source": "Ibn Arabi's preface, in R. A. Nicholson's introduction to The Tarjumán al-Ashwáq (1911)"
+        },
+        {
+          "fact": {
+            "en": "Many read the poems as plain love songs. In Aleppo a theologian said the mystical meaning was only a device to protect a pious man's name; Ibn Arabi wrote this commentary in answer, part of it was read aloud before the theologian — and the critic said he would never again doubt a Sufi's hidden meaning.",
+            "ru": "Многие читали эти стихи как обычные любовные песни. В Алеппо один богослов сказал, что мистический смысл — лишь уловка, чтобы уберечь доброе имя благочестивого человека; Ибн Араби в ответ написал этот комментарий, часть его прочли вслух в присутствии того богослова — и критик сказал, что никогда больше не усомнится в скрытом смысле слов суфиев.",
+            "uk": "Багато хто читав ці вірші як звичайні любовні пісні. В Алеппо один богослов сказав, що містичний сенс — лише вигадка, щоб уберегти добре ім'я побожної людини; Ібн Арабі у відповідь написав цей коментар, частину його прочитали вголос у присутності того богослова — і критик сказав, що ніколи більше не сумніватиметься в прихованому сенсі слів суфіїв.",
+            "pl": "Wielu czytało te wiersze jak zwykłe pieśni miłosne. W Aleppo pewien teolog powiedział, że sens mistyczny to tylko wybieg, by chronić dobre imię pobożnego człowieka; Ibn Arabi w odpowiedzi napisał ten komentarz, jego część odczytano na głos w obecności teologa — i krytyk oświadczył, że już nigdy nie zwątpi w ukryty sens słów sufich."
+          },
+          "source": "Ibn Arabi's note on his commentary, in R. A. Nicholson's introduction to The Tarjumán al-Ashwáq (1911)"
+        }
+      ]
+    },
+    {
+      "think": "love",
+      "question": {
+        "en": "Think of someone you love, or once loved. What exactly do you love: a body, a person, the good in them — or something beyond them? Would it still be love if it asked for nothing back, or if it were never returned? Answer with an example.",
+        "ru": "Подумайте о ком-то, кого вы любите или когда-то любили. Что именно вы любите: тело, человека, доброе в нём — или нечто за его пределами? Было бы это любовью, если бы она ничего не просила взамен или если бы на неё никогда не ответили? Ответьте на примере.",
+        "uk": "Подумайте про когось, кого ви любите або колись любили. Що саме ви любите: тіло, людину, добре в ній — чи щось поза нею? Чи було б це любов'ю, якби вона нічого не просила натомість або якби на неї ніколи не відповіли? Відповідайте на прикладі.",
+        "pl": "Pomyśl o kimś, kogo kochasz albo kiedyś kochałeś. Co dokładnie kochasz: ciało, człowieka, dobro w nim — czy coś poza nim? Czy byłaby to miłość, gdyby niczego nie żądała w zamian albo gdyby nigdy nie została odwzajemniona? Odpowiedz na przykładzie."
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: what is love?",
+        "ru": "А теперь: что такое любовь?",
+        "uk": "А тепер: що таке любов?",
+        "pl": "A teraz: czym jest miłość?"
+      }
+    }
+  ]
+}
