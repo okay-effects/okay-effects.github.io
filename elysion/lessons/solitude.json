@@ -1,0 +1,1280 @@
+{
+  "id": "solitude",
+  "title": {
+    "en": "Do we need to be alone?",
+    "ru": "Нужно ли нам бывать одним?",
+    "uk": "Чи потрібно нам бувати на самоті?",
+    "pl": "Czy potrzebujemy samotności?"
+  },
+  "subtitle": {
+    "en": "Aristotle, Ecclesiastes, the Buddha, Montaigne, Thoreau and Antony in the desert — and you",
+    "ru": "Аристотель, Екклесиаст, Будда, Монтень, Торо и Антоний в пустыне — и вы",
+    "uk": "Аристотель, Екклезіаст, Будда, Монтень, Торо й Антоній у пустелі — і ви",
+    "pl": "Arystoteles, Kohelet, Budda, Montaigne, Thoreau i Antoni na pustyni — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: do we need to be alone?",
+        "ru": "Прежде чем читать кого-либо: нужно ли нам бывать одним?",
+        "uk": "Перш ніж читати когось: чи потрібно нам бувати на самоті?",
+        "pl": "Zanim kogokolwiek przeczytasz: czy potrzebujemy samotności?"
+      },
+      "options": [
+        {
+          "en": "No: we are made for one another, and a person left alone withers",
+          "ru": "Нет: мы созданы друг для друга, и человек, оставшись один, чахнет",
+          "uk": "Ні: ми створені одне для одного, і людина, лишившись сама, марніє",
+          "pl": "Nie: jesteśmy stworzeni dla siebie nawzajem, a człowiek zostawiony sam więdnie"
+        },
+        {
+          "en": "Now and then: a little solitude, to come back to others better",
+          "ru": "Время от времени: немного одиночества, чтобы вернуться к другим лучше, чем ушёл",
+          "uk": "Час від часу: трохи самотності, щоб повернутися до інших кращим, ніж пішов",
+          "pl": "Od czasu do czasu: trochę samotności, by wrócić do innych lepszym, niż się odeszło"
+        },
+        {
+          "en": "Yes: company is pleasant, but only alone do we think and become ourselves",
+          "ru": "Да: общество приятно, но лишь наедине с собой мы думаем и становимся собой",
+          "uk": "Так: товариство приємне, але лише наодинці з собою ми думаємо й стаємо собою",
+          "pl": "Tak: towarzystwo jest miłe, ale tylko sam na sam ze sobą myślimy i stajemy się sobą"
+        },
+        {
+          "en": "It depends on the company: better alone than with fools",
+          "ru": "Смотря какое общество: лучше одному, чем с глупцами",
+          "uk": "Залежно від товариства: краще самому, ніж із дурнями",
+          "pl": "Zależy od towarzystwa: lepiej samemu niż z głupcami"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Aristotle: a beast or a god",
+        "ru": "Аристотель: зверь или бог",
+        "uk": "Аристотель: звір або бог",
+        "pl": "Arystoteles: bestia albo bóg"
+      },
+      "intro": {
+        "en": "Athens, around 330 BC. Aristotle, a doctor's son from Stagira in the north, has come back to the city where he studied under Plato for twenty years, and opened a school of his own in the Lyceum, a gymnasium outside the walls. He studies everything that grows — plants, animals, cities — by asking what each becomes when it is full-grown. A human being, he says, grows into a citizen:",
+        "ru": "Афины, около 330 года до н. э. Аристотель, сын врача из Стагиры на севере, вернулся в город, где двадцать лет учился у Платона, и открыл собственную школу в Ликее — гимнасии за городскими стенами. Он изучает всё, что растёт, — растения, животных, города, — спрашивая, чем становится каждое, когда достигает полного роста. Человек, говорит он, вырастает в гражданина:",
+        "uk": "Афіни, близько 330 року до н. е. Аристотель, син лікаря зі Стагіри на півночі, повернувся до міста, де двадцять років навчався в Платона, і відкрив власну школу в Лікеї — гімнасії за міськими мурами. Він вивчає все, що росте, — рослини, тварин, міста, — питаючи, чим стає кожне, коли досягає повного зросту. Людина, каже він, виростає в громадянина:",
+        "pl": "Ateny, około 330 roku p.n.e. Arystoteles, syn lekarza ze Stagiry na północy, wrócił do miasta, w którym przez dwadzieścia lat uczył się u Platona, i otworzył własną szkołę w Likejonie, gimnazjonie za murami miasta. Bada wszystko, co rośnie — rośliny, zwierzęta, miasta — pytając, czym staje się każda rzecz, gdy w pełni dorośnie. Człowiek, mówi, wyrasta na obywatela:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Aristotle, Politics I.2, 1253a",
+            "ru": "Аристотель, «Политика» I.2, 1253a",
+            "uk": "Аристотель, «Політика» I.2, 1253a",
+            "pl": "Arystoteles, Polityka I.2, 1253a"
+          },
+          "quotes": {
+            "en": {
+              "edition": "politics-solitude.en.jowett",
+              "from": "1253a1",
+              "to": "1253a3",
+              "text": "Hence it is evident that the state is a creation of nature, and that man is by nature a political animal. And he who by nature and not by mere accident is without a state, is either above humanity, or below it;",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058",
+                "lang": "en",
+                "title": "Aristotle, Politics"
+              }
+            },
+            "ru": {
+              "edition": "politics-solitude.ru.ours",
+              "from": "1253a1",
+              "to": "1253a3",
+              "text": "Отсюда очевидно, что государство — творение природы и что человек по природе — животное политическое. А тот, кто по природе, а не по случайности, лишён государства, — либо выше человека, либо ниже его;",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/Политика_(Аристотель)/О_домохозяйстве_и_рабстве",
+                "lang": "ru",
+                "title": "Аристотель, «Политика»"
+              }
+            },
+            "uk": {
+              "edition": "politics-solitude.uk.ours",
+              "from": "1253a1",
+              "to": "1253a3",
+              "text": "Звідси очевидно, що держава — витвір природи і що людина за природою — тварина політична. А той, хто за природою, а не випадково, позбавлений держави, — або вищий за людину, або нижчий за неї;",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058",
+                "lang": "en",
+                "title": "Аристотель, «Політика»"
+              }
+            },
+            "pl": {
+              "edition": "politics-solitude.pl.ours",
+              "from": "1253a1",
+              "to": "1253a3",
+              "text": "Stąd jasne, że państwo jest tworem natury i że człowiek jest z natury zwierzęciem politycznym. A kto z natury, a nie przez przypadek, jest bez państwa, ten stoi albo ponad człowiekiem, albo poniżej niego;",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058",
+                "lang": "en",
+                "title": "Arystoteles, Polityka"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg035.perseus-grc2:1.1253a/"
+          }
+        },
+        {
+          "by": {
+            "en": "The same chapter, a few lines on",
+            "ru": "Та же глава, несколькими строками ниже",
+            "uk": "Той самий розділ, кількома рядками нижче",
+            "pl": "Ten sam rozdział, kilka wierszy dalej"
+          },
+          "quotes": {
+            "en": {
+              "edition": "politics-solitude.en.jowett",
+              "from": "1253a25",
+              "to": "1253a31",
+              "text": "The proof that the state is a creation of nature and prior to the individual is that the individual, when isolated, is not self-sufficing; and therefore he is like a part in relation to the whole. But he who is unable to live in society, or who has no need because he is sufficient for himself, must be either a beast or a god: he is no part of a state. A social instinct is implanted in all men by nature, and yet he who first founded the state was the greatest of benefactors.",
+              "kind": "Free",
+              "translator": "Benjamin Jowett",
+              "whole": {
+                "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058",
+                "lang": "en",
+                "title": "Aristotle, Politics"
+              }
+            },
+            "ru": {
+              "edition": "politics-solitude.ru.ours",
+              "from": "1253a25",
+              "to": "1253a31",
+              "text": "Доказательство того, что государство — творение природы и что оно первее индивида, в том, что индивид, будучи отделён, не самодостаточен; а потому он подобен части по отношению к целому. Тот же, кто не способен жить в обществе или кто не нуждается в нём, потому что самодостаточен, — тот либо зверь, либо бог: он не часть государства. Стремление к общению вложено природой во всех людей, и всё же тот, кто первым основал государство, был величайшим из благодетелей.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://ru.wikisource.org/wiki/Политика_(Аристотель)/О_домохозяйстве_и_рабстве",
+                "lang": "ru",
+                "title": "Аристотель, «Политика»"
+              }
+            },
+            "uk": {
+              "edition": "politics-solitude.uk.ours",
+              "from": "1253a25",
+              "to": "1253a31",
+              "text": "Доказ того, що держава — витвір природи і що вона первинна щодо індивіда, у тому, що індивід, відокремлений, не самодостатній; тож він подібний до частини щодо цілого. А той, хто не здатен жити в суспільстві або хто не потребує його, бо самодостатній, — той або звір, або бог: він не частина держави. Потяг до спільноти природа вклала в усіх людей, і все ж той, хто першим заснував державу, був найбільшим із добродійників.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058",
+                "lang": "en",
+                "title": "Аристотель, «Політика»"
+              }
+            },
+            "pl": {
+              "edition": "politics-solitude.pl.ours",
+              "from": "1253a25",
+              "to": "1253a31",
+              "text": "Dowodem, że państwo jest tworem natury i że jest pierwotniejsze od jednostki, jest to, że jednostka, gdy jest odosobniona, nie jest samowystarczalna; jest więc jak część wobec całości. Kto zaś nie potrafi żyć we wspólnocie albo jej nie potrzebuje, bo sam sobie wystarcza, ten musi być albo bestią, albo bogiem: nie jest częścią państwa. Natura wszczepiła wszystkim ludziom popęd do wspólnoty, a jednak ten, kto pierwszy założył państwo, był największym z dobroczyńców.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058",
+                "lang": "en",
+                "title": "Arystoteles, Polityka"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg035.perseus-grc2:1.1253a/"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The \"tribeless, lawless, hearthless one\" whom Aristotle quotes next comes from the Iliad: old Nestor says it of the man who loves war among his own people.",
+            "ru": "«Безродный, беззаконный, бездомный», которого Аристотель цитирует дальше, — из «Илиады»: так старый Нестор говорит о человеке, который любит войну среди своего же народа.",
+            "uk": "«Безрідний, беззаконний, безпритульний», якого Аристотель цитує далі, — з «Іліади»: так старий Нестор каже про людину, що любить війну серед власного народу.",
+            "pl": "„Bez rodu, bez prawa, bez ogniska”, którego Arystoteles cytuje dalej, pochodzi z Iliady: tak stary Nestor mówi o człowieku, który kocha wojnę między swoimi."
+          },
+          "source": "Homer, Iliad 9.63–64; Aristotle, Politics I.2, 1253a5"
+        },
+        {
+          "fact": {
+            "en": "Aristotle and his pupils gathered the constitutions of 158 cities. Only one survives, the Constitution of the Athenians, found on papyrus from Egypt and published by the British Museum in 1891.",
+            "ru": "Аристотель и его ученики собрали государственные устройства 158 городов. Уцелело лишь одно — «Афинская полития», найденная на папирусе из Египта и изданная Британским музеем в 1891 году.",
+            "uk": "Аристотель і його учні зібрали державні устрої 158 міст. Уцілів лише один — «Афінська політія», знайдена на папірусі з Єгипту й видана Британським музеєм 1891 року.",
+            "pl": "Arystoteles i jego uczniowie zebrali ustroje 158 miast. Zachował się tylko jeden — Ustrój polityczny Aten, odnaleziony na papirusie z Egiptu i wydany przez British Museum w 1891 roku."
+          },
+          "source": "Diogenes Laertius, Lives of the Philosophers V.27 (the list of Aristotle's works); F. G. Kenyon, Aristotle on the Constitution of Athens (1891)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Ecclesiastes: two are better than one",
+        "ru": "Екклесиаст: двое лучше, чем один",
+        "uk": "Екклезіаст: двом краще, ніж одному",
+        "pl": "Kohelet: lepiej dwom niż jednemu"
+      },
+      "intro": {
+        "en": "Jerusalem, by the book's own account. A speaker who calls himself Qoheleth — the Preacher, \"the son of David, king in Jerusalem\" — has tried work, wealth, pleasure and wisdom, and found all of it vanity, a breath of wind. Yet one thing he still praises: not to be alone. He looks first at a man who has no one:",
+        "ru": "Иерусалим — так говорит сама книга. Тот, кто называет себя Кохелетом — Екклесиастом, Проповедником, «сыном Давидовым, царём в Иерусалиме», — испытал труд, богатство, удовольствия и мудрость и нашёл, что всё это суета, дуновение ветра. И всё же одно он хвалит: не быть одному. Сперва он смотрит на человека, у которого нет никого:",
+        "uk": "Єрусалим — так каже сама книга. Той, хто називає себе Когелетом — Екклезіастом, Проповідником, «сином Давида, царем в Єрусалимі», — спробував працю, багатство, утіхи й мудрість і знайшов, що все це марнота, подих вітру. І все ж одне він хвалить: не бути самому. Спершу він дивиться на людину, у якої нема нікого:",
+        "pl": "Jerozolima — tak mówi sama księga. Ten, kto nazywa siebie Koheletem — Kaznodzieją, „synem Dawida, królem w Jerozolimie” — próbował pracy, bogactwa, przyjemności i mądrości i uznał, że wszystko to marność, powiew wiatru. A jednak jedno wciąż chwali: nie być samemu. Najpierw patrzy na człowieka, który nie ma nikogo:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Ecclesiastes 4:8",
+            "ru": "Екклесиаст 4:8",
+            "uk": "Екклезіаст 4:8",
+            "pl": "Księga Koheleta 4,8"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ecclesiastes-solitude.en.kjv",
+              "from": "4.8",
+              "to": "4.8",
+              "text": "There is one alone, and there is not a second; yea, he hath neither child nor brother: yet is there no end of all his labour; neither is his eye satisfied with riches; neither saith he, For whom do I labour, and bereave my soul of good? This is also vanity, yea, it is a sore travail.",
+              "kind": "Free",
+              "translator": "King James Version",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Ecclesiastes",
+                "lang": "en",
+                "title": "Ecclesiastes"
+              }
+            },
+            "ru": {
+              "edition": "ecclesiastes-solitude.ru.ours",
+              "from": "4.8",
+              "to": "4.8",
+              "text": "Есть человек одинокий, и другого нет; нет у него ни детей, ни брата, а всем трудам его нет конца, и глаз его не насыщается богатством. И не скажет он: «Для кого я тружусь и лишаю душу мою блага?» И это — суета, и тяжкий это труд.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Ecclesiastes",
+                "lang": "en",
+                "title": "Екклесиаст"
+              }
+            },
+            "uk": {
+              "edition": "ecclesiastes-solitude.uk.ours",
+              "from": "4.8",
+              "to": "4.8",
+              "text": "Є людина самотня, і нема другої; нема в неї ні дитини, ні брата, а всій праці її нема кінця, і око її не насичується багатством. І не скаже вона: «Для кого я тружуся й позбавляю душу свою добра?» І це марнота, і тяжкий це труд.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Ecclesiastes",
+                "lang": "en",
+                "title": "Екклезіаст"
+              }
+            },
+            "pl": {
+              "edition": "ecclesiastes-solitude.pl.ours",
+              "from": "4.8",
+              "to": "4.8",
+              "text": "Jest ktoś samotny i nie ma drugiego; nie ma ani dziecka, ani brata, a jego trudowi nie ma końca i oko jego nie nasyca się bogactwem. I nie powie: „Dla kogo się trudzę i odmawiam duszy mojej dobra?” I to jest marność, i ciężki to trud.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Ecclesiastes",
+                "lang": "en",
+                "title": "Księga Koheleta"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Hebrew",
+              "ru": "оригинал на древнееврейском",
+              "uk": "оригінал давньоєврейською",
+              "pl": "oryginał po hebrajsku"
+            },
+            "url": "https://he.wikisource.org/wiki/קהלת_ד"
+          }
+        },
+        {
+          "by": {
+            "en": "Ecclesiastes 4:9–12",
+            "ru": "Екклесиаст 4:9–12",
+            "uk": "Екклезіаст 4:9–12",
+            "pl": "Księga Koheleta 4,9–12"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ecclesiastes-solitude.en.kjv",
+              "from": "4.9",
+              "to": "4.12",
+              "text": "Two are better than one; because they have a good reward for their labour. For if they fall, the one will lift up his fellow: but woe to him that is alone when he falleth; for he hath not another to help him up. Again, if two lie together, then they have heat: but how can one be warm alone? And if one prevail against him, two shall withstand him; and a threefold cord is not quickly broken.",
+              "kind": "Free",
+              "translator": "King James Version",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Ecclesiastes",
+                "lang": "en",
+                "title": "Ecclesiastes"
+              }
+            },
+            "ru": {
+              "edition": "ecclesiastes-solitude.ru.ours",
+              "from": "4.9",
+              "to": "4.12",
+              "text": "Двое лучше, чем один, потому что у них добрая награда за их труд. Ибо если упадут, один поднимет товарища своего; но горе одинокому, когда он упадёт, ибо нет другого, чтобы поднять его. Также, если лягут двое, то им тепло; а одному как согреться? И если кто одолеет одного, то двое устоят против него; и нитка, втрое скрученная, нескоро порвётся.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Ecclesiastes",
+                "lang": "en",
+                "title": "Екклесиаст"
+              }
+            },
+            "uk": {
+              "edition": "ecclesiastes-solitude.uk.ours",
+              "from": "4.9",
+              "to": "4.12",
+              "text": "Двом краще, ніж одному, бо мають вони добру нагороду за свою працю. Бо як упадуть, один підніме товариша свого; але горе самотньому, коли він упаде, бо нема другого, щоб підняти його. Так само, як ляжуть двоє, то їм тепло; а як одному зігрітися? І як хтось подолає одного, то двоє встоять проти нього; і нитка, втроє скручена, не скоро порветься.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Ecclesiastes",
+                "lang": "en",
+                "title": "Екклезіаст"
+              }
+            },
+            "pl": {
+              "edition": "ecclesiastes-solitude.pl.ours",
+              "from": "4.9",
+              "to": "4.12",
+              "text": "Lepiej jest dwom niż jednemu, bo mają dobrą zapłatę za swój trud. Bo jeśli upadną, jeden podniesie swego towarzysza; lecz biada samotnemu, gdy upadnie, bo nie ma drugiego, by go podniósł. Także jeśli dwaj leżą razem, jest im ciepło; lecz jak ma się ogrzać jeden? A jeśli ktoś przemoże jednego, dwaj mu się oprą; a sznur potrójny nieprędko się zerwie.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Ecclesiastes",
+                "lang": "en",
+                "title": "Księga Koheleta"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Hebrew",
+              "ru": "оригинал на древнееврейском",
+              "uk": "оригінал давньоєврейською",
+              "pl": "oryginał po hebrajsku"
+            },
+            "url": "https://he.wikisource.org/wiki/קהלת_ד"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The book speaks as \"the son of David, king in Jerusalem\", and tradition long took its author for Solomon; the Talmud says rather that King Hezekiah and his company wrote it down.",
+            "ru": "Книга говорит от лица «сына Давидова, царя в Иерусалиме», и предание долго считало её автором Соломона; Талмуд же говорит, что записали её царь Езекия и его сподвижники.",
+            "uk": "Книга говорить від імені «сина Давида, царя в Єрусалимі», і передання довго вважало її автором Соломона; Талмуд же каже, що записали її цар Єзекія та його товариші.",
+            "pl": "Księga mówi w imieniu „syna Dawida, króla w Jerozolimie” i tradycja długo uważała za jej autora Salomona; Talmud mówi natomiast, że spisał ją król Ezechiasz ze swymi towarzyszami."
+          },
+          "source": "Ecclesiastes 1:1, 1:12; Babylonian Talmud, Bava Batra 15a"
+        },
+        {
+          "fact": {
+            "en": "The rabbis long disputed whether the book was holy scripture at all: by the Mishnah's account, the school of Shammai held that it was not, the school of Hillel that it was.",
+            "ru": "Раввины долго спорили, священное ли это вообще Писание: по словам Мишны, школа Шаммая считала, что нет, а школа Гиллеля — что да.",
+            "uk": "Рабини довго сперечалися, чи це взагалі священне Письмо: за словами Мішни, школа Шаммая вважала, що ні, а школа Гілеля — що так.",
+            "pl": "Rabini długo spierali się, czy księga jest w ogóle Pismem świętym: według Miszny szkoła Szammaja uważała, że nie, a szkoła Hillela, że tak."
+          },
+          "source": "Mishnah, Eduyot 5:3 and Yadayim 3:5"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "The Buddha: like an elephant in the forest",
+        "ru": "Будда: как слон в лесу",
+        "uk": "Будда: як слон у лісі",
+        "pl": "Budda: jak słoń w lesie"
+      },
+      "intro": {
+        "en": "Northern India, the fifth century BC. By the tradition, the Buddha left his father's house, his wife and his newborn son to wander as a homeless seeker; when he had found what he sought, he gathered an order of monks who lived and travelled together. The verses his followers kept, the Dhammapada, say when to walk with others — and when alone:",
+        "ru": "Северная Индия, V век до н. э. По преданию, Будда оставил отцовский дом, жену и новорождённого сына, чтобы скитаться бездомным искателем; найдя то, что искал, он собрал общину монахов, которые жили и странствовали вместе. Стихи, сохранённые его учениками, — «Дхаммапада» — говорят, когда идти с другими, а когда одному:",
+        "uk": "Північна Індія, V століття до н. е. За переказом, Будда залишив батьківський дім, дружину й новонародженого сина, щоб мандрувати бездомним шукачем; знайшовши те, що шукав, він зібрав громаду ченців, які жили й мандрували разом. Вірші, збережені його учнями, — «Дгаммапада» — кажуть, коли йти з іншими, а коли самому:",
+        "pl": "Północne Indie, V wiek p.n.e. Według tradycji Budda opuścił dom ojca, żonę i nowo narodzonego syna, by wędrować jako bezdomny poszukiwacz; gdy znalazł to, czego szukał, zgromadził wspólnotę mnichów, którzy żyli i wędrowali razem. Wersety zachowane przez jego uczniów — Dhammapada — mówią, kiedy iść z innymi, a kiedy samemu:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "The Dhammapada, 328–329 (chapter XXIII, The Elephant)",
+            "ru": "«Дхаммапада», 328–329 (глава XXIII, «Слон»)",
+            "uk": "«Дгаммапада», 328–329 (розділ XXIII, «Слон»)",
+            "pl": "Dhammapada, 328–329 (rozdział XXIII, Słoń)"
+          },
+          "quotes": {
+            "en": {
+              "edition": "dhammapada-solitude.en.muller",
+              "from": "23.328",
+              "to": "23.329",
+              "text": "If a man find a prudent companion who walks with him, is wise, and lives soberly, he may walk with him, overcoming all dangers, happy, but considerate. If a man find no prudent companion who walks with him, is wise, and lives soberly, let him walk alone, like a king who has left his conquered country behind,—like an elephant in the forest.",
+              "kind": "Free",
+              "translator": "F. Max Müller",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "The Dhammapada"
+              }
+            },
+            "ru": {
+              "edition": "dhammapada-solitude.ru.ours",
+              "from": "23.328",
+              "to": "23.329",
+              "text": "Если найдёт человек благоразумного спутника, который идёт с ним, мудр и живёт трезво, — пусть идёт с ним, преодолевая все опасности, радостный, но внимательный. Если не найдёт человек благоразумного спутника, который идёт с ним, мудр и живёт трезво, — пусть идёт один, как царь, оставивший позади завоёванную страну, — как слон в лесу.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "«Дхаммапада»"
+              }
+            },
+            "uk": {
+              "edition": "dhammapada-solitude.uk.ours",
+              "from": "23.328",
+              "to": "23.329",
+              "text": "Якщо хтось знайде розважливого супутника, який іде з ним, мудрий і живе тверезо, — хай іде з ним, долаючи всі небезпеки, радісний, але уважний. Якщо хтось не знайде розважливого супутника, який іде з ним, мудрий і живе тверезо, — хай іде сам, як цар, що залишив позаду завойовану країну, — як слон у лісі.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "«Дгаммапада»"
+              }
+            },
+            "pl": {
+              "edition": "dhammapada-solitude.pl.ours",
+              "from": "23.328",
+              "to": "23.329",
+              "text": "Jeśli ktoś znajdzie roztropnego towarzysza, który idzie z nim, jest mądry i żyje trzeźwo, niech idzie z nim, przezwyciężając wszystkie niebezpieczeństwa, radosny, lecz uważny. Jeśli ktoś nie znajdzie roztropnego towarzysza, który idzie z nim, jest mądry i żyje trzeźwo, niech idzie sam, jak król, który zostawił za sobą podbity kraj — jak słoń w lesie.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "Dhammapada"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Pali",
+              "ru": "оригинал на пали",
+              "uk": "оригінал мовою палі",
+              "pl": "oryginał w pali"
+            },
+            "url": "https://suttacentral.net/dhp320-333/pli/ms"
+          }
+        },
+        {
+          "by": {
+            "en": "The Dhammapada, 330",
+            "ru": "«Дхаммапада», 330",
+            "uk": "«Дгаммапада», 330",
+            "pl": "Dhammapada, 330"
+          },
+          "quotes": {
+            "en": {
+              "edition": "dhammapada-solitude.en.muller",
+              "from": "23.330",
+              "to": "23.330",
+              "text": "It is better to live alone, there is no companionship with a fool; let a man walk alone, let him commit no sin, with few wishes, like an elephant in the forest.",
+              "kind": "Free",
+              "translator": "F. Max Müller",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "The Dhammapada"
+              }
+            },
+            "ru": {
+              "edition": "dhammapada-solitude.ru.ours",
+              "from": "23.330",
+              "to": "23.330",
+              "text": "Лучше жить одному: с глупцом нет товарищества; пусть человек идёт один, пусть не совершает греха, имея немного желаний, как слон в лесу.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "«Дхаммапада»"
+              }
+            },
+            "uk": {
+              "edition": "dhammapada-solitude.uk.ours",
+              "from": "23.330",
+              "to": "23.330",
+              "text": "Краще жити самому: з дурнем нема товариства; хай людина йде сама, хай не чинить гріха, маючи мало бажань, як слон у лісі.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "«Дгаммапада»"
+              }
+            },
+            "pl": {
+              "edition": "dhammapada-solitude.pl.ours",
+              "from": "23.330",
+              "to": "23.330",
+              "text": "Lepiej żyć samemu: z głupcem nie ma towarzystwa; niech człowiek idzie sam, niech nie popełnia grzechu, mając niewiele pragnień, jak słoń w lesie.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)",
+                "lang": "en",
+                "title": "Dhammapada"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Pali",
+              "ru": "оригинал на пали",
+              "uk": "оригінал мовою палі",
+              "pl": "oryginał w pali"
+            },
+            "url": "https://suttacentral.net/dhp320-333/pli/ms"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "The first two verses stand also in the Sutta Nipāta, in the \"Rhinoceros Horn\" sutta, almost every verse of which ends: let him wander alone like a rhinoceros horn.",
+            "ru": "Первые два стиха есть и в «Сутта-нипате», в сутте «Рог носорога», почти каждый стих которой кончается словами: пусть странствует одиноко, как рог носорога.",
+            "uk": "Перші два вірші є й у «Сутта-ніпаті», у сутті «Ріг носорога», майже кожен вірш якої закінчується словами: хай мандрує самотньо, як ріг носорога.",
+            "pl": "Dwa pierwsze wersety stoją też w Sutta Nipacie, w sutcie „Róg nosorożca”, której niemal każdy werset kończy się słowami: niech wędruje samotnie jak róg nosorożca."
+          },
+          "source": "Sutta Nipāta 45–46 (Khaggavisāṇa Sutta, Sn 1.3)"
+        },
+        {
+          "fact": {
+            "en": "The Majjhima Nikāya sets these verses at Kosambī: the monks there were quarrelling and would not stop, though the Buddha asked them three times; he spoke the verses and left. Soon after, he visited three monks, Anuruddha, Nandiya and Kimbila, who told him they lived together \"blending like milk and water\".",
+            "ru": "«Мадджхима-никая» относит эти стихи к Косамби: тамошние монахи ссорились и не унимались, хотя Будда трижды просил их; он произнёс эти стихи и ушёл. Вскоре он навестил трёх монахов — Ануруддху, Нандию и Кимбилу, — и те сказали ему, что живут вместе, «смешавшись, как молоко с водой».",
+            "uk": "«Маджгіма-нікая» відносить ці вірші до Косамбі: тамтешні ченці сварилися й не вгамовувалися, хоч Будда тричі просив їх; він промовив ці вірші й пішов. Невдовзі він відвідав трьох ченців — Ануруддгу, Нандію та Кімбілу, — і ті сказали йому, що живуть разом, «змішавшись, як молоко з водою».",
+            "pl": "Madżdżhima Nikaja umieszcza te wersety w Kosambi: tamtejsi mnisi kłócili się i nie przestawali, choć Budda trzykrotnie ich prosił; wypowiedział te wersety i odszedł. Wkrótce potem odwiedził trzech mnichów — Anuruddhę, Nandiję i Kimbilę — którzy powiedzieli mu, że żyją razem, „zmieszani jak mleko z wodą”."
+          },
+          "source": "Majjhima Nikāya 128 (Upakkilesa Sutta)"
+        },
+        {
+          "fact": {
+            "en": "Another text tells that at Kosambī, crowded by monks, nuns, lay followers and kings, the Buddha left without telling anyone and went alone to the Pārileyyaka forest — where a bull elephant, which had left its own herd for the same reason, came and tended him.",
+            "ru": "Другой текст рассказывает, что в Косамби, теснимый монахами, монахинями, мирянами и царями, Будда ушёл, никого не предупредив, один в лес Парилейяка — и туда пришёл ухаживать за ним слон-самец, покинувший своё стадо по той же причине.",
+            "uk": "Інший текст розповідає, що в Косамбі, обступлений ченцями, черницями, мирянами й царями, Будда пішов, нікого не попередивши, сам до лісу Парілейяка — і туди прийшов доглядати його слон-самець, що покинув своє стадо з тієї самої причини.",
+            "pl": "Inny tekst opowiada, że w Kosambi, osaczony przez mnichów, mniszki, świeckich wyznawców i królów, Budda odszedł, nikogo nie uprzedziwszy, sam do lasu Pārileyyaka — a tam przyszedł mu usługiwać słoń, który z tej samej przyczyny opuścił swoje stado."
+          },
+          "source": "Udāna 4.5 (Nāga Sutta)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Montaigne: a room behind the shop",
+        "ru": "Монтень: комнатка за лавкой",
+        "uk": "Монтень: комірчина за крамницею",
+        "pl": "Montaigne: zaplecze"
+      },
+      "intro": {
+        "en": "Périgord, south-western France, the 1570s. Michel de Montaigne, not yet forty, has sold his seat as a judge in the Parlement of Bordeaux and withdrawn to his family's château, into a round tower where he keeps his books. France is tearing itself apart in wars of religion. He means to spend what is left of his life with himself — and he begins to write what he calls essays:",
+        "ru": "Перигор, юго-запад Франции, 1570-е годы. Мишель де Монтень, которому нет ещё сорока, продал свою должность советника Бордоского парламента и удалился в родовой замок, в круглую башню, где хранит свои книги. Францию раздирают религиозные войны. Он хочет провести остаток жизни с самим собой — и начинает писать то, что называет опытами:",
+        "uk": "Перигор, південний захід Франції, 1570-ті роки. Мішель де Монтень, якому ще нема сорока, продав свою посаду радника парламенту Бордо й усамітнився в родовому замку, у круглій вежі, де зберігає свої книжки. Францію роздирають релігійні війни. Він хоче прожити решту життя з самим собою — і починає писати те, що називає пробами:",
+        "pl": "Perigord, południowo-zachodnia Francja, lata siedemdziesiąte XVI wieku. Michel de Montaigne, który nie ma jeszcze czterdziestu lat, sprzedał swój urząd sędziego w parlamencie Bordeaux i wycofał się do rodzinnego zamku, do okrągłej wieży, w której trzyma swoje książki. Francję rozdzierają wojny religijne. Chce spędzić resztę życia z samym sobą — i zaczyna pisać to, co nazywa próbami:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Montaigne, Essays I.39, \"Of Solitude\" (Cotton's I.38)",
+            "ru": "Монтень, «Опыты» I.39, «Об уединении»",
+            "uk": "Монтень, «Проби» I.39, «Про усамітнення»",
+            "pl": "Montaigne, Próby I.39, „O samotności”"
+          },
+          "quotes": {
+            "en": {
+              "edition": "essays-solitude.en.cotton",
+              "from": "1.39",
+              "to": "1.39",
+              "text": "Wives, children, and goods must be had, and especially health, by him that can get it; but we are not so to set our hearts upon them that our happiness must have its dependence upon them; we must reserve a backshop, wholly our own and entirely free, wherein to settle our true liberty, our principal solitude and retreat. And in this we must for the most part entertain ourselves with ourselves, and so privately that no exotic knowledge or communication be admitted there; there to laugh and to talk, as if without wife, children, goods, train, or attendance, to the end that when it shall so fall out that we must lose any or all of these, it may be no new thing to be without them.",
+              "kind": "Free",
+              "translator": "Charles Cotton, revised by William Carew Hazlitt",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Montaigne, Essays"
+              }
+            },
+            "ru": {
+              "edition": "essays-solitude.ru.ours",
+              "from": "1.39",
+              "to": "1.39",
+              "text": "Жён, детей, имущество надо иметь, а особенно здоровье, — тому, кто может его получить; но не следует так привязываться к ним сердцем, чтобы наше счастье от них зависело; нужно приберечь для себя комнатку за лавкой, всецело нашу и совершенно свободную, где мы устроим нашу подлинную свободу, наше главное уединение и убежище. И в ней нам надлежит большей частью беседовать с самими собой, и так сокровенно, чтобы туда не допускались ни чужие знания, ни общение с другими; там смеяться и говорить, как если бы у нас не было ни жены, ни детей, ни имущества, ни свиты, ни слуг, — с тем чтобы, когда случится потерять что-то из этого или всё, нам было не внове обходиться без них.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Монтень, «Опыты»"
+              }
+            },
+            "uk": {
+              "edition": "essays-solitude.uk.ours",
+              "from": "1.39",
+              "to": "1.39",
+              "text": "Дружин, дітей, майно треба мати, а надто здоров’я, — тому, хто може його здобути; але не слід так прив’язуватися до них серцем, щоб наше щастя від них залежало; треба зберегти для себе комірчину за крамницею, цілком нашу й зовсім вільну, де ми влаштуємо нашу справжню свободу, наше головне усамітнення й притулок. І в ній нам належить здебільшого розмовляти з самими собою, і так потаємно, щоб туди не допускалися ні чужі знання, ні спілкування з іншими; там сміятися й говорити, наче в нас нема ні дружини, ні дітей, ні майна, ні почту, ні слуг, — щоб, коли станеться так, що ми втратимо щось із цього чи все, нам не було новиною обходитися без них.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Монтень, «Проби»"
+              }
+            },
+            "pl": {
+              "edition": "essays-solitude.pl.ours",
+              "from": "1.39",
+              "to": "1.39",
+              "text": "Żony, dzieci i dobra trzeba mieć, a zwłaszcza zdrowie, kto tylko może je zdobyć; ale nie wolno nam tak przywiązywać do nich serca, by nasze szczęście od nich zależało; trzeba zachować sobie zaplecze, całkiem nasze i zupełnie wolne, w którym ustanowimy naszą prawdziwą wolność, naszą główną samotność i schronienie. I w nim mamy przeważnie przestawać sami ze sobą, i to tak prywatnie, by nie dopuszczać tam żadnej obcej wiedzy ani rozmowy z innymi; tam śmiać się i rozmawiać, jak gdyby bez żony, dzieci, dóbr, orszaku i służby, po to, by gdy przyjdzie nam stracić którąś z tych rzeczy albo wszystkie, nie było dla nas nowością obywać się bez nich.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Montaigne, Próby"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Essais/Livre_I/Chapitre_39"
+          }
+        },
+        {
+          "by": {
+            "en": "The same essay",
+            "ru": "Тот же опыт",
+            "uk": "Та сама проба",
+            "pl": "Ta sama próba"
+          },
+          "quotes": {
+            "en": {
+              "edition": "essays-solitude.en.cotton",
+              "from": "1.39",
+              "to": "1.39",
+              "text": "The greatest thing in the world is for a man to know that he is his own. 'Tis time to wean ourselves from society when we can no longer add anything to it; he who is not in a condition to lend must forbid himself to borrow.",
+              "kind": "Free",
+              "translator": "Charles Cotton, revised by William Carew Hazlitt",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Montaigne, Essays"
+              }
+            },
+            "ru": {
+              "edition": "essays-solitude.ru.ours",
+              "from": "1.39",
+              "to": "1.39",
+              "text": "Величайшее на свете — когда человек знает, что он принадлежит самому себе. Пора отвыкать от общества, когда мы уже ничего не можем к нему прибавить; кто не в состоянии давать взаймы, должен запретить себе брать в долг.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Монтень, «Опыты»"
+              }
+            },
+            "uk": {
+              "edition": "essays-solitude.uk.ours",
+              "from": "1.39",
+              "to": "1.39",
+              "text": "Найбільше на світі — коли людина знає, що належить самій собі. Час відвикати від товариства, коли ми вже нічого не можемо до нього додати; хто не в змозі позичати іншим, мусить заборонити собі позичати в них.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Монтень, «Проби»"
+              }
+            },
+            "pl": {
+              "edition": "essays-solitude.pl.ours",
+              "from": "1.39",
+              "to": "1.39",
+              "text": "Największą rzeczą na świecie jest, by człowiek wiedział, że należy do siebie. Czas odzwyczajać się od towarzystwa, gdy nie możemy już nic do niego dodać; kto nie jest w stanie pożyczać, musi zabronić sobie zapożyczać się.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/The_Essays_of_Montaigne",
+                "lang": "en",
+                "title": "Montaigne, Próby"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Essais/Livre_I/Chapitre_39"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "On his thirty-eighth birthday, in 1571, Montaigne had a Latin inscription set up in his study: long weary of the servitude of the court and of public office, he was retiring, while still whole, into the bosom of the learned Virgins, the Muses, there to pass in quiet and free of cares what remained of a life already more than half run.",
+            "ru": "В свой тридцать восьмой день рождения, в 1571 году, Монтень велел поместить в своём кабинете латинскую надпись: давно уставший от рабства при дворе и от общественных должностей, он удаляется, пока ещё полон сил, в лоно учёных дев, муз, чтобы в покое и без забот провести остаток жизни, уже больше чем наполовину прожитой.",
+            "uk": "У свій тридцять восьмий день народження, 1571 року, Монтень звелів умістити у своєму кабінеті латинський напис: давно втомлений від рабства при дворі та від громадських посад, він усамітнюється, поки ще сповнений сил, у лоні вчених дів, муз, щоб у спокої й без клопотів прожити решту життя, уже більш ніж наполовину прожитого.",
+            "pl": "W swoje trzydzieste ósme urodziny, w 1571 roku, Montaigne kazał umieścić w swojej pracowni łaciński napis: od dawna znużony niewolą dworu i urzędów publicznych, usuwa się, póki jeszcze cały i zdrowy, na łono uczonych dziewic, Muz, by w spokoju i wolny od trosk spędzić resztę życia, już w ponad połowie przebytego."
+          },
+          "source": "the inscription of 1571 in Montaigne's library; Donald M. Frame, Montaigne: A Biography (1965)"
+        },
+        {
+          "fact": {
+            "en": "His retreat did not last. In 1581, while he was travelling in Italy, Bordeaux elected him its mayor; he came home to serve, and was elected again, until 1585.",
+            "ru": "Его уединение длилось недолго. В 1581 году, когда он путешествовал по Италии, Бордо избрал его мэром; он вернулся служить и был переизбран — до 1585 года.",
+            "uk": "Його усамітнення тривало недовго. 1581 року, коли він подорожував Італією, Бордо обрало його мером; він повернувся служити й був переобраний — до 1585 року.",
+            "pl": "Jego samotność nie trwała długo. W 1581 roku, gdy podróżował po Italii, Bordeaux wybrało go na mera; wrócił, by służyć, i został wybrany ponownie — aż do 1585 roku."
+          },
+          "source": "Montaigne, Essays III.10; Donald M. Frame, Montaigne: A Biography (1965)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Thoreau: no companion so companionable",
+        "ru": "Торо: нет товарища лучше одиночества",
+        "uk": "Торо: нема кращого товариша, ніж самотність",
+        "pl": "Thoreau: towarzysz tak towarzyski"
+      },
+      "intro": {
+        "en": "Concord, Massachusetts, 1845. Henry David Thoreau, twenty-seven, has built himself a one-room cabin of boards on the shore of Walden Pond, on land belonging to his friend Ralph Waldo Emerson, a mile from any neighbour. He lives there alone, hoes beans, reads and writes. \"I should think you would feel lonesome down there,\" people tell him. He answers in his book:",
+        "ru": "Конкорд, Массачусетс, 1845 год. Генри Дэвид Торо, двадцати семи лет, построил себе однокомнатную дощатую хижину на берегу Уолденского пруда, на земле своего друга Ралфа Уолдо Эмерсона, в миле от ближайшего соседа. Он живёт там один, мотыжит бобы, читает и пишет. «Мне кажется, вам там одиноко», — говорят ему люди. Он отвечает в своей книге:",
+        "uk": "Конкорд, Массачусетс, 1845 рік. Генрі Девід Торо, двадцяти семи років, збудував собі однокімнатну хатину з дощок на березі ставу Волден, на землі свого друга Ралфа Волдо Емерсона, за милю від найближчого сусіда. Він живе там сам, сапає боби, читає й пише. «Мені здається, вам там самотньо», — кажуть йому люди. Він відповідає у своїй книжці:",
+        "pl": "Concord, Massachusetts, 1845 rok. Henry David Thoreau, dwudziestosiedmioletni, zbudował sobie jednoizbową chatę z desek nad brzegiem stawu Walden, na ziemi swego przyjaciela Ralpha Waldo Emersona, o milę od najbliższego sąsiada. Mieszka tam sam, okopuje fasolę, czyta i pisze. „Myślę, że czuje się pan tam samotny” — mówią mu ludzie. Odpowiada w swojej książce:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Thoreau, Walden (1854), \"Solitude\"",
+            "ru": "Торо, «Уолден» (1854), глава «Одиночество»",
+            "uk": "Торо, «Волден» (1854), розділ «Самотність»",
+            "pl": "Thoreau, Walden (1854), rozdział „Samotność”"
+          },
+          "quotes": {
+            "en": {
+              "edition": "walden-solitude.en",
+              "from": "5.13",
+              "to": "5.13",
+              "text": "I find it wholesome to be alone the greater part of the time. To be in company, even with the best, is soon wearisome and dissipating. I love to be alone. I never found the companion that was so companionable as solitude. We are for the most part more lonely when we go abroad among men than when we stay in our chambers. A man thinking or working is always alone, let him be where he will. Solitude is not measured by the miles of space that intervene between a man and his fellows.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Walden_(1854)_Thoreau",
+                "lang": "en",
+                "title": "Henry David Thoreau, Walden, or Life in the Woods"
+              }
+            },
+            "ru": {
+              "edition": "walden-solitude.ru.ours",
+              "from": "5.13",
+              "to": "5.13",
+              "text": "Я нахожу, что большую часть времени быть одному полезно для здоровья. Быть в обществе, даже в лучшем, скоро утомительно и рассеивает. Я люблю быть один. Я никогда не находил такого хорошего товарища, как одиночество. Большей частью мы более одиноки, когда выходим к людям, чем когда остаёмся у себя в комнатах. Человек, который думает или работает, всегда один, где бы он ни был. Одиночество не измеряется милями пространства, которые лежат между человеком и его ближними.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Walden_(1854)_Thoreau",
+                "lang": "en",
+                "title": "Генри Дэвид Торо, «Уолден, или Жизнь в лесу»"
+              }
+            },
+            "uk": {
+              "edition": "walden-solitude.uk.ours",
+              "from": "5.13",
+              "to": "5.13",
+              "text": "Я вважаю, що більшу частину часу бути на самоті корисно для здоров’я. Бути в товаристві, навіть найкращому, скоро набридає й розпорошує. Я люблю бути на самоті. Я ніколи не знаходив такого доброго товариша, як самотність. Здебільшого ми самотніші, коли виходимо між людей, ніж коли лишаємося у своїх кімнатах. Людина, що думає чи працює, завжди сама, хай би де вона була. Самотність не вимірюється милями простору, що лежать між людиною та її ближніми.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Walden_(1854)_Thoreau",
+                "lang": "en",
+                "title": "Генрі Девід Торо, «Волден, або Життя в лісі»"
+              }
+            },
+            "pl": {
+              "edition": "walden-solitude.pl.ours",
+              "from": "5.13",
+              "to": "5.13",
+              "text": "Uważam, że przez większą część czasu zdrowo jest być samemu. Przebywanie w towarzystwie, nawet najlepszym, szybko nuży i rozprasza. Kocham być sam. Nigdy nie znalazłem towarzysza tak towarzyskiego jak samotność. Najczęściej jesteśmy bardziej samotni, gdy wychodzimy między ludzi, niż gdy zostajemy w swoich pokojach. Człowiek, który myśli albo pracuje, jest zawsze sam, gdziekolwiek by był. Samotności nie mierzy się milami przestrzeni, które dzielą człowieka od jego bliźnich.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Walden_(1854)_Thoreau",
+                "lang": "en",
+                "title": "Henry David Thoreau, Walden, czyli życie w lesie"
+              }
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "The same chapter",
+            "ru": "Та же глава",
+            "uk": "Той самий розділ",
+            "pl": "Ten sam rozdział"
+          },
+          "quotes": {
+            "en": {
+              "edition": "walden-solitude.en",
+              "from": "5.14",
+              "to": "5.14",
+              "text": "Society is commonly too cheap. We meet at very short intervals, not having had time to acquire any new value for each other. We meet at meals three times a day, and give each other a new taste of that old musty cheese that we are. We have had to agree on a certain set of rules, called etiquette and politeness, to make this frequent meeting tolerable and that we need not come to open war. We meet at the post-office, and at the sociable, and about the fireside every night; we live thick and are in each other's way, and stumble over one another, and I think that we thus lose some respect for one another. Certainly less frequency would suffice for all important and hearty communications.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Walden_(1854)_Thoreau",
+                "lang": "en",
+                "title": "Henry David Thoreau, Walden, or Life in the Woods"
+              }
+            },
+            "ru": {
+              "edition": "walden-solitude.ru.ours",
+              "from": "5.14",
+              "to": "5.14",
+              "text": "Общество обычно слишком дёшево. Мы встречаемся через слишком короткие промежутки, не успев приобрести друг для друга новой ценности. Мы встречаемся за едой три раза в день и даём друг другу снова отведать того старого заплесневелого сыра, который мы собой представляем. Нам пришлось условиться о некоем своде правил, называемом этикетом и вежливостью, чтобы эти частые встречи стали терпимы и чтобы нам не доходить до открытой войны. Мы встречаемся на почте, и на вечеринках, и каждый вечер у очага; мы живём скученно, мешаем друг другу и спотыкаемся друг о друга, и, по-моему, так мы теряем друг к другу долю уважения. Конечно, для всякого важного и сердечного общения хватило бы встреч и пореже.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Walden_(1854)_Thoreau",
+                "lang": "en",
+                "title": "Генри Дэвид Торо, «Уолден, или Жизнь в лесу»"
+              }
+            },
+            "uk": {
+              "edition": "walden-solitude.uk.ours",
+              "from": "5.14",
+              "to": "5.14",
+              "text": "Товариство зазвичай надто дешеве. Ми зустрічаємося через надто короткі проміжки, не встигнувши набути одне для одного нової цінності. Ми зустрічаємося за їжею тричі на день і даємо одне одному знову скуштувати того старого запліснявілого сиру, яким ми є. Нам довелося домовитися про певний звід правил, названий етикетом і чемністю, щоб ці часті зустрічі можна було терпіти і щоб нам не доходити до відкритої війни. Ми зустрічаємося на пошті, і на вечірках, і щовечора біля вогнища; ми живемо тісно, заважаємо одне одному й спотикаємося одне об одного, і, гадаю, через це втрачаємо одне до одного частку поваги. Певно, для всякого важливого й щирого спілкування вистачило б і рідших зустрічей.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Walden_(1854)_Thoreau",
+                "lang": "en",
+                "title": "Генрі Девід Торо, «Волден, або Життя в лісі»"
+              }
+            },
+            "pl": {
+              "edition": "walden-solitude.pl.ours",
+              "from": "5.14",
+              "to": "5.14",
+              "text": "Towarzystwo jest zwykle zbyt tanie. Spotykamy się w zbyt krótkich odstępach, nie zdążywszy nabrać dla siebie nawzajem nowej wartości. Spotykamy się przy posiłkach trzy razy dziennie i dajemy sobie znów posmakować tego starego, zatęchłego sera, którym jesteśmy. Musieliśmy umówić się co do pewnego zbioru reguł, zwanego etykietą i grzecznością, by te częste spotkania dało się znieść i byśmy nie musieli dochodzić do otwartej wojny. Spotykamy się na poczcie, na wieczorkach i co wieczór przy kominku; żyjemy w ścisku, wchodzimy sobie w drogę i potykamy się o siebie nawzajem, i myślę, że tracimy przez to nieco szacunku dla siebie. Z pewnością do wszelkich ważnych i serdecznych rozmów wystarczyłyby rzadsze spotkania.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Walden_(1854)_Thoreau",
+                "lang": "en",
+                "title": "Henry David Thoreau, Walden, czyli życie w lesie"
+              }
+            }
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "He moved in on the Fourth of July, 1845, and stayed two years and two months, until September 1847. He was not a hermit: \"I had three chairs in my house,\" he wrote, \"one for solitude, two for friendship, three for society.\"",
+            "ru": "Он поселился там Четвёртого июля 1845 года и прожил два года и два месяца, до сентября 1847-го. Отшельником он не был: «В моём доме было три стула, — писал он, — один для уединения, два для дружбы, три для общества».",
+            "uk": "Він оселився там Четвертого липня 1845 року й прожив два роки й два місяці, до вересня 1847-го. Відлюдником він не був: «У моїй хаті було три стільці, — писав він, — один для самотності, два для дружби, три для товариства».",
+            "pl": "Zamieszkał tam Czwartego Lipca 1845 roku i pozostał dwa lata i dwa miesiące, do września 1847. Pustelnikiem nie był: „Miałem w domu trzy krzesła — pisał — jedno dla samotności, dwa dla przyjaźni, trzy dla towarzystwa”."
+          },
+          "source": "Walden, Economy, Where I Lived, and What I Lived For, and Visitors; Walter Harding, The Days of Henry Thoreau (1965)"
+        },
+        {
+          "fact": {
+            "en": "In July 1846, walking into town to fetch a shoe from the cobbler's, he was seized and put in jail for refusing to pay his poll tax to a state that upheld slavery; he spent a night there, and wrote of it in Resistance to Civil Government (1849).",
+            "ru": "В июле 1846 года, когда он пошёл в город забрать башмак у сапожника, его схватили и посадили в тюрьму за отказ платить подушный налог государству, которое поддерживало рабство; он провёл там ночь и написал об этом в «Сопротивлении гражданскому правительству» (1849).",
+            "uk": "У липні 1846 року, коли він пішов до міста забрати черевик у шевця, його схопили й посадили до в’язниці за відмову платити подушний податок державі, що підтримувала рабство; він провів там ніч і написав про це в «Опорі громадянському урядові» (1849).",
+            "pl": "W lipcu 1846 roku, gdy poszedł do miasta odebrać but od szewca, schwytano go i wtrącono do więzienia za odmowę płacenia pogłównego państwu, które podtrzymywało niewolnictwo; spędził tam noc i napisał o tym w Oporze wobec władzy cywilnej (1849)."
+          },
+          "source": "Walden, The Village; Thoreau, Resistance to Civil Government (1849); Walter Harding, The Days of Henry Thoreau (1965)"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Egypt, about 285",
+        "ru": "Египет, около 285 года",
+        "uk": "Єгипет, близько 285 року",
+        "pl": "Egipt, około 285 roku"
+      },
+      "scene": {
+        "en": "You are Antony, a Christian of a well-to-do family from a village by the Nile, about thirty-five years old. When you were eighteen or twenty, soon after your parents died, you heard the Gospel read in church — \"go and sell that thou hast and give to the poor\" — and went out and gave your three hundred acres to the villagers. You placed your little sister with a community of virgins, and since then you have lived as an ascetic: first near the village, learning from the old men who did the same, then shut in a tomb some way off. No monk yet lives in the far desert; those who want to give heed to themselves stay close to their villages. You asked the old hermit you learned from to come with you into the desert; he would not — he is too old, and it is not done. Across the river, in the mountain, stands an abandoned fort, overrun by creeping things, with water inside. What do you do?",
+        "ru": "Вы — Антоний, христианин из состоятельной семьи, родом из деревни на Ниле, вам около тридцати пяти лет. Когда вам было восемнадцать или двадцать, вскоре после смерти родителей, вы услышали в церкви евангельские слова — «пойди, продай имение твоё и раздай нищим» — и, выйдя, отдали односельчанам свои триста арур земли. Маленькую сестру вы поместили в общину дев и с тех пор живёте подвижником: сперва близ деревни, учась у стариков, которые жили так же, потом — затворившись в гробнице поодаль. В дальней пустыне ещё не живёт ни один монах; те, кто хочет внимать себе, держатся близ своих деревень. Вы звали с собой в пустыню старика-отшельника, у которого учились; он не пошёл — он слишком стар, и так ещё не принято. За рекой, в горах, стоит заброшенная крепость, кишащая гадами, с водой внутри. Как вы поступите?",
+        "uk": "Ви — Антоній, християнин із заможної родини, родом із села над Нілом, вам близько тридцяти п’яти років. Коли вам було вісімнадцять чи двадцять, невдовзі після смерті батьків, ви почули в церкві євангельські слова — «піди, продай маєток свій і роздай убогим» — і, вийшовши, віддали односельцям свої триста арур землі. Малу сестру ви віддали до громади дів і відтоді живете подвижником: спершу біля села, вчачись у старих, що жили так само, потім — замкнувшись у гробниці віддалік. У далекій пустелі ще не живе жоден чернець; ті, хто хоче вважати на себе, тримаються поблизу своїх сіл. Ви кликали з собою в пустелю старого відлюдника, в якого вчилися; він не пішов — він надто старий, і так іще не заведено. За рікою, в горах, стоїть покинута фортеця, що кишить плазунами, з водою всередині. Що ви зробите?",
+        "pl": "Jesteś Antonim, chrześcijaninem z zamożnej rodziny, rodem ze wsi nad Nilem; masz około trzydziestu pięciu lat. Gdy miałeś osiemnaście albo dwadzieścia lat, wkrótce po śmierci rodziców, usłyszałeś w kościele słowa Ewangelii — „idź, sprzedaj, co masz, i rozdaj ubogim” — i wyszedłszy, oddałeś swoje trzysta arur ziemi mieszkańcom wsi. Małą siostrę oddałeś pod opiekę wspólnoty dziewic i od tej pory żyjesz jako asceta: najpierw blisko wsi, ucząc się od starców, którzy żyli tak samo, potem zamknięty w grobowcu w pewnym oddaleniu. Na dalekiej pustyni nie mieszka jeszcze żaden mnich; ci, którzy chcą baczyć na siebie, trzymają się blisko swoich wsi. Prosiłeś starego pustelnika, od którego się uczyłeś, by poszedł z tobą na pustynię; nie poszedł — jest za stary i nie ma jeszcze takiego zwyczaju. Za rzeką, w górach, stoi opuszczona twierdza, w której roi się od gadów, a w środku jest woda. Co zrobisz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Shut yourself in the fort alone: wall up the entrance, with bread for six months",
+            "ru": "Затвориться в крепости одному: заложить вход, запасшись хлебом на полгода",
+            "uk": "Замкнутися у фортеці самому: закласти вхід, запасшись хлібом на пів року",
+            "pl": "Zamknąć się w twierdzy samemu: zamurować wejście, z zapasem chleba na pół roku"
+          },
+          "reply": {
+            "en": "That is what he did — and he stayed nearly twenty years, receiving bread let down from above twice a year.",
+            "ru": "Так он и поступил — и пробыл там почти двадцать лет, получая хлеб, который спускали ему сверху дважды в год.",
+            "uk": "Так він і вчинив — і пробув там майже двадцять років, отримуючи хліб, який йому спускали згори двічі на рік.",
+            "pl": "Tak właśnie zrobił — i pozostał tam blisko dwadzieścia lat, otrzymując chleb, który dwa razy w roku spuszczano mu z góry."
+          }
+        },
+        {
+          "choice": {
+            "en": "Stay near the village, as the ascetics do: alone enough, and near enough to help",
+            "ru": "Остаться близ деревни, как делают подвижники: достаточно одному и достаточно близко, чтобы помогать",
+            "uk": "Лишитися біля села, як роблять подвижники: досить самому й досить близько, щоб допомагати",
+            "pl": "Zostać blisko wsi, jak czynią asceci: dość samotnie i dość blisko, by pomagać"
+          },
+          "reply": {
+            "en": "That was the custom, and he had kept it for some fifteen years; now, the Life says, he set off for the mountain at once, more and more confirmed in his purpose.",
+            "ru": "Таков был обычай, и он соблюдал его лет пятнадцать; теперь же, говорит «Житие», он тотчас отправился в горы, всё более укрепляясь в своём намерении.",
+            "uk": "Такий був звичай, і він дотримувався його років п’ятнадцять; тепер же, каже «Житіє», він одразу вирушив у гори, дедалі більше утверджуючись у своєму намірі.",
+            "pl": "Taki był zwyczaj i on przestrzegał go przez jakieś piętnaście lat; teraz zaś, mówi Żywot, od razu wyruszył w góry, coraz bardziej utwierdzony w swoim zamiarze."
+          }
+        },
+        {
+          "choice": {
+            "en": "Find companions first: go into the desert only with others",
+            "ru": "Сначала найти товарищей: идти в пустыню только с другими",
+            "uk": "Спершу знайти товаришів: іти в пустелю лише з іншими",
+            "pl": "Najpierw znaleźć towarzyszy: iść na pustynię tylko z innymi"
+          },
+          "reply": {
+            "en": "He had tried: the old man he asked refused, and there was no one else — so he went alone. The companions came twenty years later, and broke his door down.",
+            "ru": "Он пытался: старик, которого он звал, отказался, а больше никого не было, — и он пошёл один. Товарищи пришли двадцать лет спустя и выломали его дверь.",
+            "uk": "Він пробував: старий, якого він кликав, відмовився, а більше нікого не було, — і він пішов сам. Товариші прийшли через двадцять років і виламали його двері.",
+            "pl": "Próbował: starzec, którego prosił, odmówił, a nikogo innego nie było — więc poszedł sam. Towarzysze przyszli dwadzieścia lat później i wyważyli mu drzwi."
+          }
+        },
+        {
+          "choice": {
+            "en": "Go back to the world: work your land, marry, and give alms from what you earn",
+            "ru": "Вернуться в мир: работать на земле, жениться и подавать милостыню из заработанного",
+            "uk": "Повернутися у світ: працювати на землі, одружитися й давати милостиню з заробленого",
+            "pl": "Wrócić do świata: uprawiać ziemię, ożenić się i dawać jałmużnę z tego, co się zarobi"
+          },
+          "reply": {
+            "en": "His land was already given away, and long before he had resolved, the Life says, never to return to the house of his fathers nor to the remembrance of his kinsfolk.",
+            "ru": "Его земля была уже отдана, и задолго до этого, говорит «Житие», он решил никогда не возвращаться в отчий дом и не вспоминать о родне.",
+            "uk": "Його земля була вже віддана, і задовго до того, каже «Житіє», він вирішив ніколи не повертатися до батьківського дому й не згадувати про рідню.",
+            "pl": "Jego ziemia była już rozdana, a dużo wcześniej, mówi Żywot, postanowił nigdy nie wracać do domu ojców ani do wspomnień o krewnych."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "Antony walled himself into the fort and lived there nearly twenty years, seen by almost no one. Friends who came to the wall heard tumult within and believed he was fighting demons; he told them to go home unafraid. Around 305, when many wanted to live as he did, they broke the door down. He came out, Athanasius writes, neither fat nor wasted, his soul even, neither troubled by the crowd nor elated by it. He healed, comforted, made peace between enemies — and persuaded so many to follow him that cells rose in the mountains and \"the desert was colonised by monks\". The crowds would not let him be still, and he went further, three days into the desert, to an inner mountain, where he dug a garden and lived until he died in 356, near a hundred and five. Athanasius, bishop of Alexandria, wrote his Life soon after; in Latin it carried the desert to the West.",
+        "ru": "Антоний замуровался в крепости и прожил там почти двадцать лет, почти никем не видимый. Знакомые, приходившие к стене, слышали внутри шум и верили, что он бьётся с бесами; он велел им идти домой без страха. Около 305 года, когда многие захотели жить, как он, они выломали дверь. Он вышел, пишет Афанасий, не растолстевшим и не исхудалым, с душой ровной — его не смутила толпа и не вознесла. Он исцелял, утешал, мирил враждующих — и убедил стольких последовать за собой, что в горах появились кельи и «пустыня населилась монахами». Толпы не давали ему покоя, и он ушёл дальше, за три дня пути в пустыню, на внутреннюю гору, где вскопал огород и жил до смерти в 356 году, почти в сто пять лет. Афанасий, епископ Александрийский, вскоре написал его «Житие»; в латинском переводе оно принесло пустыню на Запад.",
+        "uk": "Антоній замурувався у фортеці й прожив там майже двадцять років, майже ніким не бачений. Знайомі, що приходили до стіни, чули всередині гомін і вірили, що він б’ється з бісами; він казав їм іти додому без страху. Близько 305 року, коли багато хто захотів жити, як він, вони виламали двері. Він вийшов, пише Афанасій, не погладшалим і не виснаженим, із душею рівною — його не збентежив натовп і не підніс. Він зціляв, розраджував, мирив ворогів — і переконав стількох піти за собою, що в горах постали келії і «пустеля заселилася ченцями». Натовпи не давали йому спокою, і він пішов далі, за три дні путі в пустелю, на внутрішню гору, де скопав город і жив до смерті 356 року, майже ста п’яти років. Афанасій, єпископ Олександрійський, невдовзі написав його «Житіє»; у латинському перекладі воно принесло пустелю на Захід.",
+        "pl": "Antoni zamurował się w twierdzy i przeżył tam blisko dwadzieścia lat, prawie przez nikogo nie widziany. Znajomi, którzy przychodzili pod mur, słyszeli w środku zgiełk i wierzyli, że walczy z demonami; kazał im wracać do domu bez lęku. Około 305 roku, gdy wielu zapragnęło żyć tak jak on, wyważyli drzwi. Wyszedł, pisze Atanazy, ani nie utyły, ani nie wychudzony, z duszą spokojną — tłum go nie zmieszał ani nie wbił w pychę. Uzdrawiał, pocieszał, godził wrogów — i przekonał tylu, by poszli za nim, że w górach powstały cele i „pustynia zaludniła się mnichami”. Tłumy nie dawały mu spokoju, więc poszedł dalej, trzy dni drogi w głąb pustyni, na wewnętrzną górę, gdzie uprawiał ogródek i żył aż do śmierci w 356 roku, w wieku blisko stu pięciu lat. Atanazy, biskup Aleksandrii, wkrótce potem napisał jego Żywot; po łacinie przeniósł on pustynię na Zachód."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Athanasius, Life of Antony 12",
+            "ru": "Афанасий Великий, «Житие Антония» 12",
+            "uk": "Афанасій Великий, «Житіє Антонія» 12",
+            "pl": "Atanazy Wielki, Żywot Antoniego 12"
+          },
+          "quotes": {
+            "en": {
+              "edition": "antony-solitude.en.ellershaw",
+              "from": "1.12",
+              "to": "1.12",
+              "text": "More and more confirmed in his purpose, he hurried to the mountain, and having found a fort, so long deserted that it was full of creeping things, on the other side of the river; he crossed over to it and dwelt there. The reptiles, as though some one were chasing them, immediately left the place. But he built up the entrance completely, having stored up loaves for six months—this is a custom of the Thebans, and the loaves often remain fresh a whole year—and as he found water within, he descended as into a shrine, and abode within by himself, never going forth nor looking at any one who came. Thus he employed a long time training himself, and received loaves, let down from above, twice in the year.",
+              "kind": "Free",
+              "translator": "H. Ellershaw",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_IV/Life_of_Antony/Vita_Antoni",
+                "lang": "en",
+                "title": "Athanasius of Alexandria, Life of Antony"
+              }
+            },
+            "ru": {
+              "edition": "antony-solitude.ru.ours",
+              "from": "1.12",
+              "to": "1.12",
+              "text": "Всё более укрепляясь в своём намерении, он поспешил к горе и, найдя по ту сторону реки крепость, так давно заброшенную, что она кишела гадами, переправился к ней и поселился там. Гады, будто кто-то гнал их, тотчас покинули это место. А он наглухо заложил вход, запасшись хлебами на шесть месяцев, — таков обычай фиванцев, и хлеба у них часто остаются свежими целый год, — и, найдя внутри воду, спустился туда, как в святилище, и пребывал внутри один, никогда не выходя и не глядя ни на кого из приходивших. Так долгое время он упражнял себя и дважды в год получал хлеба, которые спускали ему сверху.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_IV/Life_of_Antony/Vita_Antoni",
+                "lang": "en",
+                "title": "Афанасий Великий, «Житие Антония»"
+              }
+            },
+            "uk": {
+              "edition": "antony-solitude.uk.ours",
+              "from": "1.12",
+              "to": "1.12",
+              "text": "Дедалі більше утверджуючись у своєму намірі, він поспішив до гори і, знайшовши по той бік ріки фортецю, так давно покинуту, що вона кишіла плазунами, переправився до неї й оселився там. Плазуни, ніби хтось їх гнав, одразу покинули те місце. А він наглухо заклав вхід, запасшись хлібами на шість місяців, — такий звичай у фіванців, і хліби в них часто лишаються свіжими цілий рік, — і, знайшовши всередині воду, зійшов туди, як у святилище, і перебував усередині сам, ніколи не виходячи й не дивлячись ні на кого з тих, хто приходив. Так довгий час він вправляв себе і двічі на рік отримував хліби, які йому спускали згори.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_IV/Life_of_Antony/Vita_Antoni",
+                "lang": "en",
+                "title": "Афанасій Великий, «Житіє Антонія»"
+              }
+            },
+            "pl": {
+              "edition": "antony-solitude.pl.ours",
+              "from": "1.12",
+              "to": "1.12",
+              "text": "Coraz bardziej utwierdzony w swoim zamiarze, pospieszył ku górze, a znalazłszy po drugiej stronie rzeki twierdzę, opuszczoną tak dawno, że roiło się w niej od gadów, przeprawił się do niej i tam zamieszkał. Gady, jakby ktoś je przepędzał, natychmiast opuściły to miejsce. On zaś całkiem zamurował wejście, zgromadziwszy zapas chlebów na sześć miesięcy — taki jest zwyczaj Tebańczyków, a chleby często pozostają u nich świeże przez cały rok — i znalazłszy wewnątrz wodę, zstąpił tam jak do sanktuarium i przebywał w środku sam, nigdy nie wychodząc ani nie patrząc na nikogo z przychodzących. Tak przez długi czas ćwiczył się i dwa razy w roku otrzymywał chleby, które spuszczano mu z góry.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_IV/Life_of_Antony/Vita_Antoni",
+                "lang": "en",
+                "title": "Atanazy Wielki, Żywot Antoniego"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://el.wikisource.org/wiki/Βίος_και_πολιτεία_του_αγίου_Αντωνίου"
+          }
+        },
+        {
+          "by": {
+            "en": "The same, 14",
+            "ru": "Там же, 14",
+            "uk": "Там само, 14",
+            "pl": "Tamże, 14"
+          },
+          "quotes": {
+            "en": {
+              "edition": "antony-solitude.en.ellershaw",
+              "from": "1.14",
+              "to": "1.14",
+              "text": "And so for nearly twenty years he continued training himself in solitude, never going forth, and but seldom seen by any. After this, when many were eager and wishful to imitate his discipline, and his acquaintances came and began to cast down and wrench off the door by force, Antony, as from a shrine, came forth initiated in the mysteries and filled with the Spirit of God.",
+              "kind": "Free",
+              "translator": "H. Ellershaw",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_IV/Life_of_Antony/Vita_Antoni",
+                "lang": "en",
+                "title": "Athanasius of Alexandria, Life of Antony"
+              }
+            },
+            "ru": {
+              "edition": "antony-solitude.ru.ours",
+              "from": "1.14",
+              "to": "1.14",
+              "text": "И так почти двадцать лет он упражнял себя в уединении, никогда не выходя и редко кем видимый. После этого, когда многие горячо желали подражать его подвижничеству, а знакомые пришли и стали силой выламывать и срывать дверь, Антоний вышел, словно из святилища, посвящённый в таинства и исполненный Духа Божия.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_IV/Life_of_Antony/Vita_Antoni",
+                "lang": "en",
+                "title": "Афанасий Великий, «Житие Антония»"
+              }
+            },
+            "uk": {
+              "edition": "antony-solitude.uk.ours",
+              "from": "1.14",
+              "to": "1.14",
+              "text": "І так майже двадцять років він вправляв себе в усамітненні, ніколи не виходячи й рідко ким бачений. Після цього, коли багато хто палко бажав наслідувати його подвижництво, а знайомі прийшли й почали силою виламувати й зривати двері, Антоній вийшов, наче зі святилища, посвячений у таїнства й сповнений Духа Божого.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_IV/Life_of_Antony/Vita_Antoni",
+                "lang": "en",
+                "title": "Афанасій Великий, «Житіє Антонія»"
+              }
+            },
+            "pl": {
+              "edition": "antony-solitude.pl.ours",
+              "from": "1.14",
+              "to": "1.14",
+              "text": "I tak przez blisko dwadzieścia lat ćwiczył się w samotności, nigdy nie wychodząc i rzadko przez kogokolwiek widziany. Potem, gdy wielu gorąco pragnęło naśladować jego ascezę, a znajomi przyszli i zaczęli siłą wyważać i wyrywać drzwi, Antoni wyszedł jak z sanktuarium, wtajemniczony w misteria i napełniony Duchem Bożym.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_IV/Life_of_Antony/Vita_Antoni",
+                "lang": "en",
+                "title": "Atanazy Wielki, Żywot Antoniego"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://el.wikisource.org/wiki/Βίος_και_πολιτεία_του_αγίου_Αντωνίου"
+          }
+        },
+        {
+          "by": {
+            "en": "The same, 14 — how he came out",
+            "ru": "Там же, 14 — каким он вышел",
+            "uk": "Там само, 14 — яким він вийшов",
+            "pl": "Tamże, 14 — jaki wyszedł"
+          },
+          "quotes": {
+            "en": {
+              "edition": "antony-solitude.en.ellershaw",
+              "from": "1.14",
+              "to": "1.14",
+              "text": "And again his soul was free from blemish, for it was neither contracted as if by grief, nor relaxed by pleasure, nor possessed by laughter or dejection, for he was not troubled when he beheld the crowd, nor overjoyed at being saluted by so many.",
+              "kind": "Free",
+              "translator": "H. Ellershaw",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_IV/Life_of_Antony/Vita_Antoni",
+                "lang": "en",
+                "title": "Athanasius of Alexandria, Life of Antony"
+              }
+            },
+            "ru": {
+              "edition": "antony-solitude.ru.ours",
+              "from": "1.14",
+              "to": "1.14",
+              "text": "И душа его также была чиста от изъяна: она не была ни сжата, как от скорби, ни расслаблена удовольствием, ни охвачена смехом или унынием, ибо его не смутил вид толпы и не обрадовало сверх меры, что его приветствуют столь многие.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_IV/Life_of_Antony/Vita_Antoni",
+                "lang": "en",
+                "title": "Афанасий Великий, «Житие Антония»"
+              }
+            },
+            "uk": {
+              "edition": "antony-solitude.uk.ours",
+              "from": "1.14",
+              "to": "1.14",
+              "text": "І душа його так само була без вади: вона не була ні стиснута, як від журби, ні розслаблена втіхою, ні охоплена сміхом чи зневірою, бо його не збентежив вигляд натовпу й не потішило понад міру, що його вітає так багато людей.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_IV/Life_of_Antony/Vita_Antoni",
+                "lang": "en",
+                "title": "Афанасій Великий, «Житіє Антонія»"
+              }
+            },
+            "pl": {
+              "edition": "antony-solitude.pl.ours",
+              "from": "1.14",
+              "to": "1.14",
+              "text": "Również jego dusza była bez skazy: nie była ani ściśnięta jak od smutku, ani rozluźniona przyjemnością, ani opanowana przez śmiech czy przygnębienie, bo nie zmieszał go widok tłumu ani nie uradowało nadmiernie to, że pozdrawia go tak wielu.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_IV/Life_of_Antony/Vita_Antoni",
+                "lang": "en",
+                "title": "Atanazy Wielki, Żywot Antoniego"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Greek",
+              "ru": "оригинал на греческом",
+              "uk": "оригінал грецькою",
+              "pl": "oryginał po grecku"
+            },
+            "url": "https://el.wikisource.org/wiki/Βίος_και_πολιτεία_του_αγίου_Αντωνίου"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Sozomen, a historian writing in the 440s, names Antony's village: Coma, near Heraclea in Egypt. He adds that the emperor Constantine, hearing of the hermit's virtue, wrote to him and sought his friendship.",
+            "ru": "Созомен, историк, писавший в 440-х годах, называет деревню Антония: Кома, близ Ираклеи в Египте. Он добавляет, что император Константин, прослышав о добродетели отшельника, писал ему и искал его дружбы.",
+            "uk": "Созомен, історик, що писав у 440-х роках, називає село Антонія: Кома, поблизу Іраклеї в Єгипті. Він додає, що імператор Костянтин, прочувши про чесноту відлюдника, писав йому й шукав його дружби.",
+            "pl": "Sozomen, historyk piszący w latach czterdziestych V wieku, podaje nazwę wsi Antoniego: Koma, niedaleko Heraklei w Egipcie. Dodaje, że cesarz Konstantyn, usłyszawszy o cnocie pustelnika, pisał do niego i szukał jego przyjaźni."
+          },
+          "source": "Sozomen, Ecclesiastical History I.13; Athanasius, Life of Antony 81"
+        },
+        {
+          "fact": {
+            "en": "Solitude did not keep him from danger: in the persecution under Maximinus, in 311, he left his cell for Alexandria, served the confessors in the mines and prisons, and stood openly before the governor; he longed for martyrdom, Athanasius says, but would not give himself up.",
+            "ru": "Уединение не удержало его от опасности: во время гонения при Максимине, в 311 году, он оставил келью ради Александрии, служил исповедникам в рудниках и темницах и открыто стоял перед правителем; он желал мученичества, говорит Афанасий, но не хотел сам себя выдать.",
+            "uk": "Усамітнення не втримало його від небезпеки: під час переслідування за Максиміна, 311 року, він покинув келію заради Олександрії, служив ісповідникам у копальнях і в’язницях і відкрито стояв перед правителем; він прагнув мучеництва, каже Афанасій, але не хотів сам себе видати.",
+            "pl": "Samotność nie uchroniła go przed niebezpieczeństwem: podczas prześladowania za Maksymina, w 311 roku, opuścił celę dla Aleksandrii, posługiwał wyznawcom w kopalniach i więzieniach i stał jawnie przed namiestnikiem; pragnął męczeństwa, mówi Atanazy, lecz nie chciał sam się wydać."
+          },
+          "source": "Athanasius, Life of Antony 46 (Bishop Peter of Alexandria was martyred on 25 November 311)"
+        },
+        {
+          "fact": {
+            "en": "In Milan in 386, Augustine first heard of Antony from a visitor, Ponticianus, who told him of two court officials at Trier who had read the Life and left everything. That same day, in the garden of his lodging, Augustine remembered how Antony had taken a Gospel reading as spoken to him — and opened Paul's letters himself.",
+            "ru": "В Милане в 386 году Августин впервые услышал об Антонии от гостя, Понтициана, который рассказал ему о двух придворных чиновниках в Трире, прочитавших «Житие» и оставивших всё. В тот же день, в саду при доме, где он жил, Августин вспомнил, как Антоний принял евангельское чтение как обращённое к нему, — и сам раскрыл послания Павла.",
+            "uk": "У Мілані 386 року Августин уперше почув про Антонія від гостя, Понтиціана, який розповів йому про двох придворних урядовців у Трірі, що прочитали «Житіє» й покинули все. Того ж дня, у саду при домі, де він жив, Августин згадав, як Антоній сприйняв євангельське читання як звернене до нього, — і сам розгорнув послання Павла.",
+            "pl": "W Mediolanie w 386 roku Augustyn po raz pierwszy usłyszał o Antonim od gościa, Pontycjana, który opowiedział mu o dwóch urzędnikach dworskich w Trewirze, którzy przeczytali Żywot i porzucili wszystko. Tego samego dnia, w ogrodzie domu, w którym mieszkał, Augustyn przypomniał sobie, jak Antoni przyjął czytanie z Ewangelii jako skierowane do siebie — i sam otworzył listy Pawła."
+          },
+          "source": "Augustine, Confessions VIII.6.14–15 and VIII.12.29"
+        }
+      ]
+    },
+    {
+      "think": "solitude",
+      "question": {
+        "en": "When were you last truly alone — no one beside you, no screen, no voice? Did you seek it or run from it, and what did you find there: rest, yourself, fear, boredom? What would you lose if you were never alone — and what if you always were?",
+        "ru": "Когда вы в последний раз были по-настоящему одни — никого рядом, ни экрана, ни голоса? Вы искали этого или бежали от этого, и что вы там нашли: отдых, себя, страх, скуку? Что бы вы потеряли, если бы никогда не оставались одни, — а что, если бы были одни всегда?",
+        "uk": "Коли ви востаннє були по-справжньому на самоті — нікого поруч, ні екрана, ні голосу? Ви шукали цього чи тікали від цього, і що ви там знайшли: відпочинок, себе, страх, нудьгу? Що б ви втратили, якби ніколи не лишалися на самоті, — а що, якби були на самоті завжди?",
+        "pl": "Kiedy ostatnio byłeś naprawdę sam — nikogo obok, żadnego ekranu, żadnego głosu? Szukałeś tego czy uciekałeś od tego i co tam znalazłeś: odpoczynek, siebie, lęk, nudę? Co byś stracił, gdybyś nigdy nie bywał sam — a co, gdybyś był sam zawsze?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: do we need to be alone?",
+        "ru": "А теперь: нужно ли нам бывать одним?",
+        "uk": "А тепер: чи потрібно нам бувати на самоті?",
+        "pl": "A teraz: czy potrzebujemy samotności?"
+      }
+    }
+  ]
+}
