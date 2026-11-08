@@ -1143,5 +1143,91 @@
         "pl": "A teraz: czym jest przyjaźń?"
       }
     }
+  ],
+  "further": [
+    {
+      "by": "Bennett Helm",
+      "title": "Friendship (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/friendship/",
+      "lang": "en",
+      "about": {
+        "en": "A survey of what philosophers since Aristotle have asked about friendship — what kind of love it is, on what grounds we love our friends, whether it can conflict with morality, and what it adds to a life.",
+        "ru": "Обзор того, о чём философы со времён Аристотеля спрашивают о дружбе: что это за любовь, на каком основании мы любим друзей, может ли дружба спорить с моралью и что она прибавляет к жизни.",
+        "uk": "Огляд того, про що філософи від часів Аристотеля питають щодо дружби: що це за любов, на якій підставі ми любимо друзів, чи може дружба суперечити моралі і що вона додає до життя.",
+        "pl": "Przegląd pytań, jakie filozofowie od Arystotelesa stawiają o przyjaźń: czym jest jako rodzaj miłości, na jakiej podstawie kochamy przyjaciół, czy może kłócić się z moralnością i co wnosi do życia."
+      }
+    },
+    {
+      "by": "Marcus Tullius Cicero",
+      "title": "Treatises on Friendship and Old Age",
+      "url": "https://www.gutenberg.org/ebooks/2808",
+      "lang": "en",
+      "about": {
+        "en": "Cicero's Laelius, the Roman classic between Aristotle and Montaigne: friendship is possible only between good men, and one must never ask a friend to do wrong — the very question Montaigne puts to himself about La Boétie.",
+        "ru": "«Лелий» Цицерона — римская классика между Аристотелем и Монтенем: дружба возможна только между добрыми людьми, и нельзя просить друга о дурном, — тот самый вопрос, который Монтень задаёт себе о Ла Боэси.",
+        "uk": "«Лелій» Цицерона — римська класика між Аристотелем і Монтенем: дружба можлива лише між добрими людьми, і не можна просити друга про зле, — те саме питання, яке Монтень ставить собі щодо Ла Боесі.",
+        "pl": "Lelius Cycerona, rzymska klasyka między Arystotelesem a Montaigne'em: przyjaźń jest możliwa tylko między dobrymi ludźmi i nie wolno prosić przyjaciela o nic złego — to samo pytanie, które Montaigne stawia sobie wobec La Boétie."
+      }
+    },
+    {
+      "by": "Platon",
+      "title": "Lizys",
+      "url": "https://wolnelektury.pl/katalog/lektura/platon-lizys/",
+      "lang": "pl",
+      "about": {
+        "en": "Plato's short dialogue devoted to friendship, in Witwicki's Polish: Socrates and two boys try to say who is whose friend — like to like, unlike to unlike, the good to the good — and part admitting that they could not.",
+        "ru": "Короткий диалог Платона о дружбе, в польском переводе Витвицкого: Сократ и двое мальчиков пытаются сказать, кто кому друг — подобный подобному, противоположный противоположному, хороший хорошему, — и расходятся, признав, что не смогли.",
+        "uk": "Короткий діалог Платона про дружбу, у польському перекладі Вітвицького: Сократ і двоє хлопців намагаються сказати, хто кому друг — подібний подібному, протилежний протилежному, добрий доброму, — і розходяться, визнавши, що не змогли.",
+        "pl": "Krótki dialog Platona poświęcony przyjaźni, w przekładzie Witwickiego: Sokrates i dwaj chłopcy próbują orzec, kto komu jest przyjacielem — podobny podobnemu, przeciwny przeciwnemu, dobry dobremu — i rozstają się, przyznając, że nie potrafili."
+      }
+    },
+    {
+      "by": "Seneca",
+      "title": "Moral letters to Lucilius, Letter 9: On philosophy and friendship",
+      "url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_9",
+      "lang": "en",
+      "about": {
+        "en": "The Stoic answer to Epicurus on whether the self-sufficient wise man needs friends: Seneca says he needs none but wants them — not to be helped, but to have someone to help.",
+        "ru": "Ответ стоика Эпикуру на вопрос, нужны ли друзья самодостаточному мудрецу: Сенека отвечает, что не нужны, но желанны — не чтобы ему помогали, а чтобы было кому помогать самому.",
+        "uk": "Відповідь стоїка Епікурові на питання, чи потрібні друзі самодостатньому мудрецеві: Сенека відповідає, що не потрібні, але бажані — не щоб йому допомагали, а щоб було кому допомагати самому.",
+        "pl": "Odpowiedź stoika Epikurowi na pytanie, czy samowystarczalny mędrzec potrzebuje przyjaciół: Seneka odpowiada, że nie potrzebuje, ale ich pragnie — nie po to, by mu pomagano, lecz by mieć komu pomagać."
+      }
+    },
+    {
+      "by": "Гнат Хоткевич",
+      "title": "Григорій Савич Сковорода (український фільософ): Життепис",
+      "url": "https://uk.wikisource.org/wiki/Григорій_Савич_Сковорода_(український_фільософ)/Життепис",
+      "lang": "uk",
+      "about": {
+        "en": "Khotkevych's life of Skovoroda (1920), in Ukrainian: the wandering philosopher who loved the young Mykhailo Kovalynsky 'with all his heart', stayed on at the Kharkiv college so as not to leave him and wrote most of his works for him — and once walked from Kharkiv to Taganrog to see a friend.",
+        "ru": "Жизнеописание Сковороды, написанное Хоткевичем (1920), по-украински: странствующий философ полюбил юного Михаила Ковалинского «всем сердцем», остался в Харьковском коллегиуме, чтобы не покидать его, и писал для него большую часть своих сочинений, — а однажды пешком прошёл из Харькова в Таганрог, чтобы повидать друга.",
+        "uk": "Життєпис Сковороди, написаний Хоткевичем (1920): мандрівний філософ полюбив юного Михайла Ковалинського «усім серцем», лишився в Харківському колегіумі, щоб не покинути його, і писав для нього більшість своїх творів, — а одного разу пішки пішов із Харкова до Таганрога, щоб побачитися з другом.",
+        "pl": "Żywot Skoworody napisany przez Chotkewycza (1920), po ukraińsku: wędrowny filozof pokochał młodego Mychajła Kowalinśkiego „całym sercem”, został w kolegium charkowskim, by go nie opuścić, i dla niego pisał większość swoich dzieł — a raz poszedł pieszo z Charkowa do Taganrogu, by zobaczyć się z przyjacielem."
+      }
+    },
+    {
+      "by": "Francis Bacon",
+      "title": "The Essays of Francis Bacon: XXVII. Of Friendship",
+      "url": "https://en.wikisource.org/wiki/The_Essays_of_Francis_Bacon/XXVII_Of_Friendship",
+      "lang": "en",
+      "about": {
+        "en": "Bacon's essay, in its final form of 1625 and in the genre Montaigne invented: a friend doubles our joys and halves our griefs and gives the counsel no flatterer will — friendship seen by its fruits.",
+        "ru": "Опыт Бэкона в окончательном виде 1625 года, в жанре, придуманном Монтенем: друг удваивает радости и делит пополам горести и даёт совет, которого не даст ни один льстец, — дружба, увиденная по её плодам.",
+        "uk": "Есей Бекона в остаточному вигляді 1625 року, у жанрі, вигаданому Монтенем: друг подвоює радощі й ділить навпіл печалі та дає пораду, якої не дасть жоден лестун, — дружба, побачена з її плодів.",
+        "pl": "Esej Bacona w ostatecznej postaci z 1625 roku, w gatunku wymyślonym przez Montaigne'a: przyjaciel podwaja radości i dzieli na pół smutki, i daje radę, jakiej nie da żaden pochlebca — przyjaźń oglądana przez jej owoce."
+      }
+    },
+    {
+      "by": "Василий Андреевич Жуковский",
+      "title": "О дружбе и друзьях",
+      "url": "https://ru.wikisource.org/wiki/О_дружбе_и_друзьях_(Жуковский)",
+      "lang": "ru",
+      "about": {
+        "en": "A short essay of 1810 by the poet Zhukovsky: attachment can exist without return, friendship never, for it is a contract, the most sacred of all — Aristotle's reciprocity in Russian prose of the early nineteenth century.",
+        "ru": "Короткий очерк поэта Жуковского 1810 года: привязанность бывает и без взаимности, дружба — никогда, ибо она договор, самый священный из всех, — аристотелевская взаимность в русской прозе начала XIX века.",
+        "uk": "Короткий нарис поета Жуковського 1810 року: прихильність буває й без взаємності, дружба — ніколи, бо вона договір, найсвятіший з усіх, — Аристотелева взаємність у російській прозі початку XIX століття.",
+        "pl": "Krótki szkic poety Żukowskiego z 1810 roku: przywiązanie bywa i bez wzajemności, przyjaźń nigdy, bo jest umową, najświętszą ze wszystkich — Arystotelesowa wzajemność w rosyjskiej prozie początku XIX wieku."
+      }
+    }
   ]
 }

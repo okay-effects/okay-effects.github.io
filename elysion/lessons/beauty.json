@@ -973,5 +973,91 @@
         "pl": "A teraz: czym jest piękno?"
       }
     }
+  ],
+  "further": [
+    {
+      "by": "Crispin Sartwell",
+      "title": "Beauty (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/beauty/",
+      "lang": "en",
+      "about": {
+        "en": "The lesson's question laid out across its history: is beauty in the object, as Plato and Plotinus held, or in the response of the one who sees it, as Hume argued — and the views in between.",
+        "ru": "Вопрос урока, развёрнутый через всю его историю: в предмете ли красота, как считали Платон и Плотин, или в отклике того, кто её видит, как доказывал Юм, — и взгляды между ними.",
+        "uk": "Питання уроку, розгорнуте через усю його історію: чи краса в предметі, як вважали Платон і Плотін, чи у відгуку того, хто її бачить, як доводив Юм, — і погляди між ними.",
+        "pl": "Pytanie lekcji rozpostarte przez całą jego historię: czy piękno jest w przedmiocie, jak sądzili Platon i Plotyn, czy w odpowiedzi tego, kto je widzi, jak dowodził Hume — i poglądy pośrednie."
+      }
+    },
+    {
+      "by": "Graham Parkes, Adam Loughnane",
+      "title": "Japanese Aesthetics (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/japanese-aesthetics/",
+      "lang": "en",
+      "about": {
+        "en": "The ideas behind Rikyū's tea room — wabi, the beauty of the poor and unadorned, sabi, of the aged and lonely, and mono no aware, of what passes — set out from their sources.",
+        "ru": "Идеи, стоящие за чайной комнатой Рикю, — ваби, красота бедного и неукрашенного, саби, красота старого и одинокого, и моно-но аварэ, красота преходящего, — изложенные по их источникам.",
+        "uk": "Ідеї, що стоять за чайною кімнатою Рікю, — вабі, краса бідного й неприкрашеного, сабі, краса старого й самотнього, і моно-но аваре, краса минущого, — викладені за їхніми джерелами.",
+        "pl": "Idee stojące za herbaciarnią Rikyū — wabi, piękno ubogiego i nieozdobnego, sabi, piękno starego i samotnego, i mono no aware, piękno przemijającego — przedstawione na podstawie źródeł."
+      }
+    },
+    {
+      "by": "Platon",
+      "title": "Hippiasz większy",
+      "url": "https://wolnelektury.pl/katalog/lektura/platon-hippiasz-wiekszy/",
+      "lang": "pl",
+      "about": {
+        "en": "Plato's dialogue that asks the lesson's question in so many words — what is the beautiful itself? — and, when every answer has failed, ends on the proverb 'beautiful things are difficult'; in Witwicki's Polish.",
+        "ru": "Диалог Платона, где вопрос урока задан прямо — что такое прекрасное само по себе? — и который после провала всех ответов кончается поговоркой «прекрасное — трудно»; в польском переводе Витвицкого.",
+        "uk": "Діалог Платона, де питання уроку поставлене прямо — що таке прекрасне саме по собі? — і який після краху всіх відповідей закінчується приказкою «прекрасне — важке»; у польському перекладі Вітвицького.",
+        "pl": "Dialog Platona, w którym pytanie lekcji pada wprost — czym jest samo piękno? — i który po upadku każdej odpowiedzi kończy się przysłowiem, że piękno jest rzeczą trudną; w przekładzie Witwickiego."
+      }
+    },
+    {
+      "by": "Immanuel Kant",
+      "title": "Kant's Critique of Judgement",
+      "url": "https://www.gutenberg.org/ebooks/48433",
+      "lang": "en",
+      "about": {
+        "en": "Kant's attempt to settle Hume's problem: a judgement of beauty rests on feeling, yet claims everyone's agreement — the beautiful pleases without interest and without a concept.",
+        "ru": "Попытка Канта решить задачу Юма: суждение о красоте основано на чувстве, но притязает на согласие всех, — прекрасное нравится без всякого интереса и без понятия.",
+        "uk": "Спроба Канта розв'язати Юмову задачу: судження про красу засноване на почутті, але претендує на згоду всіх, — прекрасне подобається без жодного інтересу і без поняття.",
+        "pl": "Próba Kanta rozwiązania problemu Hume'a: sąd o pięknie opiera się na uczuciu, a jednak domaga się zgody wszystkich — piękno podoba się bez wszelkiego interesu i bez pojęcia."
+      }
+    },
+    {
+      "by": "Cyprian Kamil Norwid",
+      "title": "Promethidion",
+      "url": "https://wolnelektury.pl/katalog/lektura/promethidion/",
+      "lang": "pl",
+      "about": {
+        "en": "Norwid's dialogue in verse of 1851 on beauty and work: 'beauty is there to enthral us into work', and beauty is 'the shape of love' — beauty not apart from life, close to what Rikyū made of a bowl of tea.",
+        "ru": "Стихотворный диалог Норвида 1851 года о красоте и труде: красота существует, чтобы «восхищать к труду», и красота есть «образ любви», — красота не в стороне от жизни, близко к тому, что Рикю сделал из чаши чая.",
+        "uk": "Віршований діалог Норвіда 1851 року про красу й працю: краса існує, щоб «захоплювати до праці», і краса є «образом любові», — краса не осторонь життя, близько до того, що Рікю зробив із чаші чаю.",
+        "pl": "Dialog wierszem Norwida z 1851 roku o pięknie i pracy: „piękno na to jest, by zachwycało do pracy”, a „kształtem miłości piękno jest” — piękno nie z dala od życia, blisko tego, co Rikyū uczynił z czarki herbaty."
+      }
+    },
+    {
+      "by": "Владимир Сергеевич Соловьев",
+      "title": "Общий смысл искусства",
+      "url": "https://ru.wikisource.org/wiki/Общий_смысл_искусства_(Соловьев)",
+      "lang": "ru",
+      "about": {
+        "en": "Solovyov's essay of 1890: beauty is the embodiment of an ideal content in sensible forms, and the task of art is to carry on the work of beauty that nature began — Plotinus' answer in Russian dress.",
+        "ru": "Статья Соловьёва 1890 года: красота есть воплощение идеального содержания в чувственных формах, и задача искусства — продолжить дело красоты, начатое природой, — ответ Плотина в русском облачении.",
+        "uk": "Стаття Соловйова 1890 року: краса є втіленням ідеального змісту в чуттєвих формах, і завдання мистецтва — продовжити справу краси, розпочату природою, — відповідь Плотіна в російському вбранні.",
+        "pl": "Rozprawa Sołowjowa z 1890 roku: piękno jest wcieleniem idealnej treści w zmysłowych formach, a zadaniem sztuki jest dalej prowadzić dzieło piękna rozpoczęte przez naturę — odpowiedź Plotyna w rosyjskiej szacie."
+      }
+    },
+    {
+      "by": "Іван Франко",
+      "title": "Із секретів поетичної творчости. III. Естетичні основи",
+      "url": "https://uk.wikisource.org/wiki/Із_секретів_поетичної_творчости/III._Естетичні_основи",
+      "lang": "uk",
+      "about": {
+        "en": "Franko's treatise of 1898–1899, its part on 'aesthetic foundations': aesthetics is the science of sensation, and the beauty of a poem lies in how it calls up in the reader's senses and soul the impression the poet wants — beauty as something that happens in the one who perceives it.",
+        "ru": "Трактат Франко 1898–1899 годов, часть об «эстетических основах»: эстетика — наука об ощущении, и красота стихотворения в том, как оно вызывает в чувствах и душе читателя то впечатление, какого хочет поэт, — красота как то, что происходит в воспринимающем.",
+        "uk": "Трактат Франка 1898–1899 років, частина про «естетичні основи»: естетика — наука про чуття, і краса вірша в тому, як він викликає в чуттях і душі читача те враження, якого прагне поет, — краса як те, що відбувається в тому, хто сприймає.",
+        "pl": "Rozprawa Franki z lat 1898–1899, część o „podstawach estetycznych”: estetyka to nauka o wrażeniach zmysłowych, a piękno wiersza polega na tym, jak budzi w zmysłach i duszy czytelnika wrażenie, jakiego chce poeta — piękno jako coś, co dzieje się w tym, kto postrzega."
+      }
+    }
   ]
 }

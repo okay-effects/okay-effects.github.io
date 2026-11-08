@@ -983,5 +983,79 @@
         "pl": "A teraz: czy musimy być posłuszni niesprawiedliwemu prawu?"
       }
     }
+  ],
+  "further": [
+    {
+      "by": "Candice Delmas, Kimberley Brownlee",
+      "title": "Civil Disobedience (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/civil-disobedience/",
+      "lang": "en",
+      "about": {
+        "en": "What makes a breach of the law 'civil' — openness, non-violence, accepting the penalty — and when it is justified: the debate that runs from Thoreau through Gandhi and King to our own day.",
+        "ru": "Что делает нарушение закона «гражданским» — открытость, ненасилие, готовность понести наказание — и когда оно оправдано: спор, идущий от Торо через Ганди и Кинга до наших дней.",
+        "uk": "Що робить порушення закону «громадянським» — відкритість, ненасильство, готовність понести покарання — і коли воно виправдане: суперечка, що йде від Торо через Ганді й Кінга до наших днів.",
+        "pl": "Co czyni łamanie prawa „obywatelskim” — jawność, rezygnacja z przemocy, przyjęcie kary — i kiedy jest ono usprawiedliwione: spór, który biegnie od Thoreau przez Gandhiego i Kinga do naszych dni."
+      }
+    },
+    {
+      "by": "Platon",
+      "title": "Obrona Sokratesa",
+      "url": "https://wolnelektury.pl/katalog/lektura/platon-obrona-sokratesa/",
+      "lang": "pl",
+      "about": {
+        "en": "The other half of Socrates, in Witwicki's Polish: the same man who in the Crito will not escape the law tells his judges that if they free him on condition that he stop philosophising, he will obey the god rather than them.",
+        "ru": "Другая половина Сократа, в польском переводе Витвицкого: тот же человек, что в «Критоне» не бежит от закона, говорит судьям, что если его отпустят с условием бросить философию, он будет повиноваться скорее богу, чем им.",
+        "uk": "Друга половина Сократа, у польському перекладі Вітвицького: та сама людина, що в «Крітоні» не тікає від закону, каже суддям, що коли його відпустять за умови покинути філософію, він радше коритиметься богові, ніж їм.",
+        "pl": "Druga połowa Sokratesa, w przekładzie Witwickiego: ten sam człowiek, który w Kritonie nie ucieka przed prawem, mówi sędziom, że gdyby go uwolnili pod warunkiem, że porzuci filozofię, będzie słuchał raczej boga niż ich."
+      }
+    },
+    {
+      "by": "Лев Николаевич Толстой",
+      "title": "Царство Божие внутри вас",
+      "url": "https://ru.wikisource.org/wiki/Царство_Божие_внутри_вас_(Толстой)",
+      "lang": "ru",
+      "about": {
+        "en": "Tolstoy's book of 1893 on non-resistance to evil by force: a Christian may not take part in the violence of the state, nor swear its oaths nor serve in its armies — the book that, by Gandhi's own account, overwhelmed him and set his course.",
+        "ru": "Книга Толстого 1893 года о непротивлении злу насилием: христианин не может участвовать в насилии государства — ни присягать ему, ни служить в его войсках, — та самая книга, которая, по словам Ганди, его потрясла и определила его путь.",
+        "uk": "Книга Толстого 1893 року про непротивлення злу насильством: християнин не може брати участі в насильстві держави — ні присягати їй, ні служити в її війську, — та сама книга, яка, за словами Ганді, його приголомшила й визначила його шлях.",
+        "pl": "Książka Tołstoja z 1893 roku o niestawianiu oporu złu przemocą: chrześcijanin nie może brać udziału w przemocy państwa — ani składać mu przysięgi, ani służyć w jego wojsku — ta sama, która według Gandhiego nim wstrząsnęła i wyznaczyła mu drogę."
+      }
+    },
+    {
+      "by": "Richard Dagger, David Lefkowitz",
+      "title": "Political Obligation (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/political-obligation/",
+      "lang": "en",
+      "about": {
+        "en": "The other side of the question — whether there is a moral duty to obey the law because it is the law — and the arguments from consent, gratitude and fair play, which begin with the Laws' speech in the Crito.",
+        "ru": "Другая сторона вопроса — есть ли нравственный долг повиноваться закону потому, что он закон, — и доводы от согласия, благодарности и честной игры, которые начинаются с речи Законов в «Критоне».",
+        "uk": "Інший бік питання — чи існує моральний обов'язок коритися законові тому, що він закон, — і аргументи від згоди, вдячності й чесної гри, які починаються з промови Законів у «Крітоні».",
+        "pl": "Druga strona pytania — czy istnieje moralny obowiązek posłuszeństwa prawu dlatego, że jest prawem — i argumenty ze zgody, wdzięczności i uczciwej gry, które zaczynają się od mowy Praw w Kritonie."
+      }
+    },
+    {
+      "by": "John Locke",
+      "title": "Second Treatise of Government",
+      "url": "https://www.gutenberg.org/ebooks/7370",
+      "lang": "en",
+      "about": {
+        "en": "Locke's answer, published in 1689, to when a people may stop obeying: a government that breaks the trust for which it was set up dissolves itself, and the people may resist — the argument behind the right of revolution in the American Declaration.",
+        "ru": "Ответ Локка, изданный в 1689 году, на вопрос, когда народ может перестать повиноваться: правительство, нарушившее доверие, ради которого оно учреждено, само себя распускает, и народ вправе сопротивляться, — довод, стоящий за правом на революцию в американской Декларации.",
+        "uk": "Відповідь Локка, видана 1689 року, на питання, коли народ може перестати коритися: уряд, що порушив довіру, заради якої його встановлено, сам себе розпускає, і народ має право на опір, — аргумент, що стоїть за правом на революцію в американській Декларації.",
+        "pl": "Odpowiedź Locke'a, wydana w 1689 roku, na pytanie, kiedy lud może przestać być posłuszny: rząd, który złamał zaufanie, dla którego go ustanowiono, sam się rozwiązuje, a lud może stawić opór — argument stojący za prawem do rewolucji w amerykańskiej Deklaracji."
+      }
+    },
+    {
+      "by": "Вікіпедія",
+      "title": "Громадянська непокора",
+      "url": "https://uk.wikipedia.org/wiki/Громадянська_непокора",
+      "lang": "uk",
+      "about": {
+        "en": "The Ukrainian Wikipedia article on civil disobedience: the idea as Thoreau's essay first put it, and how Gandhi, King and the protest movements of the twentieth century carried it into practice.",
+        "ru": "Статья украинской Википедии о гражданском неповиновении: идея в том виде, в каком её впервые высказал Торо, и как Ганди, Кинг и протестные движения XX века воплотили её на деле.",
+        "uk": "Стаття української Вікіпедії про громадянську непокору: ідея в тому вигляді, як її вперше висловив Торо, і як Ганді, Кінг і протестні рухи XX століття втілили її на практиці.",
+        "pl": "Artykuł ukraińskiej Wikipedii o obywatelskim nieposłuszeństwie: idea w postaci, w jakiej pierwszy wyraził ją Thoreau, i jak Gandhi, King i ruchy protestu XX wieku wcielili ją w życie."
+      }
+    }
   ]
 }

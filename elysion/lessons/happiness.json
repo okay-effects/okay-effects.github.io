@@ -974,5 +974,91 @@
         "pl": "A teraz: co czyni życie szczęśliwym?"
       }
     }
+  ],
+  "further": [
+    {
+      "by": "Dan Haybron",
+      "title": "Happiness (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/happiness/",
+      "lang": "en",
+      "about": {
+        "en": "A clear map of what philosophers and psychologists now mean by happiness — pleasure, satisfaction with one's life or a good emotional condition — and how it differs from well-being, the question on which Aristotle and Mill part ways.",
+        "ru": "Ясная карта того, что философы и психологи сегодня называют счастьем — удовольствие, удовлетворённость жизнью или хорошее душевное состояние, — и чем оно отличается от благополучия: вопрос, в котором Аристотель и Милль расходятся.",
+        "uk": "Ясна мапа того, що філософи й психологи сьогодні називають щастям — задоволення, задоволеність життям чи добрий душевний стан, — і чим воно відрізняється від благополуччя: питання, у якому Аристотель і Мілль розходяться.",
+        "pl": "Przejrzysta mapa tego, co filozofowie i psychologowie nazywają dziś szczęściem — przyjemność, zadowolenie z życia czy dobry stan ducha — i czym różni się ono od dobrostanu: pytanie, w którym Arystoteles i Mill się rozchodzą."
+      }
+    },
+    {
+      "by": "Boethius",
+      "title": "The Consolation of Philosophy",
+      "url": "https://www.gutenberg.org/ebooks/14328",
+      "lang": "en",
+      "about": {
+        "en": "A book written in prison while its author awaited execution, which asks Solon's question from the inside: Philosophy reminds the fallen Boethius of Croesus on the pyre and argues that wealth, office and fame cannot make a life happy, because fortune can take them all.",
+        "ru": "Книга, написанная в тюрьме в ожидании казни, задаёт вопрос Солона изнутри: Философия напоминает павшему Боэцию о Крёзе на костре и доказывает, что богатство, должности и слава не могут сделать жизнь счастливой, потому что судьба способна отнять их все.",
+        "uk": "Книга, написана у в'язниці в очікуванні страти, ставить Солонове питання зсередини: Філософія нагадує поваленому Боецію про Креза на вогнищі й доводить, що багатство, посади й слава не можуть зробити життя щасливим, бо доля здатна забрати їх усі.",
+        "pl": "Książka napisana w więzieniu w oczekiwaniu na egzekucję stawia pytanie Solona od środka: Filozofia przypomina upadłemu Boecjuszowi Krezusa na stosie i dowodzi, że bogactwo, urzędy i sława nie uczynią życia szczęśliwym, bo los może odebrać je wszystkie."
+      }
+    },
+    {
+      "by": "Diogenes Laërtius",
+      "title": "Lives of the Eminent Philosophers, Book X: Epicurus",
+      "url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X",
+      "lang": "en",
+      "about": {
+        "en": "Here is Epicurus' own Letter to Menoeceus (X.122–135), the classic case for the lesson's first answer — pleasure as the beginning and end of the happy life — and for why that means sober reasoning, not feasting.",
+        "ru": "Здесь — письмо самого Эпикура к Менекею (X.122–135), классическая защита первого ответа урока — удовольствие как начало и цель счастливой жизни — и объяснение, почему это значит трезвое рассуждение, а не пиры.",
+        "uk": "Тут — лист самого Епікура до Менекея (X.122–135), класичний захист першої відповіді уроку — задоволення як початок і мета щасливого життя — і пояснення, чому це означає тверезе міркування, а не бенкети.",
+        "pl": "Tu znajdziesz list samego Epikura do Menojkeusa (X.122–135), klasyczną obronę pierwszej odpowiedzi lekcji — przyjemność jako początek i cel szczęśliwego życia — i wyjaśnienie, dlaczego oznacza to trzeźwe rozumowanie, a nie uczty."
+      }
+    },
+    {
+      "by": "Platon",
+      "title": "Fileb",
+      "url": "https://wolnelektury.pl/katalog/lektura/platon-fileb/",
+      "lang": "pl",
+      "about": {
+        "en": "Plato's late dialogue on exactly this choice — is the good life pleasure, or thought and wisdom, or a mixture of the two? — in Władysław Witwicki's Polish translation.",
+        "ru": "Поздний диалог Платона именно об этом выборе — в чём благо жизни: в удовольствии, в разуме и знании или в их смешении? — в польском переводе Владислава Витвицкого.",
+        "uk": "Пізній діалог Платона саме про цей вибір — у чому добре життя: у задоволенні, у розумі й знанні чи в їхньому поєднанні? — у польському перекладі Владислава Вітвицького.",
+        "pl": "Późny dialog Platona właśnie o tym wyborze — czy dobrym życiem jest przyjemność, czy myśl i wiedza, czy ich mieszanina? — w przekładzie Władysława Witwickiego."
+      }
+    },
+    {
+      "by": "Гнат Хоткевич",
+      "title": "Григорій Савич Сковорода (український фільософ): Вибрані місця з творів",
+      "url": "https://uk.wikisource.org/wiki/Григорій_Савич_Сковорода_(український_фільософ)/Вибрані_місця_з_творів",
+      "lang": "uk",
+      "about": {
+        "en": "Skovoroda's own pages on happiness in Hnat Khotkevych's Ukrainian of 1920: happiness depends on no place or time and is 'given freely' to everyone, and each of us is happy in the work he was born for — an answer close both to Aristotle and to the Dhammapada.",
+        "ru": "Страницы самого Сковороды о счастье в украинском переложении Гната Хоткевича 1920 года: счастье не зависит ни от места, ни от времени и «даётся даром» всем, и каждый счастлив в том труде, для которого рождён, — ответ, близкий и Аристотелю, и «Дхаммападе».",
+        "uk": "Сторінки самого Сковороди про щастя в українському переказі Гната Хоткевича 1920 року: щастя не залежить ні від місця, ні від часу і «дається дурно» всім, і кожен щасливий у тій праці, до якої родився, — відповідь, близька і до Аристотеля, і до «Дгаммапади».",
+        "pl": "Stronice samego Skoworody o szczęściu w ukraińskim przekładzie Hnata Chotkewycza z 1920 roku: szczęście nie zależy od miejsca ani od czasu i „daje się darmo” wszystkim, a każdy jest szczęśliwy w pracy, do której się urodził — odpowiedź bliska i Arystotelesowi, i Dhammapadzie."
+      }
+    },
+    {
+      "by": "Аврелий Августин",
+      "title": "О блаженной жизни",
+      "url": "https://ru.wikisource.org/wiki/О_блаженной_жизни_(Августин)",
+      "lang": "ru",
+      "about": {
+        "en": "Augustine's dialogue of 386 takes Solon's warning a step further: whoever can lose what he has is not happy, so happiness must rest on what no turn of fortune can take away — in an old Russian translation.",
+        "ru": "Диалог Августина 386 года делает шаг дальше Солона: кто может потерять то, что имеет, тот не счастлив, — значит, счастье должно опираться на то, чего не отнимет никакой поворот судьбы (в старом русском переводе).",
+        "uk": "Діалог Августина 386 року йде на крок далі за Солона: хто може втратити те, що має, той не щасливий, — отже, щастя мусить спиратися на те, чого не відбере жоден поворот долі (у старому російському перекладі).",
+        "pl": "Dialog Augustyna z 386 roku idzie o krok dalej niż Solon: kto może stracić to, co ma, nie jest szczęśliwy — szczęście musi więc opierać się na tym, czego nie odbierze żaden obrót losu (w dawnym przekładzie rosyjskim)."
+      }
+    },
+    {
+      "by": "John Stuart Mill",
+      "title": "Autobiography",
+      "url": "https://www.gutenberg.org/ebooks/10378",
+      "lang": "en",
+      "about": {
+        "en": "In chapter 5 Mill tells in his own words the crisis of 1826 that the lesson only mentions — how the heir of utilitarianism found that the happiness he worked for could not make him happy, and what brought him back.",
+        "ru": "В главе 5 Милль сам рассказывает о кризисе 1826 года, который урок лишь упоминает: как наследник утилитаризма обнаружил, что счастье, ради которого он трудился, не делает счастливым его самого, и что вернуло его к жизни.",
+        "uk": "У розділі 5 Мілль сам розповідає про кризу 1826 року, яку урок лише згадує: як спадкоємець утилітаризму виявив, що щастя, заради якого він працював, не робить щасливим його самого, і що повернуло його до життя.",
+        "pl": "W rozdziale 5 Mill sam opowiada o kryzysie z 1826 roku, o którym lekcja tylko wspomina: jak dziedzic utylitaryzmu odkrył, że szczęście, dla którego pracował, nie uszczęśliwia jego samego, i co przywróciło go do życia."
+      }
+    }
   ]
 }

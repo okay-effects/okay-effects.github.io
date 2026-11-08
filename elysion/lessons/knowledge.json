@@ -956,5 +956,91 @@
         "pl": "A teraz: czy możemy cokolwiek wiedzieć na pewno?"
       }
     }
+  ],
+  "further": [
+    {
+      "by": "Katja Vogt",
+      "title": "Ancient Skepticism (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/skepticism-ancient/",
+      "lang": "en",
+      "about": {
+        "en": "The doubt the lesson traces to Socrates, followed through the schools that made it a way of life — Plato's Academy and the Pyrrhonists, who suspended judgement to reach peace of mind — and from which Montaigne and Descartes inherited it.",
+        "ru": "Сомнение, которое урок возводит к Сократу, прослежено через школы, сделавшие его образом жизни, — Академию Платона и пирронистов, воздерживавшихся от суждения ради душевного покоя, — от которых его унаследовали Монтень и Декарт.",
+        "uk": "Сумнів, який урок виводить від Сократа, простежено через школи, що зробили його способом життя, — Платонову Академію і пірроністів, які утримувалися від судження заради душевного спокою, — від яких його успадкували Монтень і Декарт.",
+        "pl": "Wątpienie, które lekcja wywodzi od Sokratesa, prześledzone przez szkoły, które uczyniły z niego sposób życia — Akademię Platona i pirronistów, wstrzymujących się od sądu dla spokoju ducha — a od nich odziedziczyli je Montaigne i Kartezjusz."
+      }
+    },
+    {
+      "by": "Платон",
+      "title": "Теэтет",
+      "url": "https://ru.wikisource.org/wiki/Теэтет_(Платон;_Карпов)",
+      "lang": "ru",
+      "about": {
+        "en": "The dialogue in which Socrates asks what knowledge is — perception, true opinion, or true opinion with an account? — and refutes every answer, in Vasily Karpov's nineteenth-century Russian translation.",
+        "ru": "Диалог, в котором Сократ спрашивает, что такое знание — ощущение, истинное мнение или истинное мнение с объяснением? — и опровергает каждый ответ, в переводе Василия Карпова XIX века.",
+        "uk": "Діалог, у якому Сократ питає, що таке знання — відчуття, істинна думка чи істинна думка з поясненням? — і спростовує кожну відповідь, у російському перекладі Василя Карпова XIX століття.",
+        "pl": "Dialog, w którym Sokrates pyta, czym jest wiedza — spostrzeżeniem, prawdziwym mniemaniem czy prawdziwym mniemaniem z uzasadnieniem? — i obala każdą odpowiedź, w XIX-wiecznym rosyjskim przekładzie Wasilija Karpowa."
+      }
+    },
+    {
+      "by": "René Descartes (Kartezjusz)",
+      "title": "Rozprawa o metodzie",
+      "url": "https://wolnelektury.pl/katalog/lektura/rozprawa-o-metodzie/",
+      "lang": "pl",
+      "about": {
+        "en": "Descartes' own story, written in French for every reader in 1637, of how he came to doubt all he had been taught and found the one thing he could not doubt — 'I think, therefore I am' — here in Boy-Żeleński's Polish.",
+        "ru": "Рассказ самого Декарта, написанный в 1637 году по-французски для всякого читателя, о том, как он пришёл к сомнению во всём, чему его учили, и нашёл единственное, в чём сомневаться нельзя, — «мыслю, следовательно, существую», — здесь в польском переводе Боя-Желеньского.",
+        "uk": "Розповідь самого Декарта, написана 1637 року французькою для кожного читача, про те, як він дійшов до сумніву в усьому, чого його навчили, і знайшов єдине, у чому сумніватися не можна, — «мислю, отже, існую», — тут у польському перекладі Боя-Желенського.",
+        "pl": "Opowieść samego Kartezjusza, napisana w 1637 roku po francusku dla każdego czytelnika, o tym, jak zwątpił we wszystko, czego go nauczono, i znalazł jedyną rzecz, w którą nie mógł wątpić — „myślę, więc jestem” — tu w przekładzie Boya-Żeleńskiego."
+      }
+    },
+    {
+      "by": "Diogenes Laërtius",
+      "title": "Lives of the Eminent Philosophers, Book IX: Pyrrho",
+      "url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_IX",
+      "lang": "en",
+      "about": {
+        "en": "The ancient life of Pyrrho, founder of the scepticism Montaigne revived: how he suspended judgement on everything, and the stories of how — and whether — anyone could live that way.",
+        "ru": "Древнее жизнеописание Пиррона, основателя скептицизма, который возродил Монтень: как он воздерживался от суждения обо всём, и рассказы о том, как — и можно ли вообще — так жить.",
+        "uk": "Давній життєпис Піррона, засновника скептицизму, який відродив Монтень: як він утримувався від судження про все, і розповіді про те, як — і чи можна взагалі — так жити.",
+        "pl": "Starożytny żywot Pirrona, twórcy sceptycyzmu, który wskrzesił Montaigne: jak wstrzymywał się od sądu o wszystkim, i opowieści o tym, jak — i czy w ogóle — można tak żyć."
+      }
+    },
+    {
+      "by": "Frank Griffel",
+      "title": "al-Ghazali (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/al-ghazali/",
+      "lang": "en",
+      "about": {
+        "en": "Who al-Ghazali was and why his crisis of doubt in Baghdad mattered: how it led him to leave his chair, to answer the philosophers, and to rest knowledge on a light God casts into the heart.",
+        "ru": "Кто такой аль-Газали и почему его кризис сомнения в Багдаде так важен: как этот кризис заставил его оставить кафедру, ответить философам и обосновать знание светом, который Бог бросает в сердце.",
+        "uk": "Хто такий аль-Газалі і чому його криза сумніву в Багдаді така важлива: як ця криза змусила його залишити кафедру, відповісти філософам і обґрунтувати знання світлом, яке Бог кидає в серце.",
+        "pl": "Kim był al-Ghazali i dlaczego jego kryzys zwątpienia w Bagdadzie ma znaczenie: jak skłonił go do porzucenia katedry, do odpowiedzi filozofom i do oparcia wiedzy na świetle, które Bóg rzuca w serce."
+      }
+    },
+    {
+      "by": "David Hume",
+      "title": "An Enquiry Concerning Human Understanding",
+      "url": "https://www.gutenberg.org/ebooks/9662",
+      "lang": "en",
+      "about": {
+        "en": "Hume's sceptical turn after Descartes: we cannot prove even that the sun will rise tomorrow, yet nature makes us believe it — a doubt that no 'I think' can stop.",
+        "ru": "Скептический поворот Юма после Декарта: мы не можем доказать даже того, что солнце взойдёт завтра, и всё же природа заставляет нас в это верить, — сомнение, которое не остановит никакое «я мыслю».",
+        "uk": "Скептичний поворот Юма після Декарта: ми не можемо довести навіть того, що сонце зійде завтра, і все ж природа змушує нас у це вірити, — сумнів, якого не зупинить жодне «я мислю».",
+        "pl": "Sceptyczny zwrot Hume'a po Kartezjuszu: nie umiemy dowieść nawet tego, że słońce jutro wzejdzie, a jednak natura każe nam w to wierzyć — zwątpienie, którego nie zatrzyma żadne „myślę”."
+      }
+    },
+    {
+      "by": "Вікіпедія",
+      "title": "Скептицизм",
+      "url": "https://uk.wikipedia.org/wiki/Скептицизм",
+      "lang": "uk",
+      "about": {
+        "en": "The Ukrainian Wikipedia article on scepticism: what the word means in philosophy, and how the ancient school of Pyrrho, Aenesidemus, Agrippa and Sextus Empiricus came to doubt that certain knowledge of the world is possible at all.",
+        "ru": "Статья украинской Википедии о скептицизме: что это слово значит в философии и как античная школа Пиррона, Энесидема, Агриппы и Секста Эмпирика пришла к сомнению в самой возможности достоверного знания о мире.",
+        "uk": "Стаття української Вікіпедії про скептицизм: що це слово означає у філософії і як антична школа Піррона, Енесідема, Агріппи й Секста Емпірика дійшла сумніву в самій можливості достовірного знання про світ.",
+        "pl": "Artykuł ukraińskiej Wikipedii o sceptycyzmie: co to słowo znaczy w filozofii i jak starożytna szkoła Pirrona, Ainezydema, Agryppy i Sekstusa Empiryka doszła do zwątpienia, czy pewna wiedza o świecie jest w ogóle możliwa."
+      }
+    }
   ]
 }

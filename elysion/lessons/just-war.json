@@ -1125,5 +1125,79 @@
         "pl": "A teraz: czy wojna może być sprawiedliwa?"
       }
     }
+  ],
+  "further": [
+    {
+      "by": "Alexander Moseley",
+      "title": "Just War Theory (Internet Encyclopedia of Philosophy)",
+      "url": "https://iep.utm.edu/justwar/",
+      "lang": "en",
+      "about": {
+        "en": "The tradition the lesson's thinkers founded, set out as it stands today: the right to go to war (just cause, right authority, right intention, last resort) and right conduct in war — with its critics, realist and pacifist.",
+        "ru": "Традиция, которую основали мыслители урока, изложена такой, какова она сегодня: право начать войну (справедливая причина, законная власть, правое намерение, крайнее средство) и правила ведения войны — вместе с её критиками, реалистами и пацифистами.",
+        "uk": "Традиція, яку заснували мислителі уроку, викладена такою, якою вона є сьогодні: право почати війну (справедлива причина, законна влада, слушний намір, крайній засіб) і правила ведення війни — разом із її критиками, реалістами й пацифістами.",
+        "pl": "Tradycja, którą zapoczątkowali myśliciele lekcji, przedstawiona tak, jak wygląda dziś: prawo do rozpoczęcia wojny (słuszna przyczyna, prawowita władza, właściwa intencja, ostateczność) i zasady jej prowadzenia — razem z jej krytykami, realistami i pacyfistami."
+      }
+    },
+    {
+      "by": "Seth Lazar",
+      "title": "War (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/war/",
+      "lang": "en",
+      "about": {
+        "en": "Where the philosophy of war has gone since: whether soldiers on the unjust side are as blameless as those on the just one, why civilians may not be targeted, and what the old conditions mean in modern war.",
+        "ru": "Куда философия войны ушла с тех пор: так же ли невиновны солдаты несправедливой стороны, как солдаты справедливой, почему нельзя целить в мирных жителей и что значат старые условия в современной войне.",
+        "uk": "Куди філософія війни пішла відтоді: чи так само невинні солдати несправедливої сторони, як і справедливої, чому не можна цілити в мирних жителів і що означають старі умови в сучасній війні.",
+        "pl": "Dokąd filozofia wojny poszła od tamtej pory: czy żołnierze niesłusznej strony są tak samo niewinni jak żołnierze słusznej, dlaczego nie wolno celować w cywilów i co dawne warunki znaczą w nowoczesnej wojnie."
+      }
+    },
+    {
+      "by": "Владимир Сергеевич Соловьёв",
+      "title": "Три разговора о войне, прогрессе и конце всемирной истории",
+      "url": "https://ru.wikisource.org/wiki/Три_разговора_о_войне,_прогрессе_и_конце_всемирной_истории_(Соловьёв)",
+      "lang": "ru",
+      "about": {
+        "en": "Solovyov's last book (1900): in the first conversation an old general defends war as a holy work and a prince, a follower of Tolstoy, disputes it — the lesson's question argued out in the garden of a villa on the Mediterranean.",
+        "ru": "Последняя книга Соловьёва (1900): в первом разговоре старый генерал защищает войну как святое дело, а князь-толстовец ему возражает, — вопрос урока, разыгранный в саду виллы на Средиземноморье.",
+        "uk": "Остання книга Соловйова (1900): у першій розмові старий генерал боронить війну як святу справу, а князь-толстовець йому заперечує, — питання уроку, розігране в саду вілли на Середземномор'ї.",
+        "pl": "Ostatnia książka Sołowjowa (1900): w pierwszej rozmowie stary generał broni wojny jako świętej sprawy, a książę, wyznawca Tołstoja, mu się sprzeciwia — pytanie lekcji rozegrane w ogrodzie willi nad Morzem Śródziemnym."
+      }
+    },
+    {
+      "by": "Wikipedia",
+      "title": "Paweł Włodkowic",
+      "url": "https://pl.wikipedia.org/wiki/Paweł_Włodkowic",
+      "lang": "pl",
+      "about": {
+        "en": "On the Kraków jurist who at the Council of Constance (1414–1418) argued against the Teutonic Knights that pagans have a right to their lands and their faith, and that war may not be waged to convert them.",
+        "ru": "О краковском правоведе, который на Констанцском соборе (1414–1418) доказывал против Тевтонского ордена, что язычники имеют право на свои земли и свою веру и что нельзя воевать ради их обращения.",
+        "uk": "Про краківського правника, який на Констанцському соборі (1414–1418) доводив проти Тевтонського ордену, що язичники мають право на свої землі й свою віру і що не можна воювати задля їхнього навернення.",
+        "pl": "O krakowskim prawniku, który na soborze w Konstancji (1414–1418) dowodził przeciw Krzyżakom, że poganie mają prawo do swoich ziem i swojej wiary i że nie wolno prowadzić wojny, by ich nawracać."
+      }
+    },
+    {
+      "by": "Тарас Шевченко",
+      "title": "Кобзарь (1876), том 2: Кавказ",
+      "url": "https://uk.wikisource.org/wiki/Кобзарь_(1876)/Том_2/Кавказ",
+      "lang": "uk",
+      "about": {
+        "en": "Shevchenko's poem of 1845 on the empire's war in the Caucasus — the Melian dialogue seen by the conquered: 'Fight on — and you will win!', and a bitter answer to the claim that conquest brings enlightenment.",
+        "ru": "Поэма Шевченко 1845 года о войне империи на Кавказе — мелосский диалог глазами покорённых: «Боритесь — поборете!» — и горький ответ на уверения, что завоевание несёт просвещение.",
+        "uk": "Поема Шевченка 1845 року про війну імперії на Кавказі — мелоський діалог очима підкорених: «Борітеся — поборете!» — і гірка відповідь на запевнення, що завоювання несе просвіту.",
+        "pl": "Poemat Szewczenki z 1845 roku o wojnie imperium na Kaukazie — dialog melijski oczami podbitych: „Walczcie — zwyciężycie!” — i gorzka odpowiedź na zapewnienia, że podbój niesie oświecenie."
+      }
+    },
+    {
+      "by": "Immanuel Kant",
+      "title": "Perpetual Peace: A Philosophical Essay",
+      "url": "https://www.gutenberg.org/ebooks/50922",
+      "lang": "en",
+      "about": {
+        "en": "Kant's essay of 1795 asks not when war is just but how to end it: no secret reservations in treaties of peace, standing armies abolished in time, republics joined in a league of peace.",
+        "ru": "Трактат Канта 1795 года спрашивает не о том, когда война справедлива, а о том, как её прекратить: никаких тайных оговорок в мирных договорах, постоянные армии со временем упразднить, республики объединить в союз мира.",
+        "uk": "Трактат Канта 1795 року питає не про те, коли війна справедлива, а як її припинити: жодних таємних застережень у мирних договорах, постійні армії з часом скасувати, республіки об'єднати в союз миру.",
+        "pl": "Rozprawa Kanta z 1795 roku pyta nie o to, kiedy wojna jest słuszna, lecz jak ją zakończyć: żadnych tajnych zastrzeżeń w traktatach pokojowych, stałe armie z czasem znieść, republiki połączyć w związek pokoju."
+      }
+    }
   ]
 }
