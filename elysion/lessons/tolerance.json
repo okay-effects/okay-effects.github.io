@@ -1,0 +1,1057 @@
+{
+  "id": "tolerance",
+  "title": {
+    "en": "Should we tolerate beliefs we think are wrong?",
+    "ru": "Должны ли мы терпеть убеждения, которые считаем ошибочными?",
+    "uk": "Чи маємо ми терпіти переконання, які вважаємо хибними?",
+    "pl": "Czy powinniśmy tolerować przekonania, które uważamy za błędne?"
+  },
+  "subtitle": {
+    "en": "Locke, Voltaire, Mill and Ashoka — and you",
+    "ru": "Локк, Вольтер, Милль и Ашока — и вы",
+    "uk": "Локк, Вольтер, Мілль і Ашока — і ви",
+    "pl": "Locke, Wolter, Mill i Aśoka — i ty"
+  },
+  "steps": [
+    {
+      "ask": "first",
+      "question": {
+        "en": "Before you read anyone: should we tolerate beliefs we think are wrong?",
+        "ru": "Прежде чем читать кого-либо: должны ли мы терпеть убеждения, которые считаем ошибочными?",
+        "uk": "Перш ніж читати когось: чи маємо ми терпіти переконання, які вважаємо хибними?",
+        "pl": "Zanim kogokolwiek przeczytasz: czy powinniśmy tolerować przekonania, które uważamy za błędne?"
+      },
+      "options": [
+        {
+          "en": "Yes: no one has the right to force a belief on another",
+          "ru": "Да: никто не вправе навязывать другому убеждения",
+          "uk": "Так: ніхто не має права нав’язувати іншому переконання",
+          "pl": "Tak: nikt nie ma prawa narzucać drugiemu przekonań"
+        },
+        {
+          "en": "Yes — but not the intolerant: tolerance ends where violence begins",
+          "ru": "Да — но не нетерпимых: терпимость кончается там, где начинается насилие",
+          "uk": "Так — але не нетерпимих: терпимість закінчується там, де починається насильство",
+          "pl": "Tak — ale nie nietolerancyjnych: tolerancja kończy się tam, gdzie zaczyna się przemoc"
+        },
+        {
+          "en": "Only harmless ones: dangerous errors must be stopped",
+          "ru": "Только безвредные: опасные заблуждения нужно остановить",
+          "uk": "Лише нешкідливі: небезпечні помилки треба зупинити",
+          "pl": "Tylko nieszkodliwe: niebezpieczne błędy trzeba powstrzymać"
+        },
+        {
+          "en": "No: to tolerate error is not to care about the truth",
+          "ru": "Нет: терпеть заблуждение значит не заботиться об истине",
+          "uk": "Ні: терпіти помилку означає не дбати про істину",
+          "pl": "Nie: tolerować błąd to nie dbać o prawdę"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Locke: no one can be made to believe",
+        "ru": "Локк: никого нельзя заставить верить",
+        "uk": "Локк: нікого не можна змусити вірити",
+        "pl": "Locke: nikogo nie można zmusić do wiary"
+      },
+      "intro": {
+        "en": "Holland, the winter of 1685. In France, Louis XIV has just revoked the Edict of Nantes: Protestants are ordered to become Catholics, and tens of thousands are fleeing across the borders, though the law forbids it. John Locke, an English philosopher in exile, lives in hiding — his own king suspects him of plotting. He writes in Latin to a Dutch friend, the theologian Philipp van Limborch, a letter on whether Christians should tolerate one another. It was printed in 1689 without his name, and put into English the same year by William Popple:",
+        "ru": "Голландия, зима 1685 года. Во Франции Людовик XIV только что отменил Нантский эдикт: протестантам велено стать католиками, и десятки тысяч бегут за границу, хотя закон это запрещает. Английский философ Джон Локк живёт в изгнании и скрывается — его собственный король подозревает его в заговоре. Он пишет по-латыни голландскому другу, богослову Филиппу ван Лимборху, письмо о том, должны ли христиане терпеть друг друга. Оно было напечатано в 1689 году без имени автора и в том же году переведено на английский Уильямом Поплом:",
+        "uk": "Голландія, зима 1685 року. У Франції Людовик XIV щойно скасував Нантський едикт: протестантам наказано стати католиками, і десятки тисяч тікають за кордон, хоча закон це забороняє. Англійський філософ Джон Локк живе у вигнанні й переховується — його власний король підозрює його в змові. Він пише латиною голландському другові, богословові Філіппу ван Лімборху, лист про те, чи мають християни терпіти одне одного. Його надрукували 1689 року без імені автора, і того ж року його переклав англійською Вільям Попл:",
+        "pl": "Holandia, zima 1685 roku. We Francji Ludwik XIV właśnie odwołał edykt nantejski: protestantom kazano zostać katolikami, a dziesiątki tysięcy uciekają za granicę, choć prawo tego zabrania. John Locke, angielski filozof na wygnaniu, ukrywa się — jego własny król podejrzewa go o spisek. Pisze po łacinie do holenderskiego przyjaciela, teologa Philippa van Limborcha, list o tym, czy chrześcijanie powinni się wzajemnie tolerować. Wydrukowano go w 1689 roku bez nazwiska autora, a jeszcze w tym samym roku przełożył go na angielski William Popple:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "John Locke, A Letter Concerning Toleration (1689), paragraph 9",
+            "ru": "Джон Локк, «Послание о веротерпимости» (1689), абзац 9",
+            "uk": "Джон Локк, «Лист про віротерпимість» (1689), абзац 9",
+            "pl": "John Locke, List o tolerancji (1689), akapit 9"
+          },
+          "quotes": {
+            "en": {
+              "edition": "locke-tolerance.en.popple",
+              "from": "1.9",
+              "to": "1.9",
+              "text": "First, because the care of souls is not committed to the civil magistrate, any more than to other men. It is not committed unto him, I say, by God; because it appears not that God has ever given any such authority to one man over another as to compel anyone to his religion. Nor can any such power be vested in the magistrate by the consent of the people, because no man can so far abandon the care of his own salvation as blindly to leave to the choice of any other, whether prince or subject, to prescribe to him what faith or worship he shall embrace. For no man can, if he would, conform his faith to the dictates of another. All the life and power of true religion consist in the inward and full persuasion of the mind; and faith is not faith without believing.",
+              "kind": "Free",
+              "translator": "William Popple",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_Letter_Concerning_Toleration",
+                "lang": "en",
+                "title": "John Locke, A Letter Concerning Toleration"
+              }
+            },
+            "ru": {
+              "edition": "locke-tolerance.ru.ours",
+              "from": "1.9",
+              "to": "1.9",
+              "text": "Во-первых, потому что попечение о душах не вверено гражданскому правителю, как не вверено оно и другим людям. Оно не вверено ему, говорю я, Богом, ибо не видно, чтобы Бог когда-либо давал одному человеку такую власть над другим, чтобы принуждать кого-либо к своей религии. И не может такая власть быть вручена правителю согласием народа, ибо никто не может настолько отречься от заботы о собственном спасении, чтобы слепо предоставить выбору кого-то другого, будь то государь или подданный, предписывать ему, какую веру или какое богослужение он должен принять. Ведь никто не может, даже если бы захотел, сообразовать свою веру с велениями другого. Вся жизнь и сила истинной религии заключается во внутреннем и полном убеждении ума; и вера не есть вера, если человек не верит.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_Letter_Concerning_Toleration",
+                "lang": "en",
+                "title": "Джон Локк, «Послание о веротерпимости»"
+              }
+            },
+            "uk": {
+              "edition": "locke-tolerance.uk.ours",
+              "from": "1.9",
+              "to": "1.9",
+              "text": "По-перше, тому що піклування про душі не доручено цивільному правителеві, як не доручено його й іншим людям. Його не доручено йому, кажу я, Богом, бо не видно, щоб Бог будь-коли давав одній людині таку владу над іншою, щоб примушувати когось до своєї релігії. І не може така влада бути надана правителеві згодою народу, бо ніхто не може настільки зректися турботи про власне спасіння, щоб сліпо полишити на вибір когось іншого, чи то государя, чи підданого, приписувати йому, яку віру чи яке богослужіння він має прийняти. Адже ніхто не може, навіть якби хотів, узгодити свою віру з велінням іншого. Усе життя й уся сила істинної релігії полягають у внутрішньому й повному переконанні розуму; і віра не є вірою, якщо людина не вірить.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_Letter_Concerning_Toleration",
+                "lang": "en",
+                "title": "Джон Локк, «Лист про віротерпимість»"
+              }
+            },
+            "pl": {
+              "edition": "locke-tolerance.pl.ours",
+              "from": "1.9",
+              "to": "1.9",
+              "text": "Po pierwsze, dlatego że troska o dusze nie jest powierzona władzy cywilnej, tak jak nie jest powierzona innym ludziom. Nie powierzył jej, powiadam, Bóg, bo nie widać, by Bóg kiedykolwiek dał jednemu człowiekowi taką władzę nad drugim, by zmuszać kogokolwiek do swojej religii. Nie może też takie uprawnienie zostać nadane władzy cywilnej za zgodą ludu, bo nikt nie może aż tak porzucić troski o własne zbawienie, by ślepo zostawić wyborowi kogoś innego, czy to księcia, czy poddanego, przepisywanie mu, jaką wiarę lub jaki kult ma przyjąć. Nikt bowiem nie może, choćby chciał, dostosować swej wiary do nakazów drugiego. Całe życie i cała moc prawdziwej religii polega na wewnętrznym i pełnym przekonaniu umysłu; a wiara nie jest wiarą, jeśli człowiek nie wierzy.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_Letter_Concerning_Toleration",
+                "lang": "en",
+                "title": "John Locke, List o tolerancji"
+              }
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "The same Letter, paragraph 71: where toleration ends",
+            "ru": "То же «Послание», абзац 71: где кончается терпимость",
+            "uk": "Той самий «Лист», абзац 71: де закінчується терпимість",
+            "pl": "Ten sam List, akapit 71: gdzie kończy się tolerancja"
+          },
+          "quotes": {
+            "en": {
+              "edition": "locke-tolerance.en.popple",
+              "from": "1.71",
+              "to": "1.71",
+              "text": "Lastly, those are not at all to be tolerated who deny the being of a God. Promises, covenants, and oaths, which are the bonds of human society, can have no hold upon an atheist. The taking away of God, though but even in thought, dissolves all; besides also, those that by their atheism undermine and destroy all religion, can have no pretence of religion whereupon to challenge the privilege of a toleration. As for other practical opinions, though not absolutely free from all error, if they do not tend to establish domination over others, or civil impunity to the Church in which they are taught, there can be no reason why they should not be tolerated.",
+              "kind": "Free",
+              "translator": "William Popple",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_Letter_Concerning_Toleration",
+                "lang": "en",
+                "title": "John Locke, A Letter Concerning Toleration"
+              }
+            },
+            "ru": {
+              "edition": "locke-tolerance.ru.ours",
+              "from": "1.71",
+              "to": "1.71",
+              "text": "Наконец, вовсе не следует терпеть тех, кто отрицает бытие Бога. Обещания, договоры и клятвы, которые суть узы человеческого общества, не могут иметь никакой власти над атеистом. Устранение Бога, хотя бы только в мысли, разрушает всё; кроме того, те, кто своим атеизмом подрывает и уничтожает всякую религию, не могут ссылаться ни на какую религию, чтобы притязать на привилегию терпимости. Что же до других практических мнений, то, хотя бы они и не были вполне свободны от всякого заблуждения, если они не стремятся установить ни господство над другими, ни гражданскую безнаказанность для Церкви, в которой их преподают, нет никакой причины не терпеть их.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_Letter_Concerning_Toleration",
+                "lang": "en",
+                "title": "Джон Локк, «Послание о веротерпимости»"
+              }
+            },
+            "uk": {
+              "edition": "locke-tolerance.uk.ours",
+              "from": "1.71",
+              "to": "1.71",
+              "text": "Нарешті, зовсім не слід терпіти тих, хто заперечує буття Бога. Обіцянки, угоди й клятви, що є узами людського суспільства, не можуть мати жодної влади над атеїстом. Усунення Бога, хоч би лише в думці, руйнує все; крім того, ті, хто своїм атеїзмом підриває й нищить усяку релігію, не можуть посилатися на жодну релігію, щоб домагатися привілею терпимості. Щодо інших практичних думок, то, хоч би вони й не були цілком вільні від усякої помилки, якщо вони не прагнуть установити ні панування над іншими, ні громадянської безкарності для Церкви, в якій їх навчають, немає жодної причини їх не терпіти.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_Letter_Concerning_Toleration",
+                "lang": "en",
+                "title": "Джон Локк, «Лист про віротерпимість»"
+              }
+            },
+            "pl": {
+              "edition": "locke-tolerance.pl.ours",
+              "from": "1.71",
+              "to": "1.71",
+              "text": "Wreszcie, zupełnie nie należy tolerować tych, którzy zaprzeczają istnieniu Boga. Obietnice, umowy i przysięgi, które są więzami społeczeństwa ludzkiego, nie mogą mieć żadnej mocy nad ateistą. Usunięcie Boga, choćby tylko w myśli, rozwiązuje wszystko; poza tym ci, którzy swym ateizmem podkopują i niszczą wszelką religię, nie mogą powoływać się na żadną religię, by domagać się przywileju tolerancji. Co zaś do innych opinii praktycznych, to choćby nie były całkiem wolne od wszelkiego błędu, jeśli nie zmierzają ani do ustanowienia panowania nad innymi, ani do bezkarności obywatelskiej dla Kościoła, w którym się ich naucza, nie ma żadnego powodu, by ich nie tolerować.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/A_Letter_Concerning_Toleration",
+                "lang": "en",
+                "title": "John Locke, List o tolerancji"
+              }
+            }
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Locke never admitted in public that he had written the Letter; he owned it only in a codicil to his will, shortly before his death in 1704.",
+            "ru": "Локк так и не признал публично, что написал «Послание»; он признал это лишь в приписке к завещанию, незадолго до смерти в 1704 году.",
+            "uk": "Локк так і не визнав публічно, що написав «Лист»; він визнав це лише в доповненні до заповіту, незадовго до смерті 1704 року.",
+            "pl": "Locke nigdy publicznie nie przyznał się do autorstwa Listu; przyznał się do niego dopiero w kodycylu do testamentu, niedługo przed śmiercią w 1704 roku."
+          },
+          "source": "Maurice Cranston, John Locke: A Biography (1957)"
+        },
+        {
+          "fact": {
+            "en": "The same year, 1689, the English Parliament passed the Toleration Act: Protestant dissenters who took the oaths might worship in their own meeting-houses — but not Catholics, nor those who denied the Trinity.",
+            "ru": "В том же 1689 году английский парламент принял Акт о веротерпимости: протестанты-диссентеры, принёсшие присяги, могли молиться в собственных молитвенных домах — но не католики и не те, кто отрицал Троицу.",
+            "uk": "Того ж 1689 року англійський парламент ухвалив Акт про віротерпимість: протестанти-дисентери, які склали присяги, могли молитися у власних молитовних домах — але не католики й не ті, хто заперечував Трійцю.",
+            "pl": "W tym samym 1689 roku parlament angielski uchwalił akt tolerancyjny: protestanccy dysydenci, którzy złożyli przysięgi, mogli odprawiać nabożeństwa we własnych domach modlitwy — ale nie katolicy ani ci, którzy zaprzeczali Trójcy."
+          },
+          "source": "The Toleration Act, 1 Will. & Mar. c. 18 (1689)"
+        },
+        {
+          "fact": {
+            "en": "Popple's preface went further than the Letter: “Absolute liberty, just and true liberty, equal and impartial liberty, is the thing that we stand in need of.”",
+            "ru": "Предисловие Попла шло дальше самого «Послания»: «Полная свобода, справедливая и истинная свобода, равная и беспристрастная свобода — вот в чём мы нуждаемся».",
+            "uk": "Передмова Попла йшла далі, ніж сам «Лист»: «Цілковита свобода, справедлива й справжня свобода, рівна й неупереджена свобода — ось чого ми потребуємо».",
+            "pl": "Przedmowa Popple’a szła dalej niż sam List: „Absolutna wolność, sprawiedliwa i prawdziwa wolność, równa i bezstronna wolność — oto czego nam trzeba”."
+          },
+          "source": "William Popple, “To the Reader”, in John Locke, A Letter Concerning Toleration (London, 1689)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Voltaire: the right of the tiger",
+        "ru": "Вольтер: право тигра",
+        "uk": "Вольтер: право тигра",
+        "pl": "Wolter: prawo tygrysa"
+      },
+      "intro": {
+        "en": "Ferney, on the French border near Geneva, 1763. A year earlier, in Toulouse, the Protestant merchant Jean Calas was broken on the wheel. His eldest son had been found dead in the family's house, and the crowd cried that the father had killed him to stop him becoming a Catholic. Calas died on the wheel, calling on God to witness his innocence. Voltaire, famous across Europe, takes up the cause of the widow and her children, and writes a Treatise on Tolerance “on the occasion of the death of Jean Calas”. Here he asks whether intolerance can be a right of nature — and when, if ever, a government may punish error:",
+        "ru": "Ферне, на французской границе близ Женевы, 1763 год. Годом раньше в Тулузе колесовали протестантского купца Жана Каласа. Его старшего сына нашли мёртвым в доме семьи, и толпа закричала, что отец убил его, чтобы тот не стал католиком. Калас умер на колесе, призывая Бога в свидетели своей невиновности. Вольтер, знаменитый на всю Европу, берётся за дело вдовы и её детей и пишет «Трактат о веротерпимости по случаю смерти Жана Каласа». Здесь он спрашивает, может ли нетерпимость быть правом естественным, — и когда, если вообще когда-нибудь, правительство вправе карать заблуждение:",
+        "uk": "Ферне, на французькому кордоні біля Женеви, 1763 рік. Роком раніше в Тулузі колесували протестантського купця Жана Каласа. Його старшого сина знайшли мертвим у домі родини, і натовп закричав, що батько вбив його, аби той не став католиком. Калас помер на колесі, закликаючи Бога засвідчити його невинність. Вольтер, знаменитий на всю Європу, береться за справу вдови та її дітей і пише «Трактат про віротерпимість з нагоди смерті Жана Каласа». Тут він питає, чи може нетерпимість бути природним правом, — і коли, якщо взагалі колись, уряд має право карати помилку:",
+        "pl": "Ferney, na granicy francuskiej pod Genewą, rok 1763. Rok wcześniej w Tuluzie stracono przez łamanie kołem protestanckiego kupca Jeana Calasa. Jego najstarszego syna znaleziono martwego w domu rodziny, a tłum zaczął krzyczeć, że ojciec zabił go, by ten nie został katolikiem. Calas umarł na kole, wzywając Boga na świadka swej niewinności. Wolter, sławny w całej Europie, podejmuje sprawę wdowy i jej dzieci i pisze Traktat o tolerancji z powodu śmierci Jeana Calasa. Tu pyta, czy nietolerancja może być prawem naturalnym — i kiedy, jeśli w ogóle, rząd może karać błąd:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Voltaire, Treatise on Tolerance (1763), ch. 6: whether intolerance is of natural and human law",
+            "ru": "Вольтер, «Трактат о веротерпимости» (1763), гл. 6: есть ли нетерпимость право естественное и человеческое",
+            "uk": "Вольтер, «Трактат про віротерпимість» (1763), розд. 6: чи є нетерпимість правом природним і людським",
+            "pl": "Wolter, Traktat o tolerancji (1763), rozdz. 6: czy nietolerancja należy do prawa naturalnego i ludzkiego"
+          },
+          "quotes": {
+            "en": {
+              "edition": "voltaire-tolerance.en.mccabe",
+              "from": "6.2",
+              "to": "6.2",
+              "text": "All over the earth the great principle of both is: Do not unto others what you would that they do not unto you. Now, in virtue of this principle, one man cannot say to another: \"Believe what I believe, and what thou canst not believe, or thou shalt perish.\" Thus do men speak in Portugal, Spain, and Goa. In some other countries they are now content to say: \"Believe, or I detest thee; believe, or I will do thee all the harm I can. Monster, thou sharest not my religion, and therefore hast no religion; thou shalt be a thing of horror to thy neighbours, thy city, and thy province.\"",
+              "kind": "Free",
+              "translator": "Joseph McCabe",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Toleration_and_other_essays/In_Connection_with_the_Death_of_Jean_Calas",
+                "lang": "en",
+                "title": "Voltaire, Treatise on Tolerance"
+              }
+            },
+            "ru": {
+              "edition": "voltaire-tolerance.ru.ours",
+              "from": "6.2",
+              "to": "6.2",
+              "text": "По всей земле великое начало и того, и другого права гласит: не делай другим того, чего не хотел бы, чтобы делали тебе. И вот, в силу этого начала, один человек не может сказать другому: «Верь в то, во что верю я и во что ты верить не можешь, иначе погибнешь». Так говорят в Португалии, Испании и Гоа. В некоторых других странах теперь довольствуются тем, что говорят: «Верь, или я возненавижу тебя; верь, или я причиню тебе всё зло, какое смогу. Чудовище, ты не разделяешь моей религии, а значит, у тебя нет никакой религии; ты будешь предметом ужаса для своих соседей, своего города и своей провинции».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Toleration_and_other_essays/In_Connection_with_the_Death_of_Jean_Calas",
+                "lang": "en",
+                "title": "Вольтер, «Трактат о веротерпимости»"
+              }
+            },
+            "uk": {
+              "edition": "voltaire-tolerance.uk.ours",
+              "from": "6.2",
+              "to": "6.2",
+              "text": "По всій землі велика засада і того, і другого права така: не роби іншим того, чого не хотів би, щоб робили тобі. Отже, в силу цієї засади одна людина не може сказати іншій: «Вір у те, у що вірю я і у що ти вірити не можеш, або загинеш». Так кажуть у Португалії, Іспанії та Гоа. У деяких інших країнах тепер задовольняються тим, що кажуть: «Вір, або я тебе зненавиджу; вір, або я заподію тобі все зло, яке зможу. Чудовисько, ти не поділяєш моєї релігії, а отже, не маєш жодної релігії; ти будеш предметом жаху для своїх сусідів, свого міста й своєї провінції».",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Toleration_and_other_essays/In_Connection_with_the_Death_of_Jean_Calas",
+                "lang": "en",
+                "title": "Вольтер, «Трактат про віротерпимість»"
+              }
+            },
+            "pl": {
+              "edition": "voltaire-tolerance.pl.ours",
+              "from": "6.2",
+              "to": "6.2",
+              "text": "Na całej ziemi wielka zasada jednego i drugiego prawa brzmi: nie czyń drugiemu tego, czego byś nie chciał, by tobie czyniono. Otóż na mocy tej zasady jeden człowiek nie może powiedzieć drugiemu: „Wierz w to, w co ja wierzę i w co ty wierzyć nie możesz, albo zginiesz”. Tak mówią w Portugalii, Hiszpanii i Goa. W niektórych innych krajach zadowalają się teraz tym, że mówią: „Wierz, albo cię znienawidzę; wierz, albo wyrządzę ci całe zło, jakie zdołam. Potworze, nie wyznajesz mojej religii, a zatem nie masz żadnej religii; będziesz przedmiotem grozy dla swoich sąsiadów, swojego miasta i swojej prowincji”.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Toleration_and_other_essays/In_Connection_with_the_Death_of_Jean_Calas",
+                "lang": "en",
+                "title": "Wolter, Traktat o tolerancji"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Trait%C3%A9_sur_la_tol%C3%A9rance/%C3%89dition_1763/06"
+          }
+        },
+        {
+          "by": {
+            "en": "The same chapter",
+            "ru": "Та же глава",
+            "uk": "Той самий розділ",
+            "pl": "Ten sam rozdział"
+          },
+          "quotes": {
+            "en": {
+              "edition": "voltaire-tolerance.en.mccabe",
+              "from": "6.4",
+              "to": "6.4",
+              "text": "The supposed right of intolerance is absurd and barbaric. It is the right of the tiger; nay, it is far worse, for tigers do but tear in order to have food, while we rend each other for paragraphs.",
+              "kind": "Free",
+              "translator": "Joseph McCabe",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Toleration_and_other_essays/In_Connection_with_the_Death_of_Jean_Calas",
+                "lang": "en",
+                "title": "Voltaire, Treatise on Tolerance"
+              }
+            },
+            "ru": {
+              "edition": "voltaire-tolerance.ru.ours",
+              "from": "6.4",
+              "to": "6.4",
+              "text": "Мнимое право нетерпимости — нелепое и варварское. Это право тигра; нет, оно гораздо хуже, ибо тигры терзают лишь для того, чтобы добыть пищу, а мы раздираем друг друга из-за параграфов.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Toleration_and_other_essays/In_Connection_with_the_Death_of_Jean_Calas",
+                "lang": "en",
+                "title": "Вольтер, «Трактат о веротерпимости»"
+              }
+            },
+            "uk": {
+              "edition": "voltaire-tolerance.uk.ours",
+              "from": "6.4",
+              "to": "6.4",
+              "text": "Уявне право нетерпимості — безглузде й варварське. Це право тигра; ні, воно набагато гірше, бо тигри шматують лише для того, щоб здобути їжу, а ми роздираємо одне одного через параграфи.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Toleration_and_other_essays/In_Connection_with_the_Death_of_Jean_Calas",
+                "lang": "en",
+                "title": "Вольтер, «Трактат про віротерпимість»"
+              }
+            },
+            "pl": {
+              "edition": "voltaire-tolerance.pl.ours",
+              "from": "6.4",
+              "to": "6.4",
+              "text": "Rzekome prawo nietolerancji jest niedorzeczne i barbarzyńskie. To prawo tygrysa; ba, jest ono o wiele gorsze, bo tygrysy rozszarpują tylko po to, by zdobyć pożywienie, my zaś rozdzieramy się nawzajem o paragrafy.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Toleration_and_other_essays/In_Connection_with_the_Death_of_Jean_Calas",
+                "lang": "en",
+                "title": "Wolter, Traktat o tolerancji"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Trait%C3%A9_sur_la_tol%C3%A9rance/%C3%89dition_1763/06"
+          }
+        },
+        {
+          "by": {
+            "en": "Ch. 18: the only cases in which intolerance is humanly lawful",
+            "ru": "Гл. 18: единственные случаи, когда нетерпимость законна по праву человеческому",
+            "uk": "Розд. 18: єдині випадки, коли нетерпимість законна за людським правом",
+            "pl": "Rozdz. 18: jedyne przypadki, w których nietolerancja jest zgodna z prawem ludzkim"
+          },
+          "quotes": {
+            "en": {
+              "edition": "voltaire-tolerance.en.mccabe",
+              "from": "18.1",
+              "to": "18.1",
+              "text": "For a government to have the right to punish the errors of men it is necessary that their errors must take the form of crime; they do not take the form of crime unless they disturbed society; they disturb society when they engender fanaticism; hence men must avoid fanaticism in order to deserve toleration.",
+              "kind": "Free",
+              "translator": "Joseph McCabe",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Toleration_and_other_essays/In_Connection_with_the_Death_of_Jean_Calas",
+                "lang": "en",
+                "title": "Voltaire, Treatise on Tolerance"
+              }
+            },
+            "ru": {
+              "edition": "voltaire-tolerance.ru.ours",
+              "from": "18.1",
+              "to": "18.1",
+              "text": "Чтобы правительство имело право карать заблуждения людей, необходимо, чтобы их заблуждения приняли вид преступления; они не принимают вида преступления, если не нарушают покоя общества; они нарушают покой общества, когда порождают фанатизм; следовательно, люди должны избегать фанатизма, чтобы заслуживать терпимости.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Toleration_and_other_essays/In_Connection_with_the_Death_of_Jean_Calas",
+                "lang": "en",
+                "title": "Вольтер, «Трактат о веротерпимости»"
+              }
+            },
+            "uk": {
+              "edition": "voltaire-tolerance.uk.ours",
+              "from": "18.1",
+              "to": "18.1",
+              "text": "Щоб уряд мав право карати помилки людей, необхідно, щоб їхні помилки набули вигляду злочину; вони не набувають вигляду злочину, якщо не порушують спокою суспільства; вони порушують спокій суспільства, коли породжують фанатизм; отже, люди мусять уникати фанатизму, щоб заслуговувати на терпимість.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Toleration_and_other_essays/In_Connection_with_the_Death_of_Jean_Calas",
+                "lang": "en",
+                "title": "Вольтер, «Трактат про віротерпимість»"
+              }
+            },
+            "pl": {
+              "edition": "voltaire-tolerance.pl.ours",
+              "from": "18.1",
+              "to": "18.1",
+              "text": "Aby rząd miał prawo karać błędy ludzi, trzeba, by ich błędy przybrały postać zbrodni; nie przybierają one postaci zbrodni, jeśli nie zakłócają spokoju społeczeństwa; zakłócają spokój społeczeństwa, gdy rodzą fanatyzm; a zatem ludzie muszą unikać fanatyzmu, by zasłużyć na tolerancję.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Toleration_and_other_essays/In_Connection_with_the_Death_of_Jean_Calas",
+                "lang": "en",
+                "title": "Wolter, Traktat o tolerancji"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in French",
+              "ru": "оригинал на французском",
+              "uk": "оригінал французькою",
+              "pl": "oryginał po francusku"
+            },
+            "url": "https://fr.wikisource.org/wiki/Trait%C3%A9_sur_la_tol%C3%A9rance/%C3%89dition_1763/18"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Voltaire tells that Toulouse still kept, with a procession, the anniversary of a massacre of four thousand Huguenots two hundred years before; 1762 was its two-hundredth year, and it was said aloud that the scaffold of the Calas would adorn the feast.",
+            "ru": "Вольтер рассказывает, что Тулуза всё ещё праздновала процессией годовщину резни четырёх тысяч гугенотов, случившейся двумя веками раньше; 1762 год был двухсотым, и вслух говорили, что эшафот Каласов станет украшением праздника.",
+            "uk": "Вольтер розповідає, що Тулуза досі святкувала процесією річницю різанини чотирьох тисяч гугенотів, яка сталася двома століттями раніше; 1762 рік був двохсотим, і вголос казали, що ешафот Каласів стане окрасою свята.",
+            "pl": "Wolter opowiada, że Tuluza wciąż obchodziła procesją rocznicę rzezi czterech tysięcy hugenotów sprzed dwustu lat; rok 1762 był dwusetny i mówiono głośno, że szafot Calasów będzie ozdobą święta."
+          },
+          "source": "Voltaire, Treatise on Tolerance (1763), ch. 1"
+        },
+        {
+          "fact": {
+            "en": "Of the thirteen judges, eight voted to send Calas to the wheel and five against; Voltaire notes that in Athens a sentence of death had needed fifty votes above half.",
+            "ru": "Из тринадцати судей восемь голосовали за колесование Каласа и пятеро против; Вольтер замечает, что в Афинах для смертного приговора требовалось на пятьдесят голосов больше половины.",
+            "uk": "З тринадцяти суддів вісім голосували за колесування Каласа і п’ятеро проти; Вольтер зауважує, що в Афінах для смертного вироку потрібно було на п’ятдесят голосів більше від половини.",
+            "pl": "Z trzynastu sędziów ośmiu głosowało za łamaniem Calasa kołem, a pięciu przeciw; Wolter zauważa, że w Atenach do wyroku śmierci trzeba było pięćdziesięciu głosów ponad połowę."
+          },
+          "source": "Voltaire, Treatise on Tolerance (1763), ch. 1"
+        },
+        {
+          "fact": {
+            "en": "On 9 March 1765, three years to the day after the sentence of Toulouse, royal judges in Paris declared Jean Calas innocent.",
+            "ru": "9 марта 1765 года, ровно через три года после тулузского приговора, королевские судьи в Париже признали Жана Каласа невиновным.",
+            "uk": "9 березня 1765 року, рівно через три роки після тулузького вироку, королівські судді в Парижі визнали Жана Каласа невинним.",
+            "pl": "9 marca 1765 roku, równo trzy lata po wyroku tuluskim, sędziowie królewscy w Paryżu uznali Jeana Calasa za niewinnego."
+          },
+          "source": "David D. Bien, The Calas Affair: Persecution, Toleration, and Heresy in Eighteenth-Century Toulouse (1960)"
+        }
+      ]
+    },
+    {
+      "read": {
+        "en": "Mill: all mankind minus one",
+        "ru": "Милль: всё человечество без одного",
+        "uk": "Мілль: усе людство без одного",
+        "pl": "Mill: cała ludzkość bez jednego"
+      },
+      "intro": {
+        "en": "England, 1859. Heretics are no longer burned; what Mill fears is a quieter tyranny — the opinion of the majority, which can silence a dissenter without a policeman. He planned On Liberty with his wife, Harriet Taylor Mill; she died at Avignon the year before it appeared, and he dedicated it to her memory. In its second chapter he asks whether an opinion may be silenced if all but one person think it false:",
+        "ru": "Англия, 1859 год. Еретиков больше не сжигают; Милль боится тирании потише — мнения большинства, которое может заставить инакомыслящего замолчать без всякой полиции. Он задумал «О свободе» вместе с женой, Гарриет Тейлор Милль; она умерла в Авиньоне за год до выхода книги, и он посвятил книгу её памяти. Во второй главе он спрашивает, можно ли заглушить мнение, если все, кроме одного человека, считают его ложным:",
+        "uk": "Англія, 1859 рік. Єретиків більше не спалюють; Мілль боїться тихішої тиранії — думки більшості, яка може змусити інакодумця замовкнути без жодної поліції. Він задумав «Про свободу» разом із дружиною, Гаррієт Тейлор Мілль; вона померла в Авіньйоні за рік до виходу книжки, і він присвятив книжку її пам’яті. У другому розділі він питає, чи можна заглушити думку, якщо всі, крім однієї людини, вважають її хибною:",
+        "pl": "Anglia, rok 1859. Heretyków już się nie pali; Mill boi się cichszej tyranii — opinii większości, która potrafi uciszyć odszczepieńca bez żadnej policji. O wolności zamyślił razem z żoną, Harriet Taylor Mill; zmarła w Awinionie rok przed ukazaniem się książki, a on poświęcił ją jej pamięci. W drugim rozdziale pyta, czy wolno zdławić opinię, jeśli wszyscy oprócz jednego człowieka uważają ją za fałszywą:"
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "John Stuart Mill, On Liberty (1859), ch. 2",
+            "ru": "Джон Стюарт Милль, «О свободе» (1859), гл. 2",
+            "uk": "Джон Стюарт Мілль, «Про свободу» (1859), розд. 2",
+            "pl": "John Stuart Mill, O wolności (1859), rozdz. 2"
+          },
+          "quotes": {
+            "en": {
+              "edition": "liberty-tolerance.en",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "If all mankind minus one, were of one opinion, and only one person were of the contrary opinion, mankind would be no more justified in silencing that one person, than he, if he had the power, would be justified in silencing mankind. Were an opinion a personal possession of no value except to the owner; if to be obstructed in the enjoyment of it were simply a private injury, it would make some difference whether the injury was inflicted only on a few persons or on many. But the peculiar evil of silencing the expression of an opinion is, that it is robbing the human race; posterity as well as the existing generation; those who dissent from the opinion, still more than those who hold it. If the opinion is right, they are deprived of the opportunity of exchanging error for truth: if wrong, they lose, what is almost as great a benefit, the clearer perception and livelier impression of truth, produced by its collision with error.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_Liberty",
+                "lang": "en",
+                "title": "John Stuart Mill, On Liberty"
+              }
+            },
+            "ru": {
+              "edition": "liberty-tolerance.ru.ours",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "Если бы всё человечество, кроме одного человека, держалось одного мнения и лишь один человек держался противоположного, человечество имело бы не больше права заставить замолчать этого одного, чем он, будь у него власть, имел бы право заставить замолчать человечество. Будь мнение личной собственностью, не имеющей ценности ни для кого, кроме владельца, будь помеха в пользовании им просто частной обидой, было бы не всё равно, нанесена ли эта обида немногим или многим. Но особое зло в том, чтобы заглушать выражение мнения, состоит в том, что это ограбление человеческого рода — потомства так же, как ныне живущего поколения, и тех, кто с этим мнением не согласен, ещё больше, чем тех, кто его разделяет. Если мнение верно, их лишают возможности сменить заблуждение на истину; если неверно, они теряют то, что почти столь же ценно: более ясное восприятие и более живое впечатление истины, рождающиеся из её столкновения с заблуждением.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_Liberty",
+                "lang": "en",
+                "title": "Джон Стюарт Милль, «О свободе»"
+              }
+            },
+            "uk": {
+              "edition": "liberty-tolerance.uk.ours",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "Якби все людство, крім однієї людини, було однієї думки і лише одна людина була протилежної, людство мало б не більше права змусити замовкнути цю одну людину, ніж вона, якби мала владу, мала б право змусити замовкнути людство. Якби думка була особистою власністю, що не має цінності ні для кого, крім власника, якби перешкода в користуванні нею була просто приватною кривдою, то було б не все одно, чи завдано цієї кривди небагатьом, чи багатьом. Але особливе зло в тому, щоб глушити вираження думки, полягає в тому, що це пограбування людського роду — нащадків так само, як і нинішнього покоління, і тих, хто з цією думкою не згоден, ще більше, ніж тих, хто її поділяє. Якщо думка слушна, їх позбавляють змоги замінити помилку на істину; якщо хибна, вони втрачають те, що є майже такою ж великою користю: ясніше сприйняття і живіше враження істини, що народжуються з її зіткнення з помилкою.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_Liberty",
+                "lang": "en",
+                "title": "Джон Стюарт Мілль, «Про свободу»"
+              }
+            },
+            "pl": {
+              "edition": "liberty-tolerance.pl.ours",
+              "from": "2.1",
+              "to": "2.1",
+              "text": "Gdyby cała ludzkość z wyjątkiem jednego człowieka była jednego zdania, a tylko jeden człowiek był zdania przeciwnego, ludzkość nie miałaby większego prawa nakazać milczenia temu jednemu, niż on, gdyby miał władzę, miałby prawo nakazać milczenie ludzkości. Gdyby opinia była osobistą własnością bez żadnej wartości dla nikogo poza właścicielem, gdyby przeszkoda w korzystaniu z niej była po prostu prywatną krzywdą, nie byłoby obojętne, czy krzywdę wyrządzono tylko nielicznym, czy wielu. Lecz szczególne zło zamykania ust wyrażanej opinii polega na tym, że jest to ograbianie rodzaju ludzkiego — potomności tak samo jak obecnego pokolenia, i tych, którzy się z tą opinią nie zgadzają, jeszcze bardziej niż tych, którzy ją podzielają. Jeśli opinia jest słuszna, pozbawia się ich sposobności zamiany błędu na prawdę; jeśli błędna, tracą to, co jest korzyścią niemal równie wielką: jaśniejsze postrzeganie i żywsze wrażenie prawdy, rodzące się z jej zderzenia z błędem.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_Liberty",
+                "lang": "en",
+                "title": "John Stuart Mill, O wolności"
+              }
+            }
+          }
+        },
+        {
+          "by": {
+            "en": "The same chapter: the two cases",
+            "ru": "Та же глава: два случая",
+            "uk": "Той самий розділ: два випадки",
+            "pl": "Ten sam rozdział: dwa przypadki"
+          },
+          "quotes": {
+            "en": {
+              "edition": "liberty-tolerance.en",
+              "from": "2.2",
+              "to": "2.2",
+              "text": "We can never be sure that the opinion we are endeavouring to stifle is a false opinion; and if we were sure, stifling it would be an evil still.",
+              "kind": "Original",
+              "translator": null,
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_Liberty",
+                "lang": "en",
+                "title": "John Stuart Mill, On Liberty"
+              }
+            },
+            "ru": {
+              "edition": "liberty-tolerance.ru.ours",
+              "from": "2.2",
+              "to": "2.2",
+              "text": "Мы никогда не можем быть уверены, что мнение, которое мы пытаемся заглушить, ложно; а если бы и были уверены, заглушать его всё равно было бы злом.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_Liberty",
+                "lang": "en",
+                "title": "Джон Стюарт Милль, «О свободе»"
+              }
+            },
+            "uk": {
+              "edition": "liberty-tolerance.uk.ours",
+              "from": "2.2",
+              "to": "2.2",
+              "text": "Ми ніколи не можемо бути певні, що думка, яку ми намагаємося заглушити, хибна; а якби й були певні, глушити її однаково було б злом.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_Liberty",
+                "lang": "en",
+                "title": "Джон Стюарт Мілль, «Про свободу»"
+              }
+            },
+            "pl": {
+              "edition": "liberty-tolerance.pl.ours",
+              "from": "2.2",
+              "to": "2.2",
+              "text": "Nigdy nie możemy być pewni, że opinia, którą usiłujemy zdławić, jest fałszywa; a gdybyśmy nawet byli pewni, dławienie jej i tak byłoby złem.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/On_Liberty",
+                "lang": "en",
+                "title": "John Stuart Mill, O wolności"
+              }
+            }
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "In his Autobiography Mill called On Liberty “more directly and literally our joint production than anything else which bears my name”.",
+            "ru": "В «Автобиографии» Милль назвал «О свободе» «более непосредственно и буквально нашим совместным произведением, чем что-либо другое, носящее моё имя».",
+            "uk": "В «Автобіографії» Мілль назвав «Про свободу» «безпосередніше й буквальніше нашим спільним твором, ніж будь-що інше, що має моє ім’я».",
+            "pl": "W Autobiografii Mill nazwał O wolności „bardziej bezpośrednio i dosłownie naszym wspólnym dziełem niż cokolwiek innego, co nosi moje imię”."
+          },
+          "source": "John Stuart Mill, Autobiography (1873), ch. 7"
+        },
+        {
+          "fact": {
+            "en": "Mill drew the line at incitement: the opinion that corn-dealers starve the poor may circulate freely in the press, but may justly be punished when it is shouted to an excited mob before a corn-dealer's house.",
+            "ru": "Милль проводил черту у подстрекательства: мнение, что торговцы зерном морят бедняков голодом, может свободно ходить в печати, но может справедливо караться, когда его выкрикивают возбуждённой толпе перед домом торговца зерном.",
+            "uk": "Мілль проводив межу на підбурюванні: думка, що торговці зерном морять бідних голодом, може вільно ходити в пресі, але може слушно каратися, коли її вигукують збудженому натовпу перед домом торговця зерном.",
+            "pl": "Mill wyznaczał granicę przy podżeganiu: opinia, że handlarze zbożem głodzą biednych, może swobodnie krążyć w prasie, ale może być słusznie karana, gdy wykrzykuje się ją podnieconemu tłumowi przed domem handlarza zbożem."
+          },
+          "source": "John Stuart Mill, On Liberty (1859), ch. 3"
+        }
+      ]
+    },
+    {
+      "decide": {
+        "en": "Kalinga, about 261 BC",
+        "ru": "Калинга, около 261 года до н. э.",
+        "uk": "Калінга, близько 261 року до н. е.",
+        "pl": "Kalinga, około 261 p.n.e."
+      },
+      "scene": {
+        "en": "You are Ashoka, king of the Mauryas, eight years after your consecration; your grandfather Chandragupta founded the empire, and it now covers most of India. This year your armies have taken Kalinga, the kingdom on the coast of the Bay of Bengal. The reports come in: a hundred and fifty thousand carried away captive, a hundred thousand slain, and many times that number dead. Since the war you have turned with all your zeal to the Law of Piety — and to the Buddha's teaching. Your subjects are Brahmins who offer animals in sacrifice, Buddhist monks, Jains, naked Ajivika ascetics, Greeks on the north-western frontier. You are sure now how men should live, and you have the power to make them. What do you do?",
+        "ru": "Вы — Ашока, царь из династии Маурьев, через восемь лет после вашего помазания на царство; ваш дед Чандрагупта основал державу, и теперь она охватывает бо́льшую часть Индии. В этом году ваши войска взяли Калингу — царство на берегу Бенгальского залива. Приходят донесения: сто пятьдесят тысяч уведены в плен, сто тысяч убиты, и во много раз больше умерло. После войны вы со всем рвением обратились к Закону благочестия — и к учению Будды. Ваши подданные — брахманы, приносящие в жертву животных, буддийские монахи, джайны, нагие подвижники-адживики, греки на северо-западной границе. Теперь вы уверены, как должно жить людям, и у вас есть власть их заставить. Что вы сделаете?",
+        "uk": "Ви — Ашока, цар із династії Маур’їв, через вісім років після вашого помазання на царство; ваш дід Чандрагупта заснував державу, і тепер вона охоплює більшу частину Індії. Цього року ваші війська взяли Калінгу — царство на березі Бенгальської затоки. Надходять донесення: сто п’ятдесят тисяч забрано в полон, сто тисяч убито, і в багато разів більше померло. Після війни ви з усім запалом звернулися до Закону благочестя — і до вчення Будди. Ваші піддані — брахмани, що приносять у жертву тварин, буддійські ченці, джайни, нагі подвижники-адживіки, греки на північно-західному кордоні. Тепер ви певні, як мають жити люди, і маєте владу їх змусити. Що ви зробите?",
+        "pl": "Jesteś Aśoką, królem z dynastii Maurjów, osiem lat po twoim namaszczeniu na króla; twój dziad Ćandragupta założył imperium, a teraz obejmuje ono większą część Indii. W tym roku twoje wojska zdobyły Kalingę — królestwo nad Zatoką Bengalską. Napływają meldunki: sto pięćdziesiąt tysięcy uprowadzono w niewolę, sto tysięcy zabito, a wielokrotnie więcej zmarło. Po wojnie z całą gorliwością zwróciłeś się ku Prawu pobożności — i ku nauce Buddy. Twoi poddani to bramini składający w ofierze zwierzęta, mnisi buddyjscy, dżiniści, nadzy asceci adżiwikowie, Grecy na północno-zachodniej granicy. Teraz wiesz na pewno, jak ludzie powinni żyć, i masz władzę, by ich do tego zmusić. Co robisz?"
+      },
+      "choices": [
+        {
+          "choice": {
+            "en": "Make the Buddha's teaching the law of the empire, and stop the others' rites",
+            "ru": "Сделать учение Будды законом державы и прекратить обряды остальных",
+            "uk": "Зробити вчення Будди законом держави й припинити обряди решти",
+            "pl": "Uczynić naukę Buddy prawem imperium i ukrócić obrzędy pozostałych"
+          },
+          "reply": {
+            "en": "Ashoka did not: his edicts ask that men of every sect may dwell everywhere — though one of them forbids slaughtering animals in sacrifice “here”.",
+            "ru": "Ашока этого не сделал: его эдикты желают, чтобы люди всех вероучений жили повсюду, — хотя один из них запрещает «здесь» убивать животных в жертву.",
+            "uk": "Ашока цього не зробив: його едикти бажають, щоб люди всіх віровчень жили всюди, — хоча один із них забороняє «тут» убивати тварин у жертву.",
+            "pl": "Aśoka tego nie zrobił: jego edykty życzą sobie, by ludzie każdego wyznania mogli mieszkać wszędzie — choć jeden z nich zakazuje „tutaj” zabijania zwierząt w ofierze."
+          }
+        },
+        {
+          "choice": {
+            "en": "Leave belief alone: a king's business is taxes, roads and justice, not souls",
+            "ru": "Оставить веру в покое: дело царя — подати, дороги и суд, а не души",
+            "uk": "Залишити віру в спокої: справа царя — податки, дороги й суд, а не душі",
+            "pl": "Zostawić wiarę w spokoju: sprawą króla są podatki, drogi i sądy, nie dusze"
+          },
+          "reply": {
+            "en": "That would be Locke's answer, two thousand years later; Ashoka made the Law of Piety his business, and created officers to spread it among all the sects.",
+            "ru": "Это был бы ответ Локка, две тысячи лет спустя; Ашока сделал Закон благочестия своим делом и учредил чиновников, чтобы распространять его среди всех вероучений.",
+            "uk": "Це була б відповідь Локка, дві тисячі років потому; Ашока зробив Закон благочестя своєю справою і запровадив урядовців, щоб поширювати його серед усіх віровчень.",
+            "pl": "Tak odpowiedziałby Locke dwa tysiące lat później; Aśoka uczynił Prawo pobożności swoją sprawą i ustanowił urzędników, by szerzyli je wśród wszystkich wyznań."
+          }
+        },
+        {
+          "choice": {
+            "en": "Honour every sect, and ask each to restrain its tongue about the others",
+            "ru": "Чтить все вероучения и просить каждое сдерживать язык в речах о других",
+            "uk": "Шанувати всі віровчення і просити кожне стримувати язик у мові про інших",
+            "pl": "Czcić każde wyznanie i prosić każde, by powściągało język, mówiąc o innych"
+          },
+          "reply": {
+            "en": "Close to what he did: in his twelfth Rock Edict he honours all sects and asks for restraint of speech.",
+            "ru": "Близко к тому, что он сделал: в двенадцатом наскальном эдикте он чтит все вероучения и просит о сдержанности в речах.",
+            "uk": "Близько до того, що він зробив: у дванадцятому наскельному едикті він шанує всі віровчення і просить про стриманість у мові.",
+            "pl": "Blisko tego, co zrobił: w dwunastym edykcie skalnym czci wszystkie wyznania i prosi o powściągliwość w mowie."
+          }
+        },
+        {
+          "choice": {
+            "en": "Finish the conquest first: there will be time for piety in peace",
+            "ru": "Сначала довершить завоевания: для благочестия найдётся время в мире",
+            "uk": "Спершу завершити завоювання: на благочестя знайдеться час у мирі",
+            "pl": "Najpierw dokończyć podbojów: na pobożność przyjdzie czas w pokoju"
+          },
+          "reply": {
+            "en": "Ashoka renounced it: he wrote that his sons and grandsons should not think a new conquest their duty — but he did not give Kalinga back.",
+            "ru": "Ашока от этого отказался: он написал, что его сыновья и внуки не должны считать новое завоевание своим долгом, — но Калингу он не вернул.",
+            "uk": "Ашока від цього відмовився: він написав, що його сини й онуки не повинні вважати нове завоювання своїм обов’язком, — але Калінги він не повернув.",
+            "pl": "Aśoka się tego wyrzekł: napisał, że jego synowie i wnukowie nie powinni uważać nowego podboju za swój obowiązek — ale Kalingi nie oddał."
+          }
+        }
+      ],
+      "outcome": {
+        "en": "This was Ashoka, the Maurya emperor. As far as we know, he never again waged a war of conquest. Four years after Kalinga he had his remorse carved on rocks across his empire, in the thirteenth of fourteen edicts. He appointed High Officers of the Law of Piety to work among all the sects, dedicated caves in the Barabar Hills to the Ajivikas, ascetics who were not Buddhists, and asked every man to honour his own sect without disparaging another's. Yet his Law had its limits: animal sacrifice was forbidden “here”, the forest tribes were warned to mend their ways or be chastised, and Kalinga was not set free. In Kalinga itself the edict of remorse was not carved; two edicts on how to govern the conquered stand there in its place.",
+        "ru": "Это был Ашока, император Маурьев. Насколько нам известно, он больше никогда не вёл завоевательных войн. Через четыре года после Калинги он велел высечь своё раскаяние на скалах по всей державе — в тринадцатом из четырнадцати эдиктов. Он назначил высших сановников Закона благочестия, чтобы те трудились среди всех вероучений, посвятил пещеры в горах Барабар адживикам — подвижникам, которые не были буддистами, — и просил каждого чтить своё вероучение, не хуля чужого. Но у его Закона были пределы: жертвоприношения животных «здесь» были запрещены, лесным племенам пригрозили карой, если они не исправятся, а Калинга не получила свободы. В самой Калинге эдикт о раскаянии не высекли: на его месте стоят два эдикта о том, как управлять покорёнными.",
+        "uk": "Це був Ашока, імператор Маур’їв. Наскільки нам відомо, він більше ніколи не вів загарбницьких воєн. Через чотири роки після Калінги він звелів висікти своє каяття на скелях по всій державі — у тринадцятому з чотирнадцяти едиктів. Він призначив вищих урядовців Закону благочестя, щоб ті працювали серед усіх віровчень, присвятив печери в горах Барабар адживікам — подвижникам, які не були буддистами, — і просив кожного шанувати своє віровчення, не гудячи чужого. Та його Закон мав межі: жертвопринесення тварин «тут» було заборонено, лісовим племенам пригрозили карою, якщо вони не виправляться, а Калінга не здобула свободи. У самій Калінзі едикту про каяття не висікли: на його місці стоять два едикти про те, як правити підкореними.",
+        "pl": "To był Aśoka, cesarz z dynastii Maurjów. O ile wiemy, nigdy więcej nie prowadził wojny zaborczej. Cztery lata po Kalindze kazał wykuć swoją skruchę na skałach w całym imperium — w trzynastym z czternastu edyktów. Ustanowił wyższych urzędników Prawa pobożności, by działali wśród wszystkich wyznań, ofiarował jaskinie na wzgórzach Barabar adżiwikom — ascetom, którzy nie byli buddystami — i prosił każdego, by czcił własne wyznanie, nie ganiąc cudzego. Lecz jego Prawo miało granice: ofiary ze zwierząt zostały „tutaj” zakazane, plemionom leśnym zagrożono karą, jeśli się nie poprawią, a Kalinga nie odzyskała wolności. W samej Kalindze edyktu o skrusze nie wykuto: na jego miejscu stoją dwa edykty o tym, jak rządzić podbitymi."
+      },
+      "cited": [
+        {
+          "by": {
+            "en": "Ashoka, Rock Edict XIII: true conquest",
+            "ru": "Ашока, наскальный эдикт XIII: истинное завоевание",
+            "uk": "Ашока, наскельний едикт XIII: справжнє завоювання",
+            "pl": "Aśoka, edykt skalny XIII: prawdziwy podbój"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ashoka-tolerance.en.smith",
+              "from": "13.1",
+              "to": "13.1",
+              "text": "One hundred and fifty thousand persons were thence carried away captive, one hundred thousand were there slain, and many times that number died.",
+              "kind": "Free",
+              "translator": "Vincent A. Smith",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Ashoka, The Rock Edicts"
+              }
+            },
+            "ru": {
+              "edition": "ashoka-tolerance.ru.ours",
+              "from": "13.1",
+              "to": "13.1",
+              "text": "Сто пятьдесят тысяч человек были уведены оттуда в плен, сто тысяч были там убиты, и во много раз больше умерло.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Ашока, «Наскальные эдикты»"
+              }
+            },
+            "uk": {
+              "edition": "ashoka-tolerance.uk.ours",
+              "from": "13.1",
+              "to": "13.1",
+              "text": "Сто п’ятдесят тисяч людей було звідти забрано в полон, сто тисяч було там убито, і в багато разів більше померло.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Ашока, «Наскельні едикти»"
+              }
+            },
+            "pl": {
+              "edition": "ashoka-tolerance.pl.ours",
+              "from": "13.1",
+              "to": "13.1",
+              "text": "Sto pięćdziesiąt tysięcy ludzi uprowadzono stamtąd w niewolę, sto tysięcy tam zabito, a wielokrotnie więcej zmarło.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Aśoka, Edykty skalne"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Prakrit",
+              "ru": "оригинал на пракрите",
+              "uk": "оригінал пракритом",
+              "pl": "oryginał w prakrycie"
+            },
+            "url": "https://archive.org/details/InscriptionsOfAsoka.NewEditionByE.Hultzsch"
+          }
+        },
+        {
+          "by": {
+            "en": "The same edict: the remorse",
+            "ru": "Тот же эдикт: раскаяние",
+            "uk": "Той самий едикт: каяття",
+            "pl": "Ten sam edykt: skrucha"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ashoka-tolerance.en.smith",
+              "from": "13.2",
+              "to": "13.2",
+              "text": "Thence arises the remorse of His Sacred Majesty for having conquered the Kalingas, because the conquest of a country previously unconquered involves the slaughter, death, and carrying away captive of the people. That is a matter of profound sorrow and regret to His Sacred Majesty.",
+              "kind": "Free",
+              "translator": "Vincent A. Smith",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Ashoka, The Rock Edicts"
+              }
+            },
+            "ru": {
+              "edition": "ashoka-tolerance.ru.ours",
+              "from": "13.2",
+              "to": "13.2",
+              "text": "Отсюда раскаяние Его Священного Величества в том, что он завоевал калингов, ибо завоевание страны, прежде не покорённой, влечёт за собой резню, смерть и угон людей в плен. Это для Его Священного Величества предмет глубокой скорби и сожаления.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Ашока, «Наскальные эдикты»"
+              }
+            },
+            "uk": {
+              "edition": "ashoka-tolerance.uk.ours",
+              "from": "13.2",
+              "to": "13.2",
+              "text": "Звідси каяття Його Священної Величності за те, що він завоював калінгів, бо завоювання країни, доти не підкореної, тягне за собою різанину, смерть і уведення людей у полон. Це для Його Священної Величності предмет глибокої скорботи й жалю.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Ашока, «Наскельні едикти»"
+              }
+            },
+            "pl": {
+              "edition": "ashoka-tolerance.pl.ours",
+              "from": "13.2",
+              "to": "13.2",
+              "text": "Stąd skrucha Jego Świętej Mości, że podbił Kalingów, bo podbój kraju dotąd niepodbitego pociąga za sobą rzeź, śmierć i uprowadzenie ludzi w niewolę. Jest to dla Jego Świętej Mości przedmiotem głębokiego smutku i żalu.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Aśoka, Edykty skalne"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Prakrit",
+              "ru": "оригинал на пракрите",
+              "uk": "оригінал пракритом",
+              "pl": "oryginał w prakrycie"
+            },
+            "url": "https://archive.org/details/InscriptionsOfAsoka.NewEditionByE.Hultzsch"
+          }
+        },
+        {
+          "by": {
+            "en": "Rock Edict XII: toleration",
+            "ru": "Наскальный эдикт XII: терпимость",
+            "uk": "Наскельний едикт XII: терпимість",
+            "pl": "Edykt skalny XII: tolerancja"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ashoka-tolerance.en.smith",
+              "from": "12.2",
+              "to": "12.2",
+              "text": "His Sacred Majesty, however, cares not so much for gifts or external reverence as that there should be a growth of the essence of the matter in all sects. The growth of the essence of the matter assumes various forms, but the root of it is restraint of speech, to wit, a man must not do reverence to his own sect or disparage that of another without reason. Depreciation should be for specific reasons only, because the sects of other people all deserve reverence for one reason or another.",
+              "kind": "Free",
+              "translator": "Vincent A. Smith",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Ashoka, The Rock Edicts"
+              }
+            },
+            "ru": {
+              "edition": "ashoka-tolerance.ru.ours",
+              "from": "12.2",
+              "to": "12.2",
+              "text": "Его Священное Величество, однако, заботится не столько о дарах или внешнем почитании, сколько о том, чтобы во всех вероучениях возрастала суть дела. Возрастание сути дела принимает разные формы, но корень его — сдержанность в речах, а именно: человек не должен ни почитать своё вероучение, ни хулить чужое без причины. Порицать следует лишь по особым причинам, ибо вероучения других людей все заслуживают почитания по той или иной причине.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Ашока, «Наскальные эдикты»"
+              }
+            },
+            "uk": {
+              "edition": "ashoka-tolerance.uk.ours",
+              "from": "12.2",
+              "to": "12.2",
+              "text": "Його Священна Величність, однак, дбає не стільки про дари чи зовнішнє вшанування, скільки про те, щоб в усіх віровченнях зростала суть справи. Зростання суті справи набуває різних форм, але корінь його — стриманість у мові, а саме: людина не повинна ні вшановувати своє віровчення, ні гудити чуже без причини. Ганити слід лише з особливих причин, бо віровчення інших людей усі заслуговують на вшанування з тієї чи іншої причини.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Ашока, «Наскельні едикти»"
+              }
+            },
+            "pl": {
+              "edition": "ashoka-tolerance.pl.ours",
+              "from": "12.2",
+              "to": "12.2",
+              "text": "Jego Święta Mość dba jednak nie tyle o dary czy zewnętrzną cześć, ile o to, by we wszystkich wyznaniach wzrastała istota rzeczy. Wzrost istoty rzeczy przybiera różne postacie, lecz jego korzeniem jest powściągliwość w mowie, mianowicie: człowiek nie powinien ani oddawać czci własnemu wyznaniu, ani ganić cudzego bez powodu. Ganić należy tylko z określonych powodów, bo wyznania innych ludzi wszystkie zasługują na cześć z tego czy innego powodu.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Aśoka, Edykty skalne"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Prakrit",
+              "ru": "оригинал на пракрите",
+              "uk": "оригінал пракритом",
+              "pl": "oryginał w prakrycie"
+            },
+            "url": "https://archive.org/details/InscriptionsOfAsoka.NewEditionByE.Hultzsch"
+          }
+        },
+        {
+          "by": {
+            "en": "The same edict",
+            "ru": "Тот же эдикт",
+            "uk": "Той самий едикт",
+            "pl": "Ten sam edykt"
+          },
+          "quotes": {
+            "en": {
+              "edition": "ashoka-tolerance.en.smith",
+              "from": "12.3",
+              "to": "12.3",
+              "text": "For he who does reverence to his own sect while disparaging the sects of others wholly from attachment to his own, with intent to enhance the splendour of his own sect, in reality by such conduct inflicts the severest injury on his own sect.",
+              "kind": "Free",
+              "translator": "Vincent A. Smith",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Ashoka, The Rock Edicts"
+              }
+            },
+            "ru": {
+              "edition": "ashoka-tolerance.ru.ours",
+              "from": "12.3",
+              "to": "12.3",
+              "text": "Ибо тот, кто почитает своё вероучение, хуля вероучения других единственно из привязанности к своему, с намерением возвеличить блеск своего вероучения, на деле таким поведением наносит своему вероучению тягчайший вред.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Ашока, «Наскальные эдикты»"
+              }
+            },
+            "uk": {
+              "edition": "ashoka-tolerance.uk.ours",
+              "from": "12.3",
+              "to": "12.3",
+              "text": "Бо той, хто вшановує своє віровчення, гудячи віровчення інших виключно з прихильності до свого, з наміром звеличити блиск свого віровчення, насправді такою поведінкою завдає своєму віровченню найтяжчої шкоди.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Ашока, «Наскельні едикти»"
+              }
+            },
+            "pl": {
+              "edition": "ashoka-tolerance.pl.ours",
+              "from": "12.3",
+              "to": "12.3",
+              "text": "Kto bowiem oddaje cześć własnemu wyznaniu, ganiąc wyznania innych wyłącznie z przywiązania do swego, w zamiarze przydania blasku własnemu wyznaniu, w rzeczywistości takim postępowaniem wyrządza swemu wyznaniu najcięższą szkodę.",
+              "kind": "Ours",
+              "translator": "Elysion (draft)",
+              "whole": {
+                "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India/Chapter_4",
+                "lang": "en",
+                "title": "Aśoka, Edykty skalne"
+              }
+            }
+          },
+          "original": {
+            "language": {
+              "en": "the original, in Prakrit",
+              "ru": "оригинал на пракрите",
+              "uk": "оригінал пракритом",
+              "pl": "oryginał w prakrycie"
+            },
+            "url": "https://archive.org/details/InscriptionsOfAsoka.NewEditionByE.Hultzsch"
+          }
+        }
+      ],
+      "context": [
+        {
+          "fact": {
+            "en": "Most of the edicts do not name their king: they call him Devanampiya, which Smith renders “His Sacred Majesty”. The first copy found to give his own name, Asoka, was discovered at Maski in 1915.",
+            "ru": "Большинство эдиктов не называет царя по имени: его зовут Деванампия, что Смит передаёт как «Его Священное Величество». Первая найденная надпись с его собственным именем, Ашока, была обнаружена в Маски в 1915 году.",
+            "uk": "Більшість едиктів не називає царя на ім’я: його звуть Деванампія, що Сміт передає як «Його Священна Величність». Перший знайдений напис із його власним ім’ям, Ашока, було виявлено в Маскі 1915 року.",
+            "pl": "Większość edyktów nie wymienia imienia króla: nazywa się go Dewanampija, co Smith oddaje jako „Jego Święta Mość”. Pierwszy znaleziony napis z jego własnym imieniem, Aśoka, odkryto w Maski w 1915 roku."
+          },
+          "source": "Vincent A. Smith, Asoka, the Buddhist Emperor of India, 3rd ed. (1920), ch. 4"
+        },
+        {
+          "fact": {
+            "en": "The twelfth edict, on toleration, was carved at Shahbazgarhi, near the north-western frontier, on a boulder of its own — a sign, Smith thought, that it mattered especially to the people there.",
+            "ru": "Двенадцатый эдикт, о терпимости, высечен в Шахбазгархи, у северо-западной границы, на отдельном валуне — знак, по мысли Смита, что для тамошних жителей он был особенно важен.",
+            "uk": "Дванадцятий едикт, про терпимість, висічено в Шахбазгархі, біля північно-західного кордону, на окремому валуні — знак, на думку Сміта, що для тамтешніх людей він був особливо важливим.",
+            "pl": "Edykt dwunasty, o tolerancji, wykuto w Shahbazgarhi, przy północno-zachodniej granicy, na osobnym głazie — znak, zdaniem Smitha, że był szczególnie ważny dla tamtejszych ludzi."
+          },
+          "source": "Vincent A. Smith, Asoka, the Buddhist Emperor of India, 3rd ed. (1920), ch. 4"
+        },
+        {
+          "fact": {
+            "en": "The edicts never speak of nirvana: their Law of Piety is a practical morality — hearkening to father and mother, respect for living creatures, speaking the truth.",
+            "ru": "Эдикты ни разу не говорят о нирване: их Закон благочестия — практическая нравственность: послушание отцу и матери, уважение к живым существам, правдивость.",
+            "uk": "Едикти жодного разу не говорять про нірвану: їхній Закон благочестя — практична моральність: послух батькові й матері, повага до живих істот, правдивість.",
+            "pl": "Edykty ani razu nie mówią o nirwanie: ich Prawo pobożności to moralność praktyczna — posłuszeństwo ojcu i matce, szacunek dla żywych istot, prawdomówność."
+          },
+          "source": "Vincent A. Smith, Asoka, the Buddhist Emperor of India, 3rd ed. (1920), ch. 1"
+        }
+      ]
+    },
+    {
+      "think": "tolerance",
+      "question": {
+        "en": "Think of a belief you hold to be wrong — even harmful — in religion, politics or science. Should those who hold it be free to say it, teach it, live by it? Where would you draw the line, and who should draw it?",
+        "ru": "Подумайте об убеждении, которое вы считаете ошибочным — даже вредным, — в религии, политике или науке. Должны ли те, кто его разделяет, быть свободны говорить о нём, учить ему, жить по нему? Где бы вы провели черту — и кто должен её проводить?",
+        "uk": "Подумайте про переконання, яке ви вважаєте хибним — навіть шкідливим, — у релігії, політиці чи науці. Чи мають ті, хто його поділяє, бути вільними говорити про нього, навчати його, жити за ним? Де б ви провели межу — і хто має її проводити?",
+        "pl": "Pomyśl o przekonaniu, które uważasz za błędne — nawet szkodliwe — w religii, polityce albo nauce. Czy ci, którzy je podzielają, powinni móc swobodnie o nim mówić, go nauczać i według niego żyć? Gdzie wyznaczyłbyś granicę — i kto powinien ją wyznaczać?"
+      },
+      "hint": {
+        "en": "A few sentences, in your own words. It stays on this device; the judge reads it and forgets it.",
+        "ru": "Несколько предложений, своими словами. Ответ остаётся на этом устройстве; судья прочтёт и забудет его.",
+        "uk": "Кілька речень, своїми словами. Відповідь лишається на цьому пристрої; суддя прочитає і забуде її.",
+        "pl": "Kilka zdań, własnymi słowami. Zostaje na tym urządzeniu; sędzia przeczyta je i zapomni."
+      }
+    },
+    {
+      "again": "last",
+      "of": "first",
+      "question": {
+        "en": "And now: should we tolerate beliefs we think are wrong?",
+        "ru": "А теперь: должны ли мы терпеть убеждения, которые считаем ошибочными?",
+        "uk": "А тепер: чи маємо ми терпіти переконання, які вважаємо хибними?",
+        "pl": "A teraz: czy powinniśmy tolerować przekonania, które uważamy za błędne?"
+      }
+    }
+  ]
+}
