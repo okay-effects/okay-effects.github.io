@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<title>The Scala implementations: which is which — okay-effects</title>
+<meta name="description" content="The Scala implementations of algebraic effects under okay-effects:
+ what each is, whether they are compatible, and which to use.">
+<style>
+  :root { --fg:#1b1f24; --muted:#57606a; --line:#d8dee4; --bg:#ffffff; --soft:#f6f8fa; --accent:#0b6e4f; --code:#0d1117; --codefg:#e6edf3; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--fg); background:var(--bg); }
+  a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+  .wrap { max-width:1040px; margin:0 auto; padding:0 24px; }
+  header.top { border-bottom:1px solid var(--line); }
+  header.top .wrap { display:flex; justify-content:space-between; align-items:center; height:56px; }
+  .brand { font-weight:700; color:var(--fg); letter-spacing:-0.01em; }
+  nav a { margin-left:20px; color:var(--muted); font-size:15px; }
+  .hero { padding:72px 0 56px; border-bottom:1px solid var(--line); }
+  .hero h1 { font-size:40px; line-height:1.15; margin:0 0 18px; letter-spacing:-0.02em; max-width:820px; }
+  .hero .cols { display:grid; grid-template-columns:.9fr 1.1fr; gap:36px; align-items:center; }
+  .hero .art img { width:100%; height:auto; display:block; }
+  .hero p.lead { font-size:20px; color:var(--muted); max-width:760px; margin:0 0 28px; }
+  .cta a { display:inline-block; padding:10px 18px; border-radius:6px; margin:0 10px 10px 0; font-weight:600; font-size:15px; }
+  .cta .primary { background:var(--accent); color:#fff; } .cta .primary:hover { text-decoration:none; opacity:.92; }
+  .cta .secondary { border:1px solid var(--line); color:var(--fg); }
+  section { padding:56px 0; border-bottom:1px solid var(--line); }
+  section h2 { font-size:28px; margin:0 0 8px; letter-spacing:-0.01em; }
+  section p.sub { color:var(--muted); margin:0 0 28px; max-width:760px; }
+  .grid3 { display:grid; grid-template-columns:repeat(3, 1fr); gap:20px; }
+  .grid2 { display:grid; grid-template-columns:repeat(2, 1fr); gap:20px; }
+  .card { border:1px solid var(--line); border-radius:8px; padding:20px; background:var(--bg); }
+  .card h3 { margin:0 0 8px; font-size:17px; }
+  #start .grid2 { grid-template-columns:1fr; gap:28px; } .grid2 > div, .grid3 > div { min-width:0; }
+  #start .grid2 > div > h3, #start > .wrap > h3 { font-size:17px; margin:0 0 10px; }
+  .card p { margin:0; color:var(--muted); font-size:15px; }
+  .card .when { font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--accent); font-weight:700; margin-bottom:6px; }
+  pre { background:var(--code); color:var(--codefg); padding:18px 20px; border-radius:8px; overflow-x:auto; font:13.5px/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; margin:0; }
+  code { font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size:.92em; }
+  p code, li code, td code { background:var(--soft); padding:1px 5px; border-radius:4px; }
+  .c { color:#8b949e; } .k { color:#ff7b72; } .s { color:#a5d6ff; } .t { color:#ffa657; }
+  table { border-collapse:collapse; width:100%; font-size:15px; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-size:13px; color:var(--muted); font-weight:600; text-transform:uppercase; letter-spacing:.04em; }
+  td:first-child { white-space:nowrap; }
+  td.num { font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .us { font-weight:700; }
+  .loss { color:#a40e26; }
+  ul.tight { margin:0; padding-left:20px; color:var(--muted); font-size:15px; }
+  ul.tight li { margin:4px 0; }
+  .note { font-size:14px; color:var(--muted); margin-top:16px; }
+  footer { padding:40px 0 56px; color:var(--muted); font-size:14px; }
+  .author { display:grid; grid-template-columns:2fr 1fr; gap:32px; }
+  @media (max-width: 820px) { .hero .cols { grid-template-columns:1fr; } .grid3, .grid2, .author { grid-template-columns:1fr; } .hero h1 { font-size:34px; } header.top .wrap { height:auto; flex-wrap:wrap; padding-top:12px; padding-bottom:4px; } nav { width:100%; display:flex; gap:18px; overflow-x:auto; white-space:nowrap; padding:8px 0; scrollbar-width:none; } nav::-webkit-scrollbar { display:none; } nav a { margin-left:0; } table { display:block; max-width:100%; overflow-x:auto; } }
+  footer .wrap { display:flex; flex-wrap:wrap; align-items:baseline; gap:6px; } footer .more { margin-left:auto; font-weight:600; }
+</style>
+
+<style> h3.part { font-size:17px; margin:28px 0 8px; } section p.text { max-width:820px; margin:0 0 14px; }
+  pre + p.note { margin-bottom:8px; } td.name { white-space:nowrap; font-weight:700; }
+  .out { font-size:14px; color:var(--muted); font-weight:400; } </style>
+</head>
+<body>
+
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html">okay-effects</a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#which">Which is which</a>
+    <a href="#compatible">Compatible?</a>
+    <a href="#reference">okay-scala and the reference</a>
+    <a href="libraries.html">Libraries</a>
+    <a href="https://github.com/okay-effects">GitHub</a>
+  </nav>
+</div></header>
+
+<section class="hero" style="padding:56px 0 40px"><div class="wrap">
+  <h1>The Scala implementations: which is which</h1>
+  <p class="lead">For a new program in Scala 3, use <a href="#okay-scala">okay-scala</a>.
+  If the code must also compile on Scala 2.13, or it uses the libraries written over the common interface
+  (okay-http, okay-mcp, okay-faces, okay-store), use <a href="#okay-simple">okay-simple</a>; its adapter runs the
+  same code on okay-scala's machine.
+  The other repositories are the platform and its kernel, a direct-style library for Java with Scala front ends,
+  a reference model in three languages, and the experiments that came before them.</p>
+  <p class="note">The state of the <code>master</code> branches on 11 November 2026. Every statement on this page
+  was checked in the repositories; where a file says it, the file is named.</p>
+</div></section>
+
+<section id="which"><div class="wrap">
+  <h2>The implementations</h2>
+  <p class="sub">Eleven repositories hold an implementation of effects in Scala. Seven are public. Three of them are
+  released: okay-scala, okay-simple and okay-direct.</p>
+  <table>
+    <tr><th>Repository</th><th>What it is</th><th>How a program runs</th><th>Scala, platforms</th><th>Status</th></tr>
+    <tr id="okay-scala"><td class="name"><a href="https://github.com/okay-effects/okay-scala">okay-scala</a></td>
+      <td>A library for Scala 3 alone. Package <code>okay.scala3</code>. No dependency.</td>
+      <td>One CEK machine: a program is data (<code>Prog</code>), a step is one case of a <code>@tailrec</code>
+      loop over frames and handlers' levels.</td>
+      <td>Built on Scala 3.3 LTS, tested on 3.9 too. JVM, Scala.js, Scala Native.</td>
+      <td>Released, <a href="libraries.html#okay-scala">0.1.1</a>. Last commit 11 Nov 2026.</td></tr>
+    <tr id="okay-simple"><td class="name"><a href="https://github.com/okay-effects/okay-simple">okay-simple</a></td>
+      <td>One interface, <code>Effectful</code>, for Scala 3 and Scala 2.13, and implementations under it.
+      Package <code>okay.effects</code>, artifacts <code>okay-effects-*</code>.</td>
+      <td>Three implementations: a machine with an explicit stack of frames and levels; the <code>Free</code>
+      monad, each handler its interpreter; tagless, a program made on whichever implementation runs it.
+      Adapters to other machines: see <a href="#bridges">the bridges</a>.</td>
+      <td>Built on Scala 3.3 LTS and 2.13. JVM, Scala.js, Scala Native.</td>
+      <td>Released, <a href="libraries.html#okay-simple">0.1.1</a>. Last commit 4 Nov 2026.</td></tr>
+    <tr id="okay-direct"><td class="name"><a href="https://github.com/okay-effects/okay-direct">okay-direct</a></td>
+      <td>Direct style for Java 25, with front ends for Scala 3 (<code>okay.direct.scala3</code>) and Scala 2.13
+      (<code>okay.direct.scala2</code>).</td>
+      <td>No monad: <code>perform</code> is a method call, a handler gives its body a capability. Three
+      implementations: Loom's continuations, virtual threads, Espresso's continuations.</td>
+      <td>Scala 3.9 and 2.13 over the Java API. JVM.</td>
+      <td>Released, <a href="libraries.html#okay-direct">0.1.0</a>. Last commit 23 Oct 2026.</td></tr>
+    <tr id="okay-effects"><td class="name"><a href="https://github.com/okay-effects/okay-effects">okay-effects</a></td>
+      <td>The reference model: one small kernel written three times, in Scala 3, Java 25 and Rust. The Scala one is
+      the package <code>okay.effects.scala</code>.</td>
+      <td>A program is data; one loop over a stack of levels, one level a handler. The model is the repository's
+      <code>SPEC.md</code>.</td>
+      <td>Scala 3.3, built by scala-cli. JVM.</td>
+      <td>Public. Nothing is published as an artifact. Last commit 10 Nov 2026.</td></tr>
+    <tr id="okay-core"><td class="name"><a href="https://github.com/okay-effects/okay-core">okay-core</a></td>
+      <td>The kernel of the okay platform: effects and delimited control. Packages <code>okay.one</code> (the
+      kernel), <code>okay.core</code> (the facade), <code>okay</code> (the words).</td>
+      <td>One monad, <code>Cont[R, I, O, A]</code>, on a CEK machine; a handler's <code>k</code> is data.</td>
+      <td>Scala 3.9; modules for Scala 2.13. JVM, Scala.js, Scala Native.</td>
+      <td>Public. No release. Last commit 18 Oct 2026.</td></tr>
+    <tr id="okay-kernel"><td class="name"><a href="https://github.com/okay-effects/okay-kernel">okay-kernel</a></td>
+      <td>A protocol between implementations, its API in plain Java; a reference machine in Scala,
+      <code>Steps</code>; and the family's TCK.</td>
+      <td>A program steps to <code>Done</code>, <code>Yield</code>, <code>Failed</code> or <code>Cancelled</code>.
+      The reference machine is a stepper over an explicit stack of frames, "exact rather than fast".</td>
+      <td>Scala 3.9 and 2.13. JVM, Scala.js, Scala Native.</td>
+      <td>Public. No release. Last commit 18 Oct 2026.</td></tr>
+    <tr id="okay"><td class="name"><a href="https://github.com/okay-effects/okay">okay</a></td>
+      <td>The platform: over a hundred modules on effects.</td>
+      <td>On okay-core since 14 Oct 2026: a program <code>A ! R</code> is okay-core's own
+      (<code>docs/contract.md</code>).</td>
+      <td>Scala 3.9; a build for Scala 2.13. JVM, Scala.js, Scala Native.</td>
+      <td>Public. Last commit 23 Oct 2026.</td></tr>
+    <tr><td class="name">okay-free, okay-eff,<br>okay-cont, okay-one</td>
+      <td>The experiments of October 2026 that led to okay-core's one monad.</td>
+      <td>Effects on <code>shift0</code> and <code>$</code> in one monad.
+      See <a href="#history">how they came about</a>.</td>
+      <td>Scala 3.9.</td>
+      <td>History. Not published.</td></tr>
+  </table>
+  <p class="note">One name means three things. <strong>okay-effects</strong> is the organization. It is also the
+  name of okay-simple's artifacts and package (<code>okay-effects</code>, <code>okay-effects-machine</code>,
+  <code>okay.effects</code>). And it is the repository of the reference model, whose Scala package is
+  <code>okay.effects.scala</code>. On this page "okay-effects" is the repository.</p>
+</div></section>
+
+<section id="programs"><div class="wrap">
+  <h2>A program in each</h2>
+  <p class="sub">Copied from each repository's own documentation.</p>
+
+  <h3 class="part">okay-scala <span class="out">(README.md)</span></h3>
+  <pre>import okay.scala3.*       // the rows, programs, handlers, the machine
+import okay.scala3.std.*   // the standard effects: State, Reader, Writer, Fail, Async, ...
+
+def greet[R[_]: Has[Reader % String] : Has[State % Int] : Has[Writer % String]]: Int ! R =
+  for
+    name &lt;- Reader.ask
+    n    &lt;- State.get
+    _    &lt;- State.put(n + 1)
+    _    &lt;- Writer.tell(s"hello, $name")
+  yield n
+
+type Greeting[X] = (Reader % String + State % Int + Writer % String)[X]
+
+run(State.run(12)(Reader.run("Ann")(Writer.run(greet[Greeting]))))   // (13, (List(hello, Ann), 12))</pre>
+
+  <h3 class="part">okay-simple, Scala 3 <span class="out">(docs/getting-started.md)</span></h3>
+  <pre>import okay.effects.*
+import okay.effects.std.*
+
+/** greets, in any row that has a `Reader` of the name and a `State` of the count */
+def greet[R[_]: {Has[Reader % String], Has[State % Int]}]: String ! R =
+  for
+    name &lt;- ask[String, R]
+    n    &lt;- get[Int, R]
+    _    &lt;- put[Int, R](n + 1)
+  yield s"hello, $name (#${n + 1})"
+
+type App = Reader % String + State % Int
+
+val handled: (Int, String) ! Pure = state(0)(reader("Ann")(greet[App]))
+val result: (Int, String) = run(handled)</pre>
+  <p class="note">In Scala 2.13 the same program takes its evidence as implicits, and a row is written with names:
+  <code>((Reader % String) + (State % Int))#L</code>.</p>
+
+  <h3 class="part">okay-effects, the Scala kernel <span class="out">(README.md)</span></h3>
+  <pre>import okay.effects.scala.*, std.*
+
+val p: Int ! State % Int + Choose =
+  for x &lt;- Choose.among(1, 2); s &lt;- State.get[Int]; _ &lt;- State.put(s + x) yield s + x
+
+run(Choose.all(State.run(0)(p)))   // List((1, 1), (2, 2))
+run(State.run(0)(Choose.all(p)))   // (3, List(1, 3))</pre>
+
+  <h3 class="part">okay-direct, the Scala 3 front end <span class="out">(docs/scala.md)</span></h3>
+  <pre>import okay.direct.{Effect, Effects}
+import okay.direct.scala3.*
+
+def program(heads: Boolean)(using Effect[Reader[Int]], Effect[State[Int]], Effect[Fail[String]]): Int =
+  val base = Reader.ask[Int]
+  State.put(State.get[Int] + 1)
+  val result = if heads then base else -base
+  if result &lt; 0 then Fail.raise(s"negative: $result") else result
+
+given Effects = LoomEffects()
+Reader.run(42)(State.run(0)(Fail.attempt(program(true))))     // (1, Right(42))</pre>
+
+  <h3 class="part">okay-core <span class="out">(README.md)</span></h3>
+  <pre>import okay.*
+
+def greet: Int ! Reader % String + Writer % String =                  // a program as its type says it
+  ask[String].flatMap(name =&gt; tell(s"hello, $name").map(_ =&gt; name.length))
+
+run(reader("Ann")(writer[String, Int, Reader % String +: Pure](greet)))   // (List("hello, Ann"), 3)</pre>
+</div></section>
+
+<section id="can"><div class="wrap">
+  <h2>What each one does</h2>
+  <table>
+    <tr><th></th><th>Control and audit of effects</th><th>A continuation resumed many times</th>
+      <th>Constant stack</th><th>Checked by</th></tr>
+    <tr><td class="name">okay-scala</td>
+      <td><code>intercept</code>, <code>observe</code>, <code>around</code></td>
+      <td>Yes</td>
+      <td>Yes: the run is one loop; <code>defer</code> and <code>loop</code> for tail calls</td>
+      <td>Its own tests; okay-simple's interface suite, through the adapter</td></tr>
+    <tr><td class="name">okay-simple</td>
+      <td><code>intercept</code>, <code>observe</code></td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Its interface suite (<code>okay-effects-tck</code>), on every implementation</td></tr>
+    <tr><td class="name">okay-direct</td>
+      <td><code>Interceptor</code>, <code>Audited</code>, <code>Observer</code></td>
+      <td>On Espresso only; on Loom and on threads a continuation is resumed once</td>
+      <td>For handlers that answer in place; a general handler nests the stack at each resumption</td>
+      <td>Its own TCK (<code>okay-direct-tck</code>, JUnit)</td></tr>
+    <tr><td class="name">okay-effects</td>
+      <td><code>intercept</code></td>
+      <td>Yes (in Scala, Java and Rust)</td>
+      <td>Yes</td>
+      <td>Its properties, the same in three languages; the family's TCK digest; the wire's transcripts</td></tr>
+    <tr><td class="name">okay-core</td>
+      <td><code>audit</code>, <code>observe</code>, <code>intercept</code>; an effect marked sensitive is handled
+      only under its audit</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Its reference in CPS (<code>TestReference</code>); the family's TCK digest; okay-simple's interface
+      suite</td></tr>
+    <tr><td class="name">okay-kernel</td>
+      <td>—</td>
+      <td>Yes: the protocol's <code>k</code> is multi-shot</td>
+      <td>—</td>
+      <td>The family's TCK is here; its reference machine gives the digest</td></tr>
+  </table>
+</div></section>
+
+<section id="compatible"><div class="wrap">
+  <h2>Are they compatible?</h2>
+  <p class="sub">In notation, mostly. In classes, no: each library has its own, and a program of one runs on
+  another only through an adapter. In behaviour, as far as two shared test suites reach. On the wire, one of them.</p>
+
+  <h3 class="part">Notation</h3>
+  <p class="text"><strong>okay-simple, okay-scala and the Scala kernel of okay-effects write a program the same
+  way.</strong> <code>A ! R</code> is a program of the value <code>A</code> over the row <code>R</code>. A row is a
+  type constructor: <code>R + E</code> is <code>[X] =&gt;&gt; Sum[R, E, X]</code>, <code>F % S</code> is the effect
+  <code>F</code> with its parameter, <code>Pure</code> is the empty row. <code>In[E, R]</code> and
+  <code>Has[E]</code> say that an effect is in a row, <code>Split[E, R, Rest]</code> is what a handler takes,
+  <code>Sub[R, S]</code> puts a program into a bigger row. All three define these names.</p>
+  <p class="text">They are three sets of classes. <code>Sum</code>, <code>Void</code> and the program type are
+  defined in each library, in <code>okay.effects</code>, <code>okay.scala3</code> and
+  <code>okay.effects.scala</code>. A program of one is not a program of another, and a handler of one does not take
+  a program of another.</p>
+  <p class="text">The words differ. In okay-simple an operation is a function that names its row,
+  <code>get[Int, R]</code>, and a handler is <code>state(0)</code>. In okay-scala and in okay-effects an operation
+  is a word of its effect's object, <code>State.get</code>, and a handler is <code>State.run(0)</code>. okay-scala
+  names two effects <code>Fail</code> and <code>Yield</code>; okay-effects names them <code>Throws</code> and
+  <code>Emit</code> and has the other two names as aliases.</p>
+  <p class="text"><strong>okay-core and okay use the same three symbols</strong>, <code>A ! E1 + E2</code> and
+  <code>F % S</code>, over a different row: a type, <code>E +: T</code> ending in <code>Pure</code>, with a typed
+  path to each effect.</p>
+  <p class="text"><strong>okay-direct has no row and no monad.</strong> A program is plain code that takes a
+  capability for each effect, <code>using Effect[State[Int]]</code>; a body with no handler for an effect does
+  not compile.</p>
+
+  <h3 class="part" id="bridges">The bridges</h3>
+  <p class="text">Every adapter starts from okay-simple's interface. None runs a program of okay-scala, okay-direct
+  or okay-effects on another implementation.</p>
+  <table>
+    <tr><th>From</th><th>To</th><th>Where</th><th>What it does</th></tr>
+    <tr><td>okay-simple</td><td>okay-scala</td>
+      <td>okay-simple, module <code>cek</code>: <code>okay-effects-cek</code>, released, Scala 3</td>
+      <td><code>OnCek</code> runs okay-simple's interface on okay-scala's machine. <code>OnCek.into[S](p)</code>
+      puts such a program into a row of an okay-scala program: one machine, one run. No class is shared.</td></tr>
+    <tr><td>okay-simple</td><td>okay-core</td>
+      <td>okay-core, module <code>effects</code>: <code>okay-effects-core</code></td>
+      <td><code>Core</code>: a program of the interface is okay-core's own <code>Cont</code>.</td></tr>
+    <tr><td>okay-simple</td><td>okay-kernel</td>
+      <td>okay-kernel, module <code>effects</code>: <code>okay-effects-kernel</code>, Scala 3 and 2.13</td>
+      <td><code>OnKernel.on(effects)</code>: the interface on any implementation of the protocol.</td></tr>
+    <tr><td>okay-simple</td><td>okay-direct</td>
+      <td>okay-simple, <code>core/direct</code>: <code>okay-effects-direct</code>, JVM; in the repository, not in
+      the release 0.1.1</td>
+      <td><code>OnDirect</code>: the interface's programs run by okay-direct's handlers.</td></tr>
+    <tr><td>okay-core</td><td>okay-kernel</td>
+      <td>okay-core: <code>okay.core.kernel.OnCore</code></td>
+      <td>The protocol on the one monad.</td></tr>
+  </table>
+  <p class="note">okay-simple, okay-scala and okay-direct each have interop modules with cats-effect and ZIO;
+  okay-simple also with fs2, monix, kyo and tofu, okay-scala with tofu.</p>
+
+  <h3 class="part">Behaviour</h3>
+  <p class="text">Two test suites are shared between repositories. Neither covers all of them.</p>
+  <p class="text"><strong>The family's TCK</strong> is in okay-kernel (<code>tck/Tck.scala</code>): a thousand random
+  programs, their outcomes folded into one number, <code>-8623788747993822161</code>. Three repositories come to
+  that number: okay-kernel's reference machine, okay-core through <code>OnCore</code>, and each of the three
+  kernels of okay-effects. okay-effects compares with the constant; the reference machine is not in that repository
+  (its README says so). okay-simple, okay-scala and okay-direct do not run this TCK. The okay platform does not
+  run it itself; it runs on okay-core, which does.</p>
+  <p class="text"><strong>okay-simple's interface suite</strong> (<code>InterfaceSuite</code>, the artifact
+  <code>okay-effects-tck</code>) runs on the machine, on <code>Free</code>, on tagless over both, on okay-scala's
+  machine through <code>OnCek</code>, on okay-core through <code>Core</code>, and on okay-kernel's reference machine
+  through <code>OnKernel</code>. On okay-direct it runs through <code>OnDirect</code>; on Loom and on threads the
+  tests that resume a continuation twice are refused.</p>
+  <p class="text">So okay-scala and okay-effects are not held to one test: okay-scala is not checked by the digest,
+  and okay-effects is not checked by the interface suite.</p>
+
+  <h3 class="part">The wire</h3>
+  <p class="text">The okay wire is the protocol of the okay platform: a program runs in one process and its
+  operations are answered in another. Of the other repositories on this page only okay-effects speaks it, in all
+  three languages. It implements a part: its <code>wire/README.md</code> lists what is left out (tables and data
+  frames, TCP and TLS among them). Its hosts and workers are checked with each other and against transcripts; a
+  script, <code>wire/family/check.sh</code>, runs its host with the far sides of okay-zig, okay-lean, okay-ts and
+  okay's Python shim, and okay's own host with its three workers, where those repositories are at hand. okay-simple, okay-scala, okay-direct and
+  okay-core have no implementation of the wire.</p>
+</div></section>
+
+<section id="reference"><div class="wrap">
+  <h2>okay-scala and the reference kernel</h2>
+  <p class="sub">The two closest: the same notation, a machine of frames and levels in both, the same four
+  handler shapes.
+  okay-scala as released in 0.1.1; okay-effects' Scala kernel as on its <code>master</code>.</p>
+  <table>
+    <tr><th></th><th>okay-scala</th><th>okay-effects, the Scala kernel</th></tr>
+    <tr><td class="name">Purpose</td>
+      <td>A library to write applications on.</td>
+      <td>A reference: the model in its smallest form, the same in Java 25 and Rust, with a specification
+      (<code>SPEC.md</code>).</td></tr>
+    <tr><td class="name">Platforms</td>
+      <td>JVM, Scala.js, Scala Native. Built by sbt.</td>
+      <td>JVM. Built by scala-cli.</td></tr>
+    <tr><td class="name">Release</td>
+      <td>0.1.1, a Maven repository on GitHub Pages. Binary compatibility with the release is checked by MiMa.
+      On this site, okay-serverless and okay-proof resolve it.</td>
+      <td>Nothing is published; it is used from source.</td></tr>
+    <tr><td class="name">Standard effects</td>
+      <td>State, Reader, Writer, Fail, Abort, Choose, Yield, Control, Lifted, Fresh, Random, Store, Clock, Env,
+      Log, Async with fibers, Sync, Scope; and <code>Ref</code>, <code>Deferred</code>, <code>Semaphore</code>,
+      <code>Queue</code>, <code>Stream</code>, <code>Retry</code>, <code>Coeffects</code>.</td>
+      <td>Nine: State, Reader, Writer, Throws, Choose, Fresh, Clock, Emit (streams), Async.</td></tr>
+    <tr><td class="name">Interop</td>
+      <td>cats-effect, ZIO, tofu.</td>
+      <td>None.</td></tr>
+    <tr><td class="name">Casts</td>
+      <td>No <code>asInstanceOf</code> in the main sources. 34 matches are marked <code>@unchecked</code>.</td>
+      <td>No <code>asInstanceOf</code> and no <code>@unchecked</code>, in the sources and in the tests.</td></tr>
+    <tr><td class="name">Words</td>
+      <td colspan="2">Both: a word such as <code>State.get</code> names no row; it takes the row of the program's
+      declared type, or of an evidence in scope. In okay-effects since 10 Nov 2026; in okay-scala since the 0.1.1
+      published on 11 Nov 2026.</td></tr>
+    <tr><td class="name">The row a handler leaves</td>
+      <td colspan="2">Both: the row as one would write it. <code>State % Int + Choose</code> without the state is
+      <code>Choose</code>.</td></tr>
+    <tr><td class="name">Handler shapes</td>
+      <td><code>general</code>, <code>tail</code>, <code>abort</code>, <code>stateful</code>.</td>
+      <td>The same four, and <code>control</code>: <code>k</code> as a value that is resumed or unwound.</td></tr>
+    <tr><td class="name"><code>ensuring</code></td>
+      <td>The release is a block of host code, <code>release: =&gt; Unit</code>. It runs when the program ends, and
+      when a handler that aborts (<code>Fail</code>, <code>Abort</code>) drops it. A general handler that does not
+      call <code>k</code> drops it unseen.</td>
+      <td>The finalizer is a program, run by the machine. Leaving is an operation: <code>k.unwind</code> runs the
+      finalizers waiting in <code>k</code>. A <code>k</code> neither resumed nor unwound runs none.</td></tr>
+    <tr><td class="name">A program of a smaller row in a bigger one</td>
+      <td>Runs under one more level of the machine, which renames its operations on their way out.</td>
+      <td>The same, and embeddings compose: one entered in tail position on the level of another takes no level of
+      its own.</td></tr>
+    <tr><td class="name">The wire</td>
+      <td>No.</td>
+      <td>Yes, a part of it: <code>scala/src/wire</code>.</td></tr>
+    <tr><td class="name">Tests in common</td>
+      <td>okay-simple's interface suite, through the adapter.</td>
+      <td>The family's TCK digest.</td></tr>
+  </table>
+</div></section>
+
+<section id="history"><div class="wrap">
+  <h2>How they came about</h2>
+  <p class="sub">Dates are those of the commits and tags in each repository.</p>
+  <table>
+    <tr><th>When</th><th>What</th></tr>
+    <tr><td>2 Jul 2025</td><td>The first commit of okay, the platform.</td></tr>
+    <tr><td>7 Oct 2026</td><td>okay-core begins: delimited continuations over rows of effects.</td></tr>
+    <tr><td>10 Oct 2026</td><td>okay-kernel begins: one API for every language and platform.</td></tr>
+    <tr><td>12–14 Oct 2026</td><td>The experiments beside okay-core: okay-free, okay-eff, okay-cont, okay-one.
+      Each tried one way of putting effects and delimited control in one monad. okay-free kept the answer types in
+      the effects' monad. okay-eff took them out and made <code>k</code> data. okay-cont put the rows inside the
+      monad of <code>shift0</code> and <code>$</code>. okay-one made the boundary between the framework and its
+      kernel data. They are not published; what each found is recorded in okay-core's
+      <a href="https://github.com/okay-effects/okay-core/blob/master/docs/one.md">docs/one.md</a>.</td></tr>
+    <tr><td>13–14 Oct 2026</td><td>The decision: okay-core is one monad on one machine, <code>k</code> is data.
+      okay-one's kernel becomes okay-core's package <code>okay.one</code>, and the okay platform moves onto
+      it.</td></tr>
+    <tr><td>17–18 Oct 2026</td><td>okay-simple: one interface for Scala 3 and 2.13. Released as 0.1.0 on 18 Oct;
+      0.1.1 on 4 Nov.</td></tr>
+    <tr><td>22–23 Oct 2026</td><td>okay-direct: direct style on Java 25, with the Scala front ends. Released as
+      0.1.0.</td></tr>
+    <tr><td>23 Oct 2026</td><td>okay-scala: Scala 3 alone, one CEK machine. Released as 0.1.0 the same day.</td></tr>
+    <tr><td>10 Nov 2026</td><td>okay-effects, the repository: the kernel in Scala 3, Java 25 and Rust. Words that
+      take their row from the declared type, and the row a handler leaves, are committed there, and in
+      okay-scala later the same day.</td></tr>
+    <tr><td>11 Nov 2026</td><td>okay-scala 0.1.1 is published with them.</td></tr>
+  </table>
+  <p class="note">Two lines are developed for Scala today: okay-scala, for applications in Scala 3, and okay-simple,
+  the common interface for Scala 2.13 and 3. okay-effects is where the model is kept small and checked in three
+  languages. okay-core is the kernel under the okay platform.</p>
+</div></section>
+
+<section id="links"><div class="wrap">
+  <h2>Links</h2>
+  <table>
+    <tr><th>Repository</th><th>Start with</th><th>How to add it</th></tr>
+    <tr><td class="name"><a href="https://github.com/okay-effects/okay-scala">okay-scala</a></td>
+      <td><a href="https://github.com/okay-effects/okay-scala/blob/master/docs/getting-started.md">Getting
+      started</a>, <a href="https://github.com/okay-effects/okay-scala/blob/master/docs/design.md">design</a></td>
+      <td><a href="libraries.html#okay-scala">Libraries: okay-scala</a></td></tr>
+    <tr><td class="name"><a href="https://github.com/okay-effects/okay-simple">okay-simple</a></td>
+      <td><a href="https://github.com/okay-effects/okay-simple/blob/master/docs/getting-started.md">Getting
+      started</a>,
+      <a href="https://github.com/okay-effects/okay-simple/blob/master/docs/guide/implementations.md">the
+      implementations</a>,
+      <a href="https://github.com/okay-effects/okay-simple/blob/master/docs/family.md">the family</a></td>
+      <td><a href="libraries.html#okay-simple">Libraries: okay-simple</a></td></tr>
+    <tr><td class="name"><a href="https://github.com/okay-effects/okay-direct">okay-direct</a></td>
+      <td><a href="https://github.com/okay-effects/okay-direct/blob/master/docs/scala.md">Scala: the front ends
+      and the interop</a></td>
+      <td><a href="libraries.html#okay-direct">Libraries: okay-direct</a></td></tr>
+    <tr><td class="name"><a href="https://github.com/okay-effects/okay-effects">okay-effects</a></td>
+      <td><a href="https://github.com/okay-effects/okay-effects/blob/master/README.md">README</a>,
+      <a href="https://github.com/okay-effects/okay-effects/blob/master/SPEC.md">SPEC.md</a>,
+      <a href="https://github.com/okay-effects/okay-effects/blob/master/wire/README.md">the wire</a></td>
+      <td>From source</td></tr>
+    <tr><td class="name"><a href="https://github.com/okay-effects/okay-core">okay-core</a></td>
+      <td><a href="https://github.com/okay-effects/okay-core/blob/master/docs/guide.md">Guide</a>,
+      <a href="https://github.com/okay-effects/okay-core/blob/master/docs/intercept.md">control and audit of
+      effects</a></td>
+      <td>From source</td></tr>
+    <tr><td class="name"><a href="https://github.com/okay-effects/okay-kernel">okay-kernel</a></td>
+      <td><a href="https://github.com/okay-effects/okay-kernel/blob/master/docs/design.md">Design</a></td>
+      <td>From source</td></tr>
+    <tr><td class="name"><a href="https://github.com/okay-effects/okay">okay</a></td>
+      <td><a href="https://github.com/okay-effects/okay/blob/master/docs/contract.md">The contract in three
+      parts</a></td>
+      <td>From source</td></tr>
+  </table>
+</div></section>
+
+<footer><div class="wrap">
+  <span>okay-effects · Apache License 2.0 · <a href="index.html">okay-effects.github.io</a> ·
+  <a href="https://github.com/okay-effects">okay-effects on GitHub</a></span>
+  <a class="more" href="index.html#author">Need more?</a>
+</div></footer>
+
+</body>
+</html>
