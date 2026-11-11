@@ -224,7 +224,7 @@ run(handle(shop)(perform(Order(&quot;bob&quot;, &quot;book&quot;, 20))))  // fal
   <h2>In okay</h2>
   <p class="sub">The pieces this needs are already in okay-effects:</p>
   <div class="grid3">
-    <div class="card"><h3>Handlers across the wire</h3><p><a href="https://github.com/okay-effects/okay-kernel">okay-kernel</a>'s protocol runs a program under handlers in another process or another language. In the demo, a shop in Go has its inventory, payments and mail as Scala handlers.</p></div>
+    <div class="card"><h3>Handlers across the wire</h3><p>The <a href="https://github.com/okay-effects/okay/blob/master/docs/foreign-languages.md">okay wire</a> runs a program under handlers in another process or another language. In <a href="https://github.com/okay-effects/okay-go">okay-go</a>'s demo, a shop in Go has its inventory, payments and mail as Scala handlers. In one process, <a href="https://github.com/okay-effects/okay-kernel">okay-kernel</a>'s protocol does the same between implementations.</p></div>
     <div class="card"><h3>Resilience and asynchrony</h3><p>okay-simple has <code>retry</code> and <code>fallback</code>, and <code>async</code> with <code>timeout</code>, <code>race</code> and cancellation. It interoperates with ZIO (including layers), cats-effect, fs2 and kyo.</p></div>
     <div class="card"><h3>The platform</h3><p><a href="https://github.com/okay-effects/okay">okay</a> has HTTP, SQL, Kafka, streams, a cluster and durable workflows on the same model. <code>okay-audit</code> shows in the bytecode where each module reaches the outside, which is where a service boundary goes.</p></div>
   </div>
