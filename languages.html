@@ -186,11 +186,13 @@
       <td>Public. Not on npm. Last commit 15 Oct 2026.</td></tr>
     <tr id="okay-python"><td class="name"><a href="https://github.com/okay-effects/okay-python">okay-python</a></td>
       <td>Python 3.11+</td>
-      <td>In direct style on generators: <code>yield from cap.perform(op)</code>.</td>
+      <td>On one machine with a persistent stack of frames. A program is written as a generator,
+      <code>yield from cap.perform(op)</code>, or as data.</td>
       <td>Not as a set. Effects are capabilities passed as parameters. <code>mypy --strict</code> types an
       operation's answer; which operations a capability takes is checked at run time.</td>
-      <td>One-shot. See <a href="#python-paths">the note on <code>every_path</code></a>.</td>
-      <td>Public. Not on PyPI. Last commit 18 Oct 2026.</td></tr>
+      <td>A generator: once. Data: multi-shot. A handler that resumes many times (<code>resuming</code>,
+      <code>all_paths</code>) takes data only; <code>mypy --strict</code> refuses a generator there.</td>
+      <td>Public. Not on PyPI. Last commit 11 Nov 2026.</td></tr>
     <tr id="okay-lean"><td class="name"><a href="https://github.com/okay-effects/okay-lean">okay-lean</a></td>
       <td>Lean 4.35</td>
       <td>As data: okay-simple's <code>Free</code> monad, ported.</td>
@@ -204,10 +206,9 @@
   README says it has moved, and its history is in okay-rust. okay-effects is the reference model: one small kernel
   written three times, in Scala 3, Java 25 and Rust.</p>
   <p class="note" id="python-paths">One rule holds across the family: a continuation resumed many times is a real
-  value, a copy of frames, a cloned state machine or data; a body is never run again from its start. okay-python
-  is the exception, and its guide says so: a generator cannot be copied, and <code>every_path</code> re-runs the
-  body with the answers so far replayed, for a body that is pure apart from its effects
-  (<code>okay_effects/paths.py</code>).</p>
+  value, a copy of frames, a cloned state machine or data; a body is never run again from its start. Where a
+  language's own continuation cannot be copied (a generator in Python and in TypeScript), it is resumed once, and
+  a program that must be resumed many times is written as data.</p>
 </div></section>
 
 <section id="programs"><div class="wrap">
@@ -460,8 +461,9 @@ def greet [In (Reader String) R] [In (Writer String) R] [In (State Nat) R] : Nat
 
   <h3 class="part">Python</h3>
   <p class="text">Python has no rows. A program is a generator, typed by what each operation answers under
-  <code>mypy --strict</code>; its effects are the capabilities it is given. The business code stays a generator
-  under asyncio: <code>run_async</code> awaits at the top.</p>
+  <code>mypy --strict</code>; its effects are the capabilities it is given. A generator cannot be copied, so a
+  program that a handler resumes many times is written as data, as in TypeScript; one machine runs both. The
+  business code stays a generator under asyncio: <code>run_async</code> awaits at the top.</p>
 
   <h3 class="part">Lean</h3>
   <p class="text">An effect is an inductive family indexed by the answer's type, so dependent pattern matching
@@ -512,7 +514,7 @@ def greet [In (Reader String) R] [In (Writer String) R] [In (State Nat) R] : Nat
       <td><code>audit</code>, <code>intercept</code>, <code>observe</code>; a sensitive effect only under its
       audit</td></tr>
     <tr><td class="name">okay-python</td>
-      <td>—</td>
+      <td>Data programs: 100 000 binds at Python's default recursion limit (its tests)</td>
       <td><code>run_async</code>, <code>all_of</code>, <code>race</code> on asyncio</td>
       <td>Middleware over a program handed out to a host</td></tr>
     <tr><td class="name">okay-lean</td>
