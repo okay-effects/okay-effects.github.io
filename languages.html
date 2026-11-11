@@ -199,7 +199,7 @@
       <td>By Lean. The row is a list of effects in the type; <code>run</code> exists only for
       <code>A ! []</code>.</td>
       <td>Multi-shot: <code>k</code> is a pure function.</td>
-      <td>Public. No release. Last commit 25 Oct 2026.</td></tr>
+      <td>Public. No release. Last commit 11 Nov 2026.</td></tr>
   </table>
   <p class="note">okay-direct also has front ends for Scala 3 and 2.13; they are on <a href="scala.html">the Scala
   page</a>. <a href="https://github.com/okay-effects/okay-rs">okay-rs</a> is the earlier repository of okay-rust; its
@@ -520,7 +520,9 @@ def greet [In (Reader String) R] [In (Writer String) R] [In (State Nat) R] : Nat
     <tr><td class="name">okay-lean</td>
       <td>10<sup>8</sup> operations on an 8 MB stack</td>
       <td>—</td>
-      <td>Not there yet (its README)</td></tr>
+      <td><code>intercept</code>, <code>around</code>, <code>observe</code>, an audit trail; a sensitive effect only
+      under its audit, a program reaching it otherwise refused by Lean. Laws proved: a passing interceptor is none, an
+      observer is unseen, the trail of one path is its operations in order</td></tr>
   </table>
   <p class="note">Speed. Three repositories measure the same lane, every path of a choice among 1000, on a rest
   compiled to a state machine: okay-rust 0.28 µs a run (<code>resumable/benches/lanes.rs</code>, medians of three
