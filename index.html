@@ -385,13 +385,13 @@ audit(guarded(<span class="s">1000</span>))(payments).handleAudited(bank).handle
 
 <section id="start"><div class="wrap">
   <h2>Start with okay-simple</h2>
-  <p class="sub"><a href="https://github.com/okay-effects/okay-simple">okay-simple</a> is the smallest way in: one typed interface of algebraic effects for Scala 3 (3.3 LTS on) and Scala 2.13, on the JVM, Scala.js and Scala Native. It is released as 0.1.0, and adding it is two lines in sbt.</p>
+  <p class="sub"><a href="https://github.com/okay-effects/okay-simple">okay-simple</a> is the smallest way in: one typed interface of algebraic effects for Scala 3 (3.3 LTS on) and Scala 2.13, on the JVM, Scala.js and Scala Native. It is released as 0.1.1, and adding it is two lines in sbt.</p>
   <div class="grid2">
     <div><h3>1. Add it to the build</h3><pre>resolvers += &quot;okay-effects&quot; at &quot;https://okay-effects.github.io/okay-simple/maven&quot;
 
 libraryDependencies ++= Seq(
-  &quot;io.github.okay-effects&quot; %% &quot;okay-effects&quot;         % &quot;0.1.0&quot;,  // the interface and the standard effects
-  &quot;io.github.okay-effects&quot; %% &quot;okay-effects-machine&quot; % &quot;0.1.0&quot;   // an implementation to run on
+  &quot;io.github.okay-effects&quot; %% &quot;okay-effects&quot;         % &quot;0.1.1&quot;,  // the interface and the standard effects
+  &quot;io.github.okay-effects&quot; %% &quot;okay-effects-machine&quot; % &quot;0.1.1&quot;   // an implementation to run on
 )</pre>
       <p class="note">Use <code>%%%</code> for Scala.js and Scala Native. Other modules use the same form: <code>okay-effects-stream</code>, <code>-async</code>, <code>-zio</code>, <code>-cats</code> and the rest. The full list is in <a href="https://okay-effects.github.io/okay-simple/">the repository index</a>.</p></div>
     <div><h3>2. Write a program, handle it, run it</h3><pre>import okay.effects.*
@@ -439,7 +439,7 @@ The handlers give the meaning: here a config value, a log collected into a list 
   <table>
     <tr><th>Project</th><th>Language</th><th>What it is</th></tr>
     <tr><td><a href="https://github.com/okay-effects/okay-core">okay-core</a></td><td>Scala 3</td><td>The kernel: one monad, delimited control (<code>shift0</code>), multi-shot continuations as data, no macros. Interceptors and audit.</td></tr>
-    <tr><td><a href="https://github.com/okay-effects/okay-simple">okay-simple</a></td><td>Scala 3, 2.13</td><td>A small typed interface for both Scala compilers, released as 0.1.0: three implementations, ten modules, and interop with cats, ZIO, fs2, kyo and monix.</td></tr>
+    <tr><td><a href="https://github.com/okay-effects/okay-simple">okay-simple</a></td><td>Scala 3, 2.13</td><td>A small typed interface for both Scala compilers, released as 0.1.1: three implementations, ten modules, and interop with cats, ZIO, fs2, kyo and monix.</td></tr>
     <tr><td><a href="https://github.com/okay-effects/okay-kernel">okay-kernel</a></td><td>Java API</td><td>The protocol: a program steps to <em>done</em>, <em>yield</em>, <em>failed</em> or <em>cancelled</em>. It comes with a TCK that every implementation passes.</td></tr>
     <tr><td><a href="https://github.com/okay-effects/okay-java">okay-java</a></td><td>Java 25</td><td>The kernel's design on <code>shift0</code>. A capability that escapes its handler is a compile error.</td></tr>
     <tr><td><a href="https://github.com/okay-effects/okay-rust">okay-rust</a></td><td>Rust</td><td>One API: a program is an <code>async</code> function over a context, and the context answers its effects. A second crate compiles a function into a continuation that can be taken many times. A third is the kernel as data, checked against the kernel's suites.</td></tr>

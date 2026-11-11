@@ -73,7 +73,7 @@
 
 <div class="hero"><div class="wrap">
   <h1>Start with okay-simple.</h1>
-  <p class="lead">Algebraic effects in Scala, in six short steps. Each block on this page was compiled and run against the released 0.1.0 from its Maven repository, on Scala 3.3 LTS and on Scala 3.9. The values in the comments are what it printed.</p>
+  <p class="lead">Algebraic effects in Scala, in six short steps. Each block on this page was compiled and run against the released 0.1.1 from its Maven repository, on Scala 3.3 LTS and on Scala 3.9. The values in the comments are what it printed.</p>
 </div></div>
 
 <section><div class="wrap">
@@ -84,9 +84,9 @@
   <pre>resolvers += &quot;okay-effects&quot; at &quot;https://okay-effects.github.io/okay-simple/maven&quot;
 
 libraryDependencies ++= Seq(
-  &quot;io.github.okay-effects&quot; %% &quot;okay-effects&quot;         % &quot;0.1.0&quot;,  // the interface and the standard effects
-  &quot;io.github.okay-effects&quot; %% &quot;okay-effects-machine&quot; % &quot;0.1.0&quot;,  // an implementation to run on
-  &quot;io.github.okay-effects&quot; %% &quot;okay-effects-stream&quot;  % &quot;0.1.0&quot;   // streams, used in step 6
+  &quot;io.github.okay-effects&quot; %% &quot;okay-effects&quot;         % &quot;0.1.1&quot;,  // the interface and the standard effects
+  &quot;io.github.okay-effects&quot; %% &quot;okay-effects-machine&quot; % &quot;0.1.1&quot;,  // an implementation to run on
+  &quot;io.github.okay-effects&quot; %% &quot;okay-effects-stream&quot;  % &quot;0.1.1&quot;   // streams, used in step 6
 )</pre>
   <p class="out">The full list of modules is in <a href="https://okay-effects.github.io/okay-simple/">the repository index</a>: implementations (<code>-free</code>, <code>-tagless</code>), effects (<code>-async</code>, <code>-concurrent</code>, <code>-resource</code>, <code>-io</code>, <code>-probability</code>, <code>-parsing</code>, <code>-logic</code>, <code>-transaction</code>, <code>-resilience</code>) and interop (<code>-zio</code>, <code>-cats</code>, <code>-fs2</code>, <code>-kyo</code>, <code>-monix</code>, <code>-java-stream</code>, <code>-tofu</code>).</p>
 </div>
