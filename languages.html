@@ -101,11 +101,14 @@
     <tr id="okay-java"><td class="name"><a href="https://github.com/okay-effects/okay-java">okay-java</a></td>
       <td>Java 25</td>
       <td>As data. <code>Eff&lt;L, A&gt;</code> is nodes run by a machine over an explicit stack of delimiters;
-      an operation is a <code>shift0</code> to its handler's prompt.</td>
+      an operation is a <code>shift0</code> to its handler's prompt. A second notation, <code>okay.rows</code>, on
+      the same machine: <code>Comp&lt;A, R&gt;</code>, the interface of okay-effects' Java kernel. A
+      <code>Bridge</code> runs a program of either notation inside the other.</td>
       <td>By javac. An effect is an interface at a level <code>L</code>; a handler's body is a generic method at a
-      level of its own; <code>Eff.run</code> takes a program at <code>Top</code>.</td>
+      level of its own; <code>Eff.run</code> takes a program at <code>Top</code>. In <code>okay.rows</code> the row
+      is a nested type, by position, as in okay-effects' Java kernel; <code>run</code> takes the empty row.</td>
       <td>Multi-shot: <code>k</code> is the captured part of the machine's stack.</td>
-      <td>Public. No release. Last commit 16 Oct 2026.</td></tr>
+      <td>Public. No release. Last commit 11 Nov 2026.</td></tr>
     <tr id="okay-direct"><td class="name"><a href="https://github.com/okay-effects/okay-direct">okay-direct</a></td>
       <td>Java 25</td>
       <td>In direct style: <code>perform</code> is a method call. Three implementations: HotSpot's internal
@@ -398,7 +401,8 @@ def greet [In (Reader String) R] [In (Writer String) R] [In (State Nat) R] : Nat
   <strong>okay-java</strong> puts the handlers in force into a type variable: a handler's body is a generic method
   at a level <code>M extends L</code> that nothing outside can name, so a capability that leaves its handler does
   not compile (<code>LeakTest</code>). The price is in its README: a lambda cannot implement a generic method, so
-  every handler's body is an anonymous class or a method reference.
+  every handler's body is an anonymous class or a method reference. Its second notation, <code>okay.rows</code>,
+  is the interface of okay-effects' Java kernel, below, on okay-java's own machine (<code>docs/rows.md</code>).
   <strong>The Java kernel of okay-effects</strong> writes the row as a nested type with wildcards. It is
   positional: a program names its effects in the order of its handlers and is moved with <code>up</code>,
   <code>under</code> and <code>fit</code>; a handler takes its effect from the front of the row only.</p>
@@ -478,7 +482,10 @@ def greet [In (Reader String) R] [In (Writer String) R] [In (State Nat) R] : Nat
     <tr><td class="name">okay-java</td>
       <td>An explicit stack on the heap; the tests run under <code>-Xss512k</code></td>
       <td><code>Async</code>: <code>CompletableFuture</code>, virtual threads</td>
-      <td>—</td></tr>
+      <td>In <code>okay.rows</code>, with okay-effects' Java names: <code>Audit.audit</code> with an
+      <code>Interceptor</code>, <code>K.after</code>, <code>Effects.observe</code>, <code>Observer.observe</code>
+      of every effect, <code>std.Trail</code>; a sensitive effect only under its audit. A program of the capability
+      notation gets them through the <code>Bridge</code></td></tr>
     <tr><td class="name">okay-direct</td>
       <td>Constant for handlers that answer in place</td>
       <td><code>Async</code>: structured concurrency, a virtual clock, channels</td>
@@ -486,7 +493,8 @@ def greet [In (Reader String) R] [In (Writer String) R] [In (State Nat) R] : Nat
     <tr><td class="name">okay-effects, Java and Rust</td>
       <td>Constant: one loop, frames on the heap</td>
       <td><code>Async</code>; in Rust time is a queue the caller runs</td>
-      <td><code>intercept</code></td></tr>
+      <td><code>intercept</code>, <code>observe</code>, an audit trail, <code>k.after</code>; a sensitive effect
+      only under its audit, refused by javac and rustc anywhere else</td></tr>
     <tr><td class="name">okay-kotlin</td>
       <td>Constant for deep handlers (its README)</td>
       <td>Runs inside kotlinx.coroutines as any suspend code</td>
@@ -545,10 +553,11 @@ def greet [In (Reader String) R] [In (Writer String) R] [In (State Nat) R] : Nat
   <table>
     <tr><th>Comes to the digest</th><th>Where</th><th>What is held to it</th></tr>
     <tr><td class="name">okay-java</td>
-      <td>okay-kernel, <code>integration</code>: <code>TestTckOnJava</code></td>
+      <td>okay-kernel, <code>integration</code>: <code>TestTckOnJava</code>; okay-java,
+      <code>src/test/java/okay/rows/Tck.java</code></td>
       <td>okay-java as an implementation of okay-kernel's Java API (<code>okay.core.Kernel</code>). The TCK runs
       there on okay-core, okay-java and the reference machine in one process, each nesting through the
-      others.</td></tr>
+      others. And the row notation, <code>okay.rows</code>, by okay-effects' Java TCK, copied.</td></tr>
     <tr><td class="name">okay-rust</td>
       <td><code>machine/tests/tck.rs</code></td>
       <td>The crate <code>okay-machine</code>. Not the crate <code>okay</code>, and not
@@ -585,8 +594,13 @@ def greet [In (Reader String) R] [In (Writer String) R] [In (State Nat) R] : Nat
       <td>Its own: <code>EffectsTck</code> and <code>RenamingTck</code> hold both engines of the data style to the
       same answers. <code>SpecTest</code> runs the calculi of Forster, Kammar, Lindley and Pretnar (ICFP 2017) as
       written there.</td></tr>
+    <tr><td class="name">okay-java</td>
+      <td>In <code>okay.rows</code>: okay-effects' Java <code>Properties</code> and <code>Audits</code>, and its
+      programs that javac must refuse, copied with only their package changed (<code>PropertiesTest</code>,
+      <code>NegativeTest</code>).</td></tr>
     <tr><td class="name">okay-lean</td>
-      <td>Proofs in place of tests. Its specification is okay-simple's <code>Free</code>.</td></tr>
+      <td>Proofs of the laws. Its specification is okay-simple's <code>Free</code>; its tests of interception run
+      okay-simple's interception programs (<code>Tests/InterceptTests.lean</code>).</td></tr>
     <tr><td class="name">okay-go, okay-python, okay-goose</td>
       <td>Their own tests. okay-goose compares the output of its examples with files kept beside them
       (<code>tests/run.sh</code>).</td></tr>

@@ -119,7 +119,7 @@
       <td>A program is data; one loop over a stack of levels, one level a handler. The model is the repository's
       <code>SPEC.md</code>.</td>
       <td>Scala 3.3, built by scala-cli. JVM.</td>
-      <td>Public. Nothing is published as an artifact. Last commit 10 Nov 2026.</td></tr>
+      <td>Public. Nothing is published as an artifact. Last commit 11 Nov 2026.</td></tr>
     <tr id="okay-core"><td class="name"><a href="https://github.com/okay-effects/okay-core">okay-core</a></td>
       <td>The kernel of the okay platform: effects and delimited control. Packages <code>okay.one</code> (the
       kernel), <code>okay.core</code> (the facade), <code>okay</code> (the words).</td>
@@ -231,7 +231,8 @@ run(reader("Ann")(writer[String, Int, Reader % String +: Pure](greet)))   // (Li
       <td><code>intercept</code>, <code>observe</code>, <code>around</code></td>
       <td>Yes</td>
       <td>Yes: the run is one loop; <code>defer</code> and <code>loop</code> for tail calls</td>
-      <td>Its own tests; okay-simple's interface suite, through the adapter</td></tr>
+      <td>Its own tests (157 on the JVM, 155 on Scala.js and Scala Native); okay-simple's interface suite, through
+      the adapter</td></tr>
     <tr><td class="name">okay-simple</td>
       <td><code>intercept</code>, <code>observe</code></td>
       <td>Yes</td>
@@ -243,10 +244,12 @@ run(reader("Ann")(writer[String, Int, Reader % String +: Pure](greet)))   // (Li
       <td>For handlers that answer in place; a general handler nests the stack at each resumption</td>
       <td>Its own TCK (<code>okay-direct-tck</code>, JUnit)</td></tr>
     <tr><td class="name">okay-effects</td>
-      <td><code>intercept</code></td>
+      <td><code>intercept</code>, <code>observe</code>, <code>around</code> (Scala), an audit trail; an effect
+      marked sensitive is handled only under its audit (in Scala, Java and Rust)</td>
       <td>Yes (in Scala, Java and Rust)</td>
       <td>Yes</td>
-      <td>Its properties, the same in three languages; the family's TCK digest; the wire's transcripts</td></tr>
+      <td>Its properties, the same in three languages (Scala 118 tests; Java 64 properties, 27 wire tests, 8
+      programs refused by javac; Rust 125 tests); the family's TCK digest; the wire's transcripts</td></tr>
     <tr><td class="name">okay-core</td>
       <td><code>audit</code>, <code>observe</code>, <code>intercept</code>; an effect marked sensitive is handled
       only under its audit</td>
@@ -345,7 +348,7 @@ run(reader("Ann")(writer[String, Int, Reader % String +: Pure](greet)))   // (Li
 
 <section id="reference"><div class="wrap">
   <h2>okay-scala and the reference kernel</h2>
-  <p class="sub">The two closest: the same notation, a machine of frames and levels in both, the same four
+  <p class="sub">The two closest: the same notation, a machine of frames and levels in both, the same five
   handler shapes.
   okay-scala as released in 0.1.1; okay-effects' Scala kernel as on its <code>master</code>.</p>
   <table>
@@ -380,18 +383,28 @@ run(reader("Ann")(writer[String, Int, Reader % String +: Pure](greet)))   // (Li
       <td colspan="2">Both: the row as one would write it. <code>State % Int + Choose</code> without the state is
       <code>Choose</code>.</td></tr>
     <tr><td class="name">Handler shapes</td>
-      <td><code>general</code>, <code>tail</code>, <code>abort</code>, <code>stateful</code>.</td>
-      <td>The same four, and <code>control</code>: <code>k</code> as a value that is resumed or unwound.</td></tr>
+      <td colspan="2">Both: <code>general</code>, <code>tail</code>, <code>abort</code>, <code>stateful</code>, and
+      <code>control</code>: <code>k</code> as a value, a <code>Continuation</code>, that is resumed or unwound
+      (<code>k.unwind</code>).</td></tr>
     <tr><td class="name"><code>ensuring</code></td>
-      <td>The release is a block of host code, <code>release: =&gt; Unit</code>. It runs when the program ends, and
-      when a handler that aborts (<code>Fail</code>, <code>Abort</code>) drops it. A general handler that does not
-      call <code>k</code> drops it unseen.</td>
+      <td>The finalizer is a program of the row, or a thunk, run by the machine. Leaving is an operation:
+      <code>k.unwind</code> runs the finalizers waiting in <code>k</code>. Every standard handler that drops a rest
+      unwinds it: <code>Fail</code>, <code>Abort</code>, <code>Choose</code> at a choice of nothing,
+      <code>Yield.take</code> at its cut, <code>Lift</code> at a <code>None</code> or a <code>Left</code>,
+      <code>Async</code> at a cancel, a race's loser, a timeout. <code>Scope</code> releases by
+      <code>ensuring</code>, and so does a stream's pull that is left. A <code>k</code> neither resumed nor unwound
+      runs none.</td>
       <td>The finalizer is a program, run by the machine. Leaving is an operation: <code>k.unwind</code> runs the
       finalizers waiting in <code>k</code>. A <code>k</code> neither resumed nor unwound runs none.</td></tr>
     <tr><td class="name">A program of a smaller row in a bigger one</td>
-      <td>Runs under one more level of the machine, which renames its operations on their way out.</td>
-      <td>The same, and embeddings compose: one entered in tail position on the level of another takes no level of
-      its own.</td></tr>
+      <td colspan="2">Both: it runs under one more level of the machine, which renames its operations on their way
+      out, and embeddings compose: one entered in tail position on the level of another takes no level of its own,
+      so calls in tail position between rows keep one level.</td></tr>
+    <tr><td class="name">Control and audit</td>
+      <td><code>intercept</code>, <code>observe</code>, <code>around</code>. No sensitive effects.</td>
+      <td>The same, and <code>k.after</code>; an audit trail, <code>Audit</code>; an effect declared sensitive is
+      handled only under its audit (<code>audit</code>, <code>handleAudited</code>), and the compiler refuses it
+      anywhere else.</td></tr>
     <tr><td class="name">The wire</td>
       <td>No.</td>
       <td>Yes, a part of it: <code>scala/src/wire</code>.</td></tr>
