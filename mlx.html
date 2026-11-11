@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<title>okay-mlx — local models, managed from your Mac</title>
+<meta name="description" content="Download the okay-mlx macOS app. Install a local MLX server and Qwen models, manage startup, and watch memory and CPU usage.">
+<style>
+  :root { --fg:#1b1f24; --muted:#57606a; --line:#d8dee4; --bg:#fff; --soft:#f6f8fa; --accent:#0b6e4f; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    color:var(--fg); background:var(--bg); }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .wrap { max-width:1040px; margin:0 auto; padding:0 24px; }
+  header { border-bottom:1px solid var(--line); }
+  header .wrap { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:16px;
+    padding-top:16px; padding-bottom:16px; }
+  .brand { font-weight:700; color:var(--fg); }
+  nav { display:flex; gap:20px; }
+  nav a { color:var(--muted); font-size:15px; }
+  .hero { padding:72px 0 48px; border-bottom:1px solid var(--line); }
+  h1 { font-size:42px; line-height:1.15; letter-spacing:-.02em; max-width:820px; margin:0 0 20px; }
+  .lead { max-width:760px; font-size:20px; color:var(--muted); margin-bottom:28px; }
+  .cta { display:flex; flex-wrap:wrap; gap:12px; }
+  .cta a { border:1px solid var(--line); border-radius:6px; padding:10px 18px; font-weight:600; }
+  .cta .primary { color:#fff; background:var(--accent); border-color:var(--accent); }
+  .note { font-size:14px; color:var(--muted); }
+  section { padding:48px 0; border-bottom:1px solid var(--line); }
+  h2 { font-size:28px; letter-spacing:-.01em; margin:0 0 20px; }
+  .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; }
+  .card { border:1px solid var(--line); border-radius:8px; padding:20px; }
+  h3 { margin:0 0 8px; font-size:18px; }
+  .card p { color:var(--muted); margin:0; }
+  li { margin:10px 0; }
+  code { font: .92em ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; overflow-wrap:anywhere;
+    background:var(--soft); padding:1px 5px; border-radius:4px; }
+  footer { padding:32px 0; color:var(--muted); font-size:14px; }
+  @media (max-width:640px) { .grid { grid-template-columns:1fr; } h1 { font-size:34px; }
+    .hero { padding-top:40px; } }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="index.html">okay-effects</a>
+  <nav aria-label="Page"><a href="#install">Install</a><a href="#models">Models</a><a href="libraries.html">Libraries</a></nav>
+</div></header>
+<main>
+<div class="hero"><div class="wrap">
+  <h1>Local models, managed from your Mac.</h1>
+  <p class="lead">okay-mlx is a native macOS control panel for a local language-model server.
+    Install the server, download models from Hugging Face, manage automatic startup, and see how much
+    memory and CPU the process uses.</p>
+  <div class="cta">
+    <a class="primary" href="https://github.com/okay-effects/okay-mlx/releases/download/v0.1.1/okay-mlx-desktop-macos-arm64.zip">Download for Apple Silicon</a>
+    <a href="https://github.com/okay-effects/okay-mlx/releases/tag/v0.1.1">Release and checksums</a>
+    <a href="https://github.com/okay-effects/okay-mlx">Source code</a>
+  </div>
+  <p class="note">Version 0.1.1 · Apple Silicon · macOS 14 or later · English, Ukrainian, and Russian</p>
+</div></div>
+
+<section id="install"><div class="wrap">
+  <h2>Install the app, then the server</h2>
+  <ol>
+    <li>Download and unzip the archive, then move <strong>okay-mlx.app</strong> to your Applications folder.</li>
+    <li>Open the app. On a Mac without the server, choose <strong>Install server</strong> in Overview.</li>
+    <li>The app downloads the server and its MLX libraries from GitHub Releases, verifies the archive checksum,
+      and downloads the startup model from Hugging Face if it is missing.</li>
+    <li>When setup finishes, the server starts at <code>http://127.0.0.1:8090</code>.
+      It also starts when you log in to macOS. Use the panel to stop, restart, or disable automatic startup.</li>
+  </ol>
+  <p class="note">This community build is ad-hoc signed and has not been notarized by Apple.
+    If macOS blocks the first launch, read Apple's guidance before deciding to open it.
+    <a href="https://support.apple.com/102445">Opening downloaded apps on macOS</a>.</p>
+  <p class="note">The binaries and libraries are installed under <code>~/.okay-mlx</code>.
+    The initial model is <code>mlx-community/Qwen3.5-4B-MLX-4bit</code>.
+    Model downloads can be several gigabytes and need sufficient free disk space and memory.</p>
+</div></section>
+
+<section id="models"><div class="wrap">
+  <h2>Download a model by its Hugging Face ID</h2>
+  <p>Open <strong>Models</strong>, enter an ID such as <code>mlx-community/Qwen3-0.6B-4bit</code>,
+    and press <strong>Download</strong>. The progress display shows the file and downloaded size.
+    You can cancel and retry using the files that already finished.</p>
+  <p>The downloader accepts the Qwen3 and Qwen3.5 architectures supported by okay-mlx.
+    Qwen3.6 and Qwen3.8 repositories using the Qwen3.5 architecture are supported too.
+    Completed models appear in the list even while the server is stopped.</p>
+  <p>By default models are stored in <code>~/.cache/huggingface/hub</code>.
+    The panel also reads a service's <code>HF_HUB_CACHE</code> or <code>HF_HOME</code> setting.</p>
+  <p>A client selects a downloaded model by its exact repository ID in the request's <code>model</code> field.
+    The server keeps one model active at a time and waits for current generations before switching.
+    The model highlighted in the panel is the active one.</p>
+</div></section>
+
+<section><div class="wrap">
+  <h2>See and control the local server</h2>
+  <div class="grid">
+    <div class="card"><h3>Service and startup</h3>
+      <p>See API availability, the active model, and the server address. Start, stop, and restart the service,
+        or change whether it starts at login.</p></div>
+    <div class="card"><h3>Memory and CPU</h3>
+      <p>The Resources tab shows current and peak process memory, CPU load, disk reads and writes,
+        and the Mac's memory pressure and swap usage. It refreshes every two seconds while open.</p></div>
+    <div class="card"><h3>Models and downloads</h3>
+      <p>Download without installing a separate command-line tool. Incomplete downloads stay out of
+        the server's model list until all required files are present.</p></div>
+    <div class="card"><h3>Service log</h3>
+      <p>Read the latest server messages and locate the full log in Finder.
+        The app follows the macOS language preference, with English, Ukrainian, and Russian translations.</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Built on okay-llm and MLX</h2>
+  <p>The server exposes OpenAI-compatible chat completions and an Anthropic-compatible messages API for
+    local clients and coding agents. It uses okay-llm for the gateway and effects, and mlx-scala for
+    inference on Apple's MLX. The control panel is written in SwiftUI.</p>
+  <p><a href="https://github.com/okay-effects/okay-mlx">okay-mlx source and API setup</a> ·
+    <a href="https://github.com/okay-effects/okay-llm">okay-llm</a> ·
+    <a href="https://github.com/sergey-scherbina/mlx-scala">mlx-scala</a></p>
+</div></section>
+</main>
+<footer><div class="wrap"><a href="index.html">okay-effects</a> · Open-source tools and libraries.</div></footer>
+</body>
+</html>
