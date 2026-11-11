@@ -108,6 +108,25 @@
 
 <section id="coinpath"><div class="wrap">
   <h2>Business apps built on Okay</h2>
+  <div class="grid2" style="margin-bottom:32px">
+    <div class="card" id="okay-mlx">
+      <h3><a href="mlx.html">okay-mlx</a>: local models, managed from your Mac</h3>
+      <p>A native macOS app that installs the local MLX server and downloads models from Hugging Face.
+        Manage startup, inspect the active model and log, and watch memory and CPU usage.
+        Apple Silicon, macOS 14 or later. English, Ukrainian, and Russian.</p>
+      <p style="margin-top:12px"><a href="https://github.com/okay-effects/okay-mlx/releases/download/v0.1.1/okay-mlx-desktop-macos-arm64.zip">Download the macOS app</a>
+        · <a href="mlx.html">Installation and details</a></p>
+    </div>
+    <div class="card" id="okay-uplc">
+      <h3><a href="https://okay-uplc.okay-effects.workers.dev/">okay-uplc</a>: a development environment for Cardano smart contracts</h3>
+      <p>Develop and debug smart contracts in Scala with Scalus, in your browser.
+        Step through Untyped Plutus Core forwards and backwards, follow the Scala source,
+        and inspect execution budgets, variables, and traces.
+        Connect a Scalus project, run test scenarios, or load a transaction from mainnet, preprod, or preview.
+        Change the datum, redeemer, signers, or validity range to see what passes.</p>
+      <p style="margin-top:12px"><a href="https://okay-uplc.okay-effects.workers.dev/">Open okay-uplc</a></p>
+    </div>
+  </div>
   <h3 class="app">Coinpath: follow a payment in a blockchain</h3>
   <p class="sub">A whole application built on these libraries, live: paste an address and see where the money went, step by step, each step with its reason. It runs in your browser, with no server of ours and no account.</p>
   <p><a class="btn" href="https://okay-effects.github.io/coinpath/" target="_blank" rel="noopener">Open Coinpath</a></p>
@@ -534,23 +553,6 @@ The handlers give the meaning: here a config value, a log collected into a list 
 <section id="tools"><div class="wrap">
   <h2>Tools</h2>
   <div class="grid2">
-    <div class="card" id="okay-uplc">
-      <h3><a href="https://okay-uplc.okay-effects.workers.dev/">okay-uplc</a>: a development environment for Cardano smart contracts</h3>
-      <p>Develop and debug smart contracts in Scala with Scalus, in your browser.
-        Step through Untyped Plutus Core forwards and backwards, follow the Scala source,
-        and inspect execution budgets, variables, and traces.
-        Connect a Scalus project, run test scenarios, or load a transaction from mainnet, preprod, or preview.
-        Change the datum, redeemer, signers, or validity range to see what passes.</p>
-      <p style="margin-top:12px"><a href="https://okay-uplc.okay-effects.workers.dev/">Open okay-uplc</a></p>
-    </div>
-    <div class="card" id="okay-mlx">
-      <h3><a href="mlx.html">okay-mlx</a>: local models, managed from your Mac</h3>
-      <p>A native macOS app that installs the local MLX server and downloads models from Hugging Face.
-        Manage startup, inspect the active model and log, and watch memory and CPU usage.
-        Apple Silicon, macOS 14 or later. English, Ukrainian, and Russian.</p>
-      <p style="margin-top:12px"><a href="https://github.com/okay-effects/okay-mlx/releases/download/v0.1.1/okay-mlx-desktop-macos-arm64.zip">Download the macOS app</a>
-        · <a href="mlx.html">Installation and details</a></p>
-    </div>
     <div class="card"><h3><a href="https://github.com/okay-effects/symdex">symdex</a>: structural code intelligence for coding agents</h3>
       <p>Definitions, references, callers, implementations, and which <code>given</code> each call site resolves. It reads them from the compiler's own output (SemanticDB, TASTy, SCIP) and serves them over MCP, so an agent asks instead of grepping. It is built on okay's MCP server.</p></div>
     <div class="card"><h3><a href="https://github.com/okay-effects/okay/blob/master/docs/modules/okay-audit.md">okay-audit</a>: the effect boundary in the bytecode</h3>
