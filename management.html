@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<title>Effects as an architecture, for those who manage information systems — okay-effects</title>
+<meta name="description" content="For a CTO, an architect or an IT manager: what building a system on effects and
+ handlers changes in the cost of change, control and audit, risk, platforms, teams and staffing; where it does not
+ pay; what to ask a team that proposes it.">
+<style>
+  :root { --fg:#1b1f24; --muted:#57606a; --line:#d8dee4; --bg:#ffffff; --soft:#f6f8fa; --accent:#0b6e4f; --code:#0d1117; --codefg:#e6edf3; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--fg); background:var(--bg); }
+  a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+  .wrap { max-width:1040px; margin:0 auto; padding:0 24px; }
+  header.top { border-bottom:1px solid var(--line); }
+  header.top .wrap { display:flex; justify-content:space-between; align-items:center; height:56px; }
+  .brand { font-weight:700; color:var(--fg); letter-spacing:-0.01em; }
+  nav a { margin-left:20px; color:var(--muted); font-size:15px; }
+  .hero { padding:72px 0 56px; border-bottom:1px solid var(--line); }
+  .hero h1 { font-size:40px; line-height:1.15; margin:0 0 18px; letter-spacing:-0.02em; max-width:820px; }
+  .hero p.lead { font-size:20px; color:var(--muted); max-width:760px; margin:0 0 28px; }
+  .cta a { display:inline-block; padding:10px 18px; border-radius:6px; margin:0 10px 10px 0; font-weight:600; font-size:15px; }
+  .cta .primary { background:var(--accent); color:#fff; } .cta .primary:hover { text-decoration:none; opacity:.92; }
+  .cta .secondary { border:1px solid var(--line); color:var(--fg); }
+  section { padding:56px 0; border-bottom:1px solid var(--line); }
+  section h2 { font-size:28px; margin:0 0 8px; letter-spacing:-0.01em; }
+  section p.sub { color:var(--muted); margin:0 0 28px; max-width:760px; }
+  pre { background:var(--code); color:var(--codefg); padding:18px 20px; border-radius:8px; overflow-x:auto; font:13.5px/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; margin:0; }
+  code { font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size:.92em; }
+  p code, li code, td code { background:var(--soft); padding:1px 5px; border-radius:4px; }
+  table { border-collapse:collapse; width:100%; font-size:15px; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-size:13px; color:var(--muted); font-weight:600; text-transform:uppercase; letter-spacing:.04em; }
+  td:first-child { white-space:nowrap; }
+  ul.tight { margin:0; padding-left:20px; color:var(--muted); font-size:15px; }
+  ul.tight li { margin:4px 0; }
+  .note { font-size:14px; color:var(--muted); margin-top:16px; }
+  footer { padding:40px 0 56px; color:var(--muted); font-size:14px; }
+  @media (max-width: 820px) { .hero h1 { font-size:34px; } header.top .wrap { height:auto; flex-wrap:wrap; padding-top:12px; padding-bottom:4px; } nav { width:100%; display:flex; gap:18px; overflow-x:auto; white-space:nowrap; padding:8px 0; scrollbar-width:none; } nav::-webkit-scrollbar { display:none; } nav a { margin-left:0; } table { display:block; max-width:100%; overflow-x:auto; } }
+  footer .wrap { display:flex; flex-wrap:wrap; align-items:baseline; gap:6px; } footer .more { margin-left:auto; font-weight:600; }
+</style>
+
+<style> h3.part { font-size:17px; margin:28px 0 8px; } section p.text { max-width:820px; margin:0 0 14px; }
+  table.two { margin:18px 0 22px; } table.two th, table.two td { width:50%; }
+  table.two td:first-child, table.wide td:first-child { white-space:normal; }
+  table.wide { margin:18px 0 22px; } table.wide td:first-child { width:24%; font-weight:700; }
+  ol.ask { max-width:820px; margin:0; padding-left:24px; } ol.ask li { margin:0 0 12px; } </style>
+</head>
+<body>
+
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html">okay-effects</a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#idea">The idea</a>
+    <a href="#change">Change</a>
+    <a href="#control">Control</a>
+    <a href="#risk">Risk</a>
+    <a href="#platforms">Platforms</a>
+    <a href="#teams">Teams</a>
+    <a href="#adoption">Adoption</a>
+    <a href="#limits">Limits</a>
+    <a href="#questions">Questions</a>
+  </nav>
+</div></header>
+
+<section class="hero" style="padding:56px 0 40px"><div class="wrap">
+  <h1>Effects as an architecture, for those who manage information systems</h1>
+  <p class="lead">In this way of building software, the business logic does not carry out its dealings with the
+  outside world: it states each one as a piece of data, and separate components decide what that means in a given
+  installation.
+  So the logic is written once, and where it runs, on which platform and under which controls is decided in one
+  place, where every such dealing can also be seen, limited, approved and recorded.
+  The price is an unfamiliar discipline, young libraries, and design work that comes before the first benefit.</p>
+  <p class="note">For those who decide about systems and budgets. One line of code. The page describes the public
+  repositories of okay-effects as of 11 November 2026. Where a benefit has not been measured, it is given as an
+  argument, with what the argument depends on.</p>
+</div></section>
+
+<section id="idea"><div class="wrap">
+  <h2>The idea in plain terms</h2>
+  <p class="text">A business program does two kinds of work. It computes: it decides whether an order may be paid.
+  And it deals with the world: it charges the card, writes to a database, calls another service, sends a letter,
+  asks a language model. Usually the two are written together, so the code that decides also knows which database
+  and which payment provider it talks to. Here they are kept apart. Three words are enough for the rest of the
+  page.</p>
+  <table class="wide">
+    <tr><th>Word</th><th>What it means</th></tr>
+    <tr><td>Operation</td><td>One request to the world, written down as data: "charge this user 20", "reserve this
+    item". The program states it and waits for the answer. It does not perform it.</td></tr>
+    <tr><td>Effect</td><td>A named set of operations that belong together: payments, the stock, mail. The effects a
+    part of the system may use are its declared interface. Where the language can express it, the compiler refuses
+    a part that uses an effect it did not declare.</td></tr>
+    <tr><td>Handler</td><td>The component that receives an operation and decides what it means here: do it in the
+    same process, send it to another service, record it, ask a person to approve it, refuse it, or answer it from a
+    recording in a test.</td></tr>
+  </table>
+  <p class="text">The system is put together in one place: the program, and around it the handlers chosen for this
+  installation. Changing a handler changes where and how the work is done. The program is not edited.</p>
+</div></section>
+
+<section id="change"><div class="wrap">
+  <h2>Change: moving where things run</h2>
+  <p class="text">The expensive changes in a system's life are often moves: a monolith into services, a data
+  centre into a cloud, one cloud into another, a blocking call into a queue. They cost so much because the code
+  that matters most has the old arrangement written into it, and is rewritten while it keeps running.</p>
+  <table class="two">
+    <tr><th>The usual way</th><th>With effects</th></tr>
+    <tr><td>Business code calls the database, the provider's client and the other module directly.</td>
+    <td>Business code states operations. Handlers make the calls.</td></tr>
+    <tr><td>Moving a module into a service means editing every place that calls it.</td>
+    <td>The handler that called the module is replaced by one that sends the operation over the network.</td></tr>
+    <tr><td>Retries and timeouts are written into the business code, call by call.</td>
+    <td>They are handlers around the remote handler.</td></tr>
+  </table>
+  <p class="text"><a href="modularity.html">From a monolith to services</a> shows this on a shop's checkout in
+  three steps: local, remote, asynchronous. The last arrangement is this line, and the function
+  <code>checkout</code> in it is the one written at the first step:</p>
+  <pre>runAsync(handle(remoteAsync(http))(checkout(&quot;ann&quot;, &quot;book&quot;, 20)))</pre>
+  <p class="text" style="margin-top:14px">The argument, which is not a measurement: the logic is not rewritten, so
+  the cost of a move is the cost of writing and testing the new handlers. It holds as far as the logic reaches the
+  world only through operations.</p>
+  <h3 class="part">What still has to be done</h3>
+  <ul class="tight">
+    <li>The first step is itself a rewrite: every direct call in the existing code becomes an operation.
+    It is done once for each part, and it is the main cost of adoption.</li>
+    <li>New handlers are written and tested, and the data is moved. No architecture moves data.</li>
+    <li>A remote call can be slow, fail halfway or arrive twice. A handler can retry. What the business does when
+    the stock was reserved and the payment failed is a decision the logic must contain.</li>
+    <li>Operations that were cut too fine will show it when they go remote. The cut is design work.</li>
+    <li>Deployment, monitoring and on-call for the new services are the same work as ever.</li>
+  </ul>
+</div></section>
+
+<section id="control"><div class="wrap">
+  <h2>Control and audit</h2>
+  <p class="text">A manager meets this as a recurring project: prove who did what, under which rule, with what
+  result. Usually it rests on discipline. Developers are told to log every sensitive action and to call the
+  permission check, and reviewers look for the places where they forgot.</p>
+  <p class="text">With effects, an operation has one way to the world, through its handler. A control placed there
+  sees every operation of that kind, including those written next year by someone who never heard of the rule.
+  That point serves four kinds of obligation: keeping records, tracing a decision to its rule, limiting access,
+  and reproducing what happened.</p>
+  <table class="two">
+    <tr><th>The usual way</th><th>With effects</th></tr>
+    <tr><td>The audit record is written by the business code, where the developer remembered.</td>
+    <td>A handler around the operation writes it: the intent before the operation runs, the result or the failure
+    after.</td></tr>
+    <tr><td>What a module is able to reach is found by reading its code.</td>
+    <td>The effects a module may use are declared, and the compiler holds it to them.</td></tr>
+    <tr><td>A limit or an approval rule is a check repeated in each function.</td>
+    <td>The rule stands at the handler. It passes an operation, changes it, refuses it, or holds it for a
+    person.</td></tr>
+  </table>
+  <p class="text">An auditor can be shown the declared effects of each component, the record of operations with
+  their results, the rule that decided each one, and a report from the build.
+  <a href="business.html">Audit by construction</a> sets this against the provisions of specific regulations, with
+  the code. This page gives no legal advice.</p>
+  <p class="text">In the repositories: in
+  <a href="https://github.com/okay-effects/okay-core/blob/master/docs/intercept.md">okay-core</a> (Scala) a
+  program that handles an effect marked sensitive outside its audit does not compile, and
+  <a href="https://github.com/okay-effects/okay-direct#control-and-audit">okay-direct</a> has the same rule for
+  Java 25. <a href="https://github.com/okay-effects/okay/blob/master/docs/modules/okay-audit.md">okay-audit</a>
+  reads the compiled classes at every build, checks that business modules reach no network, files, SQL or clock on
+  their own, and lists the modules that do.</p>
+  <h3 class="part">What it costs, and what it does not give</h3>
+  <ul class="tight">
+    <li>The record covers what goes through operations. Code that opens a connection on its own is outside it.
+    On the JVM the compiler does not prevent that, which is why okay-audit exists. It runs under sbt, Scala's
+    build tool; a tool for Maven and Gradle is listed in its document as work not done.</li>
+    <li>Where a control stands, each operation it sees costs a little time. okay-core's document measures no
+    difference where none is installed.</li>
+    <li>The record is as durable and as tamper-evident as the store its handler writes to. That store is yours to
+    choose and run.</li>
+    <li>This is mechanism and evidence for your own compliance work, not a certification. The repositories say so
+    themselves.</li>
+  </ul>
+</div></section>
+
+<section id="risk"><div class="wrap">
+  <h2>Risk: tests, incidents, and what a component is able to do</h2>
+  <h3 class="part">Testing without the outside world</h3>
+  <p class="text">A test of a business flow usually needs a database and a provider's sandbox, or mocks that
+  drift from the real thing. Here a test is the same program under other handlers: one answers "out of stock", and
+  the test checks that no charge and no letter followed. Failures are scripted the same way.
+  <a href="https://github.com/okay-effects/okay-serverless#platforms">okay-serverless</a> has an in-memory
+  platform with faults (a crash, a conflicting writer, an eviction) and one set of scenarios that every platform
+  passes.</p>
+  <p class="text">The cost: test handlers are code to maintain, and they prove the logic, not the real provider.
+  Tests against the real systems are still needed, for the handlers.</p>
+  <h3 class="part">Reproducing an incident</h3>
+  <p class="text">If every operation and its answer were recorded, the program can be run again from the record,
+  with no database and no network. A changed version stops at the first operation that differs. This holds only if
+  everything that varies is an operation, the clock and random numbers too.
+  <a href="business.html#bank">The bank example</a> shows the mechanism.</p>
+  <h3 class="part">Limiting a component, or an AI agent</h3>
+  <p class="text">A component that can only state operations can do only what its handlers allow. That matters
+  most for AI agents, whose next action nobody wrote in advance.
+  <a href="https://okay-effects.github.io/okay-guard/">okay-guard</a> stands between an agent and its tools. A
+  policy decides each call: it passes, it is blocked, or it waits for a person. Each is written to a journal with
+  the rule that decided it, each record chained to the one before, so a later change shows. A changed policy can
+  be tried against every recorded call first.
+  <a href="https://github.com/okay-effects/okay-remote#safe-in-layers">okay-remote</a> applies this to coding
+  agents on a developer's machine: if okay-remote cannot be reached, the action is not done.</p>
+  <p class="text">The limit: a guard sees the calls routed through it. An agent with another way to the network
+  or the disk is not held by it, and okay-remote adds a sandbox as a second layer for that reason.</p>
+</div></section>
+
+<section id="platforms"><div class="wrap">
+  <h2>Vendor and platform independence</h2>
+  <p class="text">An application written against a cloud's own services is tied to that cloud: leaving means
+  rewriting it. If the cloud's services are effects (a key-value store, a queue, a scheduled wake-up), each cloud
+  is a set of handlers. <a href="cloud.html">okay-serverless</a> runs one program on Cloudflare Workers, on AWS
+  Lambda, on a plain JVM server and in memory for tests.
+  <a href="https://github.com/okay-effects/okay-chat-edge#without-cloudflare">okay-chat-edge</a> is an application
+  that does it: its home is Cloudflare, and the same code runs as one JVM process with a local database file.</p>
+  <ul class="tight">
+    <li>You are tied to the library in the vendor's place. It is open source under the Apache licence, at version
+    0.1.0.</li>
+    <li>The platforms are not equally covered. The AWS side has durable state, key-value storage, rate limits,
+    objects and Postgres. File storage, sending to queues, mail, models and WebSockets are not written there.
+    <a href="cloud.html#status">The status list</a> names each gap.</li>
+    <li>A service that only one cloud has stays that cloud's. The program must say what it does without it.</li>
+    <li>Data, accounts, networking and contracts move by the usual means.</li>
+  </ul>
+  <h3 class="part">Across programming languages</h3>
+  <p class="text">The same model exists in several languages, so teams in Java, Scala and Rust can share one
+  idea. The <a href="https://github.com/okay-effects/okay-effects">reference model</a> is one small core written
+  in all three. The three are tested to give the same results on a thousand generated programs, and they share a
+  protocol by which a program in one language is answered by handlers in another; each of the nine pairings is
+  run. It is a model, not a product: its limits are in the table below. More in
+  <a href="scala.html">which is which</a> for Scala and on <a href="languages.html">the languages page</a>.</p>
+</div></section>
+
+<section id="teams"><div class="wrap">
+  <h2>Decomposition and teams</h2>
+  <p class="text">In a large system the hard questions are about boundaries: who owns what, what one team may
+  assume about another's part, what a change will break. The usual answers are documents and meetings, and both go
+  stale. An effect is a contract that a machine checks: the operations one part asks of another, and the type of
+  each answer.</p>
+  <ul class="tight">
+    <li><strong>Ownership.</strong> One team owns an effect and its production handlers. Others write against the
+    effect and test against a handler the owning team supplies.</li>
+    <li><strong>Review.</strong> When a module starts to use payments, payments appear in its declared effects.
+    A reviewer sees that line change and does not have to find a new call in the body of the code.</li>
+    <li><strong>Planning.</strong> A change to an effect is a visible change of interface. Every program that uses
+    it stops compiling until it is adjusted, so the size of the change is known before the work starts.</li>
+  </ul>
+  <p class="text" style="margin-top:14px">The same boundaries are where a service can later be cut out.
+  Across languages,
+  <a href="https://github.com/okay-effects/okay-go#the-shop">okay-go</a> has a shop written in Go whose stock,
+  payments and mail are answered by Scala handlers; its README calls it an experiment.</p>
+  <p class="text">The costs. Choosing the operations is design work, and a poor choice is felt by every team that
+  uses it. Shared effects need an owner and a rule for changing them. And the compiler checks the contract only
+  where the language can express it: in Go, that README says, a program's effects cannot be in its type.</p>
+</div></section>
+
+<section id="adoption"><div class="wrap">
+  <h2>Legacy and adoption</h2>
+  <p class="text">Nobody should rewrite a working system for an architecture. The approach can be introduced at
+  one boundary of an existing system and stopped there. <a href="business.html#start">The business page</a> gives
+  the author's three steps. For a manager they read so:</p>
+  <table class="wide">
+    <tr><th>Step</th><th>What is done</th><th>What it costs</th></tr>
+    <tr><td>1. One boundary</td><td>Take one integration that hurts, or one audit requirement: payments, customer
+    data, calls to a model. Its calls become operations, and a handler wraps the code that exists today.</td>
+    <td>A few engineers learn the approach and rewrite the places that call this one integration.</td></tr>
+    <tr><td>2. One control</td><td>Add the record, or a limit, at that handler. Add a test handler and move the
+    flow's tests onto it.</td><td>The handlers, and somewhere to keep the record.</td></tr>
+    <tr><td>3. Decide</td><td>Compare what the pilot showed with what it cost. Widen module by module, or
+    stop.</td><td>A review.</td></tr>
+  </table>
+  <h3 class="part">What a pilot should measure</h3>
+  <ul class="tight">
+    <li>How long the flow's tests run and how many need an external system, before and after.</li>
+    <li>Whether one real change of arrangement (a provider swapped, a call made asynchronous) left the business
+    code unedited. Count the lines changed outside handlers.</li>
+    <li>Whether the record answered a real question from audit or from an incident without anyone reading
+    code.</li>
+    <li>How long a developer from outside the pilot took to make a first correct change.</li>
+    <li>Response time and memory of the flow, before and after.</li>
+  </ul>
+  <h3 class="part">When to stop</h3>
+  <p class="text">Stop if the team cannot explain the code to its neighbours, if the measurements show no gain, or
+  if the only person who understands it is leaving. Stopping after step 2 loses little: one integration sits
+  behind a clear interface with a record on it.</p>
+  <p class="text">An existing Scala codebase does not have to choose:
+  <a href="https://github.com/okay-effects/okay-simple#interop">okay-simple</a> works together with cats-effect,
+  ZIO, fs2, kyo and monix, so effects can enter one part at a time.</p>
+</div></section>
+
+<section id="people"><div class="wrap">
+  <h2>People and cost</h2>
+  <p class="text"><strong>Skills.</strong> Writing business logic against existing effects is the easier part: it
+  reads as a sequence of steps. Designing effects and writing handlers needs someone at home in typed functional
+  programming. A team needs one such person for as long as it owns the code, and a second, so that the first can
+  leave.</p>
+  <p class="text"><strong>Time to productivity, and hiring.</strong> This page has no measured figure and will not
+  invent one. Make the time to a first correct change a result of the pilot. Engineers who have used algebraic
+  effects are fewer than those who know the mainstream frameworks, so plan to train. The public material is a
+  <a href="start.html">six-step start</a> for Scala and a guide in each repository.</p>
+  <p class="text"><strong>What exists.</strong> <a href="libraries.html">Released libraries</a> for Scala, Java 25
+  and Kotlin, and on them libraries for HTTP, data, user interfaces and the cloud; the build-time audit; a module
+  of okay-direct that reports every operation to OpenTelemetry, the common tracing standard; published benchmarks
+  with their method.</p>
+  <p class="text"><strong>What does not.</strong> The libraries are at versions 0.1.x and are the work of
+  <a href="index.html#author">one author</a>. This site names no production user other than the applications it
+  shows. There is no commercial support contract and no certification. A buyer should weigh that as a dependence
+  on one person, softened by the open licence and the small size of the cores.</p>
+  <p class="text"><strong>Performance.</strong> Stating an operation as data and finding its handler takes time:
+  in the reference model's own runs about 6 to 14 nanoseconds for a simple operation, and about 90 to 190 where a
+  handler runs the rest of the program more than once
+  (<a href="https://github.com/okay-effects/okay-effects#speed">its README</a>, which calls the table "a record of
+  runs, not a claim"). Next to a database write or a network call this is not visible. In a loop that only
+  computes it is. Comparisons with other libraries, losses included, are under
+  <a href="index.html#measured">Measured</a> on the front page.</p>
+</div></section>
+
+<section id="limits"><div class="wrap">
+  <h2>Where it does not pay</h2>
+  <ul class="tight">
+    <li><strong>Small systems that will stay small.</strong> One database, one deployment and no audit duty: the
+    structure will not be used.</li>
+    <li><strong>Pure computation.</strong> Pricing models, numerical work, data transformation: there is little
+    dealing with the world to separate, and the overhead falls on the hot path.</li>
+    <li><strong>Hard real-time.</strong> No repository here claims bounded response times. The Scala and Java
+    libraries run on the JVM, under a garbage collector.</li>
+    <li><strong>A team that will not own it.</strong> If it is one enthusiast's project and the rest work around
+    it, the company gets the costs and one person holds the benefits.</li>
+  </ul>
+  <h3 class="part">Limits the repositories state about themselves</h3>
+  <p class="text">From each repository's own README or documents, as of 11 November 2026. The links go to the
+  place that says it.</p>
+  <table class="wide">
+    <tr><th>Repository</th><th>What it says</th></tr>
+    <tr><td><a href="https://github.com/okay-effects/okay-effects#limits">okay-effects</a>, the reference</td>
+    <td>Nothing is published as a library. The Rust core runs on one thread. The link between processes is a
+    child process's standard input and output. Agreement with the wider family is checked against a number
+    recorded in the tests; the machine that number comes from is in another repository.</td></tr>
+    <tr><td><a href="https://github.com/okay-effects/okay-core/blob/master/docs/intercept.md">okay-core</a></td>
+    <td>No release. The audit is in the kernel's interface and not yet in the simpler one above it. The trail
+    holds an operation's name and printed form: "enough for a trail, not a schema".</td></tr>
+    <tr><td><a href="https://github.com/okay-effects/okay-direct#the-contract">okay-direct</a>, Java 25</td>
+    <td>On two of its three implementations a held program can be continued once, not many times. Handlers of
+    different implementations do not nest in one program.</td></tr>
+    <tr><td><a href="https://github.com/okay-effects/okay-serverless/blob/main/specs/cloud.md">okay-serverless</a>
+    </td><td>AWS is partly covered. Cloudflare's model service and vector index are written to their interfaces
+    and not run. The managed Postgres gateways of both clouds are tested against a local Postgres.</td></tr>
+    <tr><td><a href="https://github.com/okay-effects/okay-go#status">okay-go</a></td>
+    <td>"An experiment". A program's effects are not in its type.</td></tr>
+  </table>
+</div></section>
+
+<section id="questions"><div class="wrap">
+  <h2>Questions to ask a team or a vendor who proposes this</h2>
+  <ol class="ask">
+    <li>Which effects will the system have? Show the list on one page, in words.</li>
+    <li>Take one flow. Which of its dealings with the world are operations, and which still go around them? How
+    is the second kind found: by a tool at build time, or by review?</li>
+    <li>Show one business test running with no database and no network. Which tests still need the real systems,
+    and why?</li>
+    <li>Show a change of arrangement made by changing handlers only, with the list of changed files.</li>
+    <li>What is in an audit record? Where is it kept, and for how long? What happens to the operation if the record
+    cannot be written?</li>
+    <li>Replay yesterday's records against today's code. What is reported when the behaviour differs?</li>
+    <li>Which libraries does this rest on, at which versions? Who maintains them, and what is the plan if that
+    maintainer stops?</li>
+    <li>What does one operation cost in time and memory in our busiest flow, measured on our hardware?</li>
+    <li>Show a production failure as the on-call engineer sees it: the log and the error trace. How long does
+    someone who did not write the code need to find the failing step?</li>
+    <li>How many people on the team can write a new handler today? How long did the last newcomer need to make a
+    first correct change?</li>
+    <li>Is the list of effects checked by the compiler in our language? Which services of our cloud have no
+    handler yet?</li>
+    <li>What is the smallest pilot, what will it measure, and at what result do you advise us to stop?</li>
+  </ol>
+</div></section>
+
+<section id="links"><div class="wrap">
+  <h2>Links</h2>
+  <ul class="tight">
+    <li><a href="business.html">Audit by construction</a>: what specific regulations ask of software, and the
+    code.</li>
+    <li><a href="modularity.html">From a monolith to services</a>: the checkout in three steps; CQRS, event
+    sourcing, sharding and CRDTs as handlers.</li>
+    <li><a href="cloud.html">A cloud as effects</a>: one program on Cloudflare, on AWS, on a server of one's own.</li>
+    <li><a href="scala.html">The Scala implementations: which is which</a>.</li>
+    <li><a href="languages.html">The languages</a>.</li>
+    <li><a href="libraries.html">Libraries</a>: everything released, with versions.</li>
+    <li><a href="index.html#why">Why algebraic effects</a>, with the research behind them.</li>
+    <li><a href="index.html#author">The author</a>: Sergiy Shcherbyna, available as a team member or a contract
+    consultant.</li>
+  </ul>
+</div></section>
+
+<footer><div class="wrap">
+  <span>okay-effects · Apache License 2.0 · <a href="index.html">okay-effects.github.io</a> ·
+  <a href="business.html">For business</a> ·
+  <a href="https://github.com/okay-effects">okay-effects on GitHub</a></span>
+  <a class="more" href="index.html#author">Need more?</a>
+</div></footer>
+
+</body>
+</html>

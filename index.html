@@ -97,6 +97,7 @@
     <a class="primary" href="start.html">Get started in Scala</a>
     <a class="secondary" href="https://github.com/okay-effects/okay-simple/blob/master/docs/algebraic-effects.md">What algebraic effects are</a>
     <a class="secondary" href="business.html">Why it matters to a business</a>
+    <a class="secondary" href="management.html">For those who manage systems</a>
     <a class="secondary" href="https://github.com/okay-effects">All repositories</a>
   </div>
 </div>
@@ -441,12 +442,12 @@ The handlers give the meaning: here a config value, a log collected into a list 
     <tr><td><a href="https://github.com/okay-effects/okay-simple">okay-simple</a></td><td>Scala 3, 2.13</td><td>A small typed interface for both Scala compilers, released as 0.1.0: three implementations, ten modules, and interop with cats, ZIO, fs2, kyo and monix.</td></tr>
     <tr><td><a href="https://github.com/okay-effects/okay-kernel">okay-kernel</a></td><td>Java API</td><td>The protocol: a program steps to <em>done</em>, <em>yield</em>, <em>failed</em> or <em>cancelled</em>. It comes with a TCK that every implementation passes.</td></tr>
     <tr><td><a href="https://github.com/okay-effects/okay-java">okay-java</a></td><td>Java 25</td><td>The kernel's design on <code>shift0</code>. A capability that escapes its handler is a compile error.</td></tr>
-    <tr><td><a href="https://github.com/okay-effects/okay-rust">okay-rust</a></td><td>Rust</td><td>The kernel ported to Rust, plus a separate crate for effects in plain async Rust with capabilities. It is checked against the kernel's suites.</td></tr>
+    <tr><td><a href="https://github.com/okay-effects/okay-rust">okay-rust</a></td><td>Rust</td><td>One API: a program is an <code>async</code> function over a context, and the context answers its effects. A second crate compiles a function into a continuation that can be taken many times. A third is the kernel as data, checked against the kernel's suites.</td></tr>
     <tr><td><a href="https://github.com/okay-effects/okay-go">okay-go</a></td><td>Go</td><td>Direct-style effects on Go's coroutines, at 49 ns an operation. Parallel branches run on goroutines.</td></tr>
     <tr><td><a href="https://github.com/okay-effects/okay-python">okay-python</a></td><td>Python</td><td>Typed effects on generators, clean under <code>mypy --strict</code>. asyncio needs no coloured functions.</td></tr>
     <tr><td><a href="https://github.com/okay-effects/okay-ts">okay-ts</a></td><td>TypeScript</td><td>Effects tracked in the type as a union. Programs as data resume many times; generators resume once.</td></tr>
   </table>
-  <p class="note">The whole family, with an example in each language: <a href="https://github.com/okay-effects/okay-simple/blob/master/docs/family.md">docs/family.md</a>. The Scala implementations, compared: <a href="scala.html">which is which</a>.</p>
+  <p class="note">The whole family, with an example in each language: <a href="https://github.com/okay-effects/okay-simple/blob/master/docs/family.md">docs/family.md</a>. The Scala implementations, compared: <a href="scala.html">which is which</a>. Outside Scala: <a href="languages.html">effects in other languages</a>.</p>
 </div></section>
 
 <section id="platform"><div class="wrap">

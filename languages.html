@@ -1,0 +1,747 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<title>Effects in other languages — okay-effects</title>
+<meta name="description" content="The implementations of algebraic effects under okay-effects outside Scala:
+ Java, Kotlin, Rust, Go, Goose, Zig, TypeScript, Python and Lean; what each can do and how they work together.">
+<style>
+  :root { --fg:#1b1f24; --muted:#57606a; --line:#d8dee4; --bg:#ffffff; --soft:#f6f8fa; --accent:#0b6e4f; --code:#0d1117; --codefg:#e6edf3; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--fg); background:var(--bg); }
+  a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+  .wrap { max-width:1040px; margin:0 auto; padding:0 24px; }
+  header.top { border-bottom:1px solid var(--line); }
+  header.top .wrap { display:flex; justify-content:space-between; align-items:center; height:56px; }
+  .brand { font-weight:700; color:var(--fg); letter-spacing:-0.01em; }
+  nav a { margin-left:20px; color:var(--muted); font-size:15px; }
+  .hero { padding:72px 0 56px; border-bottom:1px solid var(--line); }
+  .hero h1 { font-size:40px; line-height:1.15; margin:0 0 18px; letter-spacing:-0.02em; max-width:820px; }
+  .hero .cols { display:grid; grid-template-columns:.9fr 1.1fr; gap:36px; align-items:center; }
+  .hero .art img { width:100%; height:auto; display:block; }
+  .hero p.lead { font-size:20px; color:var(--muted); max-width:760px; margin:0 0 28px; }
+  .cta a { display:inline-block; padding:10px 18px; border-radius:6px; margin:0 10px 10px 0; font-weight:600; font-size:15px; }
+  .cta .primary { background:var(--accent); color:#fff; } .cta .primary:hover { text-decoration:none; opacity:.92; }
+  .cta .secondary { border:1px solid var(--line); color:var(--fg); }
+  section { padding:56px 0; border-bottom:1px solid var(--line); }
+  section h2 { font-size:28px; margin:0 0 8px; letter-spacing:-0.01em; }
+  section p.sub { color:var(--muted); margin:0 0 28px; max-width:760px; }
+  .grid3 { display:grid; grid-template-columns:repeat(3, 1fr); gap:20px; }
+  .grid2 { display:grid; grid-template-columns:repeat(2, 1fr); gap:20px; }
+  .card { border:1px solid var(--line); border-radius:8px; padding:20px; background:var(--bg); }
+  .card h3 { margin:0 0 8px; font-size:17px; }
+  #start .grid2 { grid-template-columns:1fr; gap:28px; } .grid2 > div, .grid3 > div { min-width:0; }
+  #start .grid2 > div > h3, #start > .wrap > h3 { font-size:17px; margin:0 0 10px; }
+  .card p { margin:0; color:var(--muted); font-size:15px; }
+  .card .when { font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--accent); font-weight:700; margin-bottom:6px; }
+  pre { background:var(--code); color:var(--codefg); padding:18px 20px; border-radius:8px; overflow-x:auto; font:13.5px/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; margin:0; }
+  code { font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size:.92em; }
+  p code, li code, td code { background:var(--soft); padding:1px 5px; border-radius:4px; }
+  .c { color:#8b949e; } .k { color:#ff7b72; } .s { color:#a5d6ff; } .t { color:#ffa657; }
+  table { border-collapse:collapse; width:100%; font-size:15px; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-size:13px; color:var(--muted); font-weight:600; text-transform:uppercase; letter-spacing:.04em; }
+  td:first-child { white-space:nowrap; }
+  td.num { font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .us { font-weight:700; }
+  .loss { color:#a40e26; }
+  ul.tight { margin:0; padding-left:20px; color:var(--muted); font-size:15px; }
+  ul.tight li { margin:4px 0; }
+  .note { font-size:14px; color:var(--muted); margin-top:16px; }
+  footer { padding:40px 0 56px; color:var(--muted); font-size:14px; }
+  .author { display:grid; grid-template-columns:2fr 1fr; gap:32px; }
+  @media (max-width: 820px) { .hero .cols { grid-template-columns:1fr; } .grid3, .grid2, .author { grid-template-columns:1fr; } .hero h1 { font-size:34px; } header.top .wrap { height:auto; flex-wrap:wrap; padding-top:12px; padding-bottom:4px; } nav { width:100%; display:flex; gap:18px; overflow-x:auto; white-space:nowrap; padding:8px 0; scrollbar-width:none; } nav::-webkit-scrollbar { display:none; } nav a { margin-left:0; } table { display:block; max-width:100%; overflow-x:auto; } }
+  footer .wrap { display:flex; flex-wrap:wrap; align-items:baseline; gap:6px; } footer .more { margin-left:auto; font-weight:600; }
+</style>
+
+<style> h3.part { font-size:17px; margin:28px 0 8px; } section p.text { max-width:820px; margin:0 0 14px; }
+  pre + p.note { margin-bottom:8px; } td.name { white-space:nowrap; font-weight:700; }
+  .out { font-size:14px; color:var(--muted); font-weight:400; } </style>
+</head>
+<body>
+
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html">okay-effects</a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#which">Which is which</a>
+    <a href="#allows">What a language allows</a>
+    <a href="#meaning">One meaning</a>
+    <a href="#together">Working together</a>
+    <a href="scala.html">Scala</a>
+    <a href="libraries.html">Libraries</a>
+    <a href="https://github.com/okay-effects">GitHub</a>
+  </nav>
+</div></header>
+
+<section class="hero" style="padding:56px 0 40px"><div class="wrap">
+  <h1>Effects in other languages</h1>
+  <p class="lead">The same idea, a program that asks operations and handlers that answer them, is implemented
+  outside Scala in nine languages: Java, Kotlin, Rust, Go, Goose, Zig, TypeScript, Python and Lean.
+  Each takes the form its language allows: a program as data run by a machine, direct style on the language's own
+  continuations, coroutines or generators, a function compiled into a state machine, or a plain function over a
+  typed context.
+  Three things hold them to one meaning: one digest of a thousand random programs, test suites carried from one
+  repository to another, and the okay wire, on which a program in one language is answered by handlers in
+  another.</p>
+  <p class="note">As of 11 November 2026: the state of the default branches. Every statement on this page was
+  checked in the repositories; where a file says it, the file is named. The Scala implementations have
+  <a href="scala.html">a page of their own</a>.</p>
+</div></section>
+
+<section id="which"><div class="wrap">
+  <h2>The implementations</h2>
+  <p class="sub">Eleven repositories, all public. Three are released: okay-direct, okay-kotlin and okay-zig.
+  Java and Rust appear more than once: each has a library and a kernel of the reference model.</p>
+  <table>
+    <tr><th>Repository</th><th>Language</th><th>How a program runs</th><th>The effects of a program are
+      checked</th><th>Continuations</th><th>Status</th></tr>
+    <tr id="okay-java"><td class="name"><a href="https://github.com/okay-effects/okay-java">okay-java</a></td>
+      <td>Java 25</td>
+      <td>As data. <code>Eff&lt;L, A&gt;</code> is nodes run by a machine over an explicit stack of delimiters;
+      an operation is a <code>shift0</code> to its handler's prompt.</td>
+      <td>By javac. An effect is an interface at a level <code>L</code>; a handler's body is a generic method at a
+      level of its own; <code>Eff.run</code> takes a program at <code>Top</code>.</td>
+      <td>Multi-shot: <code>k</code> is the captured part of the machine's stack.</td>
+      <td>Public. No release. Last commit 16 Oct 2026.</td></tr>
+    <tr id="okay-direct"><td class="name"><a href="https://github.com/okay-effects/okay-direct">okay-direct</a></td>
+      <td>Java 25</td>
+      <td>In direct style: <code>perform</code> is a method call. Three implementations: HotSpot's internal
+      continuations (Loom), virtual threads, Espresso's continuations.</td>
+      <td>By javac. A program takes a capability, <code>Effect&lt;F&gt;</code>, for each effect. A capability
+      found by key (<code>Implicit</code>) is checked at run time.</td>
+      <td>One-shot on Loom and on threads. Multi-shot on Espresso: a resumption runs a copy of the frames.</td>
+      <td>Released, <a href="libraries.html#okay-direct">0.1.0</a>. Last commit 23 Oct 2026.</td></tr>
+    <tr id="okay-effects-java"><td class="name"><a href="https://github.com/okay-effects/okay-effects">okay-effects</a>,
+      <code>java/</code></td>
+      <td>Java 25</td>
+      <td>As data: <code>Comp&lt;A, R&gt;</code>, one loop over a stack of levels, one level a handler.</td>
+      <td>By javac. The row is a nested type, by position:
+      <code>Comp&lt;A, Eff&lt;State&lt;Integer&gt;, Eff&lt;Choose, ?&gt;&gt;&gt;</code>; <code>run</code> takes the
+      empty row.</td>
+      <td>Multi-shot: <code>k</code> is immutable levels, shared.</td>
+      <td>Public. Used from source. Last commit 11 Nov 2026.</td></tr>
+    <tr id="okay-kotlin"><td class="name"><a href="https://github.com/okay-effects/okay-kotlin">okay-kotlin</a></td>
+      <td>Kotlin 2.4. JVM, JS, native</td>
+      <td>Two styles. Interfaces: an effect is an interface of suspend functions, on Kotlin's coroutines. Data:
+      <code>Prog&lt;F, R, A&gt;</code>, run by a CEK machine written after okay-scala's, or by the coroutines.</td>
+      <td>By the compiler. Interfaces: context parameters. Data: rows and typed places.</td>
+      <td>Interfaces: <code>k</code> is resumed once; <code>k.copy()</code> copies the frames, on the JVM and JS,
+      not on native. Data on the machine: multi-shot on every platform.</td>
+      <td>Released, <a href="libraries.html#okay-kotlin">0.1.0</a>. Last commit 23 Oct 2026.</td></tr>
+    <tr id="okay-rust"><td class="name"><a href="https://github.com/okay-effects/okay-rust">okay-rust</a></td>
+      <td>Rust, edition 2024</td>
+      <td>Three crates. <code>okay</code>: an <code>async</code> function over a context, the compiler's state
+      machine. <code>okay-resumable</code>: a macro makes a function an enum of its stops.
+      <code>okay-machine</code>: a program as data, <code>Eff&lt;R, A&gt;</code>.</td>
+      <td>By rustc. <code>okay</code>: trait bounds on the context, <code>Has&lt;E, Ix&gt;</code>, written by
+      <code>needs!</code>. <code>okay-machine</code>: a row is a list of types.</td>
+      <td><code>okay</code>: one-shot, a future cannot be cloned. <code>okay-resumable</code>: multi-shot, the enum
+      is <code>Clone</code>. <code>okay-machine</code>: multi-shot, <code>k</code> is data.</td>
+      <td>Public. Not on crates.io. Last commit 28 Oct 2026.</td></tr>
+    <tr id="okay-effects-rust"><td class="name"><a href="https://github.com/okay-effects/okay-effects">okay-effects</a>,
+      <code>rust/</code></td>
+      <td>Rust, edition 2024</td>
+      <td>As data, composed statically: <code>impl Prog&lt;A, eff![State&lt;i64&gt;, Choose]&gt;</code> is a struct
+      of structs, run by one loop.</td>
+      <td>By rustc. The row is a list of types; <code>run</code> asks for the empty one.</td>
+      <td>Multi-shot: <code>K</code> is <code>Clone</code>. A computation is run once, on one thread.</td>
+      <td>Public. Used from source. Last commit 11 Nov 2026.</td></tr>
+    <tr id="okay-go"><td class="name"><a href="https://github.com/okay-effects/okay-go">okay-go</a></td>
+      <td>Go 1.27</td>
+      <td>In direct style on Go's coroutines (<code>iter.Pull</code>). Package <code>prog</code>: programs as
+      data.</td>
+      <td>Not as a set. A program's effects are its capabilities, <code>Cap[O]</code>, passed as parameters; an
+      operation's answer is typed. A capability used outside its handler is refused at run time.</td>
+      <td>One-shot: a coroutine cannot be copied. Multi-shot in <code>prog</code>.</td>
+      <td>Public. "An experiment" (its README). Last commit 18 Oct 2026.</td></tr>
+    <tr id="okay-goose"><td class="name"><a href="https://github.com/okay-effects/okay-goose">okay-goose</a></td>
+      <td><a href="https://aardappel.github.io/goose/">Goose</a>, which compiles to C</td>
+      <td>By a translator, <code>okgc</code>, written in Goose: an effect becomes operations over a context,
+      monomorphized; a <code>resumable fn</code> becomes a state machine.</td>
+      <td>By <code>okgc</code>, at the definition: a function of type <code>A ! F + G</code> calls only the
+      operations of its effects. Then by Goose: a context without an operation is its error.</td>
+      <td>By the effect's kind: <code>tail</code>, <code>once</code>, <code>many</code>. The rest is a struct,
+      copied; it can be written out as bytes.</td>
+      <td>Public. No release. Last commit 28 Oct 2026.</td></tr>
+    <tr id="okay-zig"><td class="name"><a href="https://github.com/okay-effects/okay-zig">okay-zig</a></td>
+      <td>Zig 0.17</td>
+      <td>Two layers with one set of handlers. Contexts: a plain function, an operation an inlined call. The
+      machine: a program as data. And <code>resumable</code>: a union of a program's stops, written by hand.</td>
+      <td>At compile time. <code>ok.needs</code> for a context; a row is a tuple of types, and an effect not in it
+      is a compile error. A guarded effect answers an error union.</td>
+      <td>The machine: multi-shot. A resumable union is copied by value.</td>
+      <td>Released, <a href="https://github.com/okay-effects/okay-zig/releases/tag/v0.1.0">0.1.0</a>.
+      Last commit 28 Oct 2026.</td></tr>
+    <tr id="okay-ts"><td class="name"><a href="https://github.com/okay-effects/okay-ts">okay-ts</a></td>
+      <td>TypeScript 7, Node 26</td>
+      <td>As data on a machine: a node and a persistent stack of frames. A program is written as a generator or
+      as data.</td>
+      <td>By tsc. The row is a union in the program's type; <code>run()</code> exists only for the empty row.
+      A cast passes it.</td>
+      <td>A generator: once, and its type says so. Data: multi-shot. A handler that resumes many times takes
+      data only.</td>
+      <td>Public. Not on npm. Last commit 15 Oct 2026.</td></tr>
+    <tr id="okay-python"><td class="name"><a href="https://github.com/okay-effects/okay-python">okay-python</a></td>
+      <td>Python 3.11+</td>
+      <td>In direct style on generators: <code>yield from cap.perform(op)</code>.</td>
+      <td>Not as a set. Effects are capabilities passed as parameters. <code>mypy --strict</code> types an
+      operation's answer; which operations a capability takes is checked at run time.</td>
+      <td>One-shot. See <a href="#python-paths">the note on <code>every_path</code></a>.</td>
+      <td>Public. Not on PyPI. Last commit 18 Oct 2026.</td></tr>
+    <tr id="okay-lean"><td class="name"><a href="https://github.com/okay-effects/okay-lean">okay-lean</a></td>
+      <td>Lean 4.35</td>
+      <td>As data: okay-simple's <code>Free</code> monad, ported.</td>
+      <td>By Lean. The row is a list of effects in the type; <code>run</code> exists only for
+      <code>A ! []</code>.</td>
+      <td>Multi-shot: <code>k</code> is a pure function.</td>
+      <td>Public. No release. Last commit 25 Oct 2026.</td></tr>
+  </table>
+  <p class="note">okay-direct also has front ends for Scala 3 and 2.13; they are on <a href="scala.html">the Scala
+  page</a>. <a href="https://github.com/okay-effects/okay-rs">okay-rs</a> is the earlier repository of okay-rust; its
+  README says it has moved, and its history is in okay-rust. okay-effects is the reference model: one small kernel
+  written three times, in Scala 3, Java 25 and Rust.</p>
+  <p class="note" id="python-paths">One rule holds across the family: a continuation resumed many times is a real
+  value, a copy of frames, a cloned state machine or data; a body is never run again from its start. okay-python
+  is the exception, and its guide says so: a generator cannot be copied, and <code>every_path</code> re-runs the
+  body with the answers so far replayed, for a body that is pure apart from its effects
+  (<code>okay_effects/paths.py</code>).</p>
+</div></section>
+
+<section id="programs"><div class="wrap">
+  <h2>A program in each</h2>
+  <p class="sub">Copied from each repository's own documentation or tests; the file is named.</p>
+
+  <h3 class="part">okay-java <span class="out">(README.md)</span></h3>
+  <pre>interface Ask&lt;L&gt; { Eff&lt;L, Integer&gt; number(); }
+interface Asked&lt;L, A&gt; { &lt;M extends L&gt; Eff&lt;M, A&gt; in(Ask&lt;M&gt; a); }   // a handler's body: a level of its own
+
+static &lt;L, A&gt; Eff&lt;L, A&gt; asking(int n, Asked&lt;L, A&gt; body) {
+  return Eff.handle(new Eff.Body&lt;L, A, A&gt;() {
+    public &lt;M extends L&gt; Eff&lt;M, A&gt; in(Prompt&lt;L, M, A&gt; p) { return body.in(() -&gt; p.shift0(k -&gt; k.apply(n))); }
+  }, Eff::pure);
+}</pre>
+
+  <h3 class="part">okay-direct <span class="out">(README.md)</span></h3>
+  <pre>public sealed interface State&lt;S&gt; {
+    record Get&lt;S&gt;() implements State&lt;S&gt;, Op&lt;State&lt;S&gt;, S&gt; {}
+    record Put&lt;S&gt;(S value) implements State&lt;S&gt;, Op&lt;State&lt;S&gt;, Void&gt; {}
+}
+
+public void operation(State&lt;S&gt; op, Answer&lt;State&lt;S&gt;&gt; k) {
+    switch (op) {
+        case Get&lt;S&gt; get -&gt; k.answer(get, state);
+        case Put&lt;S&gt; put -&gt; { state = put.value(); k.answer(put, null); }
+    }
+}</pre>
+  <p class="note">A program is plain Java that takes the capability:
+  <code>static int total(Effect&lt;Prices&gt; prices, Effect&lt;Fail&lt;String&gt;&gt; fail, List&lt;String&gt; cart)</code>,
+  and performs inside a stream's lambda.</p>
+
+  <h3 class="part">okay-effects, the Java kernel <span class="out">(README.md)</span></h3>
+  <pre>static Comp&lt;Integer, Eff&lt;State&lt;Integer&gt;, ?&gt;&gt; add(int x) {
+  return State.&lt;Integer&gt;get().flatMap(s -&gt; State.put(s + x).map(done -&gt; s + x));
+}
+static Comp&lt;Integer, Eff&lt;State&lt;Integer&gt;, Eff&lt;Choose, ?&gt;&gt;&gt; p() {   // a state, and a choice under it
+  return up(Choose.among(List.of(1, 2))).flatMap(x -&gt; add(x));
+}
+
+run(Choose.all(State.run(0, p())));   // [Final[state=1, value=1], Final[state=2, value=2]]</pre>
+
+  <h3 class="part">okay-kotlin, interfaces <span class="out">(core/src/commonTest/…/CoreTest.kt)</span></h3>
+  <pre>fun interface Ask {
+    suspend fun ask(): Int
+}
+
+context(a: Ask) suspend fun askFor(): Int = a.ask()
+
+/** each ask answered with `n`, the rest resumed in the clause: a general handler in tail position */
+suspend fun &lt;A&gt; answering(n: Int, body: suspend context(Ask) () -&gt; A): A = handle { prompt -&gt;
+    context(Ask { prompt.shift { k -&gt; k(n) } }) { body() }
+}</pre>
+
+  <h3 class="part">okay-rust, the crate <code>okay</code> <span class="out">(README.md)</span></h3>
+  <pre>okay::needs! {
+    async fn counted(cx: [Reader&lt;i64&gt;, State&lt;i64&gt;, Writer&lt;String&gt;], n: i64) -&gt; i64 {
+        eff! {
+            d &lt;- ask(cx);
+            _ &lt;- modify(cx, |s| s + d * n);
+            s &lt;- get(cx);
+            _ &lt;- tell(cx, format!("s {s}"));
+            yield s
+        }.await
+    }
+}
+let cx = Cx(AskWith(2i64), Cx(StateCell::new(1i64), Cx(Collect::&lt;String&gt;::new(), End)));
+assert_eq!(run(counted(&amp;cx, 10)), Ok(21));</pre>
+
+  <h3 class="part">okay-rust, a resumable function <span class="out">(README.md)</span></h3>
+  <pre>okay::effect! { pub enum Choose: Plain { Among(n: usize) -&gt; usize = among; } }
+okay::ops! { pub enum ChooseOps { Choose } }    // the operations it may stop at: an enum, `From` each effect
+
+#[resumable(ChooseOps)]
+fn pick(base: usize) -&gt; usize {
+    let a: usize = ask!(Choose::Among(3));      // a stop: the operation given to the handler
+    let b: usize = ask!(Choose::Among(2));
+    base + a * 10 + b
+}</pre>
+
+  <h3 class="part">okay-effects, the Rust kernel <span class="out">(README.md)</span></h3>
+  <pre>fn p() -&gt; impl Prog&lt;i64, eff![State&lt;i64&gt;, Choose]&gt; {
+    Choose::among(vec![1, 2])
+        .flat_map(|x| State::get().flat_map(move |s: i64| State::put(s + x).map(move |_| s + x)))
+}
+
+Choose::all(State::run(0, p())).run();   // [(1, 1), (2, 2)]
+State::run(0, Choose::all(p())).run();   // (3, [1, 3])</pre>
+
+  <h3 class="part">okay-go <span class="out">(example_test.go)</span></h3>
+  <pre>// An operation: a struct embedding Answers[R], R being what it answers.
+type Ask struct{ okay.Answers[int] }
+
+got := okay.Main(func(r *okay.Run) int {
+	return okay.Answer(r, func(Ask) int { return 1 }, func(outer okay.Cap[Ask]) int {
+		return okay.Answer(r, func(Ask) int { return 2 }, func(inner okay.Cap[Ask]) int {
+			return okay.Perform(outer, Ask{})*10 + okay.Perform(inner, Ask{})
+		})
+	})
+})   // 12</pre>
+
+  <h3 class="part">okay-goose <span class="out">(examples/handlers.okg)</span></h3>
+  <pre>effect Choose: many { among(n: i64) -&gt; i64; }
+effect Log { log(line: u8[:]); }
+
+resumable fn pair() -&gt; i64 ! Choose + Log {
+    let a = among(3);
+    log("a chosen");
+    let b = among(2);
+    return a * 10 + b;
+}
+
+handler all for Choose(out: i64[&gt;..]&amp;) {
+    return(v) { out.push(v); }
+    among(n, k) { for i in n { resume(k, i); } }
+}</pre>
+
+  <h3 class="part">okay-zig, a context <span class="out">(README.md)</span></h3>
+  <pre>/// a plain function: its effects the context's, each operation a call — an effect missing, a compile error
+fn greet(cx: anytype) usize {
+    ok.needs(@TypeOf(cx), .{ Name, Counter });
+    const who = cx.op(Name, .ask, {});
+    const n = cx.op(Counter, .get, {});
+    cx.op(Counter, .put, n + 1);
+    return who.len * 100 + n;
+}
+
+var cell: u32 = 7;
+const cx = ok.context(.{ Counter.Cell{ .s = &amp;cell }, Name.Given{ .env = "Ann" } });
+_ = greet(cx);                                              // 307</pre>
+
+  <h3 class="part">okay-ts <span class="out">(README.md)</span></h3>
+  <pre>const Config = Reader("Config", of&lt;number&gt;())
+const Counter = State("Counter", of&lt;number&gt;())
+
+const program = eff(function* () {
+  const n = yield* Config.ask()
+  yield* Counter.modify((s) =&gt; s + n)
+  const s = yield* Counter.get()
+  return s * 2
+})
+// program: Eff&lt;number, Reader&lt;"Config", number&gt; | State&lt;"Counter", number&gt;, boolean&gt;
+
+program.handle(Config.value(5)).handle(Counter.from(1)).run() // [6, 12]</pre>
+
+  <h3 class="part">okay-python <span class="out">(tests/test_core.py)</span></h3>
+  <pre>@dataclass(frozen=True)
+class Ask(Op[T], Generic[T]):
+    pass
+
+def reader(v: T, body: Callable[[Cap[Ask[T]]], Eff[A]]) -&gt; Eff[A]:
+    return (yield from answering(Ask, lambda _: v, body))
+
+def prog(n: Cap[Ask[int]]) -&gt; Eff[str]:
+    def body(s: Cap[Ask[str]]) -&gt; Eff[str]:
+        return (yield from s.perform(Ask[str]())) * (yield from n.perform(Ask[int]()))
+
+    return (yield from reader("ab", body))
+
+self.assertEqual(run(reader(3, prog)), "ababab")</pre>
+
+  <h3 class="part">okay-lean <span class="out">(README.md)</span></h3>
+  <pre>-- in any row that has these three, at any place
+def greet [In (Reader String) R] [In (Writer String) R] [In (State Nat) R] : Nat ! R := do
+  let name : String ← ask
+  tell s!"hello, {name}"
+  let n : Nat ← get
+  put (n + name.length)
+  pure n
+
+#eval run (writer String (state 10 (reader "Ann" (greet (R := [Reader String, State Nat, Writer String])))))
+-- ((10, 13), ["hello, Ann"])</pre>
+</div></section>
+
+<section id="allows"><div class="wrap">
+  <h2>What a language allows</h2>
+  <p class="sub">Each form follows from what the language has: a continuation that can be copied or not, types
+  that can hold a set of effects or not, a compiler that can be extended or not.</p>
+
+  <h3 class="part">Java</h3>
+  <p class="text">Java has no higher kinds and no type-level lists. Three answers are in the family.
+  <strong>okay-direct</strong> keeps no row at all: a program is plain code, an effect is a sealed interface whose
+  operations are records, a handler is an exhaustive <code>switch</code>, and the operation is the witness of its
+  answer's type. What can be resumed depends on the JVM: HotSpot's continuation and a virtual thread are resumed
+  once; Espresso can copy a suspended continuation's frames, so only <code>EspressoEffects</code> is a
+  <code>MultiEffects</code>, and <code>Choose.all</code> does not compile against the other two.
+  <strong>okay-java</strong> puts the handlers in force into a type variable: a handler's body is a generic method
+  at a level <code>M extends L</code> that nothing outside can name, so a capability that leaves its handler does
+  not compile (<code>LeakTest</code>). The price is in its README: a lambda cannot implement a generic method, so
+  every handler's body is an anonymous class or a method reference.
+  <strong>The Java kernel of okay-effects</strong> writes the row as a nested type with wildcards. It is
+  positional: a program names its effects in the order of its handlers and is moved with <code>up</code>,
+  <code>under</code> and <code>fit</code>; a handler takes its effect from the front of the row only.</p>
+
+  <h3 class="part">Kotlin</h3>
+  <p class="text">Context parameters carry the effects:
+  <code>context(accounts: Accounts, fail: Fail&lt;String&gt;)</code> on a suspend function is checked by the compiler.
+  A handler that takes the rest of the body is a delimited
+  continuation on the standard library's coroutines. A Kotlin continuation is resumed once; <code>k.copy()</code>
+  copies the objects the compiler made of the suspend functions, up to the handler. That works on the JVM and in
+  JavaScript; native code has no way to copy a frame, and the multi-shot tests are in a source set for the JVM and
+  JS only. Handlers are chosen lexically: an operation goes to the handler whose capability it was given.
+  The data style is the other answer: <code>k</code> is data on a machine, on every platform.</p>
+
+  <h3 class="part">Rust</h3>
+  <p class="text">An <code>async</code> block is a state machine the compiler builds, generic over its context and
+  monomorphized for the handlers it runs under; an operation answered in place is an inlined call. A future cannot
+  be cloned, so the crate <code>okay</code> is one-shot by design. Where the rest must be taken many times, the
+  rest has to be a value that is <code>Clone</code>: <code>#[resumable]</code> turns a function into an enum, one
+  variant for each stop holding the variables in scope there, on stable Rust; with the feature
+  <code>coroutines</code>, on nightly, the same comes from a coroutine that is cloned. Ownership does part of the
+  typing: a state whose type changes from step to step is a token each step takes and gives back, and a context
+  is a borrow that cannot outlive its handlers. In the Rust kernel of okay-effects a closure given to
+  <code>flat_map</code> is <code>FnOnce + Clone</code>, a recursive program ends with <code>.boxed()</code>, and
+  everything is of one thread.</p>
+
+  <h3 class="part">Go</h3>
+  <p class="text">Go has no type-level lists, so a program's effects cannot be in its type; they are its
+  capabilities, parameters and fields, as a Go program passes <code>ctx</code>. A handler answers only its own
+  capability's operations, so two instances of one effect coexist. A program is a coroutine
+  (<code>iter.Pull</code>); it cannot be copied, so a continuation is resumed once. Parallel branches run on
+  goroutines, and a branch performs through a capability only after it is lent to it; its operations travel over a
+  channel to the goroutine that owns the handler. Multi-shot is a separate package of programs as data.</p>
+
+  <h3 class="part">Goose</h3>
+  <p class="text">Goose has no heap, no garbage collector, and function values only at compile time. So a set of
+  effects is a context's type, a handler is an overload of the operations for that type, and an interceptor is a
+  generic wrapper of a context. okay-goose is a translator, <code>okgc</code>, written in Goose:
+  it reads Goose with four additions (<code>effect</code>, <code>effects</code>, <code>A ! F + G</code>,
+  <code>forward</code>) and writes plain Goose on the same lines. A <code>resumable fn</code> is cut at each
+  operation of a <code>once</code> or <code>many</code> effect into a state machine whose frame is one struct.
+  A handler dropping the rest is <code>return E from f</code>, a jump.</p>
+
+  <h3 class="part">Zig</h3>
+  <p class="text">Zig passes what a function needs as a value, as it does <code>Allocator</code>. A context is a
+  tuple of handlers known at compile time, and an operation is a call the compiler inlines. A type is a call the
+  compiler evaluates, so a row is <code>Row(.{ F, G })</code> and a missing effect is a compile error with its own
+  message. A guard that may refuse an operation makes that effect's operations answer an error union, so the
+  program says <code>try</code> and the types show which operations may be refused. The machine takes steps
+  in place of closures: each a function declared once and named.
+  A union is copied by value, which is what a resumable program needs; the
+  states are written by hand.</p>
+
+  <h3 class="part">TypeScript</h3>
+  <p class="text">A union type is a row: an effect is a tag with a name, and <code>run()</code> is present only
+  when the union is empty. A generator is the idiom, and a generator's state cannot be copied, so the third
+  parameter of <code>Eff&lt;A, E, boolean&gt;</code> records whether a program may be resumed many times. Types
+  are erased: the guarantees hold for code without casts, and at run time a generator resumed twice fails with
+  <code>ResumedTwice</code>.</p>
+
+  <h3 class="part">Python</h3>
+  <p class="text">Python has no rows. A program is a generator, typed by what each operation answers under
+  <code>mypy --strict</code>; its effects are the capabilities it is given. The business code stays a generator
+  under asyncio: <code>run_async</code> awaits at the top.</p>
+
+  <h3 class="part">Lean</h3>
+  <p class="text">An effect is an inductive family indexed by the answer's type, so dependent pattern matching
+  tells a handler that an operation is its own, with no cast. The monad laws and what each standard handler makes
+  of its operations are theorems; there is no <code>sorry</code>. The limit is stated in the README: the theorems
+  are about each interpreter's reference definition, and what runs is a second definition, <code>unsafe</code> and
+  not proved equal to the first.</p>
+
+  <h3 class="part">Stack, asynchrony, interception</h3>
+  <table>
+    <tr><th></th><th>Stack</th><th>Waiting on the world</th><th>Control and audit of effects</th></tr>
+    <tr><td class="name">okay-java</td>
+      <td>An explicit stack on the heap; the tests run under <code>-Xss512k</code></td>
+      <td><code>Async</code>: <code>CompletableFuture</code>, virtual threads</td>
+      <td>—</td></tr>
+    <tr><td class="name">okay-direct</td>
+      <td>Constant for handlers that answer in place</td>
+      <td><code>Async</code>: structured concurrency, a virtual clock, channels</td>
+      <td><code>Interceptor</code>, <code>Audited</code>, <code>Observer</code></td></tr>
+    <tr><td class="name">okay-effects, Java and Rust</td>
+      <td>Constant: one loop, frames on the heap</td>
+      <td><code>Async</code>; in Rust time is a queue the caller runs</td>
+      <td><code>intercept</code></td></tr>
+    <tr><td class="name">okay-kotlin</td>
+      <td>Constant for deep handlers (its README)</td>
+      <td>Runs inside kotlinx.coroutines as any suspend code</td>
+      <td><code>intercepted</code>, <code>audit</code> with a <code>Vault</code>; a KSP generator</td></tr>
+    <tr><td class="name">okay-rust</td>
+      <td><code>tail_rec</code> for loops; the machine's stack is on the heap</td>
+      <td><code>Step::Wait</code>: a future, on any executor</td>
+      <td><code>Audited</code>, <code>Policies</code>, <code>observe</code>; a sensitive effect only under its
+      audit</td></tr>
+    <tr><td class="name">okay-go</td>
+      <td>Go's own; <code>prog</code>: a million binds in constant stack</td>
+      <td><code>All</code>, <code>Par</code>, <code>Race</code> on goroutines</td>
+      <td>Middleware over a program handed out to a host</td></tr>
+    <tr><td class="name">okay-goose</td>
+      <td>A <code>resume</code> last in a clause is a loop</td>
+      <td>—</td>
+      <td>A wrapper of a context with <code>forward</code>; sensitive effects are not there yet</td></tr>
+    <tr><td class="name">okay-zig</td>
+      <td>The machine frees each node as it is read and reuses frames</td>
+      <td>On the wire, a direct-style call is a task of the worker's <code>Io</code></td>
+      <td><code>cx.observe</code>, <code>cx.guard</code></td></tr>
+    <tr><td class="name">okay-ts</td>
+      <td>Constant: a million mutual calls</td>
+      <td><code>wait(promise)</code>, <code>runPromise</code>, cancellation</td>
+      <td><code>audit</code>, <code>intercept</code>, <code>observe</code>; a sensitive effect only under its
+      audit</td></tr>
+    <tr><td class="name">okay-python</td>
+      <td>—</td>
+      <td><code>run_async</code>, <code>all_of</code>, <code>race</code> on asyncio</td>
+      <td>Middleware over a program handed out to a host</td></tr>
+    <tr><td class="name">okay-lean</td>
+      <td>10<sup>8</sup> operations on an 8 MB stack</td>
+      <td>—</td>
+      <td>Not there yet (its README)</td></tr>
+  </table>
+  <p class="note">Speed. Three repositories measure the same lane, every path of a choice among 1000, on a rest
+  compiled to a state machine: okay-rust 0.28 µs a run (<code>resumable/benches/lanes.rs</code>, medians of three
+  rounds, 28 Oct 2026), okay-zig 0.38 µs (<code>zig build lanes -Doptimize=ReleaseFast</code>), okay-goose
+  0.40 µs (<code>bench/results.md</code>, medians of 3–5 rounds, 28 Oct 2026). Each number is its repository's own
+  measurement, from its own run; they were not measured together. The other repositories keep their own tables in
+  their READMEs.</p>
+</div></section>
+
+<section id="meaning"><div class="wrap">
+  <h2>One meaning</h2>
+  <p class="sub">One number is shared by four of the repositories on this page. Other suites are carried from
+  repository to repository by hand. Some implementations are held to neither.</p>
+
+  <h3 class="part">The family's TCK</h3>
+  <p class="text">The TCK is in okay-kernel (<code>tck/Tck.scala</code>): a thousand random programs, with
+  handlers of logs, states, failures and choices nested in any order and each effect under two identities. Their
+  outcomes are folded into one number, <code>-8623788747993822161</code>, the digest of okay-kernel's reference
+  machine.</p>
+  <table>
+    <tr><th>Comes to the digest</th><th>Where</th><th>What is held to it</th></tr>
+    <tr><td class="name">okay-java</td>
+      <td>okay-kernel, <code>integration</code>: <code>TestTckOnJava</code></td>
+      <td>okay-java as an implementation of okay-kernel's Java API (<code>okay.core.Kernel</code>). The TCK runs
+      there on okay-core, okay-java and the reference machine in one process, each nesting through the
+      others.</td></tr>
+    <tr><td class="name">okay-rust</td>
+      <td><code>machine/tests/tck.rs</code></td>
+      <td>The crate <code>okay-machine</code>. Not the crate <code>okay</code>, and not
+      <code>okay-resumable</code>.</td></tr>
+    <tr><td class="name">okay-zig</td>
+      <td><code>test/tck_test.zig</code></td>
+      <td>The machine. Not the contexts.</td></tr>
+    <tr><td class="name">okay-effects</td>
+      <td><code>java/test/…/Tck.java</code>, <code>rust/tests/tck.rs</code>, and the Scala kernel's</td>
+      <td>Each of the three kernels.</td></tr>
+  </table>
+  <p class="note">The ports generate the programs themselves and compare with the constant; the reference machine
+  is in okay-kernel only. okay-direct, okay-kotlin, okay-go, okay-goose, okay-ts, okay-python and okay-lean do not
+  run this TCK. okay-ts lists it as its next step.</p>
+
+  <h3 class="part">Suites carried over</h3>
+  <table>
+    <tr><th></th><th>Held to</th></tr>
+    <tr><td class="name">okay-rust</td>
+      <td>okay-core's suites, each test named after the one it ports (<code>tests/std.rs</code> is TestStd,
+      <code>tests/acceptance.rs</code> TestAcceptance, <code>tests/intercept.rs</code> TestIntercept), and a
+      reference interpreter on random programs. These are the machine's. The crate <code>okay</code> runs the
+      interception programs again and compares the trails (<code>tests/typed_intercept.rs</code>).</td></tr>
+    <tr><td class="name">okay-ts</td>
+      <td>The same three suites of okay-core, the same programs and values (<code>test/std.test.ts</code>,
+      <code>test/acceptance.test.ts</code>, <code>test/intercept.test.ts</code>).</td></tr>
+    <tr><td class="name">okay-effects</td>
+      <td>The promises of its README as tests, named alike in each language (<code>Properties</code>), and
+      programs that must not compile, in Java, Rust and Scala.</td></tr>
+    <tr><td class="name">okay-direct</td>
+      <td>Its own TCK, the artifact <code>okay-direct-tck</code>: all three implementations pass it, Espresso the
+      multi-shot one too.</td></tr>
+    <tr><td class="name">okay-kotlin</td>
+      <td>Its own: <code>EffectsTck</code> and <code>RenamingTck</code> hold both engines of the data style to the
+      same answers. <code>SpecTest</code> runs the calculi of Forster, Kammar, Lindley and Pretnar (ICFP 2017) as
+      written there.</td></tr>
+    <tr><td class="name">okay-lean</td>
+      <td>Proofs in place of tests. Its specification is okay-simple's <code>Free</code>.</td></tr>
+    <tr><td class="name">okay-go, okay-python, okay-goose</td>
+      <td>Their own tests. okay-goose compares the output of its examples with files kept beside them
+      (<code>tests/run.sh</code>).</td></tr>
+  </table>
+  <p class="text" style="margin-top:16px">So the direct-style implementations are not held to the digest: it is a
+  test of programs as data. And nothing shared checks okay-go, okay-python or okay-goose except what they do on a
+  wire with another language, below.</p>
+</div></section>
+
+<section id="together"><div class="wrap">
+  <h2>Working together</h2>
+  <p class="sub">In one process, through okay-kernel's protocol. Between processes, on the okay wire.</p>
+
+  <h3 class="part">In one process</h3>
+  <p class="text"><a href="https://github.com/okay-effects/okay-kernel">okay-kernel</a> is a protocol with its API
+  in plain Java, no dependency: a program handed out steps to <code>Done</code>, <code>Yield</code> (an operation
+  and its <code>k</code>, multi-shot), <code>Failed</code> or <code>Cancelled</code>. okay-java implements it with
+  no wrapper: an <code>Eff</code> is the protocol's program, so its programs run under okay-core's handlers and
+  okay-core's under its. okay-ts has the same steps, and okay-kernel's module <code>js</code> exports the protocol
+  from Scala.js; <code>test/kernel.test.ts</code> runs programs both ways, and is skipped where that module is not
+  built. okay-go, okay-python and the crate <code>okay</code> of okay-rust hand a program out to a host in the same
+  shape (step, resume, fail, cancel), each in its own language.</p>
+
+  <h3 class="part">The okay wire</h3>
+  <p class="text">The wire is the protocol of the <a href="https://github.com/okay-effects/okay">okay</a>
+  platform: a far side (a worker) serves functions and programs by name, a host asks and answers the programs'
+  operations under its own handlers, and may continue the same rest many times. Its specification is a transcript,
+  <code>okay-py/src/main/resources/okay/py/wire.txt</code>. The platform has the host and its own far-side
+  libraries for Python, R, TypeScript, Go, Rust and Haskell; Clojure, Frege and Java programs are walked inside
+  the JVM (<code>docs/foreign-languages.md</code>).</p>
+  <table>
+    <tr><th></th><th>Far side</th><th>Host</th><th>Checked by, in its own repository</th></tr>
+    <tr><td class="name">okay-effects</td>
+      <td>Yes, in Scala, Java and Rust</td>
+      <td>Yes, in all three</td>
+      <td>Every worker against six transcripts, every host with every worker: nine pairs. A part of the wire;
+      <code>wire/README.md</code> lists what is left out.</td></tr>
+    <tr><td class="name">okay-zig</td>
+      <td>Yes: a child's pipes, or the host's process through a C ABI</td>
+      <td>No</td>
+      <td>okay's <code>WireConformance</code>, in full over pipes (its README;
+      <code>conformance/TestZigLinks.scala</code>)</td></tr>
+    <tr><td class="name">okay-lean</td>
+      <td>Yes: pipes, or the JVM's process through FFM</td>
+      <td>Yes</td>
+      <td>okay's <code>WireConformance</code> over pipes and FFM (<code>conformance/TestLeanLinks.scala</code>).
+      Not served: direct style, streams, CBOR and compression.</td></tr>
+    <tr><td class="name">okay-ts</td>
+      <td>Yes: pipes, TCP, a WebSocket</td>
+      <td>No</td>
+      <td><code>test/wire.test.ts</code>: the transcript's requests and answers, multi-shot, a condition, over
+      TCP</td></tr>
+    <tr><td class="name">okay-rust, okay-go, okay-python</td>
+      <td colspan="2">No transport of their own. An operation crosses as its name and a record of its fields,
+      through okay's worker for that language; a handler of theirs can answer the other side's operations.</td>
+      <td>One test each against okay's JVM host: <code>examples/okayhost/TestOkayRustWire.scala</code>,
+      <code>TestOkayGoWire.scala</code>, <code>TestOkayPythonWire.scala</code></td></tr>
+    <tr><td class="name">okay-goose</td>
+      <td colspan="2">Lines of JSON on standard input and output, with okay-rust on the other side: a Goose
+      program answered by Rust handlers, a resumable function's stops answered by Rust, and a Rust program
+      answered by Goose.</td>
+      <td><code>hosts/rust</code>, <code>tests/wire</code></td></tr>
+    <tr><td class="name">okay-java, okay-direct, okay-kotlin</td>
+      <td>No</td><td>No</td><td>—</td></tr>
+  </table>
+
+  <h3 class="part">Checked against each other</h3>
+  <p class="text">okay-effects keeps a script, <code>wire/family/check.sh</code>, that runs its host and workers
+  against the sibling repositories. Its README records one verification, on 10 November 2026, run twice:
+  130 passed, 0 failed, 4 skipped. What it records as checked:</p>
+  <table>
+    <tr><th>Host</th><th>Far side</th><th>What</th></tr>
+    <tr><td>okay-effects, Scala</td><td>okay-zig's worker</td>
+      <td>okay's conformance module: multi-shot, direct style, a condition, a held value, mux, streams under
+      credit, an early stop, a duplex stream of 20 000 rows</td></tr>
+    <tr><td>okay-effects, Scala</td><td>okay-lean's worker</td>
+      <td>What Lean serves of the same module: multi-shot, a condition, a held value</td></tr>
+    <tr><td>okay-effects, Scala</td><td>okay-ts, its own <code>serveStdio</code></td>
+      <td>Multi-shot, a program as a generator, a condition</td></tr>
+    <tr><td>okay-effects, Scala</td><td>okay's reference Python shim</td>
+      <td>In JSON, CBOR and both with DEFLATE: calls, held objects, multi-shot, direct style, a condition; and
+      <code>wire.txt</code>, every line as written</td></tr>
+    <tr><td>okay's <code>wire.txt</code>, line by line</td><td>okay-effects' Scala, Java and Rust workers</td>
+      <td>Every section of the transcript but the table call</td></tr>
+    <tr><td>okay's own host</td><td>okay-effects' Scala, Java and Rust workers</td>
+      <td>okay-effects' demonstration module: calls, held objects, multi-shot, mux, streams, a cancel, CBOR and
+      DEFLATE, auth</td></tr>
+  </table>
+  <p class="note">The same README lists what was not verified: okay's <code>WireConformance</code> suite on
+  okay-effects' workers; okay's Rust crate as a far side (one of the four skips); okay's Go, Haskell and R far
+  sides; okay-effects' Java and Rust hosts with the family's far sides; other machines than one, macOS on arm64.
+  okay-rust, okay-go, okay-python and okay-goose are not part of that check.</p>
+</div></section>
+
+<section id="links"><div class="wrap">
+  <h2>Links</h2>
+  <table>
+    <tr><th>Repository</th><th>Start with</th><th>How to add it</th></tr>
+    <tr><td class="name"><a href="https://github.com/okay-effects/okay-java">okay-java</a></td>
+      <td><a href="https://github.com/okay-effects/okay-java/blob/master/docs/guide.md">Guide</a>,
+      <a href="https://github.com/okay-effects/okay-java/blob/master/docs/kernel.md">okay-java as an
+      implementation of okay-kernel</a></td>
+      <td>From source</td></tr>
+    <tr><td class="name"><a href="https://github.com/okay-effects/okay-direct">okay-direct</a></td>
+      <td><a href="https://github.com/okay-effects/okay-direct/blob/master/docs/getting-started.md">Getting
+      started</a>,
+      <a href="https://github.com/okay-effects/okay-direct/blob/master/docs/implementations.md">the
+      implementations</a></td>
+      <td><a href="libraries.html#okay-direct">Libraries: okay-direct</a></td></tr>
+    <tr><td class="name"><a href="https://github.com/okay-effects/okay-kotlin">okay-kotlin</a></td>
+      <td><a href="https://github.com/okay-effects/okay-kotlin/blob/main/README.md">README</a>,
+      <a href="https://github.com/okay-effects/okay-kotlin/blob/main/docs/design.md">design</a></td>
+      <td><a href="libraries.html#okay-kotlin">Libraries: okay-kotlin</a></td></tr>
+    <tr><td class="name"><a href="https://github.com/okay-effects/okay-rust">okay-rust</a></td>
+      <td><a href="https://github.com/okay-effects/okay-rust/blob/master/README.md">README</a>,
+      <a href="https://github.com/okay-effects/okay-rust/blob/master/machine/README.md">the machine</a></td>
+      <td>From source</td></tr>
+    <tr><td class="name"><a href="https://github.com/okay-effects/okay-go">okay-go</a></td>
+      <td><a href="https://github.com/okay-effects/okay-go/blob/master/docs/guide.md">Guide</a></td>
+      <td><code>go get github.com/okay-effects/okay-go</code></td></tr>
+    <tr><td class="name"><a href="https://github.com/okay-effects/okay-goose">okay-goose</a></td>
+      <td><a href="https://github.com/okay-effects/okay-goose/blob/master/README.md">README</a>,
+      <a href="https://github.com/okay-effects/okay-goose/blob/master/examples/tour.okg">the tour</a></td>
+      <td>From source</td></tr>
+    <tr><td class="name"><a href="https://github.com/okay-effects/okay-zig">okay-zig</a></td>
+      <td><a href="https://github.com/okay-effects/okay-zig/blob/main/README.md">README</a>,
+      <a href="https://github.com/okay-effects/okay-zig/blob/main/specs/design.md">design</a></td>
+      <td><code>zig fetch --save=okay "git+https://github.com/okay-effects/okay-zig#v0.1.0"</code></td></tr>
+    <tr><td class="name"><a href="https://github.com/okay-effects/okay-ts">okay-ts</a></td>
+      <td><a href="https://github.com/okay-effects/okay-ts/blob/master/README.md">README</a></td>
+      <td>From source</td></tr>
+    <tr><td class="name"><a href="https://github.com/okay-effects/okay-python">okay-python</a></td>
+      <td><a href="https://github.com/okay-effects/okay-python/blob/master/docs/guide.md">Guide</a></td>
+      <td>From source</td></tr>
+    <tr><td class="name"><a href="https://github.com/okay-effects/okay-lean">okay-lean</a></td>
+      <td><a href="https://github.com/okay-effects/okay-lean/blob/master/README.md">README</a></td>
+      <td>From source</td></tr>
+    <tr><td class="name"><a href="https://github.com/okay-effects/okay-effects">okay-effects</a></td>
+      <td><a href="https://github.com/okay-effects/okay-effects/blob/master/README.md">README</a>,
+      <a href="https://github.com/okay-effects/okay-effects/blob/master/SPEC.md">SPEC.md</a>,
+      <a href="https://github.com/okay-effects/okay-effects/blob/master/wire/README.md">the wire</a>,
+      <a href="https://github.com/okay-effects/okay-effects/blob/master/wire/family/README.md">the wire against
+      the family</a></td>
+      <td>From source</td></tr>
+    <tr><td class="name"><a href="https://github.com/okay-effects/okay-kernel">okay-kernel</a></td>
+      <td><a href="https://github.com/okay-effects/okay-kernel/blob/master/docs/design.md">Design</a></td>
+      <td>From source</td></tr>
+    <tr><td class="name"><a href="https://github.com/okay-effects/okay">okay</a></td>
+      <td><a href="https://github.com/okay-effects/okay/blob/master/docs/foreign-languages.md">Foreign
+      languages</a></td>
+      <td>From source</td></tr>
+  </table>
+</div></section>
+
+<footer><div class="wrap">
+  <span>okay-effects · Apache License 2.0 · <a href="index.html">okay-effects.github.io</a> ·
+  <a href="https://github.com/okay-effects">okay-effects on GitHub</a></span>
+  <a class="more" href="index.html#author">Need more?</a>
+</div></footer>
+
+</body>
+</html>

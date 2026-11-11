@@ -83,7 +83,7 @@
   The other repositories are the platform and its kernel, a direct-style library for Java with Scala front ends,
   a reference model in three languages, and the experiments that came before them.</p>
   <p class="note">The state of the <code>master</code> branches on 11 November 2026. Every statement on this page
-  was checked in the repositories; where a file says it, the file is named.</p>
+  was checked in the repositories; where a file says it, the file is named. Outside Scala: <a href="languages.html">effects in other languages</a>.</p>
 </div></section>
 
 <section id="which"><div class="wrap">
@@ -319,9 +319,10 @@ run(reader("Ann")(writer[String, Int, Reader % String +: Pure](greet)))   // (Li
   <h3 class="part">Behaviour</h3>
   <p class="text">Two test suites are shared between repositories. Neither covers all of them.</p>
   <p class="text"><strong>The family's TCK</strong> is in okay-kernel (<code>tck/Tck.scala</code>): a thousand random
-  programs, their outcomes folded into one number, <code>-8623788747993822161</code>. Three repositories come to
-  that number: okay-kernel's reference machine, okay-core through <code>OnCore</code>, and each of the three
-  kernels of okay-effects. okay-effects compares with the constant; the reference machine is not in that repository
+  programs, their outcomes folded into one number, <code>-8623788747993822161</code>. These come to that number:
+  okay-kernel's reference machine, okay-core through <code>OnCore</code>, okay-java (run from okay-kernel's
+  integration tests), the machine crate of okay-rust, the machine of okay-zig, and each of the three kernels of
+  okay-effects. okay-effects compares with the constant; the reference machine is not in that repository
   (its README says so). okay-simple, okay-scala and okay-direct do not run this TCK. The okay platform does not
   run it itself; it runs on okay-core, which does.</p>
   <p class="text"><strong>okay-simple's interface suite</strong> (<code>InterfaceSuite</code>, the artifact
