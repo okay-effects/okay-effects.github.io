@@ -1,0 +1,600 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<title>A language for building systems together with agents — okay-effects</title>
+<meta name="description" content="Why algebraic effects are the high-level language humans and agents need to build complex systems: the model as data types, why it matters for code agents write, Scala and every other language, heterogeneous systems and information systems management, and a neurosymbolic micro language model.">
+<style>
+  :root { --fg:#1b1f24; --muted:#57606a; --line:#d8dee4; --bg:#ffffff; --soft:#f6f8fa; --accent:#0b6e4f; --code:#0d1117; --codefg:#e6edf3; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color:var(--fg); background:var(--bg); }
+  a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+  .wrap { max-width:1040px; margin:0 auto; padding:0 24px; }
+  header.top { border-bottom:1px solid var(--line); }
+  header.top .wrap { display:flex; justify-content:space-between; align-items:center; height:56px; }
+  .brand { font-weight:700; color:var(--fg); letter-spacing:-0.01em; }
+  nav a { margin-left:20px; color:var(--muted); font-size:15px; }
+  .hero { padding:72px 0 56px; border-bottom:1px solid var(--line); }
+  .hero h1 { font-size:40px; line-height:1.15; margin:0 0 18px; letter-spacing:-0.02em; max-width:820px; }
+  .hero p.lead { font-size:20px; color:var(--muted); max-width:760px; margin:0 0 28px; }
+  .cta a { display:inline-block; padding:10px 18px; border-radius:6px; margin:0 10px 10px 0; font-weight:600; font-size:15px; }
+  .cta .primary { background:var(--accent); color:#fff; } .cta .primary:hover { text-decoration:none; opacity:.92; }
+  .cta .secondary { border:1px solid var(--line); color:var(--fg); }
+  section { padding:56px 0; border-bottom:1px solid var(--line); }
+  section h2 { font-size:28px; margin:0 0 8px; letter-spacing:-0.01em; }
+  section p.sub { color:var(--muted); margin:0 0 28px; max-width:760px; }
+  pre { background:var(--code); color:var(--codefg); padding:18px 20px; border-radius:8px; overflow-x:auto; font:13.5px/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; margin:0; }
+  code { font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size:.92em; }
+  p code, li code, td code { background:var(--soft); padding:1px 5px; border-radius:4px; }
+  table { border-collapse:collapse; width:100%; font-size:15px; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-size:13px; color:var(--muted); font-weight:600; text-transform:uppercase; letter-spacing:.04em; }
+  td:first-child { white-space:nowrap; }
+  ul.tight { margin:0; padding-left:20px; color:var(--muted); font-size:15px; }
+  ul.tight li { margin:4px 0; }
+  .note { font-size:14px; color:var(--muted); margin-top:16px; }
+  footer { padding:40px 0 56px; color:var(--muted); font-size:14px; }
+  @media (max-width: 820px) { .hero h1 { font-size:34px; } header.top .wrap { height:auto; flex-wrap:wrap; padding-top:12px; padding-bottom:4px; } nav { width:100%; display:flex; gap:18px; overflow-x:auto; white-space:nowrap; padding:8px 0; scrollbar-width:none; } nav::-webkit-scrollbar { display:none; } nav a { margin-left:0; } table { display:block; max-width:100%; overflow-x:auto; } }
+  footer .wrap { display:flex; flex-wrap:wrap; align-items:baseline; gap:6px; } footer .more { margin-left:auto; font-weight:600; }
+</style>
+
+<style>
+  article { max-width:820px; }
+  article h2 { font-size:28px; margin:48px 0 10px; letter-spacing:-0.01em; }
+  article h3 { font-size:19px; margin:32px 0 8px; }
+  article p, article li { margin:0 0 12px; }
+  article ul, article ol { padding-left:24px; margin:0 0 14px; }
+  article pre { margin:14px 0 18px; }
+  article table { margin:14px 0 20px; }
+  article td:first-child { white-space:normal; }
+  article h2:first-child { margin-top:0; }
+</style>
+</head>
+<body>
+
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html">okay-effects</a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#algebraic-effects-as-data-types">The model</a>
+    <a href="#why-this-matters-for-code-that-agents-write-and-read">For agents</a>
+    <a href="#why-scala--and-why-the-idea-is-bigger-than-scala">Scala and others</a>
+    <a href="#large-heterogeneous-systems-and-taking-a-monolith-apart">Systems</a>
+    <a href="#what-i-am-working-on-right-now-a-neurosymbolic-micro-language-model">Neurosymbolic</a>
+    <a href="#references">References</a>
+  </nav>
+</div></header>
+
+<section class="hero" style="padding:56px 0 40px"><div class="wrap">
+  <h1>A language for building systems together with agents: why I work on algebraic effects</h1>
+  <p class="lead">Humans and agents need one high-level language: readable by both, able to state hard things
+  precisely, checked by a machine, the same on every platform, and abstract enough that a large system does not
+  collapse under its own weight. Algebraic effects are that language.</p>
+  <p class="note">By <a href="index.html#author">Sergiy Shcherbyna</a> · 12 November 2026</p>
+</div></section>
+
+<section><div class="wrap"><article>
+<h2 id="what-i-am-trying-to-solve">What I am trying to solve</h2>
+<p>Agents now write a large share of the code in the systems I work on, and the share is growing. That changes what a
+programming language is for. It used to be enough that a language let a human tell a machine what to do. Now a
+language also has to be the shared medium in which humans and agents describe a system, reason about it, change it,
+and check each other's work.</p>
+<p>That raises the bar a lot. Such a language has to be:</p>
+<ul>
+<li><strong>readable by both</strong> — a person reviewing an agent's change, and an agent reading a person's intent, must see the
+same thing;</li>
+<li><strong>able to state hard things precisely</strong> — not only "call this API", but "this part of the system may do these
+things and nothing else", "this action must be approved", "this must happen exactly once";</li>
+<li><strong>checkable by a machine</strong> — whatever is stated formally should be verified automatically, at compile time where
+possible, because no one can review every line an agent writes;</li>
+<li><strong>portable</strong> — the same ideas have to work in the browser, natively, on the JVM, in the cloud, and in the different
+languages one organisation already uses;</li>
+<li><strong>built on real abstraction</strong> — without it, every large system eventually collapses under its own cognitive weight:
+people stop understanding how it is put together, agents make more and more mistakes, and nobody can show that it is
+correct.</li>
+</ul>
+<p>The last point is the one that worries me most. Agents are very good at producing code locally. They are much worse
+at keeping a large structure coherent, and so are we. If the language does not carry the structure, the structure is
+lost.</p>
+<p>So the question is: what language, and how would we know it is the right one?</p>
+<h2 id="the-ideas-are-already-known--they-look-scattered">The ideas are already known — they look scattered</h2>
+<p>Functional programming has been answering parts of this question for decades, and almost every mainstream language
+has borrowed from it. The list of ideas is long:</p>
+<ul>
+<li>the lambda calculus;</li>
+<li>referential transparency and the equivalence of expressions;</li>
+<li>algebraic data types and pattern matching;</li>
+<li>type theory and category theory [1];</li>
+<li>continuation-passing style and delimited continuations;</li>
+<li>coroutines and generators;</li>
+<li>tail calls without limit;</li>
+<li>non-blocking asynchrony;</li>
+<li>reactive streams.</li>
+</ul>
+<p>Each language implements some of these, usually as separate features with separate rules: one mechanism for
+exceptions, another for async/await, another for generators, another for dependency injection, another for
+transactions, another for logging. They look unrelated.</p>
+<p>They are not. One idea contains all of them as special cases, is simple enough to explain in a few paragraphs, and is
+mathematically exact. It is called <strong>algebraic effects and handlers</strong> [2, 3, 4].</p>
+<h2 id="algebraic-effects-as-data-types">Algebraic effects, as data types</h2>
+<p>Here is the idealised model. It is small on purpose.</p>
+<p><strong>An operation is a question, written as data.</strong> It names what it asks and the type of its answer:</p>
+<pre><code>Get        : Op[State[S], S]        -- &quot;what is the state?&quot;   answered by an S
+Put(s)     : Op[State[S], Unit]     -- &quot;set the state to s&quot;   answered by nothing
+Charge(c)  : Op[Payments, Receipt]  -- &quot;charge this card&quot;     answered by a receipt</code></pre>
+<p><strong>An effect is a family of operations</strong> — an algebraic data type. <code>State[S]</code> is <code>Get | Put(s)</code>. <code>Payments</code> is
+<code>Charge(c) | Refund(r)</code>. An effect is an interface, not an implementation. It says <em>what may be asked</em>, never <em>how it
+is done</em>.</p>
+<p><strong>A computation is data too.</strong> A program that may ask the operations of a set of effects <code>R</code> and comes to a value of
+type <code>A</code> is:</p>
+<pre><code>Comp R A  =  Done(a : A)                                   -- finished, with a value
+          |  Ask(op : Op[E, X], k : X -&gt; Comp R A)         -- asks op (E in R); k is the rest</code></pre>
+<p>That is all a program is: either a value, or a question together with <em>the rest of the program</em>, waiting for the
+answer. Sequencing is substitution: <code>Done(a) &gt;&gt;= f = f(a)</code>, and <code>Ask(op, k) &gt;&gt;= f = Ask(op, x -&gt; k(x) &gt;&gt;= f)</code>.
+Mathematically this is the free monad over the signature of operations [5, 6]: the most general structure in which
+programs can be written using those operations, with no meaning attached yet.</p>
+<p><strong>A handler gives an effect its meaning.</strong> It is two functions:</p>
+<pre><code>ret : A -&gt; Comp R&#39; B                                      -- what to do with the final value
+on  : (op : Op[E, X], k : X -&gt; Comp R&#39; B) -&gt; Comp R&#39; B   -- how to answer each operation</code></pre>
+<p>and handling is a fold over the program's structure:</p>
+<pre><code>handle h (Done a)                 = h.ret a
+handle h (Ask op k), op of E      = h.on op (x -&gt; handle h (k x))
+handle h (Ask op k), otherwise    = Ask op (x -&gt; handle h (k x))   -- passed on outward</code></pre>
+<p>Algebraically, a handler is a model of the effect's signature, and <code>handle</code> is the unique structure-preserving map from
+the free model into it [3]. That is where the word <em>algebraic</em> comes from, and it is why the theory has laws you can
+rely on:</p>
+<pre><code>handle h (pure a)            = h.ret a
+handle h (perform op &gt;&gt;= f)  = h.on op (x -&gt; handle h (f x))         -- op belongs to h&#39;s effect
+handle h (perform op &gt;&gt;= f)  = perform op &gt;&gt;= (x -&gt; handle h (f x))  -- it does not</code></pre>
+<p><strong>The type records what a program may do.</strong> A program's type is <code>A ! R</code>: a value <code>A</code>, with the effects <code>R</code> [7, 8].
+Handling an effect removes it from <code>R</code>. A program can be <em>run</em> only when <code>R</code> is empty — when every question it may ask
+has someone to answer it. So "this part of the system may charge cards and read configuration, and nothing else" is
+not a comment or a convention. It is the type, and the compiler checks it.</p>
+<h3 id="why-this-one-idea-contains-the-others">Why this one idea contains the others</h3>
+<p>Look at what a handler's clause receives: the operation and <code>k</code>, <em>the rest of the program</em>, as an ordinary value.
+Everything in the list above is a choice of what to do with <code>k</code>:</p>
+<table>
+<thead>
+<tr>
+<th>Resume <code>k</code>…</th>
+<th>…and you get</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>once, immediately</td>
+<td>ordinary state, configuration, logging, dependency injection</td>
+</tr>
+<tr>
+<td>never</td>
+<td>exceptions, early exit, cancellation</td>
+</tr>
+<tr>
+<td>many times</td>
+<td>backtracking, search, probabilistic programming, every path of a choice</td>
+</tr>
+<tr>
+<td>later, from elsewhere</td>
+<td>async/await, non-blocking I/O, callbacks — with no "coloured" functions</td>
+</tr>
+<tr>
+<td>once per value, on demand</td>
+<td>generators, coroutines, lazy and infinite streams, reactivity</td>
+</tr>
+<tr>
+<td>after asking something else</td>
+<td>delegation: one effect implemented by others</td>
+</tr>
+<tr>
+<td>after recording or checking</td>
+<td>interception, audit, policy, approval</td>
+</tr>
+</tbody>
+</table>
+<p>And the other ideas follow from the representation itself:</p>
+<ul>
+<li><strong>Referential transparency and equivalence of expressions:</strong> a program is a value, so equal programs can replace
+each other, and the laws above are equations you can use to reason and to refactor.</li>
+<li><strong>Continuations and CPS:</strong> <code>k</code> <em>is</em> a delimited continuation; the handler is its delimiter.</li>
+<li><strong>Unlimited tail recursion, stack safety:</strong> a program is data run by a loop, so its depth lives on the heap, not on
+the call stack.</li>
+<li><strong>Algebraic data types and pattern matching:</strong> operations are an ADT, and a handler is a pattern match over them —
+exhaustive, so a forgotten case is a compile error.</li>
+<li><strong>Category theory:</strong> the free monad, algebras and homomorphisms are the precise statement of all of the above
+[1, 5].</li>
+</ul>
+<p>One concept, a handful of definitions, and the features that most languages add one by one fall out as special cases
+of a single rule.</p>
+<h2 id="why-this-matters-for-code-that-agents-write-and-read">Why this matters for code that agents write and read</h2>
+<p>This is the part I care about most.</p>
+<p><strong>1. A strict formal model, small enough to hold in mind.</strong> Humans and agents both do best with a model that has few
+rules and no exceptions. Effects give exactly that: operations are data, programs are data, handlers are folds, and
+three equations say what handling means. An agent that has learned the model once can apply it everywhere in the
+system, at every scale. So can a reviewer.</p>
+<p><strong>2. The business logic becomes pure and refined.</strong> A program written with effects reads as the business process and
+nothing else:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode scala"><code class="sourceCode scala"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> checkout<span class="op">[</span>R<span class="op">[</span>_<span class="op">]:</span> Has<span class="op">[</span>Cart<span class="op">]</span> <span class="op">:</span> Has<span class="op">[</span>Payments<span class="op">]</span> <span class="op">:</span> Has<span class="op">[</span>Mail<span class="op">]](</span>user<span class="op">:</span> User<span class="op">):</span> Receipt <span class="op">!</span> R <span class="op">=</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    items   <span class="op">&lt;-</span> Cart<span class="op">.</span><span class="fu">items</span><span class="op">(</span>user<span class="op">)</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    receipt <span class="op">&lt;-</span> Payments<span class="op">.</span><span class="fu">charge</span><span class="op">(</span>user<span class="op">.</span>card<span class="op">,</span> items<span class="op">.</span>total<span class="op">)</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    _       <span class="op">&lt;-</span> Mail<span class="op">.</span><span class="fu">send</span><span class="op">(</span>user<span class="op">.</span>email<span class="op">,</span> <span class="fu">Confirmation</span><span class="op">(</span>receipt<span class="op">))</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="cf">yield</span> receipt</span></code></pre></div>
+<p>No HTTP client, no retry policy, no connection pool, no transaction boilerplate, no logging framework. The type says
+what it may touch. That is the right level for a person to review and the right level for an agent to generate:
+there is far less room for the accidental complexity where agents make most of their mistakes.</p>
+<p><strong>3. Every technical detail lives in one understandable, predictable place: the handler.</strong> Where <code>Payments.charge</code>
+really goes — a test double, a sandbox, the production provider, a queue for asynchronous processing, another service
+in another language — is decided by a handler. Handlers are small, each concerns one effect, and each can be read and
+tested on its own. When something goes wrong, there is one place to look.</p>
+<p><strong>4. Handlers compose like functions.</strong> A whole application is one line:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode scala"><code class="sourceCode scala"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">run</span><span class="op">(</span>Mail<span class="op">.</span><span class="fu">smtp</span><span class="op">(</span>config<span class="op">)(</span>Payments<span class="op">.</span><span class="fu">stripe</span><span class="op">(</span>keys<span class="op">)(</span>Cart<span class="op">.</span><span class="fu">postgres</span><span class="op">(</span>db<span class="op">)(</span><span class="fu">checkout</span><span class="op">(</span>user<span class="op">)))))</span></span></code></pre></div>
+<p>To run the same logic in a test, swap the handlers. To move a part to another process, swap a handler. To make a call
+asynchronous, swap a handler. The business code does not change, and the compiler confirms that every effect is still
+answered. Architecture becomes composition, and composition is checked.</p>
+<p><strong>5. Every action passes a point of control.</strong> Because every interaction with the world is an operation, every
+interaction can be intercepted: seen, changed, limited, recorded, sent for approval, or refused — without touching the
+program that asked for it. For AI systems this is decisive. An agent's next action was not written in advance by
+anyone. If its tools are effects, then what it may do is the type of the program it runs in, and what it actually did
+is a record kept by construction, not by discipline. An effect can even be marked <em>sensitive</em>, so that the compiler
+refuses any program that would perform it outside an audit.</p>
+<p><strong>6. Correctness can be checked, not hoped for.</strong> Rows are checked at compile time. Handlers can be tested against
+laws. The same program can be run against a recording and against the world. And because the model is mathematical,
+parts of it can be proved: I have the laws of interception and audit proved in Lean.</p>
+<h2 id="why-scala--and-why-the-idea-is-bigger-than-scala">Why Scala — and why the idea is bigger than Scala</h2>
+<h3 id="what-i-need-from-a-language">What I need from a language</h3>
+<p>I want one language in which I can build a whole product, and in which algebraic effects are an ordinary library
+rather than a special compiler feature. Scala is the only language I know that gives me all of this at once.</p>
+<p><strong>It is a full-stack language.</strong> Scala compiles to three targets: the JVM, JavaScript (Scala.js) and native code
+(Scala Native). The same code runs on a server, in a browser, in a serverless function and as a native binary.
+I use this in practice, not as a slogan:</p>
+<ul>
+<li>business websites with their order flows and back offices — static pages, the forms' code in the browser, the API
+on Cloudflare Workers, the data in Durable Objects — written entirely in Scala, with the same tests on the JVM and
+in JavaScript;</li>
+<li>serverless back ends that run unchanged on Cloudflare, on AWS Lambda or on a plain JVM host, the cloud's services
+being effects and each cloud a set of handlers;</li>
+<li>one application on every screen — a desktop window, a web page, native iPhone and Android apps, a terminal, a REST
+API, tools for an AI agent — written once (more on this below);</li>
+<li>machine learning from Scala: bindings to Apple's MLX on the JVM and natively, and a transformer engine of my own
+that runs a language model in the browser on WebGPU and WebGL2 — the neurosymbolic model described below runs on it.</li>
+</ul>
+<p><strong>It can express algebraic effects as a plain, purely functional library.</strong> Scala 3's type system — higher-kinded
+types, type lambdas, intersection and union types, match types, given instances found by the compiler, opaque types,
+inline and macros — is rich enough that effects need no special support. In my library okay-scala, the row of effects
+is an ordinary type (<code>State % Int + Choose</code>), membership of an effect in a row is evidence the compiler finds, and the
+machine that runs programs is a typed loop with no unchecked casts. Code written with it reads as if effects were
+built into the language, as the <code>checkout</code> example above shows.</p>
+<p><strong>It is fast.</strong> The JVM's JIT compiler is one of the best optimising compilers there is. In my reference kernel a
+state operation through a handler costs on the order of ten nanoseconds, and a bind about six, on an ordinary laptop.
+Abstraction does not have to cost what people expect it to cost.</p>
+<p><strong>Its syntax is simple.</strong> A program is a <code>for</code> over its steps; a handler is a pattern match over an effect's
+operations. Nothing else is needed to read it — which matters just as much for an agent as for a person.</p>
+<p>Other languages have some of these qualities. Haskell has the type system and decades of effect research, but not the
+platforms. Rust has native speed and a strong type system, but effects there fight the ownership model and need
+macros or code generation. TypeScript and Kotlin have the platforms, but not types strong enough to carry rows of
+effects without compromise. No other language I know gives all of them together. That — and only that — is why I
+choose Scala.</p>
+<h3 id="an-example-of-what-the-language-and-effects-can-do-together-one-application-every-face">An example of what the language and effects can do together: one application, every face</h3>
+<p>Desktop and mobile used to be the usual answer to "but can Scala do the front end?". With effects they are not a gap
+any more, and the way they stopped being one shows what the combination is capable of when it is used properly.</p>
+<p>In <a href="https://github.com/okay-effects/okay-faces">okay-faces</a> an application is one program over one effect, <code>Face</code>. The
+program shows views and offers actions: <code>fill</code> asks for a form made from a type, <code>confirm</code> for a yes or no, <code>show</code>
+tells something. Nothing in it says <em>how</em>. Each <strong>face</strong> is a handler of that effect:</p>
+<ul>
+<li>a <strong>desktop window</strong> (Swing on the JVM);</li>
+<li>a <strong>web page</strong> in the browser (Scala.js), or the same page driven by a program on a server;</li>
+<li><strong>HTML from a server</strong>, with no script at all;</li>
+<li>a <strong>terminal</strong> dialogue;</li>
+<li>a <strong>REST API</strong> with links and affordances;</li>
+<li>an <strong>MCP server</strong> — the same dialogue as tools for an AI agent;</li>
+<li>a <strong>test face</strong>, which plays the program by a script and checks what was shown;</li>
+<li>and <strong>native phone apps</strong>: on an iPhone the program is compiled by Scala Native into a library and the screen is
+SwiftUI; on Android it runs on Android's own runtime and the screen is Jetpack Compose. On each phone it looks like
+that phone's own app — native lists and forms, pickers and switches, tables, pictures, the system's back gesture,
+dark mode and text size.</li>
+</ul>
+<p>The program does not change between them; only the face does. A form comes from one typed description, which is at
+once the form a person fills, the JSON Schema an agent is given, and the decoder of what comes back. The phone's own
+capabilities — storage, the network, secrets in the Keychain or the Android Keystore, notifications, opening links —
+are effects too: the program says "keep this note" or "remind me in five seconds", and Swift does it on the iPhone,
+Kotlin on Android, and a test does it in memory. The Swift and Kotlin parts are small libraries shared by every app;
+they know nothing about any of them. The same UI scenarios run on the iPhone simulator and the Android emulator; the
+whole example app for the iPhone is 3.4 MB.</p>
+<p>There is a point here beyond convenience. The MCP face gives an agent, at every step, exactly the actions a person
+would see. So an agent working through an application cannot do more than a person can — the boundary is the program,
+not a prompt.</p>
+<p>That is the claim of this section in one example: a rich type system and effects as a library let one model, written
+once, reach the server, the browser, the desktop, the phone and the agent.</p>
+<p>What remains genuinely outside Scala's reach today is embedded systems, where C++ and Rust rule — though Scala
+already compiles to native code. And the language keeps improving: capture checking, for example, adds safety
+that tracks who may use or hold a value.</p>
+<h3 id="the-same-model-in-every-language">The same model in every language</h3>
+<p>At the same time, nothing in the idea depends on Scala. Algebraic effects are a model of computation, not a feature
+of one compiler, and they make sense in any language. So I have built one compatible ecosystem of effect libraries
+for the languages in use today, and for some experimental ones:</p>
+<ul>
+<li><strong>Scala 3</strong> (and Scala 2.13 through a shared interface);</li>
+<li><strong>Java 25</strong> — both in the style of sealed interfaces and records, with the row of effects as a nested type checked
+by <code>javac</code>, and in direct style on Loom's continuations;</li>
+<li><strong>Kotlin</strong>, <strong>Rust</strong>, <strong>Go</strong>, <strong>Zig</strong>, <strong>TypeScript</strong>, <strong>Python</strong>;</li>
+<li><strong>Lean 4</strong>, where the laws are not tested but proved;</li>
+<li><strong>Goose</strong>, an experimental language.</li>
+</ul>
+<p>Each takes the form its language allows: a program as data run by a machine, direct style on the language's own
+continuations, coroutines or generators, a function compiled into a state machine, or a plain function over a typed
+context. Where the compiler can check the row of effects, it does — in Scala, Java, Rust, TypeScript and Lean. Where a
+language cannot copy its own continuation (a Python or TypeScript generator), a program that must be resumed many
+times is written as data, never by re-running it from the start.</p>
+<p>What holds them to one meaning is not resemblance but tests:</p>
+<ul>
+<li>a shared test kit of a thousand randomly generated programs whose results fold into one number, which several of
+the implementations reproduce exactly;</li>
+<li>a reference model — the same small kernel in Scala, Java and Rust — whose properties are the same tests in the three
+languages.</li>
+</ul>
+<h3 id="many-languages-one-system">Many languages, one system</h3>
+<p>This opens a real possibility: to join programs in different languages into one system <em>through effects</em>.</p>
+<p>The family speaks one protocol, the <em>okay wire</em>. A program runs in one process, in one language; when it asks an
+operation, the operation — a name and its arguments — crosses to another process, possibly in another language, and
+is answered by a handler there. The rest of the program stays where it is, as a value, known on the other side only
+by a number, so it can even be resumed more than once. To the program, a remote handler is just a handler.</p>
+<p>This is checked, not only designed:</p>
+<ul>
+<li>in the reference model every host is run against every worker — Scala, Java and Rust, nine pairs, one answer;</li>
+<li>a separate check drives far sides written in Zig, Lean and TypeScript, and the platform's reference Python worker,
+from the Scala host;</li>
+<li>the platform's own host drives the reference model's three workers in turn: calls, held objects, programs resumed
+twice, streams under back-pressure, compression, authentication.</li>
+</ul>
+<p>So the boundary between languages becomes the same kind of boundary as between modules: a set of effects. A team can
+keep its language. The system keeps one model.</p>
+<h2 id="large-heterogeneous-systems-and-taking-a-monolith-apart">Large heterogeneous systems, and taking a monolith apart</h2>
+<p>The property that makes effects good for agents also makes them good for architecture at scale: <strong>the business logic
+is written once, against effects, and where each part runs is a handler.</strong></p>
+<h3 id="a-monolith-taken-apart-in-steps">A monolith, taken apart in steps</h3>
+<p>Take a shop's checkout: reserve the item, charge the card, send a receipt. In a monolith these are three calls into
+modules the function reaches directly. With effects:</p>
+<ol type="1">
+<li><strong>Boundaries inside the monolith.</strong> The calls become an effect, as plain data; the logic keeps its shape. The
+modules are given at the top by a handler. It is still a monolith, but its boundaries are now explicit, and the
+compiler knows them.</li>
+<li><strong>Services.</strong> A handler sends each operation over the wire, and the answer goes to the rest of the program. The
+business code does not change.</li>
+<li><strong>Asynchronous.</strong> Each operation becomes an asynchronous wait; the handler resumes the program when the answer
+arrives. The business code still does not change.</li>
+</ol>
+<p>The same test scenarios — themselves just handlers — check every step of the migration. Parts can be moved out one
+at a time, when each is ready; the rest stays local. Failures are handlers too: retries, timeouts, idempotency keys
+and circuit breakers wrap the remote handler, not the business code. This is the strangler-fig migration with a
+compiler checking each step.</p>
+<h3 id="patterns-that-usually-come-as-frameworks-as-handlers">Patterns that usually come as frameworks, as handlers</h3>
+<ul>
+<li><strong>CQRS:</strong> commands and queries are separate effects.</li>
+<li><strong>Event sourcing:</strong> state is a fold over a log of events; commands decide on it and append to it.</li>
+<li><strong>Sharding:</strong> the handler chooses a shard by the key the invariant is about.</li>
+<li><strong>Eventual consistency:</strong> shards project their events into a CRDT view whose merge converges.</li>
+</ul>
+<p>The program only performs effects. Storage, history, scale and consistency are all handlers.</p>
+<h3 id="what-this-means-for-those-who-manage-information-systems">What this means for those who manage information systems</h3>
+<p>Management Information Systems is a whole discipline: how information systems serve people, processes and decisions
+inside organizations [9]. Much of it is about control — who may do what, how every action is audited, how IT stays
+aligned with the business, how you change a vendor without breaking the company.</p>
+<p>In practice, three things get mixed together in most enterprise systems:</p>
+<ul>
+<li><strong>business logic</strong> — what the process does;</li>
+<li><strong>policy</strong> — who is allowed, what must be checked, what must be logged;</li>
+<li><strong>implementation</strong> — which database, which vendor, which cloud.</li>
+</ul>
+<p>Because they are tangled, every audit is a project, every migration is a risk, and every policy change touches code
+that it shouldn't.</p>
+<p>Algebraic effects separate exactly these layers. A program only describes what it wants: "read the invoice", "ask a
+manager for approval", "pay the supplier". These requests are effects. Separate handlers decide how each request is
+carried out. What this gives an organization:</p>
+<ol type="1">
+<li><strong>Audit by construction.</strong> Every action goes through a handler, so a complete audit trail is a property of the
+architecture, not an add-on someone forgot. It serves record-keeping, traceability of decisions and access control
+obligations — as evidence, not as a compliance claim.</li>
+<li><strong>Controls as interceptors.</strong> Segregation of duties, limits, approvals: each is a handler wrapped around the
+process. Change the policy, not the process. An action can even be marked sensitive, so that a process which would
+perform it outside its control does not compile.</li>
+<li><strong>Vendor independence.</strong> Same process, different handler. Moving from one payment provider or cloud to another does
+not touch business logic. What stays tied to a vendor is only what that vendor alone offers.</li>
+<li><strong>One process, many interpretations.</strong> The same expense-approval process can be executed for real, simulated
+("what if the limit were lower?"), costed, tested, or explained to an auditor — by running it under different
+handlers. Today these are often five separate artifacts that drift apart.</li>
+<li><strong>Human-in-the-loop.</strong> "Waiting for manager approval" is just an effect. The process pauses there and continues when
+the answer arrives, even days later, because the paused rest of the process is an ordinary value that can be kept.</li>
+</ol>
+<p>To be fair, BPM engines [10], hexagonal architecture [11] and middleware aim at similar goals. What effects add is
+precision: typed requests, composable handlers with a clear scope, and paused processes as real values. And effects
+won't fix adoption, culture or resistance to change: information systems are still mostly about people. But for the
+control layer, I think they are the right foundation.</p>
+<p>A few more consequences, seen from management rather than code. Where a benefit is an argument rather than a
+measurement, I say so.</p>
+<ul>
+<li><strong>The cost of change.</strong> Moving from a monolith to services, from on-premises to the cloud, from synchronous to
+asynchronous, becomes a change of composition, not a rewrite. The argument: the logic is not rewritten, so the cost
+of the move is the cost of writing and testing the new handlers. What still has to be done by the usual means: data
+migration, networking, accounts, contracts.</li>
+<li><strong>Risk.</strong> The whole business flow can be tested without the outside world. An incident can be reproduced from the
+record. What a component — or an AI agent — is able to do is limited by its type and enforced at the point of
+control. I am building exactly this in practice: an effects runtime in which every tool call an AI agent makes
+passes through a policy handler before it runs.</li>
+<li><strong>Decomposition and teams.</strong> An effect is a contract that a machine checks: the operations one part asks of another
+and the type of each answer. One team owns an effect and its production handlers; others write against it and test
+against a handler it supplies. When a module starts to use payments, payments appear in its declared effects — a
+reviewer sees that line change. A change to an effect breaks the compilation of every user, so the size of a change
+is known before the work starts. The same boundaries are where a service can later be cut out.</li>
+<li><strong>Adoption without a rewrite.</strong> Start at one boundary of an existing system: one integration that hurts, or one
+audit requirement. Wrap today's code in a handler. Add a record or a limit at that handler, and a test handler.
+Then measure — test time, lines changed outside handlers when an arrangement changes, whether the record answered a
+real question — and widen module by module, or stop. Stopping after the first step loses little.</li>
+<li><strong>People and cost.</strong> Writing business logic against existing effects is the easier part. Designing effects and
+writing handlers needs someone at home in typed functional programming, and a second such person so that the first
+can leave. The libraries are young. Abstraction has a measured, small but non-zero cost per operation.</li>
+<li><strong>Where it does not pay.</strong> Small systems, pure computation with no interaction, hard real-time code, and teams that
+will not own the approach.</li>
+</ul>
+<h2 id="what-i-am-building">What I am building</h2>
+<p>I maintain the family of open-source libraries described above under the GitHub organisation
+<a href="https://okay-effects.github.io/">okay-effects</a>, with applications built on it: business sites and shops, serverless
+back ends, user interfaces as data, a guard that puts every tool call of a coding agent through a policy.</p>
+<p>My current focus is applying all this to the architecture of AI itself.</p>
+<h2 id="what-i-am-working-on-right-now-a-neurosymbolic-micro-language-model">What I am working on right now: a neurosymbolic micro language model</h2>
+<p>The project is a <strong>small neurosymbolic language model</strong> that can solve logic problems and work with data in external
+sources: tables, files, open data on the web. It runs in the browser, offline, on a laptop, and is meant to work on a
+phone. It is live at <a href="https://okay-effects.github.io/okay-desk/">okay-effects.github.io/okay-desk</a>.</p>
+<p>The question behind it is simple. Large language models are impressive and unreliable. They compute, remember and
+reason in one opaque process, and when they are wrong, they are wrong fluently. Making them bigger makes them wrong
+less often, not never. For many tasks — "which customers have no orders", "who lives in the green house", "how did
+GDP change between these years" — an answer that is right 95% of the time is not an answer. We need a system that is
+exactly right, or says that it does not know. This is the old programme of neurosymbolic AI [12], and the more recent
+practice of letting a model write programs or call tools instead of computing [13, 14].</p>
+<h3 id="the-principles">The principles</h3>
+<p><strong>1. The language model does not compute. It formalizes.</strong> The model's job is to read a question written in natural
+language and turn it into a formal statement: a query over the data, or the facts and constraints of a logic puzzle.
+It also chooses the solver for that statement. Everything after that is exact: a query runs on a Datalog engine, a
+puzzle on a constraint solver.</p>
+<p><strong>2. A number never comes from the model.</strong> Every value in an answer is a cell of the data or a result of the exact
+engine. If the model writes a summary, the summary is kept only if every number in it is in the computed result.</p>
+<p><strong>3. Read the model where it decides.</strong> I do not ask the model to generate a program token by token and hope it is
+well formed; small models fail at that, and on my benchmarks a free-form program from a small model was almost never
+fully correct. Instead, small learned <em>readers</em> — linear probes [15] — read the model's internal states at the exact
+point where it makes each decision: which table, which column, which relation, which direction. Each decision is read
+separately and checked against the data, and the formal statement is assembled from those decisions exactly.</p>
+<p><strong>4. Abstain rather than guess — and show the reading.</strong> Each decision is either closed by the data, closed by the
+model with a margin above a threshold measured on held-out data, or closed by the exact side. A decision that is still
+open is not guessed: it is asked, in the words of the question. The user always sees how the system read the
+question, so a wrong reading is visible, not hidden behind a confident answer.</p>
+<p><strong>5. The model is a handler.</strong> In the architecture, "ask the model" is an effect like any other. Where a decision can
+be filled from — the data, the model's tokens, a reader, the user, a stronger model — is a choice of handler. Models
+are therefore interchangeable: a stronger one can be plugged in where needed. But the goal is that even a very weak
+one copes with almost any task, because it only has to read, not to know or to compute.</p>
+<p><strong>6. Small enough for a phone.</strong> The base is a 0.6-billion-parameter open model, cut to the layers the readers
+actually need and distilled back. It runs in the browser on WebGPU, on WebGL2 where WebGPU is missing, and partly on
+the CPU on a phone, through the transformer engine I wrote in Scala that compiles to the browser.</p>
+<p><strong>7. Knowledge as loadable, exact packs.</strong> What the model does not need to know — family relations, units, the rules
+of a domain — is not trained into weights. It comes as an exact definition that can be loaded, checked and replaced.</p>
+<h3 id="where-it-stands">Where it stands</h3>
+<p>These results are modest, and real:</p>
+<ul>
+<li><strong>Data questions.</strong> Over sample tables, the untouched 0.6B model with readers and exact facts answered all twelve
+sample questions — the score of an untouched 4B model, and of a fine-tuned 1.7B. A question takes about half a second
+to a second on WebGPU.</li>
+<li><strong>Logic problems.</strong> A collection of 233 tasks in twelve classes: Einstein-style grids, who is where, who is who,
+orderings, deductions, family relations, routes, knights and liars, and more. On tasks phrased the way the training
+corpus phrases them, the reader is exact on 99.7–100% of decisions.</li>
+<li><strong>What the gate shows.</strong> On the collection, the system shows answers to about two thirds of the tasks it can state
+and asks about the rest. In the browser it gave 59 right answers, asked about 20 and was wrong once out of 80; after
+the latest training, none of the answers it showed was wrong.</li>
+<li><strong>What is not solved.</strong> On families of wordings it has never seen, it is right on roughly half or less, and on a
+sealed set I do not look at, it mostly refuses. Refusing is the intended behaviour there, but it is also the
+frontier: generalising the reading is the next work.</li>
+</ul>
+<h3 id="programs-inside-the-transformer-a-translator-of-effects">Programs inside the transformer: a translator of effects</h3>
+<p>The second line of research goes the other way: not reading exact structure out of the model, but putting exact
+computation into the transformer itself.</p>
+<p>In <a href="https://github.com/okay-effects/okay-inlay">okay-inlay</a> I built a small language for programs that a transformer
+can run, in the spirit of RASP and Tracr [16, 17]. Its building blocks are the transformer's own:</p>
+<ul>
+<li><strong>fields</strong> of the residual stream (categories, bits, flags);</li>
+<li><strong>attention heads</strong> that look up the latest or every matching earlier position, or count them;</li>
+<li><strong>rule neurons</strong> in the MLP.</li>
+</ul>
+<p>A program written in this language is an effect, and it has several handlers:</p>
+<ul>
+<li>an <strong>interpreter</strong>, which is the reference;</li>
+<li>a <strong>compiler to transformer weights</strong>;</li>
+<li>a <strong>forward pass on MLX</strong>, run beside a real language model.</li>
+</ul>
+<p>The law that the tests check is that the weights compute exactly what the reference computes. So exact operations —
+counting, quoting, following a relation to its closure — run <em>inside</em> the same machinery as the language model,
+layer by layer, not as an external tool call.</p>
+<p>Combined with readers, this already works on specific tasks. On counting and on transitive closure, a 4B model alone
+fails. With a learned reader that takes the relation from the model's middle layers into a compiled exact machine,
+the exact part never erred, and every wrong answer traced back to a misreading.</p>
+<p>The limits are concrete, and I keep them in view:</p>
+<ul>
+<li>a compiled program has a fixed depth, so it works on a window, not on unbounded input;</li>
+<li>half-precision arithmetic breaks some lookups;</li>
+<li>a compiled program cannot simply be merged into a standard weights file: today it is a side model that the engine
+runs together with the language model.</li>
+</ul>
+<h3 id="why-this-is-the-same-idea">Why this is the same idea</h3>
+<p>Both lines are applications of the principle from the first half of this text. The question a user asks is a
+program. Each decision in it is an operation. The language model is one handler among several, the exact engines are
+others, and the compiled machine inside the transformer is one more. Handlers compose. The boundaries between what is
+guessed and what is computed are explicit, typed and checked. And every step is visible: what was read, from where,
+and why.</p>
+<h2 id="why-i-think-it-is-necessary">Why I think it is necessary</h2>
+<p>The more code agents write, the more the shape of a system has to be carried by the language rather than by the
+memory of the people who built it. Algebraic effects give that shape a precise form: a small set of definitions, with
+laws, checked by the compiler, readable by humans and agents alike, the same at every scale of a system and in every
+language it is written in. And the same principle can structure the reasoning of an AI system itself, so that the
+part that can be exact is exact, the part that cannot is marked, and both can be checked.</p>
+<p>That is the language I believe we need. My work is to show, in code that runs, that it is practical — and to make it
+easy to use.</p>
+<h2 id="references">References</h2>
+<p><strong>Algebraic effects and handlers</strong></p>
+<ol type="1">
+<li>E. Moggi. Notions of computation and monads. <em>Information and Computation</em> 93(1), 1991.</li>
+<li>G. Plotkin, J. Power. Algebraic operations and generic effects. <em>Applied Categorical Structures</em> 11(1), 2003.</li>
+<li>G. Plotkin, M. Pretnar. Handlers of algebraic effects. <em>ESOP</em>, 2009; extended as Handling algebraic effects,
+<em>Logical Methods in Computer Science</em> 9(4), 2013.</li>
+<li>A. Bauer, M. Pretnar. Programming with algebraic effects and handlers. <em>Journal of Logical and Algebraic Methods in
+Programming</em> 84(1), 2015.</li>
+<li>W. Swierstra. Data types à la carte. <em>Journal of Functional Programming</em> 18(4), 2008.</li>
+<li>O. Kiselyov, H. Ishii. Freer monads, more extensible effects. <em>Haskell Symposium</em>, 2015.</li>
+<li>D. Leijen. Type directed compilation of row-typed algebraic effects. <em>POPL</em>, 2017.</li>
+<li>D. Hillerström, S. Lindley. Liberating effects with rows and handlers. <em>Workshop on Type-Driven Development</em>, 2016.</li>
+</ol>
+<p>Also: M. Pretnar, An introduction to algebraic effects and handlers, <em>ENTCS</em> 319, 2015 (a tutorial); O. Kammar,
+S. Lindley, N. Oury, Handlers in action, <em>ICFP</em> 2013; J. I. Brachthäuser, P. Schuster, K. Ostermann, Effects as
+capabilities, <em>OOPSLA</em> 2020; K. C. Sivaramakrishnan et al., Retrofitting effect handlers onto OCaml, <em>PLDI</em> 2021.</p>
+<p><strong>Information systems: management, control, architecture</strong></p>
+<ol start="9" type="1">
+<li>K. C. Laudon, J. P. Laudon. <em>Management Information Systems: Managing the Digital Firm</em>. Pearson (many editions).</li>
+<li>M. Weske. <em>Business Process Management: Concepts, Languages, Architectures</em>. Springer (3rd ed. 2019).</li>
+<li>A. Cockburn. Hexagonal architecture (ports and adapters). alistair.cockburn.us, 2005.</li>
+</ol>
+<p>Also: J. H. Saltzer, M. D. Schroeder, The protection of information in computer systems, <em>Proceedings of the IEEE</em>
+63(9), 1975 (least privilege, complete mediation); COSO, <em>Internal Control — Integrated Framework</em>, 2013 (segregation
+of duties); ISACA, <em>COBIT 2019 Framework</em>; ISO/IEC 27001:2022; Regulation (EU) 2022/2554 (DORA); Regulation (EU)
+2024/1689 (the AI Act); S. Newman, <em>Monolith to Microservices</em>, O'Reilly, 2019.</p>
+<p><strong>Artificial intelligence: neurosymbolic reasoning, agents, transformers</strong></p>
+<ol start="12" type="1">
+<li>A. d'Avila Garcez, L. C. Lamb. Neurosymbolic AI: the 3rd wave. <em>Artificial Intelligence Review</em> 56, 2023.</li>
+<li>L. Gao et al. PAL: program-aided language models. <em>ICML</em>, 2023.</li>
+<li>T. Schick et al. Toolformer: language models can teach themselves to use tools. <em>NeurIPS</em>, 2023.</li>
+<li>G. Alain, Y. Bengio. Understanding intermediate layers using linear classifier probes. <em>ICLR Workshop</em>, 2017.</li>
+<li>G. Weiss, Y. Goldberg, E. Yahav. Thinking like transformers. <em>ICML</em>, 2021.</li>
+<li>D. Lindner et al. Tracr: compiled transformers as a laboratory for interpretability. <em>NeurIPS</em>, 2023.</li>
+</ol>
+<p>Also: L. Pan et al., Logic-LM: empowering large language models with symbolic solvers for faithful logical reasoning,
+<em>Findings of EMNLP</em> 2023; T. X. Olausson et al., LINC: a neurosymbolic approach for logical reasoning, <em>EMNLP</em> 2023;
+S. Yao et al., ReAct: synergizing reasoning and acting in language models, <em>ICLR</em> 2023; K. Greshake et al., Not what
+you've signed up for: indirect prompt injection, <em>AISec</em> 2023; the Model Context Protocol specification,
+modelcontextprotocol.io; Y. Geifman, R. El-Yaniv, Selective classification for deep neural networks, <em>NeurIPS</em> 2017.</p>
+<p><strong>My work</strong></p>
+<ul>
+<li>The organisation and its pages: <a href="https://okay-effects.github.io/">okay-effects.github.io</a> — the libraries; the
+Scala implementations compared; effects in other languages; effects as an architecture for those who manage
+information systems.</li>
+<li>One application on every screen, phones included: <a href="https://github.com/okay-effects/okay-faces">github.com/okay-effects/okay-faces</a>.</li>
+<li>The reference model in Scala, Java and Rust: <a href="https://github.com/okay-effects/okay-effects">github.com/okay-effects/okay-effects</a>.</li>
+<li>The neurosymbolic model: <a href="https://okay-effects.github.io/okay-desk/">okay-effects.github.io/okay-desk</a>; programs in
+transformer weights: <a href="https://github.com/okay-effects/okay-inlay">github.com/okay-effects/okay-inlay</a>.</li>
+</ul>
+</article></div></section>
+
+<footer><div class="wrap">
+  <span>okay-effects · Apache License 2.0 · <a href="index.html">okay-effects.github.io</a> ·
+  <a href="management.html">For those who manage systems</a> ·
+  <a href="https://github.com/okay-effects">okay-effects on GitHub</a></span>
+  <a class="more" href="index.html#author">Need more?</a>
+</div></footer>
+
+</body>
+</html>
