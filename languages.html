@@ -93,7 +93,8 @@
 
 <section id="which"><div class="wrap">
   <h2>The implementations</h2>
-  <p class="sub">Eleven repositories, all public. Three are released: okay-direct, okay-kotlin and okay-zig.
+  <p class="sub">Eleven repositories, all public. Four are released: okay-java, okay-direct, okay-kotlin and
+  okay-zig.
   Java and Rust appear more than once: each has a library and a kernel of the reference model.</p>
   <table>
     <tr><th>Repository</th><th>Language</th><th>How a program runs</th><th>The effects of a program are
@@ -108,7 +109,8 @@
       level of its own; <code>Eff.run</code> takes a program at <code>Top</code>. In <code>okay.rows</code> the row
       is a nested type, by position, as in okay-effects' Java kernel; <code>run</code> takes the empty row.</td>
       <td>Multi-shot: <code>k</code> is the captured part of the machine's stack.</td>
-      <td>Public. No release. Last commit 11 Nov 2026.</td></tr>
+      <td>Released, <a href="https://github.com/okay-effects/okay-java#install">0.1.0</a>. Last commit 13 Nov
+      2026.</td></tr>
     <tr id="okay-direct"><td class="name"><a href="https://github.com/okay-effects/okay-direct">okay-direct</a></td>
       <td>Java 25</td>
       <td>In direct style: <code>perform</code> is a method call. Three implementations: HotSpot's internal
@@ -703,7 +705,9 @@ def greet [In (Reader String) R] [In (Writer String) R] [In (State Nat) R] : Nat
       <td><a href="https://github.com/okay-effects/okay-java/blob/master/docs/guide.md">Guide</a>,
       <a href="https://github.com/okay-effects/okay-java/blob/master/docs/kernel.md">okay-java as an
       implementation of okay-kernel</a></td>
-      <td>From source</td></tr>
+      <td>Maven repository <code>https://okay-effects.github.io/okay-java/maven</code>,
+      <code>io.github.okay-effects:okay-java:0.1.0</code> (<a
+      href="https://github.com/okay-effects/okay-java#install">Install</a>)</td></tr>
     <tr><td class="name"><a href="https://github.com/okay-effects/okay-direct">okay-direct</a></td>
       <td><a href="https://github.com/okay-effects/okay-direct/blob/master/docs/getting-started.md">Getting
       started</a>,
