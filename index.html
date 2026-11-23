@@ -87,6 +87,7 @@
     <a href="#okay-chat">Okay! Chat</a>
     <a href="#games">Games</a>
     <a href="#learning">Learning</a>
+    <a href="#book">The book</a>
     <a href="#control">Control and audit</a>
     <a href="#languages">Languages</a>
     <a href="#platform">Platform</a>
@@ -496,6 +497,18 @@ audit(guarded(<span class="s">1000</span>))(payments).handleAudited(bank).handle
     <div class="card"><h3>Exceptions that can go back</h3><p>A handler gets the operation and the rest of the program. It can stop the program like an exception, resume it once with an answer, or resume it many times to search.</p></div>
   </div>
   <p class="note">The scientific foundation of what is implemented here: Ohad Kammar, Sam Lindley, Nicolas Oury, <a href="https://denotational.co.uk/publications/kammar-lindley-oury-handlers-in-action.pdf"><em>Handlers in Action</em></a>, ICFP 2013 (the 18th ACM SIGPLAN International Conference on Functional Programming, Boston). More: <a href="https://github.com/okay-effects/okay-simple/blob/master/docs/algebraic-effects.md">what algebraic effects are, and why</a>, with a reading list.</p>
+</div></section>
+
+<section id="book"><div class="wrap">
+  <h2>The book: Programs That Ask</h2>
+  <p class="sub">A program should not do things to the world; it should ask for them, and something else should decide what the answer is. A book in progress, written in the open, on effects as the architecture and the control of software: the idea stated exactly and tied to no language, built every way it can be built, held against everything else engineers use for the same problems, and carried from one function to whole systems and to AI agents. Every chapter drafted, about 105,000 words; every example runs.</p>
+  <p><a class="btn" href="https://github.com/okay-effects/effects-book" target="_blank" rel="noopener">Read the book</a></p>
+  <div class="grid3">
+    <div class="card"><h3>One idea, exactly</h3><p>Algebraic effects are operations as algebraic data together with the rest of the program as a delimited continuation. Every neighbour — exceptions, dependency injection, mocks, monads, tagless final, async/await and coroutines, <code>call/cc</code>, middleware — is that idea with one half missing, restricted, fused or encoded: the map of chapter 5.</p></div>
+    <div class="card"><h3>Built, not asserted</h3><p>The idea built once in forty lines, then every way it can be built, language by language: one program written sixteen times in thirteen languages, each printing the same lines; the laws asked of every rendering and proved in Lean. One script runs them all.</p></div>
+    <div class="card"><h3>Up to systems and agents</h3><p>Handlers that stop, resume, repeat and record; the data model as effects; screens, servers and stores; what is not answered does not happen — control and audit; stopping in the middle; agents; what it costs, and when not to use it.</p></div>
+  </div>
+  <p class="note">The text under CC BY 4.0, the code under Apache-2.0. Comments and corrections welcome as issues on the repository.</p>
 </div></section>
 
 <section id="start"><div class="wrap">
