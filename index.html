@@ -189,15 +189,21 @@
 
   <h3 class="app" id="okay-allowance" style="margin-top:48px">okay-allowance: an AI agent pays bills, its hands tied by a contract</h3>
   <p class="sub">An agent pays the owner's bills in a stablecoin by itself, from a prepaid policy on the chain. The owner tops the policy up; the agent pays only from it — only to payees the owner allowed, within limits per payment, per payee and per period, each invoice once, larger payments waiting for the owner's signature. The contract checks every payment, so whatever the agent decides, or anyone who stole its key, the most at stake is the balance on the policy. One agent on several chains at once: EVM chains and Cardano, the same rules. Test networks and test tokens only; not audited.</p>
-  <p><a class="btn" href="https://github.com/okay-effects/okay-allowance" target="_blank" rel="noopener">Read the code</a> <a class="btn" href="https://github.com/okay-effects/okay-allowance/blob/master/docs/mcp.md" target="_blank" rel="noopener">Connect it to Claude</a></p>
-  <h3>What it does</h3>
-  <ul class="tight">
-    <li>The payee comes from the owner's address book, never from the invoice: another address on an invoice is refused as invoice fraud.</li>
-    <li>A plan: the agent takes invoices in and proposes them; the owner approves, unchecks one for this month, edits or removes; the agent pays what is approved and due, one after another. Monthly bills come again by themselves.</li>
-    <li>Two MCP doors for any AI client: the agent's, which holds its keys and cannot approve its own proposals, and the owner's, which needs no key.</li>
-    <li>Every refusal in words with the contract's numbers: "Cloud hosting would get 215 this period; its cap is 200".</li>
-    <li>The same 120 random payments on the EVM contract, the Cardano script and a model of the rules: the same decision and reason each time.</li>
-  </ul>
+  <p><a class="btn" href="https://okay-effects.github.io/okay-allowance/" target="_blank" rel="noopener">Open the owner's page</a> <a class="btn" href="https://github.com/okay-effects/okay-allowance" target="_blank" rel="noopener">Read the code</a> <a class="btn" href="https://github.com/okay-effects/okay-allowance/blob/master/docs/mcp.md" target="_blank" rel="noopener">Connect it to Claude</a></p>
+  <div class="cp">
+    <a href="https://okay-effects.github.io/okay-allowance/" target="_blank" rel="noopener"><img src="okay-allowance.png" alt="The owner's page: the agent's plan of bills, each with its window, state and its own buttons — approve, uncheck, edit, remove, sign" loading="lazy"></a>
+    <div>
+      <h3>What it does</h3>
+      <ul class="tight">
+        <li>The owner's page, all in the browser: three chains set up in the page (Ethereum, Base, Cardano), the plan with a checkbox and buttons for each payment, the policies, the address book; the agent's side and the clock to play with. No wallet, no money.</li>
+        <li>The payee comes from the owner's address book, never from the invoice: another address on an invoice is refused as invoice fraud.</li>
+        <li>A plan: the agent takes invoices in and proposes them; the owner approves, unchecks one for this month, edits or removes; the agent pays what is approved and due, one after another. Monthly bills come again by themselves.</li>
+        <li>Two MCP doors for any AI client: the agent's, which holds its keys and cannot approve its own proposals, and the owner's, which needs no key.</li>
+        <li>Every refusal in words with the contract's numbers: "Cloud hosting would get 215 this period; its cap is 200".</li>
+        <li>The same 120 random payments on the EVM contract, the Cardano script and a model of the rules: the same decision and reason each time.</li>
+      </ul>
+    </div>
+  </div>
   <p class="sub" style="margin-top:16px">The contract is Solidity on EVM chains and a Scalus validator on Cardano (the invoices ever paid kept as a 32-byte Merkle Patricia Forestry root); everything else is Scala 3 on Scala.js, on <a href="https://github.com/okay-effects/okay-scala">okay-scala</a> and <a href="https://github.com/okay-effects/okay-mcp">okay-mcp</a>. The agent is a program on two effects, <code>Ledger</code> and <code>Journal</code>, whose handlers say where it runs: the EVM in JavaScript and Scalus's Cardano ledger emulator in the tests and the demo, a real node over RPC.</p>
 
   <h3 class="app" id="okay-migrant" style="margin-top:48px">okay-migrant: a legal assistant for an immigrant</h3>
